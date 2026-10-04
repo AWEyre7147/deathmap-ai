@@ -1,0 +1,16 @@
+{
+  "search": {"count": 3, "datasets": [
+    {"source": "geo", "id": "GSE-test-1", "name": "Search title", "description": "CRISPR with T cells", "rank": 1},
+    {"source": "biostudies", "id": "GSE-test-1", "name": "Separate repository record"},
+    {"source": "geo", "id": "GSE-test-2", "name": "Second record"}
+  ]},
+  "detail": {
+    "source": "geo", "id": "GSE-test-1", "name": "Detail title",
+    "description": "A longer source description; eligibility is unresolved.",
+    "crossReferences": {"pubmed": ["111", "222"], "doi": ["10.example/a", "10.example/b"], "ena": ["PRJ-test-1", "PRJ-test-2"]},
+    "publications": [{"id": "111", "title": "First publication"}, {"id": "222", "title": "Second publication"}],
+    "organisms": [{"name": "Reported organism", "accession": "9606"}],
+    "dates": {"publication": "2020-01-01"}, "keywords": ["CRISPR", "T cells"],
+    "unknown_native_field": {"keep": true}, "files": ["https://example.invalid/do-not-follow.fastq"]
+  }
+}

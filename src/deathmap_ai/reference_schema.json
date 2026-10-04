@@ -1,0 +1,921 @@
+{
+  "reference": "data/output-example/DeathMap-AI-v1-reference-output.xlsx",
+  "sha256": "c8e40370121c8ac2a5d7d4480f2dc8ac31c6153a46d473ac8682939762f025ca",
+  "tables": {
+    "Publications": {
+      "fields": [
+        {
+          "header": "publication_id",
+          "key": "publication_id",
+          "definition": "Internal key linking a row to a publication.",
+          "population_class": "generated",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "title_original",
+          "key": "title_original",
+          "definition": "Title as supplied by the original source.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "publication_type_reported",
+          "key": "publication_type_reported",
+          "definition": "Article category reported by the publisher or bibliographic index.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "journal_reported",
+          "key": "journal_reported",
+          "definition": "Journal title as reported.",
+          "population_class": "source_extracted",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "publication_year",
+          "key": "publication_year",
+          "definition": "Year of publication for the selected version of record.",
+          "population_class": "source_extracted",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "author_list_ reported",
+          "key": "author_list_reported",
+          "definition": "Author list in reported order; header contains an unintended space.",
+          "population_class": "source_extracted",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "pmid",
+          "key": "pmid",
+          "definition": "PubMed identifier.",
+          "population_class": "source_extracted",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "pmid_link",
+          "key": "pmid_link",
+          "definition": "Canonical PubMed record URL.",
+          "population_class": "source_extracted",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "pmcid",
+          "key": "pmcid",
+          "definition": "PubMed Central identifier, when available.",
+          "population_class": "source_extracted",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "pmc_link",
+          "key": "pmc_link",
+          "definition": "Canonical PubMed Central URL.",
+          "population_class": "source_extracted",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "doi",
+          "key": "doi",
+          "definition": "Digital Object Identifier.",
+          "population_class": "source_extracted",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "doi_link",
+          "key": "doi_link",
+          "definition": "Canonical DOI resolver URL.",
+          "population_class": "source_extracted",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "retrival_sources",
+          "key": "retrieval_sources",
+          "definition": "Sources used to locate or verify this publication; header is misspelled.",
+          "population_class": "source_extracted",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "evidence_status",
+          "key": "evidence_status",
+          "definition": "Status of evidence verification or support.",
+          "population_class": "extracted_or_inferred_candidate",
+          "review_requirement": "adjudicate"
+        },
+        {
+          "header": "publication_notes",
+          "key": "publication_notes",
+          "definition": "Publication-level information not represented by another field.",
+          "population_class": "reviewer_entered",
+          "review_requirement": "adjudicate"
+        }
+      ]
+    },
+    "Screen Groups": {
+      "fields": [
+        {
+          "header": "screen_group_id",
+          "key": "screen_group_id",
+          "definition": "Internal key linking a screen to its approved screen group.",
+          "population_class": "generated",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "publication_id",
+          "key": "publication_id",
+          "definition": "Internal key linking a row to a publication.",
+          "population_class": "generated",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "group_name_curated",
+          "key": "group_name_curated",
+          "definition": "Reviewer-approved short name for the screen group.",
+          "population_class": "reviewer_entered",
+          "review_requirement": "adjudicate"
+        },
+        {
+          "header": "group_name_reported",
+          "key": "group_name_reported",
+          "definition": "Author wording for the group, if any.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "group_stage_normalized",
+          "key": "group_stage_normalized",
+          "definition": "Controlled term for discovery, validation, or other stage.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "group_objective_curated",
+          "key": "group_objective_curated",
+          "definition": "Reviewer synthesis of the shared scientific question.",
+          "population_class": "reviewer_entered",
+          "review_requirement": "adjudicate"
+        },
+        {
+          "header": "perturbation_type_normalized",
+          "key": "perturbation_type_normalized",
+          "definition": "Controlled modality of genetic perturbation.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "library_name_reported",
+          "key": "library_name_reported",
+          "definition": "Library name given by the publication or source.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "library_scope_normalized",
+          "key": "library_scope_normalized",
+          "definition": "Controlled extent of the perturbation library.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "experimental_setting_normalized",
+          "key": "experimental_setting_normalized",
+          "definition": "Controlled term for in vitro, in vivo, ex vivo, or mixed setting.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "shared_design_summary",
+          "key": "shared_design_summary",
+          "definition": "Design features genuinely shared by all member screens.",
+          "population_class": "reviewer_entered",
+          "review_requirement": "adjudicate"
+        },
+        {
+          "header": "source_evidence_ids",
+          "key": "source_evidence_ids",
+          "definition": "Internal evidence identifiers supporting this row.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "curation_status",
+          "key": "curation_status",
+          "definition": "Reviewer workflow status for this row.",
+          "population_class": "extracted_or_inferred_candidate",
+          "review_requirement": "adjudicate"
+        },
+        {
+          "header": "group_notes",
+          "key": "group_notes",
+          "definition": "Caveats about group membership or design.",
+          "population_class": "reviewer_entered",
+          "review_requirement": "adjudicate"
+        }
+      ]
+    },
+    "Screens": {
+      "fields": [
+        {
+          "header": "screen_id",
+          "key": "screen_id",
+          "definition": "Stable internal key for one independently interpretable biological screen.",
+          "population_class": "generated",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "screen_group_id",
+          "key": "screen_group_id",
+          "definition": "Internal key linking a screen to its approved screen group.",
+          "population_class": "linked_after_group_review",
+          "review_requirement": "adjudicate"
+        },
+        {
+          "header": "publication_id",
+          "key": "publication_id",
+          "definition": "Internal key linking a row to a publication.",
+          "population_class": "generated",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "screen_name_curated",
+          "key": "screen_name_curated",
+          "definition": "Reviewer-approved short name for the atomic screen.",
+          "population_class": "reviewer_entered",
+          "review_requirement": "adjudicate"
+        },
+        {
+          "header": "screen_name_reported",
+          "key": "screen_name_reported",
+          "definition": "Author wording for this screen, if given.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "screen_category_normalized",
+          "key": "screen_category_normalized",
+          "definition": "Controlled biological selection category.",
+          "population_class": "extracted_or_inferred_candidate",
+          "review_requirement": "adjudicate"
+        },
+        {
+          "header": "experimental_setting_normalized",
+          "key": "experimental_setting_normalized",
+          "definition": "Physical setting in which the screen selection occurred.",
+          "population_class": "normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "screen_format_normalized",
+          "key": "screen_format_normalized",
+          "definition": "Controlled screen format, such as pooled or arrayed.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "perturbation_type_normalized",
+          "key": "perturbation_type_normalized",
+          "definition": "Controlled modality of genetic perturbation.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "methodology_reported",
+          "key": "methodology_reported",
+          "definition": "Author-described screening method.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "enzyme_reported",
+          "key": "enzyme_reported",
+          "definition": "Nuclease or effector reported for the perturbation.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "library_name_reported",
+          "key": "library_name_reported",
+          "definition": "Library name given by the publication or source.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "library_type_reported",
+          "key": "library_type_reported",
+          "definition": "Author-described library category.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "library_scope_normalized",
+          "key": "library_scope_normalized",
+          "definition": "Controlled extent of the perturbation library.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "library_gene_count_reported",
+          "key": "library_gene_count_reported",
+          "definition": "Number of targeted genes reported for this screen or shared library.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "library_guide_count_reported",
+          "key": "library_guide_count_reported",
+          "definition": "Number of guides reported for this screen or shared library.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "perturbed_population_reported",
+          "key": "perturbed_population_reported",
+          "definition": "Biological population in which perturbations were introduced.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "interacting_population_reported",
+          "key": "interacting_population_reported",
+          "definition": "Immune cell or host population interacting with the perturbed population.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "cell_line_reported",
+          "key": "cell_line_reported",
+          "definition": "Cell-line designation exactly as reported.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "organism_reported",
+          "key": "organism_reported",
+          "definition": "Organism as reported by the source.",
+          "population_class": "source_extracted",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "disease_context_normalized",
+          "key": "disease_context_normalized",
+          "definition": "Controlled disease or cancer context.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "immune_interaction_mode_normalized",
+          "key": "immune_interaction_mode_normalized",
+          "definition": "How the perturbed population encountered immune pressure.",
+          "population_class": "normalized_candidate",
+          "review_requirement": "adjudicate"
+        },
+        {
+          "header": "immune_cell_population_reported",
+          "key": "immune_cell_population_reported",
+          "definition": "Specific immune effector population explicitly named for the screen selection, or an explicit unresolved marker.",
+          "population_class": "extracted_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "immune_cell_population_normalized",
+          "key": "immune_cell_population_normalized",
+          "definition": "Controlled identity of the immune effector; retain unresolved when mixed host immunity cannot be assigned to one cell type.",
+          "population_class": "normalized_candidate",
+          "review_requirement": "adjudicate"
+        },
+        {
+          "header": "coculture_configuration_normalized",
+          "key": "coculture_configuration_normalized",
+          "definition": "Controlled physical interaction design, or in vivo context.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "effector_target_ratio_reported",
+          "key": "effector_target_ratio_reported",
+          "definition": "Author-reported effector-to-target ratio, preserving its direction.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "condition_name_reported",
+          "key": "condition_name_reported",
+          "definition": "Name of treatment or selection condition.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "condition_dosage_reported",
+          "key": "condition_dosage_reported",
+          "definition": "Reported treatment dose with units.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "duration_reported",
+          "key": "duration_reported",
+          "definition": "Reported exposure, selection, or harvest duration with units.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "comparator_reported",
+          "key": "comparator_reported",
+          "definition": "Reference condition used for the screen-level comparison.",
+          "population_class": "extracted_or_inferred_candidate",
+          "review_requirement": "adjudicate"
+        },
+        {
+          "header": "phenotype_original",
+          "key": "phenotype_original",
+          "definition": "Phenotype or selection outcome described by the authors.",
+          "population_class": "extracted_or_inferred_candidate",
+          "review_requirement": "adjudicate"
+        },
+        {
+          "header": "readout_reported",
+          "key": "readout_reported",
+          "definition": "Measured output used to interpret the screen.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "replicate_design_reported",
+          "key": "replicate_design_reported",
+          "definition": "Reported biological and technical replication.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "statistical_analysis_reported",
+          "key": "statistical_analysis_reported",
+          "definition": "Reported method or package used for screen analysis.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "source_evidence_ids",
+          "key": "source_evidence_ids",
+          "definition": "Internal evidence identifiers supporting this row.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "curation_status",
+          "key": "curation_status",
+          "definition": "Reviewer workflow status for this row.",
+          "population_class": "extracted_or_inferred_candidate",
+          "review_requirement": "adjudicate"
+        },
+        {
+          "header": "screen_notes",
+          "key": "screen_notes",
+          "definition": "Caveats specific to the atomic screen.",
+          "population_class": "reviewer_entered",
+          "review_requirement": "adjudicate"
+        },
+        {
+          "header": "immune_context_notes",
+          "key": "immune_context_notes",
+          "definition": "Caveats about direct versus indirect immune exposure and later follow-up evidence.",
+          "population_class": "reviewer_entered",
+          "review_requirement": "adjudicate"
+        }
+      ]
+    },
+    "Datasets": {
+      "fields": [
+        {
+          "header": "dataset_id",
+          "key": "dataset_id",
+          "definition": "Stable internal key for one repository object or designated data asset.",
+          "population_class": "generated",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "publication_id",
+          "key": "publication_id",
+          "definition": "Internal key linking a row to a publication.",
+          "population_class": "linked_after_attribution_review",
+          "review_requirement": "adjudicate"
+        },
+        {
+          "header": "repository_normalized",
+          "key": "repository_normalized",
+          "definition": "Controlled name of the hosting repository or source.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "accession_reported",
+          "key": "accession_reported",
+          "definition": "Native accession or stable identifier exactly as supplied.",
+          "population_class": "source_extracted",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "accession_level_normalized",
+          "key": "accession_level_normalized",
+          "definition": "Controlled hierarchy level of the native record.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "parent_accession_reported",
+          "key": "parent_accession_reported",
+          "definition": "Native accession of the parent record, if any.",
+          "population_class": "source_extracted",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "title_original",
+          "key": "title_original",
+          "definition": "Title as supplied by the original source.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "description_reported",
+          "key": "description_reported",
+          "definition": "Repository-native descriptive summary.",
+          "population_class": "source_extracted",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "dataset_type_normalized",
+          "key": "dataset_type_normalized",
+          "definition": "Controlled assay or data-content category.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "experiment_type_reported",
+          "key": "experiment_type_reported",
+          "definition": "Experiment type text supplied by the repository.",
+          "population_class": "source_extracted",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "organism_reported",
+          "key": "organism_reported",
+          "definition": "Organism as reported by the source.",
+          "population_class": "source_extracted",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "sample_count_reported",
+          "key": "sample_count_reported",
+          "definition": "Number of samples associated with the native object.",
+          "population_class": "source_extracted",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "bioproject_accession",
+          "key": "bioproject_accession",
+          "definition": "Linked NCBI BioProject accession.",
+          "population_class": "source_extracted",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "sra_study_accession",
+          "key": "sra_study_accession",
+          "definition": "Linked SRA Study accession.",
+          "population_class": "source_extracted",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "raw_data_available",
+          "key": "raw_data_available",
+          "definition": "Whether raw data can be accessed from this record or a linked source.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "processed_data_available",
+          "key": "processed_data_available",
+          "definition": "Whether processed data can be accessed.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "screen_data_available",
+          "key": "screen_data_available",
+          "definition": "Whether the object actually includes screen-level measurements or results.",
+          "population_class": "extracted_or_inferred_candidate",
+          "review_requirement": "adjudicate"
+        },
+        {
+          "header": "library_definition_available",
+          "key": "library_definition_available",
+          "definition": "Whether the perturbation library definition is available.",
+          "population_class": "extracted_or_inferred_candidate",
+          "review_requirement": "adjudicate"
+        },
+        {
+          "header": "availability_reported",
+          "key": "availability_reported",
+          "definition": "Access conditions reported by the source.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "dataset_url",
+          "key": "dataset_url",
+          "definition": "Canonical URL for the native data object.",
+          "population_class": "source_extracted",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "supporting_asset_urls_reported",
+          "key": "supporting_asset_urls_reported",
+          "definition": "Related file, code, supplement, or repository URLs.",
+          "population_class": "source_extracted",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "source_evidence_ids",
+          "key": "source_evidence_ids",
+          "definition": "Internal evidence identifiers supporting this row.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "attribution_status",
+          "key": "attribution_status",
+          "definition": "Publication-to-data attribution or relationship review state.",
+          "population_class": "extracted_or_inferred_candidate",
+          "review_requirement": "adjudicate"
+        },
+        {
+          "header": "dataset_notes",
+          "key": "dataset_notes",
+          "definition": "Caveats about content, level, attribution, or availability.",
+          "population_class": "reviewer_entered",
+          "review_requirement": "adjudicate"
+        }
+      ]
+    },
+    "Screen-Dataset Links": {
+      "fields": [
+        {
+          "header": "link_id",
+          "key": "link_id",
+          "definition": "Stable internal key for one screen–dataset relationship.",
+          "population_class": "generated",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "screen_id",
+          "key": "screen_id",
+          "definition": "Stable internal key for one independently interpretable biological screen.",
+          "population_class": "candidate_link",
+          "review_requirement": "adjudicate"
+        },
+        {
+          "header": "dataset_id",
+          "key": "dataset_id",
+          "definition": "Stable internal key for one repository object or designated data asset.",
+          "population_class": "candidate_link",
+          "review_requirement": "adjudicate"
+        },
+        {
+          "header": "relationship_type_normalized",
+          "key": "relationship_type_normalized",
+          "definition": "Controlled statement of what the dataset contains or contributes to the screen.",
+          "population_class": "extracted_or_inferred_candidate",
+          "review_requirement": "adjudicate"
+        },
+        {
+          "header": "evidence_basis",
+          "key": "evidence_basis",
+          "definition": "Short explanation of the evidence for the relationship.",
+          "population_class": "extracted_or_inferred_candidate",
+          "review_requirement": "adjudicate"
+        },
+        {
+          "header": "evidence_source_id",
+          "key": "evidence_source_id",
+          "definition": "Identifier of the supporting evidence record.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "evidence_locator",
+          "key": "evidence_locator",
+          "definition": "Page, figure, table, or repository field supporting the link.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "attribution_status",
+          "key": "attribution_status",
+          "definition": "Publication-to-data attribution or relationship review state.",
+          "population_class": "extracted_or_inferred_candidate",
+          "review_requirement": "adjudicate"
+        },
+        {
+          "header": "link_notes",
+          "key": "link_notes",
+          "definition": "Caveat about an uncertain or partial relationship.",
+          "population_class": "reviewer_entered",
+          "review_requirement": "adjudicate"
+        }
+      ]
+    },
+    "Sources & Evidence": {
+      "fields": [
+        {
+          "header": "evidence_id",
+          "key": "evidence_id",
+          "definition": "Stable internal key for one traceable source assertion.",
+          "population_class": "generated",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "source_type_normalized",
+          "key": "source_type_normalized",
+          "definition": "Controlled type of source, such as PDF, GEO, or supplement.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "source_name",
+          "key": "source_name",
+          "definition": "Human-readable name of the source.",
+          "population_class": "source_extracted",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "native_record_id",
+          "key": "native_record_id",
+          "definition": "Source-native identifier, accession, PMID, or filename.",
+          "population_class": "generated",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "retrieved_at",
+          "key": "retrieved_at",
+          "definition": "Date when this source was accessed.",
+          "population_class": "source_extracted",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "retrieval_method",
+          "key": "retrieval_method",
+          "definition": "Method used to access or extract the source.",
+          "population_class": "source_extracted",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "tool_or_package",
+          "key": "tool_or_package",
+          "definition": "Tool, package, API, or manual method used.",
+          "population_class": "source_extracted",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "source_locator",
+          "key": "source_locator",
+          "definition": "Specific page, section, table, field, or query location.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "evidence_text_summary",
+          "key": "evidence_text_summary",
+          "definition": "Brief paraphrase of what the source supports.",
+          "population_class": "extracted_or_inferred_candidate",
+          "review_requirement": "adjudicate"
+        },
+        {
+          "header": "supports_entity_type",
+          "key": "supports_entity_type",
+          "definition": "Entity type supported by this assertion.",
+          "population_class": "extracted_or_inferred_candidate",
+          "review_requirement": "adjudicate"
+        },
+        {
+          "header": "supports_entity_id",
+          "key": "supports_entity_id",
+          "definition": "Internal identifier of the supported entity.",
+          "population_class": "candidate_link",
+          "review_requirement": "adjudicate"
+        },
+        {
+          "header": "evidence_status",
+          "key": "evidence_status",
+          "definition": "Status of evidence verification or support.",
+          "population_class": "extracted_or_inferred_candidate",
+          "review_requirement": "adjudicate"
+        },
+        {
+          "header": "evidence_notes",
+          "key": "evidence_notes",
+          "definition": "Caveats about support, conflicts, or interpretation.",
+          "population_class": "reviewer_entered",
+          "review_requirement": "adjudicate"
+        }
+      ]
+    },
+    "Discovery Resources": {
+      "fields": [
+        {
+          "header": "resource_name",
+          "key": "resource_name",
+          "definition": "Name of the discovery resource or tool.",
+          "population_class": "source_extracted",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "resource_type",
+          "key": "resource_type",
+          "definition": "Category of repository, index, portal, package, or utility.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "programmatic_access",
+          "key": "programmatic_access",
+          "definition": "Whether programmatic retrieval is possible and verified.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "access_method",
+          "key": "access_method",
+          "definition": "API, package, download, interface, or local parsing method.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "authentication_required",
+          "key": "authentication_required",
+          "definition": "Whether credentials are required for the relevant operation.",
+          "population_class": "extracted_or_normalized_candidate",
+          "review_requirement": "verify"
+        },
+        {
+          "header": "queried_in_this_version",
+          "key": "queried_in_this_version",
+          "definition": "Whether this resource was used in the documented retrieval pass.",
+          "population_class": "source_extracted",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "publications_discovered",
+          "key": "publications_discovered",
+          "definition": "Count of distinct publication candidates found by this resource.",
+          "population_class": "source_extracted",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "datasets_discovered",
+          "key": "datasets_discovered",
+          "definition": "Count of distinct dataset candidates found by this resource.",
+          "population_class": "source_extracted",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "screens_discovered",
+          "key": "screens_discovered",
+          "definition": "Count of distinct screen candidates found by this resource.",
+          "population_class": "source_extracted",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "unique_contribution",
+          "key": "unique_contribution",
+          "definition": "Reviewer assessment of information uniquely contributed.",
+          "population_class": "reviewer_entered",
+          "review_requirement": "adjudicate"
+        },
+        {
+          "header": "limitations",
+          "key": "limitations",
+          "definition": "Observed coverage, schema, access, or interpretation limits.",
+          "population_class": "reviewer_entered",
+          "review_requirement": "adjudicate"
+        },
+        {
+          "header": "documentation_url",
+          "key": "documentation_url",
+          "definition": "Authoritative documentation URL for the resource.",
+          "population_class": "source_extracted",
+          "review_requirement": "exception_only"
+        },
+        {
+          "header": "discovery_resources_notes",
+          "key": "discovery_resources_notes"
+        }
+      ]
+    }
+  },
+  "definitions_reference": "data/output-example/DeathMap-AI-output-brainstorm-examples.xlsx",
+  "definitions_sha256": "5b152ac1164c93eb788eba22b8f19b905a00ecc233c7d7ae2453b66f39861018",
+  "notes_rules": [
+    "Distinct native datasets retain their own identity",
+    "Publication association is not screen attribution",
+    "Replicates do not create artificial screens",
+    "Curated fields require owner input"
+  ]
+}

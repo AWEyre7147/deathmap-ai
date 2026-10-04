@@ -1,0 +1,177 @@
+{
+  "selected": [
+    {
+      "SCREEN_ID": "16",
+      "SOURCE_ID": "26627737",
+      "reason": "First three direct hits, first unresolved, first context sibling in saved order, distinct publications"
+    },
+    {
+      "SCREEN_ID": "18",
+      "SOURCE_ID": "27159373",
+      "reason": "First three direct hits, first unresolved, first context sibling in saved order, distinct publications"
+    },
+    {
+      "SCREEN_ID": "65",
+      "SOURCE_ID": "28494239",
+      "reason": "First three direct hits, first unresolved, first context sibling in saved order, distinct publications"
+    },
+    {
+      "SCREEN_ID": "572",
+      "SOURCE_ID": "26673326",
+      "reason": "First three direct hits, first unresolved, first context sibling in saved order, distinct publications"
+    },
+    {
+      "SCREEN_ID": "1",
+      "SOURCE_ID": "24336569",
+      "reason": "First three direct hits, first unresolved, first context sibling in saved order, distinct publications"
+    }
+  ],
+  "started_at": "2026-10-04T01:58:56.130566+00:00",
+  "authority": "User A16 capability-test request, 2026-10-03; follows workbook review",
+  "max_requests": 5,
+  "retries": 0,
+  "timeout_seconds": 30,
+  "spacing_seconds": 1,
+  "max_bytes_per_response": 524288,
+  "workbook_sha256_before": "ea55889c4e1909a685d443f934b6138057acc12842765d593d6fd4dc9564d5cd",
+  "cached_screen_count": 2217,
+  "script_sha256": "83b76d384a2b89ce4d693d8adfb3eafa8772823d98195d88bb3e5a193fb10204",
+  "completed_at": "2026-10-04T02:01:18.599030+00:00",
+  "receipts": [
+    {
+      "SCREEN_ID": "16",
+      "url": "https://orcs.thebiogrid.org/Screen/16",
+      "status": "failed",
+      "requested_at": "2026-10-04T02:00:16.023559+00:00",
+      "previous_attempt": {
+        "SCREEN_ID": "16",
+        "url": "https://orcs.thebiogrid.org/Screen/16",
+        "status": "failed",
+        "requested_at": "2026-10-04T01:58:56.134578+00:00",
+        "http_status": 200,
+        "content_length": null,
+        "error": "Displayed screen name mismatch",
+        "read_bytes": 16384,
+        "elapsed_seconds": 0.532,
+        "completed_at": "2026-10-04T01:58:56.663828+00:00"
+      },
+      "http_status": 200,
+      "content_length": null,
+      "error": "Displayed screen name mismatch",
+      "read_bytes": 16384,
+      "elapsed_seconds": 0.219,
+      "completed_at": "2026-10-04T02:00:16.239222+00:00"
+    },
+    {
+      "SCREEN_ID": "18",
+      "url": "https://orcs.thebiogrid.org/Screen/18",
+      "status": "success",
+      "requested_at": "2026-10-04T02:01:13.658246+00:00",
+      "previous_attempt": {
+        "SCREEN_ID": "18",
+        "url": "https://orcs.thebiogrid.org/Screen/18",
+        "status": "failed",
+        "requested_at": "2026-10-04T01:58:57.666135+00:00",
+        "http_status": 200,
+        "content_length": null,
+        "error": "Displayed screen name mismatch",
+        "read_bytes": 16384,
+        "elapsed_seconds": 0.172,
+        "completed_at": "2026-10-04T01:58:57.844743+00:00"
+      },
+      "http_status": 200,
+      "content_length": null,
+      "metadata_bytes": 6141,
+      "metadata_sha256": "ae10eea9498b646b61a8f0bb540bc7a88e490fb3b02d1a79234705fb58141cf5",
+      "read_bytes": 16384,
+      "saved_scope": "Metadata excerpt only; scripts and score sections omitted",
+      "elapsed_seconds": 0.187,
+      "completed_at": "2026-10-04T02:01:13.844107+00:00"
+    },
+    {
+      "SCREEN_ID": "65",
+      "url": "https://orcs.thebiogrid.org/Screen/65",
+      "status": "success",
+      "requested_at": "2026-10-04T02:01:14.848286+00:00",
+      "previous_attempt": {
+        "SCREEN_ID": "65",
+        "url": "https://orcs.thebiogrid.org/Screen/65",
+        "status": "failed",
+        "requested_at": "2026-10-04T01:58:58.850507+00:00",
+        "http_status": 200,
+        "content_length": null,
+        "error": "Displayed screen name mismatch",
+        "read_bytes": 16384,
+        "elapsed_seconds": 0.188,
+        "completed_at": "2026-10-04T01:58:59.034285+00:00"
+      },
+      "http_status": 200,
+      "content_length": null,
+      "metadata_bytes": 6207,
+      "metadata_sha256": "dd50aaa6de9e65bd9d2d07b83c86abdaee5275afef50cac3d31457bf58c33d2f",
+      "read_bytes": 16384,
+      "saved_scope": "Metadata excerpt only; scripts and score sections omitted",
+      "elapsed_seconds": 0.188,
+      "completed_at": "2026-10-04T02:01:15.033005+00:00"
+    },
+    {
+      "SCREEN_ID": "572",
+      "url": "https://orcs.thebiogrid.org/Screen/572",
+      "status": "success",
+      "requested_at": "2026-10-04T02:01:16.034025+00:00",
+      "previous_attempt": {
+        "SCREEN_ID": "572",
+        "url": "https://orcs.thebiogrid.org/Screen/572",
+        "status": "failed",
+        "requested_at": "2026-10-04T01:59:00.035676+00:00",
+        "http_status": 200,
+        "content_length": null,
+        "error": "Displayed screen name mismatch",
+        "read_bytes": 16384,
+        "elapsed_seconds": 0.187,
+        "completed_at": "2026-10-04T01:59:00.218510+00:00"
+      },
+      "http_status": 200,
+      "content_length": null,
+      "metadata_bytes": 5621,
+      "metadata_sha256": "36cae3f1a0eae98f4c178c9053446e68c6d17c3078f80ccf3f1869f17253cfcc",
+      "read_bytes": 16384,
+      "saved_scope": "Metadata excerpt only; scripts and score sections omitted",
+      "elapsed_seconds": 0.343,
+      "completed_at": "2026-10-04T02:01:16.376198+00:00"
+    },
+    {
+      "SCREEN_ID": "1",
+      "url": "https://orcs.thebiogrid.org/Screen/1",
+      "status": "success",
+      "requested_at": "2026-10-04T02:01:17.383441+00:00",
+      "previous_attempt": {
+        "SCREEN_ID": "1",
+        "url": "https://orcs.thebiogrid.org/Screen/1",
+        "status": "failed",
+        "requested_at": "2026-10-04T01:59:01.220049+00:00",
+        "http_status": 200,
+        "content_length": null,
+        "error": "Displayed screen name mismatch",
+        "read_bytes": 16384,
+        "elapsed_seconds": 0.156,
+        "completed_at": "2026-10-04T01:59:01.373566+00:00"
+      },
+      "http_status": 200,
+      "content_length": null,
+      "metadata_bytes": 6458,
+      "metadata_sha256": "2ed9fc688f095b5d5eedfe0740d9203c5a40705a0697df32c69d079534730b7a",
+      "read_bytes": 16384,
+      "saved_scope": "Metadata excerpt only; scripts and score sections omitted",
+      "elapsed_seconds": 0.172,
+      "completed_at": "2026-10-04T02:01:17.545937+00:00"
+    }
+  ],
+  "workbook_sha256_after": "ea55889c4e1909a685d443f934b6138057acc12842765d593d6fd4dc9564d5cd",
+  "correction": "Initial HTTP 200 responses rejected by exact display-name formatting check; one corrective pass on same fixed sample, preserve failures and save excerpts before parsing; stop on first unresolved failure.",
+  "max_requests_including_correction": 10,
+  "status": "capability_test_complete_with_one_parse_failure",
+  "final_script_sha256": "5b6d3dc2cfa5eb7af357ad57b7366bad3871635fd92e1a26c6062caa571d836e",
+  "metrics_file": "metrics.json",
+  "no_further_requests": true
+}

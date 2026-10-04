@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Project data: keep guidance and intentionally curated small artifacts only
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+
+# Generated or temporary outputs
+tmp/
+.tmp/
+.discovery/
+results/generated/
+outputs/
+
+# Local external validation set; never a production input or release artifact
+data/icraft/
+
+# Obsidian per-window and cache state; shared vault settings may remain versioned
+docs/.obsidian/workspace.json
+docs/.obsidian/workspace-mobile.json
+docs/.obsidian/cache/
+
+# Logs
+*.log
+
+# Installed dependencies, local build products and duplicate documentation backup
+node_modules/
+*.egg-info/
+build/
+dist/
+/docs.zip
+/docs/.obsidian/
+
+# Session-only inspection and workbook authoring workspaces; retain decision logs
+/logs/orcs-publication-runtime/
+/logs/orcs-publication-inspection/
+/logs/evidence-model-v6/fixture*/
+/logs/evidence-model-v6/previews/
+/logs/evidence-model-v6/artifact-template.xlsx*
+/logs/*-current-path.txt
+/logs/*-preview.png
+
+# Large public reference snapshots remain local; receipts and selected evidence
+# are retained in the curated annotation artifacts for reproducibility.
+data/cellosaurus/orcs-annotations/raw/*.txt
+data/cellosaurus/orcs-annotations/raw/*.obo
+data/cellosaurus/orcs-annotations/raw/*.part

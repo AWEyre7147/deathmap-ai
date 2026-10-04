@@ -1,0 +1,558 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="BioGRID ORCS is an open database of CRISPR screens compiled through comprehensive curation efforts.">
+	<meta name="keywords" content="CRISPR, Database, CAS, CAS9, Screens, Chemogenomics, Timecourse, Homo sapiens, Human, Mus musculus, Mouse, Drosophila melanogaster, Fly, Cancer, Drug Exposure, Toxin Exposure, Virus Exposure, gene">
+	<meta name="author" content="Mike Tyers (TyersLab.com)">
+	<meta name="copyright" content="Copyright &copy; 2026, Mike Tyers (TyersLab.com), All Rights Reserved.">
+	<meta name="application-name" content="BioLIMS">
+	<meta name="robots" content="INDEX,FOLLOW">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<base href="https://orcs.thebiogrid.org/">
+	
+	<link rel="apple-touch-icon" sizes="57x57" href="https://orcs.thebiogrid.org/img/favicons/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="https://orcs.thebiogrid.org/img/favicons/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="https://orcs.thebiogrid.org/img/favicons/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="https://orcs.thebiogrid.org/img/favicons/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="https://orcs.thebiogrid.org/img/favicons/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="https://orcs.thebiogrid.org/img/favicons/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="https://orcs.thebiogrid.org/img/favicons/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="https://orcs.thebiogrid.org/img/favicons/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="https://orcs.thebiogrid.org/img/favicons/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="https://orcs.thebiogrid.org/img/favicons/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://orcs.thebiogrid.org/img/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="https://orcs.thebiogrid.org/img/favicons/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://orcs.thebiogrid.org/img/favicons/favicon-16x16.png">
+	<link rel="manifest" href="https://orcs.thebiogrid.org/img/favicons/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="https://orcs.thebiogrid.org/img/favicons/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	
+	<link rel='canonical' href='https://orcs.thebiogrid.org' />
+	
+	<!-- IMS Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="https://orcs.thebiogrid.org/css/font-awesome.min.css?2.0.18.1" />
+
+			<link rel="stylesheet" type="text/css" href="https://orcs.thebiogrid.org/css/bootstrap-multiselect.css?2.0.18.1" />
+			<link rel="stylesheet" type="text/css" href="https://orcs.thebiogrid.org/css/jquery.qtip.min.css?2.0.18.1" />
+		
+	<link rel="stylesheet" type="text/css" href="https://orcs.thebiogrid.org/css/styles.min.css?2.0.18.1" />
+	
+	<!-- IMS Favicon -->
+	<link rel="icon" type="image/png" href="https://orcs.thebiogrid.org/img/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="https://orcs.thebiogrid.org/img/favicon-16x16.png" sizes="16x16">
+	
+	<title>BioGRID CRISPR Screen Database | BioGRID ORCS</title>
+	
+	
+	
+</head>
+<body>
+<div id='main'>
+	<div id='mainContent'><div class='biolimsNav'>
+	<div class="navbar navbar-inverse navbar-static-top" role="navigation">
+<div class="container">
+<div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="sr-only">Toggle navigation</span><i class="fa fa-fw fa-lg fa-bars"></i></button>
+<a class="navbar-brand" title="BioGRID CRISPR Screen Database (BioGRID ORCS)" href="https://orcs.thebiogrid.org"> <strong>BioGRID ORCS</strong> <sup>2.0.18.1</sup></a></div>
+<div class="collapse navbar-collapse">
+<ul class="nav navbar-nav navbar-right">
+<li class='active '><a href='https://orcs.thebiogrid.org' title='Return to Homepage'>Home</a></li>
+<li class='dropdown'><a class='dropdown-toggle' data-toggle='dropdown' href='https://orcs.thebiogrid.org#' title='Browse Screens'>Browse <i class='fa fa-angle-down fa-sm'></i></a>
+<ul class='dropdown-menu'>
+<li class=''><a href='https://orcs.thebiogrid.org/Browse' title='Browse All Latest CRISPR Screens'>All Screens</a></li>
+<li class="divider"></li>
+<li class="dropdown-header">By Curation Project</li>
+<li class=''><a href='https://orcs.thebiogrid.org/Search?searchType=key&search=coronavirus|sars|mers|ace2&organism=all&pp=3' title='BioGRID Coronavirus CRISPR Screens'>Coronavirus Screens</a></li>
+<li class=''><a href='https://orcs.thebiogrid.org/Search?searchType=11&search=224%7C394%7C906%7C1052%7C675%7C335&organism=all&pp=4' title='BioGRID Fanconi Anemia CRISPR Screens'>Fanconi Anemia Screens</a></li>
+<li class=''><a href='https://orcs.thebiogrid.org/Search?searchType=11&search=590%7C148%7C349%7C1055&organism=all&pp=5' title='BioGRID Glioblastoma CRISPR Screens'>Glioblastoma Screens</a></li>
+</ul></li>
+<li class=''><a href='https://wiki.thebiogrid.org/doku.php/ORCS' title='Visit our Help Wiki'>Help Wiki</a></li>
+<li class=''><a href='https://wiki.thebiogrid.org/doku.php/ORCS:tools' title='BioGRID Tools'>Tools</a></li>
+<li class=''><a href='https://wiki.thebiogrid.org/doku.php/ORCS:statistics' title='Statistics'>Statistics</a></li>
+<li class=''><a href='https://downloads.thebiogrid.org/BioGRID-ORCS' title='Downloads'>Downloads</a></li>
+<li class='dropdown'><a class='dropdown-toggle' data-toggle='dropdown' href='#' title='About Us'>About Us <i class='fa fa-angle-down fa-sm'></i></a>
+<ul class='dropdown-menu'>
+<li class=''><a href='https://wiki.thebiogrid.org/doku.php/ORCS:aboutus' title='About this site'>About this Site</a></li>
+<li class=''><a href='https://wiki.thebiogrid.org/doku.php/ORCS:contribute' title='Contribute to the BioGRID'>How to Contribute</a></li>
+<li class=''><a href='https://wiki.thebiogrid.org/doku.php/ORCS:partners' title='BioGRID Partners'>BioGRID Partners</a></li>
+</ul></li>
+<li class='hidden-sm'><a href='https://twitter.com/biogrid' title='Follow Us on Twitter'><i class='fa fa-lg navbarIcon fa-twitter-square twitterIcon'></i></a></li>
+</ul>
+</div></div></div>
+</div><div class='container-fluid'>
+	<section class='row primaryHeader fluidHeader paddingTopSm paddingBotXs'>
+		<div class='container'>
+			<aside class='row'>
+				<div class='col-lg-6 col-md-6 col-sm-6 hidden-xs'>
+					<h2 class='marginBotSm'><strong>Welcome to the BioGRID Open Repository of CRISPR Screens (ORCS)</strong></h2>
+					<p>
+						BioGRID ORCS is an open repository of CRISPR screens compiled through comprehensive curation efforts. Our current index is version <strong><span class='standoutText'>2.0.18</span></strong> and searches <strong><span class='standoutText'>418</span></strong> publications and <strong><span class='standoutText'>94,219</span></strong> genes to return <strong><span class='standoutText'>2,217</span></strong> CRISPR screens from <strong><span class='standoutText'>5</span></strong> major model organism species, <strong><span class='standoutText'>825</span></strong> cell lines, and <strong><span class='standoutText'>145</span></strong> cell types. All screen data are freely provided through our search index and available via download in a wide variety of standardized formats.
+					</p>
+					<div class='col-lg-6 col-md-6 marginBotSm marginTopSm  hidden-sm'>
+						<a href='https://wiki.thebiogrid.org/doku.php/ORCS:statistics' title='BioGRID ORCS Statistics'><button type="button" class="btn btn-info btn-block">Screen Statistics <i class='fa fa-bar-chart-o fa-lg first'></i></button></a>
+					</div>
+					<div class='col-lg-6 col-md-6 marginBotSm marginTopSm'>
+						<a href='https://downloads.thebiogrid.org/BioGRID-ORCS' title='BioGRID Downloads'><button type="button" class="btn btn-info btn-block">Latest Downloads <i class='fa fa-sign-out fa-lg first'></i></button></a>
+					</div>
+				</div>
+				<div class='col-lg-6 col-md-6 col-sm-6 text-center clearfix'>
+					<div id='mainSearchBox'>
+						<form id='searchForm' action='https://orcs.thebiogrid.org/Search' method='GET'>
+							<div class='row'>
+								<div class='col-lg-8 col-md-8 col-sm-7 col-xs-6 text-left'>
+									<h3 class='visible-lg text-success'><i class='fa fa-search'></i> Search BioGRID ORCS:</h3>
+									<h3 class='visible-md text-success'><i class='fa fa-search'></i> Search ORCS:</h3>
+									<h3 class='visible-sm text-success'><i class='fa fa-search'></i> Search:</h3>
+									<h3 class='visible-xs text-success'><i class='fa fa-search'></i> Search:</h3>
+								</div>
+								<div class='col-lg-4 col-md-4 col-sm-5 col-xs-6'>
+                                    <select class='form-control input-sm' name='searchType' id='searchType' style='margin-top: 2px;'>
+                                        <optgroup label="Keyword Searches"></optgroup>
+																					<option value='key' >
+												By Screen
+											</option>
+                                        											<option value='id' >
+												By Protein/Gene
+											</option>
+                                        											<option value='pub' >
+												By Publication
+											</option>
+                                                                                <optgroup label="Ontology Term Searches"></optgroup>
+																					<option value='11' >
+												By Cell Type
+											</option>
+																					<option value='10' >
+												By Cell Line
+											</option>
+																					<option value='12' >
+												By Phenotype
+											</option>
+																					<option value='4' >
+												By Condition/Drug
+											</option>
+																					<option value='6' >
+												By Library Type
+											</option>
+																					<option value='9' >
+												By Enzyme
+											</option>
+																					<option value='5' >
+												By Library Name
+											</option>
+																					<option value='8' >
+												By Format
+											</option>
+																					<option value='15' >
+												By Analysis
+											</option>
+																					<option value='7' >
+												By Methodology
+											</option>
+																					<option value='3' >
+												By Experiment
+											</option>
+																			</select>
+								</div>
+							</div>
+							
+							<div id='searchWrap'>
+								<div class='col-lg-12 col-sm-12 col-md-12 col-xs-12 marginBotXs'>
+	<input type='text' class='form-control marginTopXs searchTextField' id='search' name='search' placeholder='Search by keywords such as autophagy, drug, toxin, virus etc' autofocus />
+</div>							</div>
+							
+							<div id='validationErrors' class='text-danger'></div>
+							
+							<div class='row marginTopXs marginBotXs'>
+								<div class='col-lg-8 col-md-10 col-sm-10 col-xs-10 col-md-offset-1 col-lg-offset-2 col-sm-offset-1 col-xs-offset-1'>
+									<select class='form-control' name="organism">
+										<option value="all">All Organisms</option>
+																					<option value='60711'>
+												Chlorocebus sabaeus 
+												                                                (African Green Monkey)
+											</option>
+																					<option value='7227'>
+												Drosophila melanogaster 
+												                                                (Fruit Fly)
+											</option>
+																					<option value='9606'>
+												Homo sapiens 
+												                                                (Human)
+											</option>
+																					<option value='10090'>
+												Mus musculus 
+												                                                (House Mouse)
+											</option>
+																					<option value='559292'>
+												Saccharomyces cerevisiae 
+																									S288C
+                                                                                                (Budding Yeast)
+											</option>
+																			 </select>
+								</div>
+							</div>
+							<div class='row'>
+								<div class='col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2'>
+									<button type="submit" class="btn btn-success btn-block">SEARCH <i class='fa fa-check fa-lg'></i></button>
+                                </div>
+                                <div class='col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2 marginTopSm'>
+									<a class="exampleLink" href="https://wiki.thebiogrid.org/doku.php/ORCS:example_searches" title="BioGRID ORCS Example Searches">example searches</a>
+								</div>
+							</div>
+						</form>
+						<div class='text-left clearfix row marginRightSm marginLeftSm marginTopSm marginBotSm hidden-xs searchLinks'>
+							<div class='col-lg-4 col-md-4 paddingNone text-center'>
+								<a href='http://wiki.thebiogrid.org/doku.php/ORCS:advanced_search' title='BioGRID ORCS Advanced Search'>
+									<i class='fa fa-location-arrow fa-1x'></i>
+									<div class='featureTitle'>Advanced Search</div>
+								</a>
+							</div>
+							<div class='col-lg-4 col-md-4 paddingNone text-center'>
+								<a href='http://wiki.thebiogrid.org/doku.php/ORCS:search_tips' title='BioGRID ORCS Search Tips'>
+									<i class='fa fa-flag fa-1x'></i></span>
+									<div class='featureTitle'>Key Search Tips</div>
+								</a>
+							</div>
+							<div class='col-lg-4 col-md-4 paddingNone text-center'>
+								<a href='http://wiki.thebiogrid.org/doku.php/ORCS:featured_screens' title='BioGRID ORCS Featured Screens'>
+									<i class='fa fa-star fa-1x'></i></span>
+									<div class='featureTitle'>Featured Screens</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</aside>
+		</div>
+	</section>
+</div>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "url": "https://orcs.thebiogrid.org",
+  "name": "BioGRID CRISPR Screen Database",
+  "alternateName": "BioGRID ORCS",
+  "potentialAction": {
+	"@type": "SearchAction",
+	"target": "https://orcs.thebiogrid.org/Search?search={search_term_string}&organismID=all&searchType=id",
+	"query-input": {
+		 "@type" : "PropertyValueSpecification",
+		 "valueRequired" : true,
+		 "valueMaxlength" : 100,
+		"valueName" : "search_term_string" 
+	 }
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "url": "https://orcs.thebiogrid.org",
+  "logo": "https://orcs.thebiogrid.org/img/biogridorcs_logo.png",
+  "sameAs": [ "http://twitter.com/biogrid",
+	"http://www.youtube.com/user/TheBioGRID",
+	"http://github.com/BioGRID",
+	"http://en.wikipedia.org/wiki/BioGRID" ]
+}
+</script>
+
+<div class='container-fluid defaultContent'>
+	<div class='container'>
+		<section class='row'>
+			<div class='col-lg-8 col-md-7 col-sm-12 col-xs-12 paddingRightXs'>
+                <h4 class='text-left marginTopXs' style='margin-left: 3px;'>Related Resources <i class='fa fa-sitemap'></i></h4>
+                <div class='interestBlock clearfix'>
+                                            <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left marginTopXs interestWrap'>
+                            <div class='interestBox'>
+                                <div>
+                                    <div class='pull-right'>
+                                        <a href='https://thebiogrid.org' title='BioGRID - The Biological General Repository for Interaction Datasets'><img src='https://orcs.thebiogrid.org/img/project_images/biogrid.jpg' class='img-circle' alt='BioGRID - The Biological General Repository for Interaction Datasets' /></a>
+                                    </div>
+                                    <h4 class='marginBotXs'><a href='https://thebiogrid.org' title='BioGRID - The Biological General Repository for Interaction Datasets'>BioGRID - The Biological General Repository for Interaction Datasets</a></h4>
+                                </div>
+                                <p>The Biological General Repository for Interaction Datasets (BioGRID) is an interaction, post-translational modification, and chemical association repository with data compiled through comprehensive curation efforts</p>
+                                <div><a href='https://thebiogrid.org' title='BioGRID - The Biological General Repository for Interaction Datasets'>Learn more <i class='fa fa-chevron-circle-right first'></i></a></div>
+                            </div>
+                        </div>
+                                            <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left marginTopXs interestWrap'>
+                            <div class='interestBox'>
+                                <div>
+                                    <div class='pull-right'>
+                                        <a href='https://wiki.thebiogrid.org/doku.php/orcs:webservice' title='The BioGRID ORCS REST Webservice'><img src='https://orcs.thebiogrid.org/img/project_images/biogridrest.jpg' class='img-circle' alt='The BioGRID ORCS REST Webservice' /></a>
+                                    </div>
+                                    <h4 class='marginBotXs'><a href='https://wiki.thebiogrid.org/doku.php/orcs:webservice' title='The BioGRID ORCS REST Webservice'>The BioGRID ORCS REST Webservice</a></h4>
+                                </div>
+                                <p>CRISPR Screen data in BioGRID ORCS can be accessed via the BioGRID ORCS REST web service. Screens in various formats can be fetched from the BioGRID ORCS REST Service over HTTPS, programmatically or in a browser.</p>
+                                <div><a href='https://wiki.thebiogrid.org/doku.php/orcs:webservice' title='The BioGRID ORCS REST Webservice'>Learn more <i class='fa fa-chevron-circle-right first'></i></a></div>
+                            </div>
+                        </div>
+                                            <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left marginTopXs interestWrap'>
+                            <div class='interestBox'>
+                                <div>
+                                    <div class='pull-right'>
+                                        <a href='https://thebiogrid.org/projectslist.php' title='BioGRID Themed Curation Projects'><img src='https://orcs.thebiogrid.org/img/project_images/projects.jpg' class='img-circle' alt='BioGRID Themed Curation Projects' /></a>
+                                    </div>
+                                    <h4 class='marginBotXs'><a href='https://thebiogrid.org/projectslist.php' title='BioGRID Themed Curation Projects'>BioGRID Themed Curation Projects</a></h4>
+                                </div>
+                                <p>BioGRID themed curation projects focus on specific biological processes with disease relevance. Core genes/proteins central to the process are assembled with expert input and relevant publications curated for biological interactions. Themed curation projects are updated monthly and additional projects are generated on a regular basis.</p>
+                                <div><a href='https://thebiogrid.org/projectslist.php' title='BioGRID Themed Curation Projects'>Learn more <i class='fa fa-chevron-circle-right first'></i></a></div>
+                            </div>
+                        </div>
+                                    </div>
+			</div>
+			<div class='col-lg-4 col-md-5 col-sm-12 col-xs-12 paddingRightNone paddingLeftNone'>
+				<h4 class='text-center marginTopXs marginBotXs' style='margin-left: 3px;'>Partners <i class='fa fa-star'></i></h4>
+				<div class='clearfix'>
+											<div class='partnerWrap col-lg-6 col-md-6 col-sm-4 col-xs-4'>
+							<div class='partnerBox'>
+								<a href='https://www.nih.gov/' target='_BLANK' title='National Institutes of Health'><img class='img-responsive' src='https://orcs.thebiogrid.org/img/partner-logos/nih.png' alt='National Institutes of Health' /></a>
+							</div>
+						</div>
+											<div class='partnerWrap col-lg-6 col-md-6 col-sm-4 col-xs-4'>
+							<div class='partnerBox'>
+								<a href='https://orip.nih.gov/' target='_BLANK' title='National Institutes of Health - Office of Research Infrastructure Programs'><img class='img-responsive' src='https://orcs.thebiogrid.org/img/partner-logos/ORIP.png' alt='National Institutes of Health - Office of Research Infrastructure Programs' /></a>
+							</div>
+						</div>
+											<div class='partnerWrap col-lg-6 col-md-6 col-sm-4 col-xs-4'>
+							<div class='partnerBox'>
+								<a href='http://www.cihr-irsc.gc.ca/e/193.html' target='_BLANK' title='Canadian Institutes of Health Research'><img class='img-responsive' src='https://orcs.thebiogrid.org/img/partner-logos/cihr.png' alt='Canadian Institutes of Health Research' /></a>
+							</div>
+						</div>
+											<div class='partnerWrap col-lg-6 col-md-6 col-sm-4 col-xs-4'>
+							<div class='partnerBox'>
+								<a href='https://www.sickkids.ca/en/research/about-research-institute/' target='_BLANK' title='The Hospital for Sick Children (SickKids)'><img class='img-responsive' src='https://orcs.thebiogrid.org/img/partner-logos/sickkids.png' alt='The Hospital for Sick Children (SickKids)' /></a>
+							</div>
+						</div>
+											<div class='partnerWrap col-lg-6 col-md-6 col-sm-4 col-xs-4'>
+							<div class='partnerBox'>
+								<a href='http://www.princeton.edu/' target='_BLANK' title='Princeton University'><img class='img-responsive' src='https://orcs.thebiogrid.org/img/partner-logos/princeton.png' alt='Princeton University' /></a>
+							</div>
+						</div>
+									</div>
+				<div class='text-center'><a href='https://wiki.thebiogrid.org/doku.php/ORCS:partners' title='BioGRID ORCS Partners'>More Partners <i class='fa fa-chevron-circle-right first'></i></a></div>
+			</div>
+            <div class='col-xs-12 paddingRightXs'>
+                <hr class='marginBotSm marginTop' />
+                <div class='marginBotSm'>
+                    <h4 style='margin-left: 2px;'>Latest News <i class='fa fa-newspaper-o'></i></h4>
+                                            <div class='newsPost'>
+                            <i class='fa fa-tags fa-fw pull-right fa-2x'></i>
+                            <div class='newsPostTitle'>
+                                <a href='https://orcs.thebiogrid.org/News/346' title='BioGRID Version 5.0.262 Released'>
+                                    BioGRID Version 5.0.262 Released
+                                </a>
+                            </div>
+                            <div class='newsPostBody'><p>The <strong><a title="Search the BioGRID" href="http://thebiogrid.org">BioGRID</a></strong>'s curated set of data have been updated to include interactions, chemical associations, and post-translational modifications (PTM) from <strong>88,684</strong> publications. These additions bring our total number of non-redundant interactions to <strong>2,364,201</strong>, raw interactions to <strong>3,035,956</strong>, non-redundant chemical associations to <strong>14,024</strong>, raw chemical associations to <strong>31,540</strong>, Non-Redundant PTM Sites to <strong>563,757</strong> and Un-Assigned PTMs to <strong>57,396</strong>. 
+
+<br /><br />
+
+New curated data are added in curation updates on a monthly basis. For a more comprehensive breakdown of our numbers, check out our latest <strong><a title="BioGRID Protein-Protein Interaction Statistics" href="http://wiki.thebiogrid.org/doku.php/statistics">statistics</a></strong>. To download these data, visit our <strong><a title="Download BioGRID Interactions" href="https://downloads.thebiogrid.org/BioGRID">download page</a></strong> or utilize our <strong><a title="BioGRID Web Service" href="https://wiki.thebiogrid.org/doku.php/biogridrest">web service</a></strong>.</p></div>
+                                                            <div class='newsPostImage'><img class='img-responsive' title='BioGRID Version 5.0.262 Released' src='https://thebiogrid.org/images/twitter/biogrid_database_update.png' /></div>
+                                                        <div class='newsPostDetails'>
+                                <i class='fa fa-fw fa-calendar'></i>
+                                Posted: October 1st, 2026 - 12:06 AM
+                            </div>
+                        </div>
+                                            <div class='newsPost'>
+                            <i class='fa fa-tags fa-fw pull-right fa-2x'></i>
+                            <div class='newsPostTitle'>
+                                <a href='https://orcs.thebiogrid.org/News/345' title='BioGRID Version 5.0.261 Released'>
+                                    BioGRID Version 5.0.261 Released
+                                </a>
+                            </div>
+                            <div class='newsPostBody'><p>The <strong><a title="Search the BioGRID" href="http://thebiogrid.org">BioGRID</a></strong>'s curated set of data have been updated to include interactions, chemical associations, and post-translational modifications (PTM) from <strong>88,684</strong> publications. These additions bring our total number of non-redundant interactions to <strong>2,352,894</strong>, raw interactions to <strong>3,021,750</strong>, non-redundant chemical associations to <strong>14,024</strong>, raw chemical associations to <strong>31,540</strong>, Non-Redundant PTM Sites to <strong>563,757</strong> and Un-Assigned PTMs to <strong>57,396</strong>. 
+
+<br /><br />
+
+New curated data are added in curation updates on a monthly basis. For a more comprehensive breakdown of our numbers, check out our latest <strong><a title="BioGRID Protein-Protein Interaction Statistics" href="http://wiki.thebiogrid.org/doku.php/statistics">statistics</a></strong>. To download these data, visit our <strong><a title="Download BioGRID Interactions" href="https://downloads.thebiogrid.org/BioGRID">download page</a></strong> or utilize our <strong><a title="BioGRID Web Service" href="https://wiki.thebiogrid.org/doku.php/biogridrest">web service</a></strong>.</p></div>
+                                                            <div class='newsPostImage'><img class='img-responsive' title='BioGRID Version 5.0.261 Released' src='https://thebiogrid.org/images/twitter/biogrid_database_update.png' /></div>
+                                                        <div class='newsPostDetails'>
+                                <i class='fa fa-fw fa-calendar'></i>
+                                Posted: September 1st, 2026 - 02:09 AM
+                            </div>
+                        </div>
+                                            <div class='newsPost'>
+                            <i class='fa fa-tags fa-fw pull-right fa-2x'></i>
+                            <div class='newsPostTitle'>
+                                <a href='https://orcs.thebiogrid.org/News/344' title='BioGRID Version 5.0.260 Released'>
+                                    BioGRID Version 5.0.260 Released
+                                </a>
+                            </div>
+                            <div class='newsPostBody'><p>The <strong><a title="Search the BioGRID" href="http://thebiogrid.org">BioGRID</a></strong>'s curated set of data have been updated to include interactions, chemical associations, and post-translational modifications (PTM) from <strong>88,591</strong> publications. These additions bring our total number of non-redundant interactions to <strong>2,335,350</strong>, raw interactions to <strong>3,001,894</strong>, non-redundant chemical associations to <strong>14,024</strong>, raw chemical associations to <strong>31,540</strong>, Non-Redundant PTM Sites to <strong>563,757</strong> and Un-Assigned PTMs to <strong>57,396</strong>. 
+
+<br /><br />
+
+New curated data are added in curation updates on a monthly basis. For a more comprehensive breakdown of our numbers, check out our latest <strong><a title="BioGRID Protein-Protein Interaction Statistics" href="http://wiki.thebiogrid.org/doku.php/statistics">statistics</a></strong>. To download these data, visit our <strong><a title="Download BioGRID Interactions" href="https://downloads.thebiogrid.org/BioGRID">download page</a></strong> or utilize our <strong><a title="BioGRID Web Service" href="https://wiki.thebiogrid.org/doku.php/biogridrest">web service</a></strong>.</p></div>
+                                                            <div class='newsPostImage'><img class='img-responsive' title='BioGRID Version 5.0.260 Released' src='https://thebiogrid.org/images/twitter/biogrid_database_update.png' /></div>
+                                                        <div class='newsPostDetails'>
+                                <i class='fa fa-fw fa-calendar'></i>
+                                Posted: August 1st, 2026 - 12:16 AM
+                            </div>
+                        </div>
+                                            <div class='newsPost'>
+                            <i class='fa fa-tags fa-fw pull-right fa-2x'></i>
+                            <div class='newsPostTitle'>
+                                <a href='https://orcs.thebiogrid.org/News/343' title='BioGRID Version 5.0.259 Released'>
+                                    BioGRID Version 5.0.259 Released
+                                </a>
+                            </div>
+                            <div class='newsPostBody'><p>The <strong><a title="Search the BioGRID" href="http://thebiogrid.org">BioGRID</a></strong>'s curated set of data have been updated to include interactions, chemical associations, and post-translational modifications (PTM) from <strong>88,471</strong> publications. These additions bring our total number of non-redundant interactions to <strong>2,331,024</strong>, raw interactions to <strong>2,996,529</strong>, non-redundant chemical associations to <strong>14,024</strong>, raw chemical associations to <strong>31,540</strong>, Non-Redundant PTM Sites to <strong>563,757</strong> and Un-Assigned PTMs to <strong>57,396</strong>. 
+
+<br /><br />
+
+New curated data are added in curation updates on a monthly basis. For a more comprehensive breakdown of our numbers, check out our latest <strong><a title="BioGRID Protein-Protein Interaction Statistics" href="http://wiki.thebiogrid.org/doku.php/statistics">statistics</a></strong>. To download these data, visit our <strong><a title="Download BioGRID Interactions" href="https://downloads.thebiogrid.org/BioGRID">download page</a></strong> or utilize our <strong><a title="BioGRID Web Service" href="https://wiki.thebiogrid.org/doku.php/biogridrest">web service</a></strong>.</p></div>
+                                                            <div class='newsPostImage'><img class='img-responsive' title='BioGRID Version 5.0.259 Released' src='https://thebiogrid.org/images/twitter/biogrid_database_update.png' /></div>
+                                                        <div class='newsPostDetails'>
+                                <i class='fa fa-fw fa-calendar'></i>
+                                Posted: July 1st, 2026 - 12:06 AM
+                            </div>
+                        </div>
+                                            <div class='newsPost'>
+                            <i class='fa fa-tags fa-fw pull-right fa-2x'></i>
+                            <div class='newsPostTitle'>
+                                <a href='https://orcs.thebiogrid.org/News/342' title='BioGRID Version 5.0.258 Released'>
+                                    BioGRID Version 5.0.258 Released
+                                </a>
+                            </div>
+                            <div class='newsPostBody'><p>The <strong><a title="Search the BioGRID" href="http://thebiogrid.org">BioGRID</a></strong>'s curated set of data have been updated to include interactions, chemical associations, and post-translational modifications (PTM) from <strong>88,276</strong> publications. These additions bring our total number of non-redundant interactions to <strong>2,321,348</strong>, raw interactions to <strong>2,985,900</strong>, non-redundant chemical associations to <strong>14,024</strong>, raw chemical associations to <strong>31,540</strong>, Non-Redundant PTM Sites to <strong>563,757</strong> and Un-Assigned PTMs to <strong>57,396</strong>. 
+
+<br /><br />
+
+New curated data are added in curation updates on a monthly basis. For a more comprehensive breakdown of our numbers, check out our latest <strong><a title="BioGRID Protein-Protein Interaction Statistics" href="http://wiki.thebiogrid.org/doku.php/statistics">statistics</a></strong>. To download these data, visit our <strong><a title="Download BioGRID Interactions" href="https://downloads.thebiogrid.org/BioGRID">download page</a></strong> or utilize our <strong><a title="BioGRID Web Service" href="https://wiki.thebiogrid.org/doku.php/biogridrest">web service</a></strong>.</p></div>
+                                                            <div class='newsPostImage'><img class='img-responsive' title='BioGRID Version 5.0.258 Released' src='https://thebiogrid.org/images/twitter/biogrid_database_update.png' /></div>
+                                                        <div class='newsPostDetails'>
+                                <i class='fa fa-fw fa-calendar'></i>
+                                Posted: June 1st, 2026 - 02:05 AM
+                            </div>
+                        </div>
+                                            <div class='newsPost'>
+                            <i class='fa fa-tags fa-fw pull-right fa-2x'></i>
+                            <div class='newsPostTitle'>
+                                <a href='https://orcs.thebiogrid.org/News/341' title='BioGRID Version 5.0.257 Released'>
+                                    BioGRID Version 5.0.257 Released
+                                </a>
+                            </div>
+                            <div class='newsPostBody'><p>The <strong><a title="Search the BioGRID" href="http://thebiogrid.org">BioGRID</a></strong>'s curated set of data have been updated to include interactions, chemical associations, and post-translational modifications (PTM) from <strong>88,182</strong> publications. These additions bring our total number of non-redundant interactions to <strong>2,289,632</strong>, raw interactions to <strong>2,947,386</strong>, non-redundant chemical associations to <strong>14,024</strong>, raw chemical associations to <strong>31,540</strong>, Non-Redundant PTM Sites to <strong>563,757</strong> and Un-Assigned PTMs to <strong>57,396</strong>. 
+
+<br /><br />
+
+New curated data are added in curation updates on a monthly basis. For a more comprehensive breakdown of our numbers, check out our latest <strong><a title="BioGRID Protein-Protein Interaction Statistics" href="http://wiki.thebiogrid.org/doku.php/statistics">statistics</a></strong>. To download these data, visit our <strong><a title="Download BioGRID Interactions" href="https://downloads.thebiogrid.org/BioGRID">download page</a></strong> or utilize our <strong><a title="BioGRID Web Service" href="https://wiki.thebiogrid.org/doku.php/biogridrest">web service</a></strong>.</p></div>
+                                                            <div class='newsPostImage'><img class='img-responsive' title='BioGRID Version 5.0.257 Released' src='https://thebiogrid.org/images/twitter/biogrid_database_update.png' /></div>
+                                                        <div class='newsPostDetails'>
+                                <i class='fa fa-fw fa-calendar'></i>
+                                Posted: May 1st, 2026 - 01:36 AM
+                            </div>
+                        </div>
+                                            <div class='newsPost'>
+                            <i class='fa fa-tags fa-fw pull-right fa-2x'></i>
+                            <div class='newsPostTitle'>
+                                <a href='https://orcs.thebiogrid.org/News/340' title='BioGRID Version 5.0.256 Released'>
+                                    BioGRID Version 5.0.256 Released
+                                </a>
+                            </div>
+                            <div class='newsPostBody'><p>The <strong><a title="Search the BioGRID" href="http://thebiogrid.org">BioGRID</a></strong>'s curated set of data have been updated to include interactions, chemical associations, and post-translational modifications (PTM) from <strong>88,077</strong> publications. These additions bring our total number of non-redundant interactions to <strong>2,286,551</strong>, raw interactions to <strong>2,943,480</strong>, non-redundant chemical associations to <strong>14,024</strong>, raw chemical associations to <strong>31,540</strong>, Non-Redundant PTM Sites to <strong>563,757</strong> and Un-Assigned PTMs to <strong>57,396</strong>. 
+
+<br /><br />
+
+New curated data are added in curation updates on a monthly basis. For a more comprehensive breakdown of our numbers, check out our latest <strong><a title="BioGRID Protein-Protein Interaction Statistics" href="http://wiki.thebiogrid.org/doku.php/statistics">statistics</a></strong>. To download these data, visit our <strong><a title="Download BioGRID Interactions" href="https://downloads.thebiogrid.org/BioGRID">download page</a></strong> or utilize our <strong><a title="BioGRID Web Service" href="https://wiki.thebiogrid.org/doku.php/biogridrest">web service</a></strong>.</p></div>
+                                                            <div class='newsPostImage'><img class='img-responsive' title='BioGRID Version 5.0.256 Released' src='https://thebiogrid.org/images/twitter/biogrid_database_update.png' /></div>
+                                                        <div class='newsPostDetails'>
+                                <i class='fa fa-fw fa-calendar'></i>
+                                Posted: April 1st, 2026 - 01:16 AM
+                            </div>
+                        </div>
+                                            <div class='newsPost'>
+                            <i class='fa fa-tags fa-fw pull-right fa-2x'></i>
+                            <div class='newsPostTitle'>
+                                <a href='https://orcs.thebiogrid.org/News/339' title='BioGRID Version 5.0.255 Released'>
+                                    BioGRID Version 5.0.255 Released
+                                </a>
+                            </div>
+                            <div class='newsPostBody'><p>The <strong><a title="Search the BioGRID" href="http://thebiogrid.org">BioGRID</a></strong>'s curated set of data have been updated to include interactions, chemical associations, and post-translational modifications (PTM) from <strong>87,975</strong> publications. These additions bring our total number of non-redundant interactions to <strong>2,278,277</strong>, raw interactions to <strong>2,933,176</strong>, non-redundant chemical associations to <strong>14,024</strong>, raw chemical associations to <strong>31,540</strong>, Non-Redundant PTM Sites to <strong>563,757</strong> and Un-Assigned PTMs to <strong>57,396</strong>. 
+
+<br /><br />
+
+New curated data are added in curation updates on a monthly basis. For a more comprehensive breakdown of our numbers, check out our latest <strong><a title="BioGRID Protein-Protein Interaction Statistics" href="http://wiki.thebiogrid.org/doku.php/statistics">statistics</a></strong>. To download these data, visit our <strong><a title="Download BioGRID Interactions" href="https://downloads.thebiogrid.org/BioGRID">download page</a></strong> or utilize our <strong><a title="BioGRID Web Service" href="https://wiki.thebiogrid.org/doku.php/biogridrest">web service</a></strong>.</p></div>
+                                                            <div class='newsPostImage'><img class='img-responsive' title='BioGRID Version 5.0.255 Released' src='https://thebiogrid.org/images/twitter/biogrid_database_update.png' /></div>
+                                                        <div class='newsPostDetails'>
+                                <i class='fa fa-fw fa-calendar'></i>
+                                Posted: March 1st, 2026 - 12:09 AM
+                            </div>
+                        </div>
+                                            <div class='newsPost'>
+                            <i class='fa fa-tags fa-fw pull-right fa-2x'></i>
+                            <div class='newsPostTitle'>
+                                <a href='https://orcs.thebiogrid.org/News/338' title='BioGRID Version 5.0.254 Released'>
+                                    BioGRID Version 5.0.254 Released
+                                </a>
+                            </div>
+                            <div class='newsPostBody'><p>The <strong><a title="Search the BioGRID" href="http://thebiogrid.org">BioGRID</a></strong>'s curated set of data have been updated to include interactions, chemical associations, and post-translational modifications (PTM) from <strong>87,794</strong> publications. These additions bring our total number of non-redundant interactions to <strong>2,267,832</strong>, raw interactions to <strong>2,920,886</strong>, non-redundant chemical associations to <strong>14,024</strong>, raw chemical associations to <strong>31,540</strong>, Non-Redundant PTM Sites to <strong>563,757</strong> and Un-Assigned PTMs to <strong>57,396</strong>. 
+
+<br /><br />
+
+New curated data are added in curation updates on a monthly basis. For a more comprehensive breakdown of our numbers, check out our latest <strong><a title="BioGRID Protein-Protein Interaction Statistics" href="http://wiki.thebiogrid.org/doku.php/statistics">statistics</a></strong>. To download these data, visit our <strong><a title="Download BioGRID Interactions" href="https://downloads.thebiogrid.org/BioGRID">download page</a></strong> or utilize our <strong><a title="BioGRID Web Service" href="https://wiki.thebiogrid.org/doku.php/biogridrest">web service</a></strong>.</p></div>
+                                                            <div class='newsPostImage'><img class='img-responsive' title='BioGRID Version 5.0.254 Released' src='https://thebiogrid.org/images/twitter/biogrid_database_update.png' /></div>
+                                                        <div class='newsPostDetails'>
+                                <i class='fa fa-fw fa-calendar'></i>
+                                Posted: February 1st, 2026 - 12:18 AM
+                            </div>
+                        </div>
+                                    </div>
+            </div>
+		</section>
+	</div>
+</div>
+</div> <!-- Main Content -->
+
+<footer id="footer" class="hidden-print secondaryContent container-fluid">
+	<section class="container footerText">
+		<div class='pull-right'>
+			A <a href='https://thebiogrid.org' title='The BioGRID'>BioGRID</a> Project
+		</div>
+		Copyright &copy; 2026 | <a href='http://www.tyerslab.com' target='_BLANK' title='TyersLab.com'>TyersLab.com</a> | All Rights Reserved 
+	</section>
+</footer>
+
+<div id="footer-links" class='text-center'>
+	<a href="https://wiki.thebiogrid.org/doku.php/terms_and_conditions" title="BioGRID Terms and Conditions">Terms and Conditions</a> | 
+	<a href="https://wiki.thebiogrid.org/doku.php/privacy_policy" title="BioGRID Privacy Policy">Privacy Policy</a> | 
+	<a target="_blank" href="https://thebiogrid.org" title="BioGRID">BioGRID</a> |
+	<a target="_blank" href="https://osprey.thebiogrid.org" title="Osprey">Osprey</a> |
+	<a target="_blank" href="https://yeastkinome.org" title="Yeast Kinome">Yeast Kinome</a> |
+	<a target="_blank" href="http://www.tyerslab.com" title="Mike Tyers Lab Webpage">TyersLab.com</a> |
+	<a target="_blank" href="http://www.yeastgenome.org" title="Saccharomyces Genome Database">SGD</a> |
+	<a target="_blank" href="https://github.com/BioGRID" title="BioGRID GitHub">GitHub</a> | 
+	<a target="_blank" href="https://www.youtube.com/user/TheBioGRID" title="BioGRID YouTube">YouTube</a> |
+	<a target="_blank" href="https://twitter.com/biogrid" title="BioGRID Twitter">Twitter</a>
+</div>
+
+</div>
+
+<!-- IMS Scripts -->
+<script type="text/javascript" src="https://orcs.thebiogrid.org/js/jquery.min.js?2.0.18.1"></script>
+<script type="text/javascript" src="https://orcs.thebiogrid.org/js/bootstrap.min.js?2.0.18.1"></script>
+<script type="text/javascript" src="https://orcs.thebiogrid.org/js/orcs-core.js?2.0.18.1"></script>
+	<script type="text/javascript" src="https://orcs.thebiogrid.org/js/jquery.qtip.min.js?2.0.18.1"></script>
+	<script type="text/javascript" src="https://orcs.thebiogrid.org/js/bootstrap-multiselect.js?2.0.18.1"></script>
+	<script type="text/javascript" src="https://orcs.thebiogrid.org/js/home/orcs-home.js?2.0.18.1"></script>
+<!-- /IMS Scripts -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-239330-11', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"c53ae17314ee493eb0865dd2a0dc7597","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

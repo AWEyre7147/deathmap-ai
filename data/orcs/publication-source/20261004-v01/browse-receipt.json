@@ -1,0 +1,24 @@
+{
+  "retrieved_at": "2026-10-04T05:01:19.195478+00:00",
+  "url": "https://orcs.thebiogrid.org/scripts/datatableTools.php",
+  "method": "POST",
+  "parameters": {
+    "tool": "serverSideRows",
+    "type": "browse",
+    "start": 0,
+    "length": 10000,
+    "draw": 1,
+    "search": {
+      "value": "",
+      "regex": false
+    },
+    "order": [
+      {
+        "column": 1,
+        "dir": "desc"
+      }
+    ]
+  },
+  "http_status": 200,
+  "sha256": "85a4ee42e3e625f7fc0926531ca13e3397020bbcb888d7ed4e04acdc70ba6df1"
+}

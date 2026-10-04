@@ -1,0 +1,69 @@
+{
+  "profile_id": "orcs-cancer-cell-crispr-knockout-v01",
+  "profile_version": 1,
+  "created_date": "2026-10-03",
+  "resource": "ORCS",
+  "purpose": "Initial screen subset for owner review: pooled Cas9 CRISPR knockout screens in reference-annotated cancer cell lines.",
+  "status": "configuration_only",
+  "path_base": "repository_root",
+  "input": {
+    "screen_metadata": "data/orcs/screen-index.json",
+    "reference_annotations": "data/cellosaurus/orcs-annotations/annotations.json"
+  },
+  "annotation_join": {
+    "screen_field": "CELL_LINE",
+    "annotation_collection": "cell_lines",
+    "annotation_key": "value",
+    "comparison": "exact",
+    "category_field": "category",
+    "missing_category": "does_not_satisfy_category_filter",
+    "preserve_annotation_fields": [
+      "accession",
+      "secondary_accessions",
+      "match_method",
+      "reference_locator",
+      "review_issues"
+    ]
+  },
+  "filter_logic": {
+    "between_fields": "AND",
+    "within_each_value_list": "OR",
+    "comparison": "exact_case_sensitive"
+  },
+  "filters": {
+    "CELL_LINE": {
+      "source": "joined_reference_annotation",
+      "field": "category",
+      "values": ["Cancer cell line"]
+    },
+    "ENZYME": {
+      "values": ["Cas9"]
+    },
+    "LIBRARY_TYPE": {
+      "values": ["CRISPRn"]
+    },
+    "METHODOLOGY": {
+      "values": ["Knockout"]
+    },
+    "SCREEN_FORMAT": {
+      "values": ["Pool"]
+    },
+    "ORGANISM_OFFICIAL": {
+      "values": ["Homo sapiens", "Mus musculus"]
+    },
+    "PHENOTYPE": {
+      "values": [
+        "cell proliferation",
+        "cell viability",
+        "cell cycle progression",
+        "cell migration"
+      ]
+    }
+  },
+  "unfiltered_fields": ["EXPERIMENTAL_SETUP"],
+  "review_handling": {
+    "annotation_review_issues": "preserve_and_flag_without_an_additional_exclusion_rule",
+    "missing_category": "retain_in_a_separate_unresolved_review_list_if_other_filters_pass",
+    "interpretation": "Matching screens form a candidate subset for review, not confirmed qualifying studies."
+  }
+}

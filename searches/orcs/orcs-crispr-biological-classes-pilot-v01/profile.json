@@ -1,0 +1,137 @@
+{
+  "schema_version": "deathmap-orcs-pilot-profile/1.0",
+  "profile_id": "orcs-crispr-biological-classes-pilot-v01",
+  "profile_version": 1,
+  "created_date": "2026-10-04",
+  "resource": "ORCS",
+  "classification_target": "crispr",
+  "purpose": "Broad mammalian CRISPR discovery in cancer-derived, immune-lineage, or organoid models; includes controls and non-immune readouts.",
+  "status": "pilot_candidate_discovery",
+  "input": {
+    "screen_metadata": "data/orcs/screen-index.json",
+    "publication_metadata": "data/orcs/publication-index.json",
+    "reference_annotations": "data/cellosaurus/orcs-annotations/annotations.json"
+  },
+  "filter_logic": {
+    "common_filters": "AND",
+    "candidate_rules": "OR",
+    "multi_value_separator": "|",
+    "trim_tokens": true,
+    "case_sensitive_exact": true,
+    "publication_join": "SOURCE_TYPE + SOURCE_ID"
+  },
+  "common_filters": [
+    {
+      "scope": "screen",
+      "field": "ORGANISM_OFFICIAL",
+      "operator": "any_exact",
+      "values": [
+        "Homo sapiens",
+        "Mus musculus"
+      ]
+    },
+    {
+      "scope": "screen",
+      "field": "LIBRARY_TYPE",
+      "operator": "any_exact",
+      "values": [
+        "CRISPRn",
+        "CRISPRi",
+        "CRISPRa",
+        "Cytosine Base Editing-Mediated Gene Perturbation",
+        "Cytosine Base Editing-Mediated Gene KnockOut"
+      ]
+    }
+  ],
+  "candidate_rules": [
+    {
+      "rule_id": "C1_cancer_reference",
+      "test": {
+        "scope": "annotation",
+        "field": "category",
+        "operator": "any_exact",
+        "values": [
+          "Cancer cell line"
+        ]
+      }
+    },
+    {
+      "rule_id": "C2_cancer_native_fallback",
+      "test": {
+        "all": [
+          {
+            "scope": "annotation",
+            "field": "category",
+            "operator": "missing"
+          },
+          {
+            "scope": "screen",
+            "fields": [
+              "CELL_TYPE"
+            ],
+            "operator": "regex",
+            "pattern": "cancer|carcinoma|tumou?r|melanoma|lymphoma|leuka?emia|sarcoma|glioma|glioblastoma|myeloma|blastoma|\\bMPNST\\b|neoplas|malignan|hepatoma|astrocytoma",
+            "flags": "IGNORECASE"
+          }
+        ]
+      }
+    },
+    {
+      "rule_id": "C3_immune_lineage",
+      "test": {
+        "scope": "screen",
+        "fields": [
+          "CELL_TYPE"
+        ],
+        "operator": "regex",
+        "pattern": "\\bT[- ]?cells?\\b|T[- ]?lymph|regulatory T|cytotoxic T|\\bTreg\\b|macrophag|microglia|monocyt|dendritic|neutrophil|B[- ]?lymph|B[- ]?cells?|\\bNK\\b|natural killer|lymphoblast",
+        "flags": "IGNORECASE"
+      }
+    },
+    {
+      "rule_id": "C4_organoid_model",
+      "test": {
+        "scope": "screen",
+        "fields": [
+          "CELL_TYPE"
+        ],
+        "operator": "regex",
+        "pattern": "\\borganoid\\b|\\bassembloid",
+        "flags": "IGNORECASE"
+      }
+    }
+  ],
+  "expansion": {
+    "enabled": true,
+    "key_fields": [
+      "SOURCE_TYPE",
+      "SOURCE_ID"
+    ],
+    "include_all_screens_from_matched_publications": true,
+    "retain_common_filter_failures_as_companions": true,
+    "label_seed": "direct_rule_candidate",
+    "label_companion": "publication_companion"
+  },
+  "constraints": {
+    "no_named_cell_line_allowlist": true,
+    "no_named_library_allowlist": true,
+    "no_pmid_doi_or_accession_allowlist": true,
+    "no_icraft_runtime_dependency": true,
+    "no_dataset_access_claim_from_publication_match": true,
+    "no_full_size_scope_filter": true
+  },
+  "evidence": {
+    "preserve_native_values": true,
+    "emit_matched_rule_ids": true,
+    "normalized_candidate_status": "inferred",
+    "publication_presence_status": "direct",
+    "dataset_access_status": "not_assessed"
+  },
+  "scope_notes": [
+    "Cellosaurus Cancer cell line denotes derivation, not whether a screen edits tumor cells.",
+    "Organoid branch deliberately includes normal organoids for this broad pilot, not only tumor organoids.",
+    "No phenotype, screen-format, enzyme, library-scope or immune-pressure exclusion.",
+    "FULL_SIZE remains descriptive: number of ORCS scored entries, not automatically total targeted genes or guide count.",
+    "ICRAFT includes infection and baseline growth screens; this profile is broader than a tumor-immune interaction search."
+  ]
+}

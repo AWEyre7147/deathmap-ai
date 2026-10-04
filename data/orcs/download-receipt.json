@@ -1,0 +1,30 @@
+{
+  "requested_at": "2026-10-04T03:19:53.879208+00:00",
+  "endpoint": "https://orcsws.thebiogrid.org/screens/",
+  "parameters": {
+    "start": 0,
+    "max": 10000,
+    "format": "json"
+  },
+  "authentication": "Local key file; key and authenticated URL omitted",
+  "status": "success",
+  "timeout_seconds": 30,
+  "max_attempts": 1,
+  "scope": "Screen annotation metadata only",
+  "completed_at": "2026-10-04T03:19:55.110514+00:00",
+  "screen_count": 2217,
+  "unique_screen_ids": 2217,
+  "added_screen_ids": [],
+  "removed_screen_ids": [],
+  "changed_screen_ids": [],
+  "same_records": true,
+  "byte_identical_to_existing_json": true,
+  "stored_json": "screen-index.json",
+  "json_sha256": "3ace1de98615e857b5829c2fe50e8c106eb4df20030f86362d55f36a298cd37e",
+  "json_bytes": 3509339,
+  "json_lf_serialization_sha256": "d538cb96224c51341091026fdaa4b22373f03b26e64bc1efee7fb58113ce3296",
+  "byte_identical_to_existing_csv": true,
+  "stored_csv": "screen-metadata.csv",
+  "csv_sha256": "ed651772fbe589fc99c67d999ad1bd2e18d10f6e8ceceb54b5c56004dacb8908",
+  "comparison_note": "Parsed records match exactly. Final serialized JSON/CSV match existing bytes, including Windows line endings. Temporary identical copies removed."
+}

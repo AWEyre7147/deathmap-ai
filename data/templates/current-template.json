@@ -1,0 +1,21 @@
+{
+  "version": "v6",
+  "applies_from": "ORCS v02 onward",
+  "template": "data/templates/DeathMap-AI-output-v6.xlsx",
+  "manifest": "data/templates/DeathMap-AI-output-v6.manifest.json",
+  "sha256": "6501a4f9b5f455d8e4e82ca1a066a66e0414c53c3903e4e55d799741342a507c",
+  "status": "evidence adapter/exporter fixture-verified; v02 filtering runner pending",
+  "sources_sheet_policy": "pending owner clarification; preserved example values are not measured counts",
+  "preserve_reference_sheets": [
+    "Reviewer Tasks",
+    "Definitions",
+    "Scientific Glossary",
+    "Source Glossary",
+    "Technical Glossary",
+    "Pipeline Glossary"
+  ],
+  "fixed_separator_sheets": [
+    "-",
+    "--"
+  ]
+}

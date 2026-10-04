@@ -1,0 +1,154 @@
+{
+  "profile_id": "orcs-cancer-cell-crispr-v02",
+  "profile_version": 2,
+  "supersedes": "orcs-cancer-cell-crispr-knockout-v01",
+  "created_date": "2026-10-04",
+  "resource": "ORCS",
+  "purpose": "Candidate subset of pooled or in vivo CRISPR screens (any modality) in cancer-derived cells with a fitness/survival-type readout. Scope-defining fields are filtered; descriptive fields are tagged, not filtered.",
+  "status": "configuration_only",
+  "path_base": "repository_root",
+  "input": {
+    "screen_metadata": "data/orcs/screen-index.json",
+    "reference_annotations": "data/cellosaurus/orcs-annotations/annotations.json"
+  },
+  "annotation_join": {
+    "screen_field": "CELL_LINE",
+    "annotation_collection": "cell_lines",
+    "annotation_key": "value",
+    "comparison": "exact",
+    "category_field": "category",
+    "preserve_annotation_fields": [
+      "accession",
+      "secondary_accessions",
+      "match_method",
+      "reference_locator",
+      "review_issues"
+    ]
+  },
+  "filter_logic": {
+    "between_fields": "AND",
+    "within_each_value_list": "OR",
+    "comparison": "exact_case_sensitive",
+    "multi_value_separator": " | ",
+    "_note_multi_value": "Split native values on ' | ' before comparison (e.g. 'Cytokine exposure | Drug exposure'); a screen passes if any split value matches."
+  },
+  "filters": {
+    "ORGANISM_OFFICIAL": {
+      "values": [
+        "Homo sapiens",
+        "Mus musculus"
+      ]
+    },
+    "SCREEN_FORMAT": {
+      "values": [
+        "Pool",
+        "in vivo"
+      ],
+      "_change_from_v01": "Added 'in vivo'. ORCS uses SCREEN_FORMAT='in vivo' (not 'Pool') for 47 pooled in vivo screens."
+    },
+    "PHENOTYPE": {
+      "values": [
+        "cell proliferation",
+        "cell viability",
+        "viability",
+        "cell cycle progression",
+        "cell migration",
+        "tumorigenicity",
+        "response to chemicals",
+        "response to toxin",
+        "response to radiation"
+      ],
+      "_change_from_v01": "Added 'viability' (spelling variant of 'cell viability'), 'tumorigenicity' (the ORCS phenotype for in vivo tumor-growth screens), and drug/toxin/radiation response phenotypes, which are survival readouts under a selective agent."
+    },
+    "CELL_LINE": {
+      "source": "joined_reference_annotation",
+      "field": "category",
+      "values": [
+        "Cancer cell line"
+      ],
+      "fallback": {
+        "applies_when": "annotation exists but category is null, or no annotation exists",
+        "source": "native_field",
+        "field": "CELL_TYPE",
+        "match": "case_insensitive_regex",
+        "pattern": "cancer|carcinoma|tumou?r|melanoma|lymphoma|leuka?emia|sarcoma|glioma|glioblastoma|myeloma|blastoma|MPNST|neoplas|malignan",
+        "result_label": "cancer_by_orcs_cell_type",
+        "_note": "Recovers primary/engineered tumor lines and organoids absent from Cellosaurus (e.g. KPC, KP1233, primary melanoma lines, tumor organoids). Fallback hits are kept in the candidate set but labeled so they are distinguishable from Cellosaurus-confirmed hits."
+      }
+    }
+  },
+  "removed_filters": {
+    "ENZYME": "Removed. Enzyme naming is free text (Cas9, Cas9-v1, Cas9-v2, iCAS9, sunCas9, AsCpf1, Cas12a...). Modality is captured more reliably by LIBRARY_TYPE + METHODOLOGY. ENZYME is still preserved as enzyme_reported.",
+    "LIBRARY_TYPE": "Moved to tags.perturbation_modality so CRISPRi, CRISPRa, and base-editing screens are retained and labeled rather than dropped.",
+    "METHODOLOGY": "Moved to tags.perturbation_modality."
+  },
+  "optional_restriction": {
+    "knockout_only": {
+      "enabled": false,
+      "rule": "LIBRARY_TYPE == 'CRISPRn' AND METHODOLOGY == 'Knockout'",
+      "_note": "Enable to reproduce a knockout-only subset of v02."
+    }
+  },
+  "tags": {
+    "_principle": "Tags are derived only from native ORCS fields, never exclude a screen, and are written to the output as candidate values for review.",
+    "perturbation_modality": {
+      "from": [
+        "LIBRARY_TYPE",
+        "METHODOLOGY"
+      ],
+      "map": {
+        "CRISPRn|Knockout": "knockout",
+        "CRISPRi|Inhibition": "interference",
+        "CRISPRa|Activation": "activation",
+        "Cytosine Base Editing-Mediated Gene Perturbation|Perturbation": "base_editing",
+        "Cytosine Base Editing-Mediated Gene KnockOut|Knockout": "base_editing_knockout"
+      },
+      "unmapped": "unresolved"
+    },
+    "experimental_setting": {
+      "rules": [
+        {
+          "if": "SCREEN_FORMAT == 'in vivo' OR EXPERIMENTAL_SETUP == 'Implantation to Mouse Model'",
+          "then": "in_vivo"
+        },
+        {
+          "else": "in_vitro"
+        }
+      ]
+    },
+    "immune_pressure_candidate": {
+      "rules": [
+        {
+          "if": "EXPERIMENTAL_SETUP == 'T cell exposure'",
+          "then": "direct_setup_T_cell"
+        },
+        {
+          "if": "EXPERIMENTAL_SETUP == 'NK cell exposure'",
+          "then": "direct_setup_NK_cell"
+        },
+        {
+          "if": "CONDITION_NAME or SCREEN_RATIONALE matches immune_keyword_pattern",
+          "then": "keyword_in_condition_or_rationale"
+        },
+        {
+          "if": "experimental_setting == 'in_vivo'",
+          "then": "in_vivo_host_immunity_unresolved"
+        }
+      ],
+      "immune_keyword_pattern": "T cell|T-cell|\\bNK\\b|natural killer|CTL|cytotoxic|lymphocyte|\\bTIL\\b|CAR T|macrophage|phagocyt|OT-I|Pmel|PD-1|PD-L1|CTLA|checkpoint|GVAX|immunotherapy|bispecific|immune",
+      "multiple_matches": "record all matching labels",
+      "_note": "Implements pilot-scope PS18: co-culture evidence may be hidden in CONDITION_NAME/SCREEN_RATIONALE rather than EXPERIMENTAL_SETUP. A tag is a retrieval hint, not a co-culture classification."
+    },
+    "in_vivo_host_contrast": {
+      "if": "CONDITION_NAME matches 'nu/nu|Foxn1|Rag1|Rag2|NSG|SCID|immunodeficient|immunocompetent| VS\\. '",
+      "then": "host_immune_status_reported_in_condition",
+      "_note": "Flags in vivo screens that compare immunocompetent and immunodeficient hosts, which is the in vivo analogue of a co-culture vs. no-immune-cell comparator."
+    }
+  },
+  "review_handling": {
+    "annotation_review_issues": "preserve_and_flag_without_an_additional_exclusion_rule",
+    "cellosaurus_category_caution": "Cellosaurus 'Cancer cell line' describes the line's origin, not its role in the experiment. Lines such as Jurkat, RAW 264.7, J774, or NK-92 can be cancer-derived yet act as immune effectors. Do not derive perturbed_compartment from the Cellosaurus category alone.",
+    "publication_siblings": "Retain sibling screens of any publication with a hit, labeled publication_sibling_context, as in v01.",
+    "interpretation": "Matching screens form a candidate subset for review, not confirmed qualifying studies."
+  }
+}
