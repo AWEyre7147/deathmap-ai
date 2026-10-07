@@ -1,10 +1,10 @@
 {
   "version": "v6",
   "applies_from": "ORCS v02 onward",
-  "template": "data/templates/DeathMap-AI-output-v6.xlsx",
-  "manifest": "data/templates/DeathMap-AI-output-v6.manifest.json",
-  "sha256": "6501a4f9b5f455d8e4e82ca1a066a66e0414c53c3903e4e55d799741342a507c",
-  "status": "evidence adapter/exporter fixture-verified; v02 filtering runner pending",
+  "template": "data/templates/DeathMap-AI-output.xlsx",
+  "manifest": "data/templates/owner-change-catalog.json",
+  "sha256": "701c8a30937961ecf1ef1728c7b273e26492964e223ae62185aecf98c838eb49",
+  "status": "approved_portable_template",
   "sources_sheet_policy": "pending owner clarification; preserved example values are not measured counts",
   "preserve_reference_sheets": [
     "Reviewer Tasks",
@@ -17,5 +17,7 @@
   "fixed_separator_sheets": [
     "-",
     "--"
-  ]
+  ],
+  "owner_acceptance": "Owner reported completing all desired edits after confirming the repaired proposal opens in Excel.",
+  "backup": "data/templates/DeathMap-AI-output-backup.xlsx"
 }

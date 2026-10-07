@@ -21,7 +21,6 @@ VERSION = 'orcs-filter-v1.0'
 PROFILE = 'searches/orcs/cancer-cell-crispr-knockout-v01/profile.json'
 CACHE = 'data/orcs/screen-index.json'
 ANNOTATIONS = 'data/cellosaurus/orcs-annotations/annotations.json'
-WORKBOOK = 'data/templates/DeathMap-AI-v1-reference-output.xlsx'
 EXPECTED = {'CELL_LINE': ['Cancer cell line'], 'ENZYME': ['Cas9'],
  'LIBRARY_TYPE': ['CRISPRn'], 'METHODOLOGY': ['Knockout'], 'SCREEN_FORMAT': ['Pool'],
  'ORGANISM_OFFICIAL': ['Homo sapiens', 'Mus musculus'],
@@ -157,50 +156,3 @@ def evaluate(rows, annotations, profile):
         'interpretation':'Filter hits only; immune interaction and scientific eligibility are not established.'}
     assert summary['matched'] + summary['unresolved_category'] + summary['excluded'] == len(rows)
     return {'matched_screens':matched,'unresolved_screens':unresolved,'publication_siblings':siblings,'screen_audit':audit,'summary':summary}
-
-
-def preservation(root):
-    """Hash existing resource outputs and saved reference facts; never use them as filters."""
-    paths = list((root/'outputs').rglob('*')) + list((root/'data/cellosaurus').rglob('*')) + list((root/'data/orcs').rglob('*')) + list((root/'data/templates').rglob('*'))
-    return {p.relative_to(root).as_posix():sha(p) for p in paths if p.is_file()}
-
-
-def execute(root, run_id=None):
-    """Validate then execute a new offline run, backing up the selected workbook exactly."""
-    root = Path(root).resolve(); p = read(root/PROFILE); validate_profile(p)
-    rows, annotations = read(root/CACHE), read(root/ANNOTATIONS)
-    summary_path = root/'data/orcs/cache-summary.json'; original_summary=read(summary_path)
-    validate_inputs(rows,annotations,original_summary,sha(root/CACHE))
-    for field, values in EXPECTED.items():
-        observed={a.get('category') for a in annotations['cell_lines']} if field=='CELL_LINE' else {r[field] for r in rows}
-        if not set(values)<=observed: raise ValueError(f'Accepted values absent from source vocabulary: {field}')
-    now=datetime.now(timezone.utc); run_id=run_id or now.strftime('%Y%m%dT%H%M%S%fZ')
-    if not re.fullmatch(r'[A-Za-z0-9_-]+', run_id): raise ValueError('Unsafe run ID')
-    out=root/'outputs/orcs'/p['profile_id'].removeprefix('orcs-')/run_id
-    if out.exists(): raise FileExistsError(out)
-    baseline=preservation(root)
-    out.mkdir(parents=True)
-    for source,name in [(PROFILE,'profile.json'),(ANNOTATIONS,'reference_annotations.json'),(WORKBOOK,'workbook-original.xlsx')]:
-        shutil.copyfile(root/source,out/name)
-    manifest={'run_id':run_id,'status':'started','started_at':now.isoformat(),'tool_version':VERSION,
-       'input_hashes':{x:sha(root/x) for x in [PROFILE,CACHE,ANNOTATIONS,WORKBOOK,str(summary_path.relative_to(root))]},
-       'cache_retrieved_at':original_summary['retrieved_at'],'reference_retrieval_date':annotations['retrieval_date'],
-       'code_hashes':{p.relative_to(root).as_posix():sha(p) for p in [Path(__file__),root/'src/deathmap_ai/orcs_filter_projection.py',root/'scripts/export_orcs_filter_workbook.mjs']},
-       'network_policy':'No network; saved cache and annotations only','network_requests':0}
-    write(out/'run_manifest.json',manifest);write(out/'preservation.json',{'before':baseline})
-    results=evaluate(rows,annotations,p)
-    for name,value in results.items(): write(out/f'{name}.json',value)
-    from .orcs_filter_projection import project
-    projection=project(results,manifest,root/WORKBOOK)
-    write(out/'projection.json',projection)
-    manifest.update(status='filter_complete_excel_pending' if results['matched_screens'] else 'complete_no_hits',filter_completed_at=datetime.now(timezone.utc).isoformat())
-    write(out/'run_manifest.json',manifest)
-    return out
-
-
-def main():
-    """Run one local invocation from an explicitly selected repository root."""
-    parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--root',type=Path,default=Path(__file__).resolve().parents[2]);args=parser.parse_args()
-    print(execute(args.root))
-
-if __name__=='__main__': main()

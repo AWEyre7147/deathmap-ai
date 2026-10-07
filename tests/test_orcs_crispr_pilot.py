@@ -47,7 +47,7 @@ class PilotTests(unittest.TestCase):
         self.assertEqual(p['sheets']['Datasets'],[]);self.assertEqual(p['sheets']['Screen Groups'],[])
     def test_family_guard_preserves_old_v01_boundary(self):
         self.assertTrue(v6_allowed(self.p['profile_id'],1,self.p['schema_version']))
-        self.assertFalse(v6_allowed('orcs-cancer-cell-crispr-knockout-v01',1))
+        self.assertTrue(v6_allowed('orcs-cancer-cell-crispr-knockout-v01',1))
         self.assertFalse(v6_allowed('orcs-clinical-omics-publication-candidates-pilot-v01',1,self.p['schema_version']))
 
 

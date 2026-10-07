@@ -26,7 +26,9 @@ Scientific questions and submitted queries are distinct. The system records both
 ### Discovery resources
 
 Discovery resources identify candidate publications, screens, or repository
-records. BioGRID ORCS and OmicsDI are the currently evaluated discovery resources.
+records. BioGRID ORCS and repository-native interfaces are the current discovery
+direction. OmicsDI is tertiary accession-led relationship research, subject to a
+separately approved lookup contract. See the current work session and release-preparation specification.
 
 ### Repository-enrichment resources
 
@@ -106,9 +108,7 @@ combined type:
 - output inclusion role; and
 - availability.
 
-The controlled values and plain-language meanings proposed for the current
-iteration are defined in `docs/proposed-discovery-enrichment-v03.md`. They are not
-production vocabulary until accepted through the current work-session review.
+Controlled values require acceptance through a resource-specific work-session contract. Archived proposals do not define current production vocabulary.
 
 ## [M1-8] Anchor and related datasets
 
@@ -165,8 +165,9 @@ The cross-resource projection produces:
 - Screens;
 - Datasets;
 - Screen-Dataset Links;
-- Sources & Evidence; and
-- Discovery Resources.
+- Evidence.
+
+The workbook also preserves the owner-approved reference and glossary sheets.
 
 JSON is the canonical machine-readable output. Excel is a derived review format,
 not a required retrieval dependency.

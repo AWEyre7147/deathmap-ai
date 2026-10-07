@@ -28,7 +28,9 @@ tmp/
 .tmp/
 .discovery/
 results/generated/
-outputs/
+/outputs/*
+!/outputs/README.md
+!/outputs/orcs/
 
 # Local external validation set; never a production input or release artifact
 data/icraft/
@@ -57,6 +59,9 @@ dist/
 /logs/evidence-model-v6/artifact-template.xlsx*
 /logs/*-current-path.txt
 /logs/*-preview.png
+/logs/release-preparation/runtime/
+/logs/release-preparation/reviewed-workbook-preservation.json
+/logs/release-preparation/retired-artifacts.json
 
 # Large public reference snapshots remain local; receipts and selected evidence
 # are retained in the curated annotation artifacts for reproducibility.

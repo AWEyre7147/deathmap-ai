@@ -23,8 +23,7 @@ and metadata resources across four experimental classes:
 3. single-cell multimodal CRISPR screens; and
 4. in vivo or spatial perturbation screens.
 
-The first iterative test case focuses on pooled CRISPR knockout screens involving
-cancer and immune populations. Either population may be genetically perturbed.
+The completed ORCS milestone uses the biological-classes profile: human/mouse, configured CRISPR modalities and cancer-derived, immune-lineage or organoid contexts. Earlier pooled cancer–immune knockout work is historical. Next-version planning translates this scientific intent into repository-specific filters and metadata routes.
 
 ## [PV-3] Evidence-centered architecture
 

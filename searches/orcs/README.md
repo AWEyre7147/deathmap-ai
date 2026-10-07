@@ -1,14 +1,11 @@
-# ORCS searches
+# Supported ORCS searches
 
-## Completed and supported
+The biological-classes pilot is the current scientific baseline. All three supplied profiles remain supported by the offline runner:
 
-[CRISPR biological-classes pilot](orcs-crispr-biological-classes-pilot-v01/README.md) is the primary entry point. Its dedicated offline runner and v6 workbook support are implemented. The owner concluded the discovery pilot after reporting representation of 33/33 ORCS-present comparison publications; see the [completion record](../../docs/orcs/pilot-completion-v01.md).
+- `orcs-crispr-biological-classes-pilot-v01/profile.json`
+- `cancer-cell-crispr-knockout-v01/profile.json`
+- `cancer-cell-crispr-knockout-v02/profile.json`
 
-Run `python -m deathmap_ai.orcs_crispr_pilot` after the root README's local setup. Use `scripts/validate_orcs_pilot_profiles.py` for a read-only preflight. Shared inputs live under `data/orcs/` and `data/cellosaurus/`; each new execution creates `outputs/orcs/<search-name>/<UTC-run-id>/`.
+Run `deathmap-search-orcs --profile searches/orcs/<folder>/profile.json` from the repository root after installation. Saved ORCS/Cellosaurus metadata is read without source refresh. Each run creates a new output directory. The search command automatically exports a portable review workbook using the approved main template; a separate export command also remains available.
 
-## Prior configurations
-
-- [cancer-cell-crispr-knockout-v01](cancer-cell-crispr-knockout-v01/README.md): historical filtering implementation and outputs; preserved.
-- [cancer-cell-crispr-knockout-v02](cancer-cell-crispr-knockout-v02/README.md): separate prepared configuration, not the completed biological-classes pilot.
-
-Do not interchange runner commands between profile schemas. The removed single-cell and clinical-omics profiles are not production dependencies. Validation-reference inventories remain outside production discovery.
+[Curated ORCS outputs](../../outputs/orcs/README.md) retain the latest generated workbooks and canonical metadata. Older reviewed workbooks are preserved in the external archive. Publication companions remain distinct from direct-rule candidates; external repository enrichment is deferred.

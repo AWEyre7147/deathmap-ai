@@ -24,9 +24,9 @@ The result establishes publication representation in the owner's defined compari
 
 ## [PCO-3] Verification and artifacts
 
-The run passed 177 tests, 15 post-finalization focused checks, workbook/projection comparisons, evidence-ledger ID checks, glossary preservation checks and rendered workbook inspection. Historical inputs/outputs remained unchanged. Generated results are local and excluded from Git; reproducible source catalogs, filter configuration and implementation remain in the repository.
+The run passed 177 tests, 15 post-finalization focused checks, workbook/projection comparisons, evidence-ledger ID checks, glossary preservation checks and rendered workbook inspection. Historical inputs/outputs remained unchanged. The latest curated results are included in Git; reproducible source catalogs, filter configuration and implementation remain in the repository.
 
-Local run directory: `outputs/orcs/orcs-crispr-biological-classes-pilot-v01/20261004T215601947427Z/`.
+Local run directory: `outputs/orcs/README.md
 Primary workbook: `DeathMap-AI-output-v6.xlsx`.
 Canonical evidence: `projection.json`, `screen_audit.json`, `evidence-ledger.jsonl`, and `run_manifest.json`.
 

@@ -9,7 +9,7 @@ import hashlib
 import json
 from pathlib import Path
 
-VERSION = 'evidence-model-v6.0'
+VERSION = 'evidence-model-v6.1'
 HEADERS = ['evidence_id', 'supports_entity_type', 'supports_entity_id', 'claim',
            'fields_supported', 'source_name', 'source_link', 'supporting_value',
            'supporting_value_truncated', 'evidence_basis', 'evidence_status',
@@ -34,11 +34,11 @@ def display_value(value, target=300):
 
 def v6_allowed(profile_id, profile_version, profile_schema=None):
     """Allow later outputs and the owner-authorized new CRISPR pilot family."""
-    return profile_version >= 2 or (profile_schema == 'deathmap-orcs-pilot-profile/1.0' and
+    return profile_id == 'orcs-cancer-cell-crispr-knockout-v01' or profile_version >= 2 or (profile_schema == 'deathmap-orcs-pilot-profile/1.0' and
         profile_id == 'orcs-crispr-biological-classes-pilot-v01')
 
 
-def build_evidence(observations, *, run_id, profile_id, profile_version, tool=None, profile_schema=None):
+def build_evidence(observations, *, run_id, profile_id, profile_version, tool=None, profile_schema=None, first_index=1):
     """Return Evidence rows and ledger entries for v02-or-later observations.
 
     Each observation has source metadata, raw_record, one supports entity with
@@ -73,8 +73,10 @@ def build_evidence(observations, *, run_id, profile_id, profile_version, tool=No
                support['entity_type'], support['entity_id'], basis, status)
         groups.setdefault(key, []).append(o)
     rows, ledger = [], []
-    for key, members in sorted(groups.items(), key=lambda pair: canonical(pair[0])):
-        eid = 'EVI-' + hashlib.sha256(canonical(key).encode()).hexdigest()[:24]
+    for number, (key, members) in enumerate(sorted(groups.items(), key=lambda pair: canonical(pair[0])), first_index):
+        # Reviewer IDs are local to the run. Preserve the canonical source key
+        # hash separately so numbering never becomes a cross-run identity claim.
+        eid = f'EVI-{number:05d}'
         fields = sorted({f for m in members for f in m['supports']['fields']})
         claims = list(dict.fromkeys(m['claim'] for m in members))
         values = list({canonical(m['supporting_value']):m['supporting_value'] for m in members}.values())
@@ -84,7 +86,7 @@ def build_evidence(observations, *, run_id, profile_id, profile_version, tool=No
         elif key[5]=='inferred':claim=f"Inferred from {key[0]} record {key[2]} for {key[3]} {key[4]}, as detailed in the ledger."
         else:claim=f"{key[0]} provides the observations for {key[3]} {key[4]} in the listed fields."
         sources = list({canonical(m['source']):m['source'] for m in members}.values())
-        entry = {'evidence_id':eid, 'run_id':run_id, 'profile_id':profile_id,
+        entry = {'evidence_id':eid, 'source_identity_sha256':hashlib.sha256(canonical(key).encode()).hexdigest(), 'run_id':run_id, 'profile_id':profile_id,
                  'supports':[{'entity_type':key[3], 'entity_id':key[4], 'fields':fields}],
                  'claim':claim, 'evidence_basis':key[5], 'evidence_status':key[6],
                  'source':sources[0], 'source_observations':sources,

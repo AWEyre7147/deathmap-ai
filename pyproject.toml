@@ -7,16 +7,15 @@ name = "deathmap-ai"
 version = "0.1.0"
 description = "Evidence-discovery evaluation for CRISPR perturbation resources"
 requires-python = ">=3.11"
+dependencies = ["openpyxl>=3.1,<4"]
 
 [project.optional-dependencies]
-dev = ["pytest>=8", "openpyxl>=3.1"]
+dev = ["pytest>=8"]
 
 [project.scripts]
 deathmap-orcs = "deathmap_ai.cli:main"
-deathmap-omicsdi = "deathmap_ai.omicsdi_cli:main"
-deathmap-search = "deathmap_ai.shared_search:main"
-deathmap-migrate = "deathmap_ai.resource_migration:main"
-deathmap-discover = "deathmap_ai.discovery_v02:main"
+deathmap-search-orcs = "deathmap_ai.orcs_crispr_pilot:main"
+deathmap-export-excel = "deathmap_ai.excel_export:main"
 
 [tool.setuptools.package-data]
 deathmap_ai = ["reference_schema.json"]

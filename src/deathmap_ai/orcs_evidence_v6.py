@@ -10,7 +10,7 @@ import hashlib
 import json
 from pathlib import Path
 from .evidence_model import HEADERS, VERSION, build_evidence, canonical, validate_evidence, write_ledger, v6_allowed
-from .orcs_filter_projection import DIRECT, CROSSWALKS
+from .orcs_fields import DIRECT, CROSSWALKS
 
 PUBLICATION_FIELDS = {'TITLE':'title_original','AUTHORS':'author_list_reported',
     'JOURNAL':'journal_reported','PMID':'pmid','DOI':'doi'}
@@ -78,7 +78,6 @@ def adapt(projection, native_screens, publications, annotations, manifest, profi
         if not accession or not str(accession).startswith('CVCL_'):
             issues.append({'screen_id':sid,'cell_line_reported':n.get('CELL_LINE'),'issue':'No resolved Cellosaurus accession; no cell_line entity generated'})
             row['curation_status']=(row.get('curation_status') or '')+'; unresolved reference accession'
-            row['screen_notes']=(row.get('screen_notes') or '')+'; Cellosaurus accession unresolved'
             continue
         row['cellosaurus_accession'] = accession
         group = ref_groups.setdefault(accession, {'annotations':{},'targets':[]})
@@ -148,6 +147,15 @@ def adapt(projection, native_screens, publications, annotations, manifest, profi
     p['headers'] = {name:list(headers) for name,headers in p.get('headers',{}).items() if name not in {'Sources & Evidence','Discovery Resources'}}
     p['headers']['Evidence'] = HEADERS
     p['sources_policy']='Preserved template example content; Sources counts are not measured run results.'
+    # Source diagnostics remain in the snapshot, roles and ledger. These two
+    # notes fields belong to the reviewer and must start empty on every new run.
+    for sheet, field in [('Publications','publication_notes'),('Screens','screen_notes')]:
+        for row in p['sheets'].get(sheet,[]):
+            row[field] = None
+            row.pop('reviewer_decision',None)
+            row.pop('reviewer_notes',None)
+        if sheet in p['headers']:
+            p['headers'][sheet] = [h for h in p['headers'][sheet] if h not in {'reviewer_decision','reviewer_notes'}]
     return p,ledger
 
 
@@ -162,7 +170,7 @@ def main():
     root=args.root; run=args.run
     manifest=read(run/'run_manifest.json')
     manifest['code_hashes']={**manifest.get('code_hashes',{}),**{str(x.relative_to(root)):hashlib.sha256(x.read_bytes()).hexdigest() for x in
-        [root/'src/deathmap_ai/evidence_model.py',Path(__file__),root/'scripts/export_evidence_workbook_v6.mjs',root/'scripts/preserve_evidence_template_v6.py']}}
+        [root/'src/deathmap_ai/evidence_model.py',Path(__file__)]}}
     p,ledger = adapt(read(run/'projection.json'),read(root/'data/orcs/screen-index.json'),
         read(root/'data/orcs/publication-index.json'),read(run/'reference_annotations.json'),
         manifest,read(run/'profile.json'))
@@ -171,7 +179,7 @@ def main():
     (args.output/'projection.json').write_text(json.dumps(p,ensure_ascii=False,indent=2),encoding='utf-8')
     write_ledger(args.output/'evidence-ledger.jsonl',ledger)
     (args.output/'evidence-model-manifest.json').write_text(json.dumps({'version':VERSION,
-        'input_run':str(run.resolve()),'template':'data/templates/DeathMap-AI-output-v6.xlsx',
+        'input_run':str(run.resolve()),'template':'data/templates/DeathMap-AI-output.xlsx',
         'input_files':{str(x.resolve()):hashlib.sha256(x.read_bytes()).hexdigest() for x in
             [run/'projection.json',run/'run_manifest.json',run/'profile.json',run/'reference_annotations.json',root/'data/orcs/screen-index.json',root/'data/orcs/publication-index.json']},
         'issues':p['evidence_issues'],'evidence_count':len(ledger),'network_requests':0},indent=2),encoding='utf-8')

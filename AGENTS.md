@@ -63,51 +63,13 @@ They must not merely translate each line of code into English.
 - Record tool version, query strategy, retrieval date, and raw identifiers needed
   to reproduce a benchmark run.
 
-## [AG7] Pilot constraints
+## [AG7] Current constraints
 
-- The owner-authorized shared ORCS publication database follows [handoff 13](docs/specifications/13%20ORCS%20Shared%20Publication%20Metadata%20Database.md). Its publication-header retrieval exception is separate from historical filtered runs; no gene-level or linked experimental file contents may be retrieved.
-
-- Owner-approved repository organization follows [handoff 12](docs/specifications/12%20Repository%20Organization%20and%20Workbook%20Planning.md). Historical outputs may be relocated to the approved external archive with unchanged bytes and a hash/path registry. This location exception supersedes older in-repository path constraints; it does not authorize new retrieval or enrichment.
-
-
-- For the separate owner-authorized ORCS profile-filtering and Excel task, follow
-  [`docs/specifications/11 ORCS Filter Run and Excel Handoff.md`](docs/specifications/11%20ORCS%20Filter%20Run%20and%20Excel%20Handoff.md).
-  Its explicit exceptions apply only to that new task; preserve historical SQ01
-  outputs and do not begin external enrichment before Excel review.
-
-- Follow [`docs/pilot-scope.md`](docs/pilot-scope.md) during the iterative
-  co-culture discovery phase.
-- Follow
-  [`docs/specifications/10 SQ01 Blind Discovery Handoff.md`](docs/specifications/10%20SQ01%20Blind%20Discovery%20Handoff.md)
-  for the current v03 scope. The first live v03 run is SQ01-only. Do not execute
-  SQ02 or the abandoned broad query `CRISPR AND screen AND cancer AND immune`.
-- Preserve v01 and v02 as immutable historical iterations. The v02 5,000-native-
-  record cap, 50-new-detail-attempt allowance, 89 historical receipts, and
-  50-within/39-excess accounting retain their historical meaning and must not be
-  reset, borrowed, or applied as v03 limits.
-- The v03 SQ01 OmicsDI search has no unique-candidate cap, search-page cap, or
-  total-runtime cap. Exhaust every approved query through pagination unless an
-  explicit error blocks it. Keep bounded per-request timeouts, service pacing,
-  cumulative retries, durable request reservations, and resumable progress.
-- OmicsDI detail requests and repository enrichment are not authorized in the
-  SQ01 blind-discovery slice.
-- Search the complete existing cached ORCS index once for SQ01 with no candidate
-  or runtime cap and no refresh. Stop successfully after every cached screen is
-  examined once; stop with an explicit error on missing, corrupt, or unrecognized
-  cache input. Preserve field-level match evidence and publication siblings as
-  context rather than direct hits.
-- Generate resource-specific JSON under
-  `outputs/<package>/immune-crispr-coculture-v03/` and shared run-plan/summary
-  artifacts under `outputs/immune-crispr-coculture-v03/`. Do not generate the
-  seven entity tables or an Excel workbook in this slice.
-- Treat local ICRAFT files as validation-only references. Do not use their titles,
-  identifiers, accessions, or metadata as search inputs, query expansions,
-  allowlists, or production dependencies.
-- Do not add code for scoring against ICRAFT or testing ICRAFT accessions to the
-  first released version of module 1.
-- Metadata discovery is allowed within the current handoff. Do not download gene-level screen results,
-  guide counts, FASTQ files, processed matrices, or other experimental datasets
-  during the metadata-only pilot.
+- Follow [release preparation](docs/specifications/18%20Repository%20Native%20Discovery%20Release%20Preparation.md) and the current work session. Retired SQ01 contracts are historical, not current defaults.
+- Preserve ORCS vocabulary and saved source metadata. No live enrichment or experimental-file download is authorized in release preparation.
+- Preserve the owner's edited workbooks byte-for-byte. Export only into new run directories. Promote the repaired template only after owner approval.
+- Keep validation references outside production discovery; no benchmark identifiers as query inputs or production dependencies.
+- Historical artifacts may be archived with unchanged bytes and hash/path receipts. No commit, push or PR without an explicit owner request.
 
 ## [AG8] Boundary coaching
 

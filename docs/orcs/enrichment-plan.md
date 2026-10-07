@@ -1,4 +1,6 @@
 # ORCS enrichment plan
+
+Current update, 2026-10-07: the three profiles have fresh corrected workbook packages and publication/screen seed lists under `outputs/orcs`. Their inputs remain the shared saved catalogs. [Handoff 17](../specifications/18%20Repository%20Native%20Discovery%20Release%20Preparation.md) governs this refresh and native discovery direction. External enrichment still requires its resource contract; no previous output is silently enriched.
 ## [EP1] Objective and boundary
 Use the two complete shared ORCS metadata databases in future pipeline runs: 2,217 screen records and 418 publication records. This plan is independent of the previous filtered analysis. No historical workbook is enriched or changed by building these databases or this map.
 

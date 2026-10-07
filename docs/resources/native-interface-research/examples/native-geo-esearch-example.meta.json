@@ -1,0 +1,14 @@
+{
+  "method": "GET",
+  "parameters": {
+    "db": "gds",
+    "term": "CRISPR[All Fields] AND GSE[ETYP]",
+    "retmax": 2,
+    "retmode": "json"
+  },
+  "requested_at": "2026-10-06T23:10:37.485605+00:00",
+  "purpose": "Native interface schema or two-row metadata example; no retries.",
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=CRISPR%5BAll+Fields%5D+AND+GSE%5BETYP%5D&retmax=2&retmode=json",
+  "status": 200,
+  "content_type": "application/json; charset=UTF-8"
+}
