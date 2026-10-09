@@ -127,11 +127,12 @@ def project(audit,publications):
         n=native_pubs[key];row={'publication_id':mapping[key],'retrieval_sources':'BioGRID ORCS saved publication metadata',
             'evidence_status':'conflicting' if n.get('REVIEW_ISSUES') else 'direct',
             'publication_notes':None}
-        for source,dest in [('TITLE','title_original'),('AUTHORS','author_list_reported'),('JOURNAL','journal_reported'),('PMID','pmid'),('DOI','doi')]:
+        for source,dest in [('TITLE','title_original'),('AUTHORS','author_list_reported'),('JOURNAL','journal_reported'),('PMID','pmid'),('DOI','doi'),('PMCID','pmcid')]:
             if n.get(source) not in (None,'','-'):row[dest]=n[source]
         if re.fullmatch(r'\d{4}-\d{2}-\d{2}',n.get('PUBLICATION_DATE') or ''):row['publication_year']=int(n['PUBLICATION_DATE'][:4])
         if row.get('pmid'):row['pmid_link']=f'https://pubmed.ncbi.nlm.nih.gov/{row["pmid"]}/'
         if row.get('doi'):row['doi_link']='https://doi.org/'+quote(row['doi'],safe='/')
+        if row.get('pmcid'):row['pmc_link']=f'https://pmc.ncbi.nlm.nih.gov/articles/{row["pmcid"]}/'
         pubrows.append(row)
     rows=[];roles={}
     for index,item in enumerate(sorted(retained,key=lambda i:int(i['SCREEN_ID'])),1):

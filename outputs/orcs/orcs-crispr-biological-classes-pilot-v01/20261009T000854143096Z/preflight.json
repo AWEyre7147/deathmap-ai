@@ -1,0 +1,44 @@
+{
+  "profile_id": "orcs-crispr-biological-classes-pilot-v01",
+  "schema_version": "deathmap-orcs-pilot-profile/1.0",
+  "configuration_valid": true,
+  "candidate_rule_count": 4,
+  "common_filter_vocabularies": [
+    {
+      "scope": "screen",
+      "field": "ORGANISM_OFFICIAL",
+      "requested_values_present": [
+        "Homo sapiens",
+        "Mus musculus"
+      ]
+    },
+    {
+      "scope": "screen",
+      "field": "LIBRARY_TYPE",
+      "requested_values_present": [
+        "CRISPRn",
+        "CRISPRi",
+        "CRISPRa",
+        "Cytosine Base Editing-Mediated Gene Perturbation",
+        "Cytosine Base Editing-Mediated Gene KnockOut"
+      ]
+    }
+  ],
+  "input_record_counts": {
+    "screen": 2217,
+    "publication": 418,
+    "annotation": 825
+  },
+  "input_hashes": {
+    "data/orcs/screen-index.json": "3ace1de98615e857b5829c2fe50e8c106eb4df20030f86362d55f36a298cd37e",
+    "data/orcs/publication-index.json": "63cb33b7095108e7a0776950e9c258e7b65fe148ca6b12ae75cd4dd914ad6c89",
+    "data/cellosaurus/orcs-annotations/annotations.json": "33b6805ae8016ec1b6f394d17d4b61adf7add48ffdd06f05ae0e144cd59da725"
+  },
+  "profile_sha256": "7938692b619609257e699897a15324d664a111d9011de7d15f3551d49c5a848c",
+  "duplicate_publication_join_keys": [],
+  "publications_missing_join_identity": 0,
+  "runner_support": "available: python -m deathmap_ai.orcs_crispr_pilot",
+  "evidence_export_support": "v6 enabled for active CRISPR pilot; historical knockout-v01 remains protected",
+  "candidate_rules_evaluated": false,
+  "network_requests": 0
+}

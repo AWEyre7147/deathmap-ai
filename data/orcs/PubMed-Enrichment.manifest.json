@@ -1,0 +1,242 @@
+{
+  "schema_version": "pubmed-enrichment-v1",
+  "publication_index_count": 418,
+  "retrieved_pmids": 415,
+  "unresolved": [
+    {
+      "publication_id": "657",
+      "source_id": "https://www.biorxiv.org/content/10.1101/2020.08.27.270819v1.full",
+      "status": "no_verified_pmid"
+    },
+    {
+      "publication_id": "842",
+      "source_id": "10.1101/2023.01.23.525275",
+      "status": "no_verified_pmid"
+    },
+    {
+      "publication_id": "1054",
+      "source_id": "10.1101/2024.05.08.593110",
+      "status": "no_verified_pmid"
+    }
+  ],
+  "requests": 90,
+  "database_sha256": "7a527c51e237c66cc213dd965fccfa3975514f39d8605d72f02f77e7ed3d72b4",
+  "source": "data/orcs/pubmed-enrichment-source/20261008",
+  "row_counts": {
+    "Publication": 415,
+    "Repository Records": 572,
+    "SRA Accessions": 5822,
+    "MeSH": 2781,
+    "MeSH Links": 6724
+  },
+  "unique_repository_records": 558,
+  "source_code_sha256": {
+    "pubmed_enrichment.py": "54e1eef38768f19c577328edbe2286d763aafad31fd503d38df52947f18ba634",
+    "pubmed_projection.py": "bb074eb8e0ae048fc915a8aaccdcdde77925b312e76e14af09fccf76b10e9413",
+    "pubmed_workbook.py": "6277534dc88ce3a499a9d26859a4716528257fd3ce301843a6172e0d3988d171",
+    "pubmed_milestone.py": "c7fbb1ab5272e1481568efc227d834c733b634d5385dd610e0c43de09e879379"
+  },
+  "outputs": [
+    {
+      "workbook": "data/orcs/PubMed-Enrichment.xlsx",
+      "input": "whole_orcs",
+      "publication_count": 418,
+      "retrieved_publications": 415,
+      "unresolved_publications": [
+        {
+          "publication_id": "657",
+          "source_id": "https://www.biorxiv.org/content/10.1101/2020.08.27.270819v1.full",
+          "status": "no_verified_pmid"
+        },
+        {
+          "publication_id": "842",
+          "source_id": "10.1101/2023.01.23.525275",
+          "status": "no_verified_pmid"
+        },
+        {
+          "publication_id": "1054",
+          "source_id": "10.1101/2024.05.08.593110",
+          "status": "no_verified_pmid"
+        }
+      ],
+      "row_counts": {
+        "Publication": 415,
+        "Repository Records": 572,
+        "SRA Accessions": 5822,
+        "MeSH Links": 6724,
+        "MeSH": 2781
+      },
+      "database": "data/orcs/pubmed-enrichment.json",
+      "database_sha256": "7a527c51e237c66cc213dd965fccfa3975514f39d8605d72f02f77e7ed3d72b4",
+      "template_sha256": "ece24166671a5e44db31524b7402813322594c48c7181fdffc82489cd316be13",
+      "workbook_sha256": "37ba1081ba4e1ce5b03d55e034f1f99ecbabdd588df268debbeac1a2d06f3250",
+      "scope": "Direct PubMed links only; no repository hierarchy expansion or exact screen attribution",
+      "date_policy": "Literal text MM;DD;YYYY; partial MM;YYYY or YYYY",
+      "created_utc": "2026-10-08T23:20:54.112400+00:00",
+      "verification": "Every projected row, XML compatibility namespaces and template preservation checked"
+    },
+    {
+      "workbook": "outputs/orcs/cancer-cell-crispr-knockout-v01/20261008T013854733762Z/pubmed-enrichment/PubMed-Enrichment.xlsx",
+      "input": "outputs\\orcs\\cancer-cell-crispr-knockout-v01\\20261008T013854733762Z\\projection.json",
+      "publication_count": 93,
+      "retrieved_publications": 93,
+      "unresolved_publications": [],
+      "row_counts": {
+        "Publication": 93,
+        "Repository Records": 182,
+        "SRA Accessions": 1908,
+        "MeSH Links": 1619,
+        "MeSH": 919
+      },
+      "database": "data/orcs/pubmed-enrichment.json",
+      "database_sha256": "7a527c51e237c66cc213dd965fccfa3975514f39d8605d72f02f77e7ed3d72b4",
+      "template_sha256": "ece24166671a5e44db31524b7402813322594c48c7181fdffc82489cd316be13",
+      "workbook_sha256": "ddd4ea13baba6975427c6bf4beef396f171fddb9f133169fdfbfc47bd923d7df",
+      "scope": "Direct PubMed links only; no repository hierarchy expansion or exact screen attribution",
+      "date_policy": "Literal text MM;DD;YYYY; partial MM;YYYY or YYYY",
+      "created_utc": "2026-10-08T23:20:54.908383+00:00",
+      "verification": "Every projected row, XML compatibility namespaces and template preservation checked",
+      "input_projection_sha256": "8f12b3189d3770c2c9d0d365278f274a6c36b054221636b2fe9a565a6c098a1a"
+    },
+    {
+      "workbook": "outputs/orcs/cancer-cell-crispr-knockout-v02/20261008T013918054722Z/pubmed-enrichment/PubMed-Enrichment.xlsx",
+      "input": "outputs\\orcs\\cancer-cell-crispr-knockout-v02\\20261008T013918054722Z\\projection.json",
+      "publication_count": 231,
+      "retrieved_publications": 230,
+      "unresolved_publications": [
+        {
+          "publication_id": "PUB-0134",
+          "status": "no_verified_pmid"
+        }
+      ],
+      "row_counts": {
+        "Publication": 230,
+        "Repository Records": 343,
+        "SRA Accessions": 3471,
+        "MeSH Links": 3791,
+        "MeSH": 1703
+      },
+      "database": "data/orcs/pubmed-enrichment.json",
+      "database_sha256": "7a527c51e237c66cc213dd965fccfa3975514f39d8605d72f02f77e7ed3d72b4",
+      "template_sha256": "ece24166671a5e44db31524b7402813322594c48c7181fdffc82489cd316be13",
+      "workbook_sha256": "cbf98a72357e778c244343dbb7a038f8bd0ef43c0f74d100c9bd372253ff6f68",
+      "scope": "Direct PubMed links only; no repository hierarchy expansion or exact screen attribution",
+      "date_policy": "Literal text MM;DD;YYYY; partial MM;YYYY or YYYY",
+      "created_utc": "2026-10-08T23:20:56.545616+00:00",
+      "verification": "Every projected row, XML compatibility namespaces and template preservation checked",
+      "input_projection_sha256": "02d8fdd39b53a26b52e085c6c757cb43998f6b41adbd815c60843b472f72ae8a"
+    },
+    {
+      "workbook": "outputs/orcs/orcs-crispr-biological-classes-pilot-v01/20261009T000854143096Z/pubmed-enrichment/PubMed-Enrichment.xlsx",
+      "input": "outputs/orcs/orcs-crispr-biological-classes-pilot-v01/20261009T000854143096Z/projection.json",
+      "input_projection_sha256": "03a901f50cfced4f6e30b88e19f94cd373b5d48dc209dfab1b505c2aff3f8044",
+      "publication_count": 328,
+      "retrieved_publications": 327,
+      "unresolved_publications": [
+        {
+          "publication_id": "PUB-0201",
+          "status": "no_verified_pmid"
+        }
+      ],
+      "row_counts": {
+        "Publication": 327,
+        "Repository Records": 470,
+        "SRA Accessions": 4857,
+        "MeSH Links": 5437,
+        "MeSH": 2379
+      },
+      "database": "data/orcs/pubmed-enrichment.json",
+      "database_sha256": "7a527c51e237c66cc213dd965fccfa3975514f39d8605d72f02f77e7ed3d72b4",
+      "template_sha256": "ece24166671a5e44db31524b7402813322594c48c7181fdffc82489cd316be13",
+      "workbook_sha256": "8619b5290e4998004b093bd4b5f0692d3425c080f9b0b3986bfc4ad6c378d7d1",
+      "created_utc": "2026-10-09T00:09:59.369135+00:00",
+      "scope": "Existing shared PubMed database subset; zero retrieval; no screen-dataset attribution",
+      "verification": "All projected rows and template preservation checked",
+      "date_policy": "Literal text MM;DD;YYYY; partial MM;YYYY or YYYY"
+    }
+  ],
+  "native_excel_open": [
+    {
+      "workbook": "data/orcs/PubMed-Enrichment.xlsx",
+      "sheets": 5,
+      "publication_rows": 415,
+      "date_text": "01;03;2014",
+      "date_format": "@",
+      "normal_read_only_open": true
+    },
+    {
+      "workbook": "outputs/orcs/cancer-cell-crispr-knockout-v01/20261008T013854733762Z/pubmed-enrichment/PubMed-Enrichment.xlsx",
+      "sheets": 5,
+      "publication_rows": 93,
+      "date_text": "01;03;2014",
+      "date_format": "@",
+      "normal_read_only_open": true
+    },
+    {
+      "workbook": "outputs/orcs/cancer-cell-crispr-knockout-v02/20261008T013918054722Z/pubmed-enrichment/PubMed-Enrichment.xlsx",
+      "sheets": 5,
+      "publication_rows": 230,
+      "date_text": "01;03;2014",
+      "date_format": "@",
+      "normal_read_only_open": true
+    },
+    {
+      "workbook": "outputs/orcs/orcs-crispr-biological-classes-pilot-v01/20261009T000854143096Z/pubmed-enrichment/PubMed-Enrichment.xlsx",
+      "sheets": 5,
+      "publication_rows": 327,
+      "date_text": "01;03;2014",
+      "date_format": "@",
+      "normal_read_only_open": true
+    }
+  ],
+  "focused_tests": "Four standard-library fixture checks passed; all output rows and namespaces checked; one export pass",
+  "executed_source_directory": "data/orcs/pubmed-enrichment-source/20261008/code-used",
+  "documentation_only_current_source_sha256": {
+    "pubmed_enrichment.py": "6630c29453c677ca0f4ba11b312f063302267870ca2489a04e8bbd9c1a6ce0f8",
+    "pubmed_projection.py": "5c8517b0a55d8ae08b5e81bd027137ceb4d564bdcb2f6861ec350d1f7d6b887a",
+    "pubmed_workbook.py": "432497317310e7b5d8e66a2d36e39f1cd4367a1894db9f31dada27d2c528c94e",
+    "pubmed_milestone.py": "2a727e83ac9a1753d1911850d01af9682a2992f5e79db3af972c40dde30b7b93"
+  },
+  "documentation_verification": "Executed source snapshots match original run hashes; current sources differ only in docstrings; executable ASTs equal; syntax checked; no retrieval/export repeated",
+  "visual_review": "All five shared-workbook sheet previews inspected",
+  "superseded_outputs": [
+    {
+      "workbook": "outputs/orcs/orcs-crispr-biological-classes-pilot-v01/20261008T013933234708Z/pubmed-enrichment/PubMed-Enrichment.xlsx",
+      "input": "outputs\\orcs\\orcs-crispr-biological-classes-pilot-v01\\20261008T013933234708Z\\projection.json",
+      "publication_count": 328,
+      "retrieved_publications": 327,
+      "unresolved_publications": [
+        {
+          "publication_id": "PUB-0201",
+          "status": "no_verified_pmid"
+        }
+      ],
+      "row_counts": {
+        "Publication": 327,
+        "Repository Records": 470,
+        "SRA Accessions": 4857,
+        "MeSH Links": 5437,
+        "MeSH": 2379
+      },
+      "database": "data/orcs/pubmed-enrichment.json",
+      "database_sha256": "7a527c51e237c66cc213dd965fccfa3975514f39d8605d72f02f77e7ed3d72b4",
+      "template_sha256": "ece24166671a5e44db31524b7402813322594c48c7181fdffc82489cd316be13",
+      "workbook_sha256": "fcb99bdb8541f50262f203491addb58d100a958dfae36eebcbb9e516a55687ac",
+      "scope": "Direct PubMed links only; no repository hierarchy expansion or exact screen attribution",
+      "date_policy": "Literal text MM;DD;YYYY; partial MM;YYYY or YYYY",
+      "created_utc": "2026-10-08T23:20:58.939886+00:00",
+      "verification": "Every projected row, XML compatibility namespaces and template preservation checked",
+      "input_projection_sha256": "03a901f50cfced4f6e30b88e19f94cd373b5d48dc209dfab1b505c2aff3f8044"
+    }
+  ],
+  "superseded_native_excel_checks": [
+    {
+      "workbook": "outputs/orcs/orcs-crispr-biological-classes-pilot-v01/20261008T013933234708Z/pubmed-enrichment/PubMed-Enrichment.xlsx",
+      "sheets": 5,
+      "publication_rows": 327,
+      "date_text": "01;03;2014",
+      "date_format": "@",
+      "normal_read_only_open": true
+    }
+  ]
+}

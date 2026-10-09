@@ -1,13 +1,56 @@
-# GitHub preparation
+# GitHub preparation — PubMed milestone, 2026-10-08
 
-## [GH1] Source package
-Retain the current ORCS pipeline, three profiles, saved metadata, main template and backup, and [latest ORCS outputs](../outputs/orcs/README.md). Duplicate examples are removed. Earlier reviewed runs and retired implementations are preserved externally with hashes.
+The PubMed milestone is complete and curated files are prepared for owner
+review before committing and pushing. The owner authorized commit and push
+after resolved-error cleanup on October 8. The checkout contained broader ORCS/documentation
+changes before this work; those changes have been preserved.
 
-## [GH2] Next version
-The owner-finalized template is active and ORCS searches export Excel automatically through Python/openpyxl. [v0.2 planning](development/v02%20-%20Repository%20native%20discovery/README.md) covers native discovery and ORCS enrichment. The executable package remains v0.1.0. Native adapters await approved resource contracts; output formatting refinements are deferred at the owner's request.
+## Included milestone deliverables
 
-## [GH3] Publication
-No commit, remote creation, push or PR has been authorized. Repository preparation precedes the final project document and publication request.
+- Final `data/templates/PubMed-Enrichment.xlsx` and its manifest.
+- Shared `data/orcs/pubmed-enrichment.json`, Excel view and manifests.
+- Native NCBI batches and URL/date/hash receipts under
+  `data/orcs/pubmed-enrichment-source/20261008/`.
+- An enrichment workbook and manifest inside each retained ORCS run.
+- Reusable modules, focused tests, milestone report and usage documentation.
 
-## [GH4] Verification
-The supported offline suite has 75 tests. Final release-candidate checks are recorded in `logs/release-preparation/final-readiness.json`. Automated workbook values match canonical projections for the three retained runs; native Excel opening remains a separate check.
+The batches contain publication metadata and repository summaries, not
+full-text articles or experimental data. Third-party content retains upstream
+terms; see [third-party notices](../THIRD_PARTY_NOTICES.md).
+
+## Verification and cleanup
+
+Four focused fixture tests passed. Every workbook row matched its expected
+projection; namespace and template preservation checks passed. All four
+workbooks opened normally in Excel, and five sheet previews of the shared
+workbook were inspected. One enrichment pass and one four-workbook export pass
+completed; no ORCS rebuild occurred.
+
+Final code-commenting updates changed docstrings only. Executed source snapshots
+are retained with their original hashes, and current executable ASTs were
+verified equal without another retrieval/export. Current documentation hashes
+are recorded separately; original run provenance was not rewritten.
+
+Superseded experiments and template versions were removed from the active tree
+after a verified byte-preserving archive. The [cleanup receipt](development/v02%20-%20ORCS%20Pilot%20Enrichment/pubmed-cleanup-receipt.json)
+records paths and hashes. The external archive is recovery material; active
+reproduction does not depend on it. Temporary authoring support is excluded
+from Git. Public response batches are retained for offline reproducibility.
+
+## Remaining boundaries
+
+Three ORCS publications have no verified PMID and remain unresolved. Direct
+PubMed links do not establish complete repository coverage or qualifying
+screen-dataset attribution. GEO, BioStudies–ArrayExpress and ENA enrichment are
+the next separately scoped goals. See [the PubMed milestone](development/v02%20-%20ORCS%20Pilot%20Enrichment/pubmed-milestone.md).
+
+Resolved error details have been archived, and current readiness records show
+no remaining workbook-hash mismatch. Archive and rerun receipts are retained.
+
+The earlier biological-classes ORCS workbook mismatch was resolved by an
+owner-requested offline rerun. The edited run is preserved in a verified archive,
+and its active copy was replaced by `20261009T000854143096Z` (UTC run identifier;
+generated October 8 locally). Its PubMed view was regenerated from the existing
+database without retrieval. All three active ORCS workbook/projection pairs now
+match their export receipts. Both replacement workbooks opened normally in
+Excel. See [the rerun receipt](development/v02%20-%20ORCS%20Pilot%20Enrichment/biological-classes-rerun-20261008.json).

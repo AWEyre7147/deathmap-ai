@@ -2,17 +2,17 @@
 
 ## [AG1] Source of truth
 
-The authoritative v0.1 specifications are located in
+The active project specifications are located in
 [`docs/specifications`](docs/specifications/README.md).
 
-Read `project-vision-v01.md`, `module-01-evidence-discovery.md`, and the current
-work-session specification before making consequential changes. If chat
+Read `project-vision-v01.md` and `module-01-evidence-discovery.md` before making
+consequential changes. If chat
 instructions and a written specification conflict, identify the conflict before
 proceeding.
 
 ## [AG2] Scope control
 
-- Implement only what the current module and work-session specifications require.
+- Implement only what the current project vision and module specification require.
 - Do not build the future reasoning layer, patient-context integration, graph
   interface, or generalized biomedical search engine during milestone 1.
 - Put useful but nonessential ideas in the backlog instead of implementing them.
@@ -38,7 +38,7 @@ proceeding.
 ## [AG4] Code readability
 
 All generated or substantially modified code must follow
-[`docs/code-commenting-standard.md`](docs/code-commenting-standard.md).
+[`code-commenting standard`](docs/workflow/global/coding/code-commenting-standard.md).
 
 Comments should help a scientifically trained reader understand intent,
 evidence-handling choices, non-obvious transformations, and failure behavior.
@@ -65,8 +65,8 @@ They must not merely translate each line of code into English.
 
 ## [AG7] Current constraints
 
-- Follow [release preparation](docs/specifications/18%20Repository%20Native%20Discovery%20Release%20Preparation.md) and the current work session. Retired SQ01 contracts are historical, not current defaults.
-- Preserve ORCS vocabulary and saved source metadata. No live enrichment or experimental-file download is authorized in release preparation.
+- Follow the active project vision and module specification. Historical task notes and retired SQ01 contracts do not authorize new work.
+- Preserve ORCS vocabulary and saved source metadata. The owner-authorized PubMed milestone is complete; release preparation alone does not authorize additional live enrichment. GEO, BioStudies–ArrayExpress and ENA passes require their own accepted contracts. Experimental-file downloads remain out of scope.
 - Preserve the owner's edited workbooks byte-for-byte. Export only into new run directories. Promote the repaired template only after owner approval.
 - Keep validation references outside production discovery; no benchmark identifiers as query inputs or production dependencies.
 - Historical artifacts may be archived with unchanged bytes and hash/path receipts. No commit, push or PR without an explicit owner request.
@@ -89,3 +89,43 @@ Example of an unhelpful boundary: retaining ORCS-only restrictions during a
 later dataset-attribution stage would leave accessions unresolved even when the
 publication or repository supplies decisive evidence. At that stage, propose a
 separate external-enrichment pass.
+
+## [AG9] Conversation workflow
+
+- Read [user and AI-agent responsibilities](docs/workflow/project/AI-agent-workflow/responsibilities.md).
+- Read [point accessions](docs/workflow/global/AI-agent-workflow/accession-labels.md),
+  [notation status](docs/workflow/global/AI-agent-workflow/user-notation.md), and
+  [project notes](docs/workflow/project/AI-agent-workflow/project-notes.md).
+- Follow the adopted accession-label note: bold A1/A2 items in the first reply,
+  B1/B2 in the second, and subsequent letter series per reply. Commentary and
+  final text share the reply letter and consume distinct point numbers. Preserve
+  historical quoted IDs; never retrospectively renumber them.
+- The Explore/Remember/Decide/Do notation is proposed and not yet adopted.
+  Use clear ordinary language to distinguish authorization from speculation.
+- Record accepted decisions and unapproved ideas separately in the current
+  iteration under `docs/development/v02 - ORCS Pilot Enrichment/`.
+- Files under workflow/global are reusable local drafts, not instructions
+  installed across other projects. Project-note recording is a DeathMap-AI trial.
+- The former ChatGPT–Perplexity collaborative workflow is retired; do not require
+  Perplexity handoffs or treat its suggestions as authoritative.
+- Apply [Codex handoff rules](docs/workflow/global/AI-agent-workflow/codex-handoff-rules.md)
+  when scoping or writing Codex tasks. Include bounded deliverables, effort,
+  exclusions, verification, expensive-pass limits, checkpoints and stopping rules.
+  Previously accepted authorization and explicit owner instructions take precedence.
+- [Repeated rebuild incident](docs/workflow/global/AI-agent-workflow/incident-repeated-rebuilds.md)
+  is historical supporting context, not a new audit or execution instruction.
+  Documentation-only tasks authorize zero full rebuild/export passes by default.
+
+## [AG10] Specification templates and lifecycle
+
+- Reusable templates are in `docs/workflow/global/specifications/`: project vision,
+  module specification and their structure. Templates are standalone and omit
+  cross-document dependencies.
+- A current-work-session specification is not required by the new template
+  structure. Existing accepted specifications retain their authority until an
+  explicitly authorized revision or migration; do not silently delete them.
+- Session logs may record work without becoming specifications or granting
+  implementation authorization.
+- [Specification lifecycle](docs/workflow/global/AI-agent-workflow/specification-lifecycle.md)
+  is pending. Rules for new versions, updates and additional specifications must
+  be agreed before automatic lifecycle behavior is introduced.

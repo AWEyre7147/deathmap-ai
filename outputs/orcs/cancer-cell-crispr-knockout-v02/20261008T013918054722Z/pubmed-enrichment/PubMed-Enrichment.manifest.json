@@ -1,0 +1,27 @@
+{
+  "input": "outputs\\orcs\\cancer-cell-crispr-knockout-v02\\20261008T013918054722Z\\projection.json",
+  "publication_count": 231,
+  "retrieved_publications": 230,
+  "unresolved_publications": [
+    {
+      "publication_id": "PUB-0134",
+      "status": "no_verified_pmid"
+    }
+  ],
+  "row_counts": {
+    "Publication": 230,
+    "Repository Records": 343,
+    "SRA Accessions": 3471,
+    "MeSH Links": 3791,
+    "MeSH": 1703
+  },
+  "database": "data/orcs/pubmed-enrichment.json",
+  "database_sha256": "7a527c51e237c66cc213dd965fccfa3975514f39d8605d72f02f77e7ed3d72b4",
+  "template_sha256": "ece24166671a5e44db31524b7402813322594c48c7181fdffc82489cd316be13",
+  "workbook_sha256": "cbf98a72357e778c244343dbb7a038f8bd0ef43c0f74d100c9bd372253ff6f68",
+  "scope": "Direct PubMed links only; no repository hierarchy expansion or exact screen attribution",
+  "date_policy": "Literal text MM;DD;YYYY; partial MM;YYYY or YYYY",
+  "created_utc": "2026-10-08T23:20:56.545616+00:00",
+  "verification": "Every projected row, XML compatibility namespaces and template preservation checked",
+  "input_projection_sha256": "02d8fdd39b53a26b52e085c6c757cb43998f6b41adbd815c60843b472f72ae8a"
+}

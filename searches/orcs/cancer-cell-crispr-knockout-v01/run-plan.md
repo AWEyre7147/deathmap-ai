@@ -7,7 +7,7 @@ subsequent local run of [the filter profile](profile.json).
 No filter runner has been implemented or executed in this planning step.
 
 Subsequent owner authorization is recorded in
-[11 ORCS Filter Run and Excel Handoff](../../../docs/specifications/18%20Repository%20Native%20Discovery%20Release%20Preparation.md).
+[11 ORCS Filter Run and Excel Handoff](../../../docs/development/v02%20-%20ORCS%20Pilot%20Enrichment/specification-history/18%20Repository%20Native%20Discovery%20Release%20Preparation.md).
 It adds publication-sibling context and Excel population using the selected blank
 reference workbook, superseding this plan's JSON-only output boundary for the new run.
 

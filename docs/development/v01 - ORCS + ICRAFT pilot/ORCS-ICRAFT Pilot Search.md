@@ -38,12 +38,6 @@ All nine combinations and the underlying row-level joins are available in `evalu
 - **Table S4, `mmc4`**: 54 selected integrative-analysis metadata records, `Table S6!A3:K56`. Despite the worksheet name, its title identifies it as Table S4; it is not an additional complete dataset denominator.
 - **Table S8, `mmc8`**: a patient-level alteration table with cBioPortal `studyId` in `Table S13!C4`. Cohort counting groups populated study IDs; only cohort metadata is retained in the delivered package, not patient-level records.
 
-The supplied `mmc8` is **not the ICB RNA-seq cohort list** shown on the website. It contains cBioPortal cancer cohorts and genotype information for an autoimmune-associated gene analysis. Consequently, the clinical supplemental, website, and inventory sets are not three nested availability tiers of one collection; treating them that way would give misleading counts.
-
-All 97 supplemental cohort IDs were resolved to current cBioPortal study metadata. Ninety cohorts had linked PMIDs, yielding 71 distinct PMIDs after deduplication; seven had no linked PMID. Some studies, especially TCGA PanCancer Atlas cohorts, link to multiple papers, so the count is of cBioPortal-linked publications rather than one original publication per cohort.
-
-The seven unresolved study-to-publication links are `all_phase2_target_2018_pub`, `aml_target_2018_pub`, `biliary_tract_summit_2022`, `mds_iwg_2022`, `nbl_target_2018_pub`, `rt_target_2018_pub`, and `wt_target_2018_pub`. They are retained as unresolved, not counted as confirmed ORCS absences. Current cBioPortal bibliography is used only for evaluation, never as a discovery input.
-
 ### Website-listed is not downloaded
 
 The [ICRAFT website](https://icraft.pku-genomics.org/) provides separate CRISPR, single-cell, and immunotherapy-cohort resources. This comparison snapshots metadata through its read-only listing endpoints, rather than downloading or testing the experimental files.

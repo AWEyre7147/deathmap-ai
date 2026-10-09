@@ -66,7 +66,7 @@ def export(run, template):
                     cell.value=value
                     # A repository's text is never executable spreadsheet code.
                     if isinstance(value,str):cell.data_type='s'
-                    if field in {'source_link','pmid_link','doi_link'} and value:
+                    if field in {'source_link','pmid_link','doi_link','pmc_link'} and value:
                         if not isinstance(value,str) or not value.startswith(('http://','https://')):raise ValueError('Invalid native URL')
                         cell.hyperlink=value
                     if field in REVIEW_FIELDS.get(name,set()):

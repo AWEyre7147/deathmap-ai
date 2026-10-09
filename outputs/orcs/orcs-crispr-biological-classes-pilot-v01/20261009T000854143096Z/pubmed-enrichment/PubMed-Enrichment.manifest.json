@@ -1,0 +1,27 @@
+{
+  "input": "outputs/orcs/orcs-crispr-biological-classes-pilot-v01/20261009T000854143096Z/projection.json",
+  "input_projection_sha256": "03a901f50cfced4f6e30b88e19f94cd373b5d48dc209dfab1b505c2aff3f8044",
+  "publication_count": 328,
+  "retrieved_publications": 327,
+  "unresolved_publications": [
+    {
+      "publication_id": "PUB-0201",
+      "status": "no_verified_pmid"
+    }
+  ],
+  "row_counts": {
+    "Publication": 327,
+    "Repository Records": 470,
+    "SRA Accessions": 4857,
+    "MeSH Links": 5437,
+    "MeSH": 2379
+  },
+  "database": "data/orcs/pubmed-enrichment.json",
+  "database_sha256": "7a527c51e237c66cc213dd965fccfa3975514f39d8605d72f02f77e7ed3d72b4",
+  "template_sha256": "ece24166671a5e44db31524b7402813322594c48c7181fdffc82489cd316be13",
+  "workbook_sha256": "8619b5290e4998004b093bd4b5f0692d3425c080f9b0b3986bfc4ad6c378d7d1",
+  "created_utc": "2026-10-09T00:09:59.369135+00:00",
+  "scope": "Existing shared PubMed database subset; zero retrieval; no screen-dataset attribution",
+  "verification": "All projected rows and template preservation checked",
+  "date_policy": "Literal text MM;DD;YYYY; partial MM;YYYY or YYYY"
+}

@@ -1,7 +1,17 @@
-# Repository-native discovery planning
+# Resource research
 
-The owner will inspect each repository's native filters and literal queries. AI then checks the programmatic equivalents against small inspectable examples. Supported filter fields and values come first; text criteria cover scientific properties without usable structured fields.
+These notes describe interfaces, filters and repository hierarchies for evaluation during v02 ORCS enrichment. They are research references, not accepted query configurations, guarantees of current API behavior or implementation authorization. Examples do not define scientific eligibility.
 
-GEO is the first planned interface to resolve. [Resource coverage](repository-coverage.md) lists the remaining families. Historical notes in `native-interface-research` are observations to verify, not approved retrieval contracts. Browser and programmatic behavior can differ.
+The owner curates native-interface documentation and evaluates ORCS publication overlap. AI agents compare the relevant programmatic interface and propose a bounded metadata-retrieval contract. Record missing, uncertain or unverified capabilities rather than assuming browser filters have API equivalents.
 
-Before implementation, approve record hierarchy, endpoints, literal queries, pagination, pacing, retry/resume rules and output evidence. Keep independent discovery separate from publication-seeded ORCS enrichment. Publication association alone does not prove that a dataset contains a qualifying screen.
+## Repository notes
+
+- [GEO](databases/primary/NCBI%20GEO.md)
+- [ENA](databases/primary/ENA.md)
+- [ArrayExpress within BioStudies](databases/primary/BioStudies%20-%20ArrayExpress.md)
+- [PRIDE](databases/proteomics/PRIDE.md), [MassIVE](databases/proteomics/MassIVE.md), [jPOST](databases/proteomics/jPOST.md), [iProX](databases/proteomics/iProX.md)
+- Secondary: [ExpressionAtlas](databases/secondary/ExpressionAtlas.md), [BioStudies literature](databases/secondary/BioStudies%20Literature.md)
+
+The primary/proteomics/secondary folders organize notes; their presence is not an approved implementation order. A literature or reanalysis record is not automatically an original experimental deposit. Follow native accession hierarchies and preserve source identity.
+
+Before implementation, agree the identifiers/seeds, endpoints, allowed metadata depth, pagination, pacing, retry/resume behavior, evidence mapping, resource limits and completion criteria. No experimental-file retrieval is authorized by these notes. OmicsDI's discovery route is retired.

@@ -1,7 +1,12 @@
-# DeathMap-AI specifications
+# Specifications
 
-## [SP-1] Current authority
+Read the [project vision](project-vision-v01.md) for purpose, scope and direction,
+then [module 1](module-01-evidence-discovery.md) for behavior, evidence rules,
+constraints and acceptance criteria. These use the adopted standalone templates.
 
-Read [project vision](project-vision-v01.md), [module 1](module-01-evidence-discovery.md), and the [current work session](work-session-next-stage.md). [Release preparation](18%20Repository%20Native%20Discovery%20Release%20Preparation.md) records the owner's current decisions, protected outputs and portable Excel requirement.
+The project is on v02 — ORCS Pilot Enrichment, currently defining repository-enrichment contracts for existing ORCS results. The installed package is still v0.1.0; that software version does not describe the current documentation iteration. No new
+repository adapter or screen-group assignment is authorized by this restructuring.
 
-Earlier numbered handoffs and OmicsDI/SQ01 implementations are historical and have been preserved in the owner's external archive with hash receipts. They supply no active query defaults or retrieval authorization.
+Work-session and release-preparation notes are historical records preserved under
+the current development iteration, rather than active specification types.
+Rules for future specification versions and additional modules remain pending.

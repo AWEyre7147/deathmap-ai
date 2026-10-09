@@ -1,0 +1,91 @@
+{
+  "archive": "C:\\Users\\aweyr\\Documents\\Archives\\deathmap-ai-v01-archive\\biological-classes-owner-edited-20261008.zip",
+  "archive_sha256": "63415ade03f805b876afb4a69629ca7d24726942c1dd16eaa9c34b927c953408",
+  "original_run": "outputs/orcs/orcs-crispr-biological-classes-pilot-v01/20261008T013933234708Z",
+  "files": [
+    {
+      "path": "outputs/orcs/orcs-crispr-biological-classes-pilot-v01/20261008T013933234708Z/evidence-ledger.jsonl",
+      "sha256": "3757f3fcc91a47535dce2d3bcef094bae563657ad7bdb7eb95aa4f09cff7a581"
+    },
+    {
+      "path": "outputs/orcs/orcs-crispr-biological-classes-pilot-v01/20261008T013933234708Z/preflight.json",
+      "sha256": "8eb0270ed4d9a3bc84fc2c7797574f3c241392761d176e06ab71115b5b8e9a47"
+    },
+    {
+      "path": "outputs/orcs/orcs-crispr-biological-classes-pilot-v01/20261008T013933234708Z/preservation.json",
+      "sha256": "6e6548797aa2405b651468f80ef1e68ca61ba21658926116a3088d25cb41e480"
+    },
+    {
+      "path": "outputs/orcs/orcs-crispr-biological-classes-pilot-v01/20261008T013933234708Z/profile.json",
+      "sha256": "7938692b619609257e699897a15324d664a111d9011de7d15f3551d49c5a848c"
+    },
+    {
+      "path": "outputs/orcs/orcs-crispr-biological-classes-pilot-v01/20261008T013933234708Z/projection.json",
+      "sha256": "03a901f50cfced4f6e30b88e19f94cd373b5d48dc209dfab1b505c2aff3f8044"
+    },
+    {
+      "path": "outputs/orcs/orcs-crispr-biological-classes-pilot-v01/20261008T013933234708Z/reference_annotations.json",
+      "sha256": "33b6805ae8016ec1b6f394d17d4b61adf7add48ffdd06f05ae0e144cd59da725"
+    },
+    {
+      "path": "outputs/orcs/orcs-crispr-biological-classes-pilot-v01/20261008T013933234708Z/run_manifest.json",
+      "sha256": "13cb9273ebe51b7cf3acfacaed38996e5db8298b1d1b7a134568bd3ccc140e56"
+    },
+    {
+      "path": "outputs/orcs/orcs-crispr-biological-classes-pilot-v01/20261008T013933234708Z/screen_audit.json",
+      "sha256": "d95e7ba47eef0adc462ed18ec1c4fc8619813c5a4eea736c289a28a2edb1c048"
+    },
+    {
+      "path": "outputs/orcs/orcs-crispr-biological-classes-pilot-v01/20261008T013933234708Z/source-projection.json",
+      "sha256": "d7b83b671c9ede072ee6a29798e0217c04256bf01213181b6e569e113d883b55"
+    },
+    {
+      "path": "outputs/orcs/orcs-crispr-biological-classes-pilot-v01/20261008T013933234708Z/summary.json",
+      "sha256": "2266464a53d5a1ea2800b72fb53fade63ce115c849282ec38a6f7ca1c2daee5e"
+    },
+    {
+      "path": "outputs/orcs/orcs-crispr-biological-classes-pilot-v01/20261008T013933234708Z/workbook-authored.xlsx",
+      "sha256": "0e7bb5f3634d884d93e2cb7854cb83b70ff905f39873941c60c67921a56e91b8"
+    },
+    {
+      "path": "outputs/orcs/orcs-crispr-biological-classes-pilot-v01/20261008T013933234708Z/workbook-export-manifest.json",
+      "sha256": "4f48c8c4f13d5fa5e02a196a00c1d0fbebbe8fd370828d1ac30dca8f193bd50b"
+    },
+    {
+      "path": "outputs/orcs/orcs-crispr-biological-classes-pilot-v01/20261008T013933234708Z/pubmed-enrichment/PubMed-Enrichment.manifest.json",
+      "sha256": "6764891a4204720ede3e3e30b5975c5fe11444640d9c38d994712d652fb18bb5"
+    },
+    {
+      "path": "outputs/orcs/orcs-crispr-biological-classes-pilot-v01/20261008T013933234708Z/pubmed-enrichment/PubMed-Enrichment.xlsx",
+      "sha256": "fcb99bdb8541f50262f203491addb58d100a958dfae36eebcbb9e516a55687ac"
+    }
+  ],
+  "verified": true,
+  "scope": "Owner-requested replacement of biological-classes run; profile unchanged; original edited workbook preserved",
+  "replacement_run": "outputs/orcs/orcs-crispr-biological-classes-pilot-v01/20261009T000854143096Z",
+  "replacement_workbook_sha256": "62df99199e2e4418d5539520d4b343b685bc67a95dc30a52cfa80c7bd6b59572",
+  "pubmed_workbook_sha256": "8619b5290e4998004b093bd4b5f0692d3425c080f9b0b3986bfc4ad6c378d7d1",
+  "verification": "Native Excel opening passed for both workbooks; projected PubMed rows checked; export hashes match; original input preservation passed",
+  "network_requests": 0,
+  "counts": {
+    "examined": 2217,
+    "direct_rule_candidates": 1830,
+    "publication_companions": 56,
+    "excluded": 331,
+    "retained_screens": 1886,
+    "seed_publications": 328,
+    "retained_publications": 328,
+    "rule_seed_counts": {
+      "C1_cancer_reference": 1735,
+      "C2_cancer_native_fallback": 37,
+      "C3_immune_lineage": 163,
+      "C4_organoid_model": 11
+    },
+    "companions_failing_common_filters": 15,
+    "retained_missing_publication_join": 0,
+    "retained_annotation_review_issues": 324,
+    "network_requests": 0,
+    "interpretation": "Unadjudicated candidates; no qualifying-study coverage or dataset accessibility claim."
+  },
+  "old_active_run_removed": true
+}

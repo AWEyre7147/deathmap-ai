@@ -52,3 +52,7 @@ The local collector is python -m deathmap_ai.orcs_publications with src on PYTHO
 For a later resource refresh, create a new dated collection and retain the original snapshot. The current collector implements this dated collection, not a generalized refresh scheduler.
 
 [Field-source map](../../docs/orcs/workbook-field-source-map.md) and [enrichment plan](../../docs/orcs/enrichment-plan.md) consider both complete catalogs. They plan future local joins; they do not enrich the previous search workbook.
+
+## [DB4] Completed PubMed enrichment
+
+The current publication index contains 418 records with 415 verified PMIDs. The shared [PubMed database](pubmed-enrichment.json), [Excel view](PubMed-Enrichment.xlsx), and [manifest](pubmed-enrichment.manifest.json) preserve retrieved publication metadata, direct GEO/BioProject associations, SRA accessions, MeSH pairs and unresolved entries. Three records without verified PMIDs remain unresolved. The earlier 412-PMID extraction counts above describe the source-page extraction before identifier enrichment. See [retrieval and interpretation](../../docs/pubmed-enrichment.md). Native batch responses and hashes are retained under `pubmed-enrichment-source/20261008/`.

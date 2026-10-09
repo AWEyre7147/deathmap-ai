@@ -10,4 +10,4 @@ deathmap-search-orcs --profile searches/orcs/cancer-cell-crispr-knockout-v01/pro
 
 The command searches saved ORCS metadata, applies saved Cellosaurus interpretation, preserves canonical JSON/evidence, and exports `workbook-authored.xlsx` using the main template. It performs no live source refresh or experimental download. Existing run directories and reviewed workbooks are refused.
 
-See [curated outputs](../../../outputs/orcs/README.md) and [current scope](../../../docs/specifications/work-session-next-stage.md). Publication companions remain distinct from direct candidates; repository attribution is deferred.
+See [curated outputs](../../../outputs/orcs/README.md) and [current scope](../../../docs/development/v02%20-%20ORCS%20Pilot%20Enrichment/specification-history/work-session-next-stage.md). Publication companions remain distinct from direct candidates; repository attribution is deferred.

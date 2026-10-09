@@ -1,0 +1,16 @@
+{
+  "name": "PubMed Enrichment",
+  "template": "data/templates/PubMed-Enrichment.xlsx",
+  "sha256": "ece24166671a5e44db31524b7402813322594c48c7181fdffc82489cd316be13",
+  "status": "owner_finalized",
+  "date_policy": "Text MM;DD;YYYY; partial MM;YYYY or YYYY",
+  "repository_columns": [
+    "PMID",
+    "Resource",
+    "Accession",
+    "Native Entity Level",
+    "Reported Data Type",
+    "Title",
+    "Description"
+  ]
+}

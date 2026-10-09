@@ -1,10 +1,10 @@
 # ORCS v02 run preparation
 
-Current update, 2026-10-07: [handoff 17](../../../docs/specifications/18%20Repository%20Native%20Discovery%20Release%20Preparation.md) authorizes and resolves the offline implementation below. The shared profile runner now supports this configuration; use `python -m deathmap_ai.orcs_crispr_pilot --profile searches/orcs/cancer-cell-crispr-knockout-v02/profile.json`. The supplied profile is unchanged. See `outputs/orcs/README.md` for the verified fresh package. The preparation sections below preserve the earlier planning stage.
+Current update, 2026-10-07: [handoff 17](../../../docs/development/v02%20-%20ORCS%20Pilot%20Enrichment/specification-history/18%20Repository%20Native%20Discovery%20Release%20Preparation.md) authorizes and resolves the offline implementation below. The shared profile runner now supports this configuration; use `python -m deathmap_ai.orcs_crispr_pilot --profile searches/orcs/cancer-cell-crispr-knockout-v02/profile.json`. The supplied profile is unchanged. See `outputs/orcs/README.md` for the verified fresh package. The preparation sections below preserve the earlier planning stage.
 
 ## [V02-R0] Accepted output evidence model
 
-Use [workbook v6 and its JSONL evidence ledger](../../../docs/specifications/18%20Repository%20Native%20Discovery%20Release%20Preparation.md) for this and subsequent outputs. The evidence adapter/exporter are implemented and fixture-verified; this does not implement or execute the v02 filtering runner below. Preserve v01 outputs without an ID map.
+Use [workbook v6 and its JSONL evidence ledger](../../../docs/development/v02%20-%20ORCS%20Pilot%20Enrichment/specification-history/18%20Repository%20Native%20Discovery%20Release%20Preparation.md) for this and subsequent outputs. The evidence adapter/exporter are implemented and fixture-verified; this does not implement or execute the v02 filtering runner below. Preserve v01 outputs without an ID map.
 ## [V02-R1] Purpose
 Prepare the owner-defined profile.json for a separate next ORCS search. This document records implementation requirements, not a completed run or an instruction to execute the v01 command.
 

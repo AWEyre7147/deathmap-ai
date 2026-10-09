@@ -113,6 +113,17 @@ def adapt(projection, native_screens, publications, annotations, manifest, profi
         if not matched:issues.append({'publication_id':row['publication_id'],'issue':'No exact shared publication source matched; retained values require separately attributed evidence'})
         for raw in matched:
             fields = [dest for key,dest in PUBLICATION_FIELDS.items() if row.get(dest) not in (None,'') and str(row[dest]) == str(raw.get(key))]
+            enriched=raw.get('IDENTIFIER_ENRICHMENT',{})
+            added=enriched.get('added_fields',[])
+            fields=[field for field in fields if field not in [k.lower() for k in added]]
+            for evidence in enriched.get('resolution',{}).get('evidence',[]):
+                supported=[k.lower() for k in added if evidence['identifiers'].get(k.lower())==row.get(k.lower()) and row.get(k.lower())]
+                if not supported:continue
+                src=source('NCBI publication identifier lookup','publication',raw['PUBLICATION_ID'],evidence,evidence['url'],
+                    'data/orcs/publication-index.json',evidence['retrieved_at'])
+                src['retrieval_method']='Exact PMID/DOI/PMCID lookup; cached NCBI metadata'
+                observe(src,'publication',row['publication_id'],supported,'NCBI supplies exact publication identifier mappings.',
+                    '; '.join(f'{k}={row[k]}' for k in supported),evidence)
             if not fields: continue
             transforms=[]
             if row.get('publication_year') is not None and str(raw.get('PUBLICATION_DATE',''))[:4] == str(row['publication_year']):

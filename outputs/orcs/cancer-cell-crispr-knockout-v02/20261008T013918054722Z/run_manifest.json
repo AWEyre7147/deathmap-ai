@@ -1,0 +1,40 @@
+{
+  "run_id": "20261008T013918054722Z",
+  "profile_id": "orcs-cancer-cell-crispr-v02",
+  "profile_version": 2,
+  "tool_version": "orcs-profile-refresh-v1.1",
+  "started_at": "2026-10-08T01:39:18.054722+00:00",
+  "cache_retrieved_at": "2026-09-04T21:39:41.990988+00:00",
+  "reference_retrieval_date": "2026-10-01",
+  "network_requests": 0,
+  "input_hashes": {
+    "data/orcs/screen-index.json": "3ace1de98615e857b5829c2fe50e8c106eb4df20030f86362d55f36a298cd37e",
+    "data/cellosaurus/orcs-annotations/annotations.json": "33b6805ae8016ec1b6f394d17d4b61adf7add48ffdd06f05ae0e144cd59da725",
+    "searches/orcs/cancer-cell-crispr-knockout-v02/profile.json": "7420d35c04c62486a37b49cdf8373b7c6f43e6634ebfe7ff757ef60b3eafa383",
+    "data/orcs/publication-index.json": "63cb33b7095108e7a0776950e9c258e7b65fe148ca6b12ae75cd4dd914ad6c89",
+    "data/templates/DeathMap-AI-output.xlsx": "701c8a30937961ecf1ef1728c7b273e26492964e223ae62185aecf98c838eb49"
+  },
+  "code_hashes": {
+    "src/deathmap_ai/orcs_crispr_pilot.py": "6a3cebc7ae1d1b349076a509132c43d613cac2497a9435971adfd34a6e8323b9",
+    "src/deathmap_ai/orcs_profile_rules.py": "bd1781bad24a4fbc4afcc22d886253825d08c159da85e7315b0ec49cc8935f30",
+    "src/deathmap_ai/orcs_filters.py": "01cb2cb30b276f10109e3f5ee037431c175e5cf659be2c6107f7724ee73bae18",
+    "src/deathmap_ai/orcs_fields.py": "98b5b9265765c7d2d4df36762139771d7febb1d318e256ff64c5794d1def1369",
+    "src/deathmap_ai/evidence_model.py": "f1235bc0461f7353a5889f380e30b81c64eda6166da49df6926833c5ed769287",
+    "src/deathmap_ai/orcs_evidence_v6.py": "4486f0564ea0a30bd662f941807762bc44b6e05f56aa870fb2adff139c44a92c"
+  },
+  "semantics": {
+    "missing": [
+      null,
+      "",
+      "-"
+    ],
+    "regex": "independent field search; IGNORECASE; no DOTALL",
+    "exact_values": "literal separator, case-sensitive",
+    "annotations": "exact native CELL_LINE lookup",
+    "classification": "candidate; no immune-pressure gate"
+  },
+  "status": "json_and_workbook_complete",
+  "primary_workbook": "workbook-authored.xlsx",
+  "workbook_sha256": "42d6f8496332449e33ebcc81da0578f52261a7879768cf6b7d6e4bdd777056a0",
+  "excel_writer": "openpyxl"
+}

@@ -16,6 +16,7 @@ dev = ["pytest>=8"]
 deathmap-orcs = "deathmap_ai.cli:main"
 deathmap-search-orcs = "deathmap_ai.orcs_crispr_pilot:main"
 deathmap-export-excel = "deathmap_ai.excel_export:main"
+deathmap-resolve-publication = "deathmap_ai.publication_identifiers:main"
 
 [tool.setuptools.package-data]
 deathmap_ai = ["reference_schema.json"]

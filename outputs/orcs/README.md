@@ -1,13 +1,15 @@
 # Curated ORCS outputs
 
-The latest run for each search is retained in Git. Earlier runs, including owner-reviewed workbooks, were preserved byte-for-byte in the external archive before removal from the working repository. The duplicate examples folder was removed.
+One identifier-enriched run per condition. Older workbooks are preserved in the verified external archive; no reviewed workbook was rewritten.
 
-| Search workbook | Retained run |
-|---|---|
-| [cancer-cell-crispr-knockout-v01](cancer-cell-crispr-knockout-v01/20261007T170553095782Z/workbook-authored.xlsx) | `20261007T170553095782Z` |
-| [cancer-cell-crispr-knockout-v02](cancer-cell-crispr-knockout-v02/20261007T170614266407Z/workbook-authored.xlsx) | `20261007T170614266407Z` |
-| [orcs-crispr-biological-classes-pilot-v01](orcs-crispr-biological-classes-pilot-v01/20261007T170625040205Z/workbook-authored.xlsx) | `20261007T170625040205Z` |
+| Search | Publications | PMID | DOI | PMCID |
+|---|---:|---:|---:|---:|
+| [cancer-cell-crispr-knockout-v01](cancer-cell-crispr-knockout-v01/20261008T013854733762Z/workbook-authored.xlsx) | 93 | 93 | 93 | 79 |
+| [cancer-cell-crispr-knockout-v02](cancer-cell-crispr-knockout-v02/20261008T013918054722Z/workbook-authored.xlsx) | 231 | 230 | 230 | 198 |
+| [orcs-crispr-biological-classes-pilot-v01](orcs-crispr-biological-classes-pilot-v01/20261009T000854143096Z/workbook-authored.xlsx) | 328 | 327 | 327 | 287 |
 
-Each run includes its profile, source projection, entity projection, evidence ledger, screen audit, summary, preservation receipt and workbook export manifest. The source catalogs were not refreshed. Excel is generated from canonical JSON with the owner-finalized template. New runs use new directories.
+Exact NCBI publication identifier lookups enrich the shared catalog before searches. Missing identifiers remain blank. Sources-sheet example counts are illustrative; use summary.json for actual screen counts. Publication associations are not screen-dataset attribution.
 
-Candidate counts overlap across profiles and must not be summed. Publication companions are distinct from direct-rule candidates. Dataset attribution and screen grouping await repository enrichment; empty sheets reflect that boundary. Reviewer notes are blank in fresh exports. Sources-sheet example counts are illustrative; use run summaries for measured counts. Automated value checks do not prove native Excel opening.
+## PubMed enrichment milestone
+
+Each retained run now has a `pubmed-enrichment/PubMed-Enrichment.xlsx` workbook and manifest. They use the shared `data/orcs/pubmed-enrichment.json` database and do not rerun the ORCS searches. The three workbooks contain 93, 230 and 327 retrieved publications respectively; the latter two each retain one unresolved no-PMID publication in their manifests. MeSH counts and associated PMID lists are recalculated for each subset. See [PubMed enrichment](../../docs/pubmed-enrichment.md).

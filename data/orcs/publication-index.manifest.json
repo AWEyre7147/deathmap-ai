@@ -40,7 +40,9 @@
     "REVIEW_ISSUES",
     "RETRIEVED_AT",
     "SOURCE_METADATA_FILE",
-    "SOURCE_METADATA_SHA256"
+    "SOURCE_METADATA_SHA256",
+    "PMCID",
+    "IDENTIFIER_ENRICHMENT"
   ],
   "fields_populated": {
     "PUBLICATION_ID": 418,
@@ -53,8 +55,8 @@
     "PUBLICATION_DATE": 418,
     "PAGE_SOURCE_TYPE": 418,
     "PAGE_SOURCE_ID": 418,
-    "PMID": 412,
-    "DOI": 5,
+    "PMID": 415,
+    "DOI": 417,
     "SUPPLEMENTARY_FILES": 418,
     "LINKS": 418,
     "SCREEN_IDS": 418,
@@ -64,7 +66,9 @@
     "REVIEW_ISSUES": 6,
     "RETRIEVED_AT": 418,
     "SOURCE_METADATA_FILE": 418,
-    "SOURCE_METADATA_SHA256": 418
+    "SOURCE_METADATA_SHA256": 418,
+    "PMCID": 364,
+    "IDENTIFIER_ENRICHMENT": 417
   },
   "review_publication_ids": [
     "475",
@@ -76,12 +80,12 @@
   ],
   "files": {
     "publication-index.json": {
-      "sha256": "0ebd60824abe9832d5eb45f3e65a8765c4a864af13c999476eb4deecb194e76d",
-      "bytes": 1551510
+      "sha256": "63cb33b7095108e7a0776950e9c258e7b65fe148ca6b12ae75cd4dd914ad6c89",
+      "bytes": 3452260
     },
     "publication-metadata.csv": {
-      "sha256": "a0a7b9779127918a4e3e534d084271ac5466df28029a0cd2ee08d42e187fd3f3",
-      "bytes": 1245359
+      "sha256": "bd77b3d17a0d1c8b348560f791d0699241060cf6ec202d357b2e3a19c537aa76",
+      "bytes": 2930465
     },
     "publication-screen-links.json": {
       "sha256": "cf6ad9bad3d657781969e77b4d9ff5b283a8da8bc05a4721477db7d5ce2aac2b",
@@ -105,5 +109,31 @@
     "842",
     "1054",
     "1165"
-  ]
+  ],
+  "identifier_enrichment": {
+    "tool": "publication_identifiers v1",
+    "retrieved_at": "2026-10-08T01:38:01.728864+00:00",
+    "backup_directory": "C:\\Users\\aweyr\\Documents\\Archives\\deathmap-ai-v01-archive\\publication-identifiers\\20261008T013746940740Z",
+    "backup_files": [
+      {
+        "file": "publication-index.json",
+        "sha256": "0ebd60824abe9832d5eb45f3e65a8765c4a864af13c999476eb4deecb194e76d"
+      },
+      {
+        "file": "publication-metadata.csv",
+        "sha256": "a0a7b9779127918a4e3e534d084271ac5466df28029a0cd2ee08d42e187fd3f3"
+      },
+      {
+        "file": "publication-index.manifest.json",
+        "sha256": "55a4e563e56a813d45c0072b33302df3a438545fb168311059732761e3036dca"
+      }
+    ],
+    "records_attempted": 417,
+    "status_counts": {
+      "resolved": 364,
+      "partial": 51,
+      "unresolved": 2,
+      "conflicting": 0
+    }
+  }
 }

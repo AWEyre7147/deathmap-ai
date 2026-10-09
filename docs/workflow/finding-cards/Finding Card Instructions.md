@@ -10,7 +10,7 @@ Use the supplied task and materials as the working context. Do not depend on mem
 
 ## Responsibilities
 
-- **Perplexity:** investigate resource interfaces, search/filter behavior, repository hierarchy, metadata availability, and concrete source examples. Prefer official documentation and original records.
+- **Project owner:** investigate repository interfaces and native search/filter behavior, curate documentation, and select questions requiring clarification. Optional external assistance may provide evidence; no specific AI service is required.
 - **ChatGPT:** compare findings with existing specifications and implementation; propose entity boundaries, evidence rules, stage order, review criteria, and necessary implementation changes.
 - **Project owner:** decide scientific eligibility, meaningful grouping, acceptable attribution evidence, and material scope changes.
 
@@ -26,7 +26,7 @@ Do not modify pipeline code, filters, the evidence model, historical outputs, or
 
 If no research task is supplied, request one. Reading this file alone does not authorize a discovery run, enrichment run, or repository-wide investigation.
 
-For OmicsDI tasks, establish implementation status and the approved filtering strategy from the current supplied baseline. If discovery is not confirmed operational, report that limitation before treating repository enrichment as the next executable step. Capability research may proceed to establish the missing strategy; it does not require an operational discovery pipeline. Preserve the ORCS pilot unless the current task explicitly authorizes a change.
+Current focus is repository enrichment of retained ORCS results. Research cards may describe native interfaces and observed examples; they do not authorize adapters or live retrieval. OmicsDI discovery is retired; any future accession-led lookup requires separate scope. Preserve ORCS outputs and separate publication association from screen-dataset attribution.
 
 ## Required task context
 
