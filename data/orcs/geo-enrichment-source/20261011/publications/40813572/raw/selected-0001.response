@@ -1,0 +1,175 @@
+<eSummaryResult><DocSum>
+	<Id>200280256</Id>
+	<Item Name="Accession" Type="String">GSE280256</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">Large-Scale CRISPR Screening in Primary Human 3D Gastric Organoids Enables Comprehensive Dissection of Gene-Drug Interactions [ATAC-seq]</Item>
+	<Item Name="summary" Type="String">Investigating gene-drug interactions is critical for advancing personalized medicine by revealing how genetic variations shape individual responses to medications. To achieve this goal, it is essential to develop a robust human functional genomics system that can accurately recapitulate normal physiology and disease while effectively accounting for the complexity and heterogeneity among individuals. We explored this potential in primary 3D human gastric organoids by implementing a wide range of large-scale CRISPR-based genetic screens, including CRISPR knockout, CRISPR interference (CRISPRi), CRISPR activation (CRISPRa), and single-cell CRISPR screens. Our cisplatin sensitization screens targeting 1,952 DNA-binding proteins identified numerous known genes associated with DNA repair pathways, along with previously unrecognized cisplatin sensitization loci. Individual validation of top hits further confirmed the robustness of the screening results. Furthermore, using multiplexed single-cell CRISPR screens to simultaneously extract individual sgRNAs and single-cell transcriptomes, we uncovered a convergence within DNA repair pathways in cisplatin-treated organoids compared to cisplatin-na&#239;ve organoids. These methods distinguished high-dimensional synergistic effects between sgRNAs and drug perturbations by leveraging each cell's gene expression profiles, improving the resolution to link genotypes with drug response phenotypes in organoids. Finally, we identified TAF6L as a novel cisplatin sensitization gene. Mechanistically, TAF6L is crucial for the proliferation of cell recovery following cisplatin-induced DNA damage response. In summary, diverse CRISPR-based functional genomics platforms can be successfully applied to human organoids, revealing new gene-drug interactions with implications for human disease.</Item>
+	<Item Name="GPL" Type="String">18573</Item>
+	<Item Name="GSE" Type="String">280256</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Genome binding/occupancy profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2025/06/23</Item>
+	<Item Name="suppFile" Type="String">BIGWIG</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8593251</Item>
+			<Item Name="Title" Type="String">ATAC_sgControl_Replicate</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8593248</Item>
+			<Item Name="Title" Type="String">ATAC_Control</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8593254</Item>
+			<Item Name="Title" Type="String">ATAC_TAF6L-GFP</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8593255</Item>
+			<Item Name="Title" Type="String">ATAC_TAF6L-GFP_Replicate</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8593252</Item>
+			<Item Name="Title" Type="String">ATAC_sgTAF6L</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8593249</Item>
+			<Item Name="Title" Type="String">ATAC_Control_Replicate</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8593253</Item>
+			<Item Name="Title" Type="String">ATAC_sgTAF6L_Replicate</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8593250</Item>
+			<Item Name="Title" Type="String">ATAC_sgControl</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List" />
+	<Item Name="n_samples" Type="Integer">8</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">40813572</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE280nnn/GSE280256/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200280257</Id>
+	<Item Name="Accession" Type="String">GSE280257</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">Large-Scale CRISPR Screening in Primary Human 3D Gastric Organoids Enables Comprehensive Dissection of Gene-Drug Interactions [RNA-seq]</Item>
+	<Item Name="summary" Type="String">Investigating gene-drug interactions is critical for advancing personalized medicine by revealing how genetic variations shape individual responses to medications. To achieve this goal, it is essential to develop a robust human functional genomics system that can accurately recapitulate normal physiology and disease while effectively accounting for the complexity and heterogeneity among individuals. We explored this potential in primary 3D human gastric organoids by implementing a wide range of large-scale CRISPR-based genetic screens, including CRISPR knockout, CRISPR interference (CRISPRi), CRISPR activation (CRISPRa), and single-cell CRISPR screens. Our cisplatin sensitization screens targeting 1,952 DNA-binding proteins identified numerous known genes associated with DNA repair pathways, along with previously unrecognized cisplatin sensitization loci. Individual validation of top hits further confirmed the robustness of the screening results. Furthermore, using multiplexed single-cell CRISPR screens to simultaneously extract individual sgRNAs and single-cell transcriptomes, we uncovered a convergence within DNA repair pathways in cisplatin-treated organoids compared to cisplatin-na&#239;ve organoids. These methods distinguished high-dimensional synergistic effects between sgRNAs and drug perturbations by leveraging each cell's gene expression profiles, improving the resolution to link genotypes with drug response phenotypes in organoids. Finally, we identified TAF6L as a novel cisplatin sensitization gene. Mechanistically, TAF6L is crucial for the proliferation of cell recovery following cisplatin-induced DNA damage response. In summary, diverse CRISPR-based functional genomics platforms can be successfully applied to human organoids, revealing new gene-drug interactions with implications for human disease.</Item>
+	<Item Name="GPL" Type="String">18573</Item>
+	<Item Name="GSE" Type="String">280257</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2025/06/23</Item>
+	<Item Name="suppFile" Type="String">TXT</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8593258</Item>
+			<Item Name="Title" Type="String">RNA_sgControl</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8593261</Item>
+			<Item Name="Title" Type="String">RNA_sgTAF6L_Replicate</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8593256</Item>
+			<Item Name="Title" Type="String">RNA_Control</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8593259</Item>
+			<Item Name="Title" Type="String">RNA_sgControl_Replicate</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8593257</Item>
+			<Item Name="Title" Type="String">RNA_TAF6L-GFP</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8593260</Item>
+			<Item Name="Title" Type="String">RNA_sgTAF6L</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List" />
+	<Item Name="n_samples" Type="Integer">6</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">40813572</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE280nnn/GSE280257/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200280506</Id>
+	<Item Name="Accession" Type="String">GSE280506</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">Large-Scale CRISPR Screening in Primary Human 3D Gastric Organoids Enables Comprehensive Dissection of Gene-Drug Interactions</Item>
+	<Item Name="summary" Type="String">Investigating gene-drug interactions is critical for advancing personalized medicine by revealing how genetic variations shape individual responses to medications. To achieve this goal, it is essential to develop a robust human functional genomics system that can accurately recapitulate normal physiology and disease while effectively accounting for the complexity and heterogeneity among individuals. We explored this potential in primary 3D human gastric organoids by implementing a wide range of large-scale CRISPR-based genetic screens, including CRISPR knockout, CRISPR interference (CRISPRi), CRISPR activation (CRISPRa), and single-cell CRISPR screens. Our cisplatin sensitization screens targeting 1,952 DNA-binding proteins identified numerous known genes associated with DNA repair pathways, along with previously unrecognized cisplatin sensitization loci. Individual validation of top hits further confirmed the robustness of the screening results. Furthermore, using multiplexed single-cell CRISPR screens to simultaneously extract individual sgRNAs and single-cell transcriptomes, we uncovered a convergence within DNA repair pathways in cisplatin-treated organoids compared to cisplatin-na&#239;ve organoids. These methods distinguished high-dimensional synergistic effects between sgRNAs and drug perturbations by leveraging each cell's gene expression profiles, improving the resolution to link genotypes with drug response phenotypes in organoids. Finally, we identified TAF6L as a novel cisplatin sensitization gene. Mechanistically, TAF6L is crucial for the proliferation of cell recovery following cisplatin-induced DNA damage response. In summary, diverse CRISPR-based functional genomics platforms can be successfully applied to human organoids, revealing new gene-drug interactions with implications for human disease.</Item>
+	<Item Name="GPL" Type="String">24676</Item>
+	<Item Name="GSE" Type="String">280506</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2025/06/26</Item>
+	<Item Name="suppFile" Type="String">CSV, H5, MTX, TSV, XLSX</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8599466</Item>
+			<Item Name="Title" Type="String">organoid, CRISPRi, Cisplatin, CROP-seq</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8599467</Item>
+			<Item Name="Title" Type="String">organoid, CRISPRa, DMSO, CROP-seq</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8599465</Item>
+			<Item Name="Title" Type="String">organoid, CRISPRi, DMSO, CROP-seq</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8599468</Item>
+			<Item Name="Title" Type="String">organoid, CRISPRa, Cisplatin, CROP-seq</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List" />
+	<Item Name="n_samples" Type="Integer">4</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">40813572</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE280nnn/GSE280506/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+</eSummaryResult>

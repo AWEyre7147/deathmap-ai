@@ -1,0 +1,445 @@
+<eSummaryResult><DocSum>
+	<Id>200149760</Id>
+	<Item Name="Accession" Type="String">GSE149760</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">ELOF1 is a transcription-coupled DNA repair factor that directs RNA polymerase II ubiquitylation</Item>
+	<Item Name="summary" Type="String">Removal of transcription-blocking DNA lesions requires the binding of transcription-coupled repair (TCR) factors to DNA damage-stalled RNA polymerase II (RNAPII). The full repertoire of factors required for TCR remains to be elucidated. Through genome-wide CRISPR screens and strand-specific ChIP-seq, we identify the RNAPII-associated factor ELOF1 as a new core TCR component. Mechanistically, ELOF1 does not affect the association of TCR components CSB and the CRL4CSA ubiquitin ligase, but instead regulates RNAPII ubiquitylation, and subsequent ubiquitin-dependent recruitment of repair factors. This function requires its constitutive interaction with RNAPII close to the K1268 site, revealing ELOF1 as a specificity factor that positions CRL4CSA for optimal RNAPII ubiquitylation to orchestrate transcription-coupled repair. Finally, ELOF1 operates in a second transcription stress-response pathway, regulated by the deubiquitylating enzyme OTUD5.</Item>
+	<Item Name="GPL" Type="String">16791;20301;24676;18573;20795</Item>
+	<Item Name="GSE" Type="String">149760</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing; Other</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2021/04/20</Item>
+	<Item Name="suppFile" Type="String">TXT, XLSX</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511909</Item>
+			<Item Name="Title" Type="String">ATACseq_WTMock_Rep2_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511992</Item>
+			<Item Name="Title" Type="String">RNAseq_WT_UV_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511912</Item>
+			<Item Name="Title" Type="String">BrUseqRep2_WT15m_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511949</Item>
+			<Item Name="Title" Type="String">DataTOgi_ELOFKOrep2_4h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511929</Item>
+			<Item Name="Title" Type="String">DataTOgi_WTrep2_4h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511975</Item>
+			<Item Name="Title" Type="String">RNAseq_CSBKO_Mock_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5014879</Item>
+			<Item Name="Title" Type="String">BrUseqRep4_ELOFKO60mDRB_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511969</Item>
+			<Item Name="Title" Type="String">ELOF1_UV_rep2_SPPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511932</Item>
+			<Item Name="Title" Type="String">DataTOgi_WTrep1_16h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511926</Item>
+			<Item Name="Title" Type="String">DataTOgi_WTrep1_1h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511972</Item>
+			<Item Name="Title" Type="String">CSB-KO_UV_6J8h_1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5014882</Item>
+			<Item Name="Title" Type="String">BrUseqRep5_ELOFKO60mDRB_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511989</Item>
+			<Item Name="Title" Type="String">RNAseq_WT_Mock_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511952</Item>
+			<Item Name="Title" Type="String">DataTOgi_ELOFKOrep1_16h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511946</Item>
+			<Item Name="Title" Type="String">DataTOgi_ELOFKOrep1_1h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511983</Item>
+			<Item Name="Title" Type="String">RNAseq_ELOFKO_Mock_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511986</Item>
+			<Item Name="Title" Type="String">RNAseq_ELOFKO_UV_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5100360</Item>
+			<Item Name="Title" Type="String">BrUseqRep3_ELOFKO8h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511940</Item>
+			<Item Name="Title" Type="String">DataTOgi_CSBKOrep1_8h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511920</Item>
+			<Item Name="Title" Type="String">BrUseqRep2_ELOFKO0h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511966</Item>
+			<Item Name="Title" Type="String">ELOF1_UV1hrs_rep1_SPPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511960</Item>
+			<Item Name="Title" Type="String">WT_UV_rep1_SPPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511923</Item>
+			<Item Name="Title" Type="String">BrUseqRep2_ELOFKO24h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511963</Item>
+			<Item Name="Title" Type="String">ELOF1_input_rep2_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5100363</Item>
+			<Item Name="Title" Type="String">BrUseqRep3_ELOFKO30mDRB_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511947</Item>
+			<Item Name="Title" Type="String">DataTOgi_ELOFKOrep2_1h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511943</Item>
+			<Item Name="Title" Type="String">DataTOgi_CSBKOrep2_16h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511921</Item>
+			<Item Name="Title" Type="String">BrUseqRep2_ELOFKO3h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511927</Item>
+			<Item Name="Title" Type="String">DataTOgi_WTrep2_1h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511964</Item>
+			<Item Name="Title" Type="String">ELOF1_mock_rep1_SPPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5014877</Item>
+			<Item Name="Title" Type="String">BrUseqRep4_WT60mDRB_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511984</Item>
+			<Item Name="Title" Type="String">RNAseq_ELOFKO_UV_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511967</Item>
+			<Item Name="Title" Type="String">ELOF1_UV1hrs_rep2_SPPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511944</Item>
+			<Item Name="Title" Type="String">DataTOgi_ELOFKOrep1_mock_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511987</Item>
+			<Item Name="Title" Type="String">RNAseq_WT_Mock_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511970</Item>
+			<Item Name="Title" Type="String">CSB-KO_mock_1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5100361</Item>
+			<Item Name="Title" Type="String">BrUseqRep3_ELOFKO24h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511918</Item>
+			<Item Name="Title" Type="String">BrUseqRep2_WT8h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511990</Item>
+			<Item Name="Title" Type="String">RNAseq_WT_UV_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511924</Item>
+			<Item Name="Title" Type="String">DataTOgi_WTrep1_mock_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511955</Item>
+			<Item Name="Title" Type="String">WT_input_rep2_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511958</Item>
+			<Item Name="Title" Type="String">WT_UV1h_rep1_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511941</Item>
+			<Item Name="Title" Type="String">DataTOgi_CSBKOrep2_8h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5100358</Item>
+			<Item Name="Title" Type="String">BrUseqRep3_ELOFKO0h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511915</Item>
+			<Item Name="Title" Type="String">BrUseqRep2_ELOFKO30m_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511938</Item>
+			<Item Name="Title" Type="String">DataTOgi_CSBKOrep1_4h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511978</Item>
+			<Item Name="Title" Type="String">RNAseq_CSBKO_UV_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511981</Item>
+			<Item Name="Title" Type="String">RNAseq_ELOFKO_Mock_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5100355</Item>
+			<Item Name="Title" Type="String">BrUseqRep3_WT3h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511935</Item>
+			<Item Name="Title" Type="String">DataTOgi_CSBKOrep2_mock_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511979</Item>
+			<Item Name="Title" Type="String">RNAseq_CSBKO_UV_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511961</Item>
+			<Item Name="Title" Type="String">WT_UV_rep2_SPPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5100359</Item>
+			<Item Name="Title" Type="String">BrUseqRep3_ELOFKO3h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511982</Item>
+			<Item Name="Title" Type="String">RNAseq_ELOFKO_Mock_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511939</Item>
+			<Item Name="Title" Type="String">DataTOgi_CSBKOrep2_4h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511919</Item>
+			<Item Name="Title" Type="String">BrUseqRep2_WT24h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511985</Item>
+			<Item Name="Title" Type="String">RNAseq_ELOFKO_UV_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511942</Item>
+			<Item Name="Title" Type="String">DataTOgi_CSBKOrep1_16h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511973</Item>
+			<Item Name="Title" Type="String">CSB-KO_UV_6J8h_2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511959</Item>
+			<Item Name="Title" Type="String">WT_UV1h_rep2_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511976</Item>
+			<Item Name="Title" Type="String">RNAseq_CSBKO_Mock_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5100362</Item>
+			<Item Name="Title" Type="String">BrUseqRep3_WT30mDRB_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511962</Item>
+			<Item Name="Title" Type="String">ELOF1_input_rep1_SPPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511910</Item>
+			<Item Name="Title" Type="String">ATACseq_ELOFKOMock_Rep1_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5014880</Item>
+			<Item Name="Title" Type="String">BrUseqRep4_ELOFKO30mDRB_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511922</Item>
+			<Item Name="Title" Type="String">BrUseqRep2_ELOFKO8h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511956</Item>
+			<Item Name="Title" Type="String">WT_mock_rep1_SPPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511916</Item>
+			<Item Name="Title" Type="String">BrUseqRep2_WT0h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511950</Item>
+			<Item Name="Title" Type="String">DataTOgi_ELOFKOrep1_8h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511936</Item>
+			<Item Name="Title" Type="String">DataTOgi_CSBKOrep1_1h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511930</Item>
+			<Item Name="Title" Type="String">DataTOgi_WTrep1_8h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511933</Item>
+			<Item Name="Title" Type="String">DataTOgi_WTrep2_16h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5100356</Item>
+			<Item Name="Title" Type="String">BrUseqRep3_WT8h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511913</Item>
+			<Item Name="Title" Type="String">BrUseqRep2_ELOFKO15m_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511957</Item>
+			<Item Name="Title" Type="String">WT_mock_rep2_SPPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511953</Item>
+			<Item Name="Title" Type="String">DataTOgi_ELOFKOrep2_16h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511974</Item>
+			<Item Name="Title" Type="String">CSB-KO_UV_20J8h</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511937</Item>
+			<Item Name="Title" Type="String">DataTOgi_CSBKOrep2_1h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5100354</Item>
+			<Item Name="Title" Type="String">BrUseqRep3_WT0h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511934</Item>
+			<Item Name="Title" Type="String">DataTOgi_CSBKOrep1_mock_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511911</Item>
+			<Item Name="Title" Type="String">ATACseq_ELOFKOMock_Rep2_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5100357</Item>
+			<Item Name="Title" Type="String">BrUseqRep3_WT24h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511928</Item>
+			<Item Name="Title" Type="String">DataTOgi_WTrep1_4h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511954</Item>
+			<Item Name="Title" Type="String">WT_input_rep1_SPPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511914</Item>
+			<Item Name="Title" Type="String">BrUseqRep2_WT30m_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511977</Item>
+			<Item Name="Title" Type="String">RNAseq_CSBKO_Mock_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511917</Item>
+			<Item Name="Title" Type="String">BrUseqRep2_WT3h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511965</Item>
+			<Item Name="Title" Type="String">ELOF1_mock_rep2_SPPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511931</Item>
+			<Item Name="Title" Type="String">DataTOgi_WTrep2_8h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511991</Item>
+			<Item Name="Title" Type="String">RNAseq_WT_UV_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5014878</Item>
+			<Item Name="Title" Type="String">BrUseqRep4_WT30mDRB_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511908</Item>
+			<Item Name="Title" Type="String">ATACseq_WTMock_Rep1_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511980</Item>
+			<Item Name="Title" Type="String">RNAseq_CSBKO_UV_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5014881</Item>
+			<Item Name="Title" Type="String">BrUseqRep5_WT60mDRB_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511988</Item>
+			<Item Name="Title" Type="String">RNAseq_WT_Mock_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511968</Item>
+			<Item Name="Title" Type="String">ELOF1_UV_rep1_SPPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511945</Item>
+			<Item Name="Title" Type="String">DataTOgi_ELOFKOrep2_mock_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511971</Item>
+			<Item Name="Title" Type="String">CSB-KO_mock_2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511948</Item>
+			<Item Name="Title" Type="String">DataTOgi_ELOFKOrep1_4h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511951</Item>
+			<Item Name="Title" Type="String">DataTOgi_ELOFKOrep2_8h_SSPE_TagDir</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4511925</Item>
+			<Item Name="Title" Type="String">DataTOgi_WTrep2_mock_SSPE_TagDir</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List">
+		<Item Name="ExtRelation" Type="Structure">
+			<Item Name="RelationType" Type="String">SRA</Item>
+			<Item Name="TargetObject" Type="String">SRP259968</Item>
+			<Item Name="TargetFTPLink" Type="String">ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP259/SRP259968/</Item>
+		</Item>
+	</Item>
+	<Item Name="n_samples" Type="Integer">101</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">34108663</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE149nnn/GSE149760/</Item>
+	<Item Name="GEO2R" Type="String">yes</Item>
+</DocSum>
+
+</eSummaryResult>

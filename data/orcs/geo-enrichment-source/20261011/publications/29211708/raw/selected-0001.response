@@ -1,0 +1,457 @@
+<eSummaryResult><DocSum>
+	<Id>200095374</Id>
+	<Item Name="Accession" Type="String">GSE95374</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">Selective silencing of euchromatic L1s revealed by genome-wide screens for L1 regulators</Item>
+	<Item Name="summary" Type="String">Transposable elements (TEs) are now recognized not only as parasitic DNA, whose spread in the genome must be controlled by the host, but also as major players in shaping genome evolution and providing genetic substrates for evolving new regulatory functions. Long INterspersed Element-1 (LINE-1 or L1), the only currently autonomous mobile transposon in humans, occupies 17% of the genome and continues to generate inter- and intra-individual genetic variation, in some cases resulting in disease. Nonetheless, our knowledge of how L1 activity is controlled and what function L1s play in host gene regulation remains fragmentary. Here, we use CRISPR/Cas9 screening strategies in two distinct human cell lines to provide the first genome-wide survey of genes involved in L1 retrotransposition control. Through this approach we identified functionally diverse genes that either promote or restrict L1 retrotransposition. These factors control the L1 life cycle at transcriptional or post-transcriptional levels, and in a manner which in some, but not in other cases depends on the endogenous L1 sequence, underscoring the complexity of L1 regulation. We further investigated L1 restriction by three candidate regulators, MORC2 and HUSH (human silencing hub) complex subunits TASOR and MPP8. HUSH/MORC2 selectively bind evolutionarily young, full-length L1s immersed within transcriptionally permissive euchromatic environment, and promote H3K9me3 deposition for transcriptional silencing. Interestingly, these silencing events often occur within introns of transcriptionally active host genes, and lead to down-regulation of host gene expression in a HUSH/MORC2-dependent manner. Together, our data provide a rich resource for studies of L1 retrotransposition, elucidate a novel L1 restriction pathway, and illustrate how epigenetic silencing of TEs can influence host gene expression programs.</Item>
+	<Item Name="GPL" Type="String">19057;18573</Item>
+	<Item Name="GSE" Type="String">95374</Item>
+	<Item Name="taxon" Type="String">Homo sapiens; Mus musculus</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Other; Genome binding/occupancy profiling by high throughput sequencing; Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2017/12/06</Item>
+	<Item Name="suppFile" Type="String">BW, TXT</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509475</Item>
+			<Item Name="Title" Type="String">ChIP:TASOR_Cell:MPP8-KO_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509512</Item>
+			<Item Name="Title" Type="String">RNA-seq_WT_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509455</Item>
+			<Item Name="Title" Type="String">ChIP:MORC2_Cell:WT_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509492</Item>
+			<Item Name="Title" Type="String">ChIP:H3K9me3_Cell:TASOR-KO_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2789815</Item>
+			<Item Name="Title" Type="String">ChIP:MORC2_Cell_hESC:WT_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509498</Item>
+			<Item Name="Title" Type="String">ChIP:Input(H3K9me3)_Cell:TASOR-KO_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2789795</Item>
+			<Item Name="Title" Type="String">HeLa_Batch-screen_untreated_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509518</Item>
+			<Item Name="Title" Type="String">RNA-seq_TASOR-KO_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509472</Item>
+			<Item Name="Title" Type="String">ChIP:TASOR_Cell:WT_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2789792</Item>
+			<Item Name="Title" Type="String">HeLa_Genome-wide-screen_G418_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509452</Item>
+			<Item Name="Title" Type="String">Batch-screen_untreated_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2789812</Item>
+			<Item Name="Title" Type="String">ChIP:MPP8_Cell_hESC:WT_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509515</Item>
+			<Item Name="Title" Type="String">RNA-seq_MPP8-KO_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509495</Item>
+			<Item Name="Title" Type="String">ChIP:Input(H3K9me3)_Cell:MORC2-KO_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509449</Item>
+			<Item Name="Title" Type="String">Genome-wide-screen_G418_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509484</Item>
+			<Item Name="Title" Type="String">ChIP:Input(MORC2, MPP8, TASOR)_Cell:MPP8-KO_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2789798</Item>
+			<Item Name="Title" Type="String">K562_Batch-screen_untreated_rep1_(opt)-L1-G418</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509501</Item>
+			<Item Name="Title" Type="String">ChIP:H3K9me2_Cell:MPP8-KO_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509464</Item>
+			<Item Name="Title" Type="String">ChIP:MPP8_Cell:WT_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2789821</Item>
+			<Item Name="Title" Type="String">ChIP:Input_Cell_mESC:WT_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509461</Item>
+			<Item Name="Title" Type="String">ChIP:MORC2_Cell:TASOR-KO_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509481</Item>
+			<Item Name="Title" Type="String">ChIP:Input(MORC2, MPP8, TASOR)_Cell:MORC2-KO_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2789801</Item>
+			<Item Name="Title" Type="String">K562_Batch-screen_G418_rep2_(opt)-L1-G418</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509478</Item>
+			<Item Name="Title" Type="String">ChIP:TASOR_Cell:TASOR-KO_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2789818</Item>
+			<Item Name="Title" Type="String">ChIP:MPP8_Cell_mESC:WT_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509458</Item>
+			<Item Name="Title" Type="String">ChIP:MORC2_Cell:MORC2-KO_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509504</Item>
+			<Item Name="Title" Type="String">ChIP:H3K9me3_Cell:WT_rep4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509503</Item>
+			<Item Name="Title" Type="String">ChIP:H3K9me3_Cell:WT_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509457</Item>
+			<Item Name="Title" Type="String">ChIP:MORC2_Cell:MORC2-KO_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2789797</Item>
+			<Item Name="Title" Type="String">HeLa_Batch-screen_G418_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509500</Item>
+			<Item Name="Title" Type="String">ChIP:H3K9me2_Cell:WT_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2789794</Item>
+			<Item Name="Title" Type="String">HeLa_Batch-screen_untreated_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509454</Item>
+			<Item Name="Title" Type="String">Batch-screen_G418_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509517</Item>
+			<Item Name="Title" Type="String">RNA-seq_TASOR-KO_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509480</Item>
+			<Item Name="Title" Type="String">ChIP:Input(MORC2, MPP8, TASOR)_Cell:WT_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509497</Item>
+			<Item Name="Title" Type="String">ChIP:Input(H3K9me3)_Cell:TASOR-KO_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509460</Item>
+			<Item Name="Title" Type="String">ChIP:MORC2_Cell:MPP8-KO_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509477</Item>
+			<Item Name="Title" Type="String">ChIP:TASOR_Cell:TASOR-KO_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2789800</Item>
+			<Item Name="Title" Type="String">K562_Batch-screen_G418_rep1_(opt)-L1-G418</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2789820</Item>
+			<Item Name="Title" Type="String">ChIP:Input_Cell_mESC:WT_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509466</Item>
+			<Item Name="Title" Type="String">ChIP:MPP8_Cell:MORC2-KO_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509463</Item>
+			<Item Name="Title" Type="String">ChIP:MPP8_Cell:WT_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2789817</Item>
+			<Item Name="Title" Type="String">ChIP:Input_Cell_hESC:WT_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2789806</Item>
+			<Item Name="Title" Type="String">ChIP:PolII_Cell_K562:MPP8-KO_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509483</Item>
+			<Item Name="Title" Type="String">ChIP:Input(MORC2, MPP8, TASOR)_Cell:MPP8-KO_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509469</Item>
+			<Item Name="Title" Type="String">ChIP:MPP8_Cell:TASOR-KO_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509509</Item>
+			<Item Name="Title" Type="String">ChIP:Input(H3K9me2or3)_Cell:MPP8-KO_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509506</Item>
+			<Item Name="Title" Type="String">ChIP:H3K9me3_Cell:MPP8-KO_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2789803</Item>
+			<Item Name="Title" Type="String">ChIP:PolII_Cell_K562:WT_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2789809</Item>
+			<Item Name="Title" Type="String">ChIP:PolII_Cell_K562:TASOR-KO_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509489</Item>
+			<Item Name="Title" Type="String">ChIP:H3K9me3_Cell:MORC2-KO_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509482</Item>
+			<Item Name="Title" Type="String">ChIP:Input(MORC2, MPP8, TASOR)_Cell:MORC2-KO_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2789805</Item>
+			<Item Name="Title" Type="String">ChIP:PolII_Cell_K562:MORC2-KO_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509508</Item>
+			<Item Name="Title" Type="String">ChIP:Input(H3K9me2or3)_Cell:WT_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2789802</Item>
+			<Item Name="Title" Type="String">ChIP:PolII_Cell_K562:WT_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509486</Item>
+			<Item Name="Title" Type="String">ChIP:Input(MORC2, MPP8, TASOR)_Cell:TASOR-KO_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509465</Item>
+			<Item Name="Title" Type="String">ChIP:MPP8_Cell:MORC2-KO_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509462</Item>
+			<Item Name="Title" Type="String">ChIP:MORC2_Cell:TASOR-KO_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509485</Item>
+			<Item Name="Title" Type="String">ChIP:Input(MORC2, MPP8, TASOR)_Cell:TASOR-KO_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2789799</Item>
+			<Item Name="Title" Type="String">K562_Batch-screen_untreated_rep2_(opt)-L1-G418</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509502</Item>
+			<Item Name="Title" Type="String">ChIP:H3K9me2_Cell:MPP8-KO_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509511</Item>
+			<Item Name="Title" Type="String">RNA-seq_WT_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509459</Item>
+			<Item Name="Title" Type="String">ChIP:MORC2_Cell:MPP8-KO_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509505</Item>
+			<Item Name="Title" Type="String">ChIP:H3K9me3_Cell:MPP8-KO_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509494</Item>
+			<Item Name="Title" Type="String">ChIP:Input(H3K9me3)_Cell:WT_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509474</Item>
+			<Item Name="Title" Type="String">ChIP:TASOR_Cell:MORC2-KO_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509514</Item>
+			<Item Name="Title" Type="String">RNA-seq_MORC2-KO_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509491</Item>
+			<Item Name="Title" Type="String">ChIP:H3K9me3_Cell:TASOR-KO_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2789808</Item>
+			<Item Name="Title" Type="String">ChIP:PolII_Cell_K562:TASOR-KO_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509447</Item>
+			<Item Name="Title" Type="String">Genome-wide-screen_untreated_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509471</Item>
+			<Item Name="Title" Type="String">ChIP:TASOR_Cell:WT_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2789814</Item>
+			<Item Name="Title" Type="String">ChIP:MORC2_Cell_hESC:WT_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509468</Item>
+			<Item Name="Title" Type="String">ChIP:MPP8_Cell:MPP8-KO_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2789791</Item>
+			<Item Name="Title" Type="String">HeLa_Genome-wide-screen_untreated_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509488</Item>
+			<Item Name="Title" Type="String">ChIP:H3K9me3_Cell:WT_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509448</Item>
+			<Item Name="Title" Type="String">Genome-wide-screen_untreated_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2789807</Item>
+			<Item Name="Title" Type="String">ChIP:PolII_Cell_K562:MPP8-KO_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509451</Item>
+			<Item Name="Title" Type="String">Batch-screen_untreated_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2789811</Item>
+			<Item Name="Title" Type="String">ChIP:Input_Cell_K562:WT_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509450</Item>
+			<Item Name="Title" Type="String">Genome-wide-screen_G418_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509510</Item>
+			<Item Name="Title" Type="String">ChIP:Input(H3K9me2or3)_Cell:MPP8-KO_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509490</Item>
+			<Item Name="Title" Type="String">ChIP:H3K9me3_Cell:MORC2-KO_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509507</Item>
+			<Item Name="Title" Type="String">ChIP:Input(H3K9me2or3)_Cell:WT_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509456</Item>
+			<Item Name="Title" Type="String">ChIP:MORC2_Cell:WT_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509487</Item>
+			<Item Name="Title" Type="String">ChIP:H3K9me3_Cell:WT_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2789810</Item>
+			<Item Name="Title" Type="String">ChIP:Input_Cell_K562:WT_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509453</Item>
+			<Item Name="Title" Type="String">Batch-screen_G418_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509513</Item>
+			<Item Name="Title" Type="String">RNA-seq_MORC2-KO_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2789804</Item>
+			<Item Name="Title" Type="String">ChIP:PolII_Cell_K562:MORC2-KO_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2789816</Item>
+			<Item Name="Title" Type="String">ChIP:Input_Cell_hESC:WT_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509493</Item>
+			<Item Name="Title" Type="String">ChIP:Input(H3K9me3)_Cell:WT_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509470</Item>
+			<Item Name="Title" Type="String">ChIP:MPP8_Cell:TASOR-KO_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2789790</Item>
+			<Item Name="Title" Type="String">HeLa_Genome-wide-screen_untreated_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509479</Item>
+			<Item Name="Title" Type="String">ChIP:Input(MORC2, MPP8, TASOR)_Cell:WT_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509476</Item>
+			<Item Name="Title" Type="String">ChIP:TASOR_Cell:MPP8-KO_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509467</Item>
+			<Item Name="Title" Type="String">ChIP:MPP8_Cell:MPP8-KO_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2789813</Item>
+			<Item Name="Title" Type="String">ChIP:MPP8_Cell_hESC:WT_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2789796</Item>
+			<Item Name="Title" Type="String">HeLa_Batch-screen_G418_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2789793</Item>
+			<Item Name="Title" Type="String">HeLa_Genome-wide-screen_G418_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509516</Item>
+			<Item Name="Title" Type="String">RNA-seq_MPP8-KO_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509473</Item>
+			<Item Name="Title" Type="String">ChIP:TASOR_Cell:MORC2-KO_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509499</Item>
+			<Item Name="Title" Type="String">ChIP:H3K9me2_Cell:WT_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2789819</Item>
+			<Item Name="Title" Type="String">ChIP:MPP8_Cell_mESC:WT_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2509496</Item>
+			<Item Name="Title" Type="String">ChIP:Input(H3K9me3)_Cell:MORC2-KO_rep2</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List">
+		<Item Name="ExtRelation" Type="Structure">
+			<Item Name="RelationType" Type="String">SRA</Item>
+			<Item Name="TargetObject" Type="String">SRP100725</Item>
+			<Item Name="TargetFTPLink" Type="String">ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP100/SRP100725/</Item>
+		</Item>
+	</Item>
+	<Item Name="n_samples" Type="Integer">104</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">29211708</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE95nnn/GSE95374/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+</eSummaryResult>

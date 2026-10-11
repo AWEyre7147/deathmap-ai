@@ -56,3 +56,14 @@ For a later resource refresh, create a new dated collection and retain the origi
 ## [DB4] Completed PubMed enrichment
 
 The current publication index contains 418 records with 415 verified PMIDs. The shared [PubMed database](pubmed-enrichment.json), [Excel view](PubMed-Enrichment.xlsx), and [manifest](pubmed-enrichment.manifest.json) preserve retrieved publication metadata, direct GEO/BioProject associations, SRA accessions, MeSH pairs and unresolved entries. Three records without verified PMIDs remain unresolved. The earlier 412-PMID extraction counts above describe the source-page extraction before identifier enrichment. See [retrieval and interpretation](../../docs/pubmed-enrichment.md). Native batch responses and hashes are retained under `pubmed-enrichment-source/20261008/`.
+
+## [DB5] Completed GEO metadata enrichment
+
+The owner-authorized 2026-10-11 pass completed all 418 publications. It identified
+503 distinct GSE candidates across 171 publications (519 publication–GSE
+associations) and retrieved all 22,139 distinct GSM metadata records. The
+[canonical database](geo-enrichment.json), [approved-template workbook](GEO-Enrichment.xlsx)
+and [manifest](geo-enrichment.manifest.json) retain native metadata and candidate
+relationships; ownership and qualifying screen roles remain unassessed.
+[Native responses and receipts](geo-enrichment-source/20261011/README.md) are
+preserved separately. See [pipeline command and interpretation](../../docs/geo-orcs-enrichment.md).

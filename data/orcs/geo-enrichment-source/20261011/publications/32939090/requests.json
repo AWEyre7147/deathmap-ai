@@ -1,0 +1,132 @@
+[
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=gds&id=32939090&linkname=pubmed_gds&cmd=neighbor&retmode=json",
+    "file": "raw/selected-0000.response",
+    "sha256": "2286675b7e00f88574433ea811822cf12a70973f099cc55eaeb90dde375a906b",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T17:59:53.365308+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\c495a07b1af33d56bd6b363a30ae51be89ed1669e83d93244d1144dc3d26cc48.json",
+        "sha256": "c495a07b1af33d56bd6b363a30ae51be89ed1669e83d93244d1144dc3d26cc48",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\pubmed-enrichment-source\\20261008\\links-gds-4.json",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=gds&linkname=pubmed_gds&id=32690708&id=32699298&id=32728216&id=32738194&id=32755594&id=32877678&id=32918875&id=32924251&id=32939090&id=32968282&id=32970993&id=32990596&id=33005030&id=33033111&id=33060197&id=33087464&id=33110234&id=33122441&id=33137164&id=33144569&id=33147444&id=33147445&id=33156908&id=33157015&id=33172989&id=33185187&id=33186476&id=33188726&id=33189395&id=33208877&id=33208938&id=33226137&id=33228647&id=33257658&id=33271924&id=33333024&id=33355125&id=33357464&id=33372156&id=33375770&id=33382968&id=33417871&id=33476303&id=33483422&id=33501440&id=33513160&id=33513212&id=33523994&id=33539788&id=33547076&cmd=neighbor&retmode=json",
+        "locator": "linksets[8]",
+        "retrieved_utc": "2026-10-08T23:17:21.683950+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=32939090&retmode=xml",
+    "file": "raw/selected-0001.response",
+    "sha256": "792b9e7947eef807cfd7ddac4f821a2249a0e8e8f3d4ded50a36990b1fcef39f",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T17:59:53.367308+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\b9086e8f958898fe78d76fe733dbd3a2625fe231807d5b50f1a46636f31b6150.xml",
+        "sha256": "b9086e8f958898fe78d76fe733dbd3a2625fe231807d5b50f1a46636f31b6150",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\pubmed-enrichment-source\\20261008\\pubmed-2.xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=32690708%2C32699298%2C32728216%2C32738194%2C32755594%2C32877678%2C32918875%2C32924251%2C32939090%2C32968282%2C32970993%2C32990596%2C33005030%2C33033111%2C33060197%2C33087464%2C33110234%2C33122441%2C33137164%2C33144569%2C33147444%2C33147445%2C33156908%2C33157015%2C33172989%2C33185187%2C33186476%2C33188726%2C33189395%2C33208877%2C33208938%2C33226137%2C33228647%2C33257658%2C33271924%2C33333024%2C33355125%2C33357464%2C33372156%2C33375770%2C33382968%2C33417871%2C33476303%2C33483422%2C33501440%2C33513160%2C33513212%2C33523994%2C33539788%2C33547076%2C33562682%2C33568224%2C33574281%2C33577797%2C33604667%2C33649592%2C33657372%2C33660365%2C33676427%2C33686287%2C33730579%2C33742119%2C33743211%2C33813748%2C33846634%2C33847741%2C33854235%2C33864166%2C33872695%2C33953401%2C34000301%2C34004147%2C34016692%2C34026427%2C34049503%2C34066520%2C34108663%2C34155407%2C34215620%2C34230586%2C34253920%2C34290256%2C34316707%2C34320214%2C34364401%2C34373448%2C34373451%2C34431042%2C34437126%2C34497417%2C34529489%2C34582788%2C34615851%2C34621019%2C34644148%2C34662547%2C34667112%2C34686207%2C34731885%2C34759314&retmode=xml",
+        "locator": "PubmedArticle[8]",
+        "retrieved_utc": "2026-10-08T23:16:49.464951+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=%22Plasticity+of+ether+lipids+promotes+ferroptosis+susceptibility+and+evasion%22%5BAll+Fields%5D+AND+gse%5BEntry+Type%5D&retmode=json&retmax=1000",
+    "file": "raw/selected-0002.response",
+    "sha256": "8f885d7e2606550ddd8a90f10ac5e00c66c705c4b3f6790519dd25067c9c26ff",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T17:59:53.371822+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\8f885d7e2606550ddd8a90f10ac5e00c66c705c4b3f6790519dd25067c9c26ff.json",
+        "sha256": "8f885d7e2606550ddd8a90f10ac5e00c66c705c4b3f6790519dd25067c9c26ff",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\outputs\\geo\\title-search-expansion\\20261010\\raw\\search-352-phrase.json",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=%22Plasticity+of+ether+lipids+promotes+ferroptosis+susceptibility+and+evasion%22%5BAll+Fields%5D+AND+gse%5BEntry+Type%5D&retmode=json&retmax=100",
+        "locator": "complete esearchresult",
+        "retrieved_utc": "2026-10-10T17:19:07.060353+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=gds&id=200151062&retmode=xml",
+    "file": "raw/selected-0003.response",
+    "sha256": "fa6a267fe9577621866e58372620d8675413855b015b8007065fd4020f384d5a",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T17:59:53.373829+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\24c702d49f64b0a25386ef734cb65fd66ee94d0cc57cbeca40b31ff8509649ce.xml",
+        "sha256": "24c702d49f64b0a25386ef734cb65fd66ee94d0cc57cbeca40b31ff8509649ce",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\outputs\\geo\\title-search-expansion\\20261010\\raw\\summary-1.xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=gds&id=200004293%2C200012008%2C200017064%2C200019434%2C200023768%2C200031477%2C200036243%2C200037214%2C200054964%2C200054966%2C200054968%2C200069666%2C200070038%2C200075189%2C200078519%2C200095374%2C200105161%2C200107566%2C200107670%2C200108057%2C200109177%2C200109491%2C200109492%2C200109493%2C200111166%2C200114035%2C200115357%2C200121451%2C200121457%2C200121458%2C200121459%2C200122404%2C200125403%2C200125509%2C200126935%2C200128307%2C200129282%2C200129382%2C200129521%2C200129846%2C200130414%2C200130906%2C200131026%2C200131030%2C200131091%2C200131097%2C200131099%2C200131135%2C200131349%2C200131674%2C200132309%2C200132431%2C200132926%2C200132959%2C200134173%2C200136175%2C200138571%2C200138894%2C200139313%2C200140102%2C200140653%2C200141171%2C200141386%2C200142669%2C200144078%2C200144165%2C200144281%2C200147508%2C200149455%2C200149760%2C200149933%2C200149934%2C200149935%2C200149936%2C200150232%2C200151062%2C200152177%2C200152284%2C200152846%2C200153397%2C200153769%2C200153772%2C200153776%2C200154936%2C200156170%2C200157096%2C200157835%2C200158298%2C200158303%2C200158540%2C200158541%2C200159519%2C200159522%2C200160672%2C200161168%2C200162038%2C200162039%2C200162136%2C200164639%2C200164778&retmode=xml",
+        "locator": "DocSum[75]",
+        "retrieved_utc": "2026-10-10T17:25:09.938317+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A32939090&type=Accession+Numbers&format=JSON",
+    "file": "raw/cache-0004.response",
+    "sha256": "d5139431b598b34a598dda46eb477a5f0f6eaad3395e123f221a522c61dc4f31",
+    "retrieved_utc": "2026-10-10T18:31:16.371246+00:00",
+    "reused_utc": "2026-10-11T17:59:53.386341+00:00",
+    "reused_from": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\outputs\\geo\\ten-publication-browse\\20261011\\publications\\32939090\\raw\\cache-0004.response",
+    "original_url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A32939090&type=Accession+Numbers&format=JSON"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/MED/32939090/datalinks?format=json&pageSize=1000",
+    "file": "raw/cache-0005.response",
+    "sha256": "efbc30052cbd09af6cf7e835435255264a201a7944e1c57b84b2733b497d0e97",
+    "retrieved_utc": "2026-10-10T18:31:17.296879+00:00",
+    "reused_utc": "2026-10-11T17:59:53.399353+00:00",
+    "reused_from": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\outputs\\geo\\ten-publication-browse\\20261011\\publications\\32939090\\raw\\cache-0005.response",
+    "original_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/MED/32939090/datalinks?format=json&pageSize=1000"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=bioproject&id=32939090&linkname=pubmed_bioproject&cmd=neighbor&retmode=json",
+    "file": "raw/selected-0006.response",
+    "sha256": "2286675b7e00f88574433ea811822cf12a70973f099cc55eaeb90dde375a906b",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T17:59:53.401567+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\3cfa5392d8f74dfd5bbfa3b00531a0e73408c3c81b341ca24858b42dfd5e82af.json",
+        "sha256": "3cfa5392d8f74dfd5bbfa3b00531a0e73408c3c81b341ca24858b42dfd5e82af",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\pubmed-enrichment-source\\20261008\\links-bioproject-4.json",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=bioproject&linkname=pubmed_bioproject&id=32690708&id=32699298&id=32728216&id=32738194&id=32755594&id=32877678&id=32918875&id=32924251&id=32939090&id=32968282&id=32970993&id=32990596&id=33005030&id=33033111&id=33060197&id=33087464&id=33110234&id=33122441&id=33137164&id=33144569&id=33147444&id=33147445&id=33156908&id=33157015&id=33172989&id=33185187&id=33186476&id=33188726&id=33189395&id=33208877&id=33208938&id=33226137&id=33228647&id=33257658&id=33271924&id=33333024&id=33355125&id=33357464&id=33372156&id=33375770&id=33382968&id=33417871&id=33476303&id=33483422&id=33501440&id=33513160&id=33513212&id=33523994&id=33539788&id=33547076&cmd=neighbor&retmode=json",
+        "locator": "linksets[8]",
+        "retrieved_utc": "2026-10-08T23:18:12.720738+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE126696&targ=self&form=text&view=brief",
+    "file": "raw/cache-0007.response",
+    "sha256": "44fd5f19933b5f1f35db1e5e4069980a91844a588b989402583fae639c0ca955",
+    "retrieved_utc": "2026-10-10T17:08:57.673570+00:00",
+    "reused_utc": "2026-10-11T17:59:53.411872+00:00",
+    "reused_from": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\outputs\\geo\\ten-publication-browse\\20261011\\publications\\32939090\\raw\\cache-0007.response",
+    "original_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE126696&targ=self&form=text&view=brief"
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE148297&targ=self&form=text&view=brief",
+    "file": "raw/cache-0008.response",
+    "sha256": "e4fcd854d00fbe25ff72613fe1c6199d0261f243292a2a5ed968dff6f54da9d2",
+    "retrieved_utc": "2026-10-11T04:28:40.458428+00:00",
+    "reused_utc": "2026-10-11T17:59:53.421393+00:00",
+    "reused_from": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\outputs\\geo\\ten-publication-browse\\20261011\\publications\\32939090\\raw\\006.response",
+    "original_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE148297&targ=self&form=text&view=brief"
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE151062&targ=self&form=text&view=brief",
+    "file": "raw/cache-0009.response",
+    "sha256": "ccccb19dd680b16258865f7b9c4d946c63a7bcea4242e697136e2c6a55d41ee4",
+    "retrieved_utc": "2026-10-10T17:26:23.251025+00:00",
+    "reused_utc": "2026-10-11T17:59:53.433912+00:00",
+    "reused_from": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\outputs\\geo\\title-search-expansion\\20261010\\raw\\GSE151062.soft.txt",
+    "original_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE151062&targ=self&form=text&view=brief"
+  }
+]

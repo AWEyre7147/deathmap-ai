@@ -1,0 +1,53 @@
+{
+  "GSE43346": {
+    "gse": "GSE43346",
+    "native_pmids": [
+      "23714854"
+    ],
+    "hierarchy": [
+      {
+        "from_gse": "GSE43346",
+        "to_gse": "GSE99316",
+        "relation": "SubSeries of",
+        "native_value": "SubSeries of: GSE99316"
+      }
+    ],
+    "source_file": "raw/cache-0006.response"
+  },
+  "GSE99316": {
+    "gse": "GSE99316",
+    "native_pmids": [
+      "23714854"
+    ],
+    "hierarchy": [
+      {
+        "from_gse": "GSE99316",
+        "to_gse": "GSE43346",
+        "relation": "SuperSeries of",
+        "native_value": "SuperSeries of: GSE43346"
+      },
+      {
+        "from_gse": "GSE99316",
+        "to_gse": "GSE99312",
+        "relation": "SuperSeries of",
+        "native_value": "SuperSeries of: GSE99312"
+      }
+    ],
+    "source_file": "raw/cache-0007.response"
+  },
+  "GSE99312": {
+    "gse": "GSE99312",
+    "native_pmids": [
+      "23714854"
+    ],
+    "hierarchy": [
+      {
+        "from_gse": "GSE99312",
+        "to_gse": "GSE99316",
+        "relation": "SubSeries of",
+        "native_value": "SubSeries of: GSE99316"
+      }
+    ],
+    "source_file": "raw/cache-0008.response"
+  }
+}

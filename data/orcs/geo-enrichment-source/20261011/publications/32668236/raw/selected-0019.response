@@ -1,0 +1,57 @@
+<eSummaryResult><DocSum>
+	<Id>200150524</Id>
+	<Item Name="Accession" Type="String">GSE150524</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">RNA-seq of Paraquat-treated cells</Item>
+	<Item Name="summary" Type="String">Nonsense-mediated decay (NMD) is a pathway that degrades messenger RNAs containing premature termination codons. Here, a genome-wide screen for NMD factors uncovered an unexpected mechanism that broadly governs 3&#697; untranslated region (UTR)-directed regulation. The screen revealed that NMD requires lysosomal acidification, which allows transferrin-mediated iron uptake, which in turn is necessary for iron-sulfur (Fe-S) cluster biogenesis. This pathway converges on the Fe-S cluster-containing ribosome recycling factor ABCE1, whose impaired function results in the movement of ribosomes into 3&#697; UTRs where they displace exon junction complexes, thereby abrogating NMD. Importantly, these effects extend beyond NMD substrates, with ABCE1 activity required to maintain the accessibility of 3&#697; UTRs to diverse regulators, including microRNAs and RNA binding proteins. Due to the sensitivity of the Fe-S cluster of ABCE1 to iron availability and reactive oxygen species, these findings reveal an unanticipated vulnerability of 3&#697; UTR-directed regulation to lysosomal dysfunction, iron deficiency, and oxidative stress.</Item>
+	<Item Name="GPL" Type="String">18573</Item>
+	<Item Name="GSE" Type="String">150524</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2020/07/14</Item>
+	<Item Name="suppFile" Type="String">XLSX</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4551671</Item>
+			<Item Name="Title" Type="String">RNAseq_ddH2O_1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4551672</Item>
+			<Item Name="Title" Type="String">RNAseq_ddH2O_2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4551669</Item>
+			<Item Name="Title" Type="String">RNAseq_PQ_1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4551670</Item>
+			<Item Name="Title" Type="String">RNAseq_PQ_2</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List">
+		<Item Name="ExtRelation" Type="Structure">
+			<Item Name="RelationType" Type="String">SRA</Item>
+			<Item Name="TargetObject" Type="String">SRP261509</Item>
+			<Item Name="TargetFTPLink" Type="String">ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP261/SRP261509/</Item>
+		</Item>
+	</Item>
+	<Item Name="n_samples" Type="Integer">4</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">32668236</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE150nnn/GSE150524/</Item>
+	<Item Name="GEO2R" Type="String">yes</Item>
+</DocSum>
+
+</eSummaryResult>

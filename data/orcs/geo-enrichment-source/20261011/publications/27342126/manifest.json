@@ -1,0 +1,119 @@
+{
+  "strategy": "geo-accession-identification-v1",
+  "package_version": "0.1.0",
+  "started_utc": "2026-10-11T17:59:04.363234+00:00",
+  "publication": {
+    "PUBLICATION_ID": "302",
+    "SOURCE_TYPE": "pubmed",
+    "SOURCE_ID": "27342126",
+    "TITLE": "Identification of Zika Virus and Dengue Virus Dependency Factors using Functional Genomics.",
+    "AUTHORS": "Savidis G, McDougall WM, Meraner P, Perreira JM, Portmann JM, Trincucci G, John SP, Aker AM, Renzette N, Robbins DR, Guo Z, Green S, Kowalik TF, Brass AL",
+    "ABSTRACT": "The flaviviruses dengue virus (DENV) and Zika virus (ZIKV) are severe health threats with rapidly expanding ranges. To identify the host cell dependencies of DENV and ZIKV, we completed orthologous functional genomic screens using RNAi and CRISPR/Cas9 approaches. The screens recovered the ZIKV entry factor AXL as well as multiple host factors involved in endocytosis (RAB5C and RABGEF), heparin sulfation (NDST1 and EXT1), and transmembrane protein processing and maturation, including the endoplasmic reticulum membrane complex (EMC). We find that both flaviviruses require the EMC for their early stages of infection. Together, these studies generate a high-confidence, systems-wide view of human-flavivirus interactions and provide insights into the role of the EMC in flavivirus replication.",
+    "JOURNAL": "Cell reports",
+    "PUBLICATION_DATE": "2016-06-28",
+    "PAGE_SOURCE_TYPE": "pubmed",
+    "PAGE_SOURCE_ID": "27342126",
+    "PMID": "27342126",
+    "DOI": "10.1016/j.celrep.2016.06.028",
+    "SUPPLEMENTARY_FILES": [
+      {
+        "label": "mmc5 (3).xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/5f4fa279905ce/mmc5 (3).xlsx"
+      }
+    ],
+    "LINKS": [
+      {
+        "label": "Pubmed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27342126"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/scholar?as_occt=title&as_q=Identification+of+Zika+Virus+and+Dengue+Virus+Dependency+Factors+using+Functional+Genomics."
+      },
+      {
+        "label": "27342126",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27342126"
+      },
+      {
+        "label": "mmc5 (3).xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/5f4fa279905ce/mmc5 (3).xlsx"
+      }
+    ],
+    "SCREEN_IDS": [
+      "1173"
+    ],
+    "SCREEN_COUNT": 1,
+    "PUBLICATION_URL": "https://orcs.thebiogrid.org/Dataset/302",
+    "FIELD_LOCATORS": {
+      "TITLE": "#resultsHeaderBlock h1",
+      "AUTHORS": "#resultsHeaderBlock .subhead",
+      "ABSTRACT": "#resultsHeaderBlock .bgGrey",
+      "JOURNAL": ".linkouts citation strong",
+      "PUBLICATION_DATE": ".linkouts citation",
+      "SUPPLEMENTARY_FILES": ".linkouts Supplementary Files"
+    },
+    "REVIEW_ISSUES": [],
+    "RETRIEVED_AT": "2026-10-04T05:08:59.467114+00:00",
+    "SOURCE_METADATA_FILE": "data/orcs/publication-source/20261004-v01/302.metadata.html",
+    "SOURCE_METADATA_SHA256": "fe747845029592e1898618309d21923a6ae4644608b439cb5ea9257e1547fa33",
+    "PMCID": null,
+    "IDENTIFIER_ENRICHMENT": {
+      "added_fields": [
+        "DOI"
+      ],
+      "resolution": {
+        "input": {
+          "pmid": "27342126",
+          "doi": null,
+          "pmcid": null
+        },
+        "identifiers": {
+          "pmid": "27342126",
+          "doi": "10.1016/j.celrep.2016.06.028",
+          "pmcid": null
+        },
+        "status": "partial",
+        "alternatives": {
+          "pmid": [
+            "27342126"
+          ],
+          "doi": [
+            "10.1016/j.celrep.2016.06.028"
+          ],
+          "pmcid": []
+        },
+        "evidence": [
+          {
+            "identifiers": {
+              "pmid": "27342126",
+              "doi": "10.1016/j.celrep.2016.06.028",
+              "pmcid": null
+            },
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=24336569%2C24336571%2C25307932%2C25494202%2C26190106%2C26472758%2C26627737%2C26673326%2C26780180%2C27018887%2C27159373%2C27260156%2C27342126%2C27351204%2C27383987%2C27383988%2C27453484%2C27667664%2C27760321%2C27869803%2C27992415%2C28145866%2C28162770%2C28167502%2C28215525%2C28445693%2C28474669%2C28494239%2C28611215%2C28700943%2C28720733%2C28723893%2C28768188%2C28775154%2C28783722%2C28813663%2C28877469%2C28894007%2C28985505%2C28985567%2C29028833%2C29038160%2C29083409%2C29211708%2C29259014%2C29269392%2C29290584%2C29301958%2C29440296%2C29459677%2C29463564%2C29478914%2C29507424%2C29526696%2C29576454%2C29642015%2C29655804%2C29662178%2C29736038%2C29769725%2C29779948%2C29921669%2C29973717%2C29987050%2C29995852%2C30042095%2C30051818%2C30093494%2C30111820%2C30135075%2C30154076%2C30194290%2C30224801%2C30317623%2C30397336%2C30414698%2C30449619%2C30464262%2C30532030%2C30556811%2C30581143%2C30590252%2C30595499%2C30647128%2C30655525%2C30660999%2C30686591%2C30734978%2C30773463%2C30787439%2C30797773%2C30819666%2C30838976%2C30844312%2C30860482%2C30862715%2C30898113%2C30905739%2C30916320%2C30930145&retmode=xml&tool=deathmap_ai",
+            "retrieved_at": "2026-10-08T01:37:54.563710+00:00",
+            "response_sha256": "c4d765e9c68ee76878a3995636512d315f50afd1f0d9ddd619527deba807db67"
+          }
+        ]
+      }
+    },
+    "_input_provenance": {
+      "file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\publication-index.json",
+      "sha256": "63cb33b7095108e7a0776950e9c258e7b65fe148ca6b12ae75cd4dd914ad6c89",
+      "locator": "PUBLICATION_ID=302"
+    }
+  },
+  "status": "complete",
+  "source_code_sha256": "c9e115559a404d2efb27413042c5a3b1b3796bd08d8d81d38fdd8f6f1af80072",
+  "limits": {
+    "request_attempts": 100,
+    "seconds": 600,
+    "series": 100,
+    "target_uids_per_route": 1000,
+    "attempts_per_request": 2,
+    "timeout_seconds": 30,
+    "pacing_seconds": 0.4
+  },
+  "total_gse_count": 0,
+  "finished_utc": "2026-10-11T17:59:06.181507+00:00",
+  "request_attempts": 2
+}

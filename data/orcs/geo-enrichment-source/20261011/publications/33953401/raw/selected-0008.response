@@ -1,0 +1,749 @@
+<eSummaryResult><DocSum>
+	<Id>200155972</Id>
+	<Item Name="Accession" Type="String">GSE155972</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">Epigenetic Silencing by SETDB1 Suppresses Tumor-cell Intrinsic Immunogenicity</Item>
+	<Item Name="summary" Type="String">Epigenetic dysregulation is a defining feature of tumorigenesis and has been implicated in immune escape. However, the epigenetic mechanisms that drive immune evasion in cancer are poorly understood. To systematically identify epigenetic factors that modulate the immune sensitivity of tumor cells, we performed in vivo loss of function screens targeting 936 chromatin regulators in mouse tumor models treated with immune checkpoint blockade. We identified the H3K9-methyltransferase SETDB1 and other members of the HUSH and KAP1 complexes as cell-intrinsic mediators of immune escape in tumor cells. We also found that amplification of SETDB1 (1q21) in human tumors is associated with reduced cytotoxic T-cell infiltration and resistance to immune checkpoint blockade. Mechanistically, we demonstrate that SETDB1 targets broad domains, hundreds of kilobases in size, many of which reside within the open genome compartment. These SETDB1 domains are enriched for transposable elements (TEs) and immune gene clusters associated with segmental duplication events, a central mechanism of mammalian genome evolution. SETDB1 loss derepresses latent TE-encoded regulatory elements and proximal immune genes within these repetitive regions, including canonical NKG2D ligands, and induces hundreds of putative TE-encoded viral antigens. Our study establishes SETDB1 as an epigenetic checkpoint that suppresses intrinsic immunogenicity in cancer cells, and thus represents a candidate target for immunotherapy.</Item>
+	<Item Name="GPL" Type="String">19057;18573</Item>
+	<Item Name="GSE" Type="String">155972</Item>
+	<Item Name="taxon" Type="String">Homo sapiens; Mus musculus</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2021/03/18</Item>
+	<Item Name="suppFile" Type="String">CSV, H5, TXT, WIG</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718325</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_KO_sg2_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718342</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_setdb1_sg4_UnTx_rep_2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987029</Item>
+			<Item Name="Title" Type="String">scRNA-seq_TCR_LLC_CD4-CD8pos_control_sg5_no_treatment_rep4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718305</Item>
+			<Item Name="Title" Type="String">H3K27ac_ChIP-seq_B16_KO_sg2_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718388</Item>
+			<Item Name="Title" Type="String">B16_Setdb1_PolyIC_experiment_2_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718299</Item>
+			<Item Name="Title" Type="String">H3K27ac_ChIP-seq_B16_control_sg1_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718345</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_setdb1_sg4_UnTx_rep_5</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987049</Item>
+			<Item Name="Title" Type="String">LLC_TCR_profiling_KO_pd1_ctla4_treatment_rep4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987032</Item>
+			<Item Name="Title" Type="String">scRNA-seq_TCR_LLC_CD4-CD8pos_setdb1_sg4_pd1_ctla4_treatment_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718382</Item>
+			<Item Name="Title" Type="String">B16_Ctrl_NoTx_experiment_2_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718362</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_control_sg5_UnTx_rep_6</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987069</Item>
+			<Item Name="Title" Type="String">LLC_TCR_profiling_tet+_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718365</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_control_sg5_UnTx_rep_9</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987052</Item>
+			<Item Name="Title" Type="String">LLC_TCR_profiling_Wt_no_treatment_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718319</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_control_sg1_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987026</Item>
+			<Item Name="Title" Type="String">scRNA-seq_TCR_LLC_CD4-CD8pos_control_sg5_no_treatment_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987046</Item>
+			<Item Name="Title" Type="String">LLC_TCR_profiling_KO_pd1_ctla4_treatment_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718302</Item>
+			<Item Name="Title" Type="String">H3K27ac_ChIP-seq_B16_KO_sg1_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718322</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_KO_sg1_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987009</Item>
+			<Item Name="Title" Type="String">scRNA-seq_gex_LLC_CD4-CD8pos_control_sg5_pd1_ctla4_treatment_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718385</Item>
+			<Item Name="Title" Type="String">B16_Setdb1_NoTx_experiment_2_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718371</Item>
+			<Item Name="Title" Type="String">scRNA-seq_LLC_CD45pos_llc_control_sg5_UnTx_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987038</Item>
+			<Item Name="Title" Type="String">LLC_TCR_profiling_KO_no_treatment_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718351</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_control_sg5_Tx_rep_1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718354</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_control_sg5_Tx_rep_4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718391</Item>
+			<Item Name="Title" Type="String">LLC_Ctrl_PolyIC_experiment_2_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987012</Item>
+			<Item Name="Title" Type="String">scRNA-seq_gex_LLC_CD4-CD8pos_control_sg5_no_treatment_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987058</Item>
+			<Item Name="Title" Type="String">LLC_TCR_profiling_Wt_no_treatment_rep7</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718308</Item>
+			<Item Name="Title" Type="String">ATAC-seq_LLC_KO_sg1_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5320279</Item>
+			<Item Name="Title" Type="String">RNA-seq_A375_control_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718328</Item>
+			<Item Name="Title" Type="String">RNA-seq_B16_control_sg2_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718394</Item>
+			<Item Name="Title" Type="String">LLC_Setdb1_NoTx_experiment_2_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718311</Item>
+			<Item Name="Title" Type="String">ATAC-seq_B16_control_sg1_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987061</Item>
+			<Item Name="Title" Type="String">LLC_TCR_profiling_Wt_pd1_ctla4_treatment_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718348</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_setdb1_sg4_UnTx_rep_8</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718291</Item>
+			<Item Name="Title" Type="String">H3K9me3_ChIP-seq_LLC_control_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987015</Item>
+			<Item Name="Title" Type="String">scRNA-seq_gex_LLC_CD4-CD8pos_control_sg5_no_treatment_rep4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718331</Item>
+			<Item Name="Title" Type="String">RNA-seq_B16_KO_sg1_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718374</Item>
+			<Item Name="Title" Type="String">scRNA-seq_LLC_CD45pos_llc_setdb1_sg4_Tx_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5320276</Item>
+			<Item Name="Title" Type="String">RNA-seq_A375_KO_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718368</Item>
+			<Item Name="Title" Type="String">scRNA-seq_LLC_CD45pos_llc_control_sg5_Tx_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987035</Item>
+			<Item Name="Title" Type="String">scRNA-seq_TCR_LLC_CD4-CD8pos_setdb1_sg4_no_treatment_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987055</Item>
+			<Item Name="Title" Type="String">LLC_TCR_profiling_Wt_no_treatment_rep4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718370</Item>
+			<Item Name="Title" Type="String">scRNA-seq_LLC_CD45pos_llc_control_sg5_Tx_rep4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987018</Item>
+			<Item Name="Title" Type="String">scRNA-seq_gex_LLC_CD4-CD8pos_setdb1_sg4_pd1_ctla4_treatment_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987037</Item>
+			<Item Name="Title" Type="String">LLC_TCR_profiling_KO_no_treatment_rep10</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718324</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_KO_sg2_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987011</Item>
+			<Item Name="Title" Type="String">scRNA-seq_gex_LLC_CD4-CD8pos_control_sg5_pd1_ctla4_treatment_rep4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5320278</Item>
+			<Item Name="Title" Type="String">RNA-seq_A375_KO_rep4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987057</Item>
+			<Item Name="Title" Type="String">LLC_TCR_profiling_Wt_no_treatment_rep6</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987031</Item>
+			<Item Name="Title" Type="String">scRNA-seq_TCR_LLC_CD4-CD8pos_setdb1_sg4_pd1_ctla4_treatment_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718327</Item>
+			<Item Name="Title" Type="String">RNA-seq_B16_control_sg1_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718347</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_setdb1_sg4_UnTx_rep_7</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987014</Item>
+			<Item Name="Title" Type="String">scRNA-seq_gex_LLC_CD4-CD8pos_control_sg5_no_treatment_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718307</Item>
+			<Item Name="Title" Type="String">ATAC-seq_LLC_control_sg2_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987017</Item>
+			<Item Name="Title" Type="String">scRNA-seq_gex_LLC_CD4-CD8pos_setdb1_sg4_pd1_ctla4_treatment_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718390</Item>
+			<Item Name="Title" Type="String">LLC_Ctrl_NoTx_experiment_2_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718310</Item>
+			<Item Name="Title" Type="String">ATAC-seq_B16_control_sg1_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987051</Item>
+			<Item Name="Title" Type="String">LLC_TCR_profiling_KO_pd1_ctla4_treatment_rep6</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718304</Item>
+			<Item Name="Title" Type="String">H3K27ac_ChIP-seq_B16_KO_sg2_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987054</Item>
+			<Item Name="Title" Type="String">LLC_TCR_profiling_Wt_no_treatment_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718393</Item>
+			<Item Name="Title" Type="String">LLC_Setdb1_NoTx_experiment_2_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5320275</Item>
+			<Item Name="Title" Type="String">RNA-seq_A375_KO_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987034</Item>
+			<Item Name="Title" Type="String">scRNA-seq_TCR_LLC_CD4-CD8pos_setdb1_sg4_no_treatment_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718350</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_setdb1_sg4_UnTx_rep_10</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718296</Item>
+			<Item Name="Title" Type="String">H3K9me3_ChIP-seq_B16_KO_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718387</Item>
+			<Item Name="Title" Type="String">B16_Setdb1_PolyIC_experiment_2_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987020</Item>
+			<Item Name="Title" Type="String">scRNA-seq_gex_LLC_CD4-CD8pos_setdb1_sg4_no_treatment_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718373</Item>
+			<Item Name="Title" Type="String">scRNA-seq_LLC_CD45pos_llc_control_sg5_UnTx_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718330</Item>
+			<Item Name="Title" Type="String">RNA-seq_B16_KO_sg1_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987023</Item>
+			<Item Name="Title" Type="String">scRNA-seq_TCR_LLC_CD4-CD8pos_control_sg5_pd1_ctla4_treatment_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718367</Item>
+			<Item Name="Title" Type="String">scRNA-seq_LLC_CD45pos_llc_control_sg5_Tx_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718333</Item>
+			<Item Name="Title" Type="String">RNA-seq_B16_KO_sg2_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718379</Item>
+			<Item Name="Title" Type="String">scRNA-seq_LLC_CD45pos_llc_setdb1_sg4_UnTx_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718336</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_setdb1_sg4_Tx_rep_3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987066</Item>
+			<Item Name="Title" Type="String">LLC_TCR_profiling_tet-_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987040</Item>
+			<Item Name="Title" Type="String">LLC_TCR_profiling_KO_no_treatment_rep4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5320281</Item>
+			<Item Name="Title" Type="String">RNA-seq_A375_control_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718290</Item>
+			<Item Name="Title" Type="String">H3K9me3_ChIP-seq_LLC_control_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718353</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_control_sg5_Tx_rep_3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987060</Item>
+			<Item Name="Title" Type="String">LLC_TCR_profiling_Wt_pd1_ctla4_treatment_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718376</Item>
+			<Item Name="Title" Type="String">scRNA-seq_LLC_CD45pos_llc_setdb1_sg4_Tx_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718293</Item>
+			<Item Name="Title" Type="String">H3K9me3_ChIP-seq_LLC_KO_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718316</Item>
+			<Item Name="Title" Type="String">ATAC-seq_B16_KO_sg2_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718356</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_control_sg5_Tx_rep_6</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987043</Item>
+			<Item Name="Title" Type="String">LLC_TCR_profiling_KO_no_treatment_rep7</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718315</Item>
+			<Item Name="Title" Type="String">ATAC-seq_B16_KO_sg1_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987063</Item>
+			<Item Name="Title" Type="String">LLC_TCR_profiling_Wt_pd1_ctla4_treatment_rep4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987039</Item>
+			<Item Name="Title" Type="String">LLC_TCR_profiling_KO_no_treatment_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718359</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_control_sg5_UnTx_rep_3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718339</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_setdb1_sg4_Tx_rep_6</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718313</Item>
+			<Item Name="Title" Type="String">ATAC-seq_B16_control_sg2_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718396</Item>
+			<Item Name="Title" Type="String">LLC_Setdb1_PolyIC_experiment_2_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987059</Item>
+			<Item Name="Title" Type="String">LLC_TCR_profiling_Wt_no_treatment_rep8</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718352</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_control_sg5_Tx_rep_2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5320277</Item>
+			<Item Name="Title" Type="String">RNA-seq_A375_KO_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987062</Item>
+			<Item Name="Title" Type="String">LLC_TCR_profiling_Wt_pd1_ctla4_treatment_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718309</Item>
+			<Item Name="Title" Type="String">ATAC-seq_LLC_KO_sg2_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718392</Item>
+			<Item Name="Title" Type="String">LLC_Ctrl_PolyIC_experiment_2_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5320280</Item>
+			<Item Name="Title" Type="String">RNA-seq_A375_control_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987019</Item>
+			<Item Name="Title" Type="String">scRNA-seq_gex_LLC_CD4-CD8pos_setdb1_sg4_no_treatment_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718372</Item>
+			<Item Name="Title" Type="String">scRNA-seq_LLC_CD45pos_llc_control_sg5_UnTx_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987022</Item>
+			<Item Name="Title" Type="String">scRNA-seq_TCR_LLC_CD4-CD8pos_control_sg5_pd1_ctla4_treatment_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718312</Item>
+			<Item Name="Title" Type="String">ATAC-seq_B16_control_sg2_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718332</Item>
+			<Item Name="Title" Type="String">RNA-seq_B16_KO_sg2_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987036</Item>
+			<Item Name="Title" Type="String">LLC_TCR_profiling_KO_no_treatment_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987065</Item>
+			<Item Name="Title" Type="String">LLC_TCR_profiling_Wt_pd1_ctla4_treatment_rep6</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718355</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_control_sg5_Tx_rep_5</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718375</Item>
+			<Item Name="Title" Type="String">scRNA-seq_LLC_CD45pos_llc_setdb1_sg4_Tx_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718292</Item>
+			<Item Name="Title" Type="String">H3K9me3_ChIP-seq_LLC_KO_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718335</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_setdb1_sg4_Tx_rep_2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718378</Item>
+			<Item Name="Title" Type="String">scRNA-seq_LLC_CD45pos_llc_setdb1_sg4_UnTx_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718318</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_control_sg1_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987068</Item>
+			<Item Name="Title" Type="String">LLC_TCR_profiling_tet-_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987042</Item>
+			<Item Name="Title" Type="String">LLC_TCR_profiling_KO_no_treatment_rep6</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718329</Item>
+			<Item Name="Title" Type="String">RNA-seq_B16_control_sg2_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718395</Item>
+			<Item Name="Title" Type="String">LLC_Setdb1_PolyIC_experiment_2_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987016</Item>
+			<Item Name="Title" Type="String">scRNA-seq_gex_LLC_CD4-CD8pos_setdb1_sg4_pd1_ctla4_treatment_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718344</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_setdb1_sg4_UnTx_rep_4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987028</Item>
+			<Item Name="Title" Type="String">scRNA-seq_TCR_LLC_CD4-CD8pos_control_sg5_no_treatment_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718338</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_setdb1_sg4_Tx_rep_5</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718341</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_setdb1_sg4_UnTx_rep_1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718381</Item>
+			<Item Name="Title" Type="String">B16_Ctrl_NoTx_experiment_2_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718361</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_control_sg5_UnTx_rep_5</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718298</Item>
+			<Item Name="Title" Type="String">H3K27ac_ChIP-seq_B16_control_sg1_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987048</Item>
+			<Item Name="Title" Type="String">LLC_TCR_profiling_KO_pd1_ctla4_treatment_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718384</Item>
+			<Item Name="Title" Type="String">B16_Ctrl_PolyIC_experiment_2_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718301</Item>
+			<Item Name="Title" Type="String">H3K27ac_ChIP-seq_B16_control_sg2_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987025</Item>
+			<Item Name="Title" Type="String">scRNA-seq_TCR_LLC_CD4-CD8pos_control_sg5_pd1_ctla4_treatment_rep4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718364</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_control_sg5_UnTx_rep_8</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718360</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_control_sg5_UnTx_rep_4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718295</Item>
+			<Item Name="Title" Type="String">H3K9me3_ChIP-seq_B16_control_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987008</Item>
+			<Item Name="Title" Type="String">scRNA-seq_gex_LLC_CD4-CD8pos_control_sg5_pd1_ctla4_treatment_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718321</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_control_sg2_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718357</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_control_sg5_UnTx_rep_1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987047</Item>
+			<Item Name="Title" Type="String">LLC_TCR_profiling_KO_pd1_ctla4_treatment_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718334</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_setdb1_sg4_Tx_rep_1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718383</Item>
+			<Item Name="Title" Type="String">B16_Ctrl_PolyIC_experiment_2_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718314</Item>
+			<Item Name="Title" Type="String">ATAC-seq_B16_KO_sg1_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718317</Item>
+			<Item Name="Title" Type="String">ATAC-seq_B16_KO_sg2_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987067</Item>
+			<Item Name="Title" Type="String">LLC_TCR_profiling_tet-_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718358</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_control_sg5_UnTx_rep_2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987041</Item>
+			<Item Name="Title" Type="String">LLC_TCR_profiling_KO_no_treatment_rep5</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987045</Item>
+			<Item Name="Title" Type="String">LLC_TCR_profiling_KO_no_treatment_rep9</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987021</Item>
+			<Item Name="Title" Type="String">scRNA-seq_gex_LLC_CD4-CD8pos_setdb1_sg4_no_treatment_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718380</Item>
+			<Item Name="Title" Type="String">scRNA-seq_LLC_CD45pos_llc_setdb1_sg4_UnTx_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718297</Item>
+			<Item Name="Title" Type="String">H3K9me3_ChIP-seq_B16_KO_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718320</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_control_sg2_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718389</Item>
+			<Item Name="Title" Type="String">LLC_Ctrl_NoTx_experiment_2_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987024</Item>
+			<Item Name="Title" Type="String">scRNA-seq_TCR_LLC_CD4-CD8pos_control_sg5_pd1_ctla4_treatment_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987030</Item>
+			<Item Name="Title" Type="String">scRNA-seq_TCR_LLC_CD4-CD8pos_setdb1_sg4_pd1_ctla4_treatment_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718294</Item>
+			<Item Name="Title" Type="String">H3K9me3_ChIP-seq_B16_control_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987044</Item>
+			<Item Name="Title" Type="String">LLC_TCR_profiling_KO_no_treatment_rep8</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718337</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_setdb1_sg4_Tx_rep_4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718363</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_control_sg5_UnTx_rep_7</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987033</Item>
+			<Item Name="Title" Type="String">scRNA-seq_TCR_LLC_CD4-CD8pos_setdb1_sg4_no_treatment_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5320282</Item>
+			<Item Name="Title" Type="String">RNA-seq_A375_control_rep4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718340</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_setdb1_sg4_Tx_rep_7</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987027</Item>
+			<Item Name="Title" Type="String">scRNA-seq_TCR_LLC_CD4-CD8pos_control_sg5_no_treatment_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718343</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_setdb1_sg4_UnTx_rep_3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987056</Item>
+			<Item Name="Title" Type="String">LLC_TCR_profiling_Wt_no_treatment_rep5</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718323</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_KO_sg1_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718300</Item>
+			<Item Name="Title" Type="String">H3K27ac_ChIP-seq_B16_control_sg2_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718377</Item>
+			<Item Name="Title" Type="String">scRNA-seq_LLC_CD45pos_llc_setdb1_sg4_Tx_rep4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718369</Item>
+			<Item Name="Title" Type="String">scRNA-seq_LLC_CD45pos_llc_control_sg5_Tx_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718326</Item>
+			<Item Name="Title" Type="String">RNA-seq_B16_control_sg1_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718386</Item>
+			<Item Name="Title" Type="String">B16_Setdb1_NoTx_experiment_2_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987064</Item>
+			<Item Name="Title" Type="String">LLC_TCR_profiling_Wt_pd1_ctla4_treatment_rep5</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718306</Item>
+			<Item Name="Title" Type="String">ATAC-seq_LLC_control_sg1_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987010</Item>
+			<Item Name="Title" Type="String">scRNA-seq_gex_LLC_CD4-CD8pos_control_sg5_pd1_ctla4_treatment_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987050</Item>
+			<Item Name="Title" Type="String">LLC_TCR_profiling_KO_pd1_ctla4_treatment_rep5</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718366</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_control_sg5_UnTx_rep_10</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718346</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_setdb1_sg4_UnTx_rep_6</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987053</Item>
+			<Item Name="Title" Type="String">LLC_TCR_profiling_Wt_no_treatment_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718349</Item>
+			<Item Name="Title" Type="String">RNA-seq_LLC_setdb1_sg4_UnTx_rep_9</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4987013</Item>
+			<Item Name="Title" Type="String">scRNA-seq_gex_LLC_CD4-CD8pos_control_sg5_no_treatment_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4718303</Item>
+			<Item Name="Title" Type="String">H3K27ac_ChIP-seq_B16_KO_sg1_rep2</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List">
+		<Item Name="ExtRelation" Type="Structure">
+			<Item Name="RelationType" Type="String">SRA</Item>
+			<Item Name="TargetObject" Type="String">SRP276887</Item>
+			<Item Name="TargetFTPLink" Type="String">ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP276/SRP276887/</Item>
+		</Item>
+	</Item>
+	<Item Name="n_samples" Type="Integer">177</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">33953401</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE155nnn/GSE155972/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+</eSummaryResult>

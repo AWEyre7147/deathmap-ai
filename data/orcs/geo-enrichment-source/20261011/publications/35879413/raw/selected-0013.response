@@ -1,0 +1,183 @@
+<eSummaryResult><DocSum>
+	<Id>200193834</Id>
+	<Item Name="Accession" Type="String">GSE193834</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">Bidirectional genome-wide CRISPR screens reveal host factors regulating SARS-CoV-2, MERS-CoV and seasonal HCoVs</Item>
+	<Item Name="summary" Type="String">Several genome-wide CRISPR knockout screens have been conducted to identify host factors regulating SARS-CoV-2 replication, but the models used have often relied on overexpression of ACE2 receptor and didn&#8217;t express TMPRSS2 protease, known to be important for viral entry at the plasma membrane. Here, we conducted a meta-analysis of these screens and showed a high level of cell-type specificity of the identified hits, arguing for the necessity to pursue efforts to uncover the full landscape of SARS-CoV-2 regulators. We performed genome-wide, bidirectional CRISPR screens in Calu-3 lung epithelial cells, as well as knockout screens in Caco-2 intestinal cells. As well as identifying ACE2 and TMPRSS2 as top hits, our study reveals a series of so far unidentified and critical host-dependency factors, including the Adaptins AP1G1 and AP1B1 and the flippase ATP8B1. Additionally, new anti-SARS-CoV-2 proteins with potent activity, including several membrane-associated Mucins (MUC1, MUC4 and MUC21), IL6R and CD44 were identified&#160;. We further observed that these genes mostly acted at the critical step of viral entry, with the notable exception of ATP8B1, the knockout of which prevented late stages of viral replication. Exploring the pro- and anti-viral breadth of these genes using highly pathogenic MERS-CoV, seasonal HCoV-NL63 and -229E and influenza A virus, we reveal that some genes such as AP1G1 and ATP8B1 are general coronavirus cofactors. In contrast, Mucins recapitulated their known role as a general antiviral defense mechanism. These results demonstrate the value of considering multiple cell models and perturbational modalities for understanding SARS-CoV-2 replication and provide a list of potential new targets for therapeutic interventions.</Item>
+	<Item Name="GPL" Type="String">16791</Item>
+	<Item Name="GSE" Type="String">193834</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Other</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2022/01/20</Item>
+	<Item Name="suppFile" Type="String">XLSX</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5822414</Item>
+			<Item Name="Title" Type="String">Huh7.5.1-ACE2 Cas9KO uninfected population screen 1.construct</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5822397</Item>
+			<Item Name="Title" Type="String">A549-ACE2 Cas9CRISPRa uninfected population screen 2.construct</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5822394</Item>
+			<Item Name="Title" Type="String">Calu-3 Cas9KO infected population screen 1.construct</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5822417</Item>
+			<Item Name="Title" Type="String">Calu-3 Cas12aKO uninfected population screen 1.construct</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5822406</Item>
+			<Item Name="Title" Type="String">Calu-3 Cas9CRISPRa infected population screen 1.construct</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5822423</Item>
+			<Item Name="Title" Type="String">Caco-2-ACE2 Cas9KO infected population screen 1.construct</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5822403</Item>
+			<Item Name="Title" Type="String">Caco-2-ACE2 Cas9CRISPRa infected population screen 2.construct</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5822420</Item>
+			<Item Name="Title" Type="String">Calu-3 Cas12aKO infected population screen 1.construct</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5822400</Item>
+			<Item Name="Title" Type="String">Caco-2-ACE2 Cas9CRISPRa uninfected population screen 1.construct</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5822426</Item>
+			<Item Name="Title" Type="String">Huh7.5.1-ACE2 Cas9CRISPRa infected population screen 2.construct</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5822412</Item>
+			<Item Name="Title" Type="String">A549-ACE2 Cas9KO infected population screen 2.construct</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5822392</Item>
+			<Item Name="Title" Type="String">Calu-3 Cas9KO uninfected population screen 1.construct</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5822409</Item>
+			<Item Name="Title" Type="String">A549-ACE2 Cas9KO uninfected population screen 2.construct</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5822415</Item>
+			<Item Name="Title" Type="String">Huh7.5.1-ACE2 Cas9KO infected population screen 1.construct</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5822401</Item>
+			<Item Name="Title" Type="String">Caco-2-ACE2 Cas9CRISPRa uninfected population screen 2.construct</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5822395</Item>
+			<Item Name="Title" Type="String">Calu-3 Cas9KO infected population screen 2.construct</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5822398</Item>
+			<Item Name="Title" Type="String">A549-ACE2 Cas9CRISPRa infected population screen 1.construct</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5822421</Item>
+			<Item Name="Title" Type="String">Caco-2-ACE2 Cas9KO uninfected population screen 2.construct</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5822404</Item>
+			<Item Name="Title" Type="String">Calu-3 Cas9CRISPRa uninfected population screen 2.construct</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5822418</Item>
+			<Item Name="Title" Type="String">Calu-3 Cas12aKO uninfected population screen 2.construct</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5822424</Item>
+			<Item Name="Title" Type="String">Caco-2-ACE2 Cas9KO infected population screen 2.construct</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5822427</Item>
+			<Item Name="Title" Type="String">Huh7.5.1-ACE2 Cas9CRISPRa uninfected population screen 1.construct</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5822407</Item>
+			<Item Name="Title" Type="String">Calu-3 Cas9CRISPRa infected population screen 2 1.construct</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5822396</Item>
+			<Item Name="Title" Type="String">A549-ACE2 Cas9CRISPRa uninfected population screen 1.construct</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5822393</Item>
+			<Item Name="Title" Type="String">Calu-3 Cas9KO uninfected population screen 2.construct</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5822413</Item>
+			<Item Name="Title" Type="String">Huh7.5.1-ACE2 Cas9KO uninfected population screen 2.construct</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5822410</Item>
+			<Item Name="Title" Type="String">A549-ACE2 Cas9KO uninfected population screen 1.construct</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5822416</Item>
+			<Item Name="Title" Type="String">Huh7.5.1-ACE2 Cas9KO infected population screen 2.construct</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5822422</Item>
+			<Item Name="Title" Type="String">Caco-2-ACE2 Cas9KO uninfected population screen 1.construct</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5822419</Item>
+			<Item Name="Title" Type="String">Calu-3 Cas12aKO infected population screen 2.construct</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5822399</Item>
+			<Item Name="Title" Type="String">A549-ACE2 Cas9CRISPRa infected population screen 2.construct</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5822402</Item>
+			<Item Name="Title" Type="String">Caco-2-ACE2 Cas9CRISPRa infected population screen 1.construct</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5822411</Item>
+			<Item Name="Title" Type="String">A549-ACE2 Cas9KO infected population screen 1.construct</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5822428</Item>
+			<Item Name="Title" Type="String">Huh7.5.1-ACE2 Cas9CRISPRa uninfected population screen 2.construct</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5822405</Item>
+			<Item Name="Title" Type="String">Calu-3 Cas9CRISPRa uninfected population screen 1.construct</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5822425</Item>
+			<Item Name="Title" Type="String">Huh7.5.1-ACE2 Cas9CRISPRa infected population screen 1.construct</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5822408</Item>
+			<Item Name="Title" Type="String">Calu-3 Cas9CRISPRa infected population screen 2 2.construct</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List" />
+	<Item Name="n_samples" Type="Integer">37</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">35879413</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE193nnn/GSE193834/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+</eSummaryResult>

@@ -1,0 +1,699 @@
+{
+  "publication": {
+    "PUBLICATION_ID": "373",
+    "SOURCE_TYPE": "pubmed",
+    "SOURCE_ID": "33357464",
+    "TITLE": "Functional interrogation of a SARS-CoV-2 host protein interactome identifies unique and shared coronavirus host factors.",
+    "AUTHORS": "Hoffmann HH, Sánchez-Rivera FJ, Schneider WM, Luna JM, Soto-Feliciano YM, Ashbrook AW, Le Pen J, Leal AA, Ricardo-Lax I, Michailidis E, Hao Y, Stenzel AF, Peace A, Zuber J, Allis CD, Lowe SW, MacDonald MR, Poirier JT, Rice CM",
+    "ABSTRACT": "The ongoing severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) pandemic has devastated the global economy and claimed more than 1.7 million lives, presenting an urgent global health crisis. To identify host factors required for infection by SARS-CoV-2 and seasonal coronaviruses, we designed a focused high-coverage CRISPR-Cas9 library targeting 332 members of a recently published SARS-CoV-2 protein interactome. We leveraged the compact nature of this library to systematically screen SARS-CoV-2 at two physiologically relevant temperatures along with three related coronaviruses (human coronavirus 229E [HCoV-229E], HCoV-NL63, and HCoV-OC43), allowing us to probe this interactome at a much higher resolution than genome-scale studies. This approach yielded several insights, including potential virus-specific differences in Rab GTPase requirements and glycosylphosphatidylinositol (GPI) anchor biosynthesis, as well as identification of multiple pan-coronavirus factors involved in cholesterol homeostasis. This coronavirus essentiality catalog could inform ongoing drug development efforts aimed at intercepting and treating coronavirus disease 2019 (COVID-19) and help prepare for future coronavirus outbreaks.",
+    "JOURNAL": "Cell host & microbe",
+    "PUBLICATION_DATE": "2020-12-16",
+    "PAGE_SOURCE_TYPE": "pubmed",
+    "PAGE_SOURCE_ID": "33357464",
+    "PMID": "33357464",
+    "DOI": "10.1016/j.chom.2020.12.009",
+    "SUPPLEMENTARY_FILES": [
+      {
+        "label": "media-1 (8).xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/5f89d9d126b0e/media-1 (8).xlsx"
+      }
+    ],
+    "LINKS": [
+      {
+        "label": "Pubmed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33357464"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/scholar?as_occt=title&as_q=Functional+interrogation+of+a+SARS-CoV-2+host+protein+interactome+identifies+unique+and+shared+coronavirus+host+factors."
+      },
+      {
+        "label": "33357464",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33357464"
+      },
+      {
+        "label": "media-1 (8).xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/5f89d9d126b0e/media-1 (8).xlsx"
+      }
+    ],
+    "SCREEN_IDS": [
+      "1379",
+      "1380",
+      "1381",
+      "1435",
+      "1436"
+    ],
+    "SCREEN_COUNT": 5,
+    "PUBLICATION_URL": "https://orcs.thebiogrid.org/Dataset/373",
+    "FIELD_LOCATORS": {
+      "TITLE": "#resultsHeaderBlock h1",
+      "AUTHORS": "#resultsHeaderBlock .subhead",
+      "ABSTRACT": "#resultsHeaderBlock .bgGrey",
+      "JOURNAL": ".linkouts citation strong",
+      "PUBLICATION_DATE": ".linkouts citation",
+      "SUPPLEMENTARY_FILES": ".linkouts Supplementary Files"
+    },
+    "REVIEW_ISSUES": [],
+    "RETRIEVED_AT": "2026-10-04T05:09:44.500493+00:00",
+    "SOURCE_METADATA_FILE": "data/orcs/publication-source/20261004-v01/373.metadata.html",
+    "SOURCE_METADATA_SHA256": "c0739e76b96988f9915cf6cf8746bfd183a6c9aa931fc0c91f963a1fdeb9c479",
+    "PMCID": "PMC7833927",
+    "IDENTIFIER_ENRICHMENT": {
+      "added_fields": [
+        "DOI",
+        "PMCID"
+      ],
+      "resolution": {
+        "input": {
+          "pmid": "33357464",
+          "doi": null,
+          "pmcid": null
+        },
+        "identifiers": {
+          "pmid": "33357464",
+          "doi": "10.1016/j.chom.2020.12.009",
+          "pmcid": "PMC7833927"
+        },
+        "status": "resolved",
+        "alternatives": {
+          "pmid": [
+            "33357464"
+          ],
+          "doi": [
+            "10.1016/j.chom.2020.12.009"
+          ],
+          "pmcid": [
+            "PMC7833927"
+          ]
+        },
+        "evidence": [
+          {
+            "identifiers": {
+              "pmid": "33357464",
+              "doi": "10.1016/j.chom.2020.12.009",
+              "pmcid": "PMC7833927"
+            },
+            "url": "https://pmc.ncbi.nlm.nih.gov/tools/idconv/api/v1/articles/?ids=32690708%2C32699298%2C32728216%2C32738194%2C32755594%2C32877678%2C32918875%2C32924251%2C32939090%2C32968282%2C32970993%2C32990596%2C33005030%2C33033111%2C33060197%2C33087464%2C33110234%2C33122441%2C33137164%2C33144569%2C33147444%2C33147445%2C33156908%2C33157015%2C33172989%2C33185187%2C33186476%2C33188726%2C33189395%2C33208877%2C33208938%2C33226137%2C33228647%2C33257658%2C33271924%2C33333024%2C33355125%2C33357464%2C33372156%2C33375770%2C33382968%2C33417871%2C33476303%2C33483422%2C33513160%2C33513212%2C33523994%2C33539788%2C33547076%2C33562682%2C33568224%2C33574281%2C33577797%2C33604667%2C33649592%2C33657372%2C33660365%2C33676427%2C33686287%2C33730579%2C33742119%2C33743211%2C33813748%2C33846634%2C33847741%2C33854235%2C33864166%2C33872695%2C33953401%2C34000301%2C34004147%2C34016692%2C34026427%2C34049503%2C34066520%2C34108663%2C34155407%2C34215620%2C34230586%2C34253920%2C34290256%2C34316707%2C34320214%2C34364401%2C34373448%2C34373451%2C34431042%2C34437126%2C34497417%2C34529489%2C34582788%2C34615851%2C34621019%2C34644148%2C34662547%2C34667112%2C34686207%2C34731885%2C34759314%2C34805786%2C34834920%2C34879274%2C34907164%2C34921014%2C34937946%2C34962926%2C35021089%2C35050652%2C35086559%2C35113687%2C35149558%2C35192680%2C35221331%2C35231079%2C35263388%2C35379808%2C35411049%2C35420441%2C35421191%2C35439318%2C35469023%2C35482054%2C35508460%2C35559673%2C35570209%2C35657206%2C35688159%2C35723366%2C35750052%2C35763353%2C35804923%2C35842423%2C35861150%2C35879412%2C35879413%2C35972292%2C35981571%2C36002574%2C36055241%2C36111891%2C36124427%2C36134452%2C36224385%2C36228039%2C36273494%2C36303069%2C36305789%2C36309510%2C36326816%2C36396656%2C36409314%2C36417855%2C36457047%2C36476853%2C36543916%2C36548402%2C36574441%2C36584827%2C36597481%2C36650183%2C36652375%2C36693839%2C36724073%2C36725334%2C36725843%2C36731340%2C36744886%2C36753415%2C36772830%2C36794958%2C36801923%2C36820830%2C36841242%2C36848233%2C36894612%2C36920785%2C36920967%2C36971544%2C36977592%2C36991492%2C37010434%2C37024475%2C37036970%2C37046090%2C37047518%2C37059858%2C37075701%2C37075745%2C37163373%2C37167561%2C37193694%2C37435859%2C37616343%2C37639469%2C37758944%2C37866880%2C37883554%2C37975674%2C37996617%2C38291084&idtype=pmid&format=json&tool=deathmap_ai",
+            "retrieved_at": "2026-10-08T01:37:51.651765+00:00",
+            "response_sha256": "81f6114b060dfc88e758a0492b87f826b0e1df9e4434ac70a4d87965d671a3f5"
+          },
+          {
+            "identifiers": {
+              "pmid": "33357464",
+              "doi": "10.1016/j.chom.2020.12.009",
+              "pmcid": "PMC7833927"
+            },
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=32690708%2C32699298%2C32728216%2C32738194%2C32755594%2C32877678%2C32918875%2C32924251%2C32939090%2C32968282%2C32970993%2C32990596%2C33005030%2C33033111%2C33060197%2C33087464%2C33110234%2C33122441%2C33137164%2C33144569%2C33147444%2C33147445%2C33156908%2C33157015%2C33172989%2C33185187%2C33186476%2C33188726%2C33189395%2C33208877%2C33208938%2C33226137%2C33228647%2C33257658%2C33271924%2C33333024%2C33355125%2C33357464%2C33372156%2C33375770%2C33382968%2C33417871%2C33476303%2C33483422%2C33501440%2C33513160%2C33513212%2C33523994%2C33539788%2C33547076%2C33562682%2C33568224%2C33574281%2C33577797%2C33604667%2C33649592%2C33657372%2C33660365%2C33676427%2C33686287%2C33730579%2C33742119%2C33743211%2C33813748%2C33846634%2C33847741%2C33854235%2C33864166%2C33872695%2C33953401%2C34000301%2C34004147%2C34016692%2C34026427%2C34049503%2C34066520%2C34108663%2C34155407%2C34215620%2C34230586%2C34253920%2C34290256%2C34316707%2C34320214%2C34364401%2C34373448%2C34373451%2C34431042%2C34437126%2C34497417%2C34529489%2C34582788%2C34615851%2C34621019%2C34644148%2C34662547%2C34667112%2C34686207%2C34731885%2C34759314&retmode=xml&tool=deathmap_ai",
+            "retrieved_at": "2026-10-08T01:37:58.234950+00:00",
+            "response_sha256": "b9086e8f958898fe78d76fe733dbd3a2625fe231807d5b50f1a46636f31b6150"
+          }
+        ]
+      }
+    },
+    "_input_provenance": {
+      "file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\publication-index.json",
+      "sha256": "63cb33b7095108e7a0776950e9c258e7b65fe148ca6b12ae75cd4dd914ad6c89",
+      "locator": "PUBLICATION_ID=373"
+    }
+  },
+  "candidates": [
+    {
+      "gse": "GSE148729",
+      "pmid": "33357464",
+      "routes": [
+        "europepmc_annotations",
+        "europepmc_datalinks"
+      ],
+      "hierarchy_only": false,
+      "native_pmids": [
+        "33585804"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE162039",
+      "pmid": "33357464",
+      "routes": [
+        "europepmc_annotations",
+        "europepmc_datalinks",
+        "publication_title_phrase",
+        "pubmed_bioproject_geo",
+        "pubmed_geo_links"
+      ],
+      "hierarchy_only": false,
+      "native_pmids": [
+        "33357464"
+      ],
+      "citation_comparison": "matches_origin",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE64675",
+      "pmid": "33357464",
+      "routes": [
+        "series_hierarchy"
+      ],
+      "hierarchy_only": true,
+      "native_pmids": [
+        "25768906"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE64676",
+      "pmid": "33357464",
+      "routes": [
+        "series_hierarchy"
+      ],
+      "hierarchy_only": true,
+      "native_pmids": [
+        "25768906"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE64677",
+      "pmid": "33357464",
+      "routes": [
+        "europepmc_annotations",
+        "europepmc_datalinks",
+        "series_hierarchy"
+      ],
+      "hierarchy_only": false,
+      "native_pmids": [
+        "25768906"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE64678",
+      "pmid": "33357464",
+      "routes": [
+        "series_hierarchy"
+      ],
+      "hierarchy_only": true,
+      "native_pmids": [
+        "25768906"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE64679",
+      "pmid": "33357464",
+      "routes": [
+        "series_hierarchy"
+      ],
+      "hierarchy_only": true,
+      "native_pmids": [
+        "25768906"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE64680",
+      "pmid": "33357464",
+      "routes": [
+        "series_hierarchy"
+      ],
+      "hierarchy_only": true,
+      "native_pmids": [
+        "25768906"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    }
+  ],
+  "routes": {
+    "pubmed_geo_links": {
+      "status": "complete",
+      "native_target_count": 1,
+      "distinct_gse_count": 1
+    },
+    "pubmed_accession_list": {
+      "status": "complete",
+      "distinct_gse_count": 0
+    },
+    "publication_title_phrase": {
+      "status": "complete",
+      "query": "\"Functional interrogation of a SARS-CoV-2 host protein interactome identifies unique and shared coronavirus host factors\"[All Fields] AND gse[Entry Type]",
+      "count": 1,
+      "query_translation": "\"Functional interrogation of a SARS-CoV-2 host protein interactome identifies unique and shared coronavirus host factors\"[All Fields] AND gse[Entry Type]",
+      "warnings": null,
+      "distinct_gse_count": 1
+    },
+    "europepmc_annotations": {
+      "status": "complete",
+      "distinct_gse_count": 3
+    },
+    "europepmc_datalinks": {
+      "status": "complete",
+      "service_version": "6.9",
+      "distinct_gse_count": 3
+    },
+    "pubmed_bioproject_geo": {
+      "status": "complete",
+      "bioproject_uids": [
+        "669783",
+        "669784",
+        "680345"
+      ],
+      "distinct_gse_count": 1
+    },
+    "series_hierarchy": {
+      "status": "complete",
+      "distinct_gse_count": 6
+    }
+  },
+  "seed_count": 3,
+  "total_gse_count": 8,
+  "hierarchy_added": [
+    "GSE64675",
+    "GSE64676",
+    "GSE64678",
+    "GSE64679",
+    "GSE64680"
+  ],
+  "evidence": [
+    {
+      "pmid": "33357464",
+      "publication_id": "373",
+      "gse": "GSE162039",
+      "route": "pubmed_geo_links",
+      "source_file": "raw/selected-0000.response",
+      "locator": "target_uid=200162039",
+      "data_role": "not_assessed",
+      "summary_source": "raw/selected-0001.response",
+      "native_uid": "200162039",
+      "evidence_kind": "direct_repository_link"
+    },
+    {
+      "pmid": "33357464",
+      "publication_id": "373",
+      "gse": "GSE162039",
+      "route": "publication_title_phrase",
+      "source_file": "raw/selected-0003.response",
+      "locator": "target_uid=200162039",
+      "data_role": "not_assessed",
+      "summary_source": "raw/selected-0004.response",
+      "native_uid": "200162039",
+      "evidence_kind": "title_candidate",
+      "query": "\"Functional interrogation of a SARS-CoV-2 host protein interactome identifies unique and shared coronavirus host factors\"[All Fields] AND gse[Entry Type]"
+    },
+    {
+      "pmid": "33357464",
+      "publication_id": "373",
+      "gse": "GSE162039",
+      "route": "europepmc_annotations",
+      "source_file": "raw/live-00005.response",
+      "locator": "annotations[2]",
+      "data_role": "not_assessed",
+      "evidence_kind": "precomputed_accession_annotation",
+      "native_annotation": {
+        "prefix": " dataThis studyGEO: ",
+        "exact": "GSE162039",
+        "postfix": "Raw and analyzed CRI",
+        "tags": [
+          {
+            "name": "GSE162039",
+            "uri": "http://identifiers.org/geo:GSE162039"
+          }
+        ],
+        "id": "http://europepmc.org/article/PMC/PMC7833927#europepmc-27af330d1ebb4ffd7467d1559f7f8b8b",
+        "type": "Accession Numbers",
+        "section": "Methods (http://purl.org/orb/Methods)",
+        "provider": "Europe PMC",
+        "subType": "GEO"
+      }
+    },
+    {
+      "pmid": "33357464",
+      "publication_id": "373",
+      "gse": "GSE162039",
+      "route": "europepmc_annotations",
+      "source_file": "raw/live-00005.response",
+      "locator": "annotations[8]",
+      "data_role": "not_assessed",
+      "evidence_kind": "precomputed_accession_annotation",
+      "native_annotation": {
+        "prefix": " (Accession number: ",
+        "exact": "GSE162039",
+        "postfix": ") and Mendeley Data ",
+        "tags": [
+          {
+            "name": "GSE162039",
+            "uri": "http://identifiers.org/geo:GSE162039"
+          }
+        ],
+        "id": "http://europepmc.org/article/PMC/PMC7833927#europepmc-7cfb89daf9d6ec3b1fe5402fce3d3bd0",
+        "type": "Accession Numbers",
+        "section": "Methods (http://purl.org/orb/Methods)",
+        "provider": "Europe PMC",
+        "subType": "GEO"
+      }
+    },
+    {
+      "pmid": "33357464",
+      "publication_id": "373",
+      "gse": "GSE64677",
+      "route": "europepmc_annotations",
+      "source_file": "raw/live-00005.response",
+      "locator": "annotations[12]",
+      "data_role": "not_assessed",
+      "evidence_kind": "precomputed_accession_annotation",
+      "native_annotation": {
+        "prefix": "s was obtained from ",
+        "exact": "GSE64677",
+        "postfix": " (Luna et al., 2015",
+        "tags": [
+          {
+            "name": "GSE64677",
+            "uri": "http://identifiers.org/geo:GSE64677"
+          }
+        ],
+        "id": "http://europepmc.org/article/PMC/PMC7833927#europepmc-e484495182b42367ad7e5fa448abd40d",
+        "type": "Accession Numbers",
+        "section": "Methods (http://purl.org/orb/Methods)",
+        "provider": "Europe PMC",
+        "subType": "GEO"
+      }
+    },
+    {
+      "pmid": "33357464",
+      "publication_id": "373",
+      "gse": "GSE148729",
+      "route": "europepmc_annotations",
+      "source_file": "raw/live-00005.response",
+      "locator": "annotations[13]",
+      "data_role": "not_assessed",
+      "evidence_kind": "precomputed_accession_annotation",
+      "native_annotation": {
+        "prefix": " were obtained from ",
+        "exact": "GSE148729",
+        "postfix": " (Wyler et al., 2020",
+        "tags": [
+          {
+            "name": "GSE148729",
+            "uri": "http://identifiers.org/geo:GSE148729"
+          }
+        ],
+        "id": "http://europepmc.org/article/PMC/PMC7833927#europepmc-fde4b0f9639ce4e78c594722fa800abf",
+        "type": "Accession Numbers",
+        "section": "Methods (http://purl.org/orb/Methods)",
+        "provider": "Europe PMC",
+        "subType": "GEO"
+      }
+    },
+    {
+      "pmid": "33357464",
+      "publication_id": "373",
+      "gse": "GSE162039",
+      "route": "europepmc_datalinks",
+      "source_file": "raw/live-00006.response",
+      "locator": "Category[0]/Section[0]/Link[0]",
+      "data_role": "not_assessed",
+      "evidence_kind": "service_reported_literature_data_link",
+      "native_link": {
+        "ObtainedBy": "tm_accession",
+        "PublicationDate": "05-08-2026",
+        "LinkProvider": {
+          "Name": "Europe PMC"
+        },
+        "RelationshipType": {
+          "Name": "References"
+        },
+        "Source": {
+          "Type": {
+            "Name": "literature"
+          },
+          "Identifier": {
+            "ID": "33357464",
+            "IDScheme": "MED"
+          }
+        },
+        "Target": {
+          "Type": {
+            "Name": "dataset"
+          },
+          "Identifier": {
+            "ID": "GSE162039",
+            "IDScheme": "GEO",
+            "IDURL": "http://identifiers.org/geo:GSE162039"
+          },
+          "Title": "GSE162039",
+          "Publisher": {
+            "Name": "Europe PMC"
+          }
+        },
+        "Frequency": 2
+      }
+    },
+    {
+      "pmid": "33357464",
+      "publication_id": "373",
+      "gse": "GSE64677",
+      "route": "europepmc_datalinks",
+      "source_file": "raw/live-00006.response",
+      "locator": "Category[0]/Section[0]/Link[1]",
+      "data_role": "not_assessed",
+      "evidence_kind": "service_reported_literature_data_link",
+      "native_link": {
+        "ObtainedBy": "tm_accession",
+        "PublicationDate": "05-08-2026",
+        "LinkProvider": {
+          "Name": "Europe PMC"
+        },
+        "RelationshipType": {
+          "Name": "References"
+        },
+        "Source": {
+          "Type": {
+            "Name": "literature"
+          },
+          "Identifier": {
+            "ID": "33357464",
+            "IDScheme": "MED"
+          }
+        },
+        "Target": {
+          "Type": {
+            "Name": "dataset"
+          },
+          "Identifier": {
+            "ID": "GSE64677",
+            "IDScheme": "GEO",
+            "IDURL": "http://identifiers.org/geo:GSE64677"
+          },
+          "Title": "GSE64677",
+          "Publisher": {
+            "Name": "Europe PMC"
+          }
+        },
+        "Frequency": 1
+      }
+    },
+    {
+      "pmid": "33357464",
+      "publication_id": "373",
+      "gse": "GSE148729",
+      "route": "europepmc_datalinks",
+      "source_file": "raw/live-00006.response",
+      "locator": "Category[0]/Section[0]/Link[2]",
+      "data_role": "not_assessed",
+      "evidence_kind": "service_reported_literature_data_link",
+      "native_link": {
+        "ObtainedBy": "tm_accession",
+        "PublicationDate": "05-08-2026",
+        "LinkProvider": {
+          "Name": "Europe PMC"
+        },
+        "RelationshipType": {
+          "Name": "References"
+        },
+        "Source": {
+          "Type": {
+            "Name": "literature"
+          },
+          "Identifier": {
+            "ID": "33357464",
+            "IDScheme": "MED"
+          }
+        },
+        "Target": {
+          "Type": {
+            "Name": "dataset"
+          },
+          "Identifier": {
+            "ID": "GSE148729",
+            "IDScheme": "GEO",
+            "IDURL": "http://identifiers.org/geo:GSE148729"
+          },
+          "Title": "GSE148729",
+          "Publisher": {
+            "Name": "Europe PMC"
+          }
+        },
+        "Frequency": 1
+      }
+    },
+    {
+      "pmid": "33357464",
+      "publication_id": "373",
+      "gse": "GSE162039",
+      "route": "pubmed_bioproject_geo",
+      "source_file": "raw/selected-0010.response",
+      "locator": "target_uid=200162039",
+      "data_role": "not_assessed",
+      "summary_source": "raw/selected-0011.response",
+      "native_uid": "200162039",
+      "evidence_kind": "indirect_repository_path",
+      "bioproject_uid": "680345",
+      "publication_project_source": "raw/selected-0007.response"
+    },
+    {
+      "pmid": "33357464",
+      "publication_id": "373",
+      "gse": "GSE64680",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00014.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE64677",
+      "to_gse": "GSE64680",
+      "relation": "SubSeries of",
+      "native_value": "SubSeries of: GSE64680"
+    },
+    {
+      "pmid": "33357464",
+      "publication_id": "373",
+      "gse": "GSE64675",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00015.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE64680",
+      "to_gse": "GSE64675",
+      "relation": "SuperSeries of",
+      "native_value": "SuperSeries of: GSE64675"
+    },
+    {
+      "pmid": "33357464",
+      "publication_id": "373",
+      "gse": "GSE64676",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00015.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE64680",
+      "to_gse": "GSE64676",
+      "relation": "SuperSeries of",
+      "native_value": "SuperSeries of: GSE64676"
+    },
+    {
+      "pmid": "33357464",
+      "publication_id": "373",
+      "gse": "GSE64677",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00015.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE64680",
+      "to_gse": "GSE64677",
+      "relation": "SuperSeries of",
+      "native_value": "SuperSeries of: GSE64677"
+    },
+    {
+      "pmid": "33357464",
+      "publication_id": "373",
+      "gse": "GSE64678",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00015.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE64680",
+      "to_gse": "GSE64678",
+      "relation": "SuperSeries of",
+      "native_value": "SuperSeries of: GSE64678"
+    },
+    {
+      "pmid": "33357464",
+      "publication_id": "373",
+      "gse": "GSE64679",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00015.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE64680",
+      "to_gse": "GSE64679",
+      "relation": "SuperSeries of",
+      "native_value": "SuperSeries of: GSE64679"
+    },
+    {
+      "pmid": "33357464",
+      "publication_id": "373",
+      "gse": "GSE64680",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00016.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE64675",
+      "to_gse": "GSE64680",
+      "relation": "SubSeries of",
+      "native_value": "SubSeries of: GSE64680"
+    },
+    {
+      "pmid": "33357464",
+      "publication_id": "373",
+      "gse": "GSE64680",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00017.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE64676",
+      "to_gse": "GSE64680",
+      "relation": "SubSeries of",
+      "native_value": "SubSeries of: GSE64680"
+    },
+    {
+      "pmid": "33357464",
+      "publication_id": "373",
+      "gse": "GSE64680",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00018.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE64678",
+      "to_gse": "GSE64680",
+      "relation": "SubSeries of",
+      "native_value": "SubSeries of: GSE64680"
+    },
+    {
+      "pmid": "33357464",
+      "publication_id": "373",
+      "gse": "GSE64680",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00019.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE64679",
+      "to_gse": "GSE64680",
+      "relation": "SubSeries of",
+      "native_value": "SubSeries of: GSE64680"
+    }
+  ]
+}

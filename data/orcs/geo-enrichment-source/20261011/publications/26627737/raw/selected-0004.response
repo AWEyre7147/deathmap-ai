@@ -1,0 +1,61 @@
+<eSummaryResult><DocSum>
+	<Id>200075189</Id>
+	<Item Name="Accession" Type="String">GSE75189</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">High-Resolution CRISPR Screens Reveal Fitness Genes and Genotype-Specific Cancer Liabilities</Item>
+	<Item Name="summary" Type="String">The ability to perturb genes in human cells is crucial for elucidating gene function and holds great potential for finding therapeutic targets for diseases such as cancer. To extend the catalog of human core and context- dependent fitness genes, we have developed a high-complexity second-generation genome-scale CRISPR-Cas9 gRNA library and applied it to fitness screens in five human cell lines. Using an improved Bayesian analytical approach, we consistently discover 5-fold more fitness genes than were previously observed. We present a list of 1,580 human core fitness genes and describe their general properties. Moreover, we demonstrate that context-dependent fitness genes accurately recapitulate pathway-specific genetic vulnerabilities induced by known oncogenes and reveal cell-type-specific dependencies for specific receptor tyrosine kinases, even in oncogenic KRAS backgrounds. Thus, rigorous identification of human cell line fitness genes using a high-complexity CRISPR-Cas9 library affords a high-resolution view of the genetic vulnerabilities of a cell. Additional data can be found at tko.ccbr.utoronto.ca</Item>
+	<Item Name="GPL" Type="String">18573;16791</Item>
+	<Item Name="GSE" Type="String">75189</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2015/11/25</Item>
+	<Item Name="suppFile" Type="String">XLSX</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM1944748</Item>
+			<Item Name="Title" Type="String">GBM-Cas9</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM1944751</Item>
+			<Item Name="Title" Type="String">RPE1-Cas9</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM1944749</Item>
+			<Item Name="Title" Type="String">HeLa-Cas9</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM1944747</Item>
+			<Item Name="Title" Type="String">DLD1-Cas9</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM1944750</Item>
+			<Item Name="Title" Type="String">HCT116-Cas9</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List">
+		<Item Name="ExtRelation" Type="Structure">
+			<Item Name="RelationType" Type="String">SRA</Item>
+			<Item Name="TargetObject" Type="String">SRP066424</Item>
+			<Item Name="TargetFTPLink" Type="String">ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP066/SRP066424/</Item>
+		</Item>
+	</Item>
+	<Item Name="n_samples" Type="Integer">5</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">26627737</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75189/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+</eSummaryResult>

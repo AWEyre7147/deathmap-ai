@@ -1,0 +1,119 @@
+{
+  "strategy": "geo-accession-identification-v1",
+  "package_version": "0.1.0",
+  "started_utc": "2026-10-11T18:09:00.133425+00:00",
+  "publication": {
+    "PUBLICATION_ID": "890",
+    "SOURCE_TYPE": "pubmed",
+    "SOURCE_ID": "35981571",
+    "TITLE": "Genome-wide CRISPR screen identifies MTA3 as an inducer of gemcitabine resistance in pancreatic ductal adenocarcinoma.",
+    "AUTHORS": "Wu L, Ge Y, Yuan Y, Li H, Sun H, Xu C, Wang Y, Zhao T, Wang X, Liu J, Gao S, Chang A, Hao J, Huang C",
+    "ABSTRACT": "Gemcitabine (GEM) resistance is one of the major causes of treatment failure in pancreatic ductal adenocarcinoma (PDAC) in clinic. Here, through CRISPR/Cas9 activation library screen, we found that MTA3 mediates the GEM resistance of PDAC and thus might be a potential therapeutic target for combination chemotherapy. The CRISPR library screening showed that MTA3 is the most enriched gene in the surviving GEM-treated cells, and bioinformatic and histology analysis implied its high correlation with GEM resistance. MTA3 promoted GEM resistance of PDAC cells in in vitro and in vivo experiments. Mechanistically, as a component of the Mi-2/nucleosome remodeling and deacetylase transcriptional repression complex, MTA3 transcriptionally represses CRIP2, a transcriptional repressor of NF-κB/p65, activating NF-κB signaling and consequently leading to GEM resistance. Furthermore, the treatment of GEM increases MTA3 expression in PDAC cells via activating STAT3 signaling, thereby inducing the acquired chemoresistance of PDAC to GEM. In patients derived xenografts (PDX) mouse model, Colchicine suppresses the expression of MTA3 and increases the sensitivity of tumor cells to GEM. Based on these findings, MTA3 plays a key role in GEM resistance in pancreatic cancer and is a promising therapeutic target for reversing GEM chemotherapy resistance.",
+    "JOURNAL": "Cancer letters",
+    "PUBLICATION_DATE": "2022-11-01",
+    "PAGE_SOURCE_TYPE": "pubmed",
+    "PAGE_SOURCE_ID": "35981571",
+    "PMID": "35981571",
+    "DOI": "10.1016/j.canlet.2022.215864",
+    "SUPPLEMENTARY_FILES": [
+      {
+        "label": "Multimedia component 3..txt",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/64de4526cfa08/Multimedia component 3..txt"
+      }
+    ],
+    "LINKS": [
+      {
+        "label": "Pubmed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35981571"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/scholar?as_occt=title&as_q=Genome-wide+CRISPR+screen+identifies+MTA3+as+an+inducer+of+gemcitabine+resistance+in+pancreatic+ductal+adenocarcinoma."
+      },
+      {
+        "label": "35981571",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35981571"
+      },
+      {
+        "label": "Multimedia component 3..txt",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/64de4526cfa08/Multimedia component 3..txt"
+      }
+    ],
+    "SCREEN_IDS": [
+      "2016"
+    ],
+    "SCREEN_COUNT": 1,
+    "PUBLICATION_URL": "https://orcs.thebiogrid.org/Dataset/890",
+    "FIELD_LOCATORS": {
+      "TITLE": "#resultsHeaderBlock h1",
+      "AUTHORS": "#resultsHeaderBlock .subhead",
+      "ABSTRACT": "#resultsHeaderBlock .bgGrey",
+      "JOURNAL": ".linkouts citation strong",
+      "PUBLICATION_DATE": ".linkouts citation",
+      "SUPPLEMENTARY_FILES": ".linkouts Supplementary Files"
+    },
+    "REVIEW_ISSUES": [],
+    "RETRIEVED_AT": "2026-10-04T05:13:25.146373+00:00",
+    "SOURCE_METADATA_FILE": "data/orcs/publication-source/20261004-v01/890.metadata.html",
+    "SOURCE_METADATA_SHA256": "c6d4d3db7483c3448cd332651e67a4cc639955d29256399e36bbcd009cf5782f",
+    "PMCID": null,
+    "IDENTIFIER_ENRICHMENT": {
+      "added_fields": [
+        "DOI"
+      ],
+      "resolution": {
+        "input": {
+          "pmid": "35981571",
+          "doi": null,
+          "pmcid": null
+        },
+        "identifiers": {
+          "pmid": "35981571",
+          "doi": "10.1016/j.canlet.2022.215864",
+          "pmcid": null
+        },
+        "status": "partial",
+        "alternatives": {
+          "pmid": [
+            "35981571"
+          ],
+          "doi": [
+            "10.1016/j.canlet.2022.215864"
+          ],
+          "pmcid": []
+        },
+        "evidence": [
+          {
+            "identifiers": {
+              "pmid": "35981571",
+              "doi": "10.1016/j.canlet.2022.215864",
+              "pmcid": null
+            },
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=34805786%2C34834920%2C34879274%2C34907164%2C34921014%2C34937946%2C34962926%2C35021089%2C35050652%2C35086559%2C35113687%2C35149558%2C35192680%2C35221331%2C35231079%2C35263388%2C35379808%2C35411049%2C35420441%2C35421191%2C35439318%2C35469023%2C35482054%2C35508460%2C35559673%2C35570209%2C35657206%2C35688159%2C35723366%2C35750052%2C35763353%2C35804923%2C35842423%2C35861150%2C35879412%2C35879413%2C35972292%2C35981571%2C36002574%2C36032971%2C36055241%2C36111891%2C36124427%2C36134452%2C36224385%2C36228039%2C36273494%2C36303069%2C36305789%2C36309510%2C36326816%2C36396656%2C36409314%2C36417855%2C36457047%2C36476853%2C36543916%2C36548402%2C36574441%2C36584827%2C36597481%2C36650183%2C36652375%2C36693839%2C36724073%2C36725334%2C36725843%2C36731340%2C36744886%2C36753415%2C36772830%2C36794958%2C36801923%2C36820830%2C36841242%2C36848233%2C36894612%2C36920785%2C36920967%2C36971544%2C36977592%2C36991492%2C37010434%2C37024475%2C37036970%2C37046090%2C37047518%2C37059858%2C37075701%2C37075745%2C37163373%2C37167561%2C37193694%2C37435859%2C37616343%2C37639469%2C37758944%2C37866880%2C37883554%2C37975674&retmode=xml&tool=deathmap_ai",
+            "retrieved_at": "2026-10-08T01:38:00.174729+00:00",
+            "response_sha256": "6dcc21c7d8864227c838e445f2831b139a13a479d53eeaa9f47cc40dbcb08973"
+          }
+        ]
+      }
+    },
+    "_input_provenance": {
+      "file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\publication-index.json",
+      "sha256": "63cb33b7095108e7a0776950e9c258e7b65fe148ca6b12ae75cd4dd914ad6c89",
+      "locator": "PUBLICATION_ID=890"
+    }
+  },
+  "status": "complete",
+  "source_code_sha256": "1e62a9364e02df38d28540f2c3211fbc696f04678f5fa977cf989e31578b60bf",
+  "limits": {
+    "request_attempts": 100,
+    "seconds": 600,
+    "series": 100,
+    "target_uids_per_route": 1000,
+    "attempts_per_request": 2,
+    "timeout_seconds": 30,
+    "pacing_seconds": 0.4
+  },
+  "total_gse_count": 0,
+  "finished_utc": "2026-10-11T18:09:01.913408+00:00",
+  "request_attempts": 2
+}

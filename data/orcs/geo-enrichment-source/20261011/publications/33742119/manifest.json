@@ -1,0 +1,119 @@
+{
+  "strategy": "geo-accession-identification-v1",
+  "package_version": "0.1.0",
+  "started_utc": "2026-10-11T18:08:05.296934+00:00",
+  "publication": {
+    "PUBLICATION_ID": "840",
+    "SOURCE_TYPE": "pubmed",
+    "SOURCE_ID": "33742119",
+    "TITLE": "CRISPR/Cas9 library screening uncovered methylated PKP2 as a critical driver of lung cancer radioresistance by stabilizing β-catenin.",
+    "AUTHORS": "Cheng C, Pei X, Li SW, Yang J, Li C, Tang J, Hu K, Huang G, Min WP, Sang Y",
+    "ABSTRACT": "Radiation resistance is a major cause of lung cancer treatment failure. Armadillo (ARM) superfamily proteins participate in various fundamental cellular processes; however, whether ARM proteins regulate radiation resistance is not fully understood. Here, we used an unbiased CRISPR/Cas9 library screen and identified plakophilin 2 (PKP2), a member of the ARM superfamily of proteins, as a critical driver of radiation resistance in lung cancer. The PKP2 level was significantly higher after radiotherapy than before radiotherapy, and high PKP2 expression after radiotherapy predicted poor overall survival (OS) and postprogression survival (PPS). Mechanistically, mass spectrometry analysis identified that PKP2 was methylated at the arginine site and interacted with protein arginine methyltransferase 1 (PRMT1). Methylation of PKP2 by PRMT1 stabilized β-catenin by recruiting USP7, further inducing LIG4, a key DNA ligase in nonhomologous end-joining (NHEJ) repair. Concomitantly, PKP2-induced radioresistance depended on facilitating LIG4-mediated NHEJ repair in lung cancer. More strikingly, after exposure to irradiation, treatment with the PRMT1 inhibitor C-7280948 abolished PKP2-induced radioresistance, and C-7280948 is a potential radiosensitizer in lung cancer. In summary, our results demonstrate that targeting the PRMT1/PKP2/β-catenin/LIG4 pathway is an effective approach to overcome radiation resistance in lung cancer.",
+    "JOURNAL": "Oncogene",
+    "PUBLICATION_DATE": "2021-04-01",
+    "PAGE_SOURCE_TYPE": "pubmed",
+    "PAGE_SOURCE_ID": "33742119",
+    "PMID": "33742119",
+    "DOI": "10.1038/s41388-021-01692-x",
+    "SUPPLEMENTARY_FILES": [
+      {
+        "label": "41388_2021_1692_MOESM3_ESM.xls",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/63e2d3044ac13/41388_2021_1692_MOESM3_ESM.xls"
+      }
+    ],
+    "LINKS": [
+      {
+        "label": "Pubmed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33742119"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/scholar?as_occt=title&as_q=CRISPR%2FCas9+library+screening+uncovered+methylated+PKP2+as+a+critical+driver+of+lung+cancer+radioresistance+by+stabilizing+%CE%B2-catenin."
+      },
+      {
+        "label": "33742119",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33742119"
+      },
+      {
+        "label": "41388_2021_1692_MOESM3_ESM.xls",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/63e2d3044ac13/41388_2021_1692_MOESM3_ESM.xls"
+      }
+    ],
+    "SCREEN_IDS": [
+      "1952"
+    ],
+    "SCREEN_COUNT": 1,
+    "PUBLICATION_URL": "https://orcs.thebiogrid.org/Dataset/840",
+    "FIELD_LOCATORS": {
+      "TITLE": "#resultsHeaderBlock h1",
+      "AUTHORS": "#resultsHeaderBlock .subhead",
+      "ABSTRACT": "#resultsHeaderBlock .bgGrey",
+      "JOURNAL": ".linkouts citation strong",
+      "PUBLICATION_DATE": ".linkouts citation",
+      "SUPPLEMENTARY_FILES": ".linkouts Supplementary Files"
+    },
+    "REVIEW_ISSUES": [],
+    "RETRIEVED_AT": "2026-10-04T05:12:59.007826+00:00",
+    "SOURCE_METADATA_FILE": "data/orcs/publication-source/20261004-v01/840.metadata.html",
+    "SOURCE_METADATA_SHA256": "3a9f3477df9c32fd6ba7a75966a0dcad8ca3465753cee5b2c499cc307fb5f2a6",
+    "PMCID": null,
+    "IDENTIFIER_ENRICHMENT": {
+      "added_fields": [
+        "DOI"
+      ],
+      "resolution": {
+        "input": {
+          "pmid": "33742119",
+          "doi": null,
+          "pmcid": null
+        },
+        "identifiers": {
+          "pmid": "33742119",
+          "doi": "10.1038/s41388-021-01692-x",
+          "pmcid": null
+        },
+        "status": "partial",
+        "alternatives": {
+          "pmid": [
+            "33742119"
+          ],
+          "doi": [
+            "10.1038/s41388-021-01692-x"
+          ],
+          "pmcid": []
+        },
+        "evidence": [
+          {
+            "identifiers": {
+              "pmid": "33742119",
+              "doi": "10.1038/s41388-021-01692-x",
+              "pmcid": null
+            },
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=32690708%2C32699298%2C32728216%2C32738194%2C32755594%2C32877678%2C32918875%2C32924251%2C32939090%2C32968282%2C32970993%2C32990596%2C33005030%2C33033111%2C33060197%2C33087464%2C33110234%2C33122441%2C33137164%2C33144569%2C33147444%2C33147445%2C33156908%2C33157015%2C33172989%2C33185187%2C33186476%2C33188726%2C33189395%2C33208877%2C33208938%2C33226137%2C33228647%2C33257658%2C33271924%2C33333024%2C33355125%2C33357464%2C33372156%2C33375770%2C33382968%2C33417871%2C33476303%2C33483422%2C33501440%2C33513160%2C33513212%2C33523994%2C33539788%2C33547076%2C33562682%2C33568224%2C33574281%2C33577797%2C33604667%2C33649592%2C33657372%2C33660365%2C33676427%2C33686287%2C33730579%2C33742119%2C33743211%2C33813748%2C33846634%2C33847741%2C33854235%2C33864166%2C33872695%2C33953401%2C34000301%2C34004147%2C34016692%2C34026427%2C34049503%2C34066520%2C34108663%2C34155407%2C34215620%2C34230586%2C34253920%2C34290256%2C34316707%2C34320214%2C34364401%2C34373448%2C34373451%2C34431042%2C34437126%2C34497417%2C34529489%2C34582788%2C34615851%2C34621019%2C34644148%2C34662547%2C34667112%2C34686207%2C34731885%2C34759314&retmode=xml&tool=deathmap_ai",
+            "retrieved_at": "2026-10-08T01:37:58.234950+00:00",
+            "response_sha256": "b9086e8f958898fe78d76fe733dbd3a2625fe231807d5b50f1a46636f31b6150"
+          }
+        ]
+      }
+    },
+    "_input_provenance": {
+      "file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\publication-index.json",
+      "sha256": "63cb33b7095108e7a0776950e9c258e7b65fe148ca6b12ae75cd4dd914ad6c89",
+      "locator": "PUBLICATION_ID=840"
+    }
+  },
+  "status": "complete",
+  "source_code_sha256": "1e62a9364e02df38d28540f2c3211fbc696f04678f5fa977cf989e31578b60bf",
+  "limits": {
+    "request_attempts": 100,
+    "seconds": 600,
+    "series": 100,
+    "target_uids_per_route": 1000,
+    "attempts_per_request": 2,
+    "timeout_seconds": 30,
+    "pacing_seconds": 0.4
+  },
+  "total_gse_count": 1,
+  "finished_utc": "2026-10-11T18:08:07.166683+00:00",
+  "request_attempts": 2
+}

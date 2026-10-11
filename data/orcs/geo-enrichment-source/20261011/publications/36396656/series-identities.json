@@ -1,0 +1,96 @@
+{
+  "GSE15781": {
+    "gse": "GSE15781",
+    "native_pmids": [
+      "19969511"
+    ],
+    "hierarchy": [],
+    "source_file": "raw/live-00011.response"
+  },
+  "GSE162065": {
+    "gse": "GSE162065",
+    "native_pmids": [
+      "33676427",
+      "36396656"
+    ],
+    "hierarchy": [],
+    "source_file": "raw/cache-0012.response"
+  },
+  "GSE165252": {
+    "gse": "GSE165252",
+    "native_pmids": [
+      "33504550"
+    ],
+    "hierarchy": [],
+    "source_file": "raw/live-00013.response"
+  },
+  "GSE189764": {
+    "gse": "GSE189764",
+    "native_pmids": [
+      "36396656"
+    ],
+    "hierarchy": [],
+    "source_file": "raw/cache-0014.response"
+  },
+  "GSE40442": {
+    "gse": "GSE40442",
+    "native_pmids": [
+      "23297133"
+    ],
+    "hierarchy": [
+      {
+        "from_gse": "GSE40442",
+        "to_gse": "GSE40871",
+        "relation": "SubSeries of",
+        "native_value": "SubSeries of: GSE40871"
+      }
+    ],
+    "source_file": "raw/live-00015.response"
+  },
+  "GSE87455": {
+    "gse": "GSE87455",
+    "native_pmids": [
+      "28940389",
+      "30228933",
+      "29136509"
+    ],
+    "hierarchy": [],
+    "source_file": "raw/live-00016.response"
+  },
+  "GSE40871": {
+    "gse": "GSE40871",
+    "native_pmids": [
+      "23297133"
+    ],
+    "hierarchy": [
+      {
+        "from_gse": "GSE40871",
+        "to_gse": "GSE40442",
+        "relation": "SuperSeries of",
+        "native_value": "SuperSeries of: GSE40442"
+      },
+      {
+        "from_gse": "GSE40871",
+        "to_gse": "GSE40870",
+        "relation": "SuperSeries of",
+        "native_value": "SuperSeries of: GSE40870"
+      }
+    ],
+    "source_file": "raw/live-00017.response"
+  },
+  "GSE40870": {
+    "gse": "GSE40870",
+    "native_pmids": [
+      "23297133"
+    ],
+    "hierarchy": [
+      {
+        "from_gse": "GSE40870",
+        "to_gse": "GSE40871",
+        "relation": "SubSeries of",
+        "native_value": "SubSeries of: GSE40871"
+      }
+    ],
+    "source_file": "raw/live-00018.response"
+  }
+}

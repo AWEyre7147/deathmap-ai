@@ -1,0 +1,235 @@
+{
+  "publication": {
+    "PUBLICATION_ID": "1166",
+    "SOURCE_TYPE": "pubmed",
+    "SOURCE_ID": "40899441",
+    "TITLE": "CRISPR Screen Identifies HDAC3 as a Novel Radiosensitizing Target in Small Cell Lung Cancer.",
+    "AUTHORS": "Patel UA, Shi MY, Kazan JM, Nixon KCJ, Ran X, Nair SN, Huang O, Song L, Aparnathi MK, He MY, Bakthiari M, Krishnan R, Hessenow RK, Philip V, Ketela T, Jendrossek V, Hakem R, He HH, Kridel R, Lok BH",
+    "ABSTRACT": "Small cell lung cancer (SCLC) is an aggressive malignancy, with most patients presenting with prognostically poor extensive-stage disease. Limited progress in standard care stresses the urgent need for novel therapies. Radiotherapy offers some survival benefit for selected SCLC patients but could be enhanced with radiosensitizers. Here, we identify HDAC3 as a novel radiosensitizing target in SCLC using a CRISPR knockout screen and demonstrate its efficacy and mechanism. SBC5 cells were transduced with a custom EpiDrug sgRNA library and treated with ionizing radiation (IR) to identify radiosensitizing genes. HDAC3 emerged as a candidate and was validated through genetic knockdown (KD) and pharmacologic inhibition (RGFP966) in multiple SCLC cell lines. Both approaches enhanced radiosensitivity, as shown by cell viability (dose-modification factor [DMF]10 = 1.14-1.69) and clonogenic assays (DMF10 = 1.16-1.41). We assessed changes in chromatin accessibility by ATAC-seq, and IR-induced DNA damage and repair using γH2AX foci detection, DSB repair assays and immunoblotting of repair proteins. HDAC3-deficient cells exhibited increased chromatin accessibility, greater IR-induced DSBs, and impaired repair capacity, resulting in persistent DNA damage. This repair defect sensitized cells to PARP inhibitors, where combining RGFP966 with Olaparib or Talazoparib produced additive to synergistic effects. In SCLC xenograft models, HDAC3 KD or RGFP966, combined with IR, achieved significant tumor growth inhibition. Collectively, we identified HDAC3 as a novel radiosensitizing target in SCLC. Its functional loss increased the generation and persistence of IR-induced DNA DSBs, effectively sensitizing SCLC cell lines and xenografts to IR, providing a potential radiosensitization strategy to treat SCLC.",
+    "JOURNAL": "Molecular cancer therapeutics",
+    "PUBLICATION_DATE": "2025-09-03",
+    "PAGE_SOURCE_TYPE": "pubmed",
+    "PAGE_SOURCE_ID": "40899441",
+    "PMID": "40899441",
+    "DOI": "10.1158/1535-7163.mct-24-0861",
+    "SUPPLEMENTARY_FILES": [
+      {
+        "label": "T13x_vs_T13c.drugz.tsv",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/68b9efb29ada0/T13x_vs_T13c.drugz.tsv"
+      },
+      {
+        "label": "T25x_vs_T25c.drugz.tsv",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/68b9efb29ada0/T25x_vs_T25c.drugz.tsv"
+      },
+      {
+        "label": "T40x_vs_T40c.drugz.tsv",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/68b9efb29ada0/T40x_vs_T40c.drugz.tsv"
+      }
+    ],
+    "LINKS": [
+      {
+        "label": "Pubmed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40899441"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/scholar?as_occt=title&as_q=CRISPR+Screen+Identifies+HDAC3+as+a+Novel+Radiosensitizing+Target+in+Small+Cell+Lung+Cancer."
+      },
+      {
+        "label": "40899441",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40899441"
+      },
+      {
+        "label": "T13x_vs_T13c.drugz.tsv",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/68b9efb29ada0/T13x_vs_T13c.drugz.tsv"
+      },
+      {
+        "label": "T25x_vs_T25c.drugz.tsv",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/68b9efb29ada0/T25x_vs_T25c.drugz.tsv"
+      },
+      {
+        "label": "T40x_vs_T40c.drugz.tsv",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/68b9efb29ada0/T40x_vs_T40c.drugz.tsv"
+      }
+    ],
+    "SCREEN_IDS": [
+      "2470",
+      "2471",
+      "2472"
+    ],
+    "SCREEN_COUNT": 3,
+    "PUBLICATION_URL": "https://orcs.thebiogrid.org/Dataset/1166",
+    "FIELD_LOCATORS": {
+      "TITLE": "#resultsHeaderBlock h1",
+      "AUTHORS": "#resultsHeaderBlock .subhead",
+      "ABSTRACT": "#resultsHeaderBlock .bgGrey",
+      "JOURNAL": ".linkouts citation strong",
+      "PUBLICATION_DATE": ".linkouts citation",
+      "SUPPLEMENTARY_FILES": ".linkouts Supplementary Files"
+    },
+    "REVIEW_ISSUES": [],
+    "RETRIEVED_AT": "2026-10-04T05:15:04.898758+00:00",
+    "SOURCE_METADATA_FILE": "data/orcs/publication-source/20261004-v01/1166.metadata.html",
+    "SOURCE_METADATA_SHA256": "027489558c011ce5e956c37e1d2a5753fa064f82d1bf4b1783565a7eece77e7c",
+    "PMCID": "PMC12493205",
+    "IDENTIFIER_ENRICHMENT": {
+      "added_fields": [
+        "DOI",
+        "PMCID"
+      ],
+      "resolution": {
+        "input": {
+          "pmid": "40899441",
+          "doi": null,
+          "pmcid": null
+        },
+        "identifiers": {
+          "pmid": "40899441",
+          "doi": "10.1158/1535-7163.mct-24-0861",
+          "pmcid": "PMC12493205"
+        },
+        "status": "resolved",
+        "alternatives": {
+          "pmid": [
+            "40899441"
+          ],
+          "doi": [
+            "10.1158/1535-7163.mct-24-0861"
+          ],
+          "pmcid": [
+            "PMC12493205"
+          ]
+        },
+        "evidence": [
+          {
+            "identifiers": {
+              "pmid": "40899441",
+              "doi": "10.1158/1535-7163.mct-24-0861",
+              "pmcid": "PMC12493205"
+            },
+            "url": "https://pmc.ncbi.nlm.nih.gov/tools/idconv/api/v1/articles/?ids=38395437%2C38885264%2C39316623%2C39547224%2C39681701%2C40372436%2C40632661%2C40667754%2C40683967%2C40813572%2C40852982%2C40899441&idtype=pmid&format=json&tool=deathmap_ai",
+            "retrieved_at": "2026-10-08T01:37:52.241413+00:00",
+            "response_sha256": "39757bbf31d50401323249926a21da16c8c42c2ed73b4c55e8c306759830b4a6"
+          },
+          {
+            "identifiers": {
+              "pmid": "40899441",
+              "doi": "10.1158/1535-7163.mct-24-0861",
+              "pmcid": "PMC12493205"
+            },
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=37996617%2C38291084%2C38395437%2C38885264%2C39316623%2C39547224%2C39681701%2C40372436%2C40632661%2C40667754%2C40683967%2C40813572%2C40852982%2C40899441%2C40909557&retmode=xml&tool=deathmap_ai",
+            "retrieved_at": "2026-10-08T01:38:01.416850+00:00",
+            "response_sha256": "aaf08f8cdcd67a739e511ba72dd0b1838238dd3c7a63c3c19e7a8d80106d71aa"
+          }
+        ]
+      }
+    },
+    "_input_provenance": {
+      "file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\publication-index.json",
+      "sha256": "63cb33b7095108e7a0776950e9c258e7b65fe148ca6b12ae75cd4dd914ad6c89",
+      "locator": "PUBLICATION_ID=1166"
+    }
+  },
+  "candidates": [
+    {
+      "gse": "GSE280682",
+      "pmid": "40899441",
+      "routes": [
+        "publication_title_phrase",
+        "pubmed_bioproject_geo",
+        "pubmed_geo_links"
+      ],
+      "hierarchy_only": false,
+      "native_pmids": [
+        "40899441"
+      ],
+      "citation_comparison": "matches_origin",
+      "data_role": "not_assessed"
+    }
+  ],
+  "routes": {
+    "pubmed_geo_links": {
+      "status": "complete",
+      "native_target_count": 1,
+      "distinct_gse_count": 1
+    },
+    "pubmed_accession_list": {
+      "status": "complete",
+      "distinct_gse_count": 0
+    },
+    "publication_title_phrase": {
+      "status": "complete",
+      "query": "\"CRISPR Screen Identifies HDAC3 as a Novel Radiosensitizing Target in Small Cell Lung Cancer\"[All Fields] AND gse[Entry Type]",
+      "count": 1,
+      "query_translation": "\"CRISPR Screen Identifies HDAC3 as a Novel Radiosensitizing Target in Small Cell Lung Cancer\"[All Fields] AND gse[Entry Type]",
+      "warnings": null,
+      "distinct_gse_count": 1
+    },
+    "europepmc_annotations": {
+      "status": "complete",
+      "distinct_gse_count": 0
+    },
+    "europepmc_datalinks": {
+      "status": "complete",
+      "service_version": "6.9",
+      "category": "GEO",
+      "section_limit": 1000,
+      "distinct_gse_count": 0
+    },
+    "pubmed_bioproject_geo": {
+      "status": "complete",
+      "bioproject_uids": [
+        "1179956"
+      ],
+      "distinct_gse_count": 1
+    },
+    "series_hierarchy": {
+      "status": "complete",
+      "distinct_gse_count": 0
+    }
+  },
+  "seed_count": 1,
+  "total_gse_count": 1,
+  "hierarchy_added": [],
+  "evidence": [
+    {
+      "pmid": "40899441",
+      "publication_id": "1166",
+      "gse": "GSE280682",
+      "route": "pubmed_geo_links",
+      "source_file": "raw/selected-0000.response",
+      "locator": "target_uid=200280682",
+      "data_role": "not_assessed",
+      "summary_source": "raw/selected-0001.response",
+      "native_uid": "200280682",
+      "evidence_kind": "direct_repository_link"
+    },
+    {
+      "pmid": "40899441",
+      "publication_id": "1166",
+      "gse": "GSE280682",
+      "route": "publication_title_phrase",
+      "source_file": "raw/selected-0003.response",
+      "locator": "target_uid=200280682",
+      "data_role": "not_assessed",
+      "summary_source": "raw/selected-0004.response",
+      "native_uid": "200280682",
+      "evidence_kind": "title_candidate",
+      "query": "\"CRISPR Screen Identifies HDAC3 as a Novel Radiosensitizing Target in Small Cell Lung Cancer\"[All Fields] AND gse[Entry Type]"
+    },
+    {
+      "pmid": "40899441",
+      "publication_id": "1166",
+      "gse": "GSE280682",
+      "route": "pubmed_bioproject_geo",
+      "source_file": "raw/selected-0008.response",
+      "locator": "target_uid=200280682",
+      "data_role": "not_assessed",
+      "summary_source": "raw/selected-0009.response",
+      "native_uid": "200280682",
+      "evidence_kind": "indirect_repository_path",
+      "bioproject_uid": "1179956",
+      "publication_project_source": "raw/selected-0007.response"
+    }
+  ]
+}

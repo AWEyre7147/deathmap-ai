@@ -6,7 +6,7 @@ Module 1 — Evidence discovery and dataset attribution
 
 ## Status
 
-Current iteration: v02 — ORCS Pilot Enrichment. Partially implemented. Cached ORCS discovery, saved Cellosaurus interpretation, publication identifier enrichment and portable Excel output are implemented. PubMed-led metadata enrichment of the ORCS publication index and saved searches is implemented under the owner's 2026-10-08 authorization. Native GEO, BioStudies–ArrayExpress and ENA enrichment and screen grouping remain pending approved contracts. OmicsDI discovery is retired.
+Current iteration: v02 — ORCS Pilot Enrichment. Partially implemented. Cached ORCS discovery, saved Cellosaurus interpretation, publication identifier enrichment and portable Excel output are implemented. PubMed-led metadata enrichment of the ORCS publication index and saved searches is implemented under the owner's 2026-10-08 authorization. GEO accession discovery, brief Series/GSM metadata, the registered owner template and shared ORCS database are implemented under the owner's 2026-10-10/11 authorization. All 418 publications were processed; ownership and screen attribution remain unassessed. BioStudies–ArrayExpress, ENA and screen grouping remain pending approved contracts. OmicsDI discovery is retired.
 
 ## Objective
 
@@ -122,7 +122,7 @@ and experimental descriptions.
 Discovery and enrichment evidence remain separately attributed. An enrichment
 result must not be misreported as a direct discovery hit.
 
-Implemented sources: saved BioGRID ORCS metadata, saved Cellosaurus annotations, cached NCBI publication identifier responses, and the owner-authorized PubMed EFfetch/ELink/ESummary enrichment database. ORCS Excel export uses Python/openpyxl and the owner-approved template; PubMed workbooks preserve the approved template's XML envelopes and literal text dates. Next enrichment goals are GEO, BioStudies–ArrayExpress and ENA; native hierarchy and attribution contracts remain pending. PRIDE, MassIVE, jPOST and iProX remain later resource candidates.
+Implemented sources: saved BioGRID ORCS metadata, saved Cellosaurus annotations, cached NCBI publication identifier responses, the owner-authorized PubMed EFetch/ELink/ESummary database, and GEO/Europe PMC metadata routes. GEO collections preserve native Series/GSM records and explicit hierarchy separately from candidate publication associations. PubMed and GEO workbooks preserve approved template XML envelopes. Next repository goals are BioStudies–ArrayExpress and ENA under their own accepted contracts; cross-resource attribution and evidence harmonization remain pending. PRIDE, MassIVE, jPOST and iProX remain later resource candidates.
 
 ## Workflow
 
@@ -247,6 +247,14 @@ It must not download gene-level results, guide-count tables, FASTQ files, proces
 expression matrices, or other experimental datasets during the metadata-only
 stage.
 
+Owner decision, 2026-10-10: the first iteration excludes retrieval or extraction
+of publication bodies and supplementary-document contents. Metadata fields,
+precomputed accession annotations and literature-data links may be evaluated
+under bounded contracts with provenance. Identifying repository deposits comes
+before inspecting deposit metadata and developing screen classification; missing
+relationships remain unresolved within this boundary. This does not authorize
+experimental downloads or automatic attribution from an accession mention.
+
 ### [M1-14] Preservation
 
 New iterations use new versioned output directories. Do not reset, overwrite, or
@@ -317,4 +325,15 @@ Repository-native metadata adapters may consume publication identifiers and acce
 
 ## Change Log
 
+- 2026-10-11 — Owner authorized complete ORCS GEO enrichment after template
+  registration. Completed 418 publications, 503 GSE candidates and 22,139 GSMs;
+  published the shared metadata database and four-sheet workbook. Added the
+  resumable collection command, GEO-only Europe PMC data-link query and source
+  receipts. Dataset ownership, screen classification and evidence harmonization
+  remain deferred; no adjudicated completeness claim is made.
+- 2026-10-10 — Owner accepted the initial GEO accession-identification contract:
+  PubMed links/accession lists, complete-title phrase, Europe PMC accession
+  services, BioProject paths and explicit Series hierarchy. A separate pipeline
+  adapter and single-publication checkpoint are implemented; broader metadata,
+  template and full ORCS GEO database remain pending. SRA is deferred separately.
 - 2026-10-08 — Restructured existing requirements into the adopted template, preserved M1 point identifiers, clarified implemented versus planned behavior, and removed dependence on work-session specifications. No pipeline behavior or scientific filters changed.

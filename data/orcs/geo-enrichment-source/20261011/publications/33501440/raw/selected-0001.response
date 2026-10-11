@@ -1,0 +1,157 @@
+<eSummaryResult><DocSum>
+	<Id>200165012</Id>
+	<Item Name="Accession" Type="String">GSE165012</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">Mapping genomic loci bound to BRD2 in Calu-3 cells</Item>
+	<Item Name="summary" Type="String">we performed CUT&amp;RUN to comprehensively map genomic loci bound to BRD2 in Calu-3 cells. We also included H3K4me3 and IgG antibodies as postive and negative controls, repectively</Item>
+	<Item Name="GPL" Type="String">20301</Item>
+	<Item Name="GSE" Type="String">165012</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Genome binding/occupancy profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2021/01/19</Item>
+	<Item Name="suppFile" Type="String">BED, BEDGRAPH</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5024481</Item>
+			<Item Name="Title" Type="String">BRD2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5024479</Item>
+			<Item Name="Title" Type="String">IgG</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5024480</Item>
+			<Item Name="Title" Type="String">H3K4me3</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List">
+		<Item Name="ExtRelation" Type="Structure">
+			<Item Name="RelationType" Type="String">SRA</Item>
+			<Item Name="TargetObject" Type="String">SRP302178</Item>
+			<Item Name="TargetFTPLink" Type="String">ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP302/SRP302178/</Item>
+		</Item>
+	</Item>
+	<Item Name="n_samples" Type="Integer">3</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">33501440</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165012/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200165025</Id>
+	<Item Name="Accession" Type="String">GSE165025</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">BRD2 inhibition blocks SARS-CoV-2 infection by reducing transcription of the host cell receptor ACE2</Item>
+	<Item Name="summary" Type="String">We performed RNA sequencing of Calu-3 cells after treatment with the BET-domain inhibitors JQ-1 and ABBV-744 as well as BRD2 CRISPRi knockdown. We also included CRISPRi knockdown of two other validated hit genes from our screen, COMP and ACE2.</Item>
+	<Item Name="GPL" Type="String">20301</Item>
+	<Item Name="GSE" Type="String">165025</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2021/01/19</Item>
+	<Item Name="suppFile" Type="String">CSV</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5028636</Item>
+			<Item Name="Title" Type="String">ProteinE_1_i1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5024792</Item>
+			<Item Name="Title" Type="String">ABBV_1_l1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5028639</Item>
+			<Item Name="Title" Type="String">ProteinE_2_i2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5024795</Item>
+			<Item Name="Title" Type="String">ACE2_KD_2_l1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5024789</Item>
+			<Item Name="Title" Type="String">untreated_2_l1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5024798</Item>
+			<Item Name="Title" Type="String">COMP_KD_1_l1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5028637</Item>
+			<Item Name="Title" Type="String">ProteinE_1_i2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5024790</Item>
+			<Item Name="Title" Type="String">JQ1_1_l1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5024793</Item>
+			<Item Name="Title" Type="String">ABBV_2_l1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5024796</Item>
+			<Item Name="Title" Type="String">BRD2_KD_1_l1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5024799</Item>
+			<Item Name="Title" Type="String">COMP_KD_2_l1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5024791</Item>
+			<Item Name="Title" Type="String">JQ1_2_l1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5028638</Item>
+			<Item Name="Title" Type="String">ProteinE_2_i1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5024788</Item>
+			<Item Name="Title" Type="String">untreated_1_l1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5024794</Item>
+			<Item Name="Title" Type="String">ACE2_KD_1_l1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5024797</Item>
+			<Item Name="Title" Type="String">BRD2_KD_2_l1</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List">
+		<Item Name="ExtRelation" Type="Structure">
+			<Item Name="RelationType" Type="String">SRA</Item>
+			<Item Name="TargetObject" Type="String">SRP302197</Item>
+			<Item Name="TargetFTPLink" Type="String">ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP302/SRP302197/</Item>
+		</Item>
+	</Item>
+	<Item Name="n_samples" Type="Integer">16</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">33501440</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165025/</Item>
+	<Item Name="GEO2R" Type="String">yes</Item>
+</DocSum>
+
+</eSummaryResult>

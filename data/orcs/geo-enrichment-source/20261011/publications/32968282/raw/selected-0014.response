@@ -1,0 +1,353 @@
+<eSummaryResult><DocSum>
+	<Id>200149935</Id>
+	<Item Name="Accession" Type="String">GSE149935</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">Functional genomic landscape of cancer-intrinsic immune evasion to cytotoxic T lymphocyte killing [RNA-seq II]</Item>
+	<Item Name="summary" Type="String">The genetic circuits that allow cancer cells to evade destruction by the host immune system remain poorly understood. To identify a phenotypically robust core set of genes and pathways that facilitate cancer cell-intrinsic evasion to cytotoxic T lymphocyte (CTL)-mediated killing, we performed genome-wide CRISPR screens across a panel of genetically diverse cancer models cultured in the presence of CTLs. We uncovered a core set of 182 genes whose individual perturbation leads to either cancer cell sensitivity or resistance to CTL toxicity. Systematic exploration of our dataset using genetic co-similarity reveals the hierarchical and coordinated nature by which genes and pathways act to orchestrate intrinsic CTL evasion, with discrete functional modules controlling the interferon response and tumor necrosis factor alpha (TNFa)-induced cytotoxicity emerging as dominant sub-phenotypes. Our data establish a central role for previously identified negative regulators of the Type II interferon response (e.g. Ptpn2, Socs1, Adar1) in mediating intrinsic CTL evasion and demonstrate a requirement for the lipid droplet related gene Fitm2 for maintaining cell fitness upon exposure to interferon gamma (IFNg). Additionally, we identify the autophagy pathway as a conserved mediator of cancer intrinsic CTL evasion, required to resist cytokine-mediated cytotoxicity caused by IFNg and TNFa. By mapping cytokine- and CTL-based genetic interactions, as well as in vivo CRISPR screens, we illuminate the pleiotropic nature by which autophagy acts to orchestrate intrinsic CTL evasion and highlight the importance of our observed effects within the tumor microenvironment. Collectively, our data expands our appreciation of the genetic circuits that contribute to cancer intrinsic immune evasion, highlighting the importance of leveraging systematic functional genomics approaches for furthering our understanding of this biology.</Item>
+	<Item Name="GPL" Type="String">24247</Item>
+	<Item Name="GSE" Type="String">149935</Item>
+	<Item Name="taxon" Type="String">Mus musculus</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2020/07/31</Item>
+	<Item Name="suppFile" Type="String">TXT</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518429</Item>
+			<Item Name="Title" Type="String">Moffat_47_Renca-HA-Cas9_sgFitm2-1_IFNgTx_replB</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518403</Item>
+			<Item Name="Title" Type="String">Moffat_21_Renca-HA-Cas9_sgATG12-1_ControlTx_replC</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518446</Item>
+			<Item Name="Title" Type="String">Moffat_64_Renca_sgAtg12_Control48hTx_replA</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518449</Item>
+			<Item Name="Title" Type="String">Moffat_67_Renca_sgAtg12_IFNgTx_replA</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518383</Item>
+			<Item Name="Title" Type="String">Moffat_01_MC38-Ova-Cas9_sgIntergenic_ControlTx_replA</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518386</Item>
+			<Item Name="Title" Type="String">Moffat_04_MC38-Ova-Cas9_sgIntergenic_IFNgTx_replA</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518426</Item>
+			<Item Name="Title" Type="String">Moffat_44_Renca-HA-Cas9_sgFitm2-1_ControlTx_replB</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518423</Item>
+			<Item Name="Title" Type="String">Moffat_41_Renca-HA-Cas9_sgIntergenic_IFNgTx_replB</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518406</Item>
+			<Item Name="Title" Type="String">Moffat_24_Renca-HA-Cas9_sgATG12-1_IFNgTx_replC</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518443</Item>
+			<Item Name="Title" Type="String">Moffat_61_Renca_sgAtg12_Control24hTx_replA</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518400</Item>
+			<Item Name="Title" Type="String">Moffat_18_Renca-HA-Cas9_sgIntergenic_IFNgTx_replC</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518437</Item>
+			<Item Name="Title" Type="String">Moffat_55_Renca_WT_IFNgTx_replA</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518394</Item>
+			<Item Name="Title" Type="String">Moffat_12_MC38-Ova-Cas9MC38-Ova-Cas9_sgATG12-1_IFNgTx_replC</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518440</Item>
+			<Item Name="Title" Type="String">Moffat_58_Renca_WT_TNFTx_replA</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518420</Item>
+			<Item Name="Title" Type="String">Moffat_38_Renca-HA-Cas9_sgIntergenic_ControlTx_replB</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518457</Item>
+			<Item Name="Title" Type="String">Moffat_75_Renca_sgFitm2_ControlTx_replC</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518397</Item>
+			<Item Name="Title" Type="String">Moffat_15_Renca-HA-Cas9_sgIntergenic_ControlTx_replC</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518460</Item>
+			<Item Name="Title" Type="String">Moffat_78_Renca_sgFitm2_IFNgTx_replA</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518414</Item>
+			<Item Name="Title" Type="String">Moffat_32_B16F10-Ova-Cas9_sgFitm2-1_ControlTx_replB</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518417</Item>
+			<Item Name="Title" Type="String">Moffat_35_B16F10-Ova-Cas9_sgFitm2-1_IFNgTx_replB</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518458</Item>
+			<Item Name="Title" Type="String">Moffat_76_Renca_sgFitm2_IFNgTx_replC</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518401</Item>
+			<Item Name="Title" Type="String">Moffat_19_Renca-HA-Cas9_sgATG12-1_ControlTx_replA</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518418</Item>
+			<Item Name="Title" Type="String">Moffat_36_B16F10-Ova-Cas9_sgFitm2-1_IFNgTx_replC</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518438</Item>
+			<Item Name="Title" Type="String">Moffat_56_Renca_WT_IFNgTx_replB</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518421</Item>
+			<Item Name="Title" Type="String">Moffat_39_Renca-HA-Cas9_sgIntergenic_ControlTx_replC</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518424</Item>
+			<Item Name="Title" Type="String">Moffat_42_Renca-HA-Cas9_sgIntergenic_IFNgTx_replC</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518441</Item>
+			<Item Name="Title" Type="String">Moffat_59_Renca_WT_TNFTx_replB</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518398</Item>
+			<Item Name="Title" Type="String">Moffat_16_Renca-HA-Cas9_sgIntergenic_IFNgTx_replA</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518455</Item>
+			<Item Name="Title" Type="String">Moffat_73_Renca_sgFitm2_ControlTx_replA</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518392</Item>
+			<Item Name="Title" Type="String">Moffat_10_MC38-Ova-Cas9MC38-Ova-Cas9_sgATG12-1_IFNgTx_replA</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518444</Item>
+			<Item Name="Title" Type="String">Moffat_62_Renca_sgAtg12_Control24hTx_replB</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518432</Item>
+			<Item Name="Title" Type="String">Moffat_50_Renca_WT_Control24hTx_replB</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518409</Item>
+			<Item Name="Title" Type="String">Moffat_27_B16F10-Ova-Cas9_sgIntergenic_ControlTx_replC</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518412</Item>
+			<Item Name="Title" Type="String">Moffat_30_B16F10-Ova-Cas9_sgIntergenic_IFNgTx_replC</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518452</Item>
+			<Item Name="Title" Type="String">Moffat_70_Renca_sgAtg12_TNFTx_replA</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518395</Item>
+			<Item Name="Title" Type="String">Moffat_13_Renca-HA-Cas9_sgIntergenic_ControlTx_replA</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518389</Item>
+			<Item Name="Title" Type="String">Moffat_07_MC38-Ova-Cas9_sgATG12-1_ControlTx_replA</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518415</Item>
+			<Item Name="Title" Type="String">Moffat_33_B16F10-Ova-Cas9_sgFitm2-1_ControlTx_replC</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518435</Item>
+			<Item Name="Title" Type="String">Moffat_53_Renca_WT_Control48hTx_replB</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518456</Item>
+			<Item Name="Title" Type="String">Moffat_74_Renca_sgFitm2_ControlTx_replB</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518439</Item>
+			<Item Name="Title" Type="String">Moffat_57_Renca_WT_IFNgTx_replC</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518436</Item>
+			<Item Name="Title" Type="String">Moffat_54_Renca_WT_Control48hTx_replC</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518413</Item>
+			<Item Name="Title" Type="String">Moffat_31_B16F10-Ova-Cas9_sgFitm2-1_ControlTx_replA</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518459</Item>
+			<Item Name="Title" Type="String">Moffat_77_Renca_sgFitm2_IFNgTx_replB</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518416</Item>
+			<Item Name="Title" Type="String">Moffat_34_B16F10-Ova-Cas9_sgFitm2-1_IFNgTx_replA</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518433</Item>
+			<Item Name="Title" Type="String">Moffat_51_Renca_WT_Control24hTx_replC</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518410</Item>
+			<Item Name="Title" Type="String">Moffat_28_B16F10-Ova-Cas9_sgIntergenic_IFNgTx_replA</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518393</Item>
+			<Item Name="Title" Type="String">Moffat_11_MC38-Ova-Cas9MC38-Ova-Cas9_sgATG12-1_IFNgTx_replB</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518396</Item>
+			<Item Name="Title" Type="String">Moffat_14_Renca-HA-Cas9_sgIntergenic_ControlTx_replB</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518453</Item>
+			<Item Name="Title" Type="String">Moffat_71_Renca_sgAtg12_TNFTx_replB</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518384</Item>
+			<Item Name="Title" Type="String">Moffat_02_MC38-Ova-Cas9_sgIntergenic_ControlTx_replB</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518447</Item>
+			<Item Name="Title" Type="String">Moffat_65_Renca_sgAtg12_Control48hTx_replB</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518387</Item>
+			<Item Name="Title" Type="String">Moffat_05_MC38-Ova-Cas9_sgIntergenic_IFNgTx_replB</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518427</Item>
+			<Item Name="Title" Type="String">Moffat_45_Renca-HA-Cas9_sgFitm2-1_ControlTx_replC</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518390</Item>
+			<Item Name="Title" Type="String">Moffat_08_MC38-Ova-Cas9_sgATG12-1_ControlTx_replB</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518430</Item>
+			<Item Name="Title" Type="String">Moffat_48_Renca-HA-Cas9_sgFitm2-1_IFNgTx_replC</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518450</Item>
+			<Item Name="Title" Type="String">Moffat_68_Renca_sgAtg12_IFNgTx_replB</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518404</Item>
+			<Item Name="Title" Type="String">Moffat_22_Renca-HA-Cas9_sgATG12-1_IFNgTx_replA</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518448</Item>
+			<Item Name="Title" Type="String">Moffat_66_Renca_sgAtg12_Control48hTx_replC</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518407</Item>
+			<Item Name="Title" Type="String">Moffat_25_B16F10-Ova-Cas9_sgIntergenic_ControlTx_replA</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518391</Item>
+			<Item Name="Title" Type="String">Moffat_09_MC38-Ova-Cas9_sgATG12-1_ControlTx_replC</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518385</Item>
+			<Item Name="Title" Type="String">Moffat_03_MC38-Ova-Cas9_sgIntergenic_ControlTx_replC</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518411</Item>
+			<Item Name="Title" Type="String">Moffat_29_B16F10-Ova-Cas9_sgIntergenic_IFNgTx_replB</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518428</Item>
+			<Item Name="Title" Type="String">Moffat_46_Renca-HA-Cas9_sgFitm2-1_IFNgTx_replA</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518419</Item>
+			<Item Name="Title" Type="String">Moffat_37_Renca-HA-Cas9_sgIntergenic_ControlTx_replA</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518431</Item>
+			<Item Name="Title" Type="String">Moffat_49_Renca_WT_Control24hTx_replA</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518408</Item>
+			<Item Name="Title" Type="String">Moffat_26_B16F10-Ova-Cas9_sgIntergenic_ControlTx_replB</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518434</Item>
+			<Item Name="Title" Type="String">Moffat_52_Renca_WT_Control48hTx_replA</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518451</Item>
+			<Item Name="Title" Type="String">Moffat_69_Renca_sgAtg12_IFNgTx_replC</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518442</Item>
+			<Item Name="Title" Type="String">Moffat_60_Renca_WT_TNFTx_replC</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518388</Item>
+			<Item Name="Title" Type="String">Moffat_06_MC38-Ova-Cas9_sgIntergenic_IFNgTx_replC</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518445</Item>
+			<Item Name="Title" Type="String">Moffat_63_Renca_sgAtg12_Control24hTx_replC</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518454</Item>
+			<Item Name="Title" Type="String">Moffat_72_Renca_sgAtg12_TNFTx_replC</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518402</Item>
+			<Item Name="Title" Type="String">Moffat_20_Renca-HA-Cas9_sgATG12-1_ControlTx_replB</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518405</Item>
+			<Item Name="Title" Type="String">Moffat_23_Renca-HA-Cas9_sgATG12-1_IFNgTx_replB</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518422</Item>
+			<Item Name="Title" Type="String">Moffat_40_Renca-HA-Cas9_sgIntergenic_IFNgTx_replA</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518399</Item>
+			<Item Name="Title" Type="String">Moffat_17_Renca-HA-Cas9_sgIntergenic_IFNgTx_replB</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518425</Item>
+			<Item Name="Title" Type="String">Moffat_43_Renca-HA-Cas9_sgFitm2-1_ControlTx_replA</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List">
+		<Item Name="ExtRelation" Type="Structure">
+			<Item Name="RelationType" Type="String">SRA</Item>
+			<Item Name="TargetObject" Type="String">SRP260211</Item>
+			<Item Name="TargetFTPLink" Type="String">ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP260/SRP260211/</Item>
+		</Item>
+	</Item>
+	<Item Name="n_samples" Type="Integer">78</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">32968282</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE149nnn/GSE149935/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+</eSummaryResult>

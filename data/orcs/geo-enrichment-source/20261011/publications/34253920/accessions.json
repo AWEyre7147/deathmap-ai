@@ -1,0 +1,156 @@
+{
+  "publication": {
+    "PUBLICATION_ID": "581",
+    "SOURCE_TYPE": "pubmed",
+    "SOURCE_ID": "34253920",
+    "TITLE": "Genome-scale screens identify factors regulating tumor cell responses to natural killer cells.",
+    "AUTHORS": "Sheffer M, Lowry E, Beelen N, Borah M, Amara SN, Mader CC, Roth JA, Tsherniak A, Freeman SS, Dashevsky O, Gandolfi S, Bender S, Bryan JG, Zhu C, Wang L, Tariq I, Kamath GM, Simoes RM, Dhimolea E, Yu C, Hu Y, Dufva O, Giannakis M, Syrgkanis V, Fraenkel E, Golub T, Romee R, Mustjoki S, Culhane AC, Wieten L, Mitsiades CS",
+    "ABSTRACT": "To systematically define molecular features in human tumor cells that determine their degree of sensitivity to human allogeneic natural killer (NK) cells, we quantified the NK cell responsiveness of hundreds of molecularly annotated 'DNA-barcoded' solid tumor cell lines in multiplexed format and applied genome-scale CRISPR-based gene-editing screens in several solid tumor cell lines, to functionally interrogate which genes in tumor cells regulate the response to NK cells. In these orthogonal studies, NK cell-sensitive tumor cells tend to exhibit 'mesenchymal-like' transcriptional programs; high transcriptional signature for chromatin remodeling complexes; high levels of B7-H6 (NCR3LG1); and low levels of HLA-E/antigen presentation genes. Importantly, transcriptional signatures of NK cell-sensitive tumor cells correlate with immune checkpoint inhibitor (ICI) resistance in clinical samples. This study provides a comprehensive map of mechanisms regulating tumor cell responses to NK cells, with implications for future biomarker-driven applications of NK cell immunotherapies.",
+    "JOURNAL": "Nature genetics",
+    "PUBLICATION_DATE": "2021-08-01",
+    "PAGE_SOURCE_TYPE": "pubmed",
+    "PAGE_SOURCE_ID": "34253920",
+    "PMID": "34253920",
+    "DOI": "10.1038/s41588-021-00889-w",
+    "SUPPLEMENTARY_FILES": [
+      {
+        "label": "41588_2021_889_MOESM3_ESM.xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/613272f30c343/41588_2021_889_MOESM3_ESM.xlsx"
+      }
+    ],
+    "LINKS": [
+      {
+        "label": "Pubmed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34253920"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/scholar?as_occt=title&as_q=Genome-scale+screens+identify+factors+regulating+tumor+cell+responses+to+natural+killer+cells."
+      },
+      {
+        "label": "34253920",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34253920"
+      },
+      {
+        "label": "41588_2021_889_MOESM3_ESM.xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/613272f30c343/41588_2021_889_MOESM3_ESM.xlsx"
+      }
+    ],
+    "SCREEN_IDS": [
+      "1656",
+      "1657",
+      "1658"
+    ],
+    "SCREEN_COUNT": 3,
+    "PUBLICATION_URL": "https://orcs.thebiogrid.org/Dataset/581",
+    "FIELD_LOCATORS": {
+      "TITLE": "#resultsHeaderBlock h1",
+      "AUTHORS": "#resultsHeaderBlock .subhead",
+      "ABSTRACT": "#resultsHeaderBlock .bgGrey",
+      "JOURNAL": ".linkouts citation strong",
+      "PUBLICATION_DATE": ".linkouts citation",
+      "SUPPLEMENTARY_FILES": ".linkouts Supplementary Files"
+    },
+    "REVIEW_ISSUES": [],
+    "RETRIEVED_AT": "2026-10-04T05:11:27.363815+00:00",
+    "SOURCE_METADATA_FILE": "data/orcs/publication-source/20261004-v01/581.metadata.html",
+    "SOURCE_METADATA_SHA256": "5b39208664f32edcb66c0f38d99cb4673ccd2a1ee297d95943c142588bf036a0",
+    "PMCID": null,
+    "IDENTIFIER_ENRICHMENT": {
+      "added_fields": [
+        "DOI"
+      ],
+      "resolution": {
+        "input": {
+          "pmid": "34253920",
+          "doi": null,
+          "pmcid": null
+        },
+        "identifiers": {
+          "pmid": "34253920",
+          "doi": "10.1038/s41588-021-00889-w",
+          "pmcid": null
+        },
+        "status": "partial",
+        "alternatives": {
+          "pmid": [
+            "34253920"
+          ],
+          "doi": [
+            "10.1038/s41588-021-00889-w"
+          ],
+          "pmcid": []
+        },
+        "evidence": [
+          {
+            "identifiers": {
+              "pmid": "34253920",
+              "doi": "10.1038/s41588-021-00889-w",
+              "pmcid": null
+            },
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=32690708%2C32699298%2C32728216%2C32738194%2C32755594%2C32877678%2C32918875%2C32924251%2C32939090%2C32968282%2C32970993%2C32990596%2C33005030%2C33033111%2C33060197%2C33087464%2C33110234%2C33122441%2C33137164%2C33144569%2C33147444%2C33147445%2C33156908%2C33157015%2C33172989%2C33185187%2C33186476%2C33188726%2C33189395%2C33208877%2C33208938%2C33226137%2C33228647%2C33257658%2C33271924%2C33333024%2C33355125%2C33357464%2C33372156%2C33375770%2C33382968%2C33417871%2C33476303%2C33483422%2C33501440%2C33513160%2C33513212%2C33523994%2C33539788%2C33547076%2C33562682%2C33568224%2C33574281%2C33577797%2C33604667%2C33649592%2C33657372%2C33660365%2C33676427%2C33686287%2C33730579%2C33742119%2C33743211%2C33813748%2C33846634%2C33847741%2C33854235%2C33864166%2C33872695%2C33953401%2C34000301%2C34004147%2C34016692%2C34026427%2C34049503%2C34066520%2C34108663%2C34155407%2C34215620%2C34230586%2C34253920%2C34290256%2C34316707%2C34320214%2C34364401%2C34373448%2C34373451%2C34431042%2C34437126%2C34497417%2C34529489%2C34582788%2C34615851%2C34621019%2C34644148%2C34662547%2C34667112%2C34686207%2C34731885%2C34759314&retmode=xml&tool=deathmap_ai",
+            "retrieved_at": "2026-10-08T01:37:58.234950+00:00",
+            "response_sha256": "b9086e8f958898fe78d76fe733dbd3a2625fe231807d5b50f1a46636f31b6150"
+          }
+        ]
+      }
+    },
+    "_input_provenance": {
+      "file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\publication-index.json",
+      "sha256": "63cb33b7095108e7a0776950e9c258e7b65fe148ca6b12ae75cd4dd914ad6c89",
+      "locator": "PUBLICATION_ID=581"
+    }
+  },
+  "candidates": [],
+  "routes": {
+    "pubmed_geo_links": {
+      "status": "complete",
+      "native_target_count": 0,
+      "distinct_gse_count": 0
+    },
+    "pubmed_accession_list": {
+      "status": "complete",
+      "distinct_gse_count": 0
+    },
+    "publication_title_phrase": {
+      "status": "complete",
+      "query": "\"Genome-scale screens identify factors regulating tumor cell responses to natural killer cells\"[All Fields] AND gse[Entry Type]",
+      "count": 0,
+      "query_translation": "\"Genome-scale screens identify factors regulating tumor cell responses to natural killer cells\"[All Fields] AND gse[Entry Type]",
+      "warnings": {
+        "phrasesignored": [],
+        "quotedphrasesnotfound": [
+          "\"Genome-scale screens identify factors regulating tumor cell responses to natural killer cells\"[All Fields]"
+        ],
+        "outputmessages": [
+          "No items found."
+        ]
+      },
+      "distinct_gse_count": 0
+    },
+    "europepmc_annotations": {
+      "status": "complete",
+      "distinct_gse_count": 0
+    },
+    "europepmc_datalinks": {
+      "status": "complete",
+      "service_version": "6.9",
+      "category": "GEO",
+      "section_limit": 1000,
+      "distinct_gse_count": 0
+    },
+    "pubmed_bioproject_geo": {
+      "status": "complete",
+      "bioproject_uids": [],
+      "distinct_gse_count": 0
+    },
+    "series_hierarchy": {
+      "status": "complete",
+      "distinct_gse_count": 0
+    }
+  },
+  "seed_count": 0,
+  "total_gse_count": 0,
+  "hierarchy_added": [],
+  "evidence": []
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=gds&id=33539788&linkname=pubmed_gds&cmd=neighbor&retmode=json",
+    "file": "raw/selected-0000.response",
+    "sha256": "d0bd9fc79a34706b282fb98b5e244b7684a72a024e6329c8271043418ce882e6",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:01:51.632690+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\c495a07b1af33d56bd6b363a30ae51be89ed1669e83d93244d1144dc3d26cc48.json",
+        "sha256": "c495a07b1af33d56bd6b363a30ae51be89ed1669e83d93244d1144dc3d26cc48",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\pubmed-enrichment-source\\20261008\\links-gds-4.json",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=gds&linkname=pubmed_gds&id=32690708&id=32699298&id=32728216&id=32738194&id=32755594&id=32877678&id=32918875&id=32924251&id=32939090&id=32968282&id=32970993&id=32990596&id=33005030&id=33033111&id=33060197&id=33087464&id=33110234&id=33122441&id=33137164&id=33144569&id=33147444&id=33147445&id=33156908&id=33157015&id=33172989&id=33185187&id=33186476&id=33188726&id=33189395&id=33208877&id=33208938&id=33226137&id=33228647&id=33257658&id=33271924&id=33333024&id=33355125&id=33357464&id=33372156&id=33375770&id=33382968&id=33417871&id=33476303&id=33483422&id=33501440&id=33513160&id=33513212&id=33523994&id=33539788&id=33547076&cmd=neighbor&retmode=json",
+        "locator": "linksets[48]",
+        "retrieved_utc": "2026-10-08T23:17:21.683950+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=33539788&retmode=xml",
+    "file": "raw/selected-0001.response",
+    "sha256": "2625a851325637f0abb78ff99c4a38a6d76fe0a8a698387e5ccae13c00ec4411",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:01:51.635692+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\b9086e8f958898fe78d76fe733dbd3a2625fe231807d5b50f1a46636f31b6150.xml",
+        "sha256": "b9086e8f958898fe78d76fe733dbd3a2625fe231807d5b50f1a46636f31b6150",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\pubmed-enrichment-source\\20261008\\pubmed-2.xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=32690708%2C32699298%2C32728216%2C32738194%2C32755594%2C32877678%2C32918875%2C32924251%2C32939090%2C32968282%2C32970993%2C32990596%2C33005030%2C33033111%2C33060197%2C33087464%2C33110234%2C33122441%2C33137164%2C33144569%2C33147444%2C33147445%2C33156908%2C33157015%2C33172989%2C33185187%2C33186476%2C33188726%2C33189395%2C33208877%2C33208938%2C33226137%2C33228647%2C33257658%2C33271924%2C33333024%2C33355125%2C33357464%2C33372156%2C33375770%2C33382968%2C33417871%2C33476303%2C33483422%2C33501440%2C33513160%2C33513212%2C33523994%2C33539788%2C33547076%2C33562682%2C33568224%2C33574281%2C33577797%2C33604667%2C33649592%2C33657372%2C33660365%2C33676427%2C33686287%2C33730579%2C33742119%2C33743211%2C33813748%2C33846634%2C33847741%2C33854235%2C33864166%2C33872695%2C33953401%2C34000301%2C34004147%2C34016692%2C34026427%2C34049503%2C34066520%2C34108663%2C34155407%2C34215620%2C34230586%2C34253920%2C34290256%2C34316707%2C34320214%2C34364401%2C34373448%2C34373451%2C34431042%2C34437126%2C34497417%2C34529489%2C34582788%2C34615851%2C34621019%2C34644148%2C34662547%2C34667112%2C34686207%2C34731885%2C34759314&retmode=xml",
+        "locator": "PubmedArticle[48]",
+        "retrieved_utc": "2026-10-08T23:16:49.464951+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=%22A+comprehensive+phenotypic+CRISPR-Cas9+screen+of+the+ubiquitin+pathway+uncovers+roles+of+ubiquitin+ligases+in+mitosis%22%5BAll+Fields%5D+AND+gse%5BEntry+Type%5D&retmode=json&retmax=1000",
+    "file": "raw/selected-0002.response",
+    "sha256": "37b39c938cd692c5cd6f355c0dd2a52a3b442d85ed9a4bda9f6c3cfa4b98037a",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:01:51.639219+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\37b39c938cd692c5cd6f355c0dd2a52a3b442d85ed9a4bda9f6c3cfa4b98037a.json",
+        "sha256": "37b39c938cd692c5cd6f355c0dd2a52a3b442d85ed9a4bda9f6c3cfa4b98037a",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\outputs\\geo\\title-search-expansion\\20261010\\raw\\search-466-phrase.json",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=%22A+comprehensive+phenotypic+CRISPR-Cas9+screen+of+the+ubiquitin+pathway+uncovers+roles+of+ubiquitin+ligases+in+mitosis%22%5BAll+Fields%5D+AND+gse%5BEntry+Type%5D&retmode=json&retmax=100",
+        "locator": "complete esearchresult",
+        "retrieved_utc": "2026-10-10T17:20:12.158372+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A33539788&type=Accession+Numbers&format=JSON",
+    "attempt": 1,
+    "retrieved_utc": "2026-10-11T18:01:51.640224+00:00",
+    "http_status": 200,
+    "file": "raw/live-00003.response",
+    "sha256": "7ef82c6c207d318b88decc7271c2e52737284bc7392ef2227b923a6e0a65688d"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/MED/33539788/datalinks?format=json&pageSize=1000",
+    "attempt": 1,
+    "retrieved_utc": "2026-10-11T18:01:52.498290+00:00",
+    "http_status": 200,
+    "file": "raw/live-00004.response",
+    "sha256": "25795e3076324a20d68ba24384fd7e7c61a6ad29a8f0a01d0491975362c52371"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=bioproject&id=33539788&linkname=pubmed_bioproject&cmd=neighbor&retmode=json",
+    "file": "raw/selected-0005.response",
+    "sha256": "d0bd9fc79a34706b282fb98b5e244b7684a72a024e6329c8271043418ce882e6",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:01:53.425354+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\3cfa5392d8f74dfd5bbfa3b00531a0e73408c3c81b341ca24858b42dfd5e82af.json",
+        "sha256": "3cfa5392d8f74dfd5bbfa3b00531a0e73408c3c81b341ca24858b42dfd5e82af",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\pubmed-enrichment-source\\20261008\\links-bioproject-4.json",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=bioproject&linkname=pubmed_bioproject&id=32690708&id=32699298&id=32728216&id=32738194&id=32755594&id=32877678&id=32918875&id=32924251&id=32939090&id=32968282&id=32970993&id=32990596&id=33005030&id=33033111&id=33060197&id=33087464&id=33110234&id=33122441&id=33137164&id=33144569&id=33147444&id=33147445&id=33156908&id=33157015&id=33172989&id=33185187&id=33186476&id=33188726&id=33189395&id=33208877&id=33208938&id=33226137&id=33228647&id=33257658&id=33271924&id=33333024&id=33355125&id=33357464&id=33372156&id=33375770&id=33382968&id=33417871&id=33476303&id=33483422&id=33501440&id=33513160&id=33513212&id=33523994&id=33539788&id=33547076&cmd=neighbor&retmode=json",
+        "locator": "linksets[48]",
+        "retrieved_utc": "2026-10-08T23:18:12.720738+00:00"
+      }
+    ]
+  }
+]

@@ -1,0 +1,69 @@
+<eSummaryResult><DocSum>
+	<Id>200139313</Id>
+	<Item Name="Accession" Type="String">GSE139313</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">Genome-wide CRISPR screen reveals cancer cell resistance to NK cells induced by NK-derived IFN-gamma</Item>
+	<Item Name="summary" Type="String">The anti-leukemia activity of NK cells helps to prevent relapse during hematopoietic stem cell transplantation in leukemia patients. However, the factors that determine sensitivity or resistance of leukemia cells in the context of NK-mediated cytotoxicity are not well established. Here we performed a genome-wide CRIPSR screen in the human chronic-myelogenous-leukemia (CML) cell line K562 to identify genes that regulate vulnerability of leukemia cells to killing by primary human NK cells. Distribution of guide RNAs (gRNAs) in K562 cells that survived co-incubation with NK cells showed that loss of NCR3LG1, which encodes the ligand of the natural cytotoxicity receptor NKp30, protected K562 cells from killing. In contrast, loss of genes that regulate pathways for antigen-presentation and interferon-gamma-signaling increased the vulnerability of K562 cells. Addition of IFN-gamma neutralizing antibody increased the susceptibility of K562 cells to NK-mediated killing. Upregulation of MHC class I on K562 cells after co-incubation with NK cells was dependent on IFNGR2. Analysis of RNA-seq data from The Cancer Genome Atlas (TCGA) showed that low IFNGR2 expression in cancer tissues associated with improved overall survival in acute myeloid leukemia (AML) and Kidney Renal Clear Cell Carcinoma (KIRC) patients. Our results showing that upregulation of MHC class I by NK-derived IFN-gamma leads to resistance to NK cytotoxicity suggest that targeting IFN-gamma responses might be a promising approach to enhance NK cell anti-cancer efficacy.</Item>
+	<Item Name="GPL" Type="String">18573</Item>
+	<Item Name="GSE" Type="String">139313</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Other</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2019/10/24</Item>
+	<Item Name="suppFile" Type="String">TXT</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4137943</Item>
+			<Item Name="Title" Type="String">High-dup2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4137941</Item>
+			<Item Name="Title" Type="String">High-Ctrl</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4137938</Item>
+			<Item Name="Title" Type="String">Low-Surv-rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4137942</Item>
+			<Item Name="Title" Type="String">High-dup1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4137939</Item>
+			<Item Name="Title" Type="String">Low-Ctrl-rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4137937</Item>
+			<Item Name="Title" Type="String">Low-Ctrl-rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4137940</Item>
+			<Item Name="Title" Type="String">Low-Surv-rep2</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List">
+		<Item Name="ExtRelation" Type="Structure">
+			<Item Name="RelationType" Type="String">SRA</Item>
+			<Item Name="TargetObject" Type="String">SRP226783</Item>
+			<Item Name="TargetFTPLink" Type="String">ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP226/SRP226783/</Item>
+		</Item>
+	</Item>
+	<Item Name="n_samples" Type="Integer">7</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">31921143</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE139nnn/GSE139313/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+</eSummaryResult>

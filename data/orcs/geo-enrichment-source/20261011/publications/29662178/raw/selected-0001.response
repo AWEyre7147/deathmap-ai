@@ -1,0 +1,293 @@
+<eSummaryResult><DocSum>
+	<Id>200103846</Id>
+	<Item Name="Accession" Type="String">GSE103846</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">Transcriptome analysis of human embryonic stem cells (hESCs) upon siRNA-mediated knockdown of hESC-essential genes</Item>
+	<Item Name="summary" Type="String">The maintenance of pluripotency requires the coordinated expression of a set of essential genes. Thorough identification of these genes is vital for gaining a better understanding of the pluripotent state. To this end, we have recently generated a genome-wide loss-of-function library in haploid human pluripotent stem cells utilizing the bacterial clustered regularly interspaced short palindromic repeats (CRISPR)/Cas9 technology using nearly 180,000 single guide RNAs (sgRNAs) and targeting 18,166 protein-coding genes. By combining the results of our high-throughput genetic screening with the analysis of publicly available RNAseq data of pluripotent stem cells and several somatic cells, we have determined the essential genes which have an enriched expression in hESCs and termed these genes as hESC-essential genes. Here, we have individually knocked down four of these hESC-essential genes with siRNAs, namely SALL4, DSCC1, SEPHS1 and VRTN, in human embryonic stem cells and analyzed the transcriptomes of the cells upon downregulation of these transcripts in order to unravel part of the pathways affected by hESC-essential genes.</Item>
+	<Item Name="GPL" Type="String">18573</Item>
+	<Item Name="GSE" Type="String">103846</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2018/04/30</Item>
+	<Item Name="suppFile" Type="String">CSV</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2784570</Item>
+			<Item Name="Title" Type="String">DSCC1_siRNA_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2784573</Item>
+			<Item Name="Title" Type="String">SEPHS1_siRNA_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2784576</Item>
+			<Item Name="Title" Type="String">VRTN_siRNA_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2784562</Item>
+			<Item Name="Title" Type="String">Luciferase_siRNA_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2784568</Item>
+			<Item Name="Title" Type="String">SALL4_siRNA_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2784565</Item>
+			<Item Name="Title" Type="String">Control_siRNA_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2784571</Item>
+			<Item Name="Title" Type="String">DSCC1_siRNA_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2784577</Item>
+			<Item Name="Title" Type="String">VRTN_siRNA_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2784574</Item>
+			<Item Name="Title" Type="String">SEPHS1_siRNA_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2784563</Item>
+			<Item Name="Title" Type="String">Luciferase_siRNA_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2784566</Item>
+			<Item Name="Title" Type="String">SALL4_siRNA_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2784569</Item>
+			<Item Name="Title" Type="String">DSCC1_siRNA_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2784572</Item>
+			<Item Name="Title" Type="String">SEPHS1_siRNA_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2784575</Item>
+			<Item Name="Title" Type="String">VRTN_siRNA_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2784567</Item>
+			<Item Name="Title" Type="String">SALL4_siRNA_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2784564</Item>
+			<Item Name="Title" Type="String">Control_siRNA_rep1</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List">
+		<Item Name="ExtRelation" Type="Structure">
+			<Item Name="RelationType" Type="String">SRA</Item>
+			<Item Name="TargetObject" Type="String">SRP117644</Item>
+			<Item Name="TargetFTPLink" Type="String">ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP117/SRP117644/</Item>
+		</Item>
+	</Item>
+	<Item Name="n_samples" Type="Integer">16</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">29662178</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE103nnn/GSE103846/</Item>
+	<Item Name="GEO2R" Type="String">yes</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200107965</Id>
+	<Item Name="Accession" Type="String">GSE107965</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">Transcriptome analysis of human embryonic stem cells (hESCs) and human fibroblasts upon rapamycin</Item>
+	<Item Name="summary" Type="String">Rapamycin inhibits mTORC1 complex in a variety of cells. We demonstrated that hESCs are more sensitive to rapamycin treatment as compared to somatic cells (BJ Fibroblasts) and also certain cancer cells (KBM7 cells). To study the molecular mechanisms of this disparity, we performed a transcriptome analysis (RNAseq) of rapamycin-treated hESCs and human fibroblasts for two time points (2 and 4 days of treatment).</Item>
+	<Item Name="GPL" Type="String">18573</Item>
+	<Item Name="GSE" Type="String">107965</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2018/04/30</Item>
+	<Item Name="suppFile" Type="String">CSV</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2884395</Item>
+			<Item Name="Title" Type="String">Fibroblasts_4days_rapamycin_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2884392</Item>
+			<Item Name="Title" Type="String">Fibroblasts_2days_rapamycin_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2884389</Item>
+			<Item Name="Title" Type="String">Fibroblasts_control_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2884381</Item>
+			<Item Name="Title" Type="String">hESCs_2days_rapamycin_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2884378</Item>
+			<Item Name="Title" Type="String">hESCs_control_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2884384</Item>
+			<Item Name="Title" Type="String">hESCs_4days_rapamycin_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2884390</Item>
+			<Item Name="Title" Type="String">Fibroblasts_2days_rapamycin_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2884387</Item>
+			<Item Name="Title" Type="String">Fibroblasts_control_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2884393</Item>
+			<Item Name="Title" Type="String">Fibroblasts_4days_rapamycin_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2884385</Item>
+			<Item Name="Title" Type="String">hESCs_4days_rapamycin_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2884382</Item>
+			<Item Name="Title" Type="String">hESCs_2days_rapamycin_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2884379</Item>
+			<Item Name="Title" Type="String">hESCs_control_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2884391</Item>
+			<Item Name="Title" Type="String">Fibroblasts_2days_rapamycin_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2884388</Item>
+			<Item Name="Title" Type="String">Fibroblasts_control_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2884394</Item>
+			<Item Name="Title" Type="String">Fibroblasts_4days_rapamycin_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2884380</Item>
+			<Item Name="Title" Type="String">hESCs_control_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2884386</Item>
+			<Item Name="Title" Type="String">hESCs_4days_rapamycin_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2884383</Item>
+			<Item Name="Title" Type="String">hESCs_2days_rapamycin_rep3</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List">
+		<Item Name="ExtRelation" Type="Structure">
+			<Item Name="RelationType" Type="String">SRA</Item>
+			<Item Name="TargetObject" Type="String">SRP126557</Item>
+			<Item Name="TargetFTPLink" Type="String">ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP126/SRP126557/</Item>
+		</Item>
+	</Item>
+	<Item Name="n_samples" Type="Integer">18</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">29662178</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE107nnn/GSE107965/</Item>
+	<Item Name="GEO2R" Type="String">yes</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200111309</Id>
+	<Item Name="Accession" Type="String">GSE111309</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">DNAseq analysis of a genome-wide loss-of-function CRISPR/Cas9 library established in haploid human embryonic stem cells (hESCs)</Item>
+	<Item Name="summary" Type="String">The maintenance of pluripotency requires coordinated expression of a set of essential genes. Using our recently established haploid human pluripotent stem cells (hPSCs), we generated a genome-wide loss-of-function library targeting 18,166 protein-coding genes to define the essential genes in hPSCs. We could allude to an intrinsic bias of essentiality across cellular-compartments, uncover two opposing roles for tumor-suppressor genes, and link autosomal-recessive disorders with growth-retardation phenotypes to early embryogenesis. hPSC-enriched essential genes mainly encode transcription factors and proteins related to cell-cycle and DNA-repair, revealing that a quarter of the nuclear-factors are essential for normal growth. Our screen also led to the identification of growth-restricting genes whose loss-of-function provides growth advantage to hPSCs, highlighting the role of the P53-mTOR pathway in this context. Overall, we have constructed an atlas of essential and growth-restricting genes in hPSCs, revealing key aspects of cellular essentiality and providing a reference for future studies on human pluripotency.</Item>
+	<Item Name="GPL" Type="String">18573</Item>
+	<Item Name="GSE" Type="String">111309</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Other</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2018/04/30</Item>
+	<Item Name="suppFile" Type="String">XLSX</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3028269</Item>
+			<Item Name="Title" Type="String">haploid_hESC_library_Day30_rep1_run1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3028272</Item>
+			<Item Name="Title" Type="String">haploid_hESC_library_Day30_rep1_run2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3028266</Item>
+			<Item Name="Title" Type="String">haploid_hESC_library_Day23_rep1_run1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3028270</Item>
+			<Item Name="Title" Type="String">haploid_hESC_library_Day1_rep2_run2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3028267</Item>
+			<Item Name="Title" Type="String">haploid_hESC_library_Day1_rep2_run1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3028264</Item>
+			<Item Name="Title" Type="String">haploid_hESC_library_Day1_rep1_run1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3028265</Item>
+			<Item Name="Title" Type="String">haploid_hESC_library_Day9_rep1_run1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3028271</Item>
+			<Item Name="Title" Type="String">haploid_hESC_library_Day23_rep2_run2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3028268</Item>
+			<Item Name="Title" Type="String">haploid_hESC_library_Day23_rep2_run1</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List">
+		<Item Name="ExtRelation" Type="Structure">
+			<Item Name="RelationType" Type="String">SRA</Item>
+			<Item Name="TargetObject" Type="String">SRP133764</Item>
+			<Item Name="TargetFTPLink" Type="String">ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP133/SRP133764/</Item>
+		</Item>
+	</Item>
+	<Item Name="n_samples" Type="Integer">9</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">29662178</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE111nnn/GSE111309/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+</eSummaryResult>

@@ -1,0 +1,89 @@
+<eSummaryResult><DocSum>
+	<Id>200165631</Id>
+	<Item Name="Accession" Type="String">GSE165631</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">Transcriptomic profiling of oncogenic RIT1 and activated YAP1 in lung epithelial cells</Item>
+	<Item Name="summary" Type="String">Based on xenograft data, we have found that YAP1 activation synergizes with RIT1M90I to promote lung cancer. To investigate the molecular basis for the observed functional synergy, we performed whole-genome RNA-seq in SALE cells expressing RIT1M90I and YAP15SA individually or in combination. We find that RIT1M90I and YAP15SA induced very different transcriptional states with little correlation. And, that transcripts altered by RIT1M90I were not enriched for a YAP1 gene signature, whereas YAP15SA drove activation of this signature. In addition, we find that when RIT1M90I and YAP15SA w co-expressed, YAP1-regulated gene expression was enhanced by RIT1M90I compared to YAP15SA alone, with known YAP1 targets such as TNNT2, ITGB2, and COL4A3 showing 2.5-3.6 fold increased expression compared to YAP15SA alone. These data suggest that RIT1M90I on its own does not trigger YAP1 target transcription but may instead enhance activation of YAP1 targets in settings of YAP1 activation, such as tumors with Hippo pathway loss.</Item>
+	<Item Name="GPL" Type="String">16791</Item>
+	<Item Name="GSE" Type="String">165631</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2021/05/31</Item>
+	<Item Name="suppFile" Type="String">CSV, TXT</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5047154</Item>
+			<Item Name="Title" Type="String">YAP5SA_3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5047148</Item>
+			<Item Name="Title" Type="String">SALE_parental 3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5047151</Item>
+			<Item Name="Title" Type="String">RIT1-M90I_3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5047157</Item>
+			<Item Name="Title" Type="String">RIT1M90I_YAP5SA_3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5047146</Item>
+			<Item Name="Title" Type="String">SALE_parental 1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5047149</Item>
+			<Item Name="Title" Type="String">RIT1-M90I_1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5047155</Item>
+			<Item Name="Title" Type="String">RIT1M90I_YAP5SA_1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5047152</Item>
+			<Item Name="Title" Type="String">YAP5SA_1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5047147</Item>
+			<Item Name="Title" Type="String">SALE_parental 2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5047150</Item>
+			<Item Name="Title" Type="String">RIT1-M90I_2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5047153</Item>
+			<Item Name="Title" Type="String">YAP5SA_2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5047156</Item>
+			<Item Name="Title" Type="String">RIT1M90I_YAP5SA_2</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List">
+		<Item Name="ExtRelation" Type="Structure">
+			<Item Name="RelationType" Type="String">SRA</Item>
+			<Item Name="TargetObject" Type="String">SRP303704</Item>
+			<Item Name="TargetFTPLink" Type="String">ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP303/SRP303704/</Item>
+		</Item>
+	</Item>
+	<Item Name="n_samples" Type="Integer">12</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">34373451</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165631/</Item>
+	<Item Name="GEO2R" Type="String">yes</Item>
+</DocSum>
+
+</eSummaryResult>

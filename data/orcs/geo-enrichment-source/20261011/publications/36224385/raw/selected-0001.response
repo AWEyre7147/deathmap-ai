@@ -1,0 +1,1017 @@
+<eSummaryResult><DocSum>
+	<Id>200184459</Id>
+	<Item Name="Accession" Type="String">GSE184459</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">Activation of g-globin expression by hypoxia-inducible factor 1a [RNA-seq]</Item>
+	<Item Name="summary" Type="String">Longstanding observations that fetal hemoglobin (HbF, a2g2) expression is reactivated in postnatal red blood cells (RBCs) during hypoxia or recovery from anemia remain unexplained. We identified the hypoxia inducible factor (HIF) signaling pathway as a direct regulator of HbF expression in a CRISPR/Cas9 genetic screen. In RBC precursors, depletion of the von Hippel&#8211;Lindau (VHL) E3 ligase stabilized its ubiquitination target HIF1a to induce g-globin gene transcription. Mechanistically, HIF1a-HIF1b&#61472;heterodimers bound cognate DNA elements in BGLT3, a long-noncoding RNA gene located 2.7 kb downstream of the tandem g-globin genes. This was followed by recruitment of transcriptional activators, chromatin opening, and increased long-range interactions between the g-globin genes and their upstream enhancer. These effects were recapitulated by hypoxia or inhibition of prolyl hydroxylase domain (PHD) enzymes that target HIF1a for ubiquitination. Our findings link globin gene regulation with canonical hypoxia adaptation, elucidate a mechanism for HbF induction during stress erythropoiesis, and identify a novel therapeutic approach for &#946;-hemoglobinopathies.</Item>
+	<Item Name="GPL" Type="String">20301</Item>
+	<Item Name="GSE" Type="String">184459</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2022/07/14</Item>
+	<Item Name="suppFile" Type="String">TSV</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5589335</Item>
+			<Item Name="Title" Type="String">NT_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5589337</Item>
+			<Item Name="Title" Type="String">VKO_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5589334</Item>
+			<Item Name="Title" Type="String">NT_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5589336</Item>
+			<Item Name="Title" Type="String">VKO_rep1</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List">
+		<Item Name="ExtRelation" Type="Structure">
+			<Item Name="RelationType" Type="String">SRA</Item>
+			<Item Name="TargetObject" Type="String">SRP337931</Item>
+			<Item Name="TargetFTPLink" Type="String">ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP337/SRP337931/</Item>
+		</Item>
+	</Item>
+	<Item Name="n_samples" Type="Integer">4</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">36224385</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE184nnn/GSE184459/</Item>
+	<Item Name="GEO2R" Type="String">yes</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200184461</Id>
+	<Item Name="Accession" Type="String">GSE184461</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">Activation of g-globin expression by hypoxia-inducible factor 1a</Item>
+	<Item Name="summary" Type="String">This SuperSeries is composed of the SubSeries listed below.</Item>
+	<Item Name="GPL" Type="String">20301;21697</Item>
+	<Item Name="GSE" Type="String">184461</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Genome binding/occupancy profiling by high throughput sequencing; Expression profiling by high throughput sequencing; Other</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2022/07/13</Item>
+	<Item Name="suppFile" Type="String">BEDGRAPH, BW, TSV</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199472</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_GATA1_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199509</Item>
+			<Item Name="Title" Type="String">HUDEP2_VHLKO_clone1_P300</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199492</Item>
+			<Item Name="Title" Type="String">HUDEP2_NT_H3K4me3_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199426</Item>
+			<Item Name="Title" Type="String">CaptureC_NT_BGLT3_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199446</Item>
+			<Item Name="Title" Type="String">Baseeditor_Clone1_MotifA_HIF1A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199512</Item>
+			<Item Name="Title" Type="String">HUDEP2_VHLKO_H3K4me1_clone2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199466</Item>
+			<Item Name="Title" Type="String">CD34_NT_HIF1b_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199449</Item>
+			<Item Name="Title" Type="String">Baseeditor_Clone1_NT_HIF1A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199429</Item>
+			<Item Name="Title" Type="String">CaptureC_NT_HBBP1_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199515</Item>
+			<Item Name="Title" Type="String">HUDEP2_VHLKO_HIF1b_clone2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199469</Item>
+			<Item Name="Title" Type="String">CD34_NT_P300_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199489</Item>
+			<Item Name="Title" Type="String">HUDEP2_NT_GATA1_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199452</Item>
+			<Item Name="Title" Type="String">Baseeditor_Clone2_MotifB_HIF1A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199518</Item>
+			<Item Name="Title" Type="String">HUDEP2_NT_IgG</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199435</Item>
+			<Item Name="Title" Type="String">CaptureC_VHLKO_HBBP1_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199481</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_HIF1A_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199455</Item>
+			<Item Name="Title" Type="String">CD34_FG4592_HIF1A_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199438</Item>
+			<Item Name="Title" Type="String">combined_NT_BCL11A rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199418</Item>
+			<Item Name="Title" Type="String">HUDEP2_VHLKO_ATAC_clone1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199501</Item>
+			<Item Name="Title" Type="String">HUDEP2_NT_rep1_HIF1b</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199475</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_H3K27ac_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199412</Item>
+			<Item Name="Title" Type="String">CD34_NT_ATAC_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199495</Item>
+			<Item Name="Title" Type="String">HUDEP2_NT_P300_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199458</Item>
+			<Item Name="Title" Type="String">CD34_NT_H3K27ac_Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199478</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_H3K4me3_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199415</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_ATAC_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199432</Item>
+			<Item Name="Title" Type="String">CaptureC_VHLKO_BGLT3_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199498</Item>
+			<Item Name="Title" Type="String">HUDEP2_NT_rep1_H3K4me1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199454</Item>
+			<Item Name="Title" Type="String">CD34_FG4592_HIF1A_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199471</Item>
+			<Item Name="Title" Type="String">CD34_Vehicle_HIF1A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199457</Item>
+			<Item Name="Title" Type="String">CD34_NT_GATA1_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199431</Item>
+			<Item Name="Title" Type="String">CaptureC_NT_HS3_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199494</Item>
+			<Item Name="Title" Type="String">HUDEP2_NT_HIF1b_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199437</Item>
+			<Item Name="Title" Type="String">CaptureC_VHLKO_HS3_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199474</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_H3K27ac_Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199477</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_H3K4me1_Rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199514</Item>
+			<Item Name="Title" Type="String">HUDEP2_VHLKO_HIF1A_clone2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199497</Item>
+			<Item Name="Title" Type="String">HUDEP2_NT_rep1_H3K27ac</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199414</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_ATAC_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199451</Item>
+			<Item Name="Title" Type="String">Baseeditor_Clone2_MotifAB_HIF1A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199483</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_HIF1b_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199434</Item>
+			<Item Name="Title" Type="String">CaptureC_VHLKO_HBBP1_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199517</Item>
+			<Item Name="Title" Type="String">CD34_NT_IgG</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199417</Item>
+			<Item Name="Title" Type="String">HUDEP2_WT_ATAC_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199500</Item>
+			<Item Name="Title" Type="String">HUDEP2_NT_rep1_HIF1A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5589334</Item>
+			<Item Name="Title" Type="String">NT_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199463</Item>
+			<Item Name="Title" Type="String">CD34_NT_H3K4me3_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199486</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_IgG</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199503</Item>
+			<Item Name="Title" Type="String">HUDEP2_VHLKO_clone1_GATA1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5589337</Item>
+			<Item Name="Title" Type="String">VKO_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199460</Item>
+			<Item Name="Title" Type="String">CD34_NT_H3K4me1_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199499</Item>
+			<Item Name="Title" Type="String">HUDEP2_NT_rep1_H3K4me3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199506</Item>
+			<Item Name="Title" Type="String">HUDEP2_VHLKO_clone1_H3K4me3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199440</Item>
+			<Item Name="Title" Type="String">combined_VHLKO_BCL11A rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199480</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_HIF1A_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199502</Item>
+			<Item Name="Title" Type="String">HUDEP2_NT_rep1_P300</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199416</Item>
+			<Item Name="Title" Type="String">HUDEP2_WT_ATAC_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199462</Item>
+			<Item Name="Title" Type="String">CD34_NT_H3K4me3_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199443</Item>
+			<Item Name="Title" Type="String">A549_NT_HIF2A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199436</Item>
+			<Item Name="Title" Type="String">CaptureC_VHLKO_HS3_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199419</Item>
+			<Item Name="Title" Type="String">HUDEP2_VHLKO_ATAC_clone2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199439</Item>
+			<Item Name="Title" Type="String">combined_NT_BCL11A rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199482</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_HIF1b_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199508</Item>
+			<Item Name="Title" Type="String">HUDEP2_VHLKO_clone1_HIF1b</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199456</Item>
+			<Item Name="Title" Type="String">CD34_NT_GATA1_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5589336</Item>
+			<Item Name="Title" Type="String">VKO_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199428</Item>
+			<Item Name="Title" Type="String">CaptureC_NT_HBBP1_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199442</Item>
+			<Item Name="Title" Type="String">A549_NT_HIF1A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199459</Item>
+			<Item Name="Title" Type="String">CD34_NT_H3K27ac_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199491</Item>
+			<Item Name="Title" Type="String">HUDEP2_NT_H3K4me1_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199479</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_H3K4me3_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199505</Item>
+			<Item Name="Title" Type="String">HUDEP2_VHLKO_clone1_H3K4me1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199465</Item>
+			<Item Name="Title" Type="String">CD34_NT_HIF1A_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199445</Item>
+			<Item Name="Title" Type="String">A549_VHLKO1_HIF1A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199444</Item>
+			<Item Name="Title" Type="String">A549_VHLKO_HIF2A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199448</Item>
+			<Item Name="Title" Type="String">Baseeditor_Clone1_MotifB_HIF1A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199468</Item>
+			<Item Name="Title" Type="String">CD34_NT_HIF2A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199511</Item>
+			<Item Name="Title" Type="String">HUDEP2_VHLKO_H3K27ac_clone2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5589335</Item>
+			<Item Name="Title" Type="String">NT_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199447</Item>
+			<Item Name="Title" Type="String">Baseeditor_Clone1_MotifAB_HIF1A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199485</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_HIF2A_Rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199467</Item>
+			<Item Name="Title" Type="String">CD34_NT_HIF1b_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199441</Item>
+			<Item Name="Title" Type="String">combined_VHLKO_BCL11A rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199464</Item>
+			<Item Name="Title" Type="String">CD34_NT_HIF1A_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199488</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_P300_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199484</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_HIF2A_Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199473</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_GATA1_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199487</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_P300_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199507</Item>
+			<Item Name="Title" Type="String">HUDEP2_VHLKO_clone1_HIF1A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199476</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_H3K4me1_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199461</Item>
+			<Item Name="Title" Type="String">CD34_NT_H3K4me1_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199504</Item>
+			<Item Name="Title" Type="String">HUDEP2_VHLKO_clone1_H3K27ac</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199510</Item>
+			<Item Name="Title" Type="String">HUDEP2_VHLKO_GATA1_clone2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199490</Item>
+			<Item Name="Title" Type="String">HUDEP2_NT_H3K27ac_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199470</Item>
+			<Item Name="Title" Type="String">CD34_NT_P300_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199513</Item>
+			<Item Name="Title" Type="String">HUDEP2_VHLKO_H3K4me3_clone2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199453</Item>
+			<Item Name="Title" Type="String">Baseeditor_Clone2_NT_HIF1A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199493</Item>
+			<Item Name="Title" Type="String">HUDEP2_NT_HIF1A_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199430</Item>
+			<Item Name="Title" Type="String">CaptureC_NT_HS3_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199427</Item>
+			<Item Name="Title" Type="String">CaptureC_NT_BGLT3_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199413</Item>
+			<Item Name="Title" Type="String">CD34_NT_ATAC_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199433</Item>
+			<Item Name="Title" Type="String">CaptureC_VHLKO_BGLT3_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199496</Item>
+			<Item Name="Title" Type="String">HUDEP2_NT_rep1_GATA1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199516</Item>
+			<Item Name="Title" Type="String">HUDEP2_VHLKO_P300_clone2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199450</Item>
+			<Item Name="Title" Type="String">Baseeditor_Clone2_MotifA_HIF1A</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List" />
+	<Item Name="n_samples" Type="Integer">105</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">36224385</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE184nnn/GSE184461/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200204897</Id>
+	<Item Name="Accession" Type="String">GSE204897</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">Activation of g-globin expression by hypoxia-inducible factor 1a [ATAC-Seq]</Item>
+	<Item Name="summary" Type="String">Longstanding observations that fetal hemoglobin (HbF, a2g2) expression is reactivated in postnatal red blood cells (RBCs) during hypoxia or recovery from anemia remain unexplained. We identified the hypoxia inducible factor (HIF) signaling pathway as a direct regulator of HbF expression in a CRISPR/Cas9 genetic screen. In RBC precursors, depletion of the von Hippel&#8211;Lindau (VHL) E3 ligase stabilized its ubiquitination target HIF1a to induce g-globin gene transcription. Mechanistically, HIF1a-HIF1b&#61472;heterodimers bound cognate DNA elements in BGLT3, a long-noncoding RNA gene located 2.7 kb downstream of the tandem g-globin genes. This was followed by recruitment of transcriptional activators, chromatin opening, and increased long-range interactions between the g-globin genes and their upstream enhancer. These effects were recapitulated by hypoxia or inhibition of prolyl hydroxylase domain (PHD) enzymes that target HIF1a for ubiquitination. Our findings link globin gene regulation with canonical hypoxia adaptation, elucidate a mechanism for HbF induction during stress erythropoiesis, and identify a novel therapeutic approach for &#946;-hemoglobinopathies.</Item>
+	<Item Name="GPL" Type="String">20301</Item>
+	<Item Name="GSE" Type="String">204897</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Genome binding/occupancy profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2022/07/14</Item>
+	<Item Name="suppFile" Type="String">BW</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199417</Item>
+			<Item Name="Title" Type="String">HUDEP2_WT_ATAC_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199414</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_ATAC_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199412</Item>
+			<Item Name="Title" Type="String">CD34_NT_ATAC_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199415</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_ATAC_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199418</Item>
+			<Item Name="Title" Type="String">HUDEP2_VHLKO_ATAC_clone1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199416</Item>
+			<Item Name="Title" Type="String">HUDEP2_WT_ATAC_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199413</Item>
+			<Item Name="Title" Type="String">CD34_NT_ATAC_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199419</Item>
+			<Item Name="Title" Type="String">HUDEP2_VHLKO_ATAC_clone2</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List" />
+	<Item Name="n_samples" Type="Integer">8</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">36224385</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE204nnn/GSE204897/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200204899</Id>
+	<Item Name="Accession" Type="String">GSE204899</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">Activation of g-globin expression by hypoxia-inducible factor 1a [CaptureC]</Item>
+	<Item Name="summary" Type="String">Longstanding observations that fetal hemoglobin (HbF, a2g2) expression is reactivated in postnatal red blood cells (RBCs) during hypoxia or recovery from anemia remain unexplained. We identified the hypoxia inducible factor (HIF) signaling pathway as a direct regulator of HbF expression in a CRISPR/Cas9 genetic screen. In RBC precursors, depletion of the von Hippel&#8211;Lindau (VHL) E3 ligase stabilized its ubiquitination target HIF1a to induce g-globin gene transcription. Mechanistically, HIF1a-HIF1b&#61472;heterodimers bound cognate DNA elements in BGLT3, a long-noncoding RNA gene located 2.7 kb downstream of the tandem g-globin genes. This was followed by recruitment of transcriptional activators, chromatin opening, and increased long-range interactions between the g-globin genes and their upstream enhancer. These effects were recapitulated by hypoxia or inhibition of prolyl hydroxylase domain (PHD) enzymes that target HIF1a for ubiquitination. Our findings link globin gene regulation with canonical hypoxia adaptation, elucidate a mechanism for HbF induction during stress erythropoiesis, and identify a novel therapeutic approach for &#946;-hemoglobinopathies.</Item>
+	<Item Name="GPL" Type="String">21697</Item>
+	<Item Name="GSE" Type="String">204899</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Other</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2022/07/14</Item>
+	<Item Name="suppFile" Type="String">BEDGRAPH, BW</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199431</Item>
+			<Item Name="Title" Type="String">CaptureC_NT_HS3_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199428</Item>
+			<Item Name="Title" Type="String">CaptureC_NT_HBBP1_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199437</Item>
+			<Item Name="Title" Type="String">CaptureC_VHLKO_HS3_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199434</Item>
+			<Item Name="Title" Type="String">CaptureC_VHLKO_HBBP1_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199440</Item>
+			<Item Name="Title" Type="String">combined_VHLKO_BCL11A rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199426</Item>
+			<Item Name="Title" Type="String">CaptureC_NT_BGLT3_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199429</Item>
+			<Item Name="Title" Type="String">CaptureC_NT_HBBP1_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199441</Item>
+			<Item Name="Title" Type="String">combined_VHLKO_BCL11A rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199432</Item>
+			<Item Name="Title" Type="String">CaptureC_VHLKO_BGLT3_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199438</Item>
+			<Item Name="Title" Type="String">combined_NT_BCL11A rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199435</Item>
+			<Item Name="Title" Type="String">CaptureC_VHLKO_HBBP1_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199427</Item>
+			<Item Name="Title" Type="String">CaptureC_NT_BGLT3_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199430</Item>
+			<Item Name="Title" Type="String">CaptureC_NT_HS3_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199436</Item>
+			<Item Name="Title" Type="String">CaptureC_VHLKO_HS3_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199433</Item>
+			<Item Name="Title" Type="String">CaptureC_VHLKO_BGLT3_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199439</Item>
+			<Item Name="Title" Type="String">combined_NT_BCL11A rep2</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List" />
+	<Item Name="n_samples" Type="Integer">16</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">36224385</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE204nnn/GSE204899/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200204900</Id>
+	<Item Name="Accession" Type="String">GSE204900</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">Activation of g-globin expression by hypoxia-inducible factor 1a [CUT&amp;RUN]</Item>
+	<Item Name="summary" Type="String">Longstanding observations that fetal hemoglobin (HbF, a2g2) expression is reactivated in postnatal red blood cells (RBCs) during hypoxia or recovery from anemia remain unexplained. We identified the hypoxia inducible factor (HIF) signaling pathway as a direct regulator of HbF expression in a CRISPR/Cas9 genetic screen. In RBC precursors, depletion of the von Hippel&#8211;Lindau (VHL) E3 ligase stabilized its ubiquitination target HIF1a to induce g-globin gene transcription. Mechanistically, HIF1a-HIF1b&#61472;heterodimers bound cognate DNA elements in BGLT3, a long-noncoding RNA gene located 2.7 kb downstream of the tandem g-globin genes. This was followed by recruitment of transcriptional activators, chromatin opening, and increased long-range interactions between the g-globin genes and their upstream enhancer. These effects were recapitulated by hypoxia or inhibition of prolyl hydroxylase domain (PHD) enzymes that target HIF1a for ubiquitination. Our findings link globin gene regulation with canonical hypoxia adaptation, elucidate a mechanism for HbF induction during stress erythropoiesis, and identify a novel therapeutic approach for &#946;-hemoglobinopathies.</Item>
+	<Item Name="GPL" Type="String">21697</Item>
+	<Item Name="GSE" Type="String">204900</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Genome binding/occupancy profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2022/07/14</Item>
+	<Item Name="suppFile" Type="String">BEDGRAPH, BW</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199452</Item>
+			<Item Name="Title" Type="String">Baseeditor_Clone2_MotifB_HIF1A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199498</Item>
+			<Item Name="Title" Type="String">HUDEP2_NT_rep1_H3K4me1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199492</Item>
+			<Item Name="Title" Type="String">HUDEP2_NT_H3K4me3_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199455</Item>
+			<Item Name="Title" Type="String">CD34_FG4592_HIF1A_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199518</Item>
+			<Item Name="Title" Type="String">HUDEP2_NT_IgG</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199472</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_GATA1_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199475</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_H3K27ac_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199515</Item>
+			<Item Name="Title" Type="String">HUDEP2_VHLKO_HIF1b_clone2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199478</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_H3K4me3_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199495</Item>
+			<Item Name="Title" Type="String">HUDEP2_NT_P300_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199507</Item>
+			<Item Name="Title" Type="String">HUDEP2_VHLKO_clone1_HIF1A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199461</Item>
+			<Item Name="Title" Type="String">CD34_NT_H3K4me1_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199501</Item>
+			<Item Name="Title" Type="String">HUDEP2_NT_rep1_HIF1b</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199444</Item>
+			<Item Name="Title" Type="String">A549_VHLKO_HIF2A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199464</Item>
+			<Item Name="Title" Type="String">CD34_NT_HIF1A_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199481</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_HIF1A_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199484</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_HIF2A_Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199504</Item>
+			<Item Name="Title" Type="String">HUDEP2_VHLKO_clone1_H3K27ac</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199458</Item>
+			<Item Name="Title" Type="String">CD34_NT_H3K27ac_Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199470</Item>
+			<Item Name="Title" Type="String">CD34_NT_P300_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199490</Item>
+			<Item Name="Title" Type="String">HUDEP2_NT_H3K27ac_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199473</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_GATA1_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199467</Item>
+			<Item Name="Title" Type="String">CD34_NT_HIF1b_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199510</Item>
+			<Item Name="Title" Type="String">HUDEP2_VHLKO_GATA1_clone2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199513</Item>
+			<Item Name="Title" Type="String">HUDEP2_VHLKO_H3K4me3_clone2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199499</Item>
+			<Item Name="Title" Type="String">HUDEP2_NT_rep1_H3K4me3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199447</Item>
+			<Item Name="Title" Type="String">Baseeditor_Clone1_MotifAB_HIF1A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199493</Item>
+			<Item Name="Title" Type="String">HUDEP2_NT_HIF1A_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199450</Item>
+			<Item Name="Title" Type="String">Baseeditor_Clone2_MotifA_HIF1A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199487</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_P300_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199453</Item>
+			<Item Name="Title" Type="String">Baseeditor_Clone2_NT_HIF1A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199476</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_H3K4me1_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199479</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_H3K4me3_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199516</Item>
+			<Item Name="Title" Type="String">HUDEP2_VHLKO_P300_clone2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199496</Item>
+			<Item Name="Title" Type="String">HUDEP2_NT_rep1_GATA1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199456</Item>
+			<Item Name="Title" Type="String">CD34_NT_GATA1_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199459</Item>
+			<Item Name="Title" Type="String">CD34_NT_H3K27ac_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199462</Item>
+			<Item Name="Title" Type="String">CD34_NT_H3K4me3_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199508</Item>
+			<Item Name="Title" Type="String">HUDEP2_VHLKO_clone1_HIF1b</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199488</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_P300_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199502</Item>
+			<Item Name="Title" Type="String">HUDEP2_NT_rep1_P300</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199482</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_HIF1b_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199505</Item>
+			<Item Name="Title" Type="String">HUDEP2_VHLKO_clone1_H3K4me1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199442</Item>
+			<Item Name="Title" Type="String">A549_NT_HIF1A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199485</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_HIF2A_Rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199445</Item>
+			<Item Name="Title" Type="String">A549_VHLKO1_HIF1A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199465</Item>
+			<Item Name="Title" Type="String">CD34_NT_HIF1A_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199451</Item>
+			<Item Name="Title" Type="String">Baseeditor_Clone2_MotifAB_HIF1A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199468</Item>
+			<Item Name="Title" Type="String">CD34_NT_HIF2A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199454</Item>
+			<Item Name="Title" Type="String">CD34_FG4592_HIF1A_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199517</Item>
+			<Item Name="Title" Type="String">CD34_NT_IgG</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199491</Item>
+			<Item Name="Title" Type="String">HUDEP2_NT_H3K4me1_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199471</Item>
+			<Item Name="Title" Type="String">CD34_Vehicle_HIF1A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199494</Item>
+			<Item Name="Title" Type="String">HUDEP2_NT_HIF1b_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199483</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_HIF1b_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199511</Item>
+			<Item Name="Title" Type="String">HUDEP2_VHLKO_H3K27ac_clone2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199514</Item>
+			<Item Name="Title" Type="String">HUDEP2_VHLKO_HIF1A_clone2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199448</Item>
+			<Item Name="Title" Type="String">Baseeditor_Clone1_MotifB_HIF1A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199457</Item>
+			<Item Name="Title" Type="String">CD34_NT_GATA1_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199474</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_H3K27ac_Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199460</Item>
+			<Item Name="Title" Type="String">CD34_NT_H3K4me1_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199489</Item>
+			<Item Name="Title" Type="String">HUDEP2_NT_GATA1_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199480</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_HIF1A_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199497</Item>
+			<Item Name="Title" Type="String">HUDEP2_NT_rep1_H3K27ac</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199500</Item>
+			<Item Name="Title" Type="String">HUDEP2_NT_rep1_HIF1A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199503</Item>
+			<Item Name="Title" Type="String">HUDEP2_VHLKO_clone1_GATA1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199512</Item>
+			<Item Name="Title" Type="String">HUDEP2_VHLKO_H3K4me1_clone2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199443</Item>
+			<Item Name="Title" Type="String">A549_NT_HIF2A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199446</Item>
+			<Item Name="Title" Type="String">Baseeditor_Clone1_MotifA_HIF1A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199486</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_IgG</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199477</Item>
+			<Item Name="Title" Type="String">CD34_VHLKO_H3K4me1_Rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199463</Item>
+			<Item Name="Title" Type="String">CD34_NT_H3K4me3_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199466</Item>
+			<Item Name="Title" Type="String">CD34_NT_HIF1b_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199449</Item>
+			<Item Name="Title" Type="String">Baseeditor_Clone1_NT_HIF1A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199469</Item>
+			<Item Name="Title" Type="String">CD34_NT_P300_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199509</Item>
+			<Item Name="Title" Type="String">HUDEP2_VHLKO_clone1_P300</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6199506</Item>
+			<Item Name="Title" Type="String">HUDEP2_VHLKO_clone1_H3K4me3</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List" />
+	<Item Name="n_samples" Type="Integer">77</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">36224385</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE204nnn/GSE204900/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+</eSummaryResult>

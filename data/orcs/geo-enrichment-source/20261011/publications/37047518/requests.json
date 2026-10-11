@@ -1,0 +1,86 @@
+[
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=gds&id=37047518&linkname=pubmed_gds&cmd=neighbor&retmode=json",
+    "file": "raw/selected-0000.response",
+    "sha256": "47fd877e2ec4bf1241989413eac07bf3a895d481ef873e0efa9cdcec6b252f22",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:09:23.638832+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\9df06f5be6d7763b0ba5e42f900013a09b5a1e72fb5632b274828f3e4c23267b.json",
+        "sha256": "9df06f5be6d7763b0ba5e42f900013a09b5a1e72fb5632b274828f3e4c23267b",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\pubmed-enrichment-source\\20261008\\links-gds-7.json",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=gds&linkname=pubmed_gds&id=36326816&id=36396656&id=36409314&id=36417855&id=36457047&id=36476853&id=36543916&id=36548402&id=36574441&id=36584827&id=36597481&id=36650183&id=36652375&id=36693839&id=36724073&id=36725334&id=36725843&id=36731340&id=36744886&id=36753415&id=36772830&id=36794958&id=36801923&id=36820830&id=36841242&id=36848233&id=36894612&id=36920785&id=36920967&id=36971544&id=36977592&id=36991492&id=37010434&id=37024475&id=37036970&id=37046090&id=37047518&id=37059858&id=37075701&id=37075745&id=37163373&id=37167561&id=37193694&id=37435859&id=37616343&id=37639469&id=37758944&id=37866880&id=37883554&id=37975674&cmd=neighbor&retmode=json",
+        "locator": "linksets[36]",
+        "retrieved_utc": "2026-10-08T23:17:38.739017+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=37047518&retmode=xml",
+    "file": "raw/selected-0001.response",
+    "sha256": "32417a60a4b71bfe4c71c2392b8edda389d1eb2366db2115af6c5e035f26c839",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:09:23.642185+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\6dcc21c7d8864227c838e445f2831b139a13a479d53eeaa9f47cc40dbcb08973.xml",
+        "sha256": "6dcc21c7d8864227c838e445f2831b139a13a479d53eeaa9f47cc40dbcb08973",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\pubmed-enrichment-source\\20261008\\pubmed-3.xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=34805786%2C34834920%2C34879274%2C34907164%2C34921014%2C34937946%2C34962926%2C35021089%2C35050652%2C35086559%2C35113687%2C35149558%2C35192680%2C35221331%2C35231079%2C35263388%2C35379808%2C35411049%2C35420441%2C35421191%2C35439318%2C35469023%2C35482054%2C35508460%2C35559673%2C35570209%2C35657206%2C35688159%2C35723366%2C35750052%2C35763353%2C35804923%2C35842423%2C35861150%2C35879412%2C35879413%2C35972292%2C35981571%2C36002574%2C36032971%2C36055241%2C36111891%2C36124427%2C36134452%2C36224385%2C36228039%2C36273494%2C36303069%2C36305789%2C36309510%2C36326816%2C36396656%2C36409314%2C36417855%2C36457047%2C36476853%2C36543916%2C36548402%2C36574441%2C36584827%2C36597481%2C36650183%2C36652375%2C36693839%2C36724073%2C36725334%2C36725843%2C36731340%2C36744886%2C36753415%2C36772830%2C36794958%2C36801923%2C36820830%2C36841242%2C36848233%2C36894612%2C36920785%2C36920967%2C36971544%2C36977592%2C36991492%2C37010434%2C37024475%2C37036970%2C37046090%2C37047518%2C37059858%2C37075701%2C37075745%2C37163373%2C37167561%2C37193694%2C37435859%2C37616343%2C37639469%2C37758944%2C37866880%2C37883554%2C37975674&retmode=xml",
+        "locator": "PubmedArticle[86]",
+        "retrieved_utc": "2026-10-08T23:16:51.367997+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=%22Genome-Wide+CRISPR+Screens+Reveal+ZATT+as+a+Synthetic+Lethal+Target+of+TOP2-Poison+Etoposide+That+Can+Act+in+a+TDP2-Independent+Pathway%22%5BAll+Fields%5D+AND+gse%5BEntry+Type%5D&retmode=json&retmax=1000",
+    "file": "raw/selected-0002.response",
+    "sha256": "3e7fc76e790c9cb003047b8cc18a9f7903d33daa9abf4434bf7e4ed08c6cfc1e",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:09:23.646590+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\3e7fc76e790c9cb003047b8cc18a9f7903d33daa9abf4434bf7e4ed08c6cfc1e.json",
+        "sha256": "3e7fc76e790c9cb003047b8cc18a9f7903d33daa9abf4434bf7e4ed08c6cfc1e",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\outputs\\geo\\title-search-expansion\\20261010\\raw\\search-937-phrase.json",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=%22Genome-Wide+CRISPR+Screens+Reveal+ZATT+as+a+Synthetic+Lethal+Target+of+TOP2-Poison+Etoposide+That+Can+Act+in+a+TDP2-Independent+Pathway%22%5BAll+Fields%5D+AND+gse%5BEntry+Type%5D&retmode=json&retmax=100",
+        "locator": "complete esearchresult",
+        "retrieved_utc": "2026-10-10T17:23:27.790230+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A37047518&type=Accession+Numbers&format=JSON",
+    "attempt": 1,
+    "retrieved_utc": "2026-10-11T18:09:23.646590+00:00",
+    "http_status": 200,
+    "file": "raw/live-00003.response",
+    "sha256": "e13e83b248e64bed13f4c1a5c43a6dbafda989ab0c76a46d8bccb7874f762763"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/MED/37047518/datalinks?format=json&category=GEO&sectionLimit=1000",
+    "attempt": 1,
+    "retrieved_utc": "2026-10-11T18:09:24.553731+00:00",
+    "http_status": 200,
+    "file": "raw/live-00004.response",
+    "sha256": "8fa101ecfa829d2a0901d0e073eeae0f40270578ff73bde894dcf6cfea955ef0"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=bioproject&id=37047518&linkname=pubmed_bioproject&cmd=neighbor&retmode=json",
+    "file": "raw/selected-0005.response",
+    "sha256": "47fd877e2ec4bf1241989413eac07bf3a895d481ef873e0efa9cdcec6b252f22",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:09:25.439855+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\e6ff552e066c39cc3b2d932f9ae8b43172b814276940d71829022d8c6a278fad.json",
+        "sha256": "e6ff552e066c39cc3b2d932f9ae8b43172b814276940d71829022d8c6a278fad",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\pubmed-enrichment-source\\20261008\\links-bioproject-7.json",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=bioproject&linkname=pubmed_bioproject&id=36326816&id=36396656&id=36409314&id=36417855&id=36457047&id=36476853&id=36543916&id=36548402&id=36574441&id=36584827&id=36597481&id=36650183&id=36652375&id=36693839&id=36724073&id=36725334&id=36725843&id=36731340&id=36744886&id=36753415&id=36772830&id=36794958&id=36801923&id=36820830&id=36841242&id=36848233&id=36894612&id=36920785&id=36920967&id=36971544&id=36977592&id=36991492&id=37010434&id=37024475&id=37036970&id=37046090&id=37047518&id=37059858&id=37075701&id=37075745&id=37163373&id=37167561&id=37193694&id=37435859&id=37616343&id=37639469&id=37758944&id=37866880&id=37883554&id=37975674&cmd=neighbor&retmode=json",
+        "locator": "linksets[36]",
+        "retrieved_utc": "2026-10-08T23:18:29.878096+00:00"
+      }
+    ]
+  }
+]

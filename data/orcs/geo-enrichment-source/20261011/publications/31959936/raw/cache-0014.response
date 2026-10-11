@@ -1,0 +1,37 @@
+^SERIES = GSE139946
+!Series_title = RNA-seq of lipid droplet-low and lipid droplet-rich microglia isolated from the hippocampi of LPS-treated young mice
+!Series_geo_accession = GSE139946
+!Series_status = Public on Nov 06 2019
+!Series_submission_date = Nov 05 2019
+!Series_last_update_date = Feb 08 2020
+!Series_pubmed_id = 31959936
+!Series_summary = Sequencing data related to the manuscript entitled, "Lipid droplet accumulating microglia represent a dysfunctional and pro-inflammatory state in the aging brain".
+!Series_overall_design = 3-month old mice were given intraperitoneal injections of PBS or LPS (1 mg/kg BW) for four days. Mice were perfused 24 hours after the last LPS injection and hippocampi were dissected (Hippocampi of 2 mice were pooled per sample). Primary microglia were isolated by gentle dounce homogenization of the brain, Percoll-based myelin removal, and FACS-purification of ~10,000 live CD11b+CD45lo cells. BODIPYlo (=lipid droplet-low) and BODIPYhi (=lipid droplet-high) microglia were sorted into RLT Plus buffer (Qiagen) containing beta-mercaptoethanol. RNA was extracted using a RNeasy Micro Plus kit (Qiagen) according to the manufacturer’s protocol. RNA integrity was assessed on a Bioanalyzer (Agilent), and high quality samples (RIN >9) were used for library preparation. cDNA synthesis and amplification was performed using the SmartSeq v4 Ultra-low input kit (Takara), and libraries were tagmented, adaptor ligated, and indexed using the Nextera XT kit (Illumina). Sequencing of isolated microglia was carried out with Illumina Novogene 6000, paired end, 2x 100 bp. The quality of fastq files was assessed using FASTQC (v 0.11.4). Reads were mapped to mouse mm10 reference genome using STAR (v 2.5.3a). Raw read counts were generated with STAR using the GeneCounts function. Differential expression analysis was performed using DESeq2 with standard settings.
+!Series_type = Expression profiling by high throughput sequencing
+!Series_contributor = Julia,,Marschallinger
+!Series_contributor = Macy,,Zardeneta
+!Series_sample_id = GSM4150386
+!Series_sample_id = GSM4150387
+!Series_sample_id = GSM4150388
+!Series_sample_id = GSM4150389
+!Series_sample_id = GSM4150390
+!Series_sample_id = GSM4150391
+!Series_contact_name = Julia,,Marschallinger
+!Series_contact_email = jmarschallinger@gmail.com
+!Series_contact_phone = 6502839032
+!Series_contact_laboratory = Tony Wyss-Coray
+!Series_contact_department = Neurology
+!Series_contact_institute = Stanford University
+!Series_contact_address = 1201 Welch Road
+!Series_contact_city = Stanford
+!Series_contact_state = CA
+!Series_contact_zip/postal_code = 94305-5489
+!Series_contact_country = USA
+!Series_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE139nnn/GSE139946/suppl/GSE139946_normalized_counts_LPS.txt.gz
+!Series_platform_id = GPL24247
+!Series_platform_organism = Mus musculus
+!Series_platform_taxid = 10090
+!Series_sample_organism = Mus musculus
+!Series_sample_taxid = 10090
+!Series_relation = BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA587710
+!Series_relation = SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP228593

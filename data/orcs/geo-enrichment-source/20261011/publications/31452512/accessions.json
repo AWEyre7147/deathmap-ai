@@ -1,0 +1,299 @@
+{
+  "publication": {
+    "PUBLICATION_ID": "190",
+    "SOURCE_TYPE": "pubmed",
+    "SOURCE_ID": "31452512",
+    "TITLE": "Systematic identification of cancer cell vulnerabilities to natural killer cell-mediated immune surveillance.",
+    "AUTHORS": "Pech MF, Fong LE, Villalta JE, Chan LJ, Kharbanda S, O'Brien JJ, McAllister FE, Firestone AJ, Jan CH, Settleman J",
+    "ABSTRACT": "Only a subset of cancer patients respond to T-cell checkpoint inhibitors, highlighting the need for alternative immunotherapeutics. We performed CRISPR-Cas9 screens in a leukemia cell line to identify perturbations that enhance natural killer effector functions. Our screens defined critical components of the tumor-immune synapse and highlighted the importance of cancer cell interferon-γ signaling in modulating NK activity. Surprisingly, disrupting the ubiquitin ligase substrate adaptor DCAF15 strongly sensitized cancer cells to NK-mediated clearance. DCAF15 disruption induced an inflamed state in leukemic cells, including increased expression of lymphocyte costimulatory molecules. Proteomic and biochemical analysis revealed that cohesin complex members were endogenous client substrates of DCAF15. Genetic disruption of DCAF15 was phenocopied by treatment with indisulam, an anticancer drug that functions through DCAF15 engagement. In AML patients, reduced DCAF15 expression was associated with improved survival. These findings suggest that DCAF15 inhibition may have useful immunomodulatory properties in the treatment of myeloid neoplasms.",
+    "JOURNAL": "eLife",
+    "PUBLICATION_DATE": "2019-08-27",
+    "PAGE_SOURCE_TYPE": "pubmed",
+    "PAGE_SOURCE_ID": "31452512",
+    "PMID": "31452512",
+    "DOI": "10.7554/elife.47362",
+    "SUPPLEMENTARY_FILES": [
+      {
+        "label": "elife-47362-supp2.xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/5dcb271c5d756/elife-47362-supp2.xlsx"
+      }
+    ],
+    "LINKS": [
+      {
+        "label": "Pubmed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31452512"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/scholar?as_occt=title&as_q=Systematic+identification+of+cancer+cell+vulnerabilities+to+natural+killer+cell-mediated+immune+surveillance."
+      },
+      {
+        "label": "31452512",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31452512"
+      },
+      {
+        "label": "elife-47362-supp2.xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/5dcb271c5d756/elife-47362-supp2.xlsx"
+      }
+    ],
+    "SCREEN_IDS": [
+      "1155",
+      "1160"
+    ],
+    "SCREEN_COUNT": 2,
+    "PUBLICATION_URL": "https://orcs.thebiogrid.org/Dataset/190",
+    "FIELD_LOCATORS": {
+      "TITLE": "#resultsHeaderBlock h1",
+      "AUTHORS": "#resultsHeaderBlock .subhead",
+      "ABSTRACT": "#resultsHeaderBlock .bgGrey",
+      "JOURNAL": ".linkouts citation strong",
+      "PUBLICATION_DATE": ".linkouts citation",
+      "SUPPLEMENTARY_FILES": ".linkouts Supplementary Files"
+    },
+    "REVIEW_ISSUES": [],
+    "RETRIEVED_AT": "2026-10-04T05:08:17.669728+00:00",
+    "SOURCE_METADATA_FILE": "data/orcs/publication-source/20261004-v01/190.metadata.html",
+    "SOURCE_METADATA_SHA256": "f5a5f15f56583650da5bddbade338587f235cb96a413da9c9d28bfa11368e405",
+    "PMCID": "PMC6713475",
+    "IDENTIFIER_ENRICHMENT": {
+      "added_fields": [
+        "DOI",
+        "PMCID"
+      ],
+      "resolution": {
+        "input": {
+          "pmid": "31452512",
+          "doi": null,
+          "pmcid": null
+        },
+        "identifiers": {
+          "pmid": "31452512",
+          "doi": "10.7554/elife.47362",
+          "pmcid": "PMC6713475"
+        },
+        "status": "resolved",
+        "alternatives": {
+          "pmid": [
+            "31452512"
+          ],
+          "doi": [
+            "10.7554/elife.47362"
+          ],
+          "pmcid": [
+            "PMC6713475"
+          ]
+        },
+        "evidence": [
+          {
+            "identifiers": {
+              "pmid": "31452512",
+              "doi": "10.7554/elife.47362",
+              "pmcid": "PMC6713475"
+            },
+            "url": "https://pmc.ncbi.nlm.nih.gov/tools/idconv/api/v1/articles/?ids=24336569%2C24336571%2C25307932%2C25494202%2C26190106%2C26472758%2C26627737%2C26673326%2C26780180%2C27018887%2C27159373%2C27260156%2C27342126%2C27351204%2C27383987%2C27383988%2C27453484%2C27667664%2C27760321%2C27869803%2C27992415%2C28145866%2C28162770%2C28167502%2C28215525%2C28445693%2C28474669%2C28494239%2C28611215%2C28700943%2C28720733%2C28723893%2C28768188%2C28775154%2C28783722%2C28813663%2C28877469%2C28894007%2C28985505%2C28985567%2C29028833%2C29038160%2C29083409%2C29211708%2C29259014%2C29269392%2C29290584%2C29301958%2C29440296%2C29459677%2C29463564%2C29478914%2C29507424%2C29526696%2C29576454%2C29642015%2C29655804%2C29662178%2C29736038%2C29769725%2C29779948%2C29921669%2C29973717%2C29987050%2C29995852%2C30042095%2C30051818%2C30093494%2C30111820%2C30135075%2C30154076%2C30194290%2C30224801%2C30317623%2C30397336%2C30414698%2C30449619%2C30464262%2C30532030%2C30556811%2C30581143%2C30590252%2C30595499%2C30647128%2C30655525%2C30660999%2C30686591%2C30734978%2C30773463%2C30787439%2C30797773%2C30819666%2C30838976%2C30844312%2C30860482%2C30862715%2C30898113%2C30905739%2C30916320%2C30930145%2C30932271%2C30944478%2C30951565%2C30962421%2C30971826%2C30991026%2C30995489%2C31010806%2C31019072%2C31038839%2C31040274%2C31048320%2C31048321%2C31059574%2C31076567%2C31108395%2C31133756%2C31142663%2C31147448%2C31160565%2C31165872%2C31209294%2C31213543%2C31219803%2C31253397%2C31270356%2C31287994%2C31294695%2C31300418%2C31316073%2C31346084%2C31353312%2C31353801%2C31365872%2C31406246%2C31406271%2C31437751%2C31451760%2C31452512%2C31462500%2C31508283%2C31508509%2C31509742%2C31519728%2C31519875%2C31527793%2C31540829%2C31543463%2C31551363%2C31558468%2C31564637%2C31570734%2C31587919%2C31594818%2C31604991%2C31618756%2C31657721%2C31666400%2C31692446%2C31723608%2C31727847%2C31730859%2C31741433%2C31744829%2C31761535%2C31792210%2C31801065%2C31818950%2C31855178%2C31868589%2C31882897%2C31903165%2C31915280%2C31919360%2C31921143%2C31959936%2C32005668%2C32028983%2C32075772%2C32094149%2C32142663%2C32156810%2C32160526%2C32238925%2C32259488%2C32268084%2C32299104%2C32315601%2C32355287%2C32416067%2C32421776%2C32424339%2C32499641%2C32528131%2C32542389%2C32579974%2C32585766%2C32640256%2C32649862%2C32668236&idtype=pmid&format=json&tool=deathmap_ai",
+            "retrieved_at": "2026-10-08T01:37:50.976283+00:00",
+            "response_sha256": "630b15a6b082cbe2e902d0d36664a60017ad5a0eaa5be1d88ef07f07ebed0225"
+          },
+          {
+            "identifiers": {
+              "pmid": "31452512",
+              "doi": "10.7554/elife.47362",
+              "pmcid": "PMC6713475"
+            },
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=30932271%2C30944478%2C30951565%2C30962421%2C30971826%2C30991026%2C30995489%2C31010806%2C31019072%2C31038839%2C31040274%2C31048320%2C31048321%2C31059574%2C31076567%2C31108395%2C31133756%2C31142663%2C31147448%2C31160565%2C31165872%2C31209294%2C31213543%2C31219803%2C31253397%2C31270356%2C31287994%2C31294695%2C31300418%2C31316073%2C31346084%2C31353312%2C31353801%2C31365872%2C31406246%2C31406271%2C31437751%2C31451760%2C31452512%2C31462500%2C31508283%2C31508509%2C31509742%2C31519728%2C31519875%2C31527793%2C31540829%2C31543463%2C31551363%2C31558468%2C31564637%2C31570734%2C31587919%2C31594818%2C31604991%2C31618756%2C31657721%2C31666400%2C31692446%2C31723608%2C31727847%2C31730859%2C31741433%2C31744829%2C31761535%2C31792210%2C31801065%2C31818950%2C31855178%2C31868589%2C31882897%2C31903165%2C31915280%2C31919360%2C31921143%2C31959936%2C32005668%2C32028983%2C32075772%2C32094149%2C32142663%2C32156810%2C32160526%2C32238925%2C32259488%2C32268084%2C32299104%2C32315601%2C32355287%2C32416067%2C32421776%2C32424339%2C32499641%2C32528131%2C32542389%2C32579974%2C32585766%2C32640256%2C32649862%2C32668236&retmode=xml&tool=deathmap_ai",
+            "retrieved_at": "2026-10-08T01:37:56.574050+00:00",
+            "response_sha256": "21786aacf01be17cea2401daf1833ab8b82ec384a169e5bf6f15e51350cfe075"
+          }
+        ]
+      }
+    },
+    "_input_provenance": {
+      "file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\publication-index.json",
+      "sha256": "63cb33b7095108e7a0776950e9c258e7b65fe148ca6b12ae75cd4dd914ad6c89",
+      "locator": "PUBLICATION_ID=190"
+    }
+  },
+  "candidates": [
+    {
+      "gse": "GSE134173",
+      "pmid": "31452512",
+      "routes": [
+        "europepmc_annotations",
+        "europepmc_datalinks",
+        "publication_title_phrase",
+        "pubmed_accession_list",
+        "pubmed_bioproject_geo",
+        "pubmed_geo_links"
+      ],
+      "hierarchy_only": false,
+      "native_pmids": [
+        "31452512"
+      ],
+      "citation_comparison": "matches_origin",
+      "data_role": "not_assessed"
+    }
+  ],
+  "routes": {
+    "pubmed_geo_links": {
+      "status": "complete",
+      "native_target_count": 1,
+      "distinct_gse_count": 1
+    },
+    "pubmed_accession_list": {
+      "status": "complete",
+      "distinct_gse_count": 1
+    },
+    "publication_title_phrase": {
+      "status": "complete",
+      "query": "\"Systematic identification of cancer cell vulnerabilities to natural killer cell-mediated immune surveillance\"[All Fields] AND gse[Entry Type]",
+      "count": 1,
+      "query_translation": "\"Systematic identification of cancer cell vulnerabilities to natural killer cell-mediated immune surveillance\"[All Fields] AND gse[Entry Type]",
+      "warnings": null,
+      "distinct_gse_count": 1
+    },
+    "europepmc_annotations": {
+      "status": "complete",
+      "distinct_gse_count": 1
+    },
+    "europepmc_datalinks": {
+      "status": "complete",
+      "service_version": "6.9",
+      "distinct_gse_count": 1
+    },
+    "pubmed_bioproject_geo": {
+      "status": "complete",
+      "bioproject_uids": [
+        "554137"
+      ],
+      "distinct_gse_count": 1
+    },
+    "series_hierarchy": {
+      "status": "complete",
+      "distinct_gse_count": 0
+    }
+  },
+  "seed_count": 1,
+  "total_gse_count": 1,
+  "hierarchy_added": [],
+  "evidence": [
+    {
+      "pmid": "31452512",
+      "publication_id": "190",
+      "gse": "GSE134173",
+      "route": "pubmed_geo_links",
+      "source_file": "raw/selected-0000.response",
+      "locator": "target_uid=200134173",
+      "data_role": "not_assessed",
+      "summary_source": "raw/selected-0001.response",
+      "native_uid": "200134173",
+      "evidence_kind": "direct_repository_link"
+    },
+    {
+      "pmid": "31452512",
+      "publication_id": "190",
+      "gse": "GSE134173",
+      "route": "pubmed_accession_list",
+      "source_file": "raw/selected-0002.response",
+      "locator": "MedlineCitation/Article/DataBankList/GEO/AccessionNumberList",
+      "data_role": "not_assessed",
+      "evidence_kind": "reported_accession"
+    },
+    {
+      "pmid": "31452512",
+      "publication_id": "190",
+      "gse": "GSE134173",
+      "route": "publication_title_phrase",
+      "source_file": "raw/selected-0003.response",
+      "locator": "target_uid=200134173",
+      "data_role": "not_assessed",
+      "summary_source": "raw/selected-0004.response",
+      "native_uid": "200134173",
+      "evidence_kind": "title_candidate",
+      "query": "\"Systematic identification of cancer cell vulnerabilities to natural killer cell-mediated immune surveillance\"[All Fields] AND gse[Entry Type]"
+    },
+    {
+      "pmid": "31452512",
+      "publication_id": "190",
+      "gse": "GSE134173",
+      "route": "europepmc_annotations",
+      "source_file": "raw/live-00005.response",
+      "locator": "annotations[2]",
+      "data_role": "not_assessed",
+      "evidence_kind": "precomputed_accession_annotation",
+      "native_annotation": {
+        "prefix": " available under accession number GEO:",
+        "exact": "GSE134173",
+        "postfix": ". ",
+        "tags": [
+          {
+            "name": "GSE134173",
+            "uri": "http://identifiers.org/geo:GSE134173"
+          }
+        ],
+        "id": "http://europepmc.org/article/PMC/PMC6713475#europepmc-d1ef6897bfe6b60138da7da354342c6f",
+        "type": "Accession Numbers",
+        "section": "Methods (http://purl.org/orb/Methods)",
+        "provider": "Europe PMC",
+        "subType": "GEO"
+      }
+    },
+    {
+      "pmid": "31452512",
+      "publication_id": "190",
+      "gse": "GSE134173",
+      "route": "europepmc_datalinks",
+      "source_file": "raw/live-00006.response",
+      "locator": "Category[0]/Section[0]/Link[0]",
+      "data_role": "not_assessed",
+      "evidence_kind": "service_reported_literature_data_link",
+      "native_link": {
+        "ObtainedBy": "tm_accession",
+        "PublicationDate": "19-07-2026",
+        "LinkProvider": {
+          "Name": "Europe PMC"
+        },
+        "RelationshipType": {
+          "Name": "References"
+        },
+        "Source": {
+          "Type": {
+            "Name": "literature"
+          },
+          "Identifier": {
+            "ID": "31452512",
+            "IDScheme": "MED"
+          }
+        },
+        "Target": {
+          "Type": {
+            "Name": "dataset"
+          },
+          "Identifier": {
+            "ID": "GSE134173",
+            "IDScheme": "GEO",
+            "IDURL": "http://identifiers.org/geo:GSE134173"
+          },
+          "Title": "GSE134173",
+          "Publisher": {
+            "Name": "Europe PMC"
+          }
+        },
+        "Frequency": 1
+      }
+    },
+    {
+      "pmid": "31452512",
+      "publication_id": "190",
+      "gse": "GSE134173",
+      "route": "pubmed_bioproject_geo",
+      "source_file": "raw/selected-0008.response",
+      "locator": "target_uid=200134173",
+      "data_role": "not_assessed",
+      "summary_source": "raw/selected-0009.response",
+      "native_uid": "200134173",
+      "evidence_kind": "indirect_repository_path",
+      "bioproject_uid": "554137",
+      "publication_project_source": "raw/selected-0007.response"
+    }
+  ]
+}

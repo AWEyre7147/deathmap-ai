@@ -1,0 +1,136 @@
+{
+  "publication": {
+    "PUBLICATION_ID": "1054",
+    "SOURCE_TYPE": "prepub",
+    "SOURCE_ID": "10.1101/2024.05.08.593110",
+    "TITLE": "TMEM106B-mediated SARS-CoV-2 infection allows for robust ACE2-independent infection in vitro but not in vivo",
+    "AUTHORS": "Yan K, Dumenil T, Stewart R, Bishop CR, Tang B, Suhrbier A, Rawle DJ",
+    "ABSTRACT": "Angiotensin converting enzyme 2 (ACE2) serves as the primary entry receptor for severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). However, ACE2-independent entry has been observed in vitro for SARS-CoV-2 strains containing the E484D amino acid substitution in the spike protein. In this study, we conducted a whole genome CRISPR-Cas9 knockout screen using a SARS-CoV-2 strain containing the spike-E484D substitution (SARS-CoV-2MA1) to identify the ACE2-independent entry mechanisms. Our findings revealed that SARS-CoV-2MA1 infection in HEK293T cells relied on heparan sulfate and endocytic pathways, with TMEM106B emerging as the most significant contributor. While SARS-CoV-2MA1 productively infected human brain organoids and K18-hACE2 mouse brains, it did not infect C57BL/6J or Ifnar-/- mouse brains. This suggests that ACE2-independent entry via TMEM106B, which is a protein that is predominantly expressed in the brain, did not overtly increase the risk of SARS-CoV-2 neuroinvasiveness in wild-type mice. Importantly, SARS-CoV-2MA1 did not replicate in Ace2-/- mouse respiratory tracts. Overall, this suggests that robust ACE2-independent infection by SARS-CoV-2E484D is likely a phenomenon specific to in vitro conditions, with no apparent clinical implications.",
+    "JOURNAL": null,
+    "PUBLICATION_DATE": "2024-06-26",
+    "PAGE_SOURCE_TYPE": "pubmed",
+    "PAGE_SOURCE_ID": "27",
+    "PMID": null,
+    "DOI": "10.1101/2024.05.08.593110",
+    "SUPPLEMENTARY_FILES": [
+      {
+        "label": "Yan-bioRxiv-dataset.xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/667c369f30246/Yan-bioRxiv-dataset.xlsx"
+      }
+    ],
+    "LINKS": [
+      {
+        "label": "Pubmed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/scholar?as_occt=title&as_q=TMEM106B-mediated+SARS-CoV-2+infection+allows+for+robust+ACE2-independent+infection+in+vitro+but+not+in+vivo"
+      },
+      {
+        "label": "27",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27"
+      },
+      {
+        "label": "Yan-bioRxiv-dataset.xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/667c369f30246/Yan-bioRxiv-dataset.xlsx"
+      }
+    ],
+    "SCREEN_IDS": [
+      "2322"
+    ],
+    "SCREEN_COUNT": 1,
+    "PUBLICATION_URL": "https://orcs.thebiogrid.org/Dataset/1054",
+    "FIELD_LOCATORS": {
+      "TITLE": "#resultsHeaderBlock h1",
+      "AUTHORS": "#resultsHeaderBlock .subhead",
+      "ABSTRACT": "#resultsHeaderBlock .bgGrey",
+      "JOURNAL": ".linkouts citation strong",
+      "PUBLICATION_DATE": ".linkouts citation",
+      "SUPPLEMENTARY_FILES": ".linkouts Supplementary Files"
+    },
+    "REVIEW_ISSUES": [
+      "Page-labelled source identifier differs from cached SOURCE_TYPE/SOURCE_ID; both preserved."
+    ],
+    "RETRIEVED_AT": "2026-10-04T05:14:13.871692+00:00",
+    "SOURCE_METADATA_FILE": "data/orcs/publication-source/20261004-v01/1054.metadata.html",
+    "SOURCE_METADATA_SHA256": "638ab4d451845b3066d64265ae4d8f539e710452907a5f678b172ba73d34502e",
+    "PMCID": null,
+    "IDENTIFIER_ENRICHMENT": {
+      "added_fields": [],
+      "resolution": {
+        "input": {
+          "pmid": null,
+          "doi": "10.1101/2024.05.08.593110",
+          "pmcid": null
+        },
+        "identifiers": {
+          "pmid": null,
+          "doi": "10.1101/2024.05.08.593110",
+          "pmcid": null
+        },
+        "status": "unresolved",
+        "alternatives": {
+          "pmid": [],
+          "doi": [
+            "10.1101/2024.05.08.593110"
+          ],
+          "pmcid": []
+        },
+        "evidence": []
+      }
+    },
+    "_input_provenance": {
+      "file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\publication-index.json",
+      "sha256": "63cb33b7095108e7a0776950e9c258e7b65fe148ca6b12ae75cd4dd914ad6c89",
+      "locator": "PUBLICATION_ID=1054"
+    }
+  },
+  "candidates": [],
+  "routes": {
+    "pubmed_geo_links": {
+      "status": "skipped_missing_pmid",
+      "distinct_gse_count": 0
+    },
+    "pubmed_accession_list": {
+      "status": "skipped_missing_pmid",
+      "distinct_gse_count": 0
+    },
+    "publication_title_phrase": {
+      "status": "complete",
+      "query": "\"TMEM106B-mediated SARS-CoV-2 infection allows for robust ACE2-independent infection in vitro but not in vivo\"[All Fields] AND gse[Entry Type]",
+      "count": 0,
+      "query_translation": "\"TMEM106B-mediated SARS-CoV-2 infection allows for robust ACE2-independent infection in vitro but not in vivo\"[All Fields] AND gse[Entry Type]",
+      "warnings": {
+        "phrasesignored": [],
+        "quotedphrasesnotfound": [
+          "\"TMEM106B-mediated SARS-CoV-2 infection allows for robust ACE2-independent infection in vitro but not in vivo\"[All Fields]"
+        ],
+        "outputmessages": [
+          "No items found."
+        ]
+      },
+      "distinct_gse_count": 0
+    },
+    "europepmc_annotations": {
+      "status": "skipped_missing_pmid",
+      "distinct_gse_count": 0
+    },
+    "europepmc_datalinks": {
+      "status": "skipped_missing_pmid",
+      "distinct_gse_count": 0
+    },
+    "pubmed_bioproject_geo": {
+      "status": "skipped_missing_pmid",
+      "distinct_gse_count": 0
+    },
+    "series_hierarchy": {
+      "status": "complete",
+      "distinct_gse_count": 0
+    }
+  },
+  "seed_count": 0,
+  "total_gse_count": 0,
+  "hierarchy_added": [],
+  "evidence": []
+}

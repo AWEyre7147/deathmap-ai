@@ -1,0 +1,86 @@
+[
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=gds&id=30655525&linkname=pubmed_gds&cmd=neighbor&retmode=json",
+    "file": "raw/selected-0000.response",
+    "sha256": "2e33fb0cd65c664633ddc93fa14bcd639c48adb5e81f8c4853bec1f982a08b44",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T17:57:19.884163+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\a140c98463540de81411aee76a88a7ebe8443d1506496827c3d9f86faec7caa2.json",
+        "sha256": "a140c98463540de81411aee76a88a7ebe8443d1506496827c3d9f86faec7caa2",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\pubmed-enrichment-source\\20261008\\links-gds-1.json",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=gds&linkname=pubmed_gds&id=29463564&id=29478914&id=29507424&id=29526696&id=29576454&id=29642015&id=29655804&id=29662178&id=29736038&id=29769725&id=29779948&id=29921669&id=29973717&id=29987050&id=29995852&id=30042095&id=30051818&id=30093494&id=30111820&id=30135075&id=30154076&id=30194290&id=30224801&id=30317623&id=30397336&id=30414698&id=30449619&id=30464262&id=30532030&id=30556811&id=30581143&id=30590252&id=30595499&id=30647128&id=30655525&id=30660999&id=30686591&id=30734978&id=30773463&id=30787439&id=30797773&id=30819666&id=30838976&id=30844312&id=30860482&id=30862715&id=30898113&id=30905739&id=30916320&id=30930145&cmd=neighbor&retmode=json",
+        "locator": "linksets[34]",
+        "retrieved_utc": "2026-10-08T23:17:04.379426+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=30655525&retmode=xml",
+    "file": "raw/selected-0001.response",
+    "sha256": "6fbe54bc486cfc376aa93da7953e6193454159a72bc7853caf9500e77b48362e",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T17:57:19.889163+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\cdf1c98cf7f89937882e3d68f449564fb0f30d05a224e5ff787acbe67f3f911d.xml",
+        "sha256": "cdf1c98cf7f89937882e3d68f449564fb0f30d05a224e5ff787acbe67f3f911d",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\pubmed-enrichment-source\\20261008\\pubmed-0.xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=24336569%2C24336571%2C25307932%2C25494202%2C26190106%2C26472758%2C26627737%2C26673326%2C26780180%2C27018887%2C27159373%2C27260156%2C27342126%2C27351204%2C27383987%2C27383988%2C27453484%2C27667664%2C27760321%2C27869803%2C27992415%2C28145866%2C28162770%2C28167502%2C28215525%2C28445693%2C28474669%2C28494239%2C28611215%2C28700943%2C28720733%2C28723893%2C28768188%2C28775154%2C28783722%2C28813663%2C28877469%2C28894007%2C28985505%2C28985567%2C29028833%2C29038160%2C29083409%2C29211708%2C29259014%2C29269392%2C29290584%2C29301958%2C29440296%2C29459677%2C29463564%2C29478914%2C29507424%2C29526696%2C29576454%2C29642015%2C29655804%2C29662178%2C29736038%2C29769725%2C29779948%2C29921669%2C29973717%2C29987050%2C29995852%2C30042095%2C30051818%2C30093494%2C30111820%2C30135075%2C30154076%2C30194290%2C30224801%2C30317623%2C30397336%2C30414698%2C30449619%2C30464262%2C30532030%2C30556811%2C30581143%2C30590252%2C30595499%2C30647128%2C30655525%2C30660999%2C30686591%2C30734978%2C30773463%2C30787439%2C30797773%2C30819666%2C30838976%2C30844312%2C30860482%2C30862715%2C30898113%2C30905739%2C30916320%2C30930145&retmode=xml",
+        "locator": "PubmedArticle[84]",
+        "retrieved_utc": "2026-10-08T23:16:46.281876+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=%22A+genome-wide+CRISPR+screen+identifies+N-acetylglucosamine-1-phosphate+transferase+as+a+potential+antiviral+target+for+Ebola+virus%22%5BAll+Fields%5D+AND+gse%5BEntry+Type%5D&retmode=json&retmax=1000",
+    "file": "raw/selected-0002.response",
+    "sha256": "509bc0eb4dbe5d94b62800ba196a0e267563584696a5daa9da3c99fba5fb7519",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T17:57:19.894245+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\509bc0eb4dbe5d94b62800ba196a0e267563584696a5daa9da3c99fba5fb7519.json",
+        "sha256": "509bc0eb4dbe5d94b62800ba196a0e267563584696a5daa9da3c99fba5fb7519",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\outputs\\geo\\title-search-expansion\\20261010\\raw\\search-137-phrase.json",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=%22A+genome-wide+CRISPR+screen+identifies+N-acetylglucosamine-1-phosphate+transferase+as+a+potential+antiviral+target+for+Ebola+virus%22%5BAll+Fields%5D+AND+gse%5BEntry+Type%5D&retmode=json&retmax=100",
+        "locator": "complete esearchresult",
+        "retrieved_utc": "2026-10-10T17:17:37.072447+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A30655525&type=Accession+Numbers&format=JSON",
+    "attempt": 1,
+    "retrieved_utc": "2026-10-11T17:57:19.895224+00:00",
+    "http_status": 200,
+    "file": "raw/live-00003.response",
+    "sha256": "8e75f21f762a4276b7a64fc35cd3ac691d05c3bbb2c3a54ff7e28bd599df487c"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/MED/30655525/datalinks?format=json&pageSize=1000",
+    "attempt": 1,
+    "retrieved_utc": "2026-10-11T17:57:20.807356+00:00",
+    "http_status": 200,
+    "file": "raw/live-00004.response",
+    "sha256": "393c8ba3c8987481c0bfc7e269c8caf481140780f0fdcc4d46c286590bf9897a"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=bioproject&id=30655525&linkname=pubmed_bioproject&cmd=neighbor&retmode=json",
+    "file": "raw/selected-0005.response",
+    "sha256": "2e33fb0cd65c664633ddc93fa14bcd639c48adb5e81f8c4853bec1f982a08b44",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T17:57:21.736767+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\9503b9114a5e627a442ef389ba7d6c9e76a2c8664a49ae0c5b414b08e4dd872a.json",
+        "sha256": "9503b9114a5e627a442ef389ba7d6c9e76a2c8664a49ae0c5b414b08e4dd872a",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\pubmed-enrichment-source\\20261008\\links-bioproject-1.json",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=bioproject&linkname=pubmed_bioproject&id=29463564&id=29478914&id=29507424&id=29526696&id=29576454&id=29642015&id=29655804&id=29662178&id=29736038&id=29769725&id=29779948&id=29921669&id=29973717&id=29987050&id=29995852&id=30042095&id=30051818&id=30093494&id=30111820&id=30135075&id=30154076&id=30194290&id=30224801&id=30317623&id=30397336&id=30414698&id=30449619&id=30464262&id=30532030&id=30556811&id=30581143&id=30590252&id=30595499&id=30647128&id=30655525&id=30660999&id=30686591&id=30734978&id=30773463&id=30787439&id=30797773&id=30819666&id=30838976&id=30844312&id=30860482&id=30862715&id=30898113&id=30905739&id=30916320&id=30930145&cmd=neighbor&retmode=json",
+        "locator": "linksets[34]",
+        "retrieved_utc": "2026-10-08T23:17:55.421219+00:00"
+      }
+    ]
+  }
+]

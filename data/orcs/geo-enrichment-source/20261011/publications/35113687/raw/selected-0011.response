@@ -1,0 +1,105 @@
+<eSummaryResult><DocSum>
+	<Id>200174284</Id>
+	<Item Name="Accession" Type="String">GSE174284</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">CRISPR activation and interference screens decode stimulation responses in primary human T cells [Bulk RNA-seq]</Item>
+	<Item Name="summary" Type="String">Regulation of cytokine production in stimulated T cells can be disrupted in autoimmunity, immunodeficiencies, and cancer. Systematic discovery of stimulation-dependent cytokine regulators requires both loss-of-function and gain-of-function studies, which have been challenging in primary human cells. We now report genome-wide CRISPR activation (CRISPRa) and interference (CRISPRi) screens in primary human T cells to identify gene networks controlling interleukin 2 and interferon gamma production. Arrayed CRISPRa confirmed key hits and enabled multiplexed secretome characterization, revealing reshaped cytokine responses. Coupling CRISPRa screening with single-cell RNA-seq enabled deep molecular characterization of screen hits, revealing how perturbations tuned T cell activation and promoted cell states characterized by distinct cytokine expression profiles. Together, these screens reveal genes that reprogram critical immune cell functions, which could inform the design of immunotherapies.</Item>
+	<Item Name="GPL" Type="String">18573</Item>
+	<Item Name="GSE" Type="String">174284</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2021/05/13</Item>
+	<Item Name="suppFile" Type="String">TXT</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5291008</Item>
+			<Item Name="Title" Type="String">02_Donor1_sgControl_Stim</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5291011</Item>
+			<Item Name="Title" Type="String">05_Donor2_sgControl_NoStim</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5291022</Item>
+			<Item Name="Title" Type="String">16_Donor4_sgFOXQ1_Stim</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5291019</Item>
+			<Item Name="Title" Type="String">13_Donor4_sgControl_NoStim</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5291017</Item>
+			<Item Name="Title" Type="String">11_Donor3_sgFOXQ1_NoStim</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5291014</Item>
+			<Item Name="Title" Type="String">08_Donor2_sgFOXQ1_Stim</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5291020</Item>
+			<Item Name="Title" Type="String">14_Donor4_sgControl_Stim</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5291018</Item>
+			<Item Name="Title" Type="String">12_Donor3_sgFOXQ1_Stim</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5291009</Item>
+			<Item Name="Title" Type="String">03_Donor1_sgFOXQ1_NoStim</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5291021</Item>
+			<Item Name="Title" Type="String">15_Donor4_sgFOXQ1_NoStim</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5291015</Item>
+			<Item Name="Title" Type="String">09_Donor3_sgControl_NoStim</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5291012</Item>
+			<Item Name="Title" Type="String">06_Donor2_sgControl_Stim</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5291016</Item>
+			<Item Name="Title" Type="String">10_Donor3_sgControl_Stim</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5291013</Item>
+			<Item Name="Title" Type="String">07_Donor2_sgFOXQ1_NoStim</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5291007</Item>
+			<Item Name="Title" Type="String">01_Donor1_sgControl_NoStim</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5291010</Item>
+			<Item Name="Title" Type="String">04_Donor1_sgFOXQ1_Stim</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List">
+		<Item Name="ExtRelation" Type="Structure">
+			<Item Name="RelationType" Type="String">SRA</Item>
+			<Item Name="TargetObject" Type="String">SRP319582</Item>
+			<Item Name="TargetFTPLink" Type="String">ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP319/SRP319582/</Item>
+		</Item>
+	</Item>
+	<Item Name="n_samples" Type="Integer">16</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">35113687</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE174nnn/GSE174284/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+</eSummaryResult>

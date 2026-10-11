@@ -1,0 +1,185 @@
+<eSummaryResult><DocSum>
+	<Id>200140102</Id>
+	<Item Name="Accession" Type="String">GSE140102</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">CRISPR screen in regulatory T cells reveals ubiquitination modulators of Foxp3 stability</Item>
+	<Item Name="summary" Type="String">Regulatory T cells (Tregs) are required to control immune responses and maintain homeostasis, but are a significant barrier to anti-tumor immunity1. Conversely, Treg instability, characterized by loss of the master transcription factor Foxp3 and acquisition of pro-inflammatory properties2, can promote autoimmunity and/or facilitate more effective tumor immunity3,4. A comprehensive understanding of the pathways that regulate Foxp3 could lead to more effective Treg therapies for autoimmune disease and cancer. Despite improved functional genetic tools that now allow for systematic interrogation, dissection of the gene regulatory programs that modulate Foxp3 expression has not yet been reported. In this study, we developed a CRISPR-based pooled screening platform for phenotypes in primary mouse Tregs and applied this technology to perform a targeted loss-of-function screen of 490 nuclear factors to identify gene regulatory programs that promote or disrupt Foxp3 expression. We discovered several novel modulators including , Ataxin 7 like 3 (Atxn7l3) and members of the deubiquitination module of the SAGA chromatin modifying complex, Usp22 and Atxn7l3, were discovered to be positive regulators that stabilized Foxp3 expression; whereas the screen suggested Rnf20, an E3 ubiquitin ligase, is a negative regulator of Foxp3. Treg-specific ablation of Usp22 in mice reduced Foxp3 protein and created defects in their suppressive function that led to spontaneous autoimmunity, but protected against tumor growth in multiple cancer models. Foxp3 destabilization in Usp22-deficient Tregs could be rescued by ablation of Rnf20, revealing a reciprocal ubiquitin switch in Tregs. These results reveal novel modulators of Foxp3 and demonstrate a screening method that can be broadly applied to discover new targets for Treg immunotherapies for cancer and autoimmune disease.</Item>
+	<Item Name="GPL" Type="String">17021</Item>
+	<Item Name="GSE" Type="String">140102</Item>
+	<Item Name="taxon" Type="String">Mus musculus</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Genome binding/occupancy profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2020/04/29</Item>
+	<Item Name="suppFile" Type="String">BED</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4154429</Item>
+			<Item Name="Title" Type="String">H2AK119Ub ChIP-seq in sgUsp22 Rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4154426</Item>
+			<Item Name="Title" Type="String">H2B120Ub ChIP-seq in sgNT Rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4154409</Item>
+			<Item Name="Title" Type="String">H2BK120Ub ChIP-seq in Usp22KO mice Replicate 1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4154406</Item>
+			<Item Name="Title" Type="String">Input for RNF20 ChIP-seq Replicate 2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4154403</Item>
+			<Item Name="Title" Type="String">RNF20 ChIP-seq Replicate 2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4154423</Item>
+			<Item Name="Title" Type="String">Input for histone ChIP-seq in sgNT Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4154435</Item>
+			<Item Name="Title" Type="String">Input for histone ChIP-seq in sgRnf20 Rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4154432</Item>
+			<Item Name="Title" Type="String">H2B120Ub ChIP-seq in sgNT Rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4154415</Item>
+			<Item Name="Title" Type="String">Input for H2BK120Ub ChIP-seq in Usp22KO mice Replicate 2a</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4154412</Item>
+			<Item Name="Title" Type="String">Input for H2BK120Ub ChIP-seq in WT mice Replicate 1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4154401</Item>
+			<Item Name="Title" Type="String">USP22 ChIP-seq Replicate 2 (technical)</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4154418</Item>
+			<Item Name="Title" Type="String">H2AK119Ub ChIP-seq in sgNT Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4154424</Item>
+			<Item Name="Title" Type="String">Input for histone ChIP-seq in sgUsp22 Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4154421</Item>
+			<Item Name="Title" Type="String">H2B120Ub ChIP-seq in sgRnf20 Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4154404</Item>
+			<Item Name="Title" Type="String">Input for USP22 ChIP-seq Replicate 1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4154427</Item>
+			<Item Name="Title" Type="String">H2AK119Ub ChIP-seq in sgNT Rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4154430</Item>
+			<Item Name="Title" Type="String">Input for histone ChIP-seq in sgNT Rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4154410</Item>
+			<Item Name="Title" Type="String">H2BK120Ub ChIP-seq in Usp22KO mice Replicate 2a</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4154407</Item>
+			<Item Name="Title" Type="String">H2BK120Ub ChIP-seq in WT mice Replicate 1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4154419</Item>
+			<Item Name="Title" Type="String">H2B120Ub ChIP-seq in sgUsp22 Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4154416</Item>
+			<Item Name="Title" Type="String">Input for H2BK120Ub ChIP-seq in Usp22KO mice Replicate 2b</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4154413</Item>
+			<Item Name="Title" Type="String">Input for H2BK120Ub ChIP-seq in WT mice Replicate 2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4154433</Item>
+			<Item Name="Title" Type="String">H2B120Ub ChIP-seq in sgRnf20 Rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4154402</Item>
+			<Item Name="Title" Type="String">RNF20 ChIP-seq Replicate 1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4154405</Item>
+			<Item Name="Title" Type="String">Input for USP22 ChIP-seq Replicate 2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4154425</Item>
+			<Item Name="Title" Type="String">Input for histone ChIP-seq in sgRnf20 Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4154422</Item>
+			<Item Name="Title" Type="String">H2AK119Ub ChIP-seq in sgRnf20 Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4154411</Item>
+			<Item Name="Title" Type="String">H2BK120Ub ChIP-seq in Usp22KO mice Replicate 2b</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4154428</Item>
+			<Item Name="Title" Type="String">H2B120Ub ChIP-seq in sgUsp22 Rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4154408</Item>
+			<Item Name="Title" Type="String">H2BK120Ub ChIP-seq in WT mice Replicate 2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4154434</Item>
+			<Item Name="Title" Type="String">Input for histone ChIP-seq in sgNT Rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4154400</Item>
+			<Item Name="Title" Type="String">USP22 ChIP-seq Replicate 1 (technical)</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4154431</Item>
+			<Item Name="Title" Type="String">Input for histone ChIP-seq in sgUsp22 Rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4154414</Item>
+			<Item Name="Title" Type="String">Input for H2BK120Ub ChIP-seq in Usp22KO mice Replicate 1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4154420</Item>
+			<Item Name="Title" Type="String">H2AK119Ub ChIP-seq in sgUsp22 Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4154417</Item>
+			<Item Name="Title" Type="String">H2B120Ub ChIP-seq in sgNT Rep1</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List">
+		<Item Name="ExtRelation" Type="Structure">
+			<Item Name="RelationType" Type="String">SRA</Item>
+			<Item Name="TargetObject" Type="String">SRP229099</Item>
+			<Item Name="TargetFTPLink" Type="String">ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP229/SRP229099/</Item>
+		</Item>
+	</Item>
+	<Item Name="n_samples" Type="Integer">36</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">32499641</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE140nnn/GSE140102/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+</eSummaryResult>

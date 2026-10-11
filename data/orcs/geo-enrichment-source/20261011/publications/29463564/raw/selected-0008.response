@@ -1,0 +1,89 @@
+<eSummaryResult><DocSum>
+	<Id>200105161</Id>
+	<Item Name="Accession" Type="String">GSE105161</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">Glutaminolysis is a metabolic dependency in FLT3 ITD Acute Myeloid Leukemia unmasked by FLT3 Tyrosine Kinase Inhibition</Item>
+	<Item Name="summary" Type="String">FLT3ITD are common mutations in Acute Myeloid Leukemia (AML) and carry a particularly bad prognosis. Although new generation FLT3 tyrosine kinase inhibitors (TKI) have shown promising results, the outcome of FLT3-mutated AML patients remains poor and demands the identification of novel, specific and validated therapeutic targets for this highly aggressive AML subtype. Utilizing an unbiased genome-wide CRISPR/Cas9 screen, we identify GLS, the first enzyme in glutamine metabolism, as synthetically lethal with FLT3 TKI treatment. Using complementary metabolomic and gene-expression analysis, we demonstrate that glutamine metabolism, through its ability to support both mitochondrial function and cellular redox metabolism, becomes a metabolic dependency of FLT3ITD AML, specifically unmasked by FLT3-TKI treatment. We extend these findings to AML subtypes driven by other tyrosine kinase activating mutations, and validate the role of GLS as a clinically actionable therapeutic target in both primary AML and in vivo models. Our work highlights the role of metabolic adaptations as a resistance mechanism to several TKI inhibitors, and suggests glutaminolysis as a therapeutically targetable vulnerability when combined with specific TKI in FLT3ITD and other TK activating mutation driven leukemias.</Item>
+	<Item Name="GPL" Type="String">20301</Item>
+	<Item Name="GSE" Type="String">105161</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2018/03/07</Item>
+	<Item Name="suppFile" Type="String">BW</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2823728</Item>
+			<Item Name="Title" Type="String">MV411_AC220.R2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2823725</Item>
+			<Item Name="Title" Type="String">MV411_DMSO.R1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2823717</Item>
+			<Item Name="Title" Type="String">K562_DMSO.R1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2823726</Item>
+			<Item Name="Title" Type="String">MV411_DMSO.R2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2823720</Item>
+			<Item Name="Title" Type="String">K562_IMATINIB.R2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2823723</Item>
+			<Item Name="Title" Type="String">MOLM13_AC220.R1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2823718</Item>
+			<Item Name="Title" Type="String">K562_DMSO.R2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2823721</Item>
+			<Item Name="Title" Type="String">MOLM13_DMSO.R1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2823727</Item>
+			<Item Name="Title" Type="String">MV411_AC220.R1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2823724</Item>
+			<Item Name="Title" Type="String">MOLM13_AC220.R2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2823719</Item>
+			<Item Name="Title" Type="String">K562_IMATINIB.R1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2823722</Item>
+			<Item Name="Title" Type="String">MOLM13_DMSO.R2</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List">
+		<Item Name="ExtRelation" Type="Structure">
+			<Item Name="RelationType" Type="String">SRA</Item>
+			<Item Name="TargetObject" Type="String">SRP120496</Item>
+			<Item Name="TargetFTPLink" Type="String">ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP120/SRP120496/</Item>
+		</Item>
+	</Item>
+	<Item Name="n_samples" Type="Integer">12</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">29463564</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE105nnn/GSE105161/</Item>
+	<Item Name="GEO2R" Type="String">yes</Item>
+</DocSum>
+
+</eSummaryResult>

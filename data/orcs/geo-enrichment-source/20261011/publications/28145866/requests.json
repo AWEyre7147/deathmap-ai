@@ -1,0 +1,86 @@
+[
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=gds&id=28145866&linkname=pubmed_gds&cmd=neighbor&retmode=json",
+    "file": "raw/selected-0000.response",
+    "sha256": "c602ed605af0423436c8642343f40d97cf95d0a6b4a4f0c2b815d191c0873b3c",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T17:55:38.407517+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\9deece4239fc1b1b09f447b52850f2c2ef7c76632885081aecc3b1ce06c02911.json",
+        "sha256": "9deece4239fc1b1b09f447b52850f2c2ef7c76632885081aecc3b1ce06c02911",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\pubmed-enrichment-source\\20261008\\links-gds-0.json",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=gds&linkname=pubmed_gds&id=24336569&id=24336571&id=25307932&id=25494202&id=26190106&id=26472758&id=26627737&id=26673326&id=26780180&id=27018887&id=27159373&id=27260156&id=27342126&id=27351204&id=27383987&id=27383988&id=27453484&id=27667664&id=27760321&id=27869803&id=27992415&id=28145866&id=28162770&id=28167502&id=28215525&id=28445693&id=28474669&id=28494239&id=28611215&id=28700943&id=28720733&id=28723893&id=28768188&id=28775154&id=28783722&id=28813663&id=28877469&id=28894007&id=28985505&id=28985567&id=29028833&id=29038160&id=29083409&id=29211708&id=29259014&id=29269392&id=29290584&id=29301958&id=29440296&id=29459677&cmd=neighbor&retmode=json",
+        "locator": "linksets[21]",
+        "retrieved_utc": "2026-10-08T23:16:58.685943+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=28145866&retmode=xml",
+    "file": "raw/selected-0001.response",
+    "sha256": "a643cd781c903731de4025217d8b9f7fd5e07f45e6de4b87742428ff2afc0fd6",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T17:55:38.411032+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\cdf1c98cf7f89937882e3d68f449564fb0f30d05a224e5ff787acbe67f3f911d.xml",
+        "sha256": "cdf1c98cf7f89937882e3d68f449564fb0f30d05a224e5ff787acbe67f3f911d",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\pubmed-enrichment-source\\20261008\\pubmed-0.xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=24336569%2C24336571%2C25307932%2C25494202%2C26190106%2C26472758%2C26627737%2C26673326%2C26780180%2C27018887%2C27159373%2C27260156%2C27342126%2C27351204%2C27383987%2C27383988%2C27453484%2C27667664%2C27760321%2C27869803%2C27992415%2C28145866%2C28162770%2C28167502%2C28215525%2C28445693%2C28474669%2C28494239%2C28611215%2C28700943%2C28720733%2C28723893%2C28768188%2C28775154%2C28783722%2C28813663%2C28877469%2C28894007%2C28985505%2C28985567%2C29028833%2C29038160%2C29083409%2C29211708%2C29259014%2C29269392%2C29290584%2C29301958%2C29440296%2C29459677%2C29463564%2C29478914%2C29507424%2C29526696%2C29576454%2C29642015%2C29655804%2C29662178%2C29736038%2C29769725%2C29779948%2C29921669%2C29973717%2C29987050%2C29995852%2C30042095%2C30051818%2C30093494%2C30111820%2C30135075%2C30154076%2C30194290%2C30224801%2C30317623%2C30397336%2C30414698%2C30449619%2C30464262%2C30532030%2C30556811%2C30581143%2C30590252%2C30595499%2C30647128%2C30655525%2C30660999%2C30686591%2C30734978%2C30773463%2C30787439%2C30797773%2C30819666%2C30838976%2C30844312%2C30860482%2C30862715%2C30898113%2C30905739%2C30916320%2C30930145&retmode=xml",
+        "locator": "PubmedArticle[21]",
+        "retrieved_utc": "2026-10-08T23:16:46.281876+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=%22KEAP1+loss+modulates+sensitivity+to+kinase+targeted+therapy+in+lung+cancer%22%5BAll+Fields%5D+AND+gse%5BEntry+Type%5D&retmode=json&retmax=1000",
+    "file": "raw/selected-0002.response",
+    "sha256": "b669ff77b38f206a5871621e4a6884da32dfa849e8674c1ffe8e06b2193e2af2",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T17:55:38.416554+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\b669ff77b38f206a5871621e4a6884da32dfa849e8674c1ffe8e06b2193e2af2.json",
+        "sha256": "b669ff77b38f206a5871621e4a6884da32dfa849e8674c1ffe8e06b2193e2af2",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\outputs\\geo\\title-search-expansion\\20261010\\raw\\search-13-phrase.json",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=%22KEAP1+loss+modulates+sensitivity+to+kinase+targeted+therapy+in+lung+cancer%22%5BAll+Fields%5D+AND+gse%5BEntry+Type%5D&retmode=json&retmax=100",
+        "locator": "complete esearchresult",
+        "retrieved_utc": "2026-10-10T17:16:38.787930+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A28145866&type=Accession+Numbers&format=JSON",
+    "attempt": 1,
+    "retrieved_utc": "2026-10-11T17:55:38.417554+00:00",
+    "http_status": 200,
+    "file": "raw/live-00003.response",
+    "sha256": "c0b7c69b2ff964e38aaedf5179263e5370601ff87c2e8ecc95449e5e6ca5fa96"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/MED/28145866/datalinks?format=json&pageSize=1000",
+    "attempt": 1,
+    "retrieved_utc": "2026-10-11T17:55:39.300292+00:00",
+    "http_status": 200,
+    "file": "raw/live-00004.response",
+    "sha256": "c62a9a47e14ee608d492784d090bf42d61a5a2785e6010c30aee2e2bfe8dbd8d"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=bioproject&id=28145866&linkname=pubmed_bioproject&cmd=neighbor&retmode=json",
+    "file": "raw/selected-0005.response",
+    "sha256": "c602ed605af0423436c8642343f40d97cf95d0a6b4a4f0c2b815d191c0873b3c",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T17:55:40.233656+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\ab0dc5d5ecdfdc30ccd40d7714a130744d090b6a1433f2ed0000a15455bb298b.json",
+        "sha256": "ab0dc5d5ecdfdc30ccd40d7714a130744d090b6a1433f2ed0000a15455bb298b",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\pubmed-enrichment-source\\20261008\\links-bioproject-0.json",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=bioproject&linkname=pubmed_bioproject&id=24336569&id=24336571&id=25307932&id=25494202&id=26190106&id=26472758&id=26627737&id=26673326&id=26780180&id=27018887&id=27159373&id=27260156&id=27342126&id=27351204&id=27383987&id=27383988&id=27453484&id=27667664&id=27760321&id=27869803&id=27992415&id=28145866&id=28162770&id=28167502&id=28215525&id=28445693&id=28474669&id=28494239&id=28611215&id=28700943&id=28720733&id=28723893&id=28768188&id=28775154&id=28783722&id=28813663&id=28877469&id=28894007&id=28985505&id=28985567&id=29028833&id=29038160&id=29083409&id=29211708&id=29259014&id=29269392&id=29290584&id=29301958&id=29440296&id=29459677&cmd=neighbor&retmode=json",
+        "locator": "linksets[21]",
+        "retrieved_utc": "2026-10-08T23:17:49.605195+00:00"
+      }
+    ]
+  }
+]

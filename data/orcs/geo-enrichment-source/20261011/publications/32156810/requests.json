@@ -1,0 +1,114 @@
+[
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=gds&id=32156810&linkname=pubmed_gds&cmd=neighbor&retmode=json",
+    "file": "raw/selected-0000.response",
+    "sha256": "b6875cdb671481051bc226f64e21475775d05f9275699b9940a0a80e8cc4741d",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:02:29.745813+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\0d58263b13b3c92537c4149e03bf902d3d842dfd8b666de41eed9c679c136735.json",
+        "sha256": "0d58263b13b3c92537c4149e03bf902d3d842dfd8b666de41eed9c679c136735",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\pubmed-enrichment-source\\20261008\\links-gds-3.json",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=gds&linkname=pubmed_gds&id=31564637&id=31570734&id=31587919&id=31594818&id=31604991&id=31618756&id=31657721&id=31666400&id=31692446&id=31723608&id=31727847&id=31730859&id=31741433&id=31744829&id=31761535&id=31792210&id=31801065&id=31818950&id=31855178&id=31868589&id=31882897&id=31903165&id=31915280&id=31919360&id=31921143&id=31959936&id=32005668&id=32028983&id=32075772&id=32094149&id=32142663&id=32156810&id=32160526&id=32238925&id=32259488&id=32268084&id=32299104&id=32315601&id=32355287&id=32416067&id=32421776&id=32424339&id=32499641&id=32528131&id=32542389&id=32579974&id=32585766&id=32640256&id=32649862&id=32668236&cmd=neighbor&retmode=json",
+        "locator": "linksets[31]",
+        "retrieved_utc": "2026-10-08T23:17:15.888207+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=32156810&retmode=xml",
+    "file": "raw/selected-0001.response",
+    "sha256": "ec7e138e6e84b4c1ad5ee2b8136f53e79c7969038aa450afa52e556ff7c6fd53",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:02:29.747320+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\21786aacf01be17cea2401daf1833ab8b82ec384a169e5bf6f15e51350cfe075.xml",
+        "sha256": "21786aacf01be17cea2401daf1833ab8b82ec384a169e5bf6f15e51350cfe075",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\pubmed-enrichment-source\\20261008\\pubmed-1.xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=30932271%2C30944478%2C30951565%2C30962421%2C30971826%2C30991026%2C30995489%2C31010806%2C31019072%2C31038839%2C31040274%2C31048320%2C31048321%2C31059574%2C31076567%2C31108395%2C31133756%2C31142663%2C31147448%2C31160565%2C31165872%2C31209294%2C31213543%2C31219803%2C31253397%2C31270356%2C31287994%2C31294695%2C31300418%2C31316073%2C31346084%2C31353312%2C31353801%2C31365872%2C31406246%2C31406271%2C31437751%2C31451760%2C31452512%2C31462500%2C31508283%2C31508509%2C31509742%2C31519728%2C31519875%2C31527793%2C31540829%2C31543463%2C31551363%2C31558468%2C31564637%2C31570734%2C31587919%2C31594818%2C31604991%2C31618756%2C31657721%2C31666400%2C31692446%2C31723608%2C31727847%2C31730859%2C31741433%2C31744829%2C31761535%2C31792210%2C31801065%2C31818950%2C31855178%2C31868589%2C31882897%2C31903165%2C31915280%2C31919360%2C31921143%2C31959936%2C32005668%2C32028983%2C32075772%2C32094149%2C32142663%2C32156810%2C32160526%2C32238925%2C32259488%2C32268084%2C32299104%2C32315601%2C32355287%2C32416067%2C32421776%2C32424339%2C32499641%2C32528131%2C32542389%2C32579974%2C32585766%2C32640256%2C32649862%2C32668236&retmode=xml",
+        "locator": "PubmedArticle[81]",
+        "retrieved_utc": "2026-10-08T23:16:47.938021+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=%22Barrier-to-Autointegration+Factor+1+Protects+against+a+Basal+cGAS-STING+Response%22%5BAll+Fields%5D+AND+gse%5BEntry+Type%5D&retmode=json&retmax=1000",
+    "file": "raw/selected-0002.response",
+    "sha256": "bf17db1bcaebb3f66a36a5465f35b94392801a6b6191f4e43f6576457d70c7de",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:02:29.750834+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\bf17db1bcaebb3f66a36a5465f35b94392801a6b6191f4e43f6576457d70c7de.json",
+        "sha256": "bf17db1bcaebb3f66a36a5465f35b94392801a6b6191f4e43f6576457d70c7de",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\outputs\\geo\\title-search-expansion\\20261010\\raw\\search-501-phrase.json",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=%22Barrier-to-Autointegration+Factor+1+Protects+against+a+Basal+cGAS-STING+Response%22%5BAll+Fields%5D+AND+gse%5BEntry+Type%5D&retmode=json&retmax=100",
+        "locator": "complete esearchresult",
+        "retrieved_utc": "2026-10-10T17:20:30.169116+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=gds&id=200141386&retmode=xml",
+    "file": "raw/selected-0003.response",
+    "sha256": "0dd9e6317ee929960065995cc9d45909f3b3b24ceda67973618919ba45b8ce2f",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:02:29.751840+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\24c702d49f64b0a25386ef734cb65fd66ee94d0cc57cbeca40b31ff8509649ce.xml",
+        "sha256": "24c702d49f64b0a25386ef734cb65fd66ee94d0cc57cbeca40b31ff8509649ce",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\outputs\\geo\\title-search-expansion\\20261010\\raw\\summary-1.xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=gds&id=200004293%2C200012008%2C200017064%2C200019434%2C200023768%2C200031477%2C200036243%2C200037214%2C200054964%2C200054966%2C200054968%2C200069666%2C200070038%2C200075189%2C200078519%2C200095374%2C200105161%2C200107566%2C200107670%2C200108057%2C200109177%2C200109491%2C200109492%2C200109493%2C200111166%2C200114035%2C200115357%2C200121451%2C200121457%2C200121458%2C200121459%2C200122404%2C200125403%2C200125509%2C200126935%2C200128307%2C200129282%2C200129382%2C200129521%2C200129846%2C200130414%2C200130906%2C200131026%2C200131030%2C200131091%2C200131097%2C200131099%2C200131135%2C200131349%2C200131674%2C200132309%2C200132431%2C200132926%2C200132959%2C200134173%2C200136175%2C200138571%2C200138894%2C200139313%2C200140102%2C200140653%2C200141171%2C200141386%2C200142669%2C200144078%2C200144165%2C200144281%2C200147508%2C200149455%2C200149760%2C200149933%2C200149934%2C200149935%2C200149936%2C200150232%2C200151062%2C200152177%2C200152284%2C200152846%2C200153397%2C200153769%2C200153772%2C200153776%2C200154936%2C200156170%2C200157096%2C200157835%2C200158298%2C200158303%2C200158540%2C200158541%2C200159519%2C200159522%2C200160672%2C200161168%2C200162038%2C200162039%2C200162136%2C200164639%2C200164778&retmode=xml",
+        "locator": "DocSum[62]",
+        "retrieved_utc": "2026-10-10T17:25:09.938317+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A32156810&type=Accession+Numbers&format=JSON",
+    "file": "raw/cache-0004.response",
+    "sha256": "1db5c1e99a7dabd6f4c656483919ef5b9a10419ee95487b529ee9f8fa50673c0",
+    "retrieved_utc": "2026-10-10T18:31:18.233507+00:00",
+    "reused_utc": "2026-10-11T18:02:29.766353+00:00",
+    "reused_from": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\outputs\\geo\\ten-publication-browse\\20261011\\publications\\32156810\\raw\\cache-0004.response",
+    "original_url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A32156810&type=Accession+Numbers&format=JSON"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/MED/32156810/datalinks?format=json&pageSize=1000",
+    "file": "raw/cache-0005.response",
+    "sha256": "cf1927a85130faa5ca6d7914f921b0500b126b49b4cccdfaa809efe7572af787",
+    "retrieved_utc": "2026-10-10T18:31:19.177121+00:00",
+    "reused_utc": "2026-10-11T18:02:29.776376+00:00",
+    "reused_from": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\outputs\\geo\\ten-publication-browse\\20261011\\publications\\32156810\\raw\\cache-0005.response",
+    "original_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/MED/32156810/datalinks?format=json&pageSize=1000"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=bioproject&id=32156810&linkname=pubmed_bioproject&cmd=neighbor&retmode=json",
+    "file": "raw/selected-0006.response",
+    "sha256": "b6875cdb671481051bc226f64e21475775d05f9275699b9940a0a80e8cc4741d",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:02:29.778376+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\89f53290b6038266c12e92ca5a458c93cab921b3fb76fa328b043407b278c2c8.json",
+        "sha256": "89f53290b6038266c12e92ca5a458c93cab921b3fb76fa328b043407b278c2c8",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\pubmed-enrichment-source\\20261008\\links-bioproject-3.json",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=bioproject&linkname=pubmed_bioproject&id=31564637&id=31570734&id=31587919&id=31594818&id=31604991&id=31618756&id=31657721&id=31666400&id=31692446&id=31723608&id=31727847&id=31730859&id=31741433&id=31744829&id=31761535&id=31792210&id=31801065&id=31818950&id=31855178&id=31868589&id=31882897&id=31903165&id=31915280&id=31919360&id=31921143&id=31959936&id=32005668&id=32028983&id=32075772&id=32094149&id=32142663&id=32156810&id=32160526&id=32238925&id=32259488&id=32268084&id=32299104&id=32315601&id=32355287&id=32416067&id=32421776&id=32424339&id=32499641&id=32528131&id=32542389&id=32579974&id=32585766&id=32640256&id=32649862&id=32668236&cmd=neighbor&retmode=json",
+        "locator": "linksets[31]",
+        "retrieved_utc": "2026-10-08T23:18:06.931276+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE141386&targ=self&form=text&view=brief",
+    "file": "raw/cache-0007.response",
+    "sha256": "1cc4cdf7d8cc390a29c7c51ffe581ed9e05af66f70dcc2ec5cf96397bbb8b591",
+    "retrieved_utc": "2026-10-10T17:25:45.137023+00:00",
+    "reused_utc": "2026-10-11T18:02:29.787886+00:00",
+    "reused_from": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\outputs\\geo\\title-search-expansion\\20261010\\raw\\GSE141386.soft.txt",
+    "original_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE141386&targ=self&form=text&view=brief"
+  }
+]

@@ -1,0 +1,119 @@
+{
+  "strategy": "geo-accession-identification-v1",
+  "package_version": "0.1.0",
+  "started_utc": "2026-10-11T18:12:08.216846+00:00",
+  "publication": {
+    "PUBLICATION_ID": "1131",
+    "SOURCE_TYPE": "pubmed",
+    "SOURCE_ID": "40632661",
+    "TITLE": "Genome-Wide CRISPR-Cas9 Knockout Screening Identifies Genes Modulating Cisplatin-Induced Cytotoxicity in Renal Proximal Tubule Epithelial Cells.",
+    "AUTHORS": "Wang S, Zheng J, Zhang X, Zhao M, Li J, Su M, Qiu W",
+    "ABSTRACT": "Cisplatin is widely used as a first-line chemotherapy drug for various cancers. However, cisplatin-induced nephrotoxicity (CIN) greatly restricts its application. Renal proximal tubular epithelial cells (RPTECs) can be extensively damaged during CIN. However, it still lacks an ideal method to prevent CIN, because the mechanism and therapeutic targets of CIN remain largely unclear. In the present study, we used a genome-scale CRISPR-Cas9 knock-out method to functionally screen key genes of cisplatin-induced RPTEC injury. We found 815 genes significantly enriched (p < 0.05) from positive selection screening strategy, which may synergistically enhance cisplatin cytotoxicity in RPTECs. Importantly, we identified ERAP2 as a novel molecule associated with CIN. We found that the expression of ERAP2 in RPTECs was significantly up-regulated by cisplatin. Data from CCK-8 assay and flow cytometry showed that inhibition of ERAP2 alleviated cisplatin-induced RPTEC injury. Furthermore, RNA-seq and qPCR results revealed that three necroptosis-associated genes, PLA2G4C, HIST1H2AC, and HIST1H2AM, were downregulated following ERAP2 inhibition, suggesting that ERAP2 may be a novel therapeutic target of CIN through the modulation of necroptosis pathway.",
+    "JOURNAL": "FASEB journal : official publication of the Federation of American Societies for Experimental Biology",
+    "PUBLICATION_DATE": "2025-07-15",
+    "PAGE_SOURCE_TYPE": "pubmed",
+    "PAGE_SOURCE_ID": "40632661",
+    "PMID": "40632661",
+    "DOI": "10.1096/fj.202402401rr",
+    "SUPPLEMENTARY_FILES": [
+      {
+        "label": "fsb270780-sup-0002-tables1.xls",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/688119a2ef6ee/fsb270780-sup-0002-tables1.xls"
+      }
+    ],
+    "LINKS": [
+      {
+        "label": "Pubmed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40632661"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/scholar?as_occt=title&as_q=Genome-Wide+CRISPR-Cas9+Knockout+Screening+Identifies+Genes+Modulating+Cisplatin-Induced+Cytotoxicity+in+Renal+Proximal+Tubule+Epithelial+Cells."
+      },
+      {
+        "label": "40632661",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40632661"
+      },
+      {
+        "label": "fsb270780-sup-0002-tables1.xls",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/688119a2ef6ee/fsb270780-sup-0002-tables1.xls"
+      }
+    ],
+    "SCREEN_IDS": [
+      "2449"
+    ],
+    "SCREEN_COUNT": 1,
+    "PUBLICATION_URL": "https://orcs.thebiogrid.org/Dataset/1131",
+    "FIELD_LOCATORS": {
+      "TITLE": "#resultsHeaderBlock h1",
+      "AUTHORS": "#resultsHeaderBlock .subhead",
+      "ABSTRACT": "#resultsHeaderBlock .bgGrey",
+      "JOURNAL": ".linkouts citation strong",
+      "PUBLICATION_DATE": ".linkouts citation",
+      "SUPPLEMENTARY_FILES": ".linkouts Supplementary Files"
+    },
+    "REVIEW_ISSUES": [],
+    "RETRIEVED_AT": "2026-10-04T05:14:49.438333+00:00",
+    "SOURCE_METADATA_FILE": "data/orcs/publication-source/20261004-v01/1131.metadata.html",
+    "SOURCE_METADATA_SHA256": "1a2566ed173c30d1abdbf8c7655fd1b0ff9888c9c06072c5ebc916fcdaa8a2a8",
+    "PMCID": null,
+    "IDENTIFIER_ENRICHMENT": {
+      "added_fields": [
+        "DOI"
+      ],
+      "resolution": {
+        "input": {
+          "pmid": "40632661",
+          "doi": null,
+          "pmcid": null
+        },
+        "identifiers": {
+          "pmid": "40632661",
+          "doi": "10.1096/fj.202402401rr",
+          "pmcid": null
+        },
+        "status": "partial",
+        "alternatives": {
+          "pmid": [
+            "40632661"
+          ],
+          "doi": [
+            "10.1096/fj.202402401rr"
+          ],
+          "pmcid": []
+        },
+        "evidence": [
+          {
+            "identifiers": {
+              "pmid": "40632661",
+              "doi": "10.1096/fj.202402401rr",
+              "pmcid": null
+            },
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=37996617%2C38291084%2C38395437%2C38885264%2C39316623%2C39547224%2C39681701%2C40372436%2C40632661%2C40667754%2C40683967%2C40813572%2C40852982%2C40899441%2C40909557&retmode=xml&tool=deathmap_ai",
+            "retrieved_at": "2026-10-08T01:38:01.416850+00:00",
+            "response_sha256": "aaf08f8cdcd67a739e511ba72dd0b1838238dd3c7a63c3c19e7a8d80106d71aa"
+          }
+        ]
+      }
+    },
+    "_input_provenance": {
+      "file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\publication-index.json",
+      "sha256": "63cb33b7095108e7a0776950e9c258e7b65fe148ca6b12ae75cd4dd914ad6c89",
+      "locator": "PUBLICATION_ID=1131"
+    }
+  },
+  "status": "complete",
+  "source_code_sha256": "1e62a9364e02df38d28540f2c3211fbc696f04678f5fa977cf989e31578b60bf",
+  "limits": {
+    "request_attempts": 100,
+    "seconds": 600,
+    "series": 100,
+    "target_uids_per_route": 1000,
+    "attempts_per_request": 2,
+    "timeout_seconds": 30,
+    "pacing_seconds": 0.4
+  },
+  "total_gse_count": 0,
+  "finished_utc": "2026-10-11T18:12:10.012225+00:00",
+  "request_attempts": 2
+}

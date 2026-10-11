@@ -1,0 +1,57 @@
+<eSummaryResult><DocSum>
+	<Id>200164778</Id>
+	<Item Name="Accession" Type="String">GSE164778</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">Genome-wide CRISPR screening reveals nucleotide synthesis negatively regulates autophagy</Item>
+	<Item Name="summary" Type="String">Macroautophagy (hereafter, autophagy) is a process that directs the degradation of cytoplasmic material in lysosomes. In addition to its homeostatic roles, autophagy undergoes dynamic positive and negative regulation in response to multiple forms of cellular stress, thus enabling the survival of cells. However, the precise mechanisms of autophagy regulation are not fully understood. To identify potential negative regulators of autophagy, we performed a genome-wide CRISPR screen using the quantitative autophagic flux reporter GFP-LC3-RFP. We identified phosphoribosylformylglycinamidine synthase (PFAS), a component of the de novo purine synthesis pathway, as one such negative regulator of autophagy. Autophagy was activated in cells lacking PFAS or phosphoribosyl pyrophosphate amidotransferase (PPAT), another de novo purine synthesis enzyme, or treated with methotrexate when exogenous levels of purines were insufficient. Purine starvation-induced autophagy activation was concomitant with mTORC1 suppression, and was profoundly suppressed in cells deficient for TSC2, which negatively regulates mTORC1 through inhibition of RHEB, suggesting that purines regulate autophagy through the TSC-RHEB-mTORC1 signaling axis. Moreover, depletion of the pyrimidine synthesis enzymes carbamoyl-phosphate synthetase 2, aspartate transcarbamylase, and dihydroorotase (CAD) and dihydroorotate dehydrogenase (DHODH) activated autophagy as well, although mTORC1 activity was not altered by pyrimidine shortage. These results suggest a different mechanism of autophagy induction between purine and pyrimidine starvation. These findings provide novel insights into the regulation of autophagy by nucleotides and possibly the role of autophagy in nucleotide metabolism, leading to further developing anticancer strategies involving nucleotide synthesis and autophagy.</Item>
+	<Item Name="GPL" Type="String">16791</Item>
+	<Item Name="GSE" Type="String">164778</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Other</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2021/05/11</Item>
+	<Item Name="suppFile" Type="String">TXT</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5018600</Item>
+			<Item Name="Title" Type="String">Control-replicate2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5018598</Item>
+			<Item Name="Title" Type="String">Control-replicate1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5018599</Item>
+			<Item Name="Title" Type="String">AutophagyActivated-replicate2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5018597</Item>
+			<Item Name="Title" Type="String">AutophagyActivated-replicate1</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List">
+		<Item Name="ExtRelation" Type="Structure">
+			<Item Name="RelationType" Type="String">SRA</Item>
+			<Item Name="TargetObject" Type="String">SRP301627</Item>
+			<Item Name="TargetFTPLink" Type="String">ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP301/SRP301627/</Item>
+		</Item>
+	</Item>
+	<Item Name="n_samples" Type="Integer">4</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">34000301</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE164nnn/GSE164778/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+</eSummaryResult>

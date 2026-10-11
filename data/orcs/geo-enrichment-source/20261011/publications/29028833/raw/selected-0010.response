@@ -1,0 +1,81 @@
+<eSummaryResult><DocSum>
+	<Id>200069877</Id>
+	<Item Name="Accession" Type="String">GSE69877</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">MCPyV ST, MAX and the TRRAP complex cooperate to bind to Transcription Start Sites</Item>
+	<Item Name="summary" Type="String">To determine if MCPyV ST was recruited to chromatin together with MAX and the TRRAP complex, we performed chromatin immunoprecipitation (ChIP) using the validated antibodies to MCPyV ST produced in our lab, HA tagged ST, MAX and EP400 followed by next generation sequencing. De novo DNA motif analysis revealed that the canonical E-box MYC target sequence was the most frequently observed motif. Metagene analysis revealed that antibodies to MAX, EP400, ST (Ab5) and HA tagged ST showed strong enrichment in transcription start site (TSS). H3K4me3 ChIP-seq confirmed that the peaks enriched with antibodies to MAX, EP400 and ST all centered on the H3K4me3 peaks with a high degree of overlap.</Item>
+	<Item Name="GPL" Type="String">18573;11154</Item>
+	<Item Name="GSE" Type="String">69877</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Genome binding/occupancy profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2017/09/28</Item>
+	<Item Name="suppFile" Type="String">BED, TXT, WIG</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM1711855</Item>
+			<Item Name="Title" Type="String">Input DNA rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM1711864</Item>
+			<Item Name="Title" Type="String">H3K4me3_ChIP-seq</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM1711858</Item>
+			<Item Name="Title" Type="String">Max_ChIP-seq rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM1711861</Item>
+			<Item Name="Title" Type="String">EP400_ChIP-seq rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM1711856</Item>
+			<Item Name="Title" Type="String">ST-HA_ChIP-seq</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM1711859</Item>
+			<Item Name="Title" Type="String">Input DNA rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM1711862</Item>
+			<Item Name="Title" Type="String">Max_ChIP-seq rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM1711857</Item>
+			<Item Name="Title" Type="String">EP400_ChIP-seq rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM1711860</Item>
+			<Item Name="Title" Type="String">ST_ChIP-seq</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM1711863</Item>
+			<Item Name="Title" Type="String">Input DNA rep3</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List">
+		<Item Name="ExtRelation" Type="Structure">
+			<Item Name="RelationType" Type="String">SRA</Item>
+			<Item Name="TargetObject" Type="String">SRP059497</Item>
+			<Item Name="TargetFTPLink" Type="String">ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP059/SRP059497/</Item>
+		</Item>
+	</Item>
+	<Item Name="n_samples" Type="Integer">10</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">29028833</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE69nnn/GSE69877/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+</eSummaryResult>

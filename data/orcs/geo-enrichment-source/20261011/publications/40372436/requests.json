@@ -1,0 +1,86 @@
+[
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=gds&id=40372436&linkname=pubmed_gds&cmd=neighbor&retmode=json",
+    "file": "raw/selected-0000.response",
+    "sha256": "5724ddee2474b5276bf075560976b04bc903a0636af34e0cb34471243016dd25",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:11:56.300902+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\66129947701bfba36afd3744f19e49be566dca40a48c89cc305ca5ebda588448.json",
+        "sha256": "66129947701bfba36afd3744f19e49be566dca40a48c89cc305ca5ebda588448",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\pubmed-enrichment-source\\20261008\\links-gds-8.json",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=gds&linkname=pubmed_gds&id=37996617&id=38291084&id=38395437&id=38885264&id=39316623&id=39547224&id=39681701&id=40372436&id=40632661&id=40667754&id=40683967&id=40813572&id=40852982&id=40899441&id=40909557&cmd=neighbor&retmode=json",
+        "locator": "linksets[7]",
+        "retrieved_utc": "2026-10-08T23:17:40.845535+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=40372436&retmode=xml",
+    "file": "raw/selected-0001.response",
+    "sha256": "c78ebc0f32fb477df272e650ac928766b26d0d05f0816d2fffebc2cfeec61e02",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:11:56.304904+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\aaf08f8cdcd67a739e511ba72dd0b1838238dd3c7a63c3c19e7a8d80106d71aa.xml",
+        "sha256": "aaf08f8cdcd67a739e511ba72dd0b1838238dd3c7a63c3c19e7a8d80106d71aa",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\pubmed-enrichment-source\\20261008\\pubmed-4.xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=37996617%2C38291084%2C38395437%2C38885264%2C39316623%2C39547224%2C39681701%2C40372436%2C40632661%2C40667754%2C40683967%2C40813572%2C40852982%2C40899441%2C40909557&retmode=xml",
+        "locator": "PubmedArticle[7]",
+        "retrieved_utc": "2026-10-08T23:16:52.371170+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=%22Shared+host+genetic+landscape+of+respiratory+viral+infection%22%5BAll+Fields%5D+AND+gse%5BEntry+Type%5D&retmode=json&retmax=1000",
+    "file": "raw/selected-0002.response",
+    "sha256": "c664ba091133ee988345432701b7bb7d3a5df14cf973b4352282c139383ab7b9",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:11:56.309056+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\c664ba091133ee988345432701b7bb7d3a5df14cf973b4352282c139383ab7b9.json",
+        "sha256": "c664ba091133ee988345432701b7bb7d3a5df14cf973b4352282c139383ab7b9",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\outputs\\geo\\title-search-expansion\\20261010\\raw\\search-1119-phrase.json",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=%22Shared+host+genetic+landscape+of+respiratory+viral+infection%22%5BAll+Fields%5D+AND+gse%5BEntry+Type%5D&retmode=json&retmax=100",
+        "locator": "complete esearchresult",
+        "retrieved_utc": "2026-10-10T17:24:36.021139+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A40372436&type=Accession+Numbers&format=JSON",
+    "attempt": 1,
+    "retrieved_utc": "2026-10-11T18:11:56.310056+00:00",
+    "http_status": 200,
+    "file": "raw/live-00003.response",
+    "sha256": "b47a7a59e70bb47aafe7738a2c8a1e882bebbb2a42ac6716fda07f45232cc273"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/MED/40372436/datalinks?format=json&category=GEO&sectionLimit=1000",
+    "attempt": 1,
+    "retrieved_utc": "2026-10-11T18:11:57.178149+00:00",
+    "http_status": 200,
+    "file": "raw/live-00004.response",
+    "sha256": "f2233aab5417ff89837978f9941018eac135bf235e860a0bbd4c882aba278d98"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=bioproject&id=40372436&linkname=pubmed_bioproject&cmd=neighbor&retmode=json",
+    "file": "raw/selected-0005.response",
+    "sha256": "5724ddee2474b5276bf075560976b04bc903a0636af34e0cb34471243016dd25",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:11:58.085417+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\f24e21584023a0722b238ae4b718561eb51523c686ed539b80d80b1f47a67fb0.json",
+        "sha256": "f24e21584023a0722b238ae4b718561eb51523c686ed539b80d80b1f47a67fb0",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\pubmed-enrichment-source\\20261008\\links-bioproject-8.json",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=bioproject&linkname=pubmed_bioproject&id=37996617&id=38291084&id=38395437&id=38885264&id=39316623&id=39547224&id=39681701&id=40372436&id=40632661&id=40667754&id=40683967&id=40813572&id=40852982&id=40899441&id=40909557&cmd=neighbor&retmode=json",
+        "locator": "linksets[7]",
+        "retrieved_utc": "2026-10-08T23:18:32.004224+00:00"
+      }
+    ]
+  }
+]

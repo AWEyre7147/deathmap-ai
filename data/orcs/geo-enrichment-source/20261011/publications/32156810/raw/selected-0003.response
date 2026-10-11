@@ -1,0 +1,67 @@
+<eSummaryResult><DocSum>
+	<Id>200141386</Id>
+	<Item Name="Accession" Type="String">GSE141386</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">Barrier-to-autointegration factor 1 protects against a basal cGAS-STING response</Item>
+	<Item Name="summary" Type="String">Although the pathogen recognition receptor pathways that activate cell-intrinsic antiviral responses are well delineated, less is known about how the host regulates this response to prevent sustained signaling and possible immune-mediated damage. Using a genome-wide CRISPR-Cas9 screening approach to identify host factors that modulate interferon (IFN) stimulated gene (ISG) expression, we identified the DNA binding protein Barrier-to-autointegration factor 1 (Banf1), a previously described inhibitor of retrovirus integration, as a modulator of basal cell-intrinsic immunity. Ablation of Banf1 by gene editing resulted in enhanced chromatin accessibility of host defense genes and increased expression of ISGs including Oas2, Rsad2 (viperin), Ifit1, ISG15 and Cxcl10. The phenotype in Banf1-deficient cells occurred through a cGAS, STING, and IRF3-dependent signaling axis, was associated with reduced infection of RNA and DNA viruses, and was reversed in Banf1 complemented cells. Confocal microscopy and biochemical studies revealed that a loss of expression of Banf1 resulted in higher level of cytosolic double-stranded DNA at baseline. Our study identifies an undescribed role for Banf1 in regulating levels of cytoplasmic DNA and cGAS-dependent ISG homeostasis and suggests possible therapeutic directions for promoting or inhibiting cell-intrinsic innate immune responses.</Item>
+	<Item Name="GPL" Type="String">17021</Item>
+	<Item Name="GSE" Type="String">141386</Item>
+	<Item Name="taxon" Type="String">Mus musculus</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Genome binding/occupancy profiling by high throughput sequencing; Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2020/12/31</Item>
+	<Item Name="suppFile" Type="String">BW, TXT</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4202171</Item>
+			<Item Name="Title" Type="String">Banf1 WT ChIP-seq</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4202166</Item>
+			<Item Name="Title" Type="String">Banf1 KO H3K27ac ChIP-seq</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4202169</Item>
+			<Item Name="Title" Type="String">Banf1 KO RNA-seq</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4202172</Item>
+			<Item Name="Title" Type="String">Input</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4202170</Item>
+			<Item Name="Title" Type="String">Banf1 TC RNA-seq</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4202167</Item>
+			<Item Name="Title" Type="String">Banf1 TC H3K27ac ChIP-seq</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4202168</Item>
+			<Item Name="Title" Type="String">Banf1 WT H3K27ac ChIP-seq</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List">
+		<Item Name="ExtRelation" Type="Structure">
+			<Item Name="RelationType" Type="String">SRA</Item>
+			<Item Name="TargetObject" Type="String">SRP234567</Item>
+			<Item Name="TargetFTPLink" Type="String">ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP234/SRP234567/</Item>
+		</Item>
+	</Item>
+	<Item Name="n_samples" Type="Integer">7</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List" />
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141386/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+</eSummaryResult>

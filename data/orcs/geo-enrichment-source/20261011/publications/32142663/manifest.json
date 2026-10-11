@@ -1,0 +1,119 @@
+{
+  "strategy": "geo-accession-identification-v1",
+  "package_version": "0.1.0",
+  "started_utc": "2026-10-11T18:08:21.637589+00:00",
+  "publication": {
+    "PUBLICATION_ID": "853",
+    "SOURCE_TYPE": "pubmed",
+    "SOURCE_ID": "32142663",
+    "TITLE": "Genome-Scale CRISPR Screening in Human Intestinal Organoids Identifies Drivers of TGF-β Resistance.",
+    "AUTHORS": "Ringel T, Frey N, Ringnalda F, Janjuha S, Cherkaoui S, Butz S, Srivatsa S, Pirkl M, Russo G, Villiger L, Rogler G, Clevers H, Beerenwinkel N, Zamboni N, Baubec T, Schwank G",
+    "ABSTRACT": "Forward genetic screens with genome-wide CRISPR libraries are powerful tools for resolving cellular circuits and signaling pathways. Applying this technology to organoids, however, has been hampered by technical limitations. Here we report improved accuracy and robustness for pooled-library CRISPR screens by capturing sgRNA integrations in single organoids, substantially reducing required cell numbers for genome-scale screening. We applied our approach to wild-type and APC mutant human intestinal organoids to identify genes involved in resistance to TGF-β-mediated growth restriction, a key process during colorectal cancer progression, and validated hits including multiple subunits of the tumor-suppressive SWI/SNF chromatin remodeling complex. Mutations within these genes require concurrent inactivation of APC to promote TGF-β resistance and attenuate TGF-β target gene transcription. Our approach can be applied to a variety of assays and organoid types to facilitate biological discovery in primary 3D tissue models.",
+    "JOURNAL": "Cell stem cell",
+    "PUBLICATION_DATE": "2020-03-05",
+    "PAGE_SOURCE_TYPE": "pubmed",
+    "PAGE_SOURCE_ID": "32142663",
+    "PMID": "32142663",
+    "DOI": "10.1016/j.stem.2020.02.007",
+    "SUPPLEMENTARY_FILES": [
+      {
+        "label": "mmc2.xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/6453f10d20095/mmc2.xlsx"
+      }
+    ],
+    "LINKS": [
+      {
+        "label": "Pubmed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32142663"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/scholar?as_occt=title&as_q=Genome-Scale+CRISPR+Screening+in+Human+Intestinal+Organoids+Identifies+Drivers+of+TGF-%CE%B2+Resistance."
+      },
+      {
+        "label": "32142663",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32142663"
+      },
+      {
+        "label": "mmc2.xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/6453f10d20095/mmc2.xlsx"
+      }
+    ],
+    "SCREEN_IDS": [
+      "1964"
+    ],
+    "SCREEN_COUNT": 1,
+    "PUBLICATION_URL": "https://orcs.thebiogrid.org/Dataset/853",
+    "FIELD_LOCATORS": {
+      "TITLE": "#resultsHeaderBlock h1",
+      "AUTHORS": "#resultsHeaderBlock .subhead",
+      "ABSTRACT": "#resultsHeaderBlock .bgGrey",
+      "JOURNAL": ".linkouts citation strong",
+      "PUBLICATION_DATE": ".linkouts citation",
+      "SUPPLEMENTARY_FILES": ".linkouts Supplementary Files"
+    },
+    "REVIEW_ISSUES": [],
+    "RETRIEVED_AT": "2026-10-04T05:13:06.155963+00:00",
+    "SOURCE_METADATA_FILE": "data/orcs/publication-source/20261004-v01/853.metadata.html",
+    "SOURCE_METADATA_SHA256": "40611a31a75b06b6d95e898a1bf168ec9ca9450abb47523cea10dbf426db174a",
+    "PMCID": null,
+    "IDENTIFIER_ENRICHMENT": {
+      "added_fields": [
+        "DOI"
+      ],
+      "resolution": {
+        "input": {
+          "pmid": "32142663",
+          "doi": null,
+          "pmcid": null
+        },
+        "identifiers": {
+          "pmid": "32142663",
+          "doi": "10.1016/j.stem.2020.02.007",
+          "pmcid": null
+        },
+        "status": "partial",
+        "alternatives": {
+          "pmid": [
+            "32142663"
+          ],
+          "doi": [
+            "10.1016/j.stem.2020.02.007"
+          ],
+          "pmcid": []
+        },
+        "evidence": [
+          {
+            "identifiers": {
+              "pmid": "32142663",
+              "doi": "10.1016/j.stem.2020.02.007",
+              "pmcid": null
+            },
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=30932271%2C30944478%2C30951565%2C30962421%2C30971826%2C30991026%2C30995489%2C31010806%2C31019072%2C31038839%2C31040274%2C31048320%2C31048321%2C31059574%2C31076567%2C31108395%2C31133756%2C31142663%2C31147448%2C31160565%2C31165872%2C31209294%2C31213543%2C31219803%2C31253397%2C31270356%2C31287994%2C31294695%2C31300418%2C31316073%2C31346084%2C31353312%2C31353801%2C31365872%2C31406246%2C31406271%2C31437751%2C31451760%2C31452512%2C31462500%2C31508283%2C31508509%2C31509742%2C31519728%2C31519875%2C31527793%2C31540829%2C31543463%2C31551363%2C31558468%2C31564637%2C31570734%2C31587919%2C31594818%2C31604991%2C31618756%2C31657721%2C31666400%2C31692446%2C31723608%2C31727847%2C31730859%2C31741433%2C31744829%2C31761535%2C31792210%2C31801065%2C31818950%2C31855178%2C31868589%2C31882897%2C31903165%2C31915280%2C31919360%2C31921143%2C31959936%2C32005668%2C32028983%2C32075772%2C32094149%2C32142663%2C32156810%2C32160526%2C32238925%2C32259488%2C32268084%2C32299104%2C32315601%2C32355287%2C32416067%2C32421776%2C32424339%2C32499641%2C32528131%2C32542389%2C32579974%2C32585766%2C32640256%2C32649862%2C32668236&retmode=xml&tool=deathmap_ai",
+            "retrieved_at": "2026-10-08T01:37:56.574050+00:00",
+            "response_sha256": "21786aacf01be17cea2401daf1833ab8b82ec384a169e5bf6f15e51350cfe075"
+          }
+        ]
+      }
+    },
+    "_input_provenance": {
+      "file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\publication-index.json",
+      "sha256": "63cb33b7095108e7a0776950e9c258e7b65fe148ca6b12ae75cd4dd914ad6c89",
+      "locator": "PUBLICATION_ID=853"
+    }
+  },
+  "status": "complete",
+  "source_code_sha256": "1e62a9364e02df38d28540f2c3211fbc696f04678f5fa977cf989e31578b60bf",
+  "limits": {
+    "request_attempts": 100,
+    "seconds": 600,
+    "series": 100,
+    "target_uids_per_route": 1000,
+    "attempts_per_request": 2,
+    "timeout_seconds": 30,
+    "pacing_seconds": 0.4
+  },
+  "total_gse_count": 5,
+  "finished_utc": "2026-10-11T18:08:23.590321+00:00",
+  "request_attempts": 2
+}

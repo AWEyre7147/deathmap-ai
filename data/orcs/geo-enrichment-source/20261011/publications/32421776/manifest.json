@@ -1,0 +1,127 @@
+{
+  "strategy": "geo-accession-identification-v1",
+  "package_version": "0.1.0",
+  "started_utc": "2026-10-11T17:59:13.890885+00:00",
+  "publication": {
+    "PUBLICATION_ID": "311",
+    "SOURCE_TYPE": "pubmed",
+    "SOURCE_ID": "32421776",
+    "TITLE": "Functional Pathway Identification With CRISPR/Cas9 Genome-wide Gene Disruption in Human Dopaminergic Neuronal Cells Following Chronic Treatment With Dieldrin.",
+    "AUTHORS": "Russo M, Sobh A, Zhang P, Loguinov A, Tagmount A, Vulpe CD, Liu B",
+    "ABSTRACT": "Organochlorine pesticides, once widely used, are extremely persistent and bio-accumulative in the environment. Epidemiological studies have implicated that environmental exposure to organochlorine pesticides including dieldrin is a risk factor for the development of Parkinson's disease. However, the pertinent mechanisms of action remain poorly understood. In this study, we carried out a genome-wide (Brunello library, 19 114 genes, 76 411 sgRNAs) CRISPR/Cas9 screen in human dopaminergic SH-SY5Y neuronal cells exposed to a chronic treatment (30 days) with dieldrin to identify cellular pathways that are functionally related to the chronic cellular toxicity. Our results indicate that dieldrin toxicity was enhanced by gene disruption of specific components of the ubiquitin proteasome system as well as, surprisingly, the protein degradation pathways previously implicated in inherited forms of Parkinson's disease, centered on Parkin. In addition, disruption of regulatory components of the mTOR pathway which integrates cellular responses to both intra- and extracellular signals and is a central regulator for cell metabolism, growth, proliferation, and survival, led to increased sensitivity to dieldrin-induced cellular toxicity. This study is one of the first to apply a genome-wide CRISPR/Cas9-based functional gene disruption screening approach in an adherent neuronal cell line to globally decipher cellular mechanisms that contribute to environmental toxicant-induced neurotoxicity and provides novel insight into the dopaminergic neurotoxicity associated with chronic exposure to dieldrin.",
+    "JOURNAL": "Toxicological sciences : an official journal of the Society of Toxicology",
+    "PUBLICATION_DATE": "2020-08-01",
+    "PAGE_SOURCE_TYPE": "pubmed",
+    "PAGE_SOURCE_ID": "32421776",
+    "PMID": "32421776",
+    "DOI": "10.1093/toxsci/kfaa071",
+    "SUPPLEMENTARY_FILES": [
+      {
+        "label": "Limma-Voom analysis.xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/5f6e4a38b2f7a/Limma-Voom analysis.xlsx"
+      },
+      {
+        "label": "MAGECK-Russo.xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/5f7227a3899eb/MAGECK-Russo.xlsx"
+      }
+    ],
+    "LINKS": [
+      {
+        "label": "Pubmed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32421776"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/scholar?as_occt=title&as_q=Functional+Pathway+Identification+With+CRISPR%2FCas9+Genome-wide+Gene+Disruption+in+Human+Dopaminergic+Neuronal+Cells+Following+Chronic+Treatment+With+Dieldrin."
+      },
+      {
+        "label": "32421776",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32421776"
+      },
+      {
+        "label": "Limma-Voom analysis.xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/5f6e4a38b2f7a/Limma-Voom analysis.xlsx"
+      },
+      {
+        "label": "MAGECK-Russo.xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/5f7227a3899eb/MAGECK-Russo.xlsx"
+      }
+    ],
+    "SCREEN_IDS": [
+      "1223"
+    ],
+    "SCREEN_COUNT": 1,
+    "PUBLICATION_URL": "https://orcs.thebiogrid.org/Dataset/311",
+    "FIELD_LOCATORS": {
+      "TITLE": "#resultsHeaderBlock h1",
+      "AUTHORS": "#resultsHeaderBlock .subhead",
+      "ABSTRACT": "#resultsHeaderBlock .bgGrey",
+      "JOURNAL": ".linkouts citation strong",
+      "PUBLICATION_DATE": ".linkouts citation",
+      "SUPPLEMENTARY_FILES": ".linkouts Supplementary Files"
+    },
+    "REVIEW_ISSUES": [],
+    "RETRIEVED_AT": "2026-10-04T05:09:05.430220+00:00",
+    "SOURCE_METADATA_FILE": "data/orcs/publication-source/20261004-v01/311.metadata.html",
+    "SOURCE_METADATA_SHA256": "56c8f340ecebf95e1516ad37eb95f03ba4e6d96775330d094f1bc66807f13af5",
+    "PMCID": null,
+    "IDENTIFIER_ENRICHMENT": {
+      "added_fields": [
+        "DOI"
+      ],
+      "resolution": {
+        "input": {
+          "pmid": "32421776",
+          "doi": null,
+          "pmcid": null
+        },
+        "identifiers": {
+          "pmid": "32421776",
+          "doi": "10.1093/toxsci/kfaa071",
+          "pmcid": null
+        },
+        "status": "partial",
+        "alternatives": {
+          "pmid": [
+            "32421776"
+          ],
+          "doi": [
+            "10.1093/toxsci/kfaa071"
+          ],
+          "pmcid": []
+        },
+        "evidence": [
+          {
+            "identifiers": {
+              "pmid": "32421776",
+              "doi": "10.1093/toxsci/kfaa071",
+              "pmcid": null
+            },
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=30932271%2C30944478%2C30951565%2C30962421%2C30971826%2C30991026%2C30995489%2C31010806%2C31019072%2C31038839%2C31040274%2C31048320%2C31048321%2C31059574%2C31076567%2C31108395%2C31133756%2C31142663%2C31147448%2C31160565%2C31165872%2C31209294%2C31213543%2C31219803%2C31253397%2C31270356%2C31287994%2C31294695%2C31300418%2C31316073%2C31346084%2C31353312%2C31353801%2C31365872%2C31406246%2C31406271%2C31437751%2C31451760%2C31452512%2C31462500%2C31508283%2C31508509%2C31509742%2C31519728%2C31519875%2C31527793%2C31540829%2C31543463%2C31551363%2C31558468%2C31564637%2C31570734%2C31587919%2C31594818%2C31604991%2C31618756%2C31657721%2C31666400%2C31692446%2C31723608%2C31727847%2C31730859%2C31741433%2C31744829%2C31761535%2C31792210%2C31801065%2C31818950%2C31855178%2C31868589%2C31882897%2C31903165%2C31915280%2C31919360%2C31921143%2C31959936%2C32005668%2C32028983%2C32075772%2C32094149%2C32142663%2C32156810%2C32160526%2C32238925%2C32259488%2C32268084%2C32299104%2C32315601%2C32355287%2C32416067%2C32421776%2C32424339%2C32499641%2C32528131%2C32542389%2C32579974%2C32585766%2C32640256%2C32649862%2C32668236&retmode=xml&tool=deathmap_ai",
+            "retrieved_at": "2026-10-08T01:37:56.574050+00:00",
+            "response_sha256": "21786aacf01be17cea2401daf1833ab8b82ec384a169e5bf6f15e51350cfe075"
+          }
+        ]
+      }
+    },
+    "_input_provenance": {
+      "file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\publication-index.json",
+      "sha256": "63cb33b7095108e7a0776950e9c258e7b65fe148ca6b12ae75cd4dd914ad6c89",
+      "locator": "PUBLICATION_ID=311"
+    }
+  },
+  "status": "complete",
+  "source_code_sha256": "c9e115559a404d2efb27413042c5a3b1b3796bd08d8d81d38fdd8f6f1af80072",
+  "limits": {
+    "request_attempts": 100,
+    "seconds": 600,
+    "series": 100,
+    "target_uids_per_route": 1000,
+    "attempts_per_request": 2,
+    "timeout_seconds": 30,
+    "pacing_seconds": 0.4
+  },
+  "total_gse_count": 0,
+  "finished_utc": "2026-10-11T17:59:15.766730+00:00",
+  "request_attempts": 2
+}

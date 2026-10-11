@@ -1,0 +1,153 @@
+{
+  "publication": {
+    "PUBLICATION_ID": "168",
+    "SOURCE_TYPE": "pubmed",
+    "SOURCE_ID": "31253397",
+    "TITLE": "Establishment of a system for screening autophagic flux regulators using a modified fluorescent reporter and CRISPR/Cas9.",
+    "AUTHORS": "Yazawa R, Nishida Y, Aoyama S, Tanida I, Miyatsuka T, Suzuki L, Himuro M, Haruna H, Takubo N, Shimizu T, Watada H",
+    "ABSTRACT": "Autophagy is a mechanism of bulk protein degradation that plays an important role in regulating homeostasis in many organisms. Among several methods for evaluating its activity, a fluorescent reporter GFP-LC3-RFP-LC3ΔG, in which GFP-LC3 is cleaved by ATG4 following autophagic induction and degraded in lysosome, has been used for monitoring autophagic flux, which is the amount of lysosomal protein degradation. In this study, we modified this reporter by exchanging GFP for pHluorin, which is more sensitive to low pH, and RFP to mCherry, to construct pHluorin-LC3-mCherry reporter. Following starvation or mTOR inhibition, the increase of autophagic flux was detected by a decrease of the fluorescent ratio of pHluorin to mCherry; our reporter was also more sensitive to autophagy-inducing stimuli than the previous one. To establish monitoring cells for mouse genome-wide screening of regulators of autophagic flux based on CRISPR/Cas9 system, after evaluating knockout efficiency of clones of Cas9-expressing MEFs, we co-expressed our reporter and confirmed that autophagic flux was impaired in gRNA-mediated knockout of canonical autophagy genes. Finally, we performed genome-wide gRNA screening for genes inhibiting starvation-mediated autophagic flux and identified previously reported genes such as Atgs. Thus, we have successfully established a system for screening of genes regulating autophagic flux with our pHluorin-LC3-mCherry reporter in mice.",
+    "JOURNAL": "Biochemical and biophysical research communications",
+    "PUBLICATION_DATE": "2019-08-27",
+    "PAGE_SOURCE_TYPE": "pubmed",
+    "PAGE_SOURCE_ID": "31253397",
+    "PMID": "31253397",
+    "DOI": "10.1016/j.bbrc.2019.06.129",
+    "SUPPLEMENTARY_FILES": [
+      {
+        "label": "1-s2.0-S0006291X19312677-mmc1.xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/5da4a8a80615b/1-s2.0-S0006291X19312677-mmc1.xlsx"
+      }
+    ],
+    "LINKS": [
+      {
+        "label": "Pubmed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31253397"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/scholar?as_occt=title&as_q=Establishment+of+a+system+for+screening+autophagic+flux+regulators+using+a+modified+fluorescent+reporter+and+CRISPR%2FCas9."
+      },
+      {
+        "label": "31253397",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31253397"
+      },
+      {
+        "label": "1-s2.0-S0006291X19312677-mmc1.xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/5da4a8a80615b/1-s2.0-S0006291X19312677-mmc1.xlsx"
+      }
+    ],
+    "SCREEN_IDS": [
+      "1043",
+      "1044"
+    ],
+    "SCREEN_COUNT": 2,
+    "PUBLICATION_URL": "https://orcs.thebiogrid.org/Dataset/168",
+    "FIELD_LOCATORS": {
+      "TITLE": "#resultsHeaderBlock h1",
+      "AUTHORS": "#resultsHeaderBlock .subhead",
+      "ABSTRACT": "#resultsHeaderBlock .bgGrey",
+      "JOURNAL": ".linkouts citation strong",
+      "PUBLICATION_DATE": ".linkouts citation",
+      "SUPPLEMENTARY_FILES": ".linkouts Supplementary Files"
+    },
+    "REVIEW_ISSUES": [],
+    "RETRIEVED_AT": "2026-10-04T05:08:12.940949+00:00",
+    "SOURCE_METADATA_FILE": "data/orcs/publication-source/20261004-v01/168.metadata.html",
+    "SOURCE_METADATA_SHA256": "8eb6fb3e8f6ca6606276813bd01e4b6cfb86b4349ebd7cd28af3f530c42dc5d3",
+    "PMCID": null,
+    "IDENTIFIER_ENRICHMENT": {
+      "added_fields": [
+        "DOI"
+      ],
+      "resolution": {
+        "input": {
+          "pmid": "31253397",
+          "doi": null,
+          "pmcid": null
+        },
+        "identifiers": {
+          "pmid": "31253397",
+          "doi": "10.1016/j.bbrc.2019.06.129",
+          "pmcid": null
+        },
+        "status": "partial",
+        "alternatives": {
+          "pmid": [
+            "31253397"
+          ],
+          "doi": [
+            "10.1016/j.bbrc.2019.06.129"
+          ],
+          "pmcid": []
+        },
+        "evidence": [
+          {
+            "identifiers": {
+              "pmid": "31253397",
+              "doi": "10.1016/j.bbrc.2019.06.129",
+              "pmcid": null
+            },
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=30932271%2C30944478%2C30951565%2C30962421%2C30971826%2C30991026%2C30995489%2C31010806%2C31019072%2C31038839%2C31040274%2C31048320%2C31048321%2C31059574%2C31076567%2C31108395%2C31133756%2C31142663%2C31147448%2C31160565%2C31165872%2C31209294%2C31213543%2C31219803%2C31253397%2C31270356%2C31287994%2C31294695%2C31300418%2C31316073%2C31346084%2C31353312%2C31353801%2C31365872%2C31406246%2C31406271%2C31437751%2C31451760%2C31452512%2C31462500%2C31508283%2C31508509%2C31509742%2C31519728%2C31519875%2C31527793%2C31540829%2C31543463%2C31551363%2C31558468%2C31564637%2C31570734%2C31587919%2C31594818%2C31604991%2C31618756%2C31657721%2C31666400%2C31692446%2C31723608%2C31727847%2C31730859%2C31741433%2C31744829%2C31761535%2C31792210%2C31801065%2C31818950%2C31855178%2C31868589%2C31882897%2C31903165%2C31915280%2C31919360%2C31921143%2C31959936%2C32005668%2C32028983%2C32075772%2C32094149%2C32142663%2C32156810%2C32160526%2C32238925%2C32259488%2C32268084%2C32299104%2C32315601%2C32355287%2C32416067%2C32421776%2C32424339%2C32499641%2C32528131%2C32542389%2C32579974%2C32585766%2C32640256%2C32649862%2C32668236&retmode=xml&tool=deathmap_ai",
+            "retrieved_at": "2026-10-08T01:37:56.574050+00:00",
+            "response_sha256": "21786aacf01be17cea2401daf1833ab8b82ec384a169e5bf6f15e51350cfe075"
+          }
+        ]
+      }
+    },
+    "_input_provenance": {
+      "file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\publication-index.json",
+      "sha256": "63cb33b7095108e7a0776950e9c258e7b65fe148ca6b12ae75cd4dd914ad6c89",
+      "locator": "PUBLICATION_ID=168"
+    }
+  },
+  "candidates": [],
+  "routes": {
+    "pubmed_geo_links": {
+      "status": "complete",
+      "native_target_count": 0,
+      "distinct_gse_count": 0
+    },
+    "pubmed_accession_list": {
+      "status": "complete",
+      "distinct_gse_count": 0
+    },
+    "publication_title_phrase": {
+      "status": "complete",
+      "query": "\"Establishment of a system for screening autophagic flux regulators using a modified fluorescent reporter and CRISPR/Cas9\"[All Fields] AND gse[Entry Type]",
+      "count": 0,
+      "query_translation": "\"Establishment of a system for screening autophagic flux regulators using a modified fluorescent reporter and CRISPR/Cas9\"[All Fields] AND gse[Entry Type]",
+      "warnings": {
+        "phrasesignored": [],
+        "quotedphrasesnotfound": [
+          "\"Establishment of a system for screening autophagic flux regulators using a modified fluorescent reporter and CRISPR/Cas9\"[All Fields]"
+        ],
+        "outputmessages": [
+          "No items found."
+        ]
+      },
+      "distinct_gse_count": 0
+    },
+    "europepmc_annotations": {
+      "status": "complete",
+      "distinct_gse_count": 0
+    },
+    "europepmc_datalinks": {
+      "status": "complete",
+      "service_version": "6.9",
+      "distinct_gse_count": 0
+    },
+    "pubmed_bioproject_geo": {
+      "status": "complete",
+      "bioproject_uids": [],
+      "distinct_gse_count": 0
+    },
+    "series_hierarchy": {
+      "status": "complete",
+      "distinct_gse_count": 0
+    }
+  },
+  "seed_count": 0,
+  "total_gse_count": 0,
+  "hierarchy_added": [],
+  "evidence": []
+}

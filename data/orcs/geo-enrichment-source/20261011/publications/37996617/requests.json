@@ -1,0 +1,86 @@
+[
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=gds&id=37996617&linkname=pubmed_gds&cmd=neighbor&retmode=json",
+    "file": "raw/selected-0000.response",
+    "sha256": "3d2cb8e34278dd493e6daf43798896cc96fa7b79c63bc000075d7873a166621f",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:09:27.526606+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\66129947701bfba36afd3744f19e49be566dca40a48c89cc305ca5ebda588448.json",
+        "sha256": "66129947701bfba36afd3744f19e49be566dca40a48c89cc305ca5ebda588448",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\pubmed-enrichment-source\\20261008\\links-gds-8.json",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=gds&linkname=pubmed_gds&id=37996617&id=38291084&id=38395437&id=38885264&id=39316623&id=39547224&id=39681701&id=40372436&id=40632661&id=40667754&id=40683967&id=40813572&id=40852982&id=40899441&id=40909557&cmd=neighbor&retmode=json",
+        "locator": "linksets[0]",
+        "retrieved_utc": "2026-10-08T23:17:40.845535+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=37996617&retmode=xml",
+    "file": "raw/selected-0001.response",
+    "sha256": "22e855f88597cb48733d61415c112a296f371efd8ebb5da05066e0e26fb9fb51",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:09:27.532164+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\aaf08f8cdcd67a739e511ba72dd0b1838238dd3c7a63c3c19e7a8d80106d71aa.xml",
+        "sha256": "aaf08f8cdcd67a739e511ba72dd0b1838238dd3c7a63c3c19e7a8d80106d71aa",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\pubmed-enrichment-source\\20261008\\pubmed-4.xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=37996617%2C38291084%2C38395437%2C38885264%2C39316623%2C39547224%2C39681701%2C40372436%2C40632661%2C40667754%2C40683967%2C40813572%2C40852982%2C40899441%2C40909557&retmode=xml",
+        "locator": "PubmedArticle[0]",
+        "retrieved_utc": "2026-10-08T23:16:52.371170+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=%22High-throughput+screening+of+genetic+and+cellular+drivers+of+syncytium+formation+induced+by+the+spike+protein+of+SARS-CoV-2%22%5BAll+Fields%5D+AND+gse%5BEntry+Type%5D&retmode=json&retmax=1000",
+    "file": "raw/selected-0002.response",
+    "sha256": "17a8dc654cb3e9b8bda335def67f8e93ef01436cc679b409dc6eb9554d87ab08",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:09:27.536679+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\17a8dc654cb3e9b8bda335def67f8e93ef01436cc679b409dc6eb9554d87ab08.json",
+        "sha256": "17a8dc654cb3e9b8bda335def67f8e93ef01436cc679b409dc6eb9554d87ab08",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\outputs\\geo\\title-search-expansion\\20261010\\raw\\search-941-phrase.json",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=%22High-throughput+screening+of+genetic+and+cellular+drivers+of+syncytium+formation+induced+by+the+spike+protein+of+SARS-CoV-2%22%5BAll+Fields%5D+AND+gse%5BEntry+Type%5D&retmode=json&retmax=100",
+        "locator": "complete esearchresult",
+        "retrieved_utc": "2026-10-10T17:23:30.287019+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A37996617&type=Accession+Numbers&format=JSON",
+    "attempt": 1,
+    "retrieved_utc": "2026-10-11T18:09:27.536679+00:00",
+    "http_status": 200,
+    "file": "raw/live-00003.response",
+    "sha256": "aec5ce4f2d76148182eb0986c9a333ab3b0596752734df77390bbc90e443abb1"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/MED/37996617/datalinks?format=json&category=GEO&sectionLimit=1000",
+    "attempt": 1,
+    "retrieved_utc": "2026-10-11T18:09:28.442045+00:00",
+    "http_status": 200,
+    "file": "raw/live-00004.response",
+    "sha256": "8621a5c5c3898724e7bdcb7908e5836b2307bc51876e7a65a59e584635fcaab7"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=bioproject&id=37996617&linkname=pubmed_bioproject&cmd=neighbor&retmode=json",
+    "file": "raw/selected-0005.response",
+    "sha256": "3d2cb8e34278dd493e6daf43798896cc96fa7b79c63bc000075d7873a166621f",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:09:29.514959+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\f24e21584023a0722b238ae4b718561eb51523c686ed539b80d80b1f47a67fb0.json",
+        "sha256": "f24e21584023a0722b238ae4b718561eb51523c686ed539b80d80b1f47a67fb0",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\pubmed-enrichment-source\\20261008\\links-bioproject-8.json",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=bioproject&linkname=pubmed_bioproject&id=37996617&id=38291084&id=38395437&id=38885264&id=39316623&id=39547224&id=39681701&id=40372436&id=40632661&id=40667754&id=40683967&id=40813572&id=40852982&id=40899441&id=40909557&cmd=neighbor&retmode=json",
+        "locator": "linksets[0]",
+        "retrieved_utc": "2026-10-08T23:18:32.004224+00:00"
+      }
+    ]
+  }
+]

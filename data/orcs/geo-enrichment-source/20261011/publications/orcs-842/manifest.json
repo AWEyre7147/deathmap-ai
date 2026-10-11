@@ -1,0 +1,107 @@
+{
+  "strategy": "geo-accession-identification-v1",
+  "package_version": "0.1.0",
+  "started_utc": "2026-10-11T18:08:09.218873+00:00",
+  "publication": {
+    "PUBLICATION_ID": "842",
+    "SOURCE_TYPE": "prepub",
+    "SOURCE_ID": "10.1101/2023.01.23.525275",
+    "TITLE": "Genome-wide CRISPR screens identify noncanonical translation factor eIF2A as an enhancer of SARS-CoV-2 programmed –1 ribosomal frameshifting",
+    "AUTHORS": "Wei LH, Sun Y, Guo JU",
+    "ABSTRACT": "Many positive-strand RNA viruses, including all known coronaviruses, employ programmed –1 ribosomal frameshifting (–1 PRF) to regulate the translation of polycistronic viral RNAs. However, only a few host factors have been shown to regulate –1 PRF. Through a reporter-based genome-wide CRISPR/Cas9 knockout screen, we identified several host factors that either suppressed or enhanced –1 PRF of SARS-CoV-2. One of these factors is eukaryotic translation initiation factor 2A (eIF2A), which specifically and directly enhanced –1 PRF in vitro and in cells. Consistent with the crucial role of efficient –1 PRF in transcriptase/replicase expression, loss of eIF2A reduced SARS-CoV-2 replication in cells. Transcriptome-wide analysis of eIF2A-interacting RNAs showed that eIF2A primarily interacted with 18S ribosomal RNA near the contacts between the SARS-CoV-2 frameshift-stimulatory element (FSE) and the ribosome. Thus, our results revealed an unexpected role for eIF2A in modulating the translation of specific RNAs independent of its previously described role during initiation.",
+    "JOURNAL": null,
+    "PUBLICATION_DATE": "2023-02-20",
+    "PAGE_SOURCE_TYPE": "pubmed",
+    "PAGE_SOURCE_ID": "22",
+    "PMID": null,
+    "DOI": "10.1101/2023.01.23.525275",
+    "SUPPLEMENTARY_FILES": [
+      {
+        "label": "CRISPR-Wei-Guo-dataset-2023.xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/63f3a5da74e9a/CRISPR-Wei-Guo-dataset-2023.xlsx"
+      }
+    ],
+    "LINKS": [
+      {
+        "label": "Pubmed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/scholar?as_occt=title&as_q=Genome-wide+CRISPR+screens+identify+noncanonical+translation+factor+eIF2A+as+an+enhancer+of+SARS-CoV-2+programmed+%E2%80%931+ribosomal+frameshifting"
+      },
+      {
+        "label": "22",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22"
+      },
+      {
+        "label": "CRISPR-Wei-Guo-dataset-2023.xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/63f3a5da74e9a/CRISPR-Wei-Guo-dataset-2023.xlsx"
+      }
+    ],
+    "SCREEN_IDS": [
+      "1987",
+      "1988"
+    ],
+    "SCREEN_COUNT": 2,
+    "PUBLICATION_URL": "https://orcs.thebiogrid.org/Dataset/842",
+    "FIELD_LOCATORS": {
+      "TITLE": "#resultsHeaderBlock h1",
+      "AUTHORS": "#resultsHeaderBlock .subhead",
+      "ABSTRACT": "#resultsHeaderBlock .bgGrey",
+      "JOURNAL": ".linkouts citation strong",
+      "PUBLICATION_DATE": ".linkouts citation",
+      "SUPPLEMENTARY_FILES": ".linkouts Supplementary Files"
+    },
+    "REVIEW_ISSUES": [
+      "Page-labelled source identifier differs from cached SOURCE_TYPE/SOURCE_ID; both preserved."
+    ],
+    "RETRIEVED_AT": "2026-10-04T05:13:01.398622+00:00",
+    "SOURCE_METADATA_FILE": "data/orcs/publication-source/20261004-v01/842.metadata.html",
+    "SOURCE_METADATA_SHA256": "ce5cd69fff1de3bab50a6bc1ba662d5df53d09654754099502e5a0c79254e563",
+    "PMCID": null,
+    "IDENTIFIER_ENRICHMENT": {
+      "added_fields": [],
+      "resolution": {
+        "input": {
+          "pmid": null,
+          "doi": "10.1101/2023.01.23.525275",
+          "pmcid": null
+        },
+        "identifiers": {
+          "pmid": null,
+          "doi": "10.1101/2023.01.23.525275",
+          "pmcid": null
+        },
+        "status": "unresolved",
+        "alternatives": {
+          "pmid": [],
+          "doi": [
+            "10.1101/2023.01.23.525275"
+          ],
+          "pmcid": []
+        },
+        "evidence": []
+      }
+    },
+    "_input_provenance": {
+      "file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\publication-index.json",
+      "sha256": "63cb33b7095108e7a0776950e9c258e7b65fe148ca6b12ae75cd4dd914ad6c89",
+      "locator": "PUBLICATION_ID=842"
+    }
+  },
+  "status": "complete",
+  "source_code_sha256": "1e62a9364e02df38d28540f2c3211fbc696f04678f5fa977cf989e31578b60bf",
+  "limits": {
+    "request_attempts": 100,
+    "seconds": 600,
+    "series": 100,
+    "target_uids_per_route": 1000,
+    "attempts_per_request": 2,
+    "timeout_seconds": 30,
+    "pacing_seconds": 0.4
+  },
+  "total_gse_count": 1,
+  "finished_utc": "2026-10-11T18:08:09.239407+00:00",
+  "request_attempts": 0
+}

@@ -1,0 +1,93 @@
+{
+  "GSE72840": {
+    "gse": "GSE72840",
+    "native_pmids": [
+      "28611215"
+    ],
+    "hierarchy": [
+      {
+        "from_gse": "GSE72840",
+        "to_gse": "GSE72844",
+        "relation": "SubSeries of",
+        "native_value": "SubSeries of: GSE72844"
+      }
+    ],
+    "source_file": "raw/cache-0015.response"
+  },
+  "GSE72842": {
+    "gse": "GSE72842",
+    "native_pmids": [
+      "28611215"
+    ],
+    "hierarchy": [
+      {
+        "from_gse": "GSE72842",
+        "to_gse": "GSE72844",
+        "relation": "SubSeries of",
+        "native_value": "SubSeries of: GSE72844"
+      }
+    ],
+    "source_file": "raw/cache-0016.response"
+  },
+  "GSE72843": {
+    "gse": "GSE72843",
+    "native_pmids": [
+      "28611215"
+    ],
+    "hierarchy": [
+      {
+        "from_gse": "GSE72843",
+        "to_gse": "GSE72844",
+        "relation": "SubSeries of",
+        "native_value": "SubSeries of: GSE72844"
+      }
+    ],
+    "source_file": "raw/cache-0017.response"
+  },
+  "GSE72844": {
+    "gse": "GSE72844",
+    "native_pmids": [
+      "28611215"
+    ],
+    "hierarchy": [
+      {
+        "from_gse": "GSE72844",
+        "to_gse": "GSE72840",
+        "relation": "SuperSeries of",
+        "native_value": "SuperSeries of: GSE72840"
+      },
+      {
+        "from_gse": "GSE72844",
+        "to_gse": "GSE72841",
+        "relation": "SuperSeries of",
+        "native_value": "SuperSeries of: GSE72841"
+      },
+      {
+        "from_gse": "GSE72844",
+        "to_gse": "GSE72842",
+        "relation": "SuperSeries of",
+        "native_value": "SuperSeries of: GSE72842"
+      },
+      {
+        "from_gse": "GSE72844",
+        "to_gse": "GSE72843",
+        "relation": "SuperSeries of",
+        "native_value": "SuperSeries of: GSE72843"
+      }
+    ],
+    "source_file": "raw/cache-0018.response"
+  },
+  "GSE72841": {
+    "gse": "GSE72841",
+    "native_pmids": [],
+    "hierarchy": [
+      {
+        "from_gse": "GSE72841",
+        "to_gse": "GSE72844",
+        "relation": "SubSeries of",
+        "native_value": "SubSeries of: GSE72844"
+      }
+    ],
+    "source_file": "raw/cache-0019.response"
+  }
+}

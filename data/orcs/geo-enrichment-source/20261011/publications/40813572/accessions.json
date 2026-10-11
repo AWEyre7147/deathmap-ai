@@ -1,0 +1,303 @@
+{
+  "publication": {
+    "PUBLICATION_ID": "1161",
+    "SOURCE_TYPE": "pubmed",
+    "SOURCE_ID": "40813572",
+    "TITLE": "Large-scale CRISPR screening in primary human 3D gastric organoids enables comprehensive dissection of gene-drug interactions.",
+    "AUTHORS": "Lo YH, Horn HT, Huang MF, Yu WC, Young CM, Liu Q, Tomaske M, Towers M, Dominguez A, Bassik MC, Lee DF, Qi LS, Weissman JS, Chen J, Kuo CJ",
+    "ABSTRACT": "Understanding how genes influence drug responses is critical for advancing personalized cancer treatments. However, identifying these gene-drug interactions in a physiologically relevant human system remains a challenge, as it requires a model that reflects the complexity and heterogeneity among individuals. Here we show that large-scale CRISPR-based genetic screens, including knockout, interference (CRISPRi), activation (CRISPRa), and single-cell approaches, can be applied in primary human 3D gastric organoids to systematically identify genes that affect sensitivity to cisplatin. Our screens uncover genes that modulate cisplatin response. By combining CRISPR perturbations with single-cell transcriptomics, we resolve how genetic alterations interact with cisplatin at the level of individual cells and uncover an unexpected link between fucosylation and cisplatin sensitivity. We identify TAF6L as a regulator of cell recovery from cisplatin-induced cytotoxicity. These results highlight the utility of human organoid models for dissecting gene-drug interactions and offer insights into therapeutic vulnerabilities in gastric cancer.",
+    "JOURNAL": "Nature communications",
+    "PUBLICATION_DATE": "2025-08-14",
+    "PAGE_SOURCE_TYPE": "pubmed",
+    "PAGE_SOURCE_ID": "40813572",
+    "PMID": "40813572",
+    "DOI": "10.1038/s41467-025-62818-3",
+    "SUPPLEMENTARY_FILES": [
+      {
+        "label": "PMID40813572-sup-data.xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/68bf25876595c/PMID40813572-sup-data.xlsx"
+      }
+    ],
+    "LINKS": [
+      {
+        "label": "Pubmed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40813572"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/scholar?as_occt=title&as_q=Large-scale+CRISPR+screening+in+primary+human+3D+gastric+organoids+enables+comprehensive+dissection+of+gene-drug+interactions."
+      },
+      {
+        "label": "40813572",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40813572"
+      },
+      {
+        "label": "PMID40813572-sup-data.xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/68bf25876595c/PMID40813572-sup-data.xlsx"
+      }
+    ],
+    "SCREEN_IDS": [
+      "2476",
+      "2479",
+      "2480",
+      "2481",
+      "2482"
+    ],
+    "SCREEN_COUNT": 5,
+    "PUBLICATION_URL": "https://orcs.thebiogrid.org/Dataset/1161",
+    "FIELD_LOCATORS": {
+      "TITLE": "#resultsHeaderBlock h1",
+      "AUTHORS": "#resultsHeaderBlock .subhead",
+      "ABSTRACT": "#resultsHeaderBlock .bgGrey",
+      "JOURNAL": ".linkouts citation strong",
+      "PUBLICATION_DATE": ".linkouts citation",
+      "SUPPLEMENTARY_FILES": ".linkouts Supplementary Files"
+    },
+    "REVIEW_ISSUES": [],
+    "RETRIEVED_AT": "2026-10-04T05:15:01.309042+00:00",
+    "SOURCE_METADATA_FILE": "data/orcs/publication-source/20261004-v01/1161.metadata.html",
+    "SOURCE_METADATA_SHA256": "0326bc7f89937c46f8e0ab0d3fd2fd27bd285891dcb0fece49c41a6fe65ac840",
+    "PMCID": "PMC12354852",
+    "IDENTIFIER_ENRICHMENT": {
+      "added_fields": [
+        "DOI",
+        "PMCID"
+      ],
+      "resolution": {
+        "input": {
+          "pmid": "40813572",
+          "doi": null,
+          "pmcid": null
+        },
+        "identifiers": {
+          "pmid": "40813572",
+          "doi": "10.1038/s41467-025-62818-3",
+          "pmcid": "PMC12354852"
+        },
+        "status": "resolved",
+        "alternatives": {
+          "pmid": [
+            "40813572"
+          ],
+          "doi": [
+            "10.1038/s41467-025-62818-3"
+          ],
+          "pmcid": [
+            "PMC12354852"
+          ]
+        },
+        "evidence": [
+          {
+            "identifiers": {
+              "pmid": "40813572",
+              "doi": "10.1038/s41467-025-62818-3",
+              "pmcid": "PMC12354852"
+            },
+            "url": "https://pmc.ncbi.nlm.nih.gov/tools/idconv/api/v1/articles/?ids=38395437%2C38885264%2C39316623%2C39547224%2C39681701%2C40372436%2C40632661%2C40667754%2C40683967%2C40813572%2C40852982%2C40899441&idtype=pmid&format=json&tool=deathmap_ai",
+            "retrieved_at": "2026-10-08T01:37:52.241413+00:00",
+            "response_sha256": "39757bbf31d50401323249926a21da16c8c42c2ed73b4c55e8c306759830b4a6"
+          },
+          {
+            "identifiers": {
+              "pmid": "40813572",
+              "doi": "10.1038/s41467-025-62818-3",
+              "pmcid": "PMC12354852"
+            },
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=37996617%2C38291084%2C38395437%2C38885264%2C39316623%2C39547224%2C39681701%2C40372436%2C40632661%2C40667754%2C40683967%2C40813572%2C40852982%2C40899441%2C40909557&retmode=xml&tool=deathmap_ai",
+            "retrieved_at": "2026-10-08T01:38:01.416850+00:00",
+            "response_sha256": "aaf08f8cdcd67a739e511ba72dd0b1838238dd3c7a63c3c19e7a8d80106d71aa"
+          }
+        ]
+      }
+    },
+    "_input_provenance": {
+      "file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\publication-index.json",
+      "sha256": "63cb33b7095108e7a0776950e9c258e7b65fe148ca6b12ae75cd4dd914ad6c89",
+      "locator": "PUBLICATION_ID=1161"
+    }
+  },
+  "candidates": [
+    {
+      "gse": "GSE280256",
+      "pmid": "40813572",
+      "routes": [
+        "pubmed_bioproject_geo",
+        "pubmed_geo_links"
+      ],
+      "hierarchy_only": false,
+      "native_pmids": [
+        "40813572"
+      ],
+      "citation_comparison": "matches_origin",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE280257",
+      "pmid": "40813572",
+      "routes": [
+        "pubmed_bioproject_geo",
+        "pubmed_geo_links"
+      ],
+      "hierarchy_only": false,
+      "native_pmids": [
+        "40813572"
+      ],
+      "citation_comparison": "matches_origin",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE280506",
+      "pmid": "40813572",
+      "routes": [
+        "publication_title_phrase",
+        "pubmed_bioproject_geo",
+        "pubmed_geo_links"
+      ],
+      "hierarchy_only": false,
+      "native_pmids": [
+        "40813572"
+      ],
+      "citation_comparison": "matches_origin",
+      "data_role": "not_assessed"
+    }
+  ],
+  "routes": {
+    "pubmed_geo_links": {
+      "status": "complete",
+      "native_target_count": 3,
+      "distinct_gse_count": 3
+    },
+    "pubmed_accession_list": {
+      "status": "complete",
+      "distinct_gse_count": 0
+    },
+    "publication_title_phrase": {
+      "status": "complete",
+      "query": "\"Large-scale CRISPR screening in primary human 3D gastric organoids enables comprehensive dissection of gene-drug interactions\"[All Fields] AND gse[Entry Type]",
+      "count": 1,
+      "query_translation": "\"Large-scale CRISPR screening in primary human 3D gastric organoids enables comprehensive dissection of gene-drug interactions\"[All Fields] AND gse[Entry Type]",
+      "warnings": null,
+      "distinct_gse_count": 1
+    },
+    "europepmc_annotations": {
+      "status": "complete",
+      "distinct_gse_count": 0
+    },
+    "europepmc_datalinks": {
+      "status": "complete",
+      "service_version": "6.9",
+      "category": "GEO",
+      "section_limit": 1000,
+      "distinct_gse_count": 0
+    },
+    "pubmed_bioproject_geo": {
+      "status": "complete",
+      "bioproject_uids": [
+        "1177460",
+        "1177462",
+        "1178722"
+      ],
+      "distinct_gse_count": 3
+    },
+    "series_hierarchy": {
+      "status": "complete",
+      "distinct_gse_count": 0
+    }
+  },
+  "seed_count": 3,
+  "total_gse_count": 3,
+  "hierarchy_added": [],
+  "evidence": [
+    {
+      "pmid": "40813572",
+      "publication_id": "1161",
+      "gse": "GSE280256",
+      "route": "pubmed_geo_links",
+      "source_file": "raw/selected-0000.response",
+      "locator": "target_uid=200280256",
+      "data_role": "not_assessed",
+      "summary_source": "raw/selected-0001.response",
+      "native_uid": "200280256",
+      "evidence_kind": "direct_repository_link"
+    },
+    {
+      "pmid": "40813572",
+      "publication_id": "1161",
+      "gse": "GSE280257",
+      "route": "pubmed_geo_links",
+      "source_file": "raw/selected-0000.response",
+      "locator": "target_uid=200280257",
+      "data_role": "not_assessed",
+      "summary_source": "raw/selected-0001.response",
+      "native_uid": "200280257",
+      "evidence_kind": "direct_repository_link"
+    },
+    {
+      "pmid": "40813572",
+      "publication_id": "1161",
+      "gse": "GSE280506",
+      "route": "pubmed_geo_links",
+      "source_file": "raw/selected-0000.response",
+      "locator": "target_uid=200280506",
+      "data_role": "not_assessed",
+      "summary_source": "raw/selected-0001.response",
+      "native_uid": "200280506",
+      "evidence_kind": "direct_repository_link"
+    },
+    {
+      "pmid": "40813572",
+      "publication_id": "1161",
+      "gse": "GSE280506",
+      "route": "publication_title_phrase",
+      "source_file": "raw/selected-0003.response",
+      "locator": "target_uid=200280506",
+      "data_role": "not_assessed",
+      "summary_source": "raw/selected-0004.response",
+      "native_uid": "200280506",
+      "evidence_kind": "title_candidate",
+      "query": "\"Large-scale CRISPR screening in primary human 3D gastric organoids enables comprehensive dissection of gene-drug interactions\"[All Fields] AND gse[Entry Type]"
+    },
+    {
+      "pmid": "40813572",
+      "publication_id": "1161",
+      "gse": "GSE280256",
+      "route": "pubmed_bioproject_geo",
+      "source_file": "raw/selected-0008.response",
+      "locator": "target_uid=200280256",
+      "data_role": "not_assessed",
+      "summary_source": "raw/selected-0009.response",
+      "native_uid": "200280256",
+      "evidence_kind": "indirect_repository_path",
+      "bioproject_uid": "1177460",
+      "publication_project_source": "raw/selected-0007.response"
+    },
+    {
+      "pmid": "40813572",
+      "publication_id": "1161",
+      "gse": "GSE280257",
+      "route": "pubmed_bioproject_geo",
+      "source_file": "raw/selected-0010.response",
+      "locator": "target_uid=200280257",
+      "data_role": "not_assessed",
+      "summary_source": "raw/selected-0011.response",
+      "native_uid": "200280257",
+      "evidence_kind": "indirect_repository_path",
+      "bioproject_uid": "1177462",
+      "publication_project_source": "raw/selected-0007.response"
+    },
+    {
+      "pmid": "40813572",
+      "publication_id": "1161",
+      "gse": "GSE280506",
+      "route": "pubmed_bioproject_geo",
+      "source_file": "raw/selected-0012.response",
+      "locator": "target_uid=200280506",
+      "data_role": "not_assessed",
+      "summary_source": "raw/selected-0013.response",
+      "native_uid": "200280506",
+      "evidence_kind": "indirect_repository_path",
+      "bioproject_uid": "1178722",
+      "publication_project_source": "raw/selected-0007.response"
+    }
+  ]
+}

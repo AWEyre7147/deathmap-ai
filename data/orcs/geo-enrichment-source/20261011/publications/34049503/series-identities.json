@@ -1,0 +1,112 @@
+{
+  "GSE131596": {
+    "gse": "GSE131596",
+    "native_pmids": [
+      "34049503"
+    ],
+    "hierarchy": [],
+    "source_file": "raw/cache-0016.response"
+  },
+  "GSE157096": {
+    "gse": "GSE157096",
+    "native_pmids": [
+      "34049503"
+    ],
+    "hierarchy": [
+      {
+        "from_gse": "GSE157096",
+        "to_gse": "GSE158541",
+        "relation": "SubSeries of",
+        "native_value": "SubSeries of: GSE158541"
+      }
+    ],
+    "source_file": "raw/cache-0017.response"
+  },
+  "GSE158540": {
+    "gse": "GSE158540",
+    "native_pmids": [
+      "34049503"
+    ],
+    "hierarchy": [
+      {
+        "from_gse": "GSE158540",
+        "to_gse": "GSE158541",
+        "relation": "SubSeries of",
+        "native_value": "SubSeries of: GSE158541"
+      }
+    ],
+    "source_file": "raw/cache-0018.response"
+  },
+  "GSE158541": {
+    "gse": "GSE158541",
+    "native_pmids": [
+      "34049503"
+    ],
+    "hierarchy": [
+      {
+        "from_gse": "GSE158541",
+        "to_gse": "GSE157096",
+        "relation": "SuperSeries of",
+        "native_value": "SuperSeries of: GSE157096"
+      },
+      {
+        "from_gse": "GSE158541",
+        "to_gse": "GSE158540",
+        "relation": "SuperSeries of",
+        "native_value": "SuperSeries of: GSE158540"
+      }
+    ],
+    "source_file": "raw/cache-0019.response"
+  },
+  "GSE79670": {
+    "gse": "GSE79670",
+    "native_pmids": [
+      "27282075"
+    ],
+    "hierarchy": [
+      {
+        "from_gse": "GSE79670",
+        "to_gse": "GSE79668",
+        "relation": "SuperSeries of",
+        "native_value": "SuperSeries of: GSE79668"
+      },
+      {
+        "from_gse": "GSE79670",
+        "to_gse": "GSE79669",
+        "relation": "SuperSeries of",
+        "native_value": "SuperSeries of: GSE79669"
+      }
+    ],
+    "source_file": "raw/live-00020.response"
+  },
+  "GSE79668": {
+    "gse": "GSE79668",
+    "native_pmids": [
+      "27282075"
+    ],
+    "hierarchy": [
+      {
+        "from_gse": "GSE79668",
+        "to_gse": "GSE79670",
+        "relation": "SubSeries of",
+        "native_value": "SubSeries of: GSE79670"
+      }
+    ],
+    "source_file": "raw/live-00021.response"
+  },
+  "GSE79669": {
+    "gse": "GSE79669",
+    "native_pmids": [
+      "27282075"
+    ],
+    "hierarchy": [
+      {
+        "from_gse": "GSE79669",
+        "to_gse": "GSE79670",
+        "relation": "SubSeries of",
+        "native_value": "SubSeries of: GSE79670"
+      }
+    ],
+    "source_file": "raw/live-00022.response"
+  }
+}

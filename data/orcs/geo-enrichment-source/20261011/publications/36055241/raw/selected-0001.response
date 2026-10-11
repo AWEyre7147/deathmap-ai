@@ -1,0 +1,321 @@
+<eSummaryResult><DocSum>
+	<Id>200200083</Id>
+	<Item Name="Accession" Type="String">GSE200083</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">Single cell transcriptional profile of SC-islet grafts in an in vivo humanized model [scRNA-seq_invivo]</Item>
+	<Item Name="summary" Type="String">To study immune responses in the context of human allogeneic graft rejection, we chose the Hu-PBL-NSG-MHCnull humanized mouse (Brehm et al., 2019). NOD-scid IL-2 receptor subunit &#947; (IL2rg)null (NSG) immunocompromised mice that lack murine MHC class I and II, were transplanted (under the kidney capsule, n=12) with 5M SC-islets (HLA-A2 positive), followed by human PBMC injection (termed &#8216;hPi-mice&#8217;; 50M/mouse, n=6) from healthy unmatched donors (HLA-A2 negative). The lack of murine MHC allowed us to monitor the graft function for prolonged durations without the risk of xenogeneic graft vs host disease (GVHD). Half of the SC-islet transplanted cohort (n=6 mice) was used as the control, without PBMC injection (Figure 1A). Since graft elimination by PBMCs is incomplete and residual endocrine cells remain in the hPi-mice grafts, we retrieved the SC-islet grafts for single cell RNA sequencing (scRNA-seq) analysis. These samples, along with pre-injected PBMCs as controls, were used for 10x Genomics mRNA expression library preparation and Illumina sequencing.</Item>
+	<Item Name="GPL" Type="String">11154</Item>
+	<Item Name="GSE" Type="String">200083</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2022/09/01</Item>
+	<Item Name="suppFile" Type="String">MTX, TSV</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008398</Item>
+			<Item Name="Title" Type="String">s165</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008401</Item>
+			<Item Name="Title" Type="String">s168</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008404</Item>
+			<Item Name="Title" Type="String">sBWH7</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008393</Item>
+			<Item Name="Title" Type="String">s163</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008396</Item>
+			<Item Name="Title" Type="String">sG957</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008399</Item>
+			<Item Name="Title" Type="String">s166</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008402</Item>
+			<Item Name="Title" Type="String">sG952</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008391</Item>
+			<Item Name="Title" Type="String">s84</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008394</Item>
+			<Item Name="Title" Type="String">s164</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008397</Item>
+			<Item Name="Title" Type="String">s83</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008400</Item>
+			<Item Name="Title" Type="String">s167</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008403</Item>
+			<Item Name="Title" Type="String">sBWH4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008395</Item>
+			<Item Name="Title" Type="String">sG953</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008392</Item>
+			<Item Name="Title" Type="String">s162</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List" />
+	<Item Name="n_samples" Type="Integer">14</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">36055241</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE200nnn/GSE200083/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200200084</Id>
+	<Item Name="Accession" Type="String">GSE200084</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">Immune challenged SC-islets first response profiled by single cell transcription analysis after co-culture with human allogeneic PBMCs [scRNA-seq_invitro]</Item>
+	<Item Name="summary" Type="String">We performed an in vitro co-culture of allogeneic PBMCs and SC-islet clusters. SC-islet clusters were enriched for &#946; cells (using CD49A magnetic sorting; SC-&#945; still remain at lower numbers) (Veres et al., 2019), dissociated and reaggregated to obtain a more uniform cell count between wells. SC-islets were co-cultured with human allogeneic PBMCs for 24 or 48 hours. As controls [time(t)=0], SC-islets remained in culture without PBMC addition. These samples, in addition to PBMCs alone (t=0), were used for scRNA-seq (Figure 2A).</Item>
+	<Item Name="GPL" Type="String">11154</Item>
+	<Item Name="GSE" Type="String">200084</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2022/09/01</Item>
+	<Item Name="suppFile" Type="String">MTX, TSV</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008408</Item>
+			<Item Name="Title" Type="String">SCb_BWH4_48h</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008405</Item>
+			<Item Name="Title" Type="String">SCb_24h</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008411</Item>
+			<Item Name="Title" Type="String">sBWH4 [re-used]</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008409</Item>
+			<Item Name="Title" Type="String">SCb_BWH7_24h</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008406</Item>
+			<Item Name="Title" Type="String">SCb_48h</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008412</Item>
+			<Item Name="Title" Type="String">sBWH7 [re-used]</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008410</Item>
+			<Item Name="Title" Type="String">SCb_BWH7_48h</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008407</Item>
+			<Item Name="Title" Type="String">SCb_BWH4_24h</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List" />
+	<Item Name="n_samples" Type="Integer">8</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">36055241</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE200nnn/GSE200084/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200200085</Id>
+	<Item Name="Accession" Type="String">GSE200085</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">Whole genome CRISPR screens in SC-islet grafts under allogeneic rejection (Hu. Mice) [CRISPR]</Item>
+	<Item Name="summary" Type="String">A whole genome screen using a CRISPR lentivirus library (Doench et al., 2016) was performed. The Brunello CRISPR library consists of a pool of 76,441 human targeting guide RNAs (gRNA) and 1000 control gRNAs [non-targeting (NT) or intergenic], in a lentiviral vector that expresses Cas9. The pooled library targets 19,114 human genes, most of them by four gRNA per gene. To avoid multiple different gRNA in cells and a nonspecific effect on the screen results (Doench, 2018), a low infection lentivirus titer (multiplicity of infection that is &lt;1) was used. Library transduced cells (LT SC-islets) were allowed at least 10 days for CRISPR editing, before transplantation to the NSG-MHCnull mouse model, where PBMCs were injected to half of the cohort (hPi mice: n=6, control mice: n=6) (Figures 3A). hPi mice retained levels of circulating T cells throughout the experiment (Figures S3A and S3B). Graft function and subsequent failure due to human PBMC injection was assessed (Figures 3B and S3C). When hPi graft failure was confirmed, 10 weeks after PBMC injection (Figure 3B), both control and hPi grafts were recovered from kidney sites, genomic DNA (gDNA) was extracted, and gRNA regions were amplified by PCR for Illumina sequencing.</Item>
+	<Item Name="GPL" Type="String">11154</Item>
+	<Item Name="GSE" Type="String">200085</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Other</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2022/09/01</Item>
+	<Item Name="suppFile" Type="String">CSV, TXT</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008413</Item>
+			<Item Name="Title" Type="String">control_hPi grafts_pooled_CRISPR</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List" />
+	<Item Name="n_samples" Type="Integer">1</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">36055241</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE200nnn/GSE200085/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200200104</Id>
+	<Item Name="Accession" Type="String">GSE200104</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">Whole genome CRISPR screening identifies genetic manipulations to reduce immune rejection of stem cell-derived islets</Item>
+	<Item Name="summary" Type="String">This SuperSeries is composed of the SubSeries listed below.</Item>
+	<Item Name="GPL" Type="String">11154</Item>
+	<Item Name="GSE" Type="String">200104</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing; Other</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2022/09/01</Item>
+	<Item Name="suppFile" Type="String">CSV, MTX, TSV, TXT</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008409</Item>
+			<Item Name="Title" Type="String">SCb_BWH7_24h</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008392</Item>
+			<Item Name="Title" Type="String">s162</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008412</Item>
+			<Item Name="Title" Type="String">sBWH7 [re-used]</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008398</Item>
+			<Item Name="Title" Type="String">s165</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008401</Item>
+			<Item Name="Title" Type="String">s168</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008395</Item>
+			<Item Name="Title" Type="String">sG953</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008407</Item>
+			<Item Name="Title" Type="String">SCb_BWH4_24h</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008404</Item>
+			<Item Name="Title" Type="String">sBWH7</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008396</Item>
+			<Item Name="Title" Type="String">sG957</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008413</Item>
+			<Item Name="Title" Type="String">control_hPi grafts_pooled_CRISPR</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008410</Item>
+			<Item Name="Title" Type="String">SCb_BWH7_48h</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008393</Item>
+			<Item Name="Title" Type="String">s163</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008399</Item>
+			<Item Name="Title" Type="String">s166</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008402</Item>
+			<Item Name="Title" Type="String">sG952</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008405</Item>
+			<Item Name="Title" Type="String">SCb_24h</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008408</Item>
+			<Item Name="Title" Type="String">SCb_BWH4_48h</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008397</Item>
+			<Item Name="Title" Type="String">s83</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008411</Item>
+			<Item Name="Title" Type="String">sBWH4 [re-used]</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008391</Item>
+			<Item Name="Title" Type="String">s84</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008406</Item>
+			<Item Name="Title" Type="String">SCb_48h</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008400</Item>
+			<Item Name="Title" Type="String">s167</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008403</Item>
+			<Item Name="Title" Type="String">sBWH4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6008394</Item>
+			<Item Name="Title" Type="String">s164</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List" />
+	<Item Name="n_samples" Type="Integer">23</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">36055241</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE200nnn/GSE200104/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+</eSummaryResult>

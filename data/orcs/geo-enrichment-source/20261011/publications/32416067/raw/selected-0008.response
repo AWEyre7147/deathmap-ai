@@ -1,0 +1,105 @@
+<eSummaryResult><DocSum>
+	<Id>200131026</Id>
+	<Item Name="Accession" Type="String">GSE131026</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">Synthetic lethal and resistance interactions with BET bromodomain inhibitors [ATAC-Seq]</Item>
+	<Item Name="summary" Type="String">BET bromodomain inhibitors (BBDI) are promising therapeutic agents in triple-negative breast cancer (TNBC). However, not all tumors respond and acquired resistance emerges rapidly even in the responders. Using CRISPR and small molecule inhibitor screens combined with comprehensive molecular profiling of BBDI response and resistance in TNBC cell lines, we identified numerous synthetic lethal interactions with BBDIs as well as genes that when deleted confer resistance. The most prominent and consistent synergy was observed with CDK4/6 inhibitors and paclitaxel. We also uncovered functional similarities and differences between BBD proteins BRD2, BRD4, and BRD7, whereas deletion of BRD2 and BRD4 enhances sensitivity to BBDIs, BRD7 loss leads to resistance. Lastly, single cell RNA-seq and cellular barcoding analysis of BBDI responses in sensitive and resistant cell lines highlight heterogeneity among samples and demonstrate that BBDI resistance can be both pre-existing and acquired.</Item>
+	<Item Name="GPL" Type="String">11154</Item>
+	<Item Name="GSE" Type="String">131026</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Genome binding/occupancy profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2020/03/30</Item>
+	<Item Name="suppFile" Type="String">BED, BW</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3759982</Item>
+			<Item Name="Title" Type="String">BRD7-KO-2-2-DMSO</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3759979</Item>
+			<Item Name="Title" Type="String">BRD7-KO-1-2-JQ1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3759991</Item>
+			<Item Name="Title" Type="String">Scramble-2-2-JQ1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3759985</Item>
+			<Item Name="Title" Type="String">Scramble-1-1-JQ1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3759988</Item>
+			<Item Name="Title" Type="String">Scramble-2-1-DMSO</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3759983</Item>
+			<Item Name="Title" Type="String">BRD7-KO-2-2-JQ1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3759977</Item>
+			<Item Name="Title" Type="String">BRD7-KO-1-1-JQ1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3759986</Item>
+			<Item Name="Title" Type="String">Scramble-1-2-DMSO</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3759980</Item>
+			<Item Name="Title" Type="String">BRD7-KO-2-1-DMSO</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3759989</Item>
+			<Item Name="Title" Type="String">Scramble-2-1-JQ1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3759981</Item>
+			<Item Name="Title" Type="String">BRD7-KO-2-1-JQ1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3759978</Item>
+			<Item Name="Title" Type="String">BRD7-KO-1-2-DMSO</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3759984</Item>
+			<Item Name="Title" Type="String">Scramble-1-1-DMSO</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3759976</Item>
+			<Item Name="Title" Type="String">BRD7-KO-1-1-DMSO</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3759987</Item>
+			<Item Name="Title" Type="String">Scramble-1-2-JQ1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3759990</Item>
+			<Item Name="Title" Type="String">Scramble-2-2-DMSO</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List">
+		<Item Name="ExtRelation" Type="Structure">
+			<Item Name="RelationType" Type="String">SRA</Item>
+			<Item Name="TargetObject" Type="String">SRP197578</Item>
+			<Item Name="TargetFTPLink" Type="String">ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP197/SRP197578/</Item>
+		</Item>
+	</Item>
+	<Item Name="n_samples" Type="Integer">16</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">32416067</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE131nnn/GSE131026/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+</eSummaryResult>

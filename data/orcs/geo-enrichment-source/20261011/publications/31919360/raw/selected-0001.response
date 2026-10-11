@@ -1,0 +1,353 @@
+<eSummaryResult><DocSum>
+	<Id>200141171</Id>
+	<Item Name="Accession" Type="String">GSE141171</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">Genome-wide CRISPR screen Identifies Host Dependency Factors for Influenza A Virus Infection</Item>
+	<Item Name="summary" Type="String">In this study, we performed a genome-wide CRISPR screen in A549 cells to identify host genes that are required forInfluenza A virus (IAV) infection.Amongst the identified genes, WDR7, CCDC115, TMEM199 and CMTR1 conferred strong protection against IAV infection when they were CRISPR-deleted without impacting host cell fitness. To investigate the roles of these genes on the transciptomic states of the cell, we performed bulk RNA-sequencing of WDR7, CCDC115, TMEM199 and CMTR1 polyclonal knockout cells. We found that cells lacking WDR7, CCDC115 or TMEM199 up-regulates expression of lysosomal genes due to increased nuclear translocation of Transcription factor EB (TFEB), which hampers IAV entry. In addition,we report that CRISPR deletion of CMTR1 results in increased expression of Interferon-stimulated genes (ISGs) that also plays a role inblocking IAV infection.</Item>
+	<Item Name="GPL" Type="String">18573</Item>
+	<Item Name="GSE" Type="String">141171</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2019/11/30</Item>
+	<Item Name="suppFile" Type="String">TXT</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196485</Item>
+			<Item Name="Title" Type="String">Control_PR8_11242016_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196448</Item>
+			<Item Name="Title" Type="String">CMTR1_uninfected_07122016_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196468</Item>
+			<Item Name="Title" Type="String">CMTR1 _IFN_11242016_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196505</Item>
+			<Item Name="Title" Type="String">CCDC115_uninfected_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196488</Item>
+			<Item Name="Title" Type="String">Control_PR8_11302016_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196508</Item>
+			<Item Name="Title" Type="String">TMEM199_uninfected_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196491</Item>
+			<Item Name="Title" Type="String">Control_IFN_07122016_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196465</Item>
+			<Item Name="Title" Type="String">CMTR1 _IFN_07122016_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196511</Item>
+			<Item Name="Title" Type="String">Control_uninfected_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196476</Item>
+			<Item Name="Title" Type="String">Control_uninfected_11242016_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196522</Item>
+			<Item Name="Title" Type="String">Control_PR8_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196459</Item>
+			<Item Name="Title" Type="String">CMTR1_PR8_11242016_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196479</Item>
+			<Item Name="Title" Type="String">Control_uninfected_11302016_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196462</Item>
+			<Item Name="Title" Type="String">CMTR1_PR8_11302016_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196499</Item>
+			<Item Name="Title" Type="String">Control_IFN_11302016_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196482</Item>
+			<Item Name="Title" Type="String">Control_PR8_07122016_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196519</Item>
+			<Item Name="Title" Type="String">TMEM199_PR8_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196502</Item>
+			<Item Name="Title" Type="String">WDR7_uninfected_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196456</Item>
+			<Item Name="Title" Type="String">CMTR1_PR8_07122016_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196523</Item>
+			<Item Name="Title" Type="String">Control_PR8_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196503</Item>
+			<Item Name="Title" Type="String">CCDC115_uninfected_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196460</Item>
+			<Item Name="Title" Type="String">CMTR1_PR8_11242016_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196500</Item>
+			<Item Name="Title" Type="String">WDR7_uninfected_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196506</Item>
+			<Item Name="Title" Type="String">TMEM199_uninfected_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196520</Item>
+			<Item Name="Title" Type="String">TMEM199_PR8_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196480</Item>
+			<Item Name="Title" Type="String">Control_uninfected_11302016_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196494</Item>
+			<Item Name="Title" Type="String">Control_IFN_11242016_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196463</Item>
+			<Item Name="Title" Type="String">CMTR1_PR8_11302016_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196483</Item>
+			<Item Name="Title" Type="String">Control_PR8_07122016_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196457</Item>
+			<Item Name="Title" Type="String">CMTR1_PR8_07122016_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196497</Item>
+			<Item Name="Title" Type="String">Control_IFN_11302016_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196477</Item>
+			<Item Name="Title" Type="String">Control_uninfected_11242016_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196514</Item>
+			<Item Name="Title" Type="String">WDR7_PR8_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196451</Item>
+			<Item Name="Title" Type="String">CMTR1_uninfected_11242016_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196471</Item>
+			<Item Name="Title" Type="String">CMTR1 _IFN_11302016_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196475</Item>
+			<Item Name="Title" Type="String">Control_uninfected_07122016_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196454</Item>
+			<Item Name="Title" Type="String">CMTR1_uninfected_11302016_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196517</Item>
+			<Item Name="Title" Type="String">CCDC115_PR8_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196474</Item>
+			<Item Name="Title" Type="String">Control_uninfected_07122016_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196478</Item>
+			<Item Name="Title" Type="String">Control_uninfected_11242016_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196458</Item>
+			<Item Name="Title" Type="String">CMTR1_PR8_11242016_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196515</Item>
+			<Item Name="Title" Type="String">CCDC115_PR8_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196455</Item>
+			<Item Name="Title" Type="String">CMTR1_PR8_07122016_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196495</Item>
+			<Item Name="Title" Type="String">Control_IFN_11242016_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196518</Item>
+			<Item Name="Title" Type="String">TMEM199_PR8_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196449</Item>
+			<Item Name="Title" Type="String">CMTR1_uninfected_11242016_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196498</Item>
+			<Item Name="Title" Type="String">Control_IFN_11302016_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196521</Item>
+			<Item Name="Title" Type="String">Control_PR8_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196512</Item>
+			<Item Name="Title" Type="String">WDR7_PR8_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196452</Item>
+			<Item Name="Title" Type="String">CMTR1_uninfected_11302016_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196501</Item>
+			<Item Name="Title" Type="String">WDR7_uninfected_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196486</Item>
+			<Item Name="Title" Type="String">Control_PR8_11242016_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196446</Item>
+			<Item Name="Title" Type="String">CMTR1_uninfected_07122016_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196466</Item>
+			<Item Name="Title" Type="String">CMTR1 _IFN_07122016_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196489</Item>
+			<Item Name="Title" Type="String">Control_PR8_11302016_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196513</Item>
+			<Item Name="Title" Type="String">WDR7_PR8_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196469</Item>
+			<Item Name="Title" Type="String">CMTR1 _IFN_11242016_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196509</Item>
+			<Item Name="Title" Type="String">Control_uninfected_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196492</Item>
+			<Item Name="Title" Type="String">Control_IFN_07122016_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196472</Item>
+			<Item Name="Title" Type="String">CMTR1 _IFN_11302016_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196510</Item>
+			<Item Name="Title" Type="String">Control_uninfected_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196496</Item>
+			<Item Name="Title" Type="String">Control_IFN_11242016_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196470</Item>
+			<Item Name="Title" Type="String">CMTR1 _IFN_11302016_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196516</Item>
+			<Item Name="Title" Type="String">CCDC115_PR8_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196490</Item>
+			<Item Name="Title" Type="String">Control_PR8_11302016_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196450</Item>
+			<Item Name="Title" Type="String">CMTR1_uninfected_11242016_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196473</Item>
+			<Item Name="Title" Type="String">Control_uninfected_07122016_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196507</Item>
+			<Item Name="Title" Type="String">TMEM199_uninfected_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196447</Item>
+			<Item Name="Title" Type="String">CMTR1_uninfected_07122016_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196493</Item>
+			<Item Name="Title" Type="String">Control_IFN_07122016_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196453</Item>
+			<Item Name="Title" Type="String">CMTR1_uninfected_11302016_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196467</Item>
+			<Item Name="Title" Type="String">CMTR1 _IFN_11242016_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196481</Item>
+			<Item Name="Title" Type="String">Control_uninfected_11302016_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196487</Item>
+			<Item Name="Title" Type="String">Control_PR8_11242016_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196484</Item>
+			<Item Name="Title" Type="String">Control_PR8_07122016_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196461</Item>
+			<Item Name="Title" Type="String">CMTR1_PR8_11302016_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196504</Item>
+			<Item Name="Title" Type="String">CCDC115_uninfected_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4196464</Item>
+			<Item Name="Title" Type="String">CMTR1_IFN_07122016_rep1</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List">
+		<Item Name="ExtRelation" Type="Structure">
+			<Item Name="RelationType" Type="String">SRA</Item>
+			<Item Name="TargetObject" Type="String">SRP234025</Item>
+			<Item Name="TargetFTPLink" Type="String">ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP234/SRP234025/</Item>
+		</Item>
+	</Item>
+	<Item Name="n_samples" Type="Integer">78</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">31919360</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE141nnn/GSE141171/</Item>
+	<Item Name="GEO2R" Type="String">yes</Item>
+</DocSum>
+
+</eSummaryResult>

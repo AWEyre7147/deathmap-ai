@@ -1,0 +1,86 @@
+[
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=gds&id=35981571&linkname=pubmed_gds&cmd=neighbor&retmode=json",
+    "file": "raw/selected-0000.response",
+    "sha256": "792299beba1bb32fb49afe9d18b6437e663d9c5e818f6be70ba4ecfa6aaa09e8",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:09:00.136419+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\2df32738b5ea2b1c272a30b2d812fae7de6b80566b5ef61870ef7a8618151177.json",
+        "sha256": "2df32738b5ea2b1c272a30b2d812fae7de6b80566b5ef61870ef7a8618151177",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\pubmed-enrichment-source\\20261008\\links-gds-6.json",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=gds&linkname=pubmed_gds&id=34805786&id=34834920&id=34879274&id=34907164&id=34921014&id=34937946&id=34962926&id=35021089&id=35050652&id=35086559&id=35113687&id=35149558&id=35192680&id=35221331&id=35231079&id=35263388&id=35379808&id=35411049&id=35420441&id=35421191&id=35439318&id=35469023&id=35482054&id=35508460&id=35559673&id=35570209&id=35657206&id=35688159&id=35723366&id=35750052&id=35763353&id=35804923&id=35842423&id=35861150&id=35879412&id=35879413&id=35972292&id=35981571&id=36002574&id=36032971&id=36055241&id=36111891&id=36124427&id=36134452&id=36224385&id=36228039&id=36273494&id=36303069&id=36305789&id=36309510&cmd=neighbor&retmode=json",
+        "locator": "linksets[37]",
+        "retrieved_utc": "2026-10-08T23:17:33.077726+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=35981571&retmode=xml",
+    "file": "raw/selected-0001.response",
+    "sha256": "abbf8dcf27cfacdd85861a5e1a0ae7035c7d857403c563f0f7feffb358ea7c35",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:09:00.139803+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\6dcc21c7d8864227c838e445f2831b139a13a479d53eeaa9f47cc40dbcb08973.xml",
+        "sha256": "6dcc21c7d8864227c838e445f2831b139a13a479d53eeaa9f47cc40dbcb08973",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\pubmed-enrichment-source\\20261008\\pubmed-3.xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=34805786%2C34834920%2C34879274%2C34907164%2C34921014%2C34937946%2C34962926%2C35021089%2C35050652%2C35086559%2C35113687%2C35149558%2C35192680%2C35221331%2C35231079%2C35263388%2C35379808%2C35411049%2C35420441%2C35421191%2C35439318%2C35469023%2C35482054%2C35508460%2C35559673%2C35570209%2C35657206%2C35688159%2C35723366%2C35750052%2C35763353%2C35804923%2C35842423%2C35861150%2C35879412%2C35879413%2C35972292%2C35981571%2C36002574%2C36032971%2C36055241%2C36111891%2C36124427%2C36134452%2C36224385%2C36228039%2C36273494%2C36303069%2C36305789%2C36309510%2C36326816%2C36396656%2C36409314%2C36417855%2C36457047%2C36476853%2C36543916%2C36548402%2C36574441%2C36584827%2C36597481%2C36650183%2C36652375%2C36693839%2C36724073%2C36725334%2C36725843%2C36731340%2C36744886%2C36753415%2C36772830%2C36794958%2C36801923%2C36820830%2C36841242%2C36848233%2C36894612%2C36920785%2C36920967%2C36971544%2C36977592%2C36991492%2C37010434%2C37024475%2C37036970%2C37046090%2C37047518%2C37059858%2C37075701%2C37075745%2C37163373%2C37167561%2C37193694%2C37435859%2C37616343%2C37639469%2C37758944%2C37866880%2C37883554%2C37975674&retmode=xml",
+        "locator": "PubmedArticle[37]",
+        "retrieved_utc": "2026-10-08T23:16:51.367997+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=%22Genome-wide+CRISPR+screen+identifies+MTA3+as+an+inducer+of+gemcitabine+resistance+in+pancreatic+ductal+adenocarcinoma%22%5BAll+Fields%5D+AND+gse%5BEntry+Type%5D&retmode=json&retmax=1000",
+    "file": "raw/selected-0002.response",
+    "sha256": "2618e27e34ee662f42e4a9f9fa1a19387aa91edbe6ef68f6e14bf516273bc43a",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:09:00.143804+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\2618e27e34ee662f42e4a9f9fa1a19387aa91edbe6ef68f6e14bf516273bc43a.json",
+        "sha256": "2618e27e34ee662f42e4a9f9fa1a19387aa91edbe6ef68f6e14bf516273bc43a",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\outputs\\geo\\title-search-expansion\\20261010\\raw\\search-890-phrase.json",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=%22Genome-wide+CRISPR+screen+identifies+MTA3+as+an+inducer+of+gemcitabine+resistance+in+pancreatic+ductal+adenocarcinoma%22%5BAll+Fields%5D+AND+gse%5BEntry+Type%5D&retmode=json&retmax=100",
+        "locator": "complete esearchresult",
+        "retrieved_utc": "2026-10-10T17:23:13.795349+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A35981571&type=Accession+Numbers&format=JSON",
+    "attempt": 1,
+    "retrieved_utc": "2026-10-11T18:09:00.144806+00:00",
+    "http_status": 200,
+    "file": "raw/live-00003.response",
+    "sha256": "184d7f5eb6d3ca8318a215d3c0cb97ad5c5131e22057b882e140e5fd0fc74644"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/MED/35981571/datalinks?format=json&category=GEO&sectionLimit=1000",
+    "attempt": 1,
+    "retrieved_utc": "2026-10-11T18:09:01.031396+00:00",
+    "http_status": 200,
+    "file": "raw/live-00004.response",
+    "sha256": "1c542c592cc663aecd76152c2ef0dddced5b6eab5fea672fd1ae5c574d0d1ad3"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=bioproject&id=35981571&linkname=pubmed_bioproject&cmd=neighbor&retmode=json",
+    "file": "raw/selected-0005.response",
+    "sha256": "792299beba1bb32fb49afe9d18b6437e663d9c5e818f6be70ba4ecfa6aaa09e8",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:09:01.903244+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\7f6376699d0e4151358c2f8b25302e97c743ba083bcf055c2130be995e9f09a6.json",
+        "sha256": "7f6376699d0e4151358c2f8b25302e97c743ba083bcf055c2130be995e9f09a6",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\pubmed-enrichment-source\\20261008\\links-bioproject-6.json",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=bioproject&linkname=pubmed_bioproject&id=34805786&id=34834920&id=34879274&id=34907164&id=34921014&id=34937946&id=34962926&id=35021089&id=35050652&id=35086559&id=35113687&id=35149558&id=35192680&id=35221331&id=35231079&id=35263388&id=35379808&id=35411049&id=35420441&id=35421191&id=35439318&id=35469023&id=35482054&id=35508460&id=35559673&id=35570209&id=35657206&id=35688159&id=35723366&id=35750052&id=35763353&id=35804923&id=35842423&id=35861150&id=35879412&id=35879413&id=35972292&id=35981571&id=36002574&id=36032971&id=36055241&id=36111891&id=36124427&id=36134452&id=36224385&id=36228039&id=36273494&id=36303069&id=36305789&id=36309510&cmd=neighbor&retmode=json",
+        "locator": "linksets[37]",
+        "retrieved_utc": "2026-10-08T23:18:24.137900+00:00"
+      }
+    ]
+  }
+]

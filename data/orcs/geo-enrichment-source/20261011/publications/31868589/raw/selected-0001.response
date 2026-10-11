@@ -1,0 +1,97 @@
+<eSummaryResult><DocSum>
+	<Id>200136175</Id>
+	<Item Name="Accession" Type="String">GSE136175</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">Robust cullin-RING ligase function is established by a multiplicity of poly-ubiquitylation pathways</Item>
+	<Item Name="summary" Type="String">The large family of SCF ubiquitin ligases catalyze ubiquitylation by bridging protein substrates and ubiquitin-modifying enzymes. S. cerevisiae SCFs employ a sole, essential enzyme, Cdc34, to build poly-ubiquitin chains required for degradation. However, humans have no less than six chain building enzymes associated with SCFs, including the long assumed to be essential Cdc34 orthologs, UBE2R1 and UBE2R2. Furthermore, uncertainty regarding the physiological concentrations of ubiquitin-modifying enzymes has hindered in vitro mechanistic work. Proteomics was used to estimate enzyme levels in cells, and ubiquitylation assays were employed to quantitatively compare enzyme activities. The results show that UBE2R2 alone has negligible ubiquitylation activity at physiological concentrations, and the ablation of UBE2R1/2 had no effect on the stability of SCF substrates in cells. A genome-wide CRISPR screen revealed that UBE2G1 buffers against the deletion of UBE2R1/2. UBE2G1 had robust in vitro activity with SCF, and UBE2G1 knockdown in cells lacking UBE2R1/2 resulted in stabilization of the SCF substrate p27 as well as the Cul3-RING ligase substrate NRF2. The results reveal the human SCF enzyme system is heavily buffered and suggest that SCF specificity is diversified by association with multiple enzyme partners.</Item>
+	<Item Name="GPL" Type="String">18573;11154</Item>
+	<Item Name="GSE" Type="String">136175</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Other</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2020/01/01</Item>
+	<Item Name="suppFile" Type="String">TXT</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4042118</Item>
+			<Item Name="Title" Type="String">Nalm-6 cells, UBE2R1 knockout day 14</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4042115</Item>
+			<Item Name="Title" Type="String">Nalm-6 cells, GFP and AAVS1 double sgRNA infection control day 0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4042121</Item>
+			<Item Name="Title" Type="String">Nalm-6 cells, UBE2R1 and UBE2R2 double-knockout replicate 2 day 0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4042124</Item>
+			<Item Name="Title" Type="String">Nalm-6 cells, UBE2R2 knockout replicate 1 day 14</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4042116</Item>
+			<Item Name="Title" Type="String">Nalm-6 cells, GFP and AAVS1 double sgRNA infection control day 14</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4042113</Item>
+			<Item Name="Title" Type="String">Nalm-6 cells, Wild-type control day 0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4042125</Item>
+			<Item Name="Title" Type="String">Nalm-6 cells, UBE2R2 knockout replicate 2 day 0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4042122</Item>
+			<Item Name="Title" Type="String">Nalm-6 cells, UBE2R1 and UBE2R2 double-knockout replicate 2 day 14</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4042119</Item>
+			<Item Name="Title" Type="String">Nalm-6 cells, UBE2R1 and UBE2R2 double-knockout replicate 1 day 0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4042117</Item>
+			<Item Name="Title" Type="String">Nalm-6 cells, UBE2R1 knockout day 0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4042114</Item>
+			<Item Name="Title" Type="String">Nalm-6 cells, Wild-type control day 14</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4042126</Item>
+			<Item Name="Title" Type="String">Nalm-6 cells, UBE2R2 knockout replicate 2 day 14</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4042120</Item>
+			<Item Name="Title" Type="String">Nalm-6 cells, UBE2R1 and UBE2R2 double-knockout replicate 1 day 14</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4042123</Item>
+			<Item Name="Title" Type="String">Nalm-6 cells, UBE2R2 knockout replicate 1 day 0</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List">
+		<Item Name="ExtRelation" Type="Structure">
+			<Item Name="RelationType" Type="String">SRA</Item>
+			<Item Name="TargetObject" Type="String">SRP219074</Item>
+			<Item Name="TargetFTPLink" Type="String">ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP219/SRP219074/</Item>
+		</Item>
+	</Item>
+	<Item Name="n_samples" Type="Integer">14</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">31868589</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE136nnn/GSE136175/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+</eSummaryResult>

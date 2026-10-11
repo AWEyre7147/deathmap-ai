@@ -1,0 +1,103 @@
+[
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=gds&id=32355287&linkname=pubmed_gds&cmd=neighbor&retmode=json",
+    "file": "raw/selected-0000.response",
+    "sha256": "af712cbf6a1d3771f9c07bd6512bf94e4a1aa81627eb1fd7fb2239a697859e9a",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:01:40.977488+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\0d58263b13b3c92537c4149e03bf902d3d842dfd8b666de41eed9c679c136735.json",
+        "sha256": "0d58263b13b3c92537c4149e03bf902d3d842dfd8b666de41eed9c679c136735",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\pubmed-enrichment-source\\20261008\\links-gds-3.json",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=gds&linkname=pubmed_gds&id=31564637&id=31570734&id=31587919&id=31594818&id=31604991&id=31618756&id=31657721&id=31666400&id=31692446&id=31723608&id=31727847&id=31730859&id=31741433&id=31744829&id=31761535&id=31792210&id=31801065&id=31818950&id=31855178&id=31868589&id=31882897&id=31903165&id=31915280&id=31919360&id=31921143&id=31959936&id=32005668&id=32028983&id=32075772&id=32094149&id=32142663&id=32156810&id=32160526&id=32238925&id=32259488&id=32268084&id=32299104&id=32315601&id=32355287&id=32416067&id=32421776&id=32424339&id=32499641&id=32528131&id=32542389&id=32579974&id=32585766&id=32640256&id=32649862&id=32668236&cmd=neighbor&retmode=json",
+        "locator": "linksets[38]",
+        "retrieved_utc": "2026-10-08T23:17:15.888207+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=32355287&retmode=xml",
+    "file": "raw/selected-0001.response",
+    "sha256": "fa3b551de568732cf98e0963b185fb81e2d7436887597b781489772eb4e1b52a",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:01:40.979497+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\21786aacf01be17cea2401daf1833ab8b82ec384a169e5bf6f15e51350cfe075.xml",
+        "sha256": "21786aacf01be17cea2401daf1833ab8b82ec384a169e5bf6f15e51350cfe075",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\pubmed-enrichment-source\\20261008\\pubmed-1.xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=30932271%2C30944478%2C30951565%2C30962421%2C30971826%2C30991026%2C30995489%2C31010806%2C31019072%2C31038839%2C31040274%2C31048320%2C31048321%2C31059574%2C31076567%2C31108395%2C31133756%2C31142663%2C31147448%2C31160565%2C31165872%2C31209294%2C31213543%2C31219803%2C31253397%2C31270356%2C31287994%2C31294695%2C31300418%2C31316073%2C31346084%2C31353312%2C31353801%2C31365872%2C31406246%2C31406271%2C31437751%2C31451760%2C31452512%2C31462500%2C31508283%2C31508509%2C31509742%2C31519728%2C31519875%2C31527793%2C31540829%2C31543463%2C31551363%2C31558468%2C31564637%2C31570734%2C31587919%2C31594818%2C31604991%2C31618756%2C31657721%2C31666400%2C31692446%2C31723608%2C31727847%2C31730859%2C31741433%2C31744829%2C31761535%2C31792210%2C31801065%2C31818950%2C31855178%2C31868589%2C31882897%2C31903165%2C31915280%2C31919360%2C31921143%2C31959936%2C32005668%2C32028983%2C32075772%2C32094149%2C32142663%2C32156810%2C32160526%2C32238925%2C32259488%2C32268084%2C32299104%2C32315601%2C32355287%2C32416067%2C32421776%2C32424339%2C32499641%2C32528131%2C32542389%2C32579974%2C32585766%2C32640256%2C32649862%2C32668236&retmode=xml",
+        "locator": "PubmedArticle[88]",
+        "retrieved_utc": "2026-10-08T23:16:47.938021+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=%22ERCC6L2+promotes+DNA+orientation-specific+recombination+in+mammalian+cells%22%5BAll+Fields%5D+AND+gse%5BEntry+Type%5D&retmode=json&retmax=1000",
+    "file": "raw/selected-0002.response",
+    "sha256": "0f11ba8e3a1c748d1e5f547925fc409294033d4eaa7b1b808b924f51a9833a81",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:01:40.983506+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\0f11ba8e3a1c748d1e5f547925fc409294033d4eaa7b1b808b924f51a9833a81.json",
+        "sha256": "0f11ba8e3a1c748d1e5f547925fc409294033d4eaa7b1b808b924f51a9833a81",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\outputs\\geo\\title-search-expansion\\20261010\\raw\\search-460-phrase.json",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=%22ERCC6L2+promotes+DNA+orientation-specific+recombination+in+mammalian+cells%22%5BAll+Fields%5D+AND+gse%5BEntry+Type%5D&retmode=json&retmax=100",
+        "locator": "complete esearchresult",
+        "retrieved_utc": "2026-10-10T17:20:08.483145+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A32355287&type=Accession+Numbers&format=JSON",
+    "attempt": 1,
+    "retrieved_utc": "2026-10-11T18:01:40.984499+00:00",
+    "http_status": 200,
+    "file": "raw/live-00003.response",
+    "sha256": "f0a67fc3495d4a4b1cdc33a0ae705d9ac0b0a21a3595db03c29cb4127c7c44a9"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/MED/32355287/datalinks?format=json&pageSize=1000",
+    "attempt": 1,
+    "retrieved_utc": "2026-10-11T18:01:41.869183+00:00",
+    "http_status": 200,
+    "file": "raw/live-00004.response",
+    "sha256": "b939bba071c0760101dc5855780b89136a1a251d84d769474440f86c23ea982b"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=bioproject&id=32355287&linkname=pubmed_bioproject&cmd=neighbor&retmode=json",
+    "file": "raw/selected-0005.response",
+    "sha256": "a04ca6613faf7200027bca8053a5220b2556b30948b39178f0faa2d34b4508ce",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:01:42.792593+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\89f53290b6038266c12e92ca5a458c93cab921b3fb76fa328b043407b278c2c8.json",
+        "sha256": "89f53290b6038266c12e92ca5a458c93cab921b3fb76fa328b043407b278c2c8",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\pubmed-enrichment-source\\20261008\\links-bioproject-3.json",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=bioproject&linkname=pubmed_bioproject&id=31564637&id=31570734&id=31587919&id=31594818&id=31604991&id=31618756&id=31657721&id=31666400&id=31692446&id=31723608&id=31727847&id=31730859&id=31741433&id=31744829&id=31761535&id=31792210&id=31801065&id=31818950&id=31855178&id=31868589&id=31882897&id=31903165&id=31915280&id=31919360&id=31921143&id=31959936&id=32005668&id=32028983&id=32075772&id=32094149&id=32142663&id=32156810&id=32160526&id=32238925&id=32259488&id=32268084&id=32299104&id=32315601&id=32355287&id=32416067&id=32421776&id=32424339&id=32499641&id=32528131&id=32542389&id=32579974&id=32585766&id=32640256&id=32649862&id=32668236&cmd=neighbor&retmode=json",
+        "locator": "linksets[38]",
+        "retrieved_utc": "2026-10-08T23:18:06.931276+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=bioproject&db=gds&id=624711&linkname=bioproject_gds&cmd=neighbor&retmode=json",
+    "file": "raw/selected-0006.response",
+    "sha256": "de1f7f33ff3dd22be84d1f10b731b0317e0fc3698cc80db5f26979e4d1cdca14",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:01:42.795589+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\f149db7f14ff4aae6365efae1d64066705ca33e2e29e6fa37aef7cd30389a080.json",
+        "sha256": "f149db7f14ff4aae6365efae1d64066705ca33e2e29e6fa37aef7cd30389a080",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\outputs\\geo\\project-sra-expansion\\20261010\\raw\\bioproject-links-2.json",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=bioproject&db=gds&linkname=bioproject_gds&cmd=neighbor&retmode=json&id=544340&id=546263&id=549251&id=552032&id=554137&id=554587&id=554590&id=554591&id=554592&id=554593&id=560975&id=561505&id=562832&id=562833&id=562857&id=575535&id=576429&id=577699&id=579227&id=579532&id=580234&id=586879&id=587710&id=587765&id=588019&id=588260&id=590460&id=590462&id=590464&id=592532&id=597891&id=602913&id=602916&id=602917&id=602918&id=603101&id=603103&id=603104&id=603105&id=603106&id=603962&id=607046&id=608374&id=608420&id=608809&id=608810&id=608811&id=616333&id=624711&id=628709&id=630062&id=630662&id=630664&id=630665&id=630666&id=631608&id=632634&id=632635&id=638900&id=642292&id=646637&id=647390&id=647422&id=647434&id=647435&id=650409&id=655487&id=656248&id=660050&id=660778&id=660780&id=660782&id=660784&id=664769&id=664775&id=665529&id=665533&id=669783&id=669784&id=669984&id=669987&id=674626&id=674657&id=674659&id=674661&id=675816&id=680344&id=680345&id=680493&id=687654&id=687660&id=687661&id=687662&id=691473&id=691936&id=692840&id=692987&id=695256&id=695278&id=695553",
+        "locator": "linksets[48]",
+        "retrieved_utc": "2026-10-10T17:46:43.506024+00:00"
+      }
+    ]
+  }
+]

@@ -1,0 +1,136 @@
+{
+  "strategy": "geo-accession-identification-v1",
+  "package_version": "0.1.0",
+  "started_utc": "2026-10-11T18:12:29.455181+00:00",
+  "publication": {
+    "PUBLICATION_ID": "1161",
+    "SOURCE_TYPE": "pubmed",
+    "SOURCE_ID": "40813572",
+    "TITLE": "Large-scale CRISPR screening in primary human 3D gastric organoids enables comprehensive dissection of gene-drug interactions.",
+    "AUTHORS": "Lo YH, Horn HT, Huang MF, Yu WC, Young CM, Liu Q, Tomaske M, Towers M, Dominguez A, Bassik MC, Lee DF, Qi LS, Weissman JS, Chen J, Kuo CJ",
+    "ABSTRACT": "Understanding how genes influence drug responses is critical for advancing personalized cancer treatments. However, identifying these gene-drug interactions in a physiologically relevant human system remains a challenge, as it requires a model that reflects the complexity and heterogeneity among individuals. Here we show that large-scale CRISPR-based genetic screens, including knockout, interference (CRISPRi), activation (CRISPRa), and single-cell approaches, can be applied in primary human 3D gastric organoids to systematically identify genes that affect sensitivity to cisplatin. Our screens uncover genes that modulate cisplatin response. By combining CRISPR perturbations with single-cell transcriptomics, we resolve how genetic alterations interact with cisplatin at the level of individual cells and uncover an unexpected link between fucosylation and cisplatin sensitivity. We identify TAF6L as a regulator of cell recovery from cisplatin-induced cytotoxicity. These results highlight the utility of human organoid models for dissecting gene-drug interactions and offer insights into therapeutic vulnerabilities in gastric cancer.",
+    "JOURNAL": "Nature communications",
+    "PUBLICATION_DATE": "2025-08-14",
+    "PAGE_SOURCE_TYPE": "pubmed",
+    "PAGE_SOURCE_ID": "40813572",
+    "PMID": "40813572",
+    "DOI": "10.1038/s41467-025-62818-3",
+    "SUPPLEMENTARY_FILES": [
+      {
+        "label": "PMID40813572-sup-data.xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/68bf25876595c/PMID40813572-sup-data.xlsx"
+      }
+    ],
+    "LINKS": [
+      {
+        "label": "Pubmed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40813572"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/scholar?as_occt=title&as_q=Large-scale+CRISPR+screening+in+primary+human+3D+gastric+organoids+enables+comprehensive+dissection+of+gene-drug+interactions."
+      },
+      {
+        "label": "40813572",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40813572"
+      },
+      {
+        "label": "PMID40813572-sup-data.xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/68bf25876595c/PMID40813572-sup-data.xlsx"
+      }
+    ],
+    "SCREEN_IDS": [
+      "2476",
+      "2479",
+      "2480",
+      "2481",
+      "2482"
+    ],
+    "SCREEN_COUNT": 5,
+    "PUBLICATION_URL": "https://orcs.thebiogrid.org/Dataset/1161",
+    "FIELD_LOCATORS": {
+      "TITLE": "#resultsHeaderBlock h1",
+      "AUTHORS": "#resultsHeaderBlock .subhead",
+      "ABSTRACT": "#resultsHeaderBlock .bgGrey",
+      "JOURNAL": ".linkouts citation strong",
+      "PUBLICATION_DATE": ".linkouts citation",
+      "SUPPLEMENTARY_FILES": ".linkouts Supplementary Files"
+    },
+    "REVIEW_ISSUES": [],
+    "RETRIEVED_AT": "2026-10-04T05:15:01.309042+00:00",
+    "SOURCE_METADATA_FILE": "data/orcs/publication-source/20261004-v01/1161.metadata.html",
+    "SOURCE_METADATA_SHA256": "0326bc7f89937c46f8e0ab0d3fd2fd27bd285891dcb0fece49c41a6fe65ac840",
+    "PMCID": "PMC12354852",
+    "IDENTIFIER_ENRICHMENT": {
+      "added_fields": [
+        "DOI",
+        "PMCID"
+      ],
+      "resolution": {
+        "input": {
+          "pmid": "40813572",
+          "doi": null,
+          "pmcid": null
+        },
+        "identifiers": {
+          "pmid": "40813572",
+          "doi": "10.1038/s41467-025-62818-3",
+          "pmcid": "PMC12354852"
+        },
+        "status": "resolved",
+        "alternatives": {
+          "pmid": [
+            "40813572"
+          ],
+          "doi": [
+            "10.1038/s41467-025-62818-3"
+          ],
+          "pmcid": [
+            "PMC12354852"
+          ]
+        },
+        "evidence": [
+          {
+            "identifiers": {
+              "pmid": "40813572",
+              "doi": "10.1038/s41467-025-62818-3",
+              "pmcid": "PMC12354852"
+            },
+            "url": "https://pmc.ncbi.nlm.nih.gov/tools/idconv/api/v1/articles/?ids=38395437%2C38885264%2C39316623%2C39547224%2C39681701%2C40372436%2C40632661%2C40667754%2C40683967%2C40813572%2C40852982%2C40899441&idtype=pmid&format=json&tool=deathmap_ai",
+            "retrieved_at": "2026-10-08T01:37:52.241413+00:00",
+            "response_sha256": "39757bbf31d50401323249926a21da16c8c42c2ed73b4c55e8c306759830b4a6"
+          },
+          {
+            "identifiers": {
+              "pmid": "40813572",
+              "doi": "10.1038/s41467-025-62818-3",
+              "pmcid": "PMC12354852"
+            },
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=37996617%2C38291084%2C38395437%2C38885264%2C39316623%2C39547224%2C39681701%2C40372436%2C40632661%2C40667754%2C40683967%2C40813572%2C40852982%2C40899441%2C40909557&retmode=xml&tool=deathmap_ai",
+            "retrieved_at": "2026-10-08T01:38:01.416850+00:00",
+            "response_sha256": "aaf08f8cdcd67a739e511ba72dd0b1838238dd3c7a63c3c19e7a8d80106d71aa"
+          }
+        ]
+      }
+    },
+    "_input_provenance": {
+      "file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\publication-index.json",
+      "sha256": "63cb33b7095108e7a0776950e9c258e7b65fe148ca6b12ae75cd4dd914ad6c89",
+      "locator": "PUBLICATION_ID=1161"
+    }
+  },
+  "status": "complete",
+  "source_code_sha256": "1e62a9364e02df38d28540f2c3211fbc696f04678f5fa977cf989e31578b60bf",
+  "limits": {
+    "request_attempts": 100,
+    "seconds": 600,
+    "series": 100,
+    "target_uids_per_route": 1000,
+    "attempts_per_request": 2,
+    "timeout_seconds": 30,
+    "pacing_seconds": 0.4
+  },
+  "total_gse_count": 3,
+  "finished_utc": "2026-10-11T18:12:31.386979+00:00",
+  "request_attempts": 2
+}

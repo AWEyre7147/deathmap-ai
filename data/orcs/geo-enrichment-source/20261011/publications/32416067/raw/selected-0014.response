@@ -1,0 +1,285 @@
+<eSummaryResult><DocSum>
+	<Id>200131097</Id>
+	<Item Name="Accession" Type="String">GSE131097</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">Synthetic lethal and resistance interactions with BET bromodomain inhibitors [ChIP-Seq]</Item>
+	<Item Name="summary" Type="String">BET bromodomain inhibitors (BBDI) are promising therapeutic agents in triple-negative breast cancer (TNBC). However, not all tumors respond and acquired resistance emerges rapidly even in the responders. Using CRISPR and small molecule inhibitor screens combined with comprehensive molecular profiling of BBDI response and resistance in TNBC cell lines, we identified numerous synthetic lethal interactions with BBDIs as well as genes that when deleted confer resistance. The most prominent and consistent synergy was observed with CDK4/6 inhibitors and paclitaxel. We also uncovered functional similarities and differences between BBD proteins BRD2, BRD4, and BRD7, whereas deletion of BRD2 and BRD4 enhances sensitivity to BBDIs, BRD7 loss leads to resistance. Lastly, single cell RNA-seq and cellular barcoding analysis of BBDI responses in sensitive and resistant cell lines highlight heterogeneity among samples and demonstrate that BBDI resistance can be both pre-existing and acquired.</Item>
+	<Item Name="GPL" Type="String">11154</Item>
+	<Item Name="GSE" Type="String">131097</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Genome binding/occupancy profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2020/03/30</Item>
+	<Item Name="suppFile" Type="String">BW, NARROWPEAK</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763407</Item>
+			<Item Name="Title" Type="String">SUM149_JQ1_BRD4_R1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763404</Item>
+			<Item Name="Title" Type="String">SUM149_Input</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4409205</Item>
+			<Item Name="Title" Type="String">SUM159_BRD7_KO_clone_4_40MC_INPUT</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763430</Item>
+			<Item Name="Title" Type="String">SUM159R_DMSO_BRD4_R1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4409202</Item>
+			<Item Name="Title" Type="String">SUM159_BRD7_scramble_H3K27me3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763410</Item>
+			<Item Name="Title" Type="String">SUM149R_DMSO_BRD2_R2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4409199</Item>
+			<Item Name="Title" Type="String">SUM159_BRD7_scramble_40MC_INPUT</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763390</Item>
+			<Item Name="Title" Type="String">DSGPFA_SUM159_BRD7_JQ1_1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763427</Item>
+			<Item Name="Title" Type="String">SUM159_JQ1_BRD4_R2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763416</Item>
+			<Item Name="Title" Type="String">SUM149R_JQ1_BRD4_R1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763433</Item>
+			<Item Name="Title" Type="String">SUM159R_Input</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763396</Item>
+			<Item Name="Title" Type="String">DSGPFA_SUM159R_BRD7_JQ1_1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763413</Item>
+			<Item Name="Title" Type="String">SUM149R_Input</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763393</Item>
+			<Item Name="Title" Type="String">DSGPFA_SUM159_JQ1_INPUT</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763436</Item>
+			<Item Name="Title" Type="String">SUM159R_JQ1_BRD4_R1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4409208</Item>
+			<Item Name="Title" Type="String">SUM159_BRD7_KO_clone_4_H3K27me3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763425</Item>
+			<Item Name="Title" Type="String">SUM159_JQ1_BRD2_R2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763405</Item>
+			<Item Name="Title" Type="String">SUM149_JQ1_BRD2_R1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763422</Item>
+			<Item Name="Title" Type="String">SUM159_H3K27Ac_R1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763402</Item>
+			<Item Name="Title" Type="String">SUM149_DMSO_BRD4_R1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763419</Item>
+			<Item Name="Title" Type="String">SUM159_DMSO_BRD2_R2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763399</Item>
+			<Item Name="Title" Type="String">DSGPFA_SUM159R_JQ1_INPUT</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4409200</Item>
+			<Item Name="Title" Type="String">SUM159_BRD7_scramble_BRD4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4409206</Item>
+			<Item Name="Title" Type="String">SUM159_BRD7_KO_clone_4_BRD4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763434</Item>
+			<Item Name="Title" Type="String">SUM159R_JQ1_BRD2_R1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4409203</Item>
+			<Item Name="Title" Type="String">SUM159_BRD7_scramble_H3K4me3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763431</Item>
+			<Item Name="Title" Type="String">SUM159R_DMSO_BRD4_R2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763391</Item>
+			<Item Name="Title" Type="String">DSGPFA_SUM159_BRD7_JQ1_2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763411</Item>
+			<Item Name="Title" Type="String">SUM149R_DMSO_BRD4_R1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763428</Item>
+			<Item Name="Title" Type="String">SUM159R_DMSO_BRD2_R1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763414</Item>
+			<Item Name="Title" Type="String">SUM149R_JQ1_BRD2_R1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763408</Item>
+			<Item Name="Title" Type="String">SUM149_JQ1_H3K27Ac_R1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763394</Item>
+			<Item Name="Title" Type="String">DSGPFA_SUM159R_BRD7_DMSO_1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763420</Item>
+			<Item Name="Title" Type="String">SUM159_DMSO_BRD4_R1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763397</Item>
+			<Item Name="Title" Type="String">DSGPFA_SUM159R_BRD7_JQ1_2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763417</Item>
+			<Item Name="Title" Type="String">SUM149R_JQ1_H3K27Ac_R1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763423</Item>
+			<Item Name="Title" Type="String">SUM159_Input Sample</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763437</Item>
+			<Item Name="Title" Type="String">SUM159R_JQ1_BRD4_R2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4409209</Item>
+			<Item Name="Title" Type="String">SUM159_BRD7_KO_clone_4_H3K4me3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4409201</Item>
+			<Item Name="Title" Type="String">SUM159_BRD7_scramble_H3K27ac</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763406</Item>
+			<Item Name="Title" Type="String">SUM149_JQ1_BRD2_R2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763400</Item>
+			<Item Name="Title" Type="String">SUM149_DMSO_BRD2_R1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4409198</Item>
+			<Item Name="Title" Type="String">SUM159_BRD7_scramble_10MC_INPUT</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4409207</Item>
+			<Item Name="Title" Type="String">SUM159_BRD7_KO_clone_4_H3K27ac</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763403</Item>
+			<Item Name="Title" Type="String">SUM149_DMSO_H3K27Ac_R1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4409204</Item>
+			<Item Name="Title" Type="String">SUM159_BRD7_KO_clone_4_10MC_INPUT</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763429</Item>
+			<Item Name="Title" Type="String">SUM159R_DMSO_BRD2_R2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763415</Item>
+			<Item Name="Title" Type="String">SUM149R_JQ1_BRD2_R2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763395</Item>
+			<Item Name="Title" Type="String">DSGPFA_SUM159R_BRD7_DMSO_2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763426</Item>
+			<Item Name="Title" Type="String">SUM159_JQ1_BRD4_R1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763435</Item>
+			<Item Name="Title" Type="String">SUM159R_JQ1_BRD2_R2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763412</Item>
+			<Item Name="Title" Type="String">SUM149R_DMSO_H3K27Ac_R1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763398</Item>
+			<Item Name="Title" Type="String">DSGPFA_SUM159R_INPUT</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763392</Item>
+			<Item Name="Title" Type="String">DSGPFA_SUM159_INPUT</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763432</Item>
+			<Item Name="Title" Type="String">SUM159R_H3K27Ac_R1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763409</Item>
+			<Item Name="Title" Type="String">SUM149R_DMSO_BRD2_R1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763389</Item>
+			<Item Name="Title" Type="String">DSGPFA_SUM159_BRD7_DMSO_1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763401</Item>
+			<Item Name="Title" Type="String">SUM149_DMSO_BRD2_R2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763424</Item>
+			<Item Name="Title" Type="String">SUM159_JQ1_BRD2_R1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763421</Item>
+			<Item Name="Title" Type="String">SUM159_DMSO_BRD4_R2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3763418</Item>
+			<Item Name="Title" Type="String">SUM159_DMSO_BRD2_R1</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List">
+		<Item Name="ExtRelation" Type="Structure">
+			<Item Name="RelationType" Type="String">SRA</Item>
+			<Item Name="TargetObject" Type="String">SRP198256</Item>
+			<Item Name="TargetFTPLink" Type="String">ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP198/SRP198256/</Item>
+		</Item>
+	</Item>
+	<Item Name="n_samples" Type="Integer">61</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">32416067</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE131nnn/GSE131097/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+</eSummaryResult>

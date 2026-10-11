@@ -9,11 +9,11 @@ from datetime import date
 from pathlib import Path
 import copy
 import io
-import math
 import re
 import zipfile
 import xml.etree.ElementTree as ET
 import openpyxl
+from openpyxl.utils import get_column_letter
 
 NS = 'http://schemas.openxmlformats.org/spreadsheetml/2006/main'
 MC = 'http://schemas.openxmlformats.org/markup-compatibility/2006'
@@ -95,7 +95,8 @@ def replace_block(xml, tag, element):
     AssertionError
         The expected element block is absent.
     """
-    result, count = re.subn(r'<' + tag + r'\b[^>]*>.*?</' + tag + '>',
+    prefix = r'(?:[A-Za-z_][\w.-]*:)?'
+    result, count = re.subn(r'<' + prefix + tag + r'\b[^>]*>.*?</' + prefix + tag + '>',
                             lambda _: ET.tostring(element, encoding='unicode'), xml, count=1, flags=re.S)
     assert count == 1, tag
     return result
@@ -165,9 +166,9 @@ def export_workbook(template, output, rows):
     styles = ET.fromstring(parts['xl/styles.xml'])
     xfs = styles.find(q('cellXfs'))
     body_id = len(xfs)
-    body = ET.Element(q('xf'), {'numFmtId': '0', 'fontId': '2', 'fillId': '0', 'borderId': '0',
-                               'xfId': '0', 'applyFont': '1', 'applyAlignment': '1'})
-    ET.SubElement(body, q('alignment'), {'vertical': 'top', 'wrapText': '1'})
+    # Body formatting follows the template's default style, rather than a font
+    # index or wrapped/tall-row presentation inherited from a retired template.
+    body = copy.deepcopy(xfs[0])
     xfs.append(body)
     text_id = len(xfs)
     text_style = copy.deepcopy(body)
@@ -187,16 +188,10 @@ def export_workbook(template, output, rows):
         document = ET.fromstring(xml)
         data = document.find(q('sheetData'))
         assert len(data) == 1, 'Expected header-only template'
-        widths = {}
-        for col in document.findall(q('cols') + '/' + q('col')):
-            for index in range(int(col.get('min')), min(7, int(col.get('max'))) + 1):
-                widths[index] = float(col.get('width', '13'))
         for number, values in enumerate(rows[name], 2):
-            height = max([30] + [math.ceil(len(v) / max(8, widths.get(i, 13) - 2)) * 15 + 8
-                                for i, v in enumerate(values, 1) if isinstance(v, str)])
-            row = ET.SubElement(data, q('row'), {'r': str(number), 'ht': str(min(409, height)), 'customHeight': '1'})
+            row = ET.SubElement(data, q('row'), {'r': str(number)})
             for index, value in enumerate(values, 1):
-                cell = ET.SubElement(row, q('c'), {'r': chr(64 + index) + str(number), 's': str(body_id)})
+                cell = ET.SubElement(row, q('c'), {'r': get_column_letter(index) + str(number), 's': str(body_id)})
                 if isinstance(value, int):
                     ET.SubElement(cell, q('v')).text = str(value)
                 else:
@@ -205,7 +200,13 @@ def export_workbook(template, output, rows):
                         cell.set('s', str(text_id))
                     ET.SubElement(ET.SubElement(cell, q('is')), q('t')).text = str(value)
         xml = replace_block(xml, 'sheetData', data)
-        xml, count = re.subn(r'<dimension\b[^>]*/>', lambda _: '<dimension ref="A1:' + chr(64 + len(data[0])) + str(len(rows[name]) + 1) + '"/>', xml, count=1)
+        extent = 'A1:' + get_column_letter(len(data[0])) + str(len(rows[name]) + 1)
+        dimension = '<dimension xmlns="' + NS + '" ref="' + extent + '"/>'
+        xml, count = re.subn(r'<(?:[A-Za-z_][\w.-]*:)?dimension\b[^>]*/>', lambda _: dimension, xml, count=1)
+        # Some valid header-only exports omit dimension. Insert it before views,
+        # after any sheet properties, without reserializing the owner XML envelope.
+        if count == 0:
+            xml, count = re.subn(r'(<(?:[A-Za-z_][\w.-]*:)?sheetViews\b)', lambda m: dimension + m[1], xml, count=1)
         assert count == 1
         parts[member] = xml.encode()
         changed.add(member)

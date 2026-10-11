@@ -1,0 +1,234 @@
+<eSummaryResult><DocSum>
+	<Id>200158298</Id>
+	<Item Name="Accession" Type="String">GSE158298</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">Identification of required host factors for SARS-CoV-2 infection in human cells</Item>
+	<Item Name="summary" Type="String">We performed a genome-wide CRISPR knockout screen to identify human genes required for SARS-CoV-2 infection.</Item>
+	<Item Name="GPL" Type="String">21697</Item>
+	<Item Name="GSE" Type="String">158298</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Other</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2020/10/24</Item>
+	<Item Name="suppFile" Type="String">TXT</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4796724</Item>
+			<Item Name="Title" Type="String">CRISPR screen SARS-CoV-2 MOI 0.01</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4796723</Item>
+			<Item Name="Title" Type="String">CRISPR screen pre-infection</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4796725</Item>
+			<Item Name="Title" Type="String">CRISPR screen SARS-CoV-2 MOI 0.3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4796722</Item>
+			<Item Name="Title" Type="String">GeCKOv2 plasmid library</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List">
+		<Item Name="ExtRelation" Type="Structure">
+			<Item Name="RelationType" Type="String">SRA</Item>
+			<Item Name="TargetObject" Type="String">SRP284267</Item>
+			<Item Name="TargetFTPLink" Type="String">ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP284/SRP284267/</Item>
+		</Item>
+	</Item>
+	<Item Name="n_samples" Type="Integer">4</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">33147445</Item>
+		<Item Name="int" Type="Integer">33880488</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE158nnn/GSE158298/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200159519</Id>
+	<Item Name="Accession" Type="String">GSE159519</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">Identification of required host factors for SARS-CoV-2 infection in human cells [ECCITE-seq]</Item>
+	<Item Name="summary" Type="String">To better understand host-virus genetic dependencies and find potential therapeutic targets for COVID-19, we performed a genome-scale CRISPR loss-of-function screen to identify host factors required for SARS-CoV-2 viral infection of human alveolar epithelial cells. Top-ranked genes cluster into distinct pathways, including the vacuolar ATPase proton pump, Retromer, and Commander complexes. We validate these gene targets using several orthogonal methods such as CRISPR knock-out, RNA interference knock-down, and small-molecule inhibitors. Using single-cell RNA- sequencing, we identify shared transcriptional changes in cholesterol biosynthesis upon loss of top-ranked genes. In addition, given the key role of the ACE2 receptor in the early stages of viral entry, we show that loss of RAB7A reduces viral entry by sequestering the ACE2 receptor inside cells. Overall, this work provides a genome- scale, quantitative resource of the impact of the loss of each host gene on fitness/response to viral infection.</Item>
+	<Item Name="GPL" Type="String">21697</Item>
+	<Item Name="GSE" Type="String">159519</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Other</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2020/10/24</Item>
+	<Item Name="suppFile" Type="String">CSV, MTX, TSV</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4831695</Item>
+			<Item Name="Title" Type="String">ECCITE-seq GDO Rep1_Lane2: A549-ACE2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4831692</Item>
+			<Item Name="Title" Type="String">ECCITE-seq HTO Rep1_Lane1: A549-ACE2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4831698</Item>
+			<Item Name="Title" Type="String">ECCITE-seq HTO Rep2_Lane1: A549-ACE2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4831701</Item>
+			<Item Name="Title" Type="String">ECCITE-seq GDO Rep2_Lane2: A549-ACE2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4831700</Item>
+			<Item Name="Title" Type="String">ECCITE-seq GDO Rep2_Lane1: A549-ACE2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4831697</Item>
+			<Item Name="Title" Type="String">ECCITE-seq cDNA Rep2_Lane2: A549-ACE2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4831694</Item>
+			<Item Name="Title" Type="String">ECCITE-seq GDO Rep1_Lane1: A549-ACE2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4831691</Item>
+			<Item Name="Title" Type="String">ECCITE-seq cDNA Rep1_Lane2: A549-ACE2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4831693</Item>
+			<Item Name="Title" Type="String">ECCITE-seq HTO Rep1_Lane2: A549-ACE2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4831690</Item>
+			<Item Name="Title" Type="String">ECCITE-seq cDNA Rep1_Lane1: A549-ACE2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4831696</Item>
+			<Item Name="Title" Type="String">ECCITE-seq cDNA Rep2_Lane1: A549-ACE2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4831699</Item>
+			<Item Name="Title" Type="String">ECCITE-seq HTO Rep2_Lane2: A549-ACE2</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List">
+		<Item Name="ExtRelation" Type="Structure">
+			<Item Name="RelationType" Type="String">SRA</Item>
+			<Item Name="TargetObject" Type="String">SRP287801</Item>
+			<Item Name="TargetFTPLink" Type="String">ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP287/SRP287801/</Item>
+		</Item>
+	</Item>
+	<Item Name="n_samples" Type="Integer">12</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">33147445</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE159nnn/GSE159519/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200159522</Id>
+	<Item Name="Accession" Type="String">GSE159522</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">Identification of required host factors for SARS-CoV-2 infection in human cells [RNA-seq]</Item>
+	<Item Name="summary" Type="String">RNA-seq was performed to determine gene expression (RNA) levels and SARS-CoV-2 viral reads in A549-ACE2 cells treated with DMSO or Amlodipine.</Item>
+	<Item Name="GPL" Type="String">18573</Item>
+	<Item Name="GSE" Type="String">159522</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2020/10/24</Item>
+	<Item Name="suppFile" Type="String">CSV</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4831776</Item>
+			<Item Name="Title" Type="String">A549-ACE2 plus DMSO rep 2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4831773</Item>
+			<Item Name="Title" Type="String">A549-ACE2 plus DMSO and SARS-CoV-2 rep 2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4831767</Item>
+			<Item Name="Title" Type="String">A549-ACE2 plus Amlodipine and SARS-CoV-2 rep 2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4831770</Item>
+			<Item Name="Title" Type="String">A549-ACE2 plus Amlodipine only rep 2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4831766</Item>
+			<Item Name="Title" Type="String">A549-ACE2 plus Amlodipine and SARS-CoV-2 rep 1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4831775</Item>
+			<Item Name="Title" Type="String">A549-ACE2 plus DMSO rep 1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4831772</Item>
+			<Item Name="Title" Type="String">A549-ACE2 plus DMSO and SARS-CoV-2 rep 1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4831769</Item>
+			<Item Name="Title" Type="String">A549-ACE2 plus Amlodipine only rep 1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4831768</Item>
+			<Item Name="Title" Type="String">A549-ACE2 plus Amlodipine and SARS-CoV-2 rep 3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4831771</Item>
+			<Item Name="Title" Type="String">A549-ACE2 plus Amlodipine only rep 3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4831774</Item>
+			<Item Name="Title" Type="String">A549-ACE2 plus DMSO and SARS-CoV-2 rep 3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4831777</Item>
+			<Item Name="Title" Type="String">A549-ACE2 plus DMSO rep 3</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List">
+		<Item Name="ExtRelation" Type="Structure">
+			<Item Name="RelationType" Type="String">SRA</Item>
+			<Item Name="TargetObject" Type="String">SRP287812</Item>
+			<Item Name="TargetFTPLink" Type="String">ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP287/SRP287812/</Item>
+		</Item>
+	</Item>
+	<Item Name="n_samples" Type="Integer">12</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">33147445</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE159nnn/GSE159522/</Item>
+	<Item Name="GEO2R" Type="String">yes</Item>
+</DocSum>
+
+</eSummaryResult>

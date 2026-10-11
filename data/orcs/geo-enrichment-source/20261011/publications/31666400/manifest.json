@@ -1,0 +1,122 @@
+{
+  "strategy": "geo-accession-identification-v1",
+  "package_version": "0.1.0",
+  "started_utc": "2026-10-11T18:00:49.700933+00:00",
+  "publication": {
+    "PUBLICATION_ID": "406",
+    "SOURCE_TYPE": "pubmed",
+    "SOURCE_ID": "31666400",
+    "TITLE": "Inhibition of mitochondrial translation overcomes venetoclax resistance in AML through activation of the integrated stress response.",
+    "AUTHORS": "Sharon D, Cathelin S, Mirali S, Di Trani JM, Yanofsky DJ, Keon KA, Rubinstein JL, Schimmer AD, Ketela T, Chan SM",
+    "ABSTRACT": "Venetoclax is a specific B cell lymphoma 2 (BCL-2) inhibitor with promising activity against acute myeloid leukemia (AML), but its clinical efficacy as a single agent or in combination with hypomethylating agents (HMAs), such as azacitidine, is hampered by intrinsic and acquired resistance. Here, we performed a genome-wide CRISPR knockout screen and found that inactivation of genes involved in mitochondrial translation restored sensitivity to venetoclax in resistant AML cells. Pharmacologic inhibition of mitochondrial protein synthesis with antibiotics that target the ribosome, including tedizolid and doxycycline, effectively overcame venetoclax resistance. Mechanistic studies showed that both tedizolid and venetoclax suppressed mitochondrial respiration, with the latter demonstrating inhibitory activity against complex I [nicotinamide adenine dinucleotide plus hydrogen (NADH) dehydrogenase] of the electron transport chain (ETC). The drugs cooperated to activate a heightened integrated stress response (ISR), which, in turn, suppressed glycolytic capacity, resulting in adenosine triphosphate (ATP) depletion and subsequent cell death. Combination treatment with tedizolid and venetoclax was superior to either agent alone in reducing leukemic burden in mice engrafted with treatment-resistant human AML. The addition of tedizolid to azacitidine and venetoclax further enhanced the killing of resistant AML cells in vitro and in vivo. Our findings demonstrate that inhibition of mitochondrial translation is an effective approach to overcoming venetoclax resistance and provide a rationale for combining tedizolid, azacitidine, and venetoclax as a triplet therapy for AML.",
+    "JOURNAL": "Science translational medicine",
+    "PUBLICATION_DATE": "2019-10-30",
+    "PAGE_SOURCE_TYPE": "pubmed",
+    "PAGE_SOURCE_ID": "31666400",
+    "PMID": "31666400",
+    "DOI": "10.1126/scitranslmed.aax2863",
+    "SUPPLEMENTARY_FILES": [
+      {
+        "label": "MaGECK_D8-16-22-29 (1).xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/5fd25d2525b1e/MaGECK_D8-16-22-29 (1).xlsx"
+      }
+    ],
+    "LINKS": [
+      {
+        "label": "Pubmed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31666400"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/scholar?as_occt=title&as_q=Inhibition+of+mitochondrial+translation+overcomes+venetoclax+resistance+in+AML+through+activation+of+the+integrated+stress+response."
+      },
+      {
+        "label": "31666400",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31666400"
+      },
+      {
+        "label": "MaGECK_D8-16-22-29 (1).xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/5fd25d2525b1e/MaGECK_D8-16-22-29 (1).xlsx"
+      }
+    ],
+    "SCREEN_IDS": [
+      "1401",
+      "1402",
+      "1403",
+      "1404"
+    ],
+    "SCREEN_COUNT": 4,
+    "PUBLICATION_URL": "https://orcs.thebiogrid.org/Dataset/406",
+    "FIELD_LOCATORS": {
+      "TITLE": "#resultsHeaderBlock h1",
+      "AUTHORS": "#resultsHeaderBlock .subhead",
+      "ABSTRACT": "#resultsHeaderBlock .bgGrey",
+      "JOURNAL": ".linkouts citation strong",
+      "PUBLICATION_DATE": ".linkouts citation",
+      "SUPPLEMENTARY_FILES": ".linkouts Supplementary Files"
+    },
+    "REVIEW_ISSUES": [],
+    "RETRIEVED_AT": "2026-10-04T05:10:01.058573+00:00",
+    "SOURCE_METADATA_FILE": "data/orcs/publication-source/20261004-v01/406.metadata.html",
+    "SOURCE_METADATA_SHA256": "41d66cc1a6ba43c4592b8cff51b4b8d8593c9cfc06f7234cafab0a25a3ba9d3a",
+    "PMCID": null,
+    "IDENTIFIER_ENRICHMENT": {
+      "added_fields": [
+        "DOI"
+      ],
+      "resolution": {
+        "input": {
+          "pmid": "31666400",
+          "doi": null,
+          "pmcid": null
+        },
+        "identifiers": {
+          "pmid": "31666400",
+          "doi": "10.1126/scitranslmed.aax2863",
+          "pmcid": null
+        },
+        "status": "partial",
+        "alternatives": {
+          "pmid": [
+            "31666400"
+          ],
+          "doi": [
+            "10.1126/scitranslmed.aax2863"
+          ],
+          "pmcid": []
+        },
+        "evidence": [
+          {
+            "identifiers": {
+              "pmid": "31666400",
+              "doi": "10.1126/scitranslmed.aax2863",
+              "pmcid": null
+            },
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=30932271%2C30944478%2C30951565%2C30962421%2C30971826%2C30991026%2C30995489%2C31010806%2C31019072%2C31038839%2C31040274%2C31048320%2C31048321%2C31059574%2C31076567%2C31108395%2C31133756%2C31142663%2C31147448%2C31160565%2C31165872%2C31209294%2C31213543%2C31219803%2C31253397%2C31270356%2C31287994%2C31294695%2C31300418%2C31316073%2C31346084%2C31353312%2C31353801%2C31365872%2C31406246%2C31406271%2C31437751%2C31451760%2C31452512%2C31462500%2C31508283%2C31508509%2C31509742%2C31519728%2C31519875%2C31527793%2C31540829%2C31543463%2C31551363%2C31558468%2C31564637%2C31570734%2C31587919%2C31594818%2C31604991%2C31618756%2C31657721%2C31666400%2C31692446%2C31723608%2C31727847%2C31730859%2C31741433%2C31744829%2C31761535%2C31792210%2C31801065%2C31818950%2C31855178%2C31868589%2C31882897%2C31903165%2C31915280%2C31919360%2C31921143%2C31959936%2C32005668%2C32028983%2C32075772%2C32094149%2C32142663%2C32156810%2C32160526%2C32238925%2C32259488%2C32268084%2C32299104%2C32315601%2C32355287%2C32416067%2C32421776%2C32424339%2C32499641%2C32528131%2C32542389%2C32579974%2C32585766%2C32640256%2C32649862%2C32668236&retmode=xml&tool=deathmap_ai",
+            "retrieved_at": "2026-10-08T01:37:56.574050+00:00",
+            "response_sha256": "21786aacf01be17cea2401daf1833ab8b82ec384a169e5bf6f15e51350cfe075"
+          }
+        ]
+      }
+    },
+    "_input_provenance": {
+      "file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\publication-index.json",
+      "sha256": "63cb33b7095108e7a0776950e9c258e7b65fe148ca6b12ae75cd4dd914ad6c89",
+      "locator": "PUBLICATION_ID=406"
+    }
+  },
+  "status": "complete",
+  "source_code_sha256": "c9e115559a404d2efb27413042c5a3b1b3796bd08d8d81d38fdd8f6f1af80072",
+  "limits": {
+    "request_attempts": 100,
+    "seconds": 600,
+    "series": 100,
+    "target_uids_per_route": 1000,
+    "attempts_per_request": 2,
+    "timeout_seconds": 30,
+    "pacing_seconds": 0.4
+  },
+  "total_gse_count": 1,
+  "finished_utc": "2026-10-11T18:00:51.576572+00:00",
+  "request_attempts": 2
+}

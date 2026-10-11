@@ -1,0 +1,73 @@
+<eSummaryResult><DocSum>
+	<Id>200189499</Id>
+	<Item Name="Accession" Type="String">GSE189499</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">FBXW7</Item>
+	<Item Name="summary" Type="String">Purpose: FBXW7 is one of the most frequently mutated tumor suppressors, the deficiency of which has been associated with resistance to some anticancer therapies. Through bioinformatic analyses and genome-wide CRISPR screens, we here reveal that FBXW7 deficiency leads to multi-drug resistance (MDR), to a bigger extent than well-established MDR-drivers such as ABCB1. Proteomic data from FBXW7-deficient cells and human cancer samples identify the upregulation of mitochondrial function as a hallmark of FBXW7 deficiency, which has been previously linked to an increased resistance to chemotherapy. Accordingly, genetic or chemical targeting of mitochondria is preferentially toxic for FBXW7-deficient cells. For instance, targeting mitochondrial translation with the antibiotic Tigecycline efficiently kills FBXW7-deficient cells in vitro and in vivo, by a mechanism that involves activation of the Integrated Stress Response (ISR). Searching for additional drugs that overcome MDR in FBXW7-deficient cells, we found several targeted therapies such as Erlotinib, Dasatinib or Vemurafenib which unexpectedly also activate the ISR. Together, our study reveals that one of the most frequent mutations in cancer reduces the sensitivity to the vast majority of available therapies, and identifies a general principle to overcome such resistance. Methods: This study was performed in 2 groups of DLD1 cells with duplicate samples per group. Both control (Wild Type, WT) and experimental (FBXW7 -/-, KO) were exposed to Tigecycline (10&#181;M). DMSO was used as a control for the treatment. After 24h, the RNA was extracted and the transcriptome was profiled with RNA-Sequencing (RNA-seq) analysis. Results: our study reveals that one of the most frequent mutations in cancer reduces the sensitivity to the vast majority of available therapies, and identifies a general principle to overcome such resistance.</Item>
+	<Item Name="GPL" Type="String">21697</Item>
+	<Item Name="GSE" Type="String">189499</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2022/06/09</Item>
+	<Item Name="suppFile" Type="String">CSV, TSV</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5702573</Item>
+			<Item Name="Title" Type="String">KO DMSO 2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5702570</Item>
+			<Item Name="Title" Type="String">WT DMSO 1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5702567</Item>
+			<Item Name="Title" Type="String">WT TIG 2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5702569</Item>
+			<Item Name="Title" Type="String">KO TIG 2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5702566</Item>
+			<Item Name="Title" Type="String">WT TIG 1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5702572</Item>
+			<Item Name="Title" Type="String">KO DMSO 1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5702568</Item>
+			<Item Name="Title" Type="String">KO TIG 1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5702571</Item>
+			<Item Name="Title" Type="String">WT DMSO 2</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List">
+		<Item Name="ExtRelation" Type="Structure">
+			<Item Name="RelationType" Type="String">SRA</Item>
+			<Item Name="TargetObject" Type="String">SRP347627</Item>
+			<Item Name="TargetFTPLink" Type="String">ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP347/SRP347627/</Item>
+		</Item>
+	</Item>
+	<Item Name="n_samples" Type="Integer">8</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">35861150</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE189nnn/GSE189499/</Item>
+	<Item Name="GEO2R" Type="String">yes</Item>
+</DocSum>
+
+</eSummaryResult>

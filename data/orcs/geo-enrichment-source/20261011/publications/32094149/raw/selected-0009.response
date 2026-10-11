@@ -1,0 +1,61 @@
+<eSummaryResult><DocSum>
+	<Id>200138894</Id>
+	<Item Name="Accession" Type="String">GSE138894</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">Imipridone anticancer compounds ectopically activate the ClpP protease and represent a new scaffold for antibiotic development</Item>
+	<Item Name="summary" Type="String">Systematic genetic interaction profiles can reveal the mechanism-of-action of bioactive compounds. The imipridone ONC201, which is currently in cancer clinical trials, has been ascribed a variety of different targets. To investigate the genetic dependencies of imipridone action, we screened a genome-wide CRISPR knockout library in the presence of either ONC201 or its more potent analog ONC212. Loss of the mitochondrial matrix protease CLPP or the mitochondrial intermediate peptidase MIPEP conferred strong resistance to both compounds. Biochemical and surrogate genetic assays showed that impridones directly activate CLPP and that MIPEP is necessary for proteolytic maturation of CLPP into a catalytically competent form. Quantitative proteomic analysis of cells treated with ONC212 revealed degradation of many mitochondrial as well as non-mitochondrial proteins. Prompted by the conservation of ClpP from bacteria to humans, we found that the imipridones also activate ClpP from Escherichia coli, B. subtilis and Staphylococcus aureus in biochemical and genetic assays. ONC212 and acyldepsipeptide (ADEP)-4, a known activator of bacterial ClpP, caused similar proteome-wide degradation profiles in S. aureus. ONC212 suppressed the proliferation of a number of Gram-positive (S. aureus, B. subtilis, Enterococcus faecium) and Gram-negative species (E. coli, Neisseria gonorrhoeae). Moreover, ONC212 enhanced the ability of rifampin to eradicate antibiotic-tolerant S. aureus persister cells. These results reveal the genetic dependencies of imipridone action in human cells and identify the imipridone scaffold as a new entry point for antibiotic development.</Item>
+	<Item Name="GPL" Type="String">18573</Item>
+	<Item Name="GSE" Type="String">138894</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Other</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2020/02/23</Item>
+	<Item Name="suppFile" Type="String">TXT</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4121374</Item>
+			<Item Name="Title" Type="String">Day 2 control replicate 1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4121377</Item>
+			<Item Name="Title" Type="String">ONC212 0.15uM</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4121375</Item>
+			<Item Name="Title" Type="String">Day 2 control replicate 2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4121378</Item>
+			<Item Name="Title" Type="String">TIC10 10uM</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4121376</Item>
+			<Item Name="Title" Type="String">Day 2 control replicate 3</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List">
+		<Item Name="ExtRelation" Type="Structure">
+			<Item Name="RelationType" Type="String">SRA</Item>
+			<Item Name="TargetObject" Type="String">SRP225761</Item>
+			<Item Name="TargetFTPLink" Type="String">ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP225/SRP225761/</Item>
+		</Item>
+	</Item>
+	<Item Name="n_samples" Type="Integer">5</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">32094149</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE138nnn/GSE138894/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+</eSummaryResult>

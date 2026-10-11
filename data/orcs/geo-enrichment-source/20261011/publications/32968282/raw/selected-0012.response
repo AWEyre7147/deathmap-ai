@@ -1,0 +1,89 @@
+<eSummaryResult><DocSum>
+	<Id>200149934</Id>
+	<Item Name="Accession" Type="String">GSE149934</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">Functional genomic landscape of cancer-intrinsic immune evasion to cytotoxic T lymphocyte killing [RNA-seq I]</Item>
+	<Item Name="summary" Type="String">The genetic circuits that allow cancer cells to evade destruction by the host immune system remain poorly understood. To identify a phenotypically robust core set of genes and pathways that facilitate cancer cell-intrinsic evasion to cytotoxic T lymphocyte (CTL)-mediated killing, we performed genome-wide CRISPR screens across a panel of genetically diverse cancer models cultured in the presence of CTLs. We uncovered a core set of 182 genes whose individual perturbation leads to either cancer cell sensitivity or resistance to CTL toxicity. Systematic exploration of our dataset using genetic co-similarity reveals the hierarchical and coordinated nature by which genes and pathways act to orchestrate intrinsic CTL evasion, with discrete functional modules controlling the interferon response and tumor necrosis factor alpha (TNFa)-induced cytotoxicity emerging as dominant sub-phenotypes. Our data establish a central role for previously identified negative regulators of the Type II interferon response (e.g. Ptpn2, Socs1, Adar1) in mediating intrinsic CTL evasion and demonstrate a requirement for the lipid droplet related gene Fitm2 for maintaining cell fitness upon exposure to interferon gamma (IFNg). Additionally, we identify the autophagy pathway as a conserved mediator of cancer intrinsic CTL evasion, required to resist cytokine-mediated cytotoxicity caused by IFNg and TNFa. By mapping cytokine- and CTL-based genetic interactions, as well as in vivo CRISPR screens, we illuminate the pleiotropic nature by which autophagy acts to orchestrate intrinsic CTL evasion and highlight the importance of our observed effects within the tumor microenvironment. Collectively, our data expands our appreciation of the genetic circuits that contribute to cancer intrinsic immune evasion, highlighting the importance of leveraging systematic functional genomics approaches for furthering our understanding of this biology.</Item>
+	<Item Name="GPL" Type="String">19057;24247</Item>
+	<Item Name="GSE" Type="String">149934</Item>
+	<Item Name="taxon" Type="String">Mus musculus</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2020/07/31</Item>
+	<Item Name="suppFile" Type="String">TXT</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518376</Item>
+			<Item Name="Title" Type="String">4T1-HA repl2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518379</Item>
+			<Item Name="Title" Type="String">CT26-HA repl1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518382</Item>
+			<Item Name="Title" Type="String">Renca-HA repl2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518373</Item>
+			<Item Name="Title" Type="String">MC38-OVA repl1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518371</Item>
+			<Item Name="Title" Type="String">B16-OVA repl1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518374</Item>
+			<Item Name="Title" Type="String">MC38-OVA repl2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518377</Item>
+			<Item Name="Title" Type="String">EMT6-HA repl1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518380</Item>
+			<Item Name="Title" Type="String">CT26-HA repl2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518381</Item>
+			<Item Name="Title" Type="String">Renca-HA repl1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518378</Item>
+			<Item Name="Title" Type="String">EMT6-HA repl2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518372</Item>
+			<Item Name="Title" Type="String">B16-OVA repl2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4518375</Item>
+			<Item Name="Title" Type="String">4T1-HA repl1</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List">
+		<Item Name="ExtRelation" Type="Structure">
+			<Item Name="RelationType" Type="String">SRA</Item>
+			<Item Name="TargetObject" Type="String">SRP260216</Item>
+			<Item Name="TargetFTPLink" Type="String">ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP260/SRP260216/</Item>
+		</Item>
+	</Item>
+	<Item Name="n_samples" Type="Integer">12</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">32968282</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE149nnn/GSE149934/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+</eSummaryResult>

@@ -1,0 +1,225 @@
+<eSummaryResult><DocSum>
+	<Id>200153397</Id>
+	<Item Name="Accession" Type="String">GSE153397</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">Functional genomic landscape of cancer-intrinsic immune evasion to cytotoxic T lymphocyte killing [CRISPRseq]</Item>
+	<Item Name="summary" Type="String">The genetic circuits that allow cancer cells to evade destruction by the host immune system remain poorly understood. To identify a phenotypically robust core set of genes and pathways that facilitate cancer cell-intrinsic evasion to cytotoxic T lymphocyte (CTL)-mediated killing, we performed genome-wide CRISPR screens across a panel of genetically diverse cancer models cultured in the presence of CTLs. We uncovered a core set of 182 genes whose individual perturbation leads to either cancer cell sensitivity or resistance to CTL toxicity. Systematic exploration of our dataset using genetic co-similarity reveals the hierarchical and coordinated nature by which genes and pathways act to orchestrate intrinsic CTL evasion, with discrete functional modules controlling the interferon response and tumor necrosis factor alpha (TNFa)-induced cytotoxicity emerging as dominant sub-phenotypes. Our data establish a central role for previously identified negative regulators of the Type II interferon response (e.g. Ptpn2, Socs1, Adar1) in mediating intrinsic CTL evasion and demonstrate a requirement for the lipid droplet related gene Fitm2 for maintaining cell fitness upon exposure to interferon gamma (IFNg). Additionally, we identify the autophagy pathway as a conserved mediator of cancer intrinsic CTL evasion, required to resist cytokine-mediated cytotoxicity caused by IFNg and TNFa. By mapping cytokine- and CTL-based genetic interactions, as well as in vivo CRISPR screens, we illuminate the pleiotropic nature by which autophagy acts to orchestrate intrinsic CTL evasion and highlight the importance of our observed effects within the tumor microenvironment. Collectively, our data expands our appreciation of the genetic circuits that contribute to cancer intrinsic immune evasion, highlighting the importance of leveraging systematic functional genomics approaches for furthering our understanding of this biology.</Item>
+	<Item Name="GPL" Type="String">17021</Item>
+	<Item Name="GSE" Type="String">153397</Item>
+	<Item Name="taxon" Type="String">Mus musculus</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Other</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2020/07/31</Item>
+	<Item Name="suppFile" Type="String">TXT</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643705</Item>
+			<Item Name="Title" Type="String">MGIN_68; Renca Fitm2ko T20 C</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643685</Item>
+			<Item Name="Title" Type="String">MGIN_48; Renca Atg12ko T10 B</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643722</Item>
+			<Item Name="Title" Type="String">MGIN_95; Renca-HA Atg12ko T21 C</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643725</Item>
+			<Item Name="Title" Type="String">MGIN_101; Renca-HA Atg12ko T21 C</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643682</Item>
+			<Item Name="Title" Type="String">MGIN_45; Renca Atg12ko T9 B</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643719</Item>
+			<Item Name="Title" Type="String">MGIN_98; Renca-HA Atg12ko T15 C</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643702</Item>
+			<Item Name="Title" Type="String">MGIN_62; Renca Fitm2ko T19 C</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643699</Item>
+			<Item Name="Title" Type="String">MGIN_59; Renca Fitm2ko T10 C</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643688</Item>
+			<Item Name="Title" Type="String">MGIN_51; Renca Atg12ko T14 B</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643711</Item>
+			<Item Name="Title" Type="String">MGIN_87; Renca-HA Fitm2ko T18 B</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643708</Item>
+			<Item Name="Title" Type="String">MGIN_84; Renca-HA Fitm2ko T18 B</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643691</Item>
+			<Item Name="Title" Type="String">MGIN_54; Renca Atg12ko T14 B</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643687</Item>
+			<Item Name="Title" Type="String">MGIN_50; Renca Atg12ko T14 A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643707</Item>
+			<Item Name="Title" Type="String">MGIN_83; Renca-HA Fitm2ko T18 A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643704</Item>
+			<Item Name="Title" Type="String">MGIN_67; Renca Fitm2ko T20 B</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643684</Item>
+			<Item Name="Title" Type="String">MGIN_47; Renca Atg12ko T10 A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643710</Item>
+			<Item Name="Title" Type="String">MGIN_86; Renca-HA Fitm2ko T18 A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643690</Item>
+			<Item Name="Title" Type="String">MGIN_53; Renca Atg12ko T14 A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643696</Item>
+			<Item Name="Title" Type="String">MGIN_65; Renca Fitm2ko T8 C</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643716</Item>
+			<Item Name="Title" Type="String">MGIN_92; Renca-HA Atg12ko T15 C</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643713</Item>
+			<Item Name="Title" Type="String">MGIN_89; Renca-HA Atg12ko T0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643693</Item>
+			<Item Name="Title" Type="String">MGIN_56; Renca Fitm2ko T0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643715</Item>
+			<Item Name="Title" Type="String">MGIN_91; Renca-HA Atg12ko T15 B</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643695</Item>
+			<Item Name="Title" Type="String">MGIN_64; Renca Fitm2ko T8 B</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643692</Item>
+			<Item Name="Title" Type="String">MGIN_55; Renca Atg12ko T14 C</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643712</Item>
+			<Item Name="Title" Type="String">MGIN_88; Renca-HA Fitm2ko T18 C</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643724</Item>
+			<Item Name="Title" Type="String">MGIN_100; Renca-HA Atg12ko T21 B</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643709</Item>
+			<Item Name="Title" Type="String">MGIN_85; Renca-HA Fitm2ko T18 C</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643689</Item>
+			<Item Name="Title" Type="String">MGIN_52; Renca Atg12ko T14 C</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643721</Item>
+			<Item Name="Title" Type="String">MGIN_94; Renca-HA Atg12ko T21 B</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643701</Item>
+			<Item Name="Title" Type="String">MGIN_61; Renca Fitm2ko T19 B</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643698</Item>
+			<Item Name="Title" Type="String">MGIN_58; Renca Fitm2ko T10 B</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643714</Item>
+			<Item Name="Title" Type="String">MGIN_90; Renca-HA Atg12ko T15 A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643718</Item>
+			<Item Name="Title" Type="String">MGIN_97; Renca-HA Atg12ko T15 B</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643681</Item>
+			<Item Name="Title" Type="String">MGIN_44; Renca Atg12ko T9 A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643697</Item>
+			<Item Name="Title" Type="String">MGIN_57; Renca Fitm2ko T10 A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643694</Item>
+			<Item Name="Title" Type="String">MGIN_63; Renca Fitm2ko T8 A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643700</Item>
+			<Item Name="Title" Type="String">MGIN_60; Renca Fitm2ko T19 A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643706</Item>
+			<Item Name="Title" Type="String">MGIN_82; Renca-HA Fitm2ko T0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643720</Item>
+			<Item Name="Title" Type="String">MGIN_93; Renca-HA Atg12ko T21 A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643703</Item>
+			<Item Name="Title" Type="String">MGIN_66; Renca Fitm2ko T20 A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643717</Item>
+			<Item Name="Title" Type="String">MGIN_96; Renca-HA Atg12ko T15 A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643686</Item>
+			<Item Name="Title" Type="String">MGIN_49; Renca Atg12ko T10 C</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643723</Item>
+			<Item Name="Title" Type="String">MGIN_99; Renca-HA Atg12ko T21 A</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643683</Item>
+			<Item Name="Title" Type="String">MGIN_46; Renca Atg12ko T9 C</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4643680</Item>
+			<Item Name="Title" Type="String">MGIN_43; Renca Atg12ko T0</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List">
+		<Item Name="ExtRelation" Type="Structure">
+			<Item Name="RelationType" Type="String">SRA</Item>
+			<Item Name="TargetObject" Type="String">SRP268992</Item>
+			<Item Name="TargetFTPLink" Type="String">ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP268/SRP268992/</Item>
+		</Item>
+	</Item>
+	<Item Name="n_samples" Type="Integer">46</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">32968282</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE153nnn/GSE153397/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+</eSummaryResult>

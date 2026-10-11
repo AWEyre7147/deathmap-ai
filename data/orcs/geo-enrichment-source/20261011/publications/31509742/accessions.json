@@ -1,0 +1,488 @@
+{
+  "publication": {
+    "PUBLICATION_ID": "713",
+    "SOURCE_TYPE": "pubmed",
+    "SOURCE_ID": "31509742",
+    "TITLE": "Natural Killer Cells Suppress T Cell-Associated Tumor Immune Evasion.",
+    "AUTHORS": "Freeman AJ, Vervoort SJ, Ramsbottom KM, Kelly MJ, Michie J, Pijpers L, Johnstone RW, Kearney CJ, Oliaro J",
+    "ABSTRACT": "Despite the clinical success of cancer immunotherapies, the majority of patients fail to respond or develop resistance through disruption of pathways that promote neo-antigen presentation on MHC I molecules. Here, we conducted a series of unbiased, genome-wide CRISPR/Cas9 screens to identify genes that limit natural killer (NK) cell anti-tumor activity. We identified that genes associated with antigen presentation and/or interferon-γ (IFN-γ) signaling protect tumor cells from NK cell killing. Indeed, Jak1-deficient melanoma cells were sensitized to NK cell killing through attenuated NK cell-derived IFN-γ-driven transcriptional events that regulate MHC I expression. Importantly, tumor cells that became resistant to T cell killing through enrichment of MHC I-deficient clones were highly sensitive to NK cell killing. Taken together, we reveal the genes targeted by tumor cells to drive checkpoint blockade resistance but simultaneously increase their vulnerability to NK cells, unveiling NK cell-based immunotherapies as a strategy to antagonize tumor immune escape.",
+    "JOURNAL": "Cell reports",
+    "PUBLICATION_DATE": "2019-09-10",
+    "PAGE_SOURCE_TYPE": "pubmed",
+    "PAGE_SOURCE_ID": "31509742",
+    "PMID": "31509742",
+    "DOI": "10.1016/j.celrep.2019.08.017",
+    "SUPPLEMENTARY_FILES": [
+      {
+        "label": "mmc2 (62).xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/62e7df8750bd4/mmc2 (62).xlsx"
+      },
+      {
+        "label": "mmc3 (43).xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/62e7df8750bd4/mmc3 (43).xlsx"
+      }
+    ],
+    "LINKS": [
+      {
+        "label": "Pubmed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31509742"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/scholar?as_occt=title&as_q=Natural+Killer+Cells+Suppress+T+Cell-Associated+Tumor+Immune+Evasion."
+      },
+      {
+        "label": "31509742",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31509742"
+      },
+      {
+        "label": "mmc2 (62).xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/62e7df8750bd4/mmc2 (62).xlsx"
+      },
+      {
+        "label": "mmc3 (43).xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/62e7df8750bd4/mmc3 (43).xlsx"
+      }
+    ],
+    "SCREEN_IDS": [
+      "1838",
+      "1839"
+    ],
+    "SCREEN_COUNT": 2,
+    "PUBLICATION_URL": "https://orcs.thebiogrid.org/Dataset/713",
+    "FIELD_LOCATORS": {
+      "TITLE": "#resultsHeaderBlock h1",
+      "AUTHORS": "#resultsHeaderBlock .subhead",
+      "ABSTRACT": "#resultsHeaderBlock .bgGrey",
+      "JOURNAL": ".linkouts citation strong",
+      "PUBLICATION_DATE": ".linkouts citation",
+      "SUPPLEMENTARY_FILES": ".linkouts Supplementary Files"
+    },
+    "REVIEW_ISSUES": [],
+    "RETRIEVED_AT": "2026-10-04T05:12:22.171434+00:00",
+    "SOURCE_METADATA_FILE": "data/orcs/publication-source/20261004-v01/713.metadata.html",
+    "SOURCE_METADATA_SHA256": "d3e80ed4a628793540682622e8c1c2f4ba42f60b59415e265897816508aac687",
+    "PMCID": null,
+    "IDENTIFIER_ENRICHMENT": {
+      "added_fields": [
+        "DOI"
+      ],
+      "resolution": {
+        "input": {
+          "pmid": "31509742",
+          "doi": null,
+          "pmcid": null
+        },
+        "identifiers": {
+          "pmid": "31509742",
+          "doi": "10.1016/j.celrep.2019.08.017",
+          "pmcid": null
+        },
+        "status": "partial",
+        "alternatives": {
+          "pmid": [
+            "31509742"
+          ],
+          "doi": [
+            "10.1016/j.celrep.2019.08.017"
+          ],
+          "pmcid": []
+        },
+        "evidence": [
+          {
+            "identifiers": {
+              "pmid": "31509742",
+              "doi": "10.1016/j.celrep.2019.08.017",
+              "pmcid": null
+            },
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=30932271%2C30944478%2C30951565%2C30962421%2C30971826%2C30991026%2C30995489%2C31010806%2C31019072%2C31038839%2C31040274%2C31048320%2C31048321%2C31059574%2C31076567%2C31108395%2C31133756%2C31142663%2C31147448%2C31160565%2C31165872%2C31209294%2C31213543%2C31219803%2C31253397%2C31270356%2C31287994%2C31294695%2C31300418%2C31316073%2C31346084%2C31353312%2C31353801%2C31365872%2C31406246%2C31406271%2C31437751%2C31451760%2C31452512%2C31462500%2C31508283%2C31508509%2C31509742%2C31519728%2C31519875%2C31527793%2C31540829%2C31543463%2C31551363%2C31558468%2C31564637%2C31570734%2C31587919%2C31594818%2C31604991%2C31618756%2C31657721%2C31666400%2C31692446%2C31723608%2C31727847%2C31730859%2C31741433%2C31744829%2C31761535%2C31792210%2C31801065%2C31818950%2C31855178%2C31868589%2C31882897%2C31903165%2C31915280%2C31919360%2C31921143%2C31959936%2C32005668%2C32028983%2C32075772%2C32094149%2C32142663%2C32156810%2C32160526%2C32238925%2C32259488%2C32268084%2C32299104%2C32315601%2C32355287%2C32416067%2C32421776%2C32424339%2C32499641%2C32528131%2C32542389%2C32579974%2C32585766%2C32640256%2C32649862%2C32668236&retmode=xml&tool=deathmap_ai",
+            "retrieved_at": "2026-10-08T01:37:56.574050+00:00",
+            "response_sha256": "21786aacf01be17cea2401daf1833ab8b82ec384a169e5bf6f15e51350cfe075"
+          }
+        ]
+      }
+    },
+    "_input_provenance": {
+      "file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\publication-index.json",
+      "sha256": "63cb33b7095108e7a0776950e9c258e7b65fe148ca6b12ae75cd4dd914ad6c89",
+      "locator": "PUBLICATION_ID=713"
+    }
+  },
+  "candidates": [
+    {
+      "gse": "GSE134261",
+      "pmid": "31509742",
+      "routes": [
+        "pubmed_bioproject_geo",
+        "pubmed_geo_links",
+        "series_hierarchy"
+      ],
+      "hierarchy_only": false,
+      "native_pmids": [
+        "31509742"
+      ],
+      "citation_comparison": "matches_origin",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE134262",
+      "pmid": "31509742",
+      "routes": [
+        "pubmed_bioproject_geo",
+        "pubmed_geo_links",
+        "series_hierarchy"
+      ],
+      "hierarchy_only": false,
+      "native_pmids": [
+        "31509742"
+      ],
+      "citation_comparison": "matches_origin",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE134263",
+      "pmid": "31509742",
+      "routes": [
+        "pubmed_bioproject_geo",
+        "pubmed_geo_links",
+        "series_hierarchy"
+      ],
+      "hierarchy_only": false,
+      "native_pmids": [
+        "31509742"
+      ],
+      "citation_comparison": "matches_origin",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE134264",
+      "pmid": "31509742",
+      "routes": [
+        "pubmed_bioproject_geo",
+        "pubmed_geo_links",
+        "series_hierarchy"
+      ],
+      "hierarchy_only": false,
+      "native_pmids": [
+        "31509742"
+      ],
+      "citation_comparison": "matches_origin",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE134265",
+      "pmid": "31509742",
+      "routes": [
+        "pubmed_bioproject_geo",
+        "pubmed_geo_links",
+        "series_hierarchy"
+      ],
+      "hierarchy_only": false,
+      "native_pmids": [
+        "31509742"
+      ],
+      "citation_comparison": "matches_origin",
+      "data_role": "not_assessed"
+    }
+  ],
+  "routes": {
+    "pubmed_geo_links": {
+      "status": "complete",
+      "native_target_count": 5,
+      "distinct_gse_count": 5
+    },
+    "pubmed_accession_list": {
+      "status": "complete",
+      "distinct_gse_count": 0
+    },
+    "publication_title_phrase": {
+      "status": "complete",
+      "query": "\"Natural Killer Cells Suppress T Cell-Associated Tumor Immune Evasion\"[All Fields] AND gse[Entry Type]",
+      "count": 0,
+      "query_translation": "\"Natural Killer Cells Suppress T Cell-Associated Tumor Immune Evasion\"[All Fields] AND gse[Entry Type]",
+      "warnings": {
+        "phrasesignored": [],
+        "quotedphrasesnotfound": [
+          "\"Natural Killer Cells Suppress T Cell-Associated Tumor Immune Evasion\"[All Fields]"
+        ],
+        "outputmessages": [
+          "No items found."
+        ]
+      },
+      "distinct_gse_count": 0
+    },
+    "europepmc_annotations": {
+      "status": "complete",
+      "distinct_gse_count": 0
+    },
+    "europepmc_datalinks": {
+      "status": "complete",
+      "service_version": "6.9",
+      "category": "GEO",
+      "section_limit": 1000,
+      "distinct_gse_count": 0
+    },
+    "pubmed_bioproject_geo": {
+      "status": "complete",
+      "bioproject_uids": [
+        "554587",
+        "554590",
+        "554591",
+        "554592",
+        "554593"
+      ],
+      "distinct_gse_count": 5
+    },
+    "series_hierarchy": {
+      "status": "complete",
+      "distinct_gse_count": 5
+    }
+  },
+  "seed_count": 5,
+  "total_gse_count": 5,
+  "hierarchy_added": [],
+  "evidence": [
+    {
+      "pmid": "31509742",
+      "publication_id": "713",
+      "gse": "GSE134261",
+      "route": "pubmed_geo_links",
+      "source_file": "raw/selected-0000.response",
+      "locator": "target_uid=200134261",
+      "data_role": "not_assessed",
+      "summary_source": "raw/selected-0001.response",
+      "native_uid": "200134261",
+      "evidence_kind": "direct_repository_link"
+    },
+    {
+      "pmid": "31509742",
+      "publication_id": "713",
+      "gse": "GSE134262",
+      "route": "pubmed_geo_links",
+      "source_file": "raw/selected-0000.response",
+      "locator": "target_uid=200134262",
+      "data_role": "not_assessed",
+      "summary_source": "raw/selected-0001.response",
+      "native_uid": "200134262",
+      "evidence_kind": "direct_repository_link"
+    },
+    {
+      "pmid": "31509742",
+      "publication_id": "713",
+      "gse": "GSE134263",
+      "route": "pubmed_geo_links",
+      "source_file": "raw/selected-0000.response",
+      "locator": "target_uid=200134263",
+      "data_role": "not_assessed",
+      "summary_source": "raw/selected-0001.response",
+      "native_uid": "200134263",
+      "evidence_kind": "direct_repository_link"
+    },
+    {
+      "pmid": "31509742",
+      "publication_id": "713",
+      "gse": "GSE134264",
+      "route": "pubmed_geo_links",
+      "source_file": "raw/selected-0000.response",
+      "locator": "target_uid=200134264",
+      "data_role": "not_assessed",
+      "summary_source": "raw/selected-0001.response",
+      "native_uid": "200134264",
+      "evidence_kind": "direct_repository_link"
+    },
+    {
+      "pmid": "31509742",
+      "publication_id": "713",
+      "gse": "GSE134265",
+      "route": "pubmed_geo_links",
+      "source_file": "raw/selected-0000.response",
+      "locator": "target_uid=200134265",
+      "data_role": "not_assessed",
+      "summary_source": "raw/selected-0001.response",
+      "native_uid": "200134265",
+      "evidence_kind": "direct_repository_link"
+    },
+    {
+      "pmid": "31509742",
+      "publication_id": "713",
+      "gse": "GSE134265",
+      "route": "pubmed_bioproject_geo",
+      "source_file": "raw/selected-0007.response",
+      "locator": "target_uid=200134265",
+      "data_role": "not_assessed",
+      "summary_source": "raw/selected-0008.response",
+      "native_uid": "200134265",
+      "evidence_kind": "indirect_repository_path",
+      "bioproject_uid": "554587",
+      "publication_project_source": "raw/selected-0006.response"
+    },
+    {
+      "pmid": "31509742",
+      "publication_id": "713",
+      "gse": "GSE134261",
+      "route": "pubmed_bioproject_geo",
+      "source_file": "raw/selected-0009.response",
+      "locator": "target_uid=200134261",
+      "data_role": "not_assessed",
+      "summary_source": "raw/selected-0010.response",
+      "native_uid": "200134261",
+      "evidence_kind": "indirect_repository_path",
+      "bioproject_uid": "554590",
+      "publication_project_source": "raw/selected-0006.response"
+    },
+    {
+      "pmid": "31509742",
+      "publication_id": "713",
+      "gse": "GSE134262",
+      "route": "pubmed_bioproject_geo",
+      "source_file": "raw/selected-0011.response",
+      "locator": "target_uid=200134262",
+      "data_role": "not_assessed",
+      "summary_source": "raw/selected-0012.response",
+      "native_uid": "200134262",
+      "evidence_kind": "indirect_repository_path",
+      "bioproject_uid": "554591",
+      "publication_project_source": "raw/selected-0006.response"
+    },
+    {
+      "pmid": "31509742",
+      "publication_id": "713",
+      "gse": "GSE134264",
+      "route": "pubmed_bioproject_geo",
+      "source_file": "raw/selected-0013.response",
+      "locator": "target_uid=200134264",
+      "data_role": "not_assessed",
+      "summary_source": "raw/selected-0014.response",
+      "native_uid": "200134264",
+      "evidence_kind": "indirect_repository_path",
+      "bioproject_uid": "554592",
+      "publication_project_source": "raw/selected-0006.response"
+    },
+    {
+      "pmid": "31509742",
+      "publication_id": "713",
+      "gse": "GSE134263",
+      "route": "pubmed_bioproject_geo",
+      "source_file": "raw/selected-0015.response",
+      "locator": "target_uid=200134263",
+      "data_role": "not_assessed",
+      "summary_source": "raw/selected-0016.response",
+      "native_uid": "200134263",
+      "evidence_kind": "indirect_repository_path",
+      "bioproject_uid": "554593",
+      "publication_project_source": "raw/selected-0006.response"
+    },
+    {
+      "pmid": "31509742",
+      "publication_id": "713",
+      "gse": "GSE134265",
+      "route": "series_hierarchy",
+      "source_file": "raw/cache-0017.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE134261",
+      "to_gse": "GSE134265",
+      "relation": "SubSeries of",
+      "native_value": "SubSeries of: GSE134265"
+    },
+    {
+      "pmid": "31509742",
+      "publication_id": "713",
+      "gse": "GSE134265",
+      "route": "series_hierarchy",
+      "source_file": "raw/cache-0018.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE134262",
+      "to_gse": "GSE134265",
+      "relation": "SubSeries of",
+      "native_value": "SubSeries of: GSE134265"
+    },
+    {
+      "pmid": "31509742",
+      "publication_id": "713",
+      "gse": "GSE134265",
+      "route": "series_hierarchy",
+      "source_file": "raw/cache-0019.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE134263",
+      "to_gse": "GSE134265",
+      "relation": "SubSeries of",
+      "native_value": "SubSeries of: GSE134265"
+    },
+    {
+      "pmid": "31509742",
+      "publication_id": "713",
+      "gse": "GSE134265",
+      "route": "series_hierarchy",
+      "source_file": "raw/cache-0020.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE134264",
+      "to_gse": "GSE134265",
+      "relation": "SubSeries of",
+      "native_value": "SubSeries of: GSE134265"
+    },
+    {
+      "pmid": "31509742",
+      "publication_id": "713",
+      "gse": "GSE134261",
+      "route": "series_hierarchy",
+      "source_file": "raw/cache-0021.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE134265",
+      "to_gse": "GSE134261",
+      "relation": "SuperSeries of",
+      "native_value": "SuperSeries of: GSE134261"
+    },
+    {
+      "pmid": "31509742",
+      "publication_id": "713",
+      "gse": "GSE134262",
+      "route": "series_hierarchy",
+      "source_file": "raw/cache-0021.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE134265",
+      "to_gse": "GSE134262",
+      "relation": "SuperSeries of",
+      "native_value": "SuperSeries of: GSE134262"
+    },
+    {
+      "pmid": "31509742",
+      "publication_id": "713",
+      "gse": "GSE134263",
+      "route": "series_hierarchy",
+      "source_file": "raw/cache-0021.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE134265",
+      "to_gse": "GSE134263",
+      "relation": "SuperSeries of",
+      "native_value": "SuperSeries of: GSE134263"
+    },
+    {
+      "pmid": "31509742",
+      "publication_id": "713",
+      "gse": "GSE134264",
+      "route": "series_hierarchy",
+      "source_file": "raw/cache-0021.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE134265",
+      "to_gse": "GSE134264",
+      "relation": "SuperSeries of",
+      "native_value": "SuperSeries of: GSE134264"
+    }
+  ]
+}

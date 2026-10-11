@@ -1,0 +1,437 @@
+<eSummaryResult><DocSum>
+	<Id>200129846</Id>
+	<Item Name="Accession" Type="String">GSE129846</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">A genome-wide CRISPR screen reveals a role for the non-canonical nucleosome remodeling BAF complex in Foxp3 expression and regulatory T cell function</Item>
+	<Item Name="summary" Type="String">Regulatory T cells (Treg) play a pivotal role in suppressing auto-reactive T cells and maintaining immune homeostasis. Treg development and function are dependent on the transcription factor Foxp3. Here we performed a genome-wide CRISPR loss-of-function screen to identify Foxp3 regulators in mouse primary Treg cells. Foxp3 regulators were enriched in genes encoding subunits of the SWI/SNF nucleosome remodeling and SAGA chromatin modifying complexes. Among the three SWI/SNF-related complexes, the Brd9-containing non-canonical (nc)BAF complex promoted Foxp3 expression, whereas the PBAF complex was repressive. Chemical-induced degradation of Brd9 led to reduced Foxp3 expression and reduced Treg function in vitro. Brd9 ablation compromised Treg function in inflammatory disease and tumor immunity in vivo. Furthermore, Brd9 promoted Foxp3 binding and expression of a subset of Foxp3 target genes. Our findings provide an unbiased analysis of the genetic networks regulating Foxp3 and reveal ncBAF as a target for therapeutic manipulation of Treg function.</Item>
+	<Item Name="GPL" Type="String">17021;19057</Item>
+	<Item Name="GSE" Type="String">129846</Item>
+	<Item Name="taxon" Type="String">Mus musculus</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Genome binding/occupancy profiling by high throughput sequencing; Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2020/07/07</Item>
+	<Item Name="suppFile" Type="String">BED, TXT</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3723377</Item>
+			<Item Name="Title" Type="String">nTreg_ChIPseq_sgBrd9_Input</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256918</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgSmarcd1_Rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256938</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgPhf10_Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256935</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgArid2_Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4610611</Item>
+			<Item Name="Title" Type="String">nTreg_ATACseq_sgBrd9_Replicate2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256898</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgArid1a-2_Rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3723371</Item>
+			<Item Name="Title" Type="String">nTreg_ChIPseq_sgNT_Input</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256895</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgArid1a_Rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3723374</Item>
+			<Item Name="Title" Type="String">nTreg_ChIPseq_sgFoxp3_Input</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256915</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgBrd9-2_Rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3723394</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgPbrm_Rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256927</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgPbrm1_Rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3723386</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_dBRD9_Rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256901</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgArid1a/1b_Rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4478890</Item>
+			<Item Name="Title" Type="String">nTreg_ChIPseq_BRD9_Replicate3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256907</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgDpf2_Rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3723380</Item>
+			<Item Name="Title" Type="String">nTreg_ChIPseq_sgPbrm_Input</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3723363</Item>
+			<Item Name="Title" Type="String">nTreg_ChIPseq_Input</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256904</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgArid1a-2/1b-2_Rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3723383</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_DMSO_Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256924</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgGltscr1/1l_Rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256921</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgGltscr1_Rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4478893</Item>
+			<Item Name="Title" Type="String">nTreg_ChIPseq_Input_sgNT+MIGR</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4610609</Item>
+			<Item Name="Title" Type="String">nTreg_ATACseq_sgNT_Replicate2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4478896</Item>
+			<Item Name="Title" Type="String">nTreg_ChIPseq_Input_sgBrd9+Foxp3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4478899</Item>
+			<Item Name="Title" Type="String">nTreg_ChIPseq_Foxp3_sgBrd9+MIGR</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3723369</Item>
+			<Item Name="Title" Type="String">nTreg_ChIPseq_DMSO_Foxp3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256910</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgDpf1/2_Rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3723389</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgFoxp3_Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256913</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgBrd9_Rep5</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256936</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgArid2_Rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3723372</Item>
+			<Item Name="Title" Type="String">nTreg_ChIPseq_sgNT_Foxp3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3723392</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgBrd9_Rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256933</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgBrd7_Rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256930</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgPbrm1-2_Rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256893</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgNT_Rep5</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256919</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgSmarcd1_Rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3723378</Item>
+			<Item Name="Title" Type="String">nTreg_ChIPseq_sgBrd9_Foxp3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3723366</Item>
+			<Item Name="Title" Type="String">nTreg_ChIPseq_BRD9</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256916</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgBrd9-2_Rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4478888</Item>
+			<Item Name="Title" Type="String">nTreg_ChIPseq_sgNT_BRD9</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256899</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgArid1a/1b_Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256922</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgGltscr1_Rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256896</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgArid1a-2_Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3723375</Item>
+			<Item Name="Title" Type="String">nTreg_ChIPseq_sgFoxp3_Foxp3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256902</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgArid1a-2/1b-2_Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4478897</Item>
+			<Item Name="Title" Type="String">nTreg_ChIPseq_Foxp3_sgNT+MIGR</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256939</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgPhf10_Rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256928</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgPbrm1_Rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3723381</Item>
+			<Item Name="Title" Type="String">nTreg_ChIPseq_sgPbrm_Foxp3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256925</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgGltscr1/1l_Rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3723384</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_DMSO_Rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256908</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgDpf1/2_Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3723387</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgNT_Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256905</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgDpf2_Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4478891</Item>
+			<Item Name="Title" Type="String">nTreg_ChIPseq_Input_Replicate2_forPHF10</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4610610</Item>
+			<Item Name="Title" Type="String">nTreg_ATACseq_sgBrd9_Replicate1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4478894</Item>
+			<Item Name="Title" Type="String">nTreg_ChIPseq_Input_sgNT+Foxp3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256897</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgArid1a-2_Rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256931</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgPbrm1-2_Rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3723364</Item>
+			<Item Name="Title" Type="String">nTreg_ChIPseq_Foxp3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256937</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgArid2_Rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3723367</Item>
+			<Item Name="Title" Type="String">nTreg_ChIPseq_PHF10</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3723370</Item>
+			<Item Name="Title" Type="String">nTreg_ChIPseq_dBRD9_Foxp3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256934</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgBrd7_Rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256891</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgNT_Rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256914</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgBrd9-2_Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256900</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgArid1a/1b_Rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3723373</Item>
+			<Item Name="Title" Type="String">nTreg_ChIPseq_sgNT_H3K27ac</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4478900</Item>
+			<Item Name="Title" Type="String">nTreg_ChIPseq_Foxp3_sgBrd9+Foxp3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256911</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgBrd9_Rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3723390</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgFoxp3_Rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256917</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgSmarcd1_Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4478889</Item>
+			<Item Name="Title" Type="String">nTreg_ChIPseq_Input_Replicate3_forBRD9</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3723393</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgPbrm_Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3723379</Item>
+			<Item Name="Title" Type="String">nTreg_ChIPseq_sgBrd9_H3K27ac</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256903</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgArid1a-2/1b-2_Rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256894</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgArid1a_Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3723368</Item>
+			<Item Name="Title" Type="String">nTreg_ChIPseq_DMSO_Input</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3723382</Item>
+			<Item Name="Title" Type="String">nTreg_ChIPseq_sgPbrm_H3K27ac</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256929</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgPbrm1-2_Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3723376</Item>
+			<Item Name="Title" Type="String">nTreg_ChIPseq_sgFoxp3_H3K27ac</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256940</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgPhf10_Rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3723391</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgBrd9_Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256923</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgGltscr1/1l_Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256932</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgBrd7_Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256906</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgDpf2_Rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256909</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgDpf1/2_Rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256892</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgNT_Rep4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256920</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgGltscr1_Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3723365</Item>
+			<Item Name="Title" Type="String">nTreg_ChIPseq_BRG1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3723388</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgNT_Rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4478898</Item>
+			<Item Name="Title" Type="String">nTreg_ChIPseq_Foxp3_sgNT+Foxp3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256926</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgPbrm1_Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4478892</Item>
+			<Item Name="Title" Type="String">nTreg_ChIPseq_PHF10_Replicate2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4256912</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_sgBrd9_Rep4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3723385</Item>
+			<Item Name="Title" Type="String">nTreg_RNAseq_dBRD9_Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4610608</Item>
+			<Item Name="Title" Type="String">nTreg_ATACseq_sgNT_Replicate1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM4478895</Item>
+			<Item Name="Title" Type="String">nTreg_ChIPseq_Input_sgBrd9+MIGR</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List">
+		<Item Name="ExtRelation" Type="Structure">
+			<Item Name="RelationType" Type="String">SRA</Item>
+			<Item Name="TargetObject" Type="String">SRP192649</Item>
+			<Item Name="TargetFTPLink" Type="String">ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP192/SRP192649/</Item>
+		</Item>
+	</Item>
+	<Item Name="n_samples" Type="Integer">99</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">32640256</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE129nnn/GSE129846/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+</eSummaryResult>

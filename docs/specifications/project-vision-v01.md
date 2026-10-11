@@ -83,6 +83,14 @@ Milestone 1 does not implement:
 - automatic resolution of ambiguous scientific relationships; or
 - bulk download or analysis of experimental molecular datasets.
 
+For the first DeathMap-AI iteration, discovery and enrichment use metadata and
+easily accessible identifier fields exclusively. Publication-body and
+supplementary-document retrieval/extraction are deferred under the owner's
+2026-10-10 decision. Precomputed accession annotations and literature-data links
+may be evaluated as supporting identifier evidence without retrieving the
+underlying article or supplement. Deposit identification precedes deposit
+metadata inspection and screen classification.
+
 Metadata retrieval may identify and describe experimental data. Gene-level
 results, guide counts, FASTQ files, processed matrices, and similar experimental
 contents are outside the metadata-only discovery stage.
@@ -151,4 +159,4 @@ into simplified conclusions.
 
 ## Current Version / Phase
 
-Executable package: v0.1.0. Completed capabilities include the three cached ORCS profiles, Cellosaurus interpretation, reusable DOI/PMID/PMCID resolution, and portable Excel export. Current iteration: v02 — ORCS Pilot Enrichment. The PubMed enrichment subgoal is complete: shared publication metadata, direct repository associations and search-specific workbooks. Native GEO, BioStudies–ArrayExpress and ENA enrichment are the next goals; repository-specific hierarchy and attribution adapters are not yet implemented. Native repository retrieval contracts and screen-group rules await owner decisions. This restructuring does not authorize new retrieval, grouping, commits or publication.
+Executable package: v0.1.0. Completed capabilities include the three cached ORCS profiles, Cellosaurus interpretation, reusable DOI/PMID/PMCID resolution, and portable Excel export. Current iteration: v02 — ORCS Pilot Enrichment. The PubMed enrichment subgoal is complete: shared publication metadata, direct repository associations and search-specific workbooks. GEO accession discovery, explicit Series hierarchy, brief GSM metadata, the owner-approved template and shared ORCS database are implemented under the owner's 2026-10-10/11 authorization. Dataset ownership and screen attribution remain unassessed. BioStudies–ArrayExpress and ENA are subsequent enrichment goals. Dataset attribution and screen-group rules await owner decisions. This status update does not authorize additional retrieval, grouping, commits or publication.

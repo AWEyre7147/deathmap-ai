@@ -1,0 +1,94 @@
+{
+  "GSE111787": {
+    "gse": "GSE111787",
+    "native_pmids": [
+      "30860482"
+    ],
+    "hierarchy": [],
+    "source_file": "raw/cache-0009.response"
+  },
+  "GSE36133": {
+    "gse": "GSE36133",
+    "native_pmids": [
+      "22460905"
+    ],
+    "hierarchy": [
+      {
+        "from_gse": "GSE36133",
+        "to_gse": "GSE36139",
+        "relation": "SubSeries of",
+        "native_value": "SubSeries of: GSE36139"
+      }
+    ],
+    "source_file": "raw/live-00010.response"
+  },
+  "GSE64019": {
+    "gse": "GSE64019",
+    "native_pmids": [
+      "26818002"
+    ],
+    "hierarchy": [],
+    "source_file": "raw/live-00011.response"
+  },
+  "GSE70421": {
+    "gse": "GSE70421",
+    "native_pmids": [
+      "26433572"
+    ],
+    "hierarchy": [],
+    "source_file": "raw/live-00012.response"
+  },
+  "GSE70678": {
+    "gse": "GSE70678",
+    "native_pmids": [
+      "26923874",
+      "31708418"
+    ],
+    "hierarchy": [],
+    "source_file": "raw/live-00013.response"
+  },
+  "GSE94321": {
+    "gse": "GSE94321",
+    "native_pmids": [
+      "28427232"
+    ],
+    "hierarchy": [],
+    "source_file": "raw/live-00014.response"
+  },
+  "GSE36139": {
+    "gse": "GSE36139",
+    "native_pmids": [
+      "22460905"
+    ],
+    "hierarchy": [
+      {
+        "from_gse": "GSE36139",
+        "to_gse": "GSE36133",
+        "relation": "SuperSeries of",
+        "native_value": "SuperSeries of: GSE36133"
+      },
+      {
+        "from_gse": "GSE36139",
+        "to_gse": "GSE36138",
+        "relation": "SuperSeries of",
+        "native_value": "SuperSeries of: GSE36138"
+      }
+    ],
+    "source_file": "raw/live-00015.response"
+  },
+  "GSE36138": {
+    "gse": "GSE36138",
+    "native_pmids": [
+      "22460905"
+    ],
+    "hierarchy": [
+      {
+        "from_gse": "GSE36138",
+        "to_gse": "GSE36139",
+        "relation": "SubSeries of",
+        "native_value": "SubSeries of: GSE36139"
+      }
+    ],
+    "source_file": "raw/live-00016.response"
+  }
+}

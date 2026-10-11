@@ -1,0 +1,133 @@
+{
+  "strategy": "geo-accession-identification-v1",
+  "package_version": "0.1.0",
+  "started_utc": "2026-10-11T17:57:08.078660+00:00",
+  "publication": {
+    "PUBLICATION_ID": "133",
+    "SOURCE_TYPE": "pubmed",
+    "SOURCE_ID": "30860482",
+    "TITLE": "Renal medullary carcinomas depend upon loss and are sensitive to proteasome inhibition.",
+    "AUTHORS": "Hong AL, Tseng YY, Wala JA, Kim WJ, Kynnap BD, Doshi MB, Kugener G, Sandoval GJ, Howard TP, Li J, Yang X, Tillgren M, Ghandi M, Sayeed A, Deasy R, Ward A, McSteen B, Labella KM, Keskula P, Tracy A, Connor C, Clinton CM, Church AJ, Crompton BD, Janeway KA, Van Hare B, Sandak D, Gjoerup O, Bandopadhayay P, Clemons PA, Schreiber SL, Root DE, Gokhale PC, Chi SN, Mullen EA, Roberts CW, Kadoch C, Beroukhim R, Ligon KL, Boehm JS, Hahn WC",
+    "ABSTRACT": "Renal medullary carcinoma (RMC) is a rare and deadly kidney cancer in patients of African descent with sickle cell trait. We have developed faithful patient-derived RMC models and using whole-genome sequencing, we identified loss-of-function intronic fusion events in one allele with concurrent loss of the other allele. Biochemical and functional characterization of these models revealed that RMC requires the loss of for survival. Through integration of RNAi and CRISPR-Cas9 loss-of-function genetic screens and a small-molecule screen, we found that the ubiquitin-proteasome system (UPS) was essential in RMC. Inhibition of the UPS caused a G2/M arrest due to constitutive accumulation of cyclin B1. These observations extend across cancers that harbor loss, which also require expression of the E2 ubiquitin-conjugating enzyme, . Our studies identify a synthetic lethal relationship between -deficient cancers and reliance on the UPS which provides the foundation for a mechanism-informed clinical trial with proteasome inhibitors.",
+    "JOURNAL": "eLife",
+    "PUBLICATION_DATE": "2019-03-12",
+    "PAGE_SOURCE_TYPE": "pubmed",
+    "PAGE_SOURCE_ID": "30860482",
+    "PMID": "30860482",
+    "DOI": "10.7554/elife.44161",
+    "SUPPLEMENTARY_FILES": [
+      {
+        "label": "CRISPR screen results for CLF_PEDS0005T.xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/5f6e0154ae4d1/CRISPR screen results for CLF_PEDS0005T.xlsx"
+      }
+    ],
+    "LINKS": [
+      {
+        "label": "Pubmed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30860482"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/scholar?as_occt=title&as_q=Renal+medullary+carcinomas+depend+upon++loss+and+are+sensitive+to+proteasome+inhibition."
+      },
+      {
+        "label": "30860482",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30860482"
+      },
+      {
+        "label": "CRISPR screen results for CLF_PEDS0005T.xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/5f6e0154ae4d1/CRISPR screen results for CLF_PEDS0005T.xlsx"
+      }
+    ],
+    "SCREEN_IDS": [
+      "1216",
+      "1217"
+    ],
+    "SCREEN_COUNT": 2,
+    "PUBLICATION_URL": "https://orcs.thebiogrid.org/Dataset/133",
+    "FIELD_LOCATORS": {
+      "TITLE": "#resultsHeaderBlock h1",
+      "AUTHORS": "#resultsHeaderBlock .subhead",
+      "ABSTRACT": "#resultsHeaderBlock .bgGrey",
+      "JOURNAL": ".linkouts citation strong",
+      "PUBLICATION_DATE": ".linkouts citation",
+      "SUPPLEMENTARY_FILES": ".linkouts Supplementary Files"
+    },
+    "REVIEW_ISSUES": [],
+    "RETRIEVED_AT": "2026-10-04T05:08:01.004610+00:00",
+    "SOURCE_METADATA_FILE": "data/orcs/publication-source/20261004-v01/133.metadata.html",
+    "SOURCE_METADATA_SHA256": "b4509cc407b43e515a8feb4e84d93349671f59425a72d487ed9fb835751d8c16",
+    "PMCID": "PMC6436895",
+    "IDENTIFIER_ENRICHMENT": {
+      "added_fields": [
+        "DOI",
+        "PMCID"
+      ],
+      "resolution": {
+        "input": {
+          "pmid": "30860482",
+          "doi": null,
+          "pmcid": null
+        },
+        "identifiers": {
+          "pmid": "30860482",
+          "doi": "10.7554/elife.44161",
+          "pmcid": "PMC6436895"
+        },
+        "status": "resolved",
+        "alternatives": {
+          "pmid": [
+            "30860482"
+          ],
+          "doi": [
+            "10.7554/elife.44161"
+          ],
+          "pmcid": [
+            "PMC6436895"
+          ]
+        },
+        "evidence": [
+          {
+            "identifiers": {
+              "pmid": "30860482",
+              "doi": "10.7554/elife.44161",
+              "pmcid": "PMC6436895"
+            },
+            "url": "https://pmc.ncbi.nlm.nih.gov/tools/idconv/api/v1/articles/?ids=24336569%2C24336571%2C25307932%2C25494202%2C26190106%2C26472758%2C26627737%2C26673326%2C26780180%2C27018887%2C27159373%2C27260156%2C27342126%2C27351204%2C27383987%2C27383988%2C27453484%2C27667664%2C27760321%2C27869803%2C27992415%2C28145866%2C28162770%2C28167502%2C28215525%2C28445693%2C28474669%2C28494239%2C28611215%2C28700943%2C28720733%2C28723893%2C28768188%2C28775154%2C28783722%2C28813663%2C28877469%2C28894007%2C28985505%2C28985567%2C29028833%2C29038160%2C29083409%2C29211708%2C29259014%2C29269392%2C29290584%2C29301958%2C29440296%2C29459677%2C29463564%2C29478914%2C29507424%2C29526696%2C29576454%2C29642015%2C29655804%2C29662178%2C29736038%2C29769725%2C29779948%2C29921669%2C29973717%2C29987050%2C29995852%2C30042095%2C30051818%2C30093494%2C30111820%2C30135075%2C30154076%2C30194290%2C30224801%2C30317623%2C30397336%2C30414698%2C30449619%2C30464262%2C30532030%2C30556811%2C30581143%2C30590252%2C30595499%2C30647128%2C30655525%2C30660999%2C30686591%2C30734978%2C30773463%2C30787439%2C30797773%2C30819666%2C30838976%2C30844312%2C30860482%2C30862715%2C30898113%2C30905739%2C30916320%2C30930145%2C30932271%2C30944478%2C30951565%2C30962421%2C30971826%2C30991026%2C30995489%2C31010806%2C31019072%2C31038839%2C31040274%2C31048320%2C31048321%2C31059574%2C31076567%2C31108395%2C31133756%2C31142663%2C31147448%2C31160565%2C31165872%2C31209294%2C31213543%2C31219803%2C31253397%2C31270356%2C31287994%2C31294695%2C31300418%2C31316073%2C31346084%2C31353312%2C31353801%2C31365872%2C31406246%2C31406271%2C31437751%2C31451760%2C31452512%2C31462500%2C31508283%2C31508509%2C31509742%2C31519728%2C31519875%2C31527793%2C31540829%2C31543463%2C31551363%2C31558468%2C31564637%2C31570734%2C31587919%2C31594818%2C31604991%2C31618756%2C31657721%2C31666400%2C31692446%2C31723608%2C31727847%2C31730859%2C31741433%2C31744829%2C31761535%2C31792210%2C31801065%2C31818950%2C31855178%2C31868589%2C31882897%2C31903165%2C31915280%2C31919360%2C31921143%2C31959936%2C32005668%2C32028983%2C32075772%2C32094149%2C32142663%2C32156810%2C32160526%2C32238925%2C32259488%2C32268084%2C32299104%2C32315601%2C32355287%2C32416067%2C32421776%2C32424339%2C32499641%2C32528131%2C32542389%2C32579974%2C32585766%2C32640256%2C32649862%2C32668236&idtype=pmid&format=json&tool=deathmap_ai",
+            "retrieved_at": "2026-10-08T01:37:50.976283+00:00",
+            "response_sha256": "630b15a6b082cbe2e902d0d36664a60017ad5a0eaa5be1d88ef07f07ebed0225"
+          },
+          {
+            "identifiers": {
+              "pmid": "30860482",
+              "doi": "10.7554/elife.44161",
+              "pmcid": "PMC6436895"
+            },
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=24336569%2C24336571%2C25307932%2C25494202%2C26190106%2C26472758%2C26627737%2C26673326%2C26780180%2C27018887%2C27159373%2C27260156%2C27342126%2C27351204%2C27383987%2C27383988%2C27453484%2C27667664%2C27760321%2C27869803%2C27992415%2C28145866%2C28162770%2C28167502%2C28215525%2C28445693%2C28474669%2C28494239%2C28611215%2C28700943%2C28720733%2C28723893%2C28768188%2C28775154%2C28783722%2C28813663%2C28877469%2C28894007%2C28985505%2C28985567%2C29028833%2C29038160%2C29083409%2C29211708%2C29259014%2C29269392%2C29290584%2C29301958%2C29440296%2C29459677%2C29463564%2C29478914%2C29507424%2C29526696%2C29576454%2C29642015%2C29655804%2C29662178%2C29736038%2C29769725%2C29779948%2C29921669%2C29973717%2C29987050%2C29995852%2C30042095%2C30051818%2C30093494%2C30111820%2C30135075%2C30154076%2C30194290%2C30224801%2C30317623%2C30397336%2C30414698%2C30449619%2C30464262%2C30532030%2C30556811%2C30581143%2C30590252%2C30595499%2C30647128%2C30655525%2C30660999%2C30686591%2C30734978%2C30773463%2C30787439%2C30797773%2C30819666%2C30838976%2C30844312%2C30860482%2C30862715%2C30898113%2C30905739%2C30916320%2C30930145&retmode=xml&tool=deathmap_ai",
+            "retrieved_at": "2026-10-08T01:37:54.563710+00:00",
+            "response_sha256": "c4d765e9c68ee76878a3995636512d315f50afd1f0d9ddd619527deba807db67"
+          }
+        ]
+      }
+    },
+    "_input_provenance": {
+      "file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\publication-index.json",
+      "sha256": "63cb33b7095108e7a0776950e9c258e7b65fe148ca6b12ae75cd4dd914ad6c89",
+      "locator": "PUBLICATION_ID=133"
+    }
+  },
+  "status": "complete",
+  "source_code_sha256": "c9e115559a404d2efb27413042c5a3b1b3796bd08d8d81d38fdd8f6f1af80072",
+  "limits": {
+    "request_attempts": 100,
+    "seconds": 600,
+    "series": 100,
+    "target_uids_per_route": 1000,
+    "attempts_per_request": 2,
+    "timeout_seconds": 30,
+    "pacing_seconds": 0.4
+  },
+  "total_gse_count": 8,
+  "finished_utc": "2026-10-11T17:57:15.151367+00:00",
+  "request_attempts": 9
+}

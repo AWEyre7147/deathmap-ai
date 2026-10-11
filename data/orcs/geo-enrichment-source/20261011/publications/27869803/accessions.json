@@ -1,0 +1,154 @@
+{
+  "publication": {
+    "PUBLICATION_ID": "18",
+    "SOURCE_TYPE": "pubmed",
+    "SOURCE_ID": "27869803",
+    "TITLE": "Genome-wide CRISPR screens reveal a Wnt-FZD5 signaling circuit as a druggable vulnerability of RNF43-mutant pancreatic tumors.",
+    "AUTHORS": "Steinhart Z, Pavlovic Z, Chandrashekhar M, Hart T, Wang X, Zhang X, Robitaille M, Brown KR, Jaksani S, Overmeer R, Boj SF, Adams J, Pan J, Clevers H, Sidhu S, Moffat J, Angers S",
+    "ABSTRACT": "Forward genetic screens with CRISPR-Cas9 genome editing enable high-resolution detection of genetic vulnerabilities in cancer cells. We conducted genome-wide CRISPR-Cas9 screens in RNF43-mutant pancreatic ductal adenocarcinoma (PDAC) cells, which rely on Wnt signaling for proliferation. Through these screens, we discovered a unique requirement for a Wnt signaling circuit: engaging FZD5, one of the ten Frizzled receptors encoded in the human genome. Our results uncover an underappreciated level of context-dependent specificity at the Wnt receptor level. We further derived a panel of recombinant antibodies that reports the expression of nine FZD proteins and confirms that FZD5 functional specificity cannot be explained by protein expression patterns. Additionally, antibodies that specifically bind FZD5 and FZD8 robustly inhibited the growth of RNF43-mutant PDAC cells grown in vitro and as xenografts in vivo, providing orthogonal support for the functional specificity observed genetically. Proliferation of a patient-derived PDAC cell line harboring an RNF43 variant was also selectively inhibited by the FZD5 antibodies, further demonstrating their use as a potential targeted therapy. Tumor organoid cultures from colorectal carcinoma patients that carried RNF43 mutations were also sensitive to the FZD5 antibodies, highlighting the potential generalizability of these findings beyond PDAC. Our results show that CRIPSR-based genetic screens can be leveraged to identify and validate cell surface targets for antibody development and therapy.",
+    "JOURNAL": "Nature medicine",
+    "PUBLICATION_DATE": "2017-01-01",
+    "PAGE_SOURCE_TYPE": "pubmed",
+    "PAGE_SOURCE_ID": "27869803",
+    "PMID": "27869803",
+    "DOI": "10.1038/nm.4219",
+    "SUPPLEMENTARY_FILES": [
+      {
+        "label": "nm.4219-S3.csv",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/59ea51fa19dc5/nm.4219-S3.csv"
+      }
+    ],
+    "LINKS": [
+      {
+        "label": "Pubmed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27869803"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/scholar?as_occt=title&as_q=Genome-wide+CRISPR+screens+reveal+a+Wnt-FZD5+signaling+circuit+as+a+druggable+vulnerability+of+RNF43-mutant+pancreatic+tumors."
+      },
+      {
+        "label": "27869803",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27869803"
+      },
+      {
+        "label": "nm.4219-S3.csv",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/59ea51fa19dc5/nm.4219-S3.csv"
+      }
+    ],
+    "SCREEN_IDS": [
+      "141",
+      "142",
+      "143"
+    ],
+    "SCREEN_COUNT": 3,
+    "PUBLICATION_URL": "https://orcs.thebiogrid.org/Dataset/18",
+    "FIELD_LOCATORS": {
+      "TITLE": "#resultsHeaderBlock h1",
+      "AUTHORS": "#resultsHeaderBlock .subhead",
+      "ABSTRACT": "#resultsHeaderBlock .bgGrey",
+      "JOURNAL": ".linkouts citation strong",
+      "PUBLICATION_DATE": ".linkouts citation",
+      "SUPPLEMENTARY_FILES": ".linkouts Supplementary Files"
+    },
+    "REVIEW_ISSUES": [],
+    "RETRIEVED_AT": "2026-10-04T05:07:14.764472+00:00",
+    "SOURCE_METADATA_FILE": "data/orcs/publication-source/20261004-v01/18.metadata.html",
+    "SOURCE_METADATA_SHA256": "59c837c38325ae6a49a08e071647f68e9664bca7c15f52b6cde90502645acf07",
+    "PMCID": null,
+    "IDENTIFIER_ENRICHMENT": {
+      "added_fields": [
+        "DOI"
+      ],
+      "resolution": {
+        "input": {
+          "pmid": "27869803",
+          "doi": null,
+          "pmcid": null
+        },
+        "identifiers": {
+          "pmid": "27869803",
+          "doi": "10.1038/nm.4219",
+          "pmcid": null
+        },
+        "status": "partial",
+        "alternatives": {
+          "pmid": [
+            "27869803"
+          ],
+          "doi": [
+            "10.1038/nm.4219"
+          ],
+          "pmcid": []
+        },
+        "evidence": [
+          {
+            "identifiers": {
+              "pmid": "27869803",
+              "doi": "10.1038/nm.4219",
+              "pmcid": null
+            },
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=24336569%2C24336571%2C25307932%2C25494202%2C26190106%2C26472758%2C26627737%2C26673326%2C26780180%2C27018887%2C27159373%2C27260156%2C27342126%2C27351204%2C27383987%2C27383988%2C27453484%2C27667664%2C27760321%2C27869803%2C27992415%2C28145866%2C28162770%2C28167502%2C28215525%2C28445693%2C28474669%2C28494239%2C28611215%2C28700943%2C28720733%2C28723893%2C28768188%2C28775154%2C28783722%2C28813663%2C28877469%2C28894007%2C28985505%2C28985567%2C29028833%2C29038160%2C29083409%2C29211708%2C29259014%2C29269392%2C29290584%2C29301958%2C29440296%2C29459677%2C29463564%2C29478914%2C29507424%2C29526696%2C29576454%2C29642015%2C29655804%2C29662178%2C29736038%2C29769725%2C29779948%2C29921669%2C29973717%2C29987050%2C29995852%2C30042095%2C30051818%2C30093494%2C30111820%2C30135075%2C30154076%2C30194290%2C30224801%2C30317623%2C30397336%2C30414698%2C30449619%2C30464262%2C30532030%2C30556811%2C30581143%2C30590252%2C30595499%2C30647128%2C30655525%2C30660999%2C30686591%2C30734978%2C30773463%2C30787439%2C30797773%2C30819666%2C30838976%2C30844312%2C30860482%2C30862715%2C30898113%2C30905739%2C30916320%2C30930145&retmode=xml&tool=deathmap_ai",
+            "retrieved_at": "2026-10-08T01:37:54.563710+00:00",
+            "response_sha256": "c4d765e9c68ee76878a3995636512d315f50afd1f0d9ddd619527deba807db67"
+          }
+        ]
+      }
+    },
+    "_input_provenance": {
+      "file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\publication-index.json",
+      "sha256": "63cb33b7095108e7a0776950e9c258e7b65fe148ca6b12ae75cd4dd914ad6c89",
+      "locator": "PUBLICATION_ID=18"
+    }
+  },
+  "candidates": [],
+  "routes": {
+    "pubmed_geo_links": {
+      "status": "complete",
+      "native_target_count": 0,
+      "distinct_gse_count": 0
+    },
+    "pubmed_accession_list": {
+      "status": "complete",
+      "distinct_gse_count": 0
+    },
+    "publication_title_phrase": {
+      "status": "complete",
+      "query": "\"Genome-wide CRISPR screens reveal a Wnt-FZD5 signaling circuit as a druggable vulnerability of RNF43-mutant pancreatic tumors\"[All Fields] AND gse[Entry Type]",
+      "count": 0,
+      "query_translation": "\"Genome-wide CRISPR screens reveal a Wnt-FZD5 signaling circuit as a druggable vulnerability of RNF43-mutant pancreatic tumors\"[All Fields] AND gse[Entry Type]",
+      "warnings": {
+        "phrasesignored": [],
+        "quotedphrasesnotfound": [
+          "\"Genome-wide CRISPR screens reveal a Wnt-FZD5 signaling circuit as a druggable vulnerability of RNF43-mutant pancreatic tumors\"[All Fields]"
+        ],
+        "outputmessages": [
+          "No items found."
+        ]
+      },
+      "distinct_gse_count": 0
+    },
+    "europepmc_annotations": {
+      "status": "complete",
+      "distinct_gse_count": 0
+    },
+    "europepmc_datalinks": {
+      "status": "complete",
+      "service_version": "6.9",
+      "distinct_gse_count": 0
+    },
+    "pubmed_bioproject_geo": {
+      "status": "complete",
+      "bioproject_uids": [],
+      "distinct_gse_count": 0
+    },
+    "series_hierarchy": {
+      "status": "complete",
+      "distinct_gse_count": 0
+    }
+  },
+  "seed_count": 0,
+  "total_gse_count": 0,
+  "hierarchy_added": [],
+  "evidence": []
+}

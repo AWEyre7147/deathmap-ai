@@ -1,0 +1,808 @@
+{
+  "publication": {
+    "PUBLICATION_ID": "1020",
+    "SOURCE_TYPE": "pubmed",
+    "SOURCE_ID": "36396656",
+    "TITLE": "mTOR inhibition attenuates chemosensitivity through the induction of chemotherapy resistant persisters.",
+    "AUTHORS": "Liu Y, Azizian NG, Sullivan DK, Li Y",
+    "ABSTRACT": "Chemotherapy can eradicate a majority of cancer cells. However, a small population of tumor cells often survives drug treatments through genetic and/or non-genetic mechanisms, leading to tumor recurrence. Here we report a reversible chemoresistance phenotype regulated by the mTOR pathway. Through a genome-wide CRISPR knockout library screen in pancreatic cancer cells treated with chemotherapeutic agents, we have identified the mTOR pathway as a prominent determinant of chemosensitivity. Pharmacological suppression of mTOR activity in cancer cells from diverse tissue origins leads to the persistence of a reversibly resistant population, which is otherwise eliminated by chemotherapeutic agents. Conversely, activation of the mTOR pathway increases chemosensitivity in vitro and in vivo and predicts better survival among various human cancers. Persister cells display a senescence phenotype. Inhibition of mTOR does not induce cellular senescence per se, but rather promotes the survival of senescent cells through regulation of autophagy and G2/M cell cycle arrest, as revealed by a small-molecule chemical library screen. Thus, mTOR plays a causal yet paradoxical role in regulating chemotherapeutic response; inhibition of the mTOR pathway, while suppressing tumor expansion, facilitates the development of a reversible drug-tolerant senescence state.",
+    "JOURNAL": "Nature communications",
+    "PUBLICATION_DATE": "2022-11-17",
+    "PAGE_SOURCE_TYPE": "pubmed",
+    "PAGE_SOURCE_ID": "36396656",
+    "PMID": "36396656",
+    "DOI": "10.1038/s41467-022-34890-6",
+    "SUPPLEMENTARY_FILES": [
+      {
+        "label": "41467_2022_34890_MOESM5_ESM.xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/66509da6ebfaf/41467_2022_34890_MOESM5_ESM.xlsx"
+      }
+    ],
+    "LINKS": [
+      {
+        "label": "Pubmed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36396656"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/scholar?as_occt=title&as_q=mTOR+inhibition+attenuates+chemosensitivity+through+the+induction+of+chemotherapy+resistant+persisters."
+      },
+      {
+        "label": "36396656",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36396656"
+      },
+      {
+        "label": "41467_2022_34890_MOESM5_ESM.xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/66509da6ebfaf/41467_2022_34890_MOESM5_ESM.xlsx"
+      }
+    ],
+    "SCREEN_IDS": [
+      "2307",
+      "2308"
+    ],
+    "SCREEN_COUNT": 2,
+    "PUBLICATION_URL": "https://orcs.thebiogrid.org/Dataset/1020",
+    "FIELD_LOCATORS": {
+      "TITLE": "#resultsHeaderBlock h1",
+      "AUTHORS": "#resultsHeaderBlock .subhead",
+      "ABSTRACT": "#resultsHeaderBlock .bgGrey",
+      "JOURNAL": ".linkouts citation strong",
+      "PUBLICATION_DATE": ".linkouts citation",
+      "SUPPLEMENTARY_FILES": ".linkouts Supplementary Files"
+    },
+    "REVIEW_ISSUES": [],
+    "RETRIEVED_AT": "2026-10-04T05:14:09.139104+00:00",
+    "SOURCE_METADATA_FILE": "data/orcs/publication-source/20261004-v01/1020.metadata.html",
+    "SOURCE_METADATA_SHA256": "6dc4be8a5e97e344a73395ef97977143815d1a3b7f9c7399749c9e6376575a59",
+    "PMCID": "PMC9671908",
+    "IDENTIFIER_ENRICHMENT": {
+      "added_fields": [
+        "DOI",
+        "PMCID"
+      ],
+      "resolution": {
+        "input": {
+          "pmid": "36396656",
+          "doi": null,
+          "pmcid": null
+        },
+        "identifiers": {
+          "pmid": "36396656",
+          "doi": "10.1038/s41467-022-34890-6",
+          "pmcid": "PMC9671908"
+        },
+        "status": "resolved",
+        "alternatives": {
+          "pmid": [
+            "36396656"
+          ],
+          "doi": [
+            "10.1038/s41467-022-34890-6"
+          ],
+          "pmcid": [
+            "PMC9671908"
+          ]
+        },
+        "evidence": [
+          {
+            "identifiers": {
+              "pmid": "36396656",
+              "doi": "10.1038/s41467-022-34890-6",
+              "pmcid": "PMC9671908"
+            },
+            "url": "https://pmc.ncbi.nlm.nih.gov/tools/idconv/api/v1/articles/?ids=32690708%2C32699298%2C32728216%2C32738194%2C32755594%2C32877678%2C32918875%2C32924251%2C32939090%2C32968282%2C32970993%2C32990596%2C33005030%2C33033111%2C33060197%2C33087464%2C33110234%2C33122441%2C33137164%2C33144569%2C33147444%2C33147445%2C33156908%2C33157015%2C33172989%2C33185187%2C33186476%2C33188726%2C33189395%2C33208877%2C33208938%2C33226137%2C33228647%2C33257658%2C33271924%2C33333024%2C33355125%2C33357464%2C33372156%2C33375770%2C33382968%2C33417871%2C33476303%2C33483422%2C33513160%2C33513212%2C33523994%2C33539788%2C33547076%2C33562682%2C33568224%2C33574281%2C33577797%2C33604667%2C33649592%2C33657372%2C33660365%2C33676427%2C33686287%2C33730579%2C33742119%2C33743211%2C33813748%2C33846634%2C33847741%2C33854235%2C33864166%2C33872695%2C33953401%2C34000301%2C34004147%2C34016692%2C34026427%2C34049503%2C34066520%2C34108663%2C34155407%2C34215620%2C34230586%2C34253920%2C34290256%2C34316707%2C34320214%2C34364401%2C34373448%2C34373451%2C34431042%2C34437126%2C34497417%2C34529489%2C34582788%2C34615851%2C34621019%2C34644148%2C34662547%2C34667112%2C34686207%2C34731885%2C34759314%2C34805786%2C34834920%2C34879274%2C34907164%2C34921014%2C34937946%2C34962926%2C35021089%2C35050652%2C35086559%2C35113687%2C35149558%2C35192680%2C35221331%2C35231079%2C35263388%2C35379808%2C35411049%2C35420441%2C35421191%2C35439318%2C35469023%2C35482054%2C35508460%2C35559673%2C35570209%2C35657206%2C35688159%2C35723366%2C35750052%2C35763353%2C35804923%2C35842423%2C35861150%2C35879412%2C35879413%2C35972292%2C35981571%2C36002574%2C36055241%2C36111891%2C36124427%2C36134452%2C36224385%2C36228039%2C36273494%2C36303069%2C36305789%2C36309510%2C36326816%2C36396656%2C36409314%2C36417855%2C36457047%2C36476853%2C36543916%2C36548402%2C36574441%2C36584827%2C36597481%2C36650183%2C36652375%2C36693839%2C36724073%2C36725334%2C36725843%2C36731340%2C36744886%2C36753415%2C36772830%2C36794958%2C36801923%2C36820830%2C36841242%2C36848233%2C36894612%2C36920785%2C36920967%2C36971544%2C36977592%2C36991492%2C37010434%2C37024475%2C37036970%2C37046090%2C37047518%2C37059858%2C37075701%2C37075745%2C37163373%2C37167561%2C37193694%2C37435859%2C37616343%2C37639469%2C37758944%2C37866880%2C37883554%2C37975674%2C37996617%2C38291084&idtype=pmid&format=json&tool=deathmap_ai",
+            "retrieved_at": "2026-10-08T01:37:51.651765+00:00",
+            "response_sha256": "81f6114b060dfc88e758a0492b87f826b0e1df9e4434ac70a4d87965d671a3f5"
+          },
+          {
+            "identifiers": {
+              "pmid": "36396656",
+              "doi": "10.1038/s41467-022-34890-6",
+              "pmcid": "PMC9671908"
+            },
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=34805786%2C34834920%2C34879274%2C34907164%2C34921014%2C34937946%2C34962926%2C35021089%2C35050652%2C35086559%2C35113687%2C35149558%2C35192680%2C35221331%2C35231079%2C35263388%2C35379808%2C35411049%2C35420441%2C35421191%2C35439318%2C35469023%2C35482054%2C35508460%2C35559673%2C35570209%2C35657206%2C35688159%2C35723366%2C35750052%2C35763353%2C35804923%2C35842423%2C35861150%2C35879412%2C35879413%2C35972292%2C35981571%2C36002574%2C36032971%2C36055241%2C36111891%2C36124427%2C36134452%2C36224385%2C36228039%2C36273494%2C36303069%2C36305789%2C36309510%2C36326816%2C36396656%2C36409314%2C36417855%2C36457047%2C36476853%2C36543916%2C36548402%2C36574441%2C36584827%2C36597481%2C36650183%2C36652375%2C36693839%2C36724073%2C36725334%2C36725843%2C36731340%2C36744886%2C36753415%2C36772830%2C36794958%2C36801923%2C36820830%2C36841242%2C36848233%2C36894612%2C36920785%2C36920967%2C36971544%2C36977592%2C36991492%2C37010434%2C37024475%2C37036970%2C37046090%2C37047518%2C37059858%2C37075701%2C37075745%2C37163373%2C37167561%2C37193694%2C37435859%2C37616343%2C37639469%2C37758944%2C37866880%2C37883554%2C37975674&retmode=xml&tool=deathmap_ai",
+            "retrieved_at": "2026-10-08T01:38:00.174729+00:00",
+            "response_sha256": "6dcc21c7d8864227c838e445f2831b139a13a479d53eeaa9f47cc40dbcb08973"
+          }
+        ]
+      }
+    },
+    "_input_provenance": {
+      "file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\publication-index.json",
+      "sha256": "63cb33b7095108e7a0776950e9c258e7b65fe148ca6b12ae75cd4dd914ad6c89",
+      "locator": "PUBLICATION_ID=1020"
+    }
+  },
+  "candidates": [
+    {
+      "gse": "GSE15781",
+      "pmid": "36396656",
+      "routes": [
+        "europepmc_annotations",
+        "europepmc_datalinks"
+      ],
+      "hierarchy_only": false,
+      "native_pmids": [
+        "19969511"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE162065",
+      "pmid": "36396656",
+      "routes": [
+        "pubmed_bioproject_geo",
+        "pubmed_geo_links"
+      ],
+      "hierarchy_only": false,
+      "native_pmids": [
+        "33676427",
+        "36396656"
+      ],
+      "citation_comparison": "matches_origin",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE165252",
+      "pmid": "36396656",
+      "routes": [
+        "europepmc_annotations",
+        "europepmc_datalinks"
+      ],
+      "hierarchy_only": false,
+      "native_pmids": [
+        "33504550"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE189764",
+      "pmid": "36396656",
+      "routes": [
+        "pubmed_bioproject_geo",
+        "pubmed_geo_links"
+      ],
+      "hierarchy_only": false,
+      "native_pmids": [
+        "36396656"
+      ],
+      "citation_comparison": "matches_origin",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE40442",
+      "pmid": "36396656",
+      "routes": [
+        "europepmc_annotations",
+        "europepmc_datalinks",
+        "series_hierarchy"
+      ],
+      "hierarchy_only": false,
+      "native_pmids": [
+        "23297133"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE40870",
+      "pmid": "36396656",
+      "routes": [
+        "series_hierarchy"
+      ],
+      "hierarchy_only": true,
+      "native_pmids": [
+        "23297133"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE40871",
+      "pmid": "36396656",
+      "routes": [
+        "series_hierarchy"
+      ],
+      "hierarchy_only": true,
+      "native_pmids": [
+        "23297133"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE87455",
+      "pmid": "36396656",
+      "routes": [
+        "europepmc_annotations",
+        "europepmc_datalinks"
+      ],
+      "hierarchy_only": false,
+      "native_pmids": [
+        "28940389",
+        "30228933",
+        "29136509"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    }
+  ],
+  "routes": {
+    "pubmed_geo_links": {
+      "status": "complete",
+      "native_target_count": 2,
+      "distinct_gse_count": 2
+    },
+    "pubmed_accession_list": {
+      "status": "complete",
+      "distinct_gse_count": 0
+    },
+    "publication_title_phrase": {
+      "status": "complete",
+      "query": "\"mTOR inhibition attenuates chemosensitivity through the induction of chemotherapy resistant persisters\"[All Fields] AND gse[Entry Type]",
+      "count": 0,
+      "query_translation": "\"mTOR inhibition attenuates chemosensitivity through the induction of chemotherapy resistant persisters\"[All Fields] AND gse[Entry Type]",
+      "warnings": {
+        "phrasesignored": [],
+        "quotedphrasesnotfound": [
+          "\"mTOR inhibition attenuates chemosensitivity through the induction of chemotherapy resistant persisters\"[All Fields]"
+        ],
+        "outputmessages": [
+          "No items found."
+        ]
+      },
+      "distinct_gse_count": 0
+    },
+    "europepmc_annotations": {
+      "status": "complete",
+      "distinct_gse_count": 4
+    },
+    "europepmc_datalinks": {
+      "status": "complete",
+      "service_version": "6.9",
+      "category": "GEO",
+      "section_limit": 1000,
+      "distinct_gse_count": 4
+    },
+    "pubmed_bioproject_geo": {
+      "status": "complete",
+      "bioproject_uids": [
+        "680493",
+        "784440"
+      ],
+      "distinct_gse_count": 2
+    },
+    "series_hierarchy": {
+      "status": "complete",
+      "distinct_gse_count": 3
+    }
+  },
+  "seed_count": 6,
+  "total_gse_count": 8,
+  "hierarchy_added": [
+    "GSE40870",
+    "GSE40871"
+  ],
+  "evidence": [
+    {
+      "pmid": "36396656",
+      "publication_id": "1020",
+      "gse": "GSE162065",
+      "route": "pubmed_geo_links",
+      "source_file": "raw/selected-0000.response",
+      "locator": "target_uid=200162065",
+      "data_role": "not_assessed",
+      "summary_source": "raw/selected-0001.response",
+      "native_uid": "200162065",
+      "evidence_kind": "direct_repository_link"
+    },
+    {
+      "pmid": "36396656",
+      "publication_id": "1020",
+      "gse": "GSE189764",
+      "route": "pubmed_geo_links",
+      "source_file": "raw/selected-0000.response",
+      "locator": "target_uid=200189764",
+      "data_role": "not_assessed",
+      "summary_source": "raw/selected-0001.response",
+      "native_uid": "200189764",
+      "evidence_kind": "direct_repository_link"
+    },
+    {
+      "pmid": "36396656",
+      "publication_id": "1020",
+      "gse": "GSE87455",
+      "route": "europepmc_annotations",
+      "source_file": "raw/live-00004.response",
+      "locator": "annotations[0]",
+      "data_role": "not_assessed",
+      "evidence_kind": "precomputed_accession_annotation",
+      "native_annotation": {
+        "prefix": "BC: breast cancer (",
+        "exact": "GSE87455",
+        "postfix": ")21, AML: acute myelo",
+        "tags": [
+          {
+            "name": "GSE87455",
+            "uri": "http://identifiers.org/geo:GSE87455"
+          }
+        ],
+        "id": "http://europepmc.org/article/PMC/PMC9671908#europepmc-66f1760bc945537aa784d41690a07859",
+        "type": "Accession Numbers",
+        "section": "Results (http://purl.org/orb/Results)",
+        "provider": "Europe PMC",
+        "subType": "GEO"
+      }
+    },
+    {
+      "pmid": "36396656",
+      "publication_id": "1020",
+      "gse": "GSE40442",
+      "route": "europepmc_annotations",
+      "source_file": "raw/live-00004.response",
+      "locator": "annotations[1]",
+      "data_role": "not_assessed",
+      "evidence_kind": "precomputed_accession_annotation",
+      "native_annotation": {
+        "prefix": "e myeloid leukemia (",
+        "exact": "GSE40442",
+        "postfix": ")24, REC: rectal can",
+        "tags": [
+          {
+            "name": "GSE40442",
+            "uri": "http://identifiers.org/geo:GSE40442"
+          }
+        ],
+        "id": "http://europepmc.org/article/PMC/PMC9671908#europepmc-ac19a0f1b81e98d8b9db1445b924fcfd",
+        "type": "Accession Numbers",
+        "section": "Results (http://purl.org/orb/Results)",
+        "provider": "Europe PMC",
+        "subType": "GEO"
+      }
+    },
+    {
+      "pmid": "36396656",
+      "publication_id": "1020",
+      "gse": "GSE15781",
+      "route": "europepmc_annotations",
+      "source_file": "raw/live-00004.response",
+      "locator": "annotations[2]",
+      "data_role": "not_assessed",
+      "evidence_kind": "precomputed_accession_annotation",
+      "native_annotation": {
+        "prefix": "REC: rectal cancer (",
+        "exact": "GSE15781",
+        "postfix": ")23, EADC: esophagea",
+        "tags": [
+          {
+            "name": "GSE15781",
+            "uri": "http://identifiers.org/geo:GSE15781"
+          }
+        ],
+        "id": "http://europepmc.org/article/PMC/PMC9671908#europepmc-521107c6630846e9ee31a8b69d8ebccd",
+        "type": "Accession Numbers",
+        "section": "Results (http://purl.org/orb/Results)",
+        "provider": "Europe PMC",
+        "subType": "GEO"
+      }
+    },
+    {
+      "pmid": "36396656",
+      "publication_id": "1020",
+      "gse": "GSE165252",
+      "route": "europepmc_annotations",
+      "source_file": "raw/live-00004.response",
+      "locator": "annotations[3]",
+      "data_role": "not_assessed",
+      "evidence_kind": "precomputed_accession_annotation",
+      "native_annotation": {
+        "prefix": "15781)23, EADC: esophageal cancer (",
+        "exact": "GSE165252",
+        "postfix": ")22. ",
+        "tags": [
+          {
+            "name": "GSE165252",
+            "uri": "http://identifiers.org/geo:GSE165252"
+          }
+        ],
+        "id": "http://europepmc.org/article/PMC/PMC9671908#europepmc-43f7ce5721bdd5e9a74efefad87365b3",
+        "type": "Accession Numbers",
+        "section": "Results (http://purl.org/orb/Results)",
+        "provider": "Europe PMC",
+        "subType": "GEO"
+      }
+    },
+    {
+      "pmid": "36396656",
+      "publication_id": "1020",
+      "gse": "GSE87455",
+      "route": "europepmc_annotations",
+      "source_file": "raw/live-00004.response",
+      "locator": "annotations[4]",
+      "data_role": "not_assessed",
+      "evidence_kind": "precomputed_accession_annotation",
+      "native_annotation": {
+        "prefix": "#115 in the breast cancer dataset (",
+        "exact": "GSE87455",
+        "postfix": ")21. ",
+        "tags": [
+          {
+            "name": "GSE87455",
+            "uri": "http://identifiers.org/geo:GSE87455"
+          }
+        ],
+        "id": "http://europepmc.org/article/PMC/PMC9671908#europepmc-325b3cd1be36bd26c21645d719e5ee28",
+        "type": "Accession Numbers",
+        "section": "Results (http://purl.org/orb/Results)",
+        "provider": "Europe PMC",
+        "subType": "GEO"
+      }
+    },
+    {
+      "pmid": "36396656",
+      "publication_id": "1020",
+      "gse": "GSE87455",
+      "route": "europepmc_annotations",
+      "source_file": "raw/live-00004.response",
+      "locator": "annotations[5]",
+      "data_role": "not_assessed",
+      "evidence_kind": "precomputed_accession_annotation",
+      "native_annotation": {
+        "prefix": "he public datasets (",
+        "exact": "GSE87455",
+        "postfix": " for breast cancer21",
+        "tags": [
+          {
+            "name": "GSE87455",
+            "uri": "http://identifiers.org/geo:GSE87455"
+          }
+        ],
+        "id": "http://europepmc.org/article/PMC/PMC9671908#europepmc-cdf950b4e07f0faea97ff11614d6d745",
+        "type": "Accession Numbers",
+        "section": "Methods (http://purl.org/orb/Methods)",
+        "provider": "Europe PMC",
+        "subType": "GEO"
+      }
+    },
+    {
+      "pmid": "36396656",
+      "publication_id": "1020",
+      "gse": "GSE165252",
+      "route": "europepmc_annotations",
+      "source_file": "raw/live-00004.response",
+      "locator": "annotations[6]",
+      "data_role": "not_assessed",
+      "evidence_kind": "precomputed_accession_annotation",
+      "native_annotation": {
+        "prefix": "or breast cancer21, ",
+        "exact": "GSE165252",
+        "postfix": " for esophageal canc",
+        "tags": [
+          {
+            "name": "GSE165252",
+            "uri": "http://identifiers.org/geo:GSE165252"
+          }
+        ],
+        "id": "http://europepmc.org/article/PMC/PMC9671908#europepmc-bec060f7bb66501283abedc10882a543",
+        "type": "Accession Numbers",
+        "section": "Methods (http://purl.org/orb/Methods)",
+        "provider": "Europe PMC",
+        "subType": "GEO"
+      }
+    },
+    {
+      "pmid": "36396656",
+      "publication_id": "1020",
+      "gse": "GSE15781",
+      "route": "europepmc_annotations",
+      "source_file": "raw/live-00004.response",
+      "locator": "annotations[7]",
+      "data_role": "not_assessed",
+      "evidence_kind": "precomputed_accession_annotation",
+      "native_annotation": {
+        "prefix": "sophageal cancer22, ",
+        "exact": "GSE15781",
+        "postfix": " for rectal cancer23",
+        "tags": [
+          {
+            "name": "GSE15781",
+            "uri": "http://identifiers.org/geo:GSE15781"
+          }
+        ],
+        "id": "http://europepmc.org/article/PMC/PMC9671908#europepmc-11d3ea393b5417bd705a05fb8d40fdce",
+        "type": "Accession Numbers",
+        "section": "Methods (http://purl.org/orb/Methods)",
+        "provider": "Europe PMC",
+        "subType": "GEO"
+      }
+    },
+    {
+      "pmid": "36396656",
+      "publication_id": "1020",
+      "gse": "GSE40442",
+      "route": "europepmc_annotations",
+      "source_file": "raw/live-00004.response",
+      "locator": "annotations[8]",
+      "data_role": "not_assessed",
+      "evidence_kind": "precomputed_accession_annotation",
+      "native_annotation": {
+        "prefix": "ectal cancer23, and ",
+        "exact": "GSE40442",
+        "postfix": " for acute myeloid l",
+        "tags": [
+          {
+            "name": "GSE40442",
+            "uri": "http://identifiers.org/geo:GSE40442"
+          }
+        ],
+        "id": "http://europepmc.org/article/PMC/PMC9671908#europepmc-3b50fda9c15998ec33f5654ec4fac339",
+        "type": "Accession Numbers",
+        "section": "Methods (http://purl.org/orb/Methods)",
+        "provider": "Europe PMC",
+        "subType": "GEO"
+      }
+    },
+    {
+      "pmid": "36396656",
+      "publication_id": "1020",
+      "gse": "GSE87455",
+      "route": "europepmc_datalinks",
+      "source_file": "raw/live-00005.response",
+      "locator": "Category[0]/Section[0]/Link[0]",
+      "data_role": "not_assessed",
+      "evidence_kind": "service_reported_literature_data_link",
+      "native_link": {
+        "ObtainedBy": "tm_accession",
+        "PublicationDate": "01-10-2026",
+        "LinkProvider": {
+          "Name": "Europe PMC"
+        },
+        "RelationshipType": {
+          "Name": "References"
+        },
+        "Source": {
+          "Type": {
+            "Name": "literature"
+          },
+          "Identifier": {
+            "ID": "36396656",
+            "IDScheme": "MED"
+          }
+        },
+        "Target": {
+          "Type": {
+            "Name": "dataset"
+          },
+          "Identifier": {
+            "ID": "GSE87455",
+            "IDScheme": "GEO",
+            "IDURL": "http://identifiers.org/geo:GSE87455"
+          },
+          "Title": "GSE87455",
+          "Publisher": {
+            "Name": "Europe PMC"
+          }
+        },
+        "Frequency": 3
+      }
+    },
+    {
+      "pmid": "36396656",
+      "publication_id": "1020",
+      "gse": "GSE15781",
+      "route": "europepmc_datalinks",
+      "source_file": "raw/live-00005.response",
+      "locator": "Category[0]/Section[0]/Link[1]",
+      "data_role": "not_assessed",
+      "evidence_kind": "service_reported_literature_data_link",
+      "native_link": {
+        "ObtainedBy": "tm_accession",
+        "PublicationDate": "01-10-2026",
+        "LinkProvider": {
+          "Name": "Europe PMC"
+        },
+        "RelationshipType": {
+          "Name": "References"
+        },
+        "Source": {
+          "Type": {
+            "Name": "literature"
+          },
+          "Identifier": {
+            "ID": "36396656",
+            "IDScheme": "MED"
+          }
+        },
+        "Target": {
+          "Type": {
+            "Name": "dataset"
+          },
+          "Identifier": {
+            "ID": "GSE15781",
+            "IDScheme": "GEO",
+            "IDURL": "http://identifiers.org/geo:GSE15781"
+          },
+          "Title": "GSE15781",
+          "Publisher": {
+            "Name": "Europe PMC"
+          }
+        },
+        "Frequency": 2
+      }
+    },
+    {
+      "pmid": "36396656",
+      "publication_id": "1020",
+      "gse": "GSE165252",
+      "route": "europepmc_datalinks",
+      "source_file": "raw/live-00005.response",
+      "locator": "Category[0]/Section[0]/Link[2]",
+      "data_role": "not_assessed",
+      "evidence_kind": "service_reported_literature_data_link",
+      "native_link": {
+        "ObtainedBy": "tm_accession",
+        "PublicationDate": "01-10-2026",
+        "LinkProvider": {
+          "Name": "Europe PMC"
+        },
+        "RelationshipType": {
+          "Name": "References"
+        },
+        "Source": {
+          "Type": {
+            "Name": "literature"
+          },
+          "Identifier": {
+            "ID": "36396656",
+            "IDScheme": "MED"
+          }
+        },
+        "Target": {
+          "Type": {
+            "Name": "dataset"
+          },
+          "Identifier": {
+            "ID": "GSE165252",
+            "IDScheme": "GEO",
+            "IDURL": "http://identifiers.org/geo:GSE165252"
+          },
+          "Title": "GSE165252",
+          "Publisher": {
+            "Name": "Europe PMC"
+          }
+        },
+        "Frequency": 2
+      }
+    },
+    {
+      "pmid": "36396656",
+      "publication_id": "1020",
+      "gse": "GSE40442",
+      "route": "europepmc_datalinks",
+      "source_file": "raw/live-00005.response",
+      "locator": "Category[0]/Section[0]/Link[3]",
+      "data_role": "not_assessed",
+      "evidence_kind": "service_reported_literature_data_link",
+      "native_link": {
+        "ObtainedBy": "tm_accession",
+        "PublicationDate": "01-10-2026",
+        "LinkProvider": {
+          "Name": "Europe PMC"
+        },
+        "RelationshipType": {
+          "Name": "References"
+        },
+        "Source": {
+          "Type": {
+            "Name": "literature"
+          },
+          "Identifier": {
+            "ID": "36396656",
+            "IDScheme": "MED"
+          }
+        },
+        "Target": {
+          "Type": {
+            "Name": "dataset"
+          },
+          "Identifier": {
+            "ID": "GSE40442",
+            "IDScheme": "GEO",
+            "IDURL": "http://identifiers.org/geo:GSE40442"
+          },
+          "Title": "GSE40442",
+          "Publisher": {
+            "Name": "Europe PMC"
+          }
+        },
+        "Frequency": 2
+      }
+    },
+    {
+      "pmid": "36396656",
+      "publication_id": "1020",
+      "gse": "GSE162065",
+      "route": "pubmed_bioproject_geo",
+      "source_file": "raw/selected-0007.response",
+      "locator": "target_uid=200162065",
+      "data_role": "not_assessed",
+      "summary_source": "raw/selected-0008.response",
+      "native_uid": "200162065",
+      "evidence_kind": "indirect_repository_path",
+      "bioproject_uid": "680493",
+      "publication_project_source": "raw/selected-0006.response"
+    },
+    {
+      "pmid": "36396656",
+      "publication_id": "1020",
+      "gse": "GSE189764",
+      "route": "pubmed_bioproject_geo",
+      "source_file": "raw/selected-0009.response",
+      "locator": "target_uid=200189764",
+      "data_role": "not_assessed",
+      "summary_source": "raw/selected-0010.response",
+      "native_uid": "200189764",
+      "evidence_kind": "indirect_repository_path",
+      "bioproject_uid": "784440",
+      "publication_project_source": "raw/selected-0006.response"
+    },
+    {
+      "pmid": "36396656",
+      "publication_id": "1020",
+      "gse": "GSE40871",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00015.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE40442",
+      "to_gse": "GSE40871",
+      "relation": "SubSeries of",
+      "native_value": "SubSeries of: GSE40871"
+    },
+    {
+      "pmid": "36396656",
+      "publication_id": "1020",
+      "gse": "GSE40442",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00017.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE40871",
+      "to_gse": "GSE40442",
+      "relation": "SuperSeries of",
+      "native_value": "SuperSeries of: GSE40442"
+    },
+    {
+      "pmid": "36396656",
+      "publication_id": "1020",
+      "gse": "GSE40870",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00017.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE40871",
+      "to_gse": "GSE40870",
+      "relation": "SuperSeries of",
+      "native_value": "SuperSeries of: GSE40870"
+    },
+    {
+      "pmid": "36396656",
+      "publication_id": "1020",
+      "gse": "GSE40871",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00018.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE40870",
+      "to_gse": "GSE40871",
+      "relation": "SubSeries of",
+      "native_value": "SubSeries of: GSE40871"
+    }
+  ]
+}

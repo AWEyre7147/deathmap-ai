@@ -17,7 +17,7 @@ experimental-data retrieval was performed.
 Every native value was examined. Blank reference fields mean no supported
 assignment or no reference-supplied value/definition, rather than an unprocessed
 row. Unresolved assignments are identified in the review column. Previously
-populated pilot evidence remains in its external archive (see [relocation registry](../../../logs/repository-relocations-20261004.json)).
+populated pilot evidence remains in a local external archive, outside the curated release.
 The tables immediately before this expansion are preserved in
 [CELL_LINE backup](CELL_LINE-before-full-annotation.md) and
 [CELL_TYPE backup](CELL_TYPE-before-full-annotation.md).
@@ -128,4 +128,6 @@ blank fields do not become negative cancer classifications.
 
 ## [VA5] Organization note — 2026-10-04
 
-This active guide now uses the current paths. The before-full-annotation Markdown tables retain their original bytes and original historical links; consult logs/repository-relocations-20261004.json at the repository root to locate those sources. They are evidence snapshots, not active navigation pages.
+This active guide uses the current paths. Historical annotation tables retain
+their original bytes and links as local evidence snapshots, rather than active
+navigation pages in the curated release.

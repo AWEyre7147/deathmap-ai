@@ -1,0 +1,102 @@
+{
+  "GSE144236": {
+    "gse": "GSE144236",
+    "native_pmids": [
+      "32579974",
+      "40120584",
+      "41872488"
+    ],
+    "hierarchy": [
+      {
+        "from_gse": "GSE144236",
+        "to_gse": "GSE144240",
+        "relation": "SubSeries of",
+        "native_value": "SubSeries of: GSE144240"
+      }
+    ],
+    "source_file": "raw/cache-0017.response"
+  },
+  "GSE144237": {
+    "gse": "GSE144237",
+    "native_pmids": [
+      "32579974",
+      "38037084"
+    ],
+    "hierarchy": [
+      {
+        "from_gse": "GSE144237",
+        "to_gse": "GSE144240",
+        "relation": "SubSeries of",
+        "native_value": "SubSeries of: GSE144240"
+      }
+    ],
+    "source_file": "raw/cache-0018.response"
+  },
+  "GSE144238": {
+    "gse": "GSE144238",
+    "native_pmids": [
+      "32579974"
+    ],
+    "hierarchy": [
+      {
+        "from_gse": "GSE144238",
+        "to_gse": "GSE144240",
+        "relation": "SubSeries of",
+        "native_value": "SubSeries of: GSE144240"
+      }
+    ],
+    "source_file": "raw/cache-0019.response"
+  },
+  "GSE144239": {
+    "gse": "GSE144239",
+    "native_pmids": [
+      "32579974",
+      "38037084",
+      "41872488"
+    ],
+    "hierarchy": [
+      {
+        "from_gse": "GSE144239",
+        "to_gse": "GSE144240",
+        "relation": "SubSeries of",
+        "native_value": "SubSeries of: GSE144240"
+      }
+    ],
+    "source_file": "raw/cache-0020.response"
+  },
+  "GSE144240": {
+    "gse": "GSE144240",
+    "native_pmids": [
+      "32579974",
+      "38037084",
+      "41872488"
+    ],
+    "hierarchy": [
+      {
+        "from_gse": "GSE144240",
+        "to_gse": "GSE144236",
+        "relation": "SuperSeries of",
+        "native_value": "SuperSeries of: GSE144236"
+      },
+      {
+        "from_gse": "GSE144240",
+        "to_gse": "GSE144237",
+        "relation": "SuperSeries of",
+        "native_value": "SuperSeries of: GSE144237"
+      },
+      {
+        "from_gse": "GSE144240",
+        "to_gse": "GSE144238",
+        "relation": "SuperSeries of",
+        "native_value": "SuperSeries of: GSE144238"
+      },
+      {
+        "from_gse": "GSE144240",
+        "to_gse": "GSE144239",
+        "relation": "SuperSeries of",
+        "native_value": "SuperSeries of: GSE144239"
+      }
+    ],
+    "source_file": "raw/cache-0021.response"
+  }
+}

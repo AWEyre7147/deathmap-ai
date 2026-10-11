@@ -1,0 +1,89 @@
+<eSummaryResult><DocSum>
+	<Id>200109326</Id>
+	<Item Name="Accession" Type="String">GSE109326</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">Transcriptional changes after overexpression of proliferation drivers in human mammary epithelial cells.</Item>
+	<Item Name="summary" Type="String">Genomics has provided a detailed structural description of the cancer genome. Identifying oncogenic drivers that work primarily through dosage changes is a current challenge. Unrestrained proliferation is a critical hallmark of human cancer. We constructed modular, barcoded libraries of human open reading frames (ORFs) and performed screens for proliferation regulators in multiple cell types. Approximately 10% of genes tested regulate proliferation, many performing in an unexpectedly highly tissue-specific manner. Proliferation drivers in a given cell type showed specific enrichment in SCNAs (somatic copy number changes) from cognate tumors and helped predict aneuploidy patterns in those tumors, implying that tissue type-specific genetic network architectures underlie SCNA selection in different cancers. In vivo screening confirmed these results. We report a substantial contribution to the catalog of SCNA-associated cancer drivers, identifying 147 amplified and 107 deleted genes as potential drivers, and derive new insights about the genetic network architecture of aneuploidy in tumors. KRTAPs are a class of human genes that promote proliferation in mammary epithelial cells (HMEC), but the mechanism is not understood. We performed RNAseq to study transcriptional changes associated with oeverxepression of KRTAPs and other oncogenes in hTERT-immortalized human mammary epithelial cells. GSEA analysis revealed the top enriched pathways upregulated by KRTAP expression are E2F-mediated regulation of DNA replication, G1-S specific transcription, cell cycle, translation and ribosome. KRTAP-induced mRNA changes are most closely related to those due to CCND1 expression, including induction of E2F1 transcription factor.</Item>
+	<Item Name="GPL" Type="String">16791</Item>
+	<Item Name="GSE" Type="String">109326</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2018/05/01</Item>
+	<Item Name="suppFile" Type="String">TXT</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2939000</Item>
+			<Item Name="Title" Type="String">TP53null-2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2938991</Item>
+			<Item Name="Title" Type="String">CCND1-1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2938994</Item>
+			<Item Name="Title" Type="String">SRC-2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2938997</Item>
+			<Item Name="Title" Type="String">EV-1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2938998</Item>
+			<Item Name="Title" Type="String">EV-2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2938995</Item>
+			<Item Name="Title" Type="String">KAP106-1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2938989</Item>
+			<Item Name="Title" Type="String">MYC-1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2938992</Item>
+			<Item Name="Title" Type="String">CCND1-2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2938993</Item>
+			<Item Name="Title" Type="String">SRC-1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2938990</Item>
+			<Item Name="Title" Type="String">MYC-2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2938999</Item>
+			<Item Name="Title" Type="String">TP53null-1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM2938996</Item>
+			<Item Name="Title" Type="String">KAP106-2</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List">
+		<Item Name="ExtRelation" Type="Structure">
+			<Item Name="RelationType" Type="String">SRA</Item>
+			<Item Name="TargetObject" Type="String">SRP131095</Item>
+			<Item Name="TargetFTPLink" Type="String">ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP131/SRP131095/</Item>
+		</Item>
+	</Item>
+	<Item Name="n_samples" Type="Integer">12</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">29576454</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE109nnn/GSE109326/</Item>
+	<Item Name="GEO2R" Type="String">yes</Item>
+</DocSum>
+
+</eSummaryResult>

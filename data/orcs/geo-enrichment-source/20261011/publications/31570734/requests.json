@@ -1,0 +1,86 @@
+[
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=gds&id=31570734&linkname=pubmed_gds&cmd=neighbor&retmode=json",
+    "file": "raw/selected-0000.response",
+    "sha256": "6846e4d63a365c3807e7580062a8766bff20e14f555b43ff01b4f9e15838b15f",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:00:43.977820+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\0d58263b13b3c92537c4149e03bf902d3d842dfd8b666de41eed9c679c136735.json",
+        "sha256": "0d58263b13b3c92537c4149e03bf902d3d842dfd8b666de41eed9c679c136735",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\pubmed-enrichment-source\\20261008\\links-gds-3.json",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=gds&linkname=pubmed_gds&id=31564637&id=31570734&id=31587919&id=31594818&id=31604991&id=31618756&id=31657721&id=31666400&id=31692446&id=31723608&id=31727847&id=31730859&id=31741433&id=31744829&id=31761535&id=31792210&id=31801065&id=31818950&id=31855178&id=31868589&id=31882897&id=31903165&id=31915280&id=31919360&id=31921143&id=31959936&id=32005668&id=32028983&id=32075772&id=32094149&id=32142663&id=32156810&id=32160526&id=32238925&id=32259488&id=32268084&id=32299104&id=32315601&id=32355287&id=32416067&id=32421776&id=32424339&id=32499641&id=32528131&id=32542389&id=32579974&id=32585766&id=32640256&id=32649862&id=32668236&cmd=neighbor&retmode=json",
+        "locator": "linksets[1]",
+        "retrieved_utc": "2026-10-08T23:17:15.888207+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=31570734&retmode=xml",
+    "file": "raw/selected-0001.response",
+    "sha256": "31108388419f1d2a690c9a31665274a582568850360f87d8008c660d248ba09f",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:00:43.980823+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\21786aacf01be17cea2401daf1833ab8b82ec384a169e5bf6f15e51350cfe075.xml",
+        "sha256": "21786aacf01be17cea2401daf1833ab8b82ec384a169e5bf6f15e51350cfe075",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\pubmed-enrichment-source\\20261008\\pubmed-1.xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=30932271%2C30944478%2C30951565%2C30962421%2C30971826%2C30991026%2C30995489%2C31010806%2C31019072%2C31038839%2C31040274%2C31048320%2C31048321%2C31059574%2C31076567%2C31108395%2C31133756%2C31142663%2C31147448%2C31160565%2C31165872%2C31209294%2C31213543%2C31219803%2C31253397%2C31270356%2C31287994%2C31294695%2C31300418%2C31316073%2C31346084%2C31353312%2C31353801%2C31365872%2C31406246%2C31406271%2C31437751%2C31451760%2C31452512%2C31462500%2C31508283%2C31508509%2C31509742%2C31519728%2C31519875%2C31527793%2C31540829%2C31543463%2C31551363%2C31558468%2C31564637%2C31570734%2C31587919%2C31594818%2C31604991%2C31618756%2C31657721%2C31666400%2C31692446%2C31723608%2C31727847%2C31730859%2C31741433%2C31744829%2C31761535%2C31792210%2C31801065%2C31818950%2C31855178%2C31868589%2C31882897%2C31903165%2C31915280%2C31919360%2C31921143%2C31959936%2C32005668%2C32028983%2C32075772%2C32094149%2C32142663%2C32156810%2C32160526%2C32238925%2C32259488%2C32268084%2C32299104%2C32315601%2C32355287%2C32416067%2C32421776%2C32424339%2C32499641%2C32528131%2C32542389%2C32579974%2C32585766%2C32640256%2C32649862%2C32668236&retmode=xml",
+        "locator": "PubmedArticle[51]",
+        "retrieved_utc": "2026-10-08T23:16:47.938021+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=%22Targeted+genomic+CRISPR-Cas9+screen+identifies+MAP4K4+as+essential+for+glioblastoma+invasion%22%5BAll+Fields%5D+AND+gse%5BEntry+Type%5D&retmode=json&retmax=1000",
+    "file": "raw/selected-0002.response",
+    "sha256": "5514cb0352eb2f4e6270402b8391d2a375c4e5c14c596380d744d004fb657fd4",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:00:44.018699+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\5514cb0352eb2f4e6270402b8391d2a375c4e5c14c596380d744d004fb657fd4.json",
+        "sha256": "5514cb0352eb2f4e6270402b8391d2a375c4e5c14c596380d744d004fb657fd4",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\outputs\\geo\\title-search-expansion\\20261010\\raw\\search-393-phrase.json",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=%22Targeted+genomic+CRISPR-Cas9+screen+identifies+MAP4K4+as+essential+for+glioblastoma+invasion%22%5BAll+Fields%5D+AND+gse%5BEntry+Type%5D&retmode=json&retmax=100",
+        "locator": "complete esearchresult",
+        "retrieved_utc": "2026-10-10T17:19:35.239120+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A31570734&type=Accession+Numbers&format=JSON",
+    "attempt": 1,
+    "retrieved_utc": "2026-10-11T18:00:44.050754+00:00",
+    "http_status": 200,
+    "file": "raw/live-00003.response",
+    "sha256": "812e5c2374ebd9f1c9b119696e7b7639cfdd1b57d6fdc3d9ae97502c8764f63a"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/MED/31570734/datalinks?format=json&pageSize=1000",
+    "attempt": 1,
+    "retrieved_utc": "2026-10-11T18:00:44.964733+00:00",
+    "http_status": 200,
+    "file": "raw/live-00004.response",
+    "sha256": "3c54644228682d92c67dafce6cb2c549141ef62651299af0241ac5429a7b9e1a"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=bioproject&id=31570734&linkname=pubmed_bioproject&cmd=neighbor&retmode=json",
+    "file": "raw/selected-0005.response",
+    "sha256": "6846e4d63a365c3807e7580062a8766bff20e14f555b43ff01b4f9e15838b15f",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:00:45.873800+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\89f53290b6038266c12e92ca5a458c93cab921b3fb76fa328b043407b278c2c8.json",
+        "sha256": "89f53290b6038266c12e92ca5a458c93cab921b3fb76fa328b043407b278c2c8",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\pubmed-enrichment-source\\20261008\\links-bioproject-3.json",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=bioproject&linkname=pubmed_bioproject&id=31564637&id=31570734&id=31587919&id=31594818&id=31604991&id=31618756&id=31657721&id=31666400&id=31692446&id=31723608&id=31727847&id=31730859&id=31741433&id=31744829&id=31761535&id=31792210&id=31801065&id=31818950&id=31855178&id=31868589&id=31882897&id=31903165&id=31915280&id=31919360&id=31921143&id=31959936&id=32005668&id=32028983&id=32075772&id=32094149&id=32142663&id=32156810&id=32160526&id=32238925&id=32259488&id=32268084&id=32299104&id=32315601&id=32355287&id=32416067&id=32421776&id=32424339&id=32499641&id=32528131&id=32542389&id=32579974&id=32585766&id=32640256&id=32649862&id=32668236&cmd=neighbor&retmode=json",
+        "locator": "linksets[1]",
+        "retrieved_utc": "2026-10-08T23:18:06.931276+00:00"
+      }
+    ]
+  }
+]

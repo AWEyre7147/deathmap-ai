@@ -1,0 +1,73 @@
+<eSummaryResult><DocSum>
+	<Id>200125841</Id>
+	<Item Name="Accession" Type="String">GSE125841</Item>
+	<Item Name="GDS" Type="String" />
+	<Item Name="title" Type="String">A minimal DNA sequence within the ARF promoter represses p16INK4A expression via long-range chromatin interaction [Cut&amp;Run ChiP-seq]</Item>
+	<Item Name="summary" Type="String">Loss of function of CDKN2A/B, also known as INK4/ARF [encoding for p16INK4A, p15INK4B, and p14ARF (mouse p19Arf)]), confers susceptibility to cancers, whereas its up-regulation during organismal aging provokes cellular senescence and tissue degenerative disorders. To better understand molecular regulation of the locus, we knocked P2A-mCherry into the C-terminus of p16INK4A, and this construct faithfully recapitulated the endogenous transcription. Using this reporter cell line, we performed a noncoding tiling pooled screening targeting open chromatin regions spanning the approximately 500-kb region in the topological associated domain that includes p16INK4A. In both Cas9- and dCas9-KRAB&#8211;mediated screenings, we identified a 42-bp DNA sequence within exon 1&#946; of the ARF gene, as the repressive element controlling p16INK4A expression. Chromatin conformation capture indicated that inactivating this element abolished the physical interaction between p15INK4B and ARF, thereby abolishing p16INK4A repression. This study has revealed a new mechanism of transcriptional regulation of p16INK4A by long-range chromatin interaction.</Item>
+	<Item Name="GPL" Type="String">15520</Item>
+	<Item Name="GSE" Type="String">125841</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Genome binding/occupancy profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String" />
+	<Item Name="valType" Type="String" />
+	<Item Name="SSInfo" Type="String" />
+	<Item Name="subsetInfo" Type="String" />
+	<Item Name="PDAT" Type="String">2019/12/17</Item>
+	<Item Name="suppFile" Type="String">BW</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3848138</Item>
+			<Item Name="Title" Type="String">YY1_ARF-sgRNA-4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3848141</Item>
+			<Item Name="Title" Type="String">ZNF-ARF-sgRNA-4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3848140</Item>
+			<Item Name="Title" Type="String">ZNF-NT-sgRNA</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3583023</Item>
+			<Item Name="Title" Type="String">ARF-sg1 (Cut&amp;Run ChiP-seq)</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3583026</Item>
+			<Item Name="Title" Type="String">CDKN2a-sg2 (Cut&amp;Run ChiP-seq)</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3583025</Item>
+			<Item Name="Title" Type="String">CDKN2a-sg1 (Cut&amp;Run ChiP-seq)</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3848136</Item>
+			<Item Name="Title" Type="String">YY1_NT_sgRNA</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM3583024</Item>
+			<Item Name="Title" Type="String">ARF-sg2 (Cut&amp;Run ChiP-seq)</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List" />
+	<Item Name="ExtRelations" Type="List">
+		<Item Name="ExtRelation" Type="Structure">
+			<Item Name="RelationType" Type="String">SRA</Item>
+			<Item Name="TargetObject" Type="String">SRP182830</Item>
+			<Item Name="TargetFTPLink" Type="String">ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP182/SRP182830/</Item>
+		</Item>
+	</Item>
+	<Item Name="n_samples" Type="Integer">8</Item>
+	<Item Name="SeriesTitle" Type="String" />
+	<Item Name="PlatformTitle" Type="String" />
+	<Item Name="PlatformTaxa" Type="String" />
+	<Item Name="SamplesTaxa" Type="String" />
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">31818950</Item>
+	</Item>
+	<Item Name="Projects" Type="List" />
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE125nnn/GSE125841/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+</eSummaryResult>

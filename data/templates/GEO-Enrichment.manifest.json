@@ -1,0 +1,299 @@
+{
+  "schema_version": "enrichment-template/1.0",
+  "name": "GEO Enrichment",
+  "template": "data/templates/GEO-Enrichment.xlsx",
+  "sha256": "e09a1ed6a80cc27b8d689b36ef128ffaa9527fa90bc7ee36700c3afe5fb2064f",
+  "status": "owner_finalized",
+  "registered_utc": "2026-10-11T17:37:25.019716+00:00",
+  "sheets": [
+    {
+      "name": "Series Records",
+      "headers": [
+        "PMID",
+        "geo_accession",
+        "title",
+        "summary",
+        "overall_design",
+        "type",
+        "platform_organism",
+        "platform_taxid",
+        "sample_organism",
+        "sample_taxid",
+        "sample_count",
+        "citation"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Series Records",
+      "columns": [
+        {
+          "header": "PMID",
+          "source_key": "PMID"
+        },
+        {
+          "header": "geo_accession",
+          "source_key": "geo_accession"
+        },
+        {
+          "header": "title",
+          "source_key": "title"
+        },
+        {
+          "header": "summary",
+          "source_key": "summary"
+        },
+        {
+          "header": "overall_design",
+          "source_key": "overall_design"
+        },
+        {
+          "header": "type",
+          "source_key": "type"
+        },
+        {
+          "header": "platform_organism",
+          "source_key": "platform_organism"
+        },
+        {
+          "header": "platform_taxid",
+          "source_key": "platform_taxid"
+        },
+        {
+          "header": "sample_organism",
+          "source_key": "sample_organism"
+        },
+        {
+          "header": "sample_taxid",
+          "source_key": "sample_taxid"
+        },
+        {
+          "header": "sample_count",
+          "source_key": "sample_count"
+        },
+        {
+          "header": "citation",
+          "source_key": "citation"
+        }
+      ]
+    },
+    {
+      "name": "Series Hierarchy",
+      "headers": [
+        "PMID",
+        "GSE",
+        "Relationship",
+        "Related GSE"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Series Hierarchy",
+      "columns": [
+        {
+          "header": "PMID",
+          "source_key": "PMID"
+        },
+        {
+          "header": "GSE",
+          "source_key": "GSE"
+        },
+        {
+          "header": "Relationship",
+          "source_key": "Relationship"
+        },
+        {
+          "header": "Related GSE",
+          "source_key": "Related GSE"
+        }
+      ]
+    },
+    {
+      "name": "Repository Identifiers",
+      "headers": [
+        "PMID",
+        "GSE",
+        "GSM",
+        "Entity Level",
+        "Resource",
+        "Identifier",
+        "Native Field"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Repository Identifiers",
+      "columns": [
+        {
+          "header": "PMID",
+          "source_key": "PMID"
+        },
+        {
+          "header": "GSE",
+          "source_key": "GSE"
+        },
+        {
+          "header": "GSM",
+          "source_key": "GSM"
+        },
+        {
+          "header": "Entity Level",
+          "source_key": "Entity Level"
+        },
+        {
+          "header": "Resource",
+          "source_key": "Resource"
+        },
+        {
+          "header": "Identifier",
+          "source_key": "Identifier"
+        },
+        {
+          "header": "Native Field",
+          "source_key": "Native Field"
+        }
+      ]
+    },
+    {
+      "name": "Sample Metadata",
+      "headers": [
+        "PMID",
+        "GSE",
+        "GSM",
+        "series_id",
+        "geo_accession",
+        "type",
+        "title",
+        "source_name_ch1",
+        "organism_ch1",
+        "taxid_ch1",
+        "characteristics_ch1",
+        "treatment_protocol_ch1",
+        "growth_protocol_ch1",
+        "molecule_ch1",
+        "extract_protocol_ch1",
+        "description",
+        "data_processing",
+        "platform_id",
+        "instrument_model",
+        "library_selection",
+        "library_source",
+        "library_strategy",
+        "label_ch1",
+        "label_protocol_ch1",
+        "hyb_protocol",
+        "scan_protocol"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Sample Metadata",
+      "columns": [
+        {
+          "header": "PMID",
+          "source_key": "PMID"
+        },
+        {
+          "header": "GSE",
+          "source_key": "GSE"
+        },
+        {
+          "header": "GSM",
+          "source_key": "GSM"
+        },
+        {
+          "header": "series_id",
+          "source_key": "series_id"
+        },
+        {
+          "header": "geo_accession",
+          "source_key": "geo_accession"
+        },
+        {
+          "header": "type",
+          "source_key": "type"
+        },
+        {
+          "header": "title",
+          "source_key": "title"
+        },
+        {
+          "header": "source_name_ch1",
+          "source_key": "source_name_ch1"
+        },
+        {
+          "header": "organism_ch1",
+          "source_key": "organism_ch1"
+        },
+        {
+          "header": "taxid_ch1",
+          "source_key": "taxid_ch1"
+        },
+        {
+          "header": "characteristics_ch1",
+          "source_key": "characteristics_ch1"
+        },
+        {
+          "header": "treatment_protocol_ch1",
+          "source_key": "treatment_protocol_ch1"
+        },
+        {
+          "header": "growth_protocol_ch1",
+          "source_key": "growth_protocol_ch1"
+        },
+        {
+          "header": "molecule_ch1",
+          "source_key": "molecule_ch1"
+        },
+        {
+          "header": "extract_protocol_ch1",
+          "source_key": "extract_protocol_ch1"
+        },
+        {
+          "header": "description",
+          "source_key": "description"
+        },
+        {
+          "header": "data_processing",
+          "source_key": "data_processing"
+        },
+        {
+          "header": "platform_id",
+          "source_key": "platform_id"
+        },
+        {
+          "header": "instrument_model",
+          "source_key": "instrument_model"
+        },
+        {
+          "header": "library_selection",
+          "source_key": "library_selection"
+        },
+        {
+          "header": "library_source",
+          "source_key": "library_source"
+        },
+        {
+          "header": "library_strategy",
+          "source_key": "library_strategy"
+        },
+        {
+          "header": "label_ch1",
+          "source_key": "label_ch1"
+        },
+        {
+          "header": "label_protocol_ch1",
+          "source_key": "label_protocol_ch1"
+        },
+        {
+          "header": "hyb_protocol",
+          "source_key": "hyb_protocol"
+        },
+        {
+          "header": "scan_protocol",
+          "source_key": "scan_protocol"
+        }
+      ]
+    }
+  ],
+  "formatting": "Plain bold Carlito 11 headers, no fill, uniform width 22, no table objects",
+  "missing_values": "Blank; no inferred native citations",
+  "evidence_policy": "Retained separately from workbook",
+  "date_policy": "No date columns in the accepted GEO template"
+}

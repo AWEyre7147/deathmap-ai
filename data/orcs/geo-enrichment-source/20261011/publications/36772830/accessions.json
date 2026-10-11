@@ -1,0 +1,1919 @@
+{
+  "publication": {
+    "PUBLICATION_ID": "1104",
+    "SOURCE_TYPE": "pubmed",
+    "SOURCE_ID": "36772830",
+    "TITLE": "Systematic identification of factors involved in the silencing of germline genes in mouse embryonic stem cells.",
+    "AUTHORS": "Al Adhami H, Vallet J, Schaal C, Schumacher P, Bardet AF, Dumas M, Chicher J, Hammann P, Daujat S, Weber M",
+    "ABSTRACT": "In mammals, many germline genes are epigenetically repressed to prevent their illegitimate expression in somatic cells. To advance our understanding of the mechanisms restricting the expression of germline genes, we analyzed their chromatin signature and performed a CRISPR-Cas9 knock-out screen for genes involved in germline gene repression using a Dazl-GFP reporter system in mouse embryonic stem cells (mESCs). We show that the repression of germline genes mainly depends on the polycomb complex PRC1.6 and DNA methylation, which function additively in mESCs. Furthermore, we validated novel genes involved in the repression of germline genes and characterized three of them: Usp7, Shfm1 (also known as Sem1) and Erh. Inactivation of Usp7, Shfm1 or Erh led to the upregulation of germline genes, as well as retrotransposons for Shfm1, in mESCs. Mechanistically, USP7 interacts with PRC1.6 components, promotes PRC1.6 stability and presence at germline genes, and facilitates DNA methylation deposition at germline gene promoters for long term repression. Our study provides a global view of the mechanisms and novel factors required for silencing germline genes in embryonic stem cells.",
+    "JOURNAL": "Nucleic acids research",
+    "PUBLICATION_DATE": "2023-04-24",
+    "PAGE_SOURCE_TYPE": "pubmed",
+    "PAGE_SOURCE_ID": "36772830",
+    "PMID": "36772830",
+    "DOI": "10.1093/nar/gkad071",
+    "SUPPLEMENTARY_FILES": [
+      {
+        "label": "Supplementary Table S4_Mageck_Screen analysis.xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/67d887970b9a6/Supplementary Table S4_Mageck_Screen analysis.xlsx"
+      }
+    ],
+    "LINKS": [
+      {
+        "label": "Pubmed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36772830"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/scholar?as_occt=title&as_q=Systematic+identification+of+factors+involved+in+the+silencing+of+germline+genes+in+mouse+embryonic+stem+cells."
+      },
+      {
+        "label": "36772830",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36772830"
+      },
+      {
+        "label": "Supplementary Table S4_Mageck_Screen analysis.xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/67d887970b9a6/Supplementary Table S4_Mageck_Screen analysis.xlsx"
+      }
+    ],
+    "SCREEN_IDS": [
+      "2403"
+    ],
+    "SCREEN_COUNT": 1,
+    "PUBLICATION_URL": "https://orcs.thebiogrid.org/Dataset/1104",
+    "FIELD_LOCATORS": {
+      "TITLE": "#resultsHeaderBlock h1",
+      "AUTHORS": "#resultsHeaderBlock .subhead",
+      "ABSTRACT": "#resultsHeaderBlock .bgGrey",
+      "JOURNAL": ".linkouts citation strong",
+      "PUBLICATION_DATE": ".linkouts citation",
+      "SUPPLEMENTARY_FILES": ".linkouts Supplementary Files"
+    },
+    "REVIEW_ISSUES": [],
+    "RETRIEVED_AT": "2026-10-04T05:14:35.226417+00:00",
+    "SOURCE_METADATA_FILE": "data/orcs/publication-source/20261004-v01/1104.metadata.html",
+    "SOURCE_METADATA_SHA256": "22fb4c585830c6be2dd41b221517d533b2a6cc73b4c243cc830d635cbc6cb745",
+    "PMCID": "PMC10123117",
+    "IDENTIFIER_ENRICHMENT": {
+      "added_fields": [
+        "DOI",
+        "PMCID"
+      ],
+      "resolution": {
+        "input": {
+          "pmid": "36772830",
+          "doi": null,
+          "pmcid": null
+        },
+        "identifiers": {
+          "pmid": "36772830",
+          "doi": "10.1093/nar/gkad071",
+          "pmcid": "PMC10123117"
+        },
+        "status": "resolved",
+        "alternatives": {
+          "pmid": [
+            "36772830"
+          ],
+          "doi": [
+            "10.1093/nar/gkad071"
+          ],
+          "pmcid": [
+            "PMC10123117"
+          ]
+        },
+        "evidence": [
+          {
+            "identifiers": {
+              "pmid": "36772830",
+              "doi": "10.1093/nar/gkad071",
+              "pmcid": "PMC10123117"
+            },
+            "url": "https://pmc.ncbi.nlm.nih.gov/tools/idconv/api/v1/articles/?ids=32690708%2C32699298%2C32728216%2C32738194%2C32755594%2C32877678%2C32918875%2C32924251%2C32939090%2C32968282%2C32970993%2C32990596%2C33005030%2C33033111%2C33060197%2C33087464%2C33110234%2C33122441%2C33137164%2C33144569%2C33147444%2C33147445%2C33156908%2C33157015%2C33172989%2C33185187%2C33186476%2C33188726%2C33189395%2C33208877%2C33208938%2C33226137%2C33228647%2C33257658%2C33271924%2C33333024%2C33355125%2C33357464%2C33372156%2C33375770%2C33382968%2C33417871%2C33476303%2C33483422%2C33513160%2C33513212%2C33523994%2C33539788%2C33547076%2C33562682%2C33568224%2C33574281%2C33577797%2C33604667%2C33649592%2C33657372%2C33660365%2C33676427%2C33686287%2C33730579%2C33742119%2C33743211%2C33813748%2C33846634%2C33847741%2C33854235%2C33864166%2C33872695%2C33953401%2C34000301%2C34004147%2C34016692%2C34026427%2C34049503%2C34066520%2C34108663%2C34155407%2C34215620%2C34230586%2C34253920%2C34290256%2C34316707%2C34320214%2C34364401%2C34373448%2C34373451%2C34431042%2C34437126%2C34497417%2C34529489%2C34582788%2C34615851%2C34621019%2C34644148%2C34662547%2C34667112%2C34686207%2C34731885%2C34759314%2C34805786%2C34834920%2C34879274%2C34907164%2C34921014%2C34937946%2C34962926%2C35021089%2C35050652%2C35086559%2C35113687%2C35149558%2C35192680%2C35221331%2C35231079%2C35263388%2C35379808%2C35411049%2C35420441%2C35421191%2C35439318%2C35469023%2C35482054%2C35508460%2C35559673%2C35570209%2C35657206%2C35688159%2C35723366%2C35750052%2C35763353%2C35804923%2C35842423%2C35861150%2C35879412%2C35879413%2C35972292%2C35981571%2C36002574%2C36055241%2C36111891%2C36124427%2C36134452%2C36224385%2C36228039%2C36273494%2C36303069%2C36305789%2C36309510%2C36326816%2C36396656%2C36409314%2C36417855%2C36457047%2C36476853%2C36543916%2C36548402%2C36574441%2C36584827%2C36597481%2C36650183%2C36652375%2C36693839%2C36724073%2C36725334%2C36725843%2C36731340%2C36744886%2C36753415%2C36772830%2C36794958%2C36801923%2C36820830%2C36841242%2C36848233%2C36894612%2C36920785%2C36920967%2C36971544%2C36977592%2C36991492%2C37010434%2C37024475%2C37036970%2C37046090%2C37047518%2C37059858%2C37075701%2C37075745%2C37163373%2C37167561%2C37193694%2C37435859%2C37616343%2C37639469%2C37758944%2C37866880%2C37883554%2C37975674%2C37996617%2C38291084&idtype=pmid&format=json&tool=deathmap_ai",
+            "retrieved_at": "2026-10-08T01:37:51.651765+00:00",
+            "response_sha256": "81f6114b060dfc88e758a0492b87f826b0e1df9e4434ac70a4d87965d671a3f5"
+          },
+          {
+            "identifiers": {
+              "pmid": "36772830",
+              "doi": "10.1093/nar/gkad071",
+              "pmcid": "PMC10123117"
+            },
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=34805786%2C34834920%2C34879274%2C34907164%2C34921014%2C34937946%2C34962926%2C35021089%2C35050652%2C35086559%2C35113687%2C35149558%2C35192680%2C35221331%2C35231079%2C35263388%2C35379808%2C35411049%2C35420441%2C35421191%2C35439318%2C35469023%2C35482054%2C35508460%2C35559673%2C35570209%2C35657206%2C35688159%2C35723366%2C35750052%2C35763353%2C35804923%2C35842423%2C35861150%2C35879412%2C35879413%2C35972292%2C35981571%2C36002574%2C36032971%2C36055241%2C36111891%2C36124427%2C36134452%2C36224385%2C36228039%2C36273494%2C36303069%2C36305789%2C36309510%2C36326816%2C36396656%2C36409314%2C36417855%2C36457047%2C36476853%2C36543916%2C36548402%2C36574441%2C36584827%2C36597481%2C36650183%2C36652375%2C36693839%2C36724073%2C36725334%2C36725843%2C36731340%2C36744886%2C36753415%2C36772830%2C36794958%2C36801923%2C36820830%2C36841242%2C36848233%2C36894612%2C36920785%2C36920967%2C36971544%2C36977592%2C36991492%2C37010434%2C37024475%2C37036970%2C37046090%2C37047518%2C37059858%2C37075701%2C37075745%2C37163373%2C37167561%2C37193694%2C37435859%2C37616343%2C37639469%2C37758944%2C37866880%2C37883554%2C37975674&retmode=xml&tool=deathmap_ai",
+            "retrieved_at": "2026-10-08T01:38:00.174729+00:00",
+            "response_sha256": "6dcc21c7d8864227c838e445f2831b139a13a479d53eeaa9f47cc40dbcb08973"
+          }
+        ]
+      }
+    },
+    "_input_provenance": {
+      "file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\publication-index.json",
+      "sha256": "63cb33b7095108e7a0776950e9c258e7b65fe148ca6b12ae75cd4dd914ad6c89",
+      "locator": "PUBLICATION_ID=1104"
+    }
+  },
+  "candidates": [
+    {
+      "gse": "GSE101769",
+      "pmid": "36772830",
+      "routes": [
+        "series_hierarchy"
+      ],
+      "hierarchy_only": true,
+      "native_pmids": [
+        "29513657"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE130735",
+      "pmid": "36772830",
+      "routes": [
+        "europepmc_annotations",
+        "europepmc_datalinks"
+      ],
+      "hierarchy_only": false,
+      "native_pmids": [
+        "32561758"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE136226",
+      "pmid": "36772830",
+      "routes": [
+        "series_hierarchy"
+      ],
+      "hierarchy_only": true,
+      "native_pmids": [],
+      "citation_comparison": "not_reported",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE136227",
+      "pmid": "36772830",
+      "routes": [
+        "series_hierarchy"
+      ],
+      "hierarchy_only": true,
+      "native_pmids": [],
+      "citation_comparison": "not_reported",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE136228",
+      "pmid": "36772830",
+      "routes": [
+        "series_hierarchy"
+      ],
+      "hierarchy_only": true,
+      "native_pmids": [],
+      "citation_comparison": "not_reported",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE149341",
+      "pmid": "36772830",
+      "routes": [
+        "europepmc_annotations",
+        "europepmc_datalinks",
+        "series_hierarchy"
+      ],
+      "hierarchy_only": false,
+      "native_pmids": [],
+      "citation_comparison": "not_reported",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE175615",
+      "pmid": "36772830",
+      "routes": [
+        "europepmc_annotations",
+        "europepmc_datalinks"
+      ],
+      "hierarchy_only": false,
+      "native_pmids": [
+        "35317801"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE192556",
+      "pmid": "36772830",
+      "routes": [
+        "europepmc_annotations",
+        "europepmc_datalinks",
+        "pubmed_bioproject_geo",
+        "pubmed_geo_links"
+      ],
+      "hierarchy_only": false,
+      "native_pmids": [
+        "36772830"
+      ],
+      "citation_comparison": "matches_origin",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE49621",
+      "pmid": "36772830",
+      "routes": [
+        "series_hierarchy"
+      ],
+      "hierarchy_only": true,
+      "native_pmids": [
+        "24835570"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE49622",
+      "pmid": "36772830",
+      "routes": [
+        "series_hierarchy"
+      ],
+      "hierarchy_only": true,
+      "native_pmids": [
+        "24835570"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE49623",
+      "pmid": "36772830",
+      "routes": [
+        "series_hierarchy"
+      ],
+      "hierarchy_only": true,
+      "native_pmids": [
+        "24835570"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE49624",
+      "pmid": "36772830",
+      "routes": [
+        "europepmc_annotations",
+        "europepmc_datalinks",
+        "series_hierarchy"
+      ],
+      "hierarchy_only": false,
+      "native_pmids": [
+        "24835570"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE56697",
+      "pmid": "36772830",
+      "routes": [
+        "europepmc_annotations",
+        "europepmc_datalinks"
+      ],
+      "hierarchy_only": false,
+      "native_pmids": [
+        "24813617"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE57095",
+      "pmid": "36772830",
+      "routes": [
+        "series_hierarchy"
+      ],
+      "hierarchy_only": true,
+      "native_pmids": [
+        "24835570"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE57096",
+      "pmid": "36772830",
+      "routes": [
+        "series_hierarchy"
+      ],
+      "hierarchy_only": true,
+      "native_pmids": [
+        "24835570"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE57097",
+      "pmid": "36772830",
+      "routes": [
+        "series_hierarchy"
+      ],
+      "hierarchy_only": true,
+      "native_pmids": [
+        "24835570"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE67867",
+      "pmid": "36772830",
+      "routes": [
+        "europepmc_annotations",
+        "europepmc_datalinks"
+      ],
+      "hierarchy_only": false,
+      "native_pmids": [
+        "26675734"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE76957",
+      "pmid": "36772830",
+      "routes": [
+        "series_hierarchy"
+      ],
+      "hierarchy_only": true,
+      "native_pmids": [
+        "29513657"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE76958",
+      "pmid": "36772830",
+      "routes": [
+        "europepmc_annotations",
+        "europepmc_datalinks",
+        "series_hierarchy"
+      ],
+      "hierarchy_only": false,
+      "native_pmids": [
+        "29513657"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE76962",
+      "pmid": "36772830",
+      "routes": [
+        "series_hierarchy"
+      ],
+      "hierarchy_only": true,
+      "native_pmids": [
+        "29513657"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE76971",
+      "pmid": "36772830",
+      "routes": [
+        "series_hierarchy"
+      ],
+      "hierarchy_only": true,
+      "native_pmids": [
+        "29513657"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE76973",
+      "pmid": "36772830",
+      "routes": [
+        "series_hierarchy"
+      ],
+      "hierarchy_only": true,
+      "native_pmids": [
+        "29513657"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE77420",
+      "pmid": "36772830",
+      "routes": [
+        "europepmc_annotations",
+        "europepmc_datalinks"
+      ],
+      "hierarchy_only": false,
+      "native_pmids": [
+        "27237052"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE84480",
+      "pmid": "36772830",
+      "routes": [
+        "europepmc_annotations",
+        "europepmc_datalinks",
+        "series_hierarchy"
+      ],
+      "hierarchy_only": false,
+      "native_pmids": [
+        "28304275"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE87484",
+      "pmid": "36772830",
+      "routes": [
+        "series_hierarchy"
+      ],
+      "hierarchy_only": true,
+      "native_pmids": [
+        "28304275"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE87485",
+      "pmid": "36772830",
+      "routes": [
+        "series_hierarchy"
+      ],
+      "hierarchy_only": true,
+      "native_pmids": [
+        "28304275"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE97778",
+      "pmid": "36772830",
+      "routes": [
+        "series_hierarchy"
+      ],
+      "hierarchy_only": true,
+      "native_pmids": [
+        "29686265"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE98149",
+      "pmid": "36772830",
+      "routes": [
+        "series_hierarchy"
+      ],
+      "hierarchy_only": true,
+      "native_pmids": [
+        "29686265"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE98150",
+      "pmid": "36772830",
+      "routes": [
+        "europepmc_annotations",
+        "europepmc_datalinks",
+        "series_hierarchy"
+      ],
+      "hierarchy_only": false,
+      "native_pmids": [
+        "29686265"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    },
+    {
+      "gse": "GSE98151",
+      "pmid": "36772830",
+      "routes": [
+        "series_hierarchy"
+      ],
+      "hierarchy_only": true,
+      "native_pmids": [
+        "29686265"
+      ],
+      "citation_comparison": "different_publication",
+      "data_role": "not_assessed"
+    }
+  ],
+  "routes": {
+    "pubmed_geo_links": {
+      "status": "complete",
+      "native_target_count": 1,
+      "distinct_gse_count": 1
+    },
+    "pubmed_accession_list": {
+      "status": "complete",
+      "distinct_gse_count": 0
+    },
+    "publication_title_phrase": {
+      "status": "complete",
+      "query": "\"Systematic identification of factors involved in the silencing of germline genes in mouse embryonic stem cells\"[All Fields] AND gse[Entry Type]",
+      "count": 0,
+      "query_translation": "\"Systematic identification of factors involved in the silencing of germline genes in mouse embryonic stem cells\"[All Fields] AND gse[Entry Type]",
+      "warnings": {
+        "phrasesignored": [],
+        "quotedphrasesnotfound": [
+          "\"Systematic identification of factors involved in the silencing of germline genes in mouse embryonic stem cells\"[All Fields]"
+        ],
+        "outputmessages": [
+          "No items found."
+        ]
+      },
+      "distinct_gse_count": 0
+    },
+    "europepmc_annotations": {
+      "status": "complete",
+      "distinct_gse_count": 11
+    },
+    "europepmc_datalinks": {
+      "status": "complete",
+      "service_version": "6.9",
+      "category": "GEO",
+      "section_limit": 1000,
+      "distinct_gse_count": 11
+    },
+    "pubmed_bioproject_geo": {
+      "status": "complete",
+      "bioproject_uids": [
+        "791926"
+      ],
+      "distinct_gse_count": 1
+    },
+    "series_hierarchy": {
+      "status": "complete",
+      "distinct_gse_count": 24
+    }
+  },
+  "seed_count": 11,
+  "total_gse_count": 30,
+  "hierarchy_added": [
+    "GSE101769",
+    "GSE136226",
+    "GSE136227",
+    "GSE136228",
+    "GSE49621",
+    "GSE49622",
+    "GSE49623",
+    "GSE57095",
+    "GSE57096",
+    "GSE57097",
+    "GSE76957",
+    "GSE76962",
+    "GSE76971",
+    "GSE76973",
+    "GSE87484",
+    "GSE87485",
+    "GSE97778",
+    "GSE98149",
+    "GSE98151"
+  ],
+  "evidence": [
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE192556",
+      "route": "pubmed_geo_links",
+      "source_file": "raw/selected-0000.response",
+      "locator": "target_uid=200192556",
+      "data_role": "not_assessed",
+      "summary_source": "raw/selected-0001.response",
+      "native_uid": "200192556",
+      "evidence_kind": "direct_repository_link"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE192556",
+      "route": "europepmc_annotations",
+      "source_file": "raw/live-00004.response",
+      "locator": "annotations[2]",
+      "data_role": "not_assessed",
+      "evidence_kind": "precomputed_accession_annotation",
+      "native_annotation": {
+        "prefix": "ibus (GEO) under the accession number ",
+        "exact": "GSE192556",
+        "postfix": ". ",
+        "tags": [
+          {
+            "name": "GSE192556",
+            "uri": "http://identifiers.org/geo:GSE192556"
+          }
+        ],
+        "id": "http://europepmc.org/article/PMC/PMC10123117#europepmc-39e55c5851476a254254d8087bb4faa3",
+        "type": "Accession Numbers",
+        "section": "Data Availability (http://purl.obolibrary.org/obo/IAO_0000611)",
+        "provider": "Europe PMC",
+        "subType": "GEO"
+      }
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE77420",
+      "route": "europepmc_annotations",
+      "source_file": "raw/live-00004.response",
+      "locator": "annotations[4]",
+      "data_role": "not_assessed",
+      "evidence_kind": "precomputed_accession_annotation",
+      "native_annotation": {
+        "prefix": "Cs in serum and 2i (",
+        "exact": "GSE77420",
+        "postfix": "), RNA-seq in morula",
+        "tags": [
+          {
+            "name": "GSE77420",
+            "uri": "http://identifiers.org/geo:GSE77420"
+          }
+        ],
+        "id": "http://europepmc.org/article/PMC/PMC10123117#europepmc-af039ec16c373f4c245c4ee354933029",
+        "type": "Accession Numbers",
+        "section": "Data Availability (http://purl.obolibrary.org/obo/IAO_0000611)",
+        "provider": "Europe PMC",
+        "subType": "GEO"
+      }
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE98150",
+      "route": "europepmc_annotations",
+      "source_file": "raw/live-00004.response",
+      "locator": "annotations[5]",
+      "data_role": "not_assessed",
+      "evidence_kind": "precomputed_accession_annotation",
+      "native_annotation": {
+        "prefix": "M and E6.5 embryos (",
+        "exact": "GSE98150",
+        "postfix": "), RNA-seq and WGBS ",
+        "tags": [
+          {
+            "name": "GSE98150",
+            "uri": "http://identifiers.org/geo:GSE98150"
+          }
+        ],
+        "id": "http://europepmc.org/article/PMC/PMC10123117#europepmc-838d4a712014c0d550105fda4eeb7299",
+        "type": "Accession Numbers",
+        "section": "Data Availability (http://purl.obolibrary.org/obo/IAO_0000611)",
+        "provider": "Europe PMC",
+        "subType": "GEO"
+      }
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE130735",
+      "route": "europepmc_annotations",
+      "source_file": "raw/live-00004.response",
+      "locator": "annotations[6]",
+      "data_role": "not_assessed",
+      "evidence_kind": "precomputed_accession_annotation",
+      "native_annotation": {
+        "prefix": "E8.5 mouse embryos (",
+        "exact": "GSE130735",
+        "postfix": "), RNA-seq in mouse ",
+        "tags": [
+          {
+            "name": "GSE130735",
+            "uri": "http://identifiers.org/geo:GSE130735"
+          }
+        ],
+        "id": "http://europepmc.org/article/PMC/PMC10123117#europepmc-195160d3658ccd07aabf6755c76469c1",
+        "type": "Accession Numbers",
+        "section": "Data Availability (http://purl.obolibrary.org/obo/IAO_0000611)",
+        "provider": "Europe PMC",
+        "subType": "GEO"
+      }
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE175615",
+      "route": "europepmc_annotations",
+      "source_file": "raw/live-00004.response",
+      "locator": "annotations[7]",
+      "data_role": "not_assessed",
+      "evidence_kind": "precomputed_accession_annotation",
+      "native_annotation": {
+        "prefix": "dermal fibroblasts (",
+        "exact": "GSE175615",
+        "postfix": "), RNA-seq in mouse ",
+        "tags": [
+          {
+            "name": "GSE175615",
+            "uri": "http://identifiers.org/geo:GSE175615"
+          }
+        ],
+        "id": "http://europepmc.org/article/PMC/PMC10123117#europepmc-05b31c2e1b78e00f2d14ab1a80cd128c",
+        "type": "Accession Numbers",
+        "section": "Data Availability (http://purl.obolibrary.org/obo/IAO_0000611)",
+        "provider": "Europe PMC",
+        "subType": "GEO"
+      }
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE76958",
+      "route": "europepmc_annotations",
+      "source_file": "raw/live-00004.response",
+      "locator": "annotations[8]",
+      "data_role": "not_assessed",
+      "evidence_kind": "precomputed_accession_annotation",
+      "native_annotation": {
+        "prefix": "-seq in mouse PGCs (",
+        "exact": "GSE76958",
+        "postfix": "), sperm (GSE49624) ",
+        "tags": [
+          {
+            "name": "GSE76958",
+            "uri": "http://identifiers.org/geo:GSE76958"
+          }
+        ],
+        "id": "http://europepmc.org/article/PMC/PMC10123117#europepmc-d869156d47745259ba56da949a361909",
+        "type": "Accession Numbers",
+        "section": "Data Availability (http://purl.obolibrary.org/obo/IAO_0000611)",
+        "provider": "Europe PMC",
+        "subType": "GEO"
+      }
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE49624",
+      "route": "europepmc_annotations",
+      "source_file": "raw/live-00004.response",
+      "locator": "annotations[9]",
+      "data_role": "not_assessed",
+      "evidence_kind": "precomputed_accession_annotation",
+      "native_annotation": {
+        "prefix": " (GSE76958), sperm (",
+        "exact": "GSE49624",
+        "postfix": ") and oocytes (GSE56",
+        "tags": [
+          {
+            "name": "GSE49624",
+            "uri": "http://identifiers.org/geo:GSE49624"
+          }
+        ],
+        "id": "http://europepmc.org/article/PMC/PMC10123117#europepmc-a01710c28274e6f612cc68aa6bf321e0",
+        "type": "Accession Numbers",
+        "section": "Data Availability (http://purl.obolibrary.org/obo/IAO_0000611)",
+        "provider": "Europe PMC",
+        "subType": "GEO"
+      }
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE56697",
+      "route": "europepmc_annotations",
+      "source_file": "raw/live-00004.response",
+      "locator": "annotations[10]",
+      "data_role": "not_assessed",
+      "evidence_kind": "precomputed_accession_annotation",
+      "native_annotation": {
+        "prefix": "49624) and oocytes (",
+        "exact": "GSE56697",
+        "postfix": "), RNA-seq of Mga si",
+        "tags": [
+          {
+            "name": "GSE56697",
+            "uri": "http://identifiers.org/geo:GSE56697"
+          }
+        ],
+        "id": "http://europepmc.org/article/PMC/PMC10123117#europepmc-36165c6894e80fea5688eccb2073e492",
+        "type": "Accession Numbers",
+        "section": "Data Availability (http://purl.obolibrary.org/obo/IAO_0000611)",
+        "provider": "Europe PMC",
+        "subType": "GEO"
+      }
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE84480",
+      "route": "europepmc_annotations",
+      "source_file": "raw/live-00004.response",
+      "locator": "annotations[11]",
+      "data_role": "not_assessed",
+      "evidence_kind": "precomputed_accession_annotation",
+      "native_annotation": {
+        "prefix": " of Mga siRNA ESCs (",
+        "exact": "GSE84480",
+        "postfix": "), RNA-seq of Usp7 s",
+        "tags": [
+          {
+            "name": "GSE84480",
+            "uri": "http://identifiers.org/geo:GSE84480"
+          }
+        ],
+        "id": "http://europepmc.org/article/PMC/PMC10123117#europepmc-c7e7049ce6d1f4bdc8dde27720ecf06b",
+        "type": "Accession Numbers",
+        "section": "Data Availability (http://purl.obolibrary.org/obo/IAO_0000611)",
+        "provider": "Europe PMC",
+        "subType": "GEO"
+      }
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE149341",
+      "route": "europepmc_annotations",
+      "source_file": "raw/live-00004.response",
+      "locator": "annotations[12]",
+      "data_role": "not_assessed",
+      "evidence_kind": "precomputed_accession_annotation",
+      "native_annotation": {
+        "prefix": " ESCs in 2i medium (",
+        "exact": "GSE149341",
+        "postfix": "), RNA-seq of Dnmt T",
+        "tags": [
+          {
+            "name": "GSE149341",
+            "uri": "http://identifiers.org/geo:GSE149341"
+          }
+        ],
+        "id": "http://europepmc.org/article/PMC/PMC10123117#europepmc-c3b3cf8f316047509678a1b1e51f4653",
+        "type": "Accession Numbers",
+        "section": "Data Availability (http://purl.obolibrary.org/obo/IAO_0000611)",
+        "provider": "Europe PMC",
+        "subType": "GEO"
+      }
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE67867",
+      "route": "europepmc_annotations",
+      "source_file": "raw/live-00004.response",
+      "locator": "annotations[13]",
+      "data_role": "not_assessed",
+      "evidence_kind": "precomputed_accession_annotation",
+      "native_annotation": {
+        "prefix": "SE149341), RNA-seq of Dnmt TKO ESCs (",
+        "exact": "GSE67867",
+        "postfix": "). ",
+        "tags": [
+          {
+            "name": "GSE67867",
+            "uri": "http://identifiers.org/geo:GSE67867"
+          }
+        ],
+        "id": "http://europepmc.org/article/PMC/PMC10123117#europepmc-038bc0da0c5cbf62465b6130db1d5a36",
+        "type": "Accession Numbers",
+        "section": "Data Availability (http://purl.obolibrary.org/obo/IAO_0000611)",
+        "provider": "Europe PMC",
+        "subType": "GEO"
+      }
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE98150",
+      "route": "europepmc_datalinks",
+      "source_file": "raw/live-00005.response",
+      "locator": "Category[0]/Section[0]/Link[0]",
+      "data_role": "not_assessed",
+      "evidence_kind": "service_reported_literature_data_link",
+      "native_link": {
+        "ObtainedBy": "tm_accession",
+        "PublicationDate": "14-09-2026",
+        "LinkProvider": {
+          "Name": "Europe PMC"
+        },
+        "RelationshipType": {
+          "Name": "References"
+        },
+        "Source": {
+          "Type": {
+            "Name": "literature"
+          },
+          "Identifier": {
+            "ID": "36772830",
+            "IDScheme": "MED"
+          }
+        },
+        "Target": {
+          "Type": {
+            "Name": "dataset"
+          },
+          "Identifier": {
+            "ID": "GSE98150",
+            "IDScheme": "GEO",
+            "IDURL": "http://identifiers.org/geo:GSE98150"
+          },
+          "Title": "GSE98150",
+          "Publisher": {
+            "Name": "Europe PMC"
+          }
+        },
+        "Frequency": 1
+      }
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE56697",
+      "route": "europepmc_datalinks",
+      "source_file": "raw/live-00005.response",
+      "locator": "Category[0]/Section[0]/Link[1]",
+      "data_role": "not_assessed",
+      "evidence_kind": "service_reported_literature_data_link",
+      "native_link": {
+        "ObtainedBy": "tm_accession",
+        "PublicationDate": "14-09-2026",
+        "LinkProvider": {
+          "Name": "Europe PMC"
+        },
+        "RelationshipType": {
+          "Name": "References"
+        },
+        "Source": {
+          "Type": {
+            "Name": "literature"
+          },
+          "Identifier": {
+            "ID": "36772830",
+            "IDScheme": "MED"
+          }
+        },
+        "Target": {
+          "Type": {
+            "Name": "dataset"
+          },
+          "Identifier": {
+            "ID": "GSE56697",
+            "IDScheme": "GEO",
+            "IDURL": "http://identifiers.org/geo:GSE56697"
+          },
+          "Title": "GSE56697",
+          "Publisher": {
+            "Name": "Europe PMC"
+          }
+        },
+        "Frequency": 1
+      }
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE175615",
+      "route": "europepmc_datalinks",
+      "source_file": "raw/live-00005.response",
+      "locator": "Category[0]/Section[0]/Link[2]",
+      "data_role": "not_assessed",
+      "evidence_kind": "service_reported_literature_data_link",
+      "native_link": {
+        "ObtainedBy": "tm_accession",
+        "PublicationDate": "14-09-2026",
+        "LinkProvider": {
+          "Name": "Europe PMC"
+        },
+        "RelationshipType": {
+          "Name": "References"
+        },
+        "Source": {
+          "Type": {
+            "Name": "literature"
+          },
+          "Identifier": {
+            "ID": "36772830",
+            "IDScheme": "MED"
+          }
+        },
+        "Target": {
+          "Type": {
+            "Name": "dataset"
+          },
+          "Identifier": {
+            "ID": "GSE175615",
+            "IDScheme": "GEO",
+            "IDURL": "http://identifiers.org/geo:GSE175615"
+          },
+          "Title": "GSE175615",
+          "Publisher": {
+            "Name": "Europe PMC"
+          }
+        },
+        "Frequency": 1
+      }
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE76958",
+      "route": "europepmc_datalinks",
+      "source_file": "raw/live-00005.response",
+      "locator": "Category[0]/Section[0]/Link[3]",
+      "data_role": "not_assessed",
+      "evidence_kind": "service_reported_literature_data_link",
+      "native_link": {
+        "ObtainedBy": "tm_accession",
+        "PublicationDate": "14-09-2026",
+        "LinkProvider": {
+          "Name": "Europe PMC"
+        },
+        "RelationshipType": {
+          "Name": "References"
+        },
+        "Source": {
+          "Type": {
+            "Name": "literature"
+          },
+          "Identifier": {
+            "ID": "36772830",
+            "IDScheme": "MED"
+          }
+        },
+        "Target": {
+          "Type": {
+            "Name": "dataset"
+          },
+          "Identifier": {
+            "ID": "GSE76958",
+            "IDScheme": "GEO",
+            "IDURL": "http://identifiers.org/geo:GSE76958"
+          },
+          "Title": "GSE76958",
+          "Publisher": {
+            "Name": "Europe PMC"
+          }
+        },
+        "Frequency": 1
+      }
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE84480",
+      "route": "europepmc_datalinks",
+      "source_file": "raw/live-00005.response",
+      "locator": "Category[0]/Section[0]/Link[4]",
+      "data_role": "not_assessed",
+      "evidence_kind": "service_reported_literature_data_link",
+      "native_link": {
+        "ObtainedBy": "tm_accession",
+        "PublicationDate": "14-09-2026",
+        "LinkProvider": {
+          "Name": "Europe PMC"
+        },
+        "RelationshipType": {
+          "Name": "References"
+        },
+        "Source": {
+          "Type": {
+            "Name": "literature"
+          },
+          "Identifier": {
+            "ID": "36772830",
+            "IDScheme": "MED"
+          }
+        },
+        "Target": {
+          "Type": {
+            "Name": "dataset"
+          },
+          "Identifier": {
+            "ID": "GSE84480",
+            "IDScheme": "GEO",
+            "IDURL": "http://identifiers.org/geo:GSE84480"
+          },
+          "Title": "GSE84480",
+          "Publisher": {
+            "Name": "Europe PMC"
+          }
+        },
+        "Frequency": 1
+      }
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE49624",
+      "route": "europepmc_datalinks",
+      "source_file": "raw/live-00005.response",
+      "locator": "Category[0]/Section[0]/Link[5]",
+      "data_role": "not_assessed",
+      "evidence_kind": "service_reported_literature_data_link",
+      "native_link": {
+        "ObtainedBy": "tm_accession",
+        "PublicationDate": "14-09-2026",
+        "LinkProvider": {
+          "Name": "Europe PMC"
+        },
+        "RelationshipType": {
+          "Name": "References"
+        },
+        "Source": {
+          "Type": {
+            "Name": "literature"
+          },
+          "Identifier": {
+            "ID": "36772830",
+            "IDScheme": "MED"
+          }
+        },
+        "Target": {
+          "Type": {
+            "Name": "dataset"
+          },
+          "Identifier": {
+            "ID": "GSE49624",
+            "IDScheme": "GEO",
+            "IDURL": "http://identifiers.org/geo:GSE49624"
+          },
+          "Title": "GSE49624",
+          "Publisher": {
+            "Name": "Europe PMC"
+          }
+        },
+        "Frequency": 1
+      }
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE67867",
+      "route": "europepmc_datalinks",
+      "source_file": "raw/live-00005.response",
+      "locator": "Category[0]/Section[0]/Link[6]",
+      "data_role": "not_assessed",
+      "evidence_kind": "service_reported_literature_data_link",
+      "native_link": {
+        "ObtainedBy": "tm_accession",
+        "PublicationDate": "14-09-2026",
+        "LinkProvider": {
+          "Name": "Europe PMC"
+        },
+        "RelationshipType": {
+          "Name": "References"
+        },
+        "Source": {
+          "Type": {
+            "Name": "literature"
+          },
+          "Identifier": {
+            "ID": "36772830",
+            "IDScheme": "MED"
+          }
+        },
+        "Target": {
+          "Type": {
+            "Name": "dataset"
+          },
+          "Identifier": {
+            "ID": "GSE67867",
+            "IDScheme": "GEO",
+            "IDURL": "http://identifiers.org/geo:GSE67867"
+          },
+          "Title": "GSE67867",
+          "Publisher": {
+            "Name": "Europe PMC"
+          }
+        },
+        "Frequency": 1
+      }
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE192556",
+      "route": "europepmc_datalinks",
+      "source_file": "raw/live-00005.response",
+      "locator": "Category[0]/Section[0]/Link[7]",
+      "data_role": "not_assessed",
+      "evidence_kind": "service_reported_literature_data_link",
+      "native_link": {
+        "ObtainedBy": "tm_accession",
+        "PublicationDate": "14-09-2026",
+        "LinkProvider": {
+          "Name": "Europe PMC"
+        },
+        "RelationshipType": {
+          "Name": "References"
+        },
+        "Source": {
+          "Type": {
+            "Name": "literature"
+          },
+          "Identifier": {
+            "ID": "36772830",
+            "IDScheme": "MED"
+          }
+        },
+        "Target": {
+          "Type": {
+            "Name": "dataset"
+          },
+          "Identifier": {
+            "ID": "GSE192556",
+            "IDScheme": "GEO",
+            "IDURL": "http://identifiers.org/geo:GSE192556"
+          },
+          "Title": "GSE192556",
+          "Publisher": {
+            "Name": "Europe PMC"
+          }
+        },
+        "Frequency": 1
+      }
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE130735",
+      "route": "europepmc_datalinks",
+      "source_file": "raw/live-00005.response",
+      "locator": "Category[0]/Section[0]/Link[8]",
+      "data_role": "not_assessed",
+      "evidence_kind": "service_reported_literature_data_link",
+      "native_link": {
+        "ObtainedBy": "tm_accession",
+        "PublicationDate": "14-09-2026",
+        "LinkProvider": {
+          "Name": "Europe PMC"
+        },
+        "RelationshipType": {
+          "Name": "References"
+        },
+        "Source": {
+          "Type": {
+            "Name": "literature"
+          },
+          "Identifier": {
+            "ID": "36772830",
+            "IDScheme": "MED"
+          }
+        },
+        "Target": {
+          "Type": {
+            "Name": "dataset"
+          },
+          "Identifier": {
+            "ID": "GSE130735",
+            "IDScheme": "GEO",
+            "IDURL": "http://identifiers.org/geo:GSE130735"
+          },
+          "Title": "GSE130735",
+          "Publisher": {
+            "Name": "Europe PMC"
+          }
+        },
+        "Frequency": 1
+      }
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE149341",
+      "route": "europepmc_datalinks",
+      "source_file": "raw/live-00005.response",
+      "locator": "Category[0]/Section[0]/Link[9]",
+      "data_role": "not_assessed",
+      "evidence_kind": "service_reported_literature_data_link",
+      "native_link": {
+        "ObtainedBy": "tm_accession",
+        "PublicationDate": "14-09-2026",
+        "LinkProvider": {
+          "Name": "Europe PMC"
+        },
+        "RelationshipType": {
+          "Name": "References"
+        },
+        "Source": {
+          "Type": {
+            "Name": "literature"
+          },
+          "Identifier": {
+            "ID": "36772830",
+            "IDScheme": "MED"
+          }
+        },
+        "Target": {
+          "Type": {
+            "Name": "dataset"
+          },
+          "Identifier": {
+            "ID": "GSE149341",
+            "IDScheme": "GEO",
+            "IDURL": "http://identifiers.org/geo:GSE149341"
+          },
+          "Title": "GSE149341",
+          "Publisher": {
+            "Name": "Europe PMC"
+          }
+        },
+        "Frequency": 1
+      }
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE77420",
+      "route": "europepmc_datalinks",
+      "source_file": "raw/live-00005.response",
+      "locator": "Category[0]/Section[0]/Link[10]",
+      "data_role": "not_assessed",
+      "evidence_kind": "service_reported_literature_data_link",
+      "native_link": {
+        "ObtainedBy": "tm_accession",
+        "PublicationDate": "14-09-2026",
+        "LinkProvider": {
+          "Name": "Europe PMC"
+        },
+        "RelationshipType": {
+          "Name": "References"
+        },
+        "Source": {
+          "Type": {
+            "Name": "literature"
+          },
+          "Identifier": {
+            "ID": "36772830",
+            "IDScheme": "MED"
+          }
+        },
+        "Target": {
+          "Type": {
+            "Name": "dataset"
+          },
+          "Identifier": {
+            "ID": "GSE77420",
+            "IDScheme": "GEO",
+            "IDURL": "http://identifiers.org/geo:GSE77420"
+          },
+          "Title": "GSE77420",
+          "Publisher": {
+            "Name": "Europe PMC"
+          }
+        },
+        "Frequency": 1
+      }
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE192556",
+      "route": "pubmed_bioproject_geo",
+      "source_file": "raw/selected-0007.response",
+      "locator": "target_uid=200192556",
+      "data_role": "not_assessed",
+      "summary_source": "raw/selected-0008.response",
+      "native_uid": "200192556",
+      "evidence_kind": "indirect_repository_path",
+      "bioproject_uid": "791926",
+      "publication_project_source": "raw/selected-0006.response"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE136228",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00010.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE149341",
+      "to_gse": "GSE136228",
+      "relation": "SubSeries of",
+      "native_value": "SubSeries of: GSE136228"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE49621",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00013.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE49624",
+      "to_gse": "GSE49621",
+      "relation": "SuperSeries of",
+      "native_value": "SuperSeries of: GSE49621"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE49622",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00013.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE49624",
+      "to_gse": "GSE49622",
+      "relation": "SuperSeries of",
+      "native_value": "SuperSeries of: GSE49622"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE49623",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00013.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE49624",
+      "to_gse": "GSE49623",
+      "relation": "SuperSeries of",
+      "native_value": "SuperSeries of: GSE49623"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE57095",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00013.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE49624",
+      "to_gse": "GSE57095",
+      "relation": "SuperSeries of",
+      "native_value": "SuperSeries of: GSE57095"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE57096",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00013.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE49624",
+      "to_gse": "GSE57096",
+      "relation": "SuperSeries of",
+      "native_value": "SuperSeries of: GSE57096"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE57097",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00013.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE49624",
+      "to_gse": "GSE57097",
+      "relation": "SuperSeries of",
+      "native_value": "SuperSeries of: GSE57097"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE76973",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00016.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE76958",
+      "to_gse": "GSE76973",
+      "relation": "SubSeries of",
+      "native_value": "SubSeries of: GSE76973"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE87485",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00018.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE84480",
+      "to_gse": "GSE87485",
+      "relation": "SubSeries of",
+      "native_value": "SubSeries of: GSE87485"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE97778",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00019.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE98150",
+      "to_gse": "GSE97778",
+      "relation": "SubSeries of",
+      "native_value": "SubSeries of: GSE97778"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE136226",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00020.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE136228",
+      "to_gse": "GSE136226",
+      "relation": "SuperSeries of",
+      "native_value": "SuperSeries of: GSE136226"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE136227",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00020.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE136228",
+      "to_gse": "GSE136227",
+      "relation": "SuperSeries of",
+      "native_value": "SuperSeries of: GSE136227"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE149341",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00020.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE136228",
+      "to_gse": "GSE149341",
+      "relation": "SuperSeries of",
+      "native_value": "SuperSeries of: GSE149341"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE49624",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00021.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE49621",
+      "to_gse": "GSE49624",
+      "relation": "SubSeries of",
+      "native_value": "SubSeries of: GSE49624"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE49624",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00022.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE49622",
+      "to_gse": "GSE49624",
+      "relation": "SubSeries of",
+      "native_value": "SubSeries of: GSE49624"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE49624",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00023.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE49623",
+      "to_gse": "GSE49624",
+      "relation": "SubSeries of",
+      "native_value": "SubSeries of: GSE49624"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE49624",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00024.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE57095",
+      "to_gse": "GSE49624",
+      "relation": "SubSeries of",
+      "native_value": "SubSeries of: GSE49624"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE49624",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00025.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE57096",
+      "to_gse": "GSE49624",
+      "relation": "SubSeries of",
+      "native_value": "SubSeries of: GSE49624"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE49624",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00026.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE57097",
+      "to_gse": "GSE49624",
+      "relation": "SubSeries of",
+      "native_value": "SubSeries of: GSE49624"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE76957",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00027.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE76973",
+      "to_gse": "GSE76957",
+      "relation": "SuperSeries of",
+      "native_value": "SuperSeries of: GSE76957"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE76958",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00027.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE76973",
+      "to_gse": "GSE76958",
+      "relation": "SuperSeries of",
+      "native_value": "SuperSeries of: GSE76958"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE76962",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00027.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE76973",
+      "to_gse": "GSE76962",
+      "relation": "SuperSeries of",
+      "native_value": "SuperSeries of: GSE76962"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE76971",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00027.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE76973",
+      "to_gse": "GSE76971",
+      "relation": "SuperSeries of",
+      "native_value": "SuperSeries of: GSE76971"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE101769",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00027.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE76973",
+      "to_gse": "GSE101769",
+      "relation": "SuperSeries of",
+      "native_value": "SuperSeries of: GSE101769"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE84480",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00028.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE87485",
+      "to_gse": "GSE84480",
+      "relation": "SuperSeries of",
+      "native_value": "SuperSeries of: GSE84480"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE87484",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00028.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE87485",
+      "to_gse": "GSE87484",
+      "relation": "SuperSeries of",
+      "native_value": "SuperSeries of: GSE87484"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE98149",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00029.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE97778",
+      "to_gse": "GSE98149",
+      "relation": "SuperSeries of",
+      "native_value": "SuperSeries of: GSE98149"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE98150",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00029.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE97778",
+      "to_gse": "GSE98150",
+      "relation": "SuperSeries of",
+      "native_value": "SuperSeries of: GSE98150"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE98151",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00029.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE97778",
+      "to_gse": "GSE98151",
+      "relation": "SuperSeries of",
+      "native_value": "SuperSeries of: GSE98151"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE136228",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00030.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE136226",
+      "to_gse": "GSE136228",
+      "relation": "SubSeries of",
+      "native_value": "SubSeries of: GSE136228"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE136228",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00031.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE136227",
+      "to_gse": "GSE136228",
+      "relation": "SubSeries of",
+      "native_value": "SubSeries of: GSE136228"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE76973",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00032.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE76957",
+      "to_gse": "GSE76973",
+      "relation": "SubSeries of",
+      "native_value": "SubSeries of: GSE76973"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE76973",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00033.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE76962",
+      "to_gse": "GSE76973",
+      "relation": "SubSeries of",
+      "native_value": "SubSeries of: GSE76973"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE76973",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00034.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE76971",
+      "to_gse": "GSE76973",
+      "relation": "SubSeries of",
+      "native_value": "SubSeries of: GSE76973"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE76973",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00035.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE101769",
+      "to_gse": "GSE76973",
+      "relation": "SubSeries of",
+      "native_value": "SubSeries of: GSE76973"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE87485",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00036.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE87484",
+      "to_gse": "GSE87485",
+      "relation": "SubSeries of",
+      "native_value": "SubSeries of: GSE87485"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE97778",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00037.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE98149",
+      "to_gse": "GSE97778",
+      "relation": "SubSeries of",
+      "native_value": "SubSeries of: GSE97778"
+    },
+    {
+      "pmid": "36772830",
+      "publication_id": "1104",
+      "gse": "GSE97778",
+      "route": "series_hierarchy",
+      "source_file": "raw/live-00038.response",
+      "locator": "!Series_relation",
+      "data_role": "not_assessed",
+      "evidence_kind": "inferred_publication_association",
+      "from_gse": "GSE98151",
+      "to_gse": "GSE97778",
+      "relation": "SubSeries of",
+      "native_value": "SubSeries of: GSE97778"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=gds&id=33562682&linkname=pubmed_gds&cmd=neighbor&retmode=json",
+    "file": "raw/selected-0000.response",
+    "sha256": "9730d81552c4926538999d681b795d03503ce4f6cb3a56e564f5b466222960d4",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:05:58.879334+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\be9e0b5ad1d8f3ae77187e75e6f287895d44783cb4366da6ca7ee454877954f6.json",
+        "sha256": "be9e0b5ad1d8f3ae77187e75e6f287895d44783cb4366da6ca7ee454877954f6",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\pubmed-enrichment-source\\20261008\\links-gds-5.json",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=gds&linkname=pubmed_gds&id=33562682&id=33568224&id=33574281&id=33577797&id=33604667&id=33649592&id=33657372&id=33660365&id=33676427&id=33686287&id=33730579&id=33742119&id=33743211&id=33813748&id=33846634&id=33847741&id=33854235&id=33864166&id=33872695&id=33953401&id=34000301&id=34004147&id=34016692&id=34026427&id=34049503&id=34066520&id=34108663&id=34155407&id=34215620&id=34230586&id=34253920&id=34290256&id=34316707&id=34320214&id=34364401&id=34373448&id=34373451&id=34431042&id=34437126&id=34497417&id=34529489&id=34582788&id=34615851&id=34621019&id=34644148&id=34662547&id=34667112&id=34686207&id=34731885&id=34759314&cmd=neighbor&retmode=json",
+        "locator": "linksets[0]",
+        "retrieved_utc": "2026-10-08T23:17:27.367025+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=33562682&retmode=xml",
+    "file": "raw/selected-0001.response",
+    "sha256": "28cc6322fd9225a22ad722636ddd37d6d6334475b13b42d00f17277cd958e376",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:05:58.882329+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\b9086e8f958898fe78d76fe733dbd3a2625fe231807d5b50f1a46636f31b6150.xml",
+        "sha256": "b9086e8f958898fe78d76fe733dbd3a2625fe231807d5b50f1a46636f31b6150",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\pubmed-enrichment-source\\20261008\\pubmed-2.xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=32690708%2C32699298%2C32728216%2C32738194%2C32755594%2C32877678%2C32918875%2C32924251%2C32939090%2C32968282%2C32970993%2C32990596%2C33005030%2C33033111%2C33060197%2C33087464%2C33110234%2C33122441%2C33137164%2C33144569%2C33147444%2C33147445%2C33156908%2C33157015%2C33172989%2C33185187%2C33186476%2C33188726%2C33189395%2C33208877%2C33208938%2C33226137%2C33228647%2C33257658%2C33271924%2C33333024%2C33355125%2C33357464%2C33372156%2C33375770%2C33382968%2C33417871%2C33476303%2C33483422%2C33501440%2C33513160%2C33513212%2C33523994%2C33539788%2C33547076%2C33562682%2C33568224%2C33574281%2C33577797%2C33604667%2C33649592%2C33657372%2C33660365%2C33676427%2C33686287%2C33730579%2C33742119%2C33743211%2C33813748%2C33846634%2C33847741%2C33854235%2C33864166%2C33872695%2C33953401%2C34000301%2C34004147%2C34016692%2C34026427%2C34049503%2C34066520%2C34108663%2C34155407%2C34215620%2C34230586%2C34253920%2C34290256%2C34316707%2C34320214%2C34364401%2C34373448%2C34373451%2C34431042%2C34437126%2C34497417%2C34529489%2C34582788%2C34615851%2C34621019%2C34644148%2C34662547%2C34667112%2C34686207%2C34731885%2C34759314&retmode=xml",
+        "locator": "PubmedArticle[50]",
+        "retrieved_utc": "2026-10-08T23:16:49.464951+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=%22NRF2+Activation+Confers+Resistance+to+eIF4A+Inhibitors+in+Cancer+Therapy%22%5BAll+Fields%5D+AND+gse%5BEntry+Type%5D&retmode=json&retmax=1000",
+    "file": "raw/selected-0002.response",
+    "sha256": "631ca8423cced6d8aad47f2329e536c79ada077e87fef8507569d14a66031ef6",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:05:58.886847+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\631ca8423cced6d8aad47f2329e536c79ada077e87fef8507569d14a66031ef6.json",
+        "sha256": "631ca8423cced6d8aad47f2329e536c79ada077e87fef8507569d14a66031ef6",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\outputs\\geo\\title-search-expansion\\20261010\\raw\\search-647-phrase.json",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=%22NRF2+Activation+Confers+Resistance+to+eIF4A+Inhibitors+in+Cancer+Therapy%22%5BAll+Fields%5D+AND+gse%5BEntry+Type%5D&retmode=json&retmax=100",
+        "locator": "complete esearchresult",
+        "retrieved_utc": "2026-10-10T17:21:34.133317+00:00"
+      }
+    ]
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A33562682&type=Accession+Numbers&format=JSON",
+    "attempt": 1,
+    "retrieved_utc": "2026-10-11T18:05:58.886847+00:00",
+    "http_status": 200,
+    "file": "raw/live-00003.response",
+    "sha256": "3b6bad20a53e8c8510734b5f4979bb576513e8cf6cfb6a6da6bdf0162db16cac"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/MED/33562682/datalinks?format=json&category=GEO&sectionLimit=1000",
+    "attempt": 1,
+    "retrieved_utc": "2026-10-11T18:05:59.751876+00:00",
+    "http_status": 200,
+    "file": "raw/live-00004.response",
+    "sha256": "f2c86eae993e3c5865f7fb3229062ff30f47e2957b1243bf5af800134b7f0bc9"
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=bioproject&id=33562682&linkname=pubmed_bioproject&cmd=neighbor&retmode=json",
+    "file": "raw/selected-0005.response",
+    "sha256": "9730d81552c4926538999d681b795d03503ce4f6cb3a56e564f5b466222960d4",
+    "response_kind": "selected_cached_native_records",
+    "selection_utc": "2026-10-11T18:06:00.644585+00:00",
+    "parents": [
+      {
+        "file": "saved-sources\\4c313f0f92422381e81da7efc3638672668617c7480dcec8dce7e00b0a578bd6.json",
+        "sha256": "4c313f0f92422381e81da7efc3638672668617c7480dcec8dce7e00b0a578bd6",
+        "original_file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\pubmed-enrichment-source\\20261008\\links-bioproject-5.json",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=bioproject&linkname=pubmed_bioproject&id=33562682&id=33568224&id=33574281&id=33577797&id=33604667&id=33649592&id=33657372&id=33660365&id=33676427&id=33686287&id=33730579&id=33742119&id=33743211&id=33813748&id=33846634&id=33847741&id=33854235&id=33864166&id=33872695&id=33953401&id=34000301&id=34004147&id=34016692&id=34026427&id=34049503&id=34066520&id=34108663&id=34155407&id=34215620&id=34230586&id=34253920&id=34290256&id=34316707&id=34320214&id=34364401&id=34373448&id=34373451&id=34431042&id=34437126&id=34497417&id=34529489&id=34582788&id=34615851&id=34621019&id=34644148&id=34662547&id=34667112&id=34686207&id=34731885&id=34759314&cmd=neighbor&retmode=json",
+        "locator": "linksets[0]",
+        "retrieved_utc": "2026-10-08T23:18:18.391853+00:00"
+      }
+    ]
+  }
+]

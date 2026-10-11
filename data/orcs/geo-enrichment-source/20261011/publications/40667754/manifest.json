@@ -1,0 +1,133 @@
+{
+  "strategy": "geo-accession-identification-v1",
+  "package_version": "0.1.0",
+  "started_utc": "2026-10-11T18:12:06.236513+00:00",
+  "publication": {
+    "PUBLICATION_ID": "1128",
+    "SOURCE_TYPE": "pubmed",
+    "SOURCE_ID": "40667754",
+    "TITLE": "Identification of β4GALNT2 as an anti-hPIV3 factor through genome-wide CRISPR/Cas9 library screening.",
+    "AUTHORS": "Wu X, Luteijn RD, Lozano-Andrés E, Marougka K, Li W, Narimatsu Y, van Kuppeveld FJM, Bosch BJ, Lebbink RJ, Vries E, de Haan CAM",
+    "ABSTRACT": "Human respirovirus 3 (also known as human parainfluenza virus 3; hPIV3) is a major cause of severe acute respiratory infections in vulnerable populations. Here we conducted a genome-wide CRISPR/Cas9 library screen to identify key host factors for hPIV3 infection. In addition to identifying several host proteins involved in glycosylation as proviral factors, we identified β-1,4-N-Acetyl-Galactosaminyltransferase 2 (β4GALNT2) as a potent restriction factor. Further investigation demonstrated that the addition of a GalNAc residue to α2-3-sialylated glycans by β4GALNT2, resulting in the Sd glycotope, disrupted the interaction between the viral hemagglutinin-neuraminidase (HN) attachment protein and sialoglycan receptors. Specifically, the additional GalNAc residue interfered with the interaction of residue W371 in HN with sub-terminal glycan moieties. β4GALNT2-mediated Sd epitope expression also negatively affected infection by other respiroviruses, with the strongest effect being observed for hPIV3.",
+    "JOURNAL": "Emerging microbes & infections",
+    "PUBLICATION_DATE": "2025-12-01",
+    "PAGE_SOURCE_TYPE": "pubmed",
+    "PAGE_SOURCE_ID": "40667754",
+    "PMID": "40667754",
+    "DOI": "10.1080/22221751.2025.2529895",
+    "SUPPLEMENTARY_FILES": [
+      {
+        "label": "temi_a_2529895_sm5461.xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/6880f854443c8/temi_a_2529895_sm5461.xlsx"
+      }
+    ],
+    "LINKS": [
+      {
+        "label": "Pubmed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40667754"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/scholar?as_occt=title&as_q=Identification+of+%CE%B24GALNT2+as+an+anti-hPIV3+factor+through+genome-wide+CRISPR%2FCas9+library+screening."
+      },
+      {
+        "label": "40667754",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40667754"
+      },
+      {
+        "label": "temi_a_2529895_sm5461.xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/6880f854443c8/temi_a_2529895_sm5461.xlsx"
+      }
+    ],
+    "SCREEN_IDS": [
+      "2447",
+      "2448"
+    ],
+    "SCREEN_COUNT": 2,
+    "PUBLICATION_URL": "https://orcs.thebiogrid.org/Dataset/1128",
+    "FIELD_LOCATORS": {
+      "TITLE": "#resultsHeaderBlock h1",
+      "AUTHORS": "#resultsHeaderBlock .subhead",
+      "ABSTRACT": "#resultsHeaderBlock .bgGrey",
+      "JOURNAL": ".linkouts citation strong",
+      "PUBLICATION_DATE": ".linkouts citation",
+      "SUPPLEMENTARY_FILES": ".linkouts Supplementary Files"
+    },
+    "REVIEW_ISSUES": [],
+    "RETRIEVED_AT": "2026-10-04T05:14:48.258400+00:00",
+    "SOURCE_METADATA_FILE": "data/orcs/publication-source/20261004-v01/1128.metadata.html",
+    "SOURCE_METADATA_SHA256": "80dde3023f4010ee38d5903fe7b3e62bf843fef73a5b7b45164f92c5d2b043c0",
+    "PMCID": "PMC12269090",
+    "IDENTIFIER_ENRICHMENT": {
+      "added_fields": [
+        "DOI",
+        "PMCID"
+      ],
+      "resolution": {
+        "input": {
+          "pmid": "40667754",
+          "doi": null,
+          "pmcid": null
+        },
+        "identifiers": {
+          "pmid": "40667754",
+          "doi": "10.1080/22221751.2025.2529895",
+          "pmcid": "PMC12269090"
+        },
+        "status": "resolved",
+        "alternatives": {
+          "pmid": [
+            "40667754"
+          ],
+          "doi": [
+            "10.1080/22221751.2025.2529895"
+          ],
+          "pmcid": [
+            "PMC12269090"
+          ]
+        },
+        "evidence": [
+          {
+            "identifiers": {
+              "pmid": "40667754",
+              "doi": "10.1080/22221751.2025.2529895",
+              "pmcid": "PMC12269090"
+            },
+            "url": "https://pmc.ncbi.nlm.nih.gov/tools/idconv/api/v1/articles/?ids=38395437%2C38885264%2C39316623%2C39547224%2C39681701%2C40372436%2C40632661%2C40667754%2C40683967%2C40813572%2C40852982%2C40899441&idtype=pmid&format=json&tool=deathmap_ai",
+            "retrieved_at": "2026-10-08T01:37:52.241413+00:00",
+            "response_sha256": "39757bbf31d50401323249926a21da16c8c42c2ed73b4c55e8c306759830b4a6"
+          },
+          {
+            "identifiers": {
+              "pmid": "40667754",
+              "doi": "10.1080/22221751.2025.2529895",
+              "pmcid": "PMC12269090"
+            },
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=37996617%2C38291084%2C38395437%2C38885264%2C39316623%2C39547224%2C39681701%2C40372436%2C40632661%2C40667754%2C40683967%2C40813572%2C40852982%2C40899441%2C40909557&retmode=xml&tool=deathmap_ai",
+            "retrieved_at": "2026-10-08T01:38:01.416850+00:00",
+            "response_sha256": "aaf08f8cdcd67a739e511ba72dd0b1838238dd3c7a63c3c19e7a8d80106d71aa"
+          }
+        ]
+      }
+    },
+    "_input_provenance": {
+      "file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\publication-index.json",
+      "sha256": "63cb33b7095108e7a0776950e9c258e7b65fe148ca6b12ae75cd4dd914ad6c89",
+      "locator": "PUBLICATION_ID=1128"
+    }
+  },
+  "status": "complete",
+  "source_code_sha256": "1e62a9364e02df38d28540f2c3211fbc696f04678f5fa977cf989e31578b60bf",
+  "limits": {
+    "request_attempts": 100,
+    "seconds": 600,
+    "series": 100,
+    "target_uids_per_route": 1000,
+    "attempts_per_request": 2,
+    "timeout_seconds": 30,
+    "pacing_seconds": 0.4
+  },
+  "total_gse_count": 0,
+  "finished_utc": "2026-10-11T18:12:08.085011+00:00",
+  "request_attempts": 2
+}

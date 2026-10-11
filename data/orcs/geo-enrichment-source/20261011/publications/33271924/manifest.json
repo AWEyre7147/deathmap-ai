@@ -1,0 +1,133 @@
+{
+  "strategy": "geo-accession-identification-v1",
+  "package_version": "0.1.0",
+  "started_utc": "2026-10-11T18:05:48.452104+00:00",
+  "publication": {
+    "PUBLICATION_ID": "641",
+    "SOURCE_TYPE": "pubmed",
+    "SOURCE_ID": "33271924",
+    "TITLE": "Revealing Temozolomide Resistance Mechanisms via Genome-Wide CRISPR Libraries.",
+    "AUTHORS": "Rocha CRR, Reily Rocha A, Molina Silva M, Rodrigues Gomes L, Teatin Latancia M, Andrade Tomaz M, de Souza I, Karolynne Seregni Monteiro L, Menck CFM",
+    "ABSTRACT": "Glioblastoma is a severe type of brain tumor with a poor prognosis and few therapy options. Temozolomide (TMZ) is one of these options, however, with limited success, and failure is mainly due to tumor resistance. In this work, genome-wide CRISPR-Cas9 lentiviral screen libraries for gene knockout or activation were transduced in the human glioblastoma cell line, aiming to identify genes that modulate TMZ resistance. The sgRNAs enriched in both libraries in surviving cells after TMZ treatment were identified by next-generation sequencing (NGS). Pathway analyses of gene candidates on knockout screening revealed several enriched pathways, including the mismatch repair and the Sonic Hedgehog pathways. Silencing three genes ranked on the top 10 list (MSH2, PTCH2, and CLCA2) confirm cell protection from TMZ-induced death. In addition, a CRISPR activation library revealed that NRF2 and Wnt pathways are involved in TMZ resistance. Consistently, overexpression of FZD6, CTNNB1, or NRF2 genes significantly increased cell survival upon TMZ treatment. Moreover, NRF2 and related genes detected in this screen presented a robust negative correlation with glioblastoma patient survival rates. Finally, several gene candidates from knockout or activation screening are targetable by inhibitors or small molecules, and some of them have already been used in the clinic.",
+    "JOURNAL": "Cells",
+    "PUBLICATION_DATE": "2020-12-01",
+    "PAGE_SOURCE_TYPE": "pubmed",
+    "PAGE_SOURCE_ID": "33271924",
+    "PMID": "33271924",
+    "DOI": "10.3390/cells9122573",
+    "SUPPLEMENTARY_FILES": [
+      {
+        "label": "cells-09-02573-s001 (2).xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/61ae562c8e9e8/cells-09-02573-s001 (2).xlsx"
+      }
+    ],
+    "LINKS": [
+      {
+        "label": "Pubmed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33271924"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/scholar?as_occt=title&as_q=Revealing+Temozolomide+Resistance+Mechanisms+via+Genome-Wide+CRISPR+Libraries."
+      },
+      {
+        "label": "33271924",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33271924"
+      },
+      {
+        "label": "cells-09-02573-s001 (2).xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/61ae562c8e9e8/cells-09-02573-s001 (2).xlsx"
+      }
+    ],
+    "SCREEN_IDS": [
+      "1707",
+      "1709"
+    ],
+    "SCREEN_COUNT": 2,
+    "PUBLICATION_URL": "https://orcs.thebiogrid.org/Dataset/641",
+    "FIELD_LOCATORS": {
+      "TITLE": "#resultsHeaderBlock h1",
+      "AUTHORS": "#resultsHeaderBlock .subhead",
+      "ABSTRACT": "#resultsHeaderBlock .bgGrey",
+      "JOURNAL": ".linkouts citation strong",
+      "PUBLICATION_DATE": ".linkouts citation",
+      "SUPPLEMENTARY_FILES": ".linkouts Supplementary Files"
+    },
+    "REVIEW_ISSUES": [],
+    "RETRIEVED_AT": "2026-10-04T05:11:45.245230+00:00",
+    "SOURCE_METADATA_FILE": "data/orcs/publication-source/20261004-v01/641.metadata.html",
+    "SOURCE_METADATA_SHA256": "274574c108d4ec7d13790d41ac49bc71daefbdf4d8ce144469b05d847a27b6c9",
+    "PMCID": "PMC7760831",
+    "IDENTIFIER_ENRICHMENT": {
+      "added_fields": [
+        "DOI",
+        "PMCID"
+      ],
+      "resolution": {
+        "input": {
+          "pmid": "33271924",
+          "doi": null,
+          "pmcid": null
+        },
+        "identifiers": {
+          "pmid": "33271924",
+          "doi": "10.3390/cells9122573",
+          "pmcid": "PMC7760831"
+        },
+        "status": "resolved",
+        "alternatives": {
+          "pmid": [
+            "33271924"
+          ],
+          "doi": [
+            "10.3390/cells9122573"
+          ],
+          "pmcid": [
+            "PMC7760831"
+          ]
+        },
+        "evidence": [
+          {
+            "identifiers": {
+              "pmid": "33271924",
+              "doi": "10.3390/cells9122573",
+              "pmcid": "PMC7760831"
+            },
+            "url": "https://pmc.ncbi.nlm.nih.gov/tools/idconv/api/v1/articles/?ids=32690708%2C32699298%2C32728216%2C32738194%2C32755594%2C32877678%2C32918875%2C32924251%2C32939090%2C32968282%2C32970993%2C32990596%2C33005030%2C33033111%2C33060197%2C33087464%2C33110234%2C33122441%2C33137164%2C33144569%2C33147444%2C33147445%2C33156908%2C33157015%2C33172989%2C33185187%2C33186476%2C33188726%2C33189395%2C33208877%2C33208938%2C33226137%2C33228647%2C33257658%2C33271924%2C33333024%2C33355125%2C33357464%2C33372156%2C33375770%2C33382968%2C33417871%2C33476303%2C33483422%2C33513160%2C33513212%2C33523994%2C33539788%2C33547076%2C33562682%2C33568224%2C33574281%2C33577797%2C33604667%2C33649592%2C33657372%2C33660365%2C33676427%2C33686287%2C33730579%2C33742119%2C33743211%2C33813748%2C33846634%2C33847741%2C33854235%2C33864166%2C33872695%2C33953401%2C34000301%2C34004147%2C34016692%2C34026427%2C34049503%2C34066520%2C34108663%2C34155407%2C34215620%2C34230586%2C34253920%2C34290256%2C34316707%2C34320214%2C34364401%2C34373448%2C34373451%2C34431042%2C34437126%2C34497417%2C34529489%2C34582788%2C34615851%2C34621019%2C34644148%2C34662547%2C34667112%2C34686207%2C34731885%2C34759314%2C34805786%2C34834920%2C34879274%2C34907164%2C34921014%2C34937946%2C34962926%2C35021089%2C35050652%2C35086559%2C35113687%2C35149558%2C35192680%2C35221331%2C35231079%2C35263388%2C35379808%2C35411049%2C35420441%2C35421191%2C35439318%2C35469023%2C35482054%2C35508460%2C35559673%2C35570209%2C35657206%2C35688159%2C35723366%2C35750052%2C35763353%2C35804923%2C35842423%2C35861150%2C35879412%2C35879413%2C35972292%2C35981571%2C36002574%2C36055241%2C36111891%2C36124427%2C36134452%2C36224385%2C36228039%2C36273494%2C36303069%2C36305789%2C36309510%2C36326816%2C36396656%2C36409314%2C36417855%2C36457047%2C36476853%2C36543916%2C36548402%2C36574441%2C36584827%2C36597481%2C36650183%2C36652375%2C36693839%2C36724073%2C36725334%2C36725843%2C36731340%2C36744886%2C36753415%2C36772830%2C36794958%2C36801923%2C36820830%2C36841242%2C36848233%2C36894612%2C36920785%2C36920967%2C36971544%2C36977592%2C36991492%2C37010434%2C37024475%2C37036970%2C37046090%2C37047518%2C37059858%2C37075701%2C37075745%2C37163373%2C37167561%2C37193694%2C37435859%2C37616343%2C37639469%2C37758944%2C37866880%2C37883554%2C37975674%2C37996617%2C38291084&idtype=pmid&format=json&tool=deathmap_ai",
+            "retrieved_at": "2026-10-08T01:37:51.651765+00:00",
+            "response_sha256": "81f6114b060dfc88e758a0492b87f826b0e1df9e4434ac70a4d87965d671a3f5"
+          },
+          {
+            "identifiers": {
+              "pmid": "33271924",
+              "doi": "10.3390/cells9122573",
+              "pmcid": "PMC7760831"
+            },
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=32690708%2C32699298%2C32728216%2C32738194%2C32755594%2C32877678%2C32918875%2C32924251%2C32939090%2C32968282%2C32970993%2C32990596%2C33005030%2C33033111%2C33060197%2C33087464%2C33110234%2C33122441%2C33137164%2C33144569%2C33147444%2C33147445%2C33156908%2C33157015%2C33172989%2C33185187%2C33186476%2C33188726%2C33189395%2C33208877%2C33208938%2C33226137%2C33228647%2C33257658%2C33271924%2C33333024%2C33355125%2C33357464%2C33372156%2C33375770%2C33382968%2C33417871%2C33476303%2C33483422%2C33501440%2C33513160%2C33513212%2C33523994%2C33539788%2C33547076%2C33562682%2C33568224%2C33574281%2C33577797%2C33604667%2C33649592%2C33657372%2C33660365%2C33676427%2C33686287%2C33730579%2C33742119%2C33743211%2C33813748%2C33846634%2C33847741%2C33854235%2C33864166%2C33872695%2C33953401%2C34000301%2C34004147%2C34016692%2C34026427%2C34049503%2C34066520%2C34108663%2C34155407%2C34215620%2C34230586%2C34253920%2C34290256%2C34316707%2C34320214%2C34364401%2C34373448%2C34373451%2C34431042%2C34437126%2C34497417%2C34529489%2C34582788%2C34615851%2C34621019%2C34644148%2C34662547%2C34667112%2C34686207%2C34731885%2C34759314&retmode=xml&tool=deathmap_ai",
+            "retrieved_at": "2026-10-08T01:37:58.234950+00:00",
+            "response_sha256": "b9086e8f958898fe78d76fe733dbd3a2625fe231807d5b50f1a46636f31b6150"
+          }
+        ]
+      }
+    },
+    "_input_provenance": {
+      "file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\publication-index.json",
+      "sha256": "63cb33b7095108e7a0776950e9c258e7b65fe148ca6b12ae75cd4dd914ad6c89",
+      "locator": "PUBLICATION_ID=641"
+    }
+  },
+  "status": "complete",
+  "source_code_sha256": "1e62a9364e02df38d28540f2c3211fbc696f04678f5fa977cf989e31578b60bf",
+  "limits": {
+    "request_attempts": 100,
+    "seconds": 600,
+    "series": 100,
+    "target_uids_per_route": 1000,
+    "attempts_per_request": 2,
+    "timeout_seconds": 30,
+    "pacing_seconds": 0.4
+  },
+  "total_gse_count": 0,
+  "finished_utc": "2026-10-11T18:05:50.266871+00:00",
+  "request_attempts": 2
+}

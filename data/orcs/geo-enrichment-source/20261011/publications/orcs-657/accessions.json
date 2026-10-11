@@ -1,0 +1,117 @@
+{
+  "publication": {
+    "PUBLICATION_ID": "657",
+    "SOURCE_TYPE": "prepub",
+    "SOURCE_ID": "https://www.biorxiv.org/content/10.1101/2020.08.27.270819v1.full",
+    "TITLE": "Elucidation of remdesivir cytotoxicity pathways through genome-wide CRISPR-Cas9 screening and transcriptomics",
+    "AUTHORS": "Akinci E, Cha M, Lin L, Yeo G, Hamilton MC, Donahue CJ, Bermudez-Cabrera HC, Zanetti LC, Chen M, Barkal SA, Khowpinitchai B, Chu N, Velimirovic M, Jodhani R, Fife JD, Sovrovic M, Cole PA, Davey RA, Cassa CA, Sherwood RI",
+    "ABSTRACT": "The adenosine analogue remdesivir has emerged as a frontline antiviral treatment for SARS-CoV-2, with preliminary evidence that it reduces the duration and severity of illness . Prior clinical studies have identified adverse events , and remdesivir has been shown to inhibit mitochondrial RNA polymerase in biochemical experiments , yet little is known about the specific genetic pathways involved in cellular remdesivir metabolism and cytotoxicity. Through genome-wide CRISPR-Cas9 screening and RNA sequencing, we show that remdesivir treatment leads to a repression of mitochondrial respiratory activity, and we identify five genes whose loss significantly reduces remdesivir cytotoxicity. In particular, we show that loss of the mitochondrial nucleoside transporter mitigates remdesivir toxicity without a commensurate decrease in SARS-CoV-2 antiviral potency and that the mitochondrial adenylate kinase is a remdesivir kinase required for remdesivir efficacy and toxicity. This work elucidates the cellular mechanisms of remdesivir metabolism and provides a candidate gene target to reduce remdesivir cytotoxicity.",
+    "JOURNAL": null,
+    "PUBLICATION_DATE": "2022-01-11",
+    "PAGE_SOURCE_TYPE": "pubmed",
+    "PAGE_SOURCE_ID": "17",
+    "PMID": null,
+    "DOI": null,
+    "SUPPLEMENTARY_FILES": [
+      {
+        "label": "TableS3.xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/61dddcf09ab8c/TableS3.xlsx"
+      }
+    ],
+    "LINKS": [
+      {
+        "label": "Pubmed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/scholar?as_occt=title&as_q=Elucidation+of+remdesivir+cytotoxicity+pathways+through+genome-wide+CRISPR-Cas9+screening+and+transcriptomics"
+      },
+      {
+        "label": "17",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17"
+      },
+      {
+        "label": "TableS3.xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/61dddcf09ab8c/TableS3.xlsx"
+      }
+    ],
+    "SCREEN_IDS": [
+      "1735",
+      "1736",
+      "1737",
+      "1738",
+      "1739"
+    ],
+    "SCREEN_COUNT": 5,
+    "PUBLICATION_URL": "https://orcs.thebiogrid.org/Dataset/657",
+    "FIELD_LOCATORS": {
+      "TITLE": "#resultsHeaderBlock h1",
+      "AUTHORS": "#resultsHeaderBlock .subhead",
+      "ABSTRACT": "#resultsHeaderBlock .bgGrey",
+      "JOURNAL": ".linkouts citation strong",
+      "PUBLICATION_DATE": ".linkouts citation",
+      "SUPPLEMENTARY_FILES": ".linkouts Supplementary Files"
+    },
+    "REVIEW_ISSUES": [
+      "Page-labelled source identifier differs from cached SOURCE_TYPE/SOURCE_ID; both preserved."
+    ],
+    "RETRIEVED_AT": "2026-10-04T05:11:55.865568+00:00",
+    "SOURCE_METADATA_FILE": "data/orcs/publication-source/20261004-v01/657.metadata.html",
+    "SOURCE_METADATA_SHA256": "e8456d72b98a88be534bc9f02581538203054b01bcd4e1af3e102599b11fa139",
+    "PMCID": null,
+    "IDENTIFIER_ENRICHMENT": {},
+    "_input_provenance": {
+      "file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\publication-index.json",
+      "sha256": "63cb33b7095108e7a0776950e9c258e7b65fe148ca6b12ae75cd4dd914ad6c89",
+      "locator": "PUBLICATION_ID=657"
+    }
+  },
+  "candidates": [],
+  "routes": {
+    "pubmed_geo_links": {
+      "status": "skipped_missing_pmid",
+      "distinct_gse_count": 0
+    },
+    "pubmed_accession_list": {
+      "status": "skipped_missing_pmid",
+      "distinct_gse_count": 0
+    },
+    "publication_title_phrase": {
+      "status": "complete",
+      "query": "\"Elucidation of remdesivir cytotoxicity pathways through genome-wide CRISPR-Cas9 screening and transcriptomics\"[All Fields] AND gse[Entry Type]",
+      "count": 0,
+      "query_translation": "\"Elucidation of remdesivir cytotoxicity pathways through genome-wide CRISPR-Cas9 screening and transcriptomics\"[All Fields] AND gse[Entry Type]",
+      "warnings": {
+        "phrasesignored": [],
+        "quotedphrasesnotfound": [
+          "\"Elucidation of remdesivir cytotoxicity pathways through genome-wide CRISPR-Cas9 screening and transcriptomics\"[All Fields]"
+        ],
+        "outputmessages": [
+          "No items found."
+        ]
+      },
+      "distinct_gse_count": 0
+    },
+    "europepmc_annotations": {
+      "status": "skipped_missing_pmid",
+      "distinct_gse_count": 0
+    },
+    "europepmc_datalinks": {
+      "status": "skipped_missing_pmid",
+      "distinct_gse_count": 0
+    },
+    "pubmed_bioproject_geo": {
+      "status": "skipped_missing_pmid",
+      "distinct_gse_count": 0
+    },
+    "series_hierarchy": {
+      "status": "complete",
+      "distinct_gse_count": 0
+    }
+  },
+  "seed_count": 0,
+  "total_gse_count": 0,
+  "hierarchy_added": [],
+  "evidence": []
+}

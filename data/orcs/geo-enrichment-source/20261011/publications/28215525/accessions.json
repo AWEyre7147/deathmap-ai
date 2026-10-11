@@ -1,0 +1,157 @@
+{
+  "publication": {
+    "PUBLICATION_ID": "30",
+    "SOURCE_TYPE": "pubmed",
+    "SOURCE_ID": "28215525",
+    "TITLE": "Explicit Modeling of siRNA-Dependent On- and Off-Target Repression Improves the Interpretation of Screening Results.",
+    "AUTHORS": "Riba A, Emmenlauer M, Chen A, Sigoillot F, Cong F, Dehio C, Jenkins J, Zavolan M",
+    "ABSTRACT": "RNAi is broadly used to map gene regulatory networks, but the identification of genes that are responsible for the observed phenotypes is challenging, as small interfering RNAs (siRNAs) simultaneously downregulate the intended on targets and many partially complementary off targets. Additionally, the scarcity of publicly available control datasets hinders the development and comparative evaluation of computational methods for analyzing the data. Here, we introduce PheLiM (https://github.com/andreariba/PheLiM), a method that uses predictions of siRNA on- and off-target downregulation to infer gene-specific contributions to phenotypes. To assess the performance of PheLiM, we carried out siRNA- and CRISPR/Cas9-based genome-wide screening of two well-characterized pathways, bone morphogenetic protein (BMP) and nuclear factor κB (NF-κB), and we reanalyzed publicly available siRNA screens. We demonstrate that PheLiM has the overall highest accuracy and most reproducible results compared to other available methods. PheLiM can accommodate various methods for predicting siRNA off targets and is broadly applicable to the identification of genes underlying complex phenotypes.",
+    "JOURNAL": "Cell systems",
+    "PUBLICATION_DATE": "2017-02-22",
+    "PAGE_SOURCE_TYPE": "pubmed",
+    "PAGE_SOURCE_ID": "28215525",
+    "PMID": "28215525",
+    "DOI": "10.1016/j.cels.2017.01.011",
+    "SUPPLEMENTARY_FILES": [
+      {
+        "label": "1-s2.0-S240547121730011X-mmc2 (2).xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/5a7234cff3197/1-s2.0-S240547121730011X-mmc2 (2).xlsx"
+      }
+    ],
+    "LINKS": [
+      {
+        "label": "Pubmed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28215525"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/scholar?as_occt=title&as_q=Explicit+Modeling+of+siRNA-Dependent+On-+and+Off-Target+Repression+Improves+the+Interpretation+of+Screening+Results."
+      },
+      {
+        "label": "28215525",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28215525"
+      },
+      {
+        "label": "1-s2.0-S240547121730011X-mmc2 (2).xlsx",
+        "url": "https://orcs.thebiogrid.org/uploads/processed/5a7234cff3197/1-s2.0-S240547121730011X-mmc2 (2).xlsx"
+      }
+    ],
+    "SCREEN_IDS": [
+      "172",
+      "173",
+      "174",
+      "175",
+      "176",
+      "177"
+    ],
+    "SCREEN_COUNT": 6,
+    "PUBLICATION_URL": "https://orcs.thebiogrid.org/Dataset/30",
+    "FIELD_LOCATORS": {
+      "TITLE": "#resultsHeaderBlock h1",
+      "AUTHORS": "#resultsHeaderBlock .subhead",
+      "ABSTRACT": "#resultsHeaderBlock .bgGrey",
+      "JOURNAL": ".linkouts citation strong",
+      "PUBLICATION_DATE": ".linkouts citation",
+      "SUPPLEMENTARY_FILES": ".linkouts Supplementary Files"
+    },
+    "REVIEW_ISSUES": [],
+    "RETRIEVED_AT": "2026-10-04T05:07:23.034024+00:00",
+    "SOURCE_METADATA_FILE": "data/orcs/publication-source/20261004-v01/30.metadata.html",
+    "SOURCE_METADATA_SHA256": "488a45e98a2985e433cf889e7226a9c354b1bd1fe4f0e6cc2cfd8a4da71260f4",
+    "PMCID": null,
+    "IDENTIFIER_ENRICHMENT": {
+      "added_fields": [
+        "DOI"
+      ],
+      "resolution": {
+        "input": {
+          "pmid": "28215525",
+          "doi": null,
+          "pmcid": null
+        },
+        "identifiers": {
+          "pmid": "28215525",
+          "doi": "10.1016/j.cels.2017.01.011",
+          "pmcid": null
+        },
+        "status": "partial",
+        "alternatives": {
+          "pmid": [
+            "28215525"
+          ],
+          "doi": [
+            "10.1016/j.cels.2017.01.011"
+          ],
+          "pmcid": []
+        },
+        "evidence": [
+          {
+            "identifiers": {
+              "pmid": "28215525",
+              "doi": "10.1016/j.cels.2017.01.011",
+              "pmcid": null
+            },
+            "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=24336569%2C24336571%2C25307932%2C25494202%2C26190106%2C26472758%2C26627737%2C26673326%2C26780180%2C27018887%2C27159373%2C27260156%2C27342126%2C27351204%2C27383987%2C27383988%2C27453484%2C27667664%2C27760321%2C27869803%2C27992415%2C28145866%2C28162770%2C28167502%2C28215525%2C28445693%2C28474669%2C28494239%2C28611215%2C28700943%2C28720733%2C28723893%2C28768188%2C28775154%2C28783722%2C28813663%2C28877469%2C28894007%2C28985505%2C28985567%2C29028833%2C29038160%2C29083409%2C29211708%2C29259014%2C29269392%2C29290584%2C29301958%2C29440296%2C29459677%2C29463564%2C29478914%2C29507424%2C29526696%2C29576454%2C29642015%2C29655804%2C29662178%2C29736038%2C29769725%2C29779948%2C29921669%2C29973717%2C29987050%2C29995852%2C30042095%2C30051818%2C30093494%2C30111820%2C30135075%2C30154076%2C30194290%2C30224801%2C30317623%2C30397336%2C30414698%2C30449619%2C30464262%2C30532030%2C30556811%2C30581143%2C30590252%2C30595499%2C30647128%2C30655525%2C30660999%2C30686591%2C30734978%2C30773463%2C30787439%2C30797773%2C30819666%2C30838976%2C30844312%2C30860482%2C30862715%2C30898113%2C30905739%2C30916320%2C30930145&retmode=xml&tool=deathmap_ai",
+            "retrieved_at": "2026-10-08T01:37:54.563710+00:00",
+            "response_sha256": "c4d765e9c68ee76878a3995636512d315f50afd1f0d9ddd619527deba807db67"
+          }
+        ]
+      }
+    },
+    "_input_provenance": {
+      "file": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\publication-index.json",
+      "sha256": "63cb33b7095108e7a0776950e9c258e7b65fe148ca6b12ae75cd4dd914ad6c89",
+      "locator": "PUBLICATION_ID=30"
+    }
+  },
+  "candidates": [],
+  "routes": {
+    "pubmed_geo_links": {
+      "status": "complete",
+      "native_target_count": 0,
+      "distinct_gse_count": 0
+    },
+    "pubmed_accession_list": {
+      "status": "complete",
+      "distinct_gse_count": 0
+    },
+    "publication_title_phrase": {
+      "status": "complete",
+      "query": "\"Explicit Modeling of siRNA-Dependent On- and Off-Target Repression Improves the Interpretation of Screening Results\"[All Fields] AND gse[Entry Type]",
+      "count": 0,
+      "query_translation": "\"Explicit Modeling of siRNA-Dependent On- and Off-Target Repression Improves the Interpretation of Screening Results\"[All Fields] AND gse[Entry Type]",
+      "warnings": {
+        "phrasesignored": [],
+        "quotedphrasesnotfound": [
+          "\"Explicit Modeling of siRNA-Dependent On- and Off-Target Repression Improves the Interpretation of Screening Results\"[All Fields]"
+        ],
+        "outputmessages": [
+          "No items found."
+        ]
+      },
+      "distinct_gse_count": 0
+    },
+    "europepmc_annotations": {
+      "status": "complete",
+      "distinct_gse_count": 0
+    },
+    "europepmc_datalinks": {
+      "status": "complete",
+      "service_version": "6.9",
+      "distinct_gse_count": 0
+    },
+    "pubmed_bioproject_geo": {
+      "status": "complete",
+      "bioproject_uids": [],
+      "distinct_gse_count": 0
+    },
+    "series_hierarchy": {
+      "status": "complete",
+      "distinct_gse_count": 0
+    }
+  },
+  "seed_count": 0,
+  "total_gse_count": 0,
+  "hierarchy_added": [],
+  "evidence": []
+}
