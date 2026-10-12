@@ -1,0 +1,360 @@
+{
+  "schema_version": "enrichment-template/1.0",
+  "name": "BioStudies-ArrayExpress-Enrichment",
+  "template": "data/templates/BioStudies-ArrayExpress-Enrichment.xlsx",
+  "sha256": "220c15a4f6afa23d5b5bc9516a5c9e56abec636ffa2723d39a4f47d378448583",
+  "status": "owner_finalized",
+  "registered_utc": "2026-10-11T23:13:48.744Z",
+  "sheets": [
+    {
+      "name": "Studies",
+      "headers": [
+        "Study accession",
+        "PMID",
+        "Study title",
+        "Organism",
+        "Study type",
+        "Samples reported",
+        "Assays reported",
+        "Study description",
+        "Publication association",
+        "Source URL"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Studies",
+      "columns": [
+        {
+          "header": "Study accession",
+          "source_key": "Study accession"
+        },
+        {
+          "header": "PMID",
+          "source_key": "PMID"
+        },
+        {
+          "header": "Study title",
+          "source_key": "Study title"
+        },
+        {
+          "header": "Organism",
+          "source_key": "Organism"
+        },
+        {
+          "header": "Study type",
+          "source_key": "Study type"
+        },
+        {
+          "header": "Samples reported",
+          "source_key": "Samples reported"
+        },
+        {
+          "header": "Assays reported",
+          "source_key": "Assays reported"
+        },
+        {
+          "header": "Study description",
+          "source_key": "Study description"
+        },
+        {
+          "header": "Publication association",
+          "source_key": "Publication association"
+        },
+        {
+          "header": "Source URL",
+          "source_key": "Source URL"
+        }
+      ]
+    },
+    {
+      "name": "Repository citations",
+      "headers": [
+        "Study accession",
+        "Native citation title",
+        "Native DOI",
+        "Native PMID",
+        "Native authors",
+        "Native status",
+        "Source URL"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Repository citations",
+      "columns": [
+        {
+          "header": "Study accession",
+          "source_key": "Study accession"
+        },
+        {
+          "header": "Native citation title",
+          "source_key": "Native citation title"
+        },
+        {
+          "header": "Native DOI",
+          "source_key": "Native DOI"
+        },
+        {
+          "header": "Native PMID",
+          "source_key": "Native PMID"
+        },
+        {
+          "header": "Native authors",
+          "source_key": "Native authors"
+        },
+        {
+          "header": "Native status",
+          "source_key": "Native status"
+        },
+        {
+          "header": "Source URL",
+          "source_key": "Source URL"
+        }
+      ]
+    },
+    {
+      "name": "Protocols",
+      "headers": [
+        "Study accession",
+        "Native protocol ID",
+        "Field",
+        "Original value",
+        "Value state"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Protocols",
+      "columns": [
+        {
+          "header": "Study accession",
+          "source_key": "Study accession"
+        },
+        {
+          "header": "Native protocol ID",
+          "source_key": "Native protocol ID"
+        },
+        {
+          "header": "Field",
+          "source_key": "Field"
+        },
+        {
+          "header": "Original value",
+          "source_key": "Original value"
+        },
+        {
+          "header": "Value state",
+          "source_key": "Value state"
+        }
+      ]
+    },
+    {
+      "name": "Sample metadata",
+      "headers": [
+        "Study accession",
+        "Native section type",
+        "Native section ID",
+        "Field",
+        "Original value",
+        "Value state"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Sample metadata",
+      "columns": [
+        {
+          "header": "Study accession",
+          "source_key": "Study accession"
+        },
+        {
+          "header": "Native section type",
+          "source_key": "Native section type"
+        },
+        {
+          "header": "Native section ID",
+          "source_key": "Native section ID"
+        },
+        {
+          "header": "Field",
+          "source_key": "Field"
+        },
+        {
+          "header": "Original value",
+          "source_key": "Original value"
+        },
+        {
+          "header": "Value state",
+          "source_key": "Value state"
+        }
+      ]
+    },
+    {
+      "name": "Assay metadata",
+      "headers": [
+        "Study accession",
+        "Native section type",
+        "Native section ID",
+        "Field",
+        "Original value",
+        "Value state"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Assay metadata",
+      "columns": [
+        {
+          "header": "Study accession",
+          "source_key": "Study accession"
+        },
+        {
+          "header": "Native section type",
+          "source_key": "Native section type"
+        },
+        {
+          "header": "Native section ID",
+          "source_key": "Native section ID"
+        },
+        {
+          "header": "Field",
+          "source_key": "Field"
+        },
+        {
+          "header": "Original value",
+          "source_key": "Original value"
+        },
+        {
+          "header": "Value state",
+          "source_key": "Value state"
+        }
+      ]
+    },
+    {
+      "name": "File listings",
+      "headers": [
+        "Study accession",
+        "Native section type",
+        "File path",
+        "Size (bytes)",
+        "Declared type",
+        "Format",
+        "Description"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "File listings",
+      "columns": [
+        {
+          "header": "Study accession",
+          "source_key": "Study accession"
+        },
+        {
+          "header": "Native section type",
+          "source_key": "Native section type"
+        },
+        {
+          "header": "File path",
+          "source_key": "File path"
+        },
+        {
+          "header": "Size (bytes)",
+          "source_key": "Size (bytes)"
+        },
+        {
+          "header": "Declared type",
+          "source_key": "Declared type"
+        },
+        {
+          "header": "Format",
+          "source_key": "Format"
+        },
+        {
+          "header": "Description",
+          "source_key": "Description"
+        }
+      ]
+    },
+    {
+      "name": "SDRF metadata",
+      "headers": [
+        "Study accession",
+        "Source name",
+        "Native data row",
+        "Native column",
+        "Native field",
+        "Original value",
+        "Part"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "SDRF metadata",
+      "columns": [
+        {
+          "header": "Study accession",
+          "source_key": "Study accession"
+        },
+        {
+          "header": "Source name",
+          "source_key": "Source name"
+        },
+        {
+          "header": "Native data row",
+          "source_key": "Native data row"
+        },
+        {
+          "header": "Native column",
+          "source_key": "Native column"
+        },
+        {
+          "header": "Native field",
+          "source_key": "Native field"
+        },
+        {
+          "header": "Original value",
+          "source_key": "Original value"
+        },
+        {
+          "header": "Part",
+          "source_key": "Part"
+        }
+      ]
+    },
+    {
+      "name": "IDF metadata",
+      "headers": [
+        "Study accession",
+        "Native line",
+        "Native column",
+        "Native field",
+        "Original value"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "IDF metadata",
+      "columns": [
+        {
+          "header": "Study accession",
+          "source_key": "Study accession"
+        },
+        {
+          "header": "Native line",
+          "source_key": "Native line"
+        },
+        {
+          "header": "Native column",
+          "source_key": "Native column"
+        },
+        {
+          "header": "Native field",
+          "source_key": "Native field"
+        },
+        {
+          "header": "Original value",
+          "source_key": "Original value"
+        }
+      ]
+    }
+  ],
+  "formatting": "Plain bold Carlito 11 headers, no fill, uniform width 22, no table objects, filters or frozen panes",
+  "missing_values": "Blank; preserve reported empty/missing distinctions in Value state where present; no inferred repository citations",
+  "evidence_policy": "Canonical metadata and raw evidence retained separately; workbook includes only owner-selected display fields",
+  "date_policy": "No date columns in the final accepted template",
+  "projection_contract": "Projected record dictionaries keyed by registered headers, grouped under the registered source_table names. This registration does not implement the whole-ORCS enrichment or its exporter."
+}

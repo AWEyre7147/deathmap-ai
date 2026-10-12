@@ -1,0 +1,71 @@
+MAGE-TAB Version	1.1
+Investigation Title	RNA-seq analysis of TCEAL1 knock down with/without docetaxel treatment to enhance docetaxel efficacy in prostate cancer
+
+Experimental Design	case control design
+Experimental Design Term Source REF	EFO
+Experimental Design Term Accession Number	EFO:0001427
+
+Experimental Factor Name	compound	RNA interference	dose
+Experimental Factor Type	compound	RNA interference	dose
+Experimental Factor Term Source REF		EFO
+Experimental Factor Term Accession Number		GO_0016246
+
+Person Last Name	Leung	Repiscak
+Person First Name	Hing	Peter
+Person Mid Initials	Y
+Person Email	h.leung@beatson.gla.ac.uk	p.repiscak@beatson.gla.ac.uk
+Person Phone
+Person Fax
+Person Affiliation	Institute of Cancer Sciences, College of Medical, Veterinary and Life Sciences, University of Glasgow, Bearsden, Glasgow, G61 1QH, UK. CRUK Beatson Institute, Bearsden, Glasgow, G61 1BD, UK.	Institute of Cancer Sciences, College of Medical, Veterinary and Life Sciences, University of Glasgow, Bearsden, Glasgow, G61 1QH, UK. CRUK Beatson Institute, Bearsden, Glasgow, G61 1BD, UK.
+Person Address	CRUK Beatson Institute, Bearsden, Glasgow, G61 1BD, UK	CRUK Beatson Institute, Bearsden, Glasgow, G61 1BD, UK
+Person Roles	investigator	submitter
+Person Roles Term Source REF
+Person Roles Term Accession Number
+
+Quality Control Type
+Quality Control Term Source REF
+Quality Control Term Accession Number
+
+Replicate Type
+Replicate Term Source REF
+Replicate Term Accession Number
+
+Normalization Type
+Normalization Term Source REF
+Normalization Term Accession Number
+
+Date of Experiment	2019-03-28
+Public Release Date	2020-10-07
+
+PubMed ID
+Publication DOI
+Publication Author List	Linda K. Rushworth, Victoria Harle, Peter Repiscak, William Clark, Robin Shaw, Holly Hall, Martin Bushell, Hing Y. Leung and Rachana Patel
+Publication Title	In vivo CRISPR/Cas9 screen identifies TCEAL1 as a target to enhance docetaxel efficacy in prostate cancer
+Publication Status	submitted
+Publication Status Term Source REF
+Publication Status Term Accession Number
+
+Experiment Description	Docetaxel chemotherapy in metastatic prostate cancer offers only a modest survival benefit due to emerging resistance. This experiment studies effect of TCEAL1 gene knock down with/without docetaxel treatment. The TCEAL1 gene was identified as the top candidate gene in vivo CRISPR/Cas9 screen.
+
+Protocol Name	P-MTAB-100418	P-MTAB-100417	P-MTAB-100419	P-MTAB-100422	P-MTAB-100420	P-MTAB-100421
+Protocol Type	nucleic acid extraction protocol	sample collection protocol	nucleic acid library construction protocol	normalization data transformation protocol	nucleic acid sequencing protocol	high throughput sequence alignment protocol
+Protocol Term Source REF	EFO	EFO	EFO	EFO	EFO	EFO
+Protocol Term Accession Number	EFO_0002944	EFO_0005518	EFO_0004184	EFO_0003816	EFO_0004170	EFO_0004917
+Protocol Description	Total mRNA was extracted using the RNeasy Mini Kit (Qiagen) according to the manufacturer’s instructions. RNA was quantified using the NanoDrop 2000 spectrophotometer (Thermo Scientific). For RNA sequencing samples, RNA quality was assessed on a 2100 Bioanalyser (Agilent).	Samples were prepared from four independent experiments where PC3M cells were treated with control or TCEAL1 siRNA and -/+ docetaxel for 48 hours before collecting total mRNA samples.	Libraries were prepared using the Illumina TotalPrep RNA Amplification Kit (Ambion, Life Technologies) with Poly(A) selection according to the manufacturer’s instructions.	Gene level count table was generated using HTSeq version 0.9.1.	Libraries for the different samples were pooled and sequenced on an Illumina NextSeq500.	RNA-Seq paired-end reads were aligned to the Ensembl version 38 build 95 of the human genome using HiSat2 version 2.1.0
+Protocol Parameters
+Protocol Hardware					NextSeq 500
+Protocol Software
+Protocol Contact
+
+Term Source Name	EFO	ArrayExpress
+Term Source File	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/arrayexpress/
+Term Source Version	2.38
+
+SDRF File	E-MTAB-9484.sdrf.txt
+Comment [Submitted Name]	RNA-seq analysis of TCEAL1 knock down with/without docetaxel treatment to enhance docetaxel efficacy in prostate cancer
+Comment [TemplateType]	Cell line - High-throughput sequencing
+Comment [SecondaryAccession]	ERP123632
+Comment [SequenceDataURI]	http://www.ebi.ac.uk/ena/data/view/ERR4508063-ERR4508078
+Comment [AEExperimentType]	RNA-seq of coding RNA
+Comment[ArrayExpressAccession]	E-MTAB-9484
+Comment [RelatedExperiment]	E-MTAB-9482

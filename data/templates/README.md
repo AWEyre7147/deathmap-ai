@@ -29,3 +29,14 @@ refused. Owner template changes need registration before GEO export.
 
 Active templates and registration manifests remain here. Their recorded hashes
 and field mappings define the inputs accepted by the workbook exporters.
+
+`BioStudies-ArrayExpress-Enrichment.xlsx` is the owner-approved blank eight-sheet
+template registered in `BioStudies-ArrayExpress-Enrichment.manifest.json`.
+It retains the selected Studies fields and repository metadata sheets, excludes
+Publication links, External links and Other metadata, and removes the specified
+display columns. SDRF retains individual sample/assay fields through Part; IDF
+retains fields through Original value. Formatting matches the plain PubMed
+template, with no tables or filters. The manifest
+records the unchanged workbook hash, ordered headers and projected-record keys.
+Canonical source evidence remains separate. Registration does not itself run
+whole-ORCS enrichment or implement the ArrayExpress exporter.

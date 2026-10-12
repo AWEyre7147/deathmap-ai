@@ -1,0 +1,436 @@
+{
+  "accno" : "E-MTAB-13548",
+  "attributes" : [ {
+    "name" : "Title",
+    "value" : "The ER stress sensor IRE1 interacts with STIM1 to promote store-operated calcium entry, T cell activation, and muscular differentiation"
+  }, {
+    "name" : "ReleaseDate",
+    "value" : "2023-12-09"
+  }, {
+    "name" : "RootPath",
+    "value" : "E-MTAB-13548"
+  }, {
+    "name" : "AttachTo",
+    "value" : "ArrayExpress"
+  } ],
+  "section" : {
+    "accno" : "s-E-MTAB-13548",
+    "type" : "Study",
+    "attributes" : [ {
+      "name" : "Title",
+      "value" : "The ER stress sensor IRE1 interacts with STIM1 to promote store-operated calcium entry, T cell activation, and muscular differentiation"
+    }, {
+      "name" : "Study type",
+      "value" : "DNA-seq",
+      "valqual" : [ {
+        "name" : "Ontology",
+        "value" : "EFO"
+      }, {
+        "name" : "TermId",
+        "value" : "EFO_0002693"
+      } ]
+    }, {
+      "name" : "Organism",
+      "value" : "Mus musculus"
+    }, {
+      "name" : "Description",
+      "value" : "CAMPARI2 CRISPR screening for SOCE modulators of ER stress. PC cells were sorted and sequenced for CRISPR whole KO library (De brie). Unsorted, SOrte din LOW PC and LOW PC Tunica treated fro 4hours were analysed."
+    } ],
+    "links" : [ [ {
+      "url" : "ERP155195",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "ENA"
+      } ]
+    } ] ],
+    "subsections" : [ [ {
+      "accno" : "P-MTAB-138222",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-MTAB-138222"
+      }, {
+        "name" : "Type",
+        "value" : "sample collection protocol",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO_0005518"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "CAMPARI2 PC for screening was performed in 60 mm plates by lighting with 365, 385 420 nm Led light (Cholis High-Power Led source (Thorlabs) for 3 minutes at 25mW/cm2. We then FACS sorted the low 10% photoconverted cells,"
+      }, {
+        "name" : "Hardware"
+      } ]
+    }, {
+      "accno" : "P-MTAB-138223",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-MTAB-138223"
+      }, {
+        "name" : "Type",
+        "value" : "nucleic acid extraction protocol",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO_0002944"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "isolated their genomic DNA using JetQuick™ Blood and Cell Culture DNA Midiprep Kit (A30703, Thermo)."
+      }, {
+        "name" : "Hardware"
+      } ]
+    }, {
+      "accno" : "P-MTAB-138224",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-MTAB-138224"
+      }, {
+        "name" : "Type",
+        "value" : "nucleic acid library construction protocol",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO_0004184"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "See original de brie library please Optimized sgRNA design to maximize activity and minimize off-target effects of CRISPR-Cas9. Doench JG, Fusi N, Sullender M, Hegde M, Vaimberg EW, Donovan KF, Smith I, Tothova Z, Wilen C, Orchard R, Virgin HW, Listgarten J, Root DE. Nat Biotechnol. 2016 Jan 18. doi: 10.1038/nbt.3437."
+      }, {
+        "name" : "Hardware"
+      } ]
+    }, {
+      "accno" : "P-MTAB-138225",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-MTAB-138225"
+      }, {
+        "name" : "Type",
+        "value" : "nucleic acid sequencing protocol",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO_0004170"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "gDNA was amplified using a two step PCR. First PCR used all the gDNA in different reactions using Fw: AAT GGA CTA TCA TAT GCT TAC CGT AAC TTG AAA GTA TTT CG and Rv: TCT GCT GTC CCT GTA ATA AAC CCG AAA ATT TTG AA primers."
+      }, {
+        "name" : "Hardware",
+        "value" : "Illumina iSeq 100"
+      } ]
+    }, {
+      "accno" : "P-MTAB-138226",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-MTAB-138226"
+      }, {
+        "name" : "Type",
+        "value" : "treatment protocol",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO_0003969"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "Tunicamycin 100ng/ml was used for 4 hours before PC"
+      }, {
+        "name" : "Hardware"
+      } ]
+    }, {
+      "accno" : "P-MTAB-138227",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-MTAB-138227"
+      }, {
+        "name" : "Type",
+        "value" : "high throughput sequence alignment protocol",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO_0004917"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "CRISPR genome wide screening analysis was performed using PinAPL-Py:A67 using SUMLFC as gene ranking and a Bonferroni p-value test. For Tunicamycin over NT studies only sgRNAs with more than 2 hits over 35x enrichment were considered."
+      }, {
+        "name" : "Hardware"
+      } ]
+    }, {
+      "accno" : "P-MTAB-138228",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-MTAB-138228"
+      }, {
+        "name" : "Type",
+        "value" : "normalization data transformation protocol",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO_0003816"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "CRISPR genome wide screening analysis was performed using PinAPL-Py:A67 using SUMLFC as gene ranking and a Bonferroni p-value test. For Tunicamycin over NT studies only sgRNAs with more than 2 hits over 35x enrichment were considered."
+      }, {
+        "name" : "Hardware"
+      } ]
+    } ], {
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Amado Carreras"
+      }, {
+        "name" : "Email",
+        "value" : "amado.carrerassureda@unige.ch"
+      }, {
+        "name" : "Role",
+        "value" : "submitter"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "o1",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Department of Cell physiology and metabolism"
+      }, {
+        "name" : "Address",
+        "value" : "CMU, 1 rue Michel-Servet trial"
+      } ]
+    }, {
+      "accno" : "s-samples-factors-E-MTAB-13548",
+      "type" : "Samples",
+      "attributes" : [ {
+        "name" : "Sample count",
+        "value" : "5"
+      }, {
+        "name" : "Experimental Designs",
+        "value" : "compound treatment design",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO:0001755"
+        } ]
+      }, {
+        "name" : "Experimental Factors",
+        "value" : "stimulus",
+        "valqual" : [ {
+          "name" : "TermName",
+          "value" : "stimulus"
+        } ]
+      } ],
+      "subsections" : [ {
+        "accno" : "exp_factor-E-MTAB-13548",
+        "type" : "Experimental Factors",
+        "attributes" : [ {
+          "name" : "Stimulus",
+          "value" : "none"
+        }, {
+          "name" : "Stimulus",
+          "value" : "tunicamycin"
+        } ],
+        "subsections" : [ [ {
+          "accno" : "factors_0",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "stimulus",
+            "value" : "tunicamycin"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS17026982"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_1",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "stimulus",
+            "value" : "none"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "4",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS17026983-ERS17026986"
+            } ]
+          } ]
+        } ] ]
+      }, {
+        "accno" : "source_chars-E-MTAB-13548",
+        "type" : "Source Characteristics",
+        "attributes" : [ {
+          "name" : "Organism",
+          "value" : "Mus musculus"
+        }, {
+          "name" : "Developmental stage",
+          "value" : "embryo"
+        }, {
+          "name" : "Disease",
+          "value" : "normal"
+        }, {
+          "name" : "Genotype",
+          "value" : "wild type genotype"
+        }, {
+          "name" : "Organism part",
+          "value" : "embryo"
+        }, {
+          "name" : "Cell type",
+          "value" : "mouse embryonic fibroblast cell"
+        }, {
+          "name" : "Cell line",
+          "value" : "control"
+        }, {
+          "name" : "Cell line",
+          "value" : "sorted PC low"
+        } ],
+        "subsections" : [ [ {
+          "accno" : "source_0",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "cell line",
+            "value" : "sorted PC low"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "4",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS17026982,ERS17026983,ERS17026984,ERS17026986"
+            } ]
+          } ]
+        }, {
+          "accno" : "source_1",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "cell line",
+            "value" : "control"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS17026985"
+            } ]
+          } ]
+        } ] ]
+      } ]
+    }, {
+      "accno" : "s-assays-data-E-MTAB-13548",
+      "type" : "Assays and Data",
+      "attributes" : [ {
+        "name" : "Assay count",
+        "value" : "5"
+      }, {
+        "name" : "Technology",
+        "value" : "Sequencing assay"
+      }, {
+        "name" : "Assay by Molecule",
+        "value" : "DNA assay"
+      } ],
+      "subsections" : [ {
+        "accno" : "processed-data",
+        "type" : "Processed Data",
+        "files" : [ [ {
+          "path" : "Tunica.txt",
+          "size" : 537133,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "Control.txt",
+          "size" : 537133,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        } ] ]
+      }, {
+        "accno" : "mt-E-MTAB-13548",
+        "type" : "MAGE-TAB Files",
+        "files" : [ [ {
+          "path" : "E-MTAB-13548.idf.txt",
+          "size" : 3569,
+          "attributes" : [ {
+            "name" : "Type",
+            "value" : "IDF File"
+          }, {
+            "name" : "Format",
+            "value" : "tab-delimited text"
+          }, {
+            "name" : "Description",
+            "value" : "Investigation Design Format (IDF)"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "E-MTAB-13548.sdrf.txt",
+          "size" : 3887,
+          "attributes" : [ {
+            "name" : "Type",
+            "value" : "SDRF File"
+          }, {
+            "name" : "Format",
+            "value" : "tab-delimited text"
+          }, {
+            "name" : "Description",
+            "value" : "Sample and Data Relationship Format (SDRF)"
+          } ],
+          "type" : "file"
+        } ] ]
+      } ]
+    }, {
+      "accno" : "score-E-MTAB-13548",
+      "type" : "MINSEQE Score",
+      "attributes" : [ {
+        "name" : "Exp. Design",
+        "value" : "*"
+      }, {
+        "name" : "Protocols",
+        "value" : "*"
+      }, {
+        "name" : "Variables",
+        "value" : "*"
+      }, {
+        "name" : "Processed",
+        "value" : "*"
+      }, {
+        "name" : "Raw",
+        "value" : "*"
+      } ]
+    } ]
+  },
+  "type" : "submission"
+}

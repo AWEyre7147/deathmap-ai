@@ -1,0 +1,38 @@
+Comment[ArrayExpressAccession]	E-MTAB-13548
+MAGE-TAB Version	1.1
+Comment[Submitted Name]	The ER stress sensor IRE1 interacts with STIM1 to promote store-operated calcium entry, T cell activation, and muscular differentiation
+Investigation Title	The ER stress sensor IRE1 interacts with STIM1 to promote store-operated calcium entry, T cell activation, and muscular differentiation
+Experiment Description	CAMPARI2 CRISPR screening for SOCE modulators of ER stress. PC cells were sorted and sequenced for CRISPR whole KO library (De brie). Unsorted, SOrte din LOW PC and LOW PC Tunica treated fro 4hours were analysed.
+Experimental Design	compound treatment design
+Experimental Design Term Source REF	EFO
+Experimental Design Term Accession Number	EFO:0001755
+Experimental Factor Name	stimulus
+Experimental Factor Type	stimulus
+Experimental Factor Term Source REF
+Experimental Factor Term Accession Number
+Person Last Name	Carreras
+Person First Name	Amado
+Person Mid Initials
+Person Email	amado.carrerassureda@unige.ch
+Person Phone
+Person Fax
+Person Address	CMU, 1 rue Michel-Servet trial
+Person Affiliation	Department of Cell physiology and metabolism
+Person Roles	submitter
+Date of Experiment	2023-11-09
+Public Release Date	2023-12-09
+Protocol Name	P-MTAB-138222	P-MTAB-138223	P-MTAB-138224	P-MTAB-138225	P-MTAB-138226	P-MTAB-138227	P-MTAB-138228
+Protocol Type	sample collection protocol	nucleic acid extraction protocol	nucleic acid library construction protocol	nucleic acid sequencing protocol	treatment protocol	high throughput sequence alignment protocol	normalization data transformation protocol
+Protocol Term Source REF	EFO	EFO	EFO	EFO	EFO	EFO	EFO
+Protocol Term Accession Number	EFO_0005518	EFO_0002944	EFO_0004184	EFO_0004170	EFO_0003969	EFO_0004917	EFO_0003816
+Protocol Description	CAMPARI2 PC for screening was performed in 60 mm plates by lighting with 365, 385 420 nm Led light (Cholis High-Power Led source (Thorlabs) for 3 minutes at 25mW/cm2. We then FACS sorted the low 10% photoconverted cells, 	isolated their genomic DNA using JetQuick™ Blood and Cell Culture DNA Midiprep Kit (A30703, Thermo).	See original de brie library please Optimized sgRNA design to maximize activity and minimize off-target effects of CRISPR-Cas9. Doench JG, Fusi N, Sullender M, Hegde M, Vaimberg EW, Donovan KF, Smith I, Tothova Z, Wilen C, Orchard R, Virgin HW, Listgarten J, Root DE. Nat Biotechnol. 2016 Jan 18. doi: 10.1038/nbt.3437.	gDNA was amplified using a two step PCR. First PCR used all the gDNA in different reactions using Fw: AAT GGA CTA TCA TAT GCT TAC CGT AAC TTG AAA GTA TTT CG and Rv: TCT GCT GTC CCT GTA ATA AAC CCG AAA ATT TTG AA primers. 	Tunicamycin 100ng/ml was used for 4 hours before PC	CRISPR genome wide screening analysis was performed using PinAPL-Py:A67 using SUMLFC as gene ranking and a Bonferroni p-value test. For Tunicamycin over NT studies only sgRNAs with more than 2 hits over 35x enrichment were considered.	CRISPR genome wide screening analysis was performed using PinAPL-Py:A67 using SUMLFC as gene ranking and a Bonferroni p-value test. For Tunicamycin over NT studies only sgRNAs with more than 2 hits over 35x enrichment were considered.
+Protocol Hardware				Illumina iSeq 100
+Protocol Software
+Term Source Name	EFO
+Term Source File	http://www.ebi.ac.uk/efo/
+Term Source Version
+Comment[AEExperimentType]	DNA-seq
+Comment[TemplateType]	Cell line - High-throughput sequencing
+Comment[SecondaryAccession]	ERP155195
+Comment[SequenceDataURI]	http://www.ebi.ac.uk/ena/data/view/ERR12303890-ERR12303894
+SDRF File	E-MTAB-13548.sdrf.txt

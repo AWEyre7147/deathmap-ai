@@ -1,0 +1,65 @@
+{
+  "publications_processed": 418,
+  "publications_with_candidates": 10,
+  "candidate_accessions": 10,
+  "arrayexpress_studies": 10,
+  "publication_study_associations": 11,
+  "incomplete_publications": 0,
+  "failed_studies": 0,
+  "metadata_file_issues": 0,
+  "metadata_files": 20,
+  "route_states": [
+    {
+      "route": "europepmc_annotations",
+      "status": "complete",
+      "publications": 5
+    },
+    {
+      "route": "europepmc_annotations",
+      "status": "no_results",
+      "publications": 410
+    },
+    {
+      "route": "europepmc_annotations",
+      "status": "skipped_missing_identifier",
+      "publications": 3
+    },
+    {
+      "route": "native_complete_title",
+      "status": "complete",
+      "publications": 5
+    },
+    {
+      "route": "native_complete_title",
+      "status": "no_results",
+      "publications": 413
+    },
+    {
+      "route": "native_quoted_doi",
+      "status": "complete",
+      "publications": 1
+    },
+    {
+      "route": "native_quoted_doi",
+      "status": "no_results",
+      "publications": 416
+    }
+  ],
+  "distinct_candidates_by_route": {
+    "native_complete_title": 5,
+    "native_quoted_doi": 1,
+    "europepmc_annotations": 5
+  },
+  "sheet_rows": {
+    "Studies": 10,
+    "Repository citations": 5,
+    "Protocols": 189,
+    "Sample metadata": 410,
+    "Assay metadata": 29,
+    "File listings": 39,
+    "SDRF metadata": 4642,
+    "IDF metadata": 1180
+  },
+  "live_attempts": 847,
+  "cached_responses": 433
+}

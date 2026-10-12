@@ -1,0 +1,37 @@
+Comment[ArrayExpressAccession]	E-MTAB-8125
+MAGE-TAB Version	1.1
+Comment[Submitted Name]	Genome-scale CRISPR-Cas9 knockout screens for enterovirus D68 and rhinovirus C15
+Investigation Title	Genome-scale CRISPR-Cas9 knockout screens for enterovirus D68 and rhinovirus C15
+Experiment Description	H1-HeLa cells were stably transduced with lentiCas9-Blast (Addgene, Plasmid #52962) and subsequently selected using blasticidin to generate constitutively expressing Cas9 H1-HeLa cells. A single Cas9-expressing H1-HeLa clone was then transduced with lentivirus without a selection marker to stably express CDHR3 C529Y (H1-HeLa+CDHR3). A single CDHR3-expressing H1-HeLa clone was then chosen based on RT-qPCR of CHDR3 expression and RV-C15 RNA levels for mutagenesis. 300 million of the H1-HeLa cells constitutively expressing CDHR3 and Cas9 were transduced with the lentiGuide-Puro from the GeCKO v2 library at a MOI of 0.3. Cells were selected using puromycin and heterogeneous H1-HeLa knockout cell populations were subsequently pooled together. The CRISPR genetic screens were started 10 days post transduction. >1000-fold coverage of mutagenized cells (libraries A and B) was infected with either RV-C15 (MOI=1 PFU/cell) or EV-D68 Missouri (MOI=1 PFU/cell). RV-C15 infection was repeated for an additional round at 6 days post-infection. As soon as appearance of visibly viable colonies was observed, populations of virus-resistant cells were pooled and harvested. Uninfected starting populations of mutagenized cells were used as the unselected reference. Total genomic DNA from both virus-resistant and uninfected cells was respectively extracted using QIAamp DNA Mini Kit (Qiagen). The inserted guide RNA sequences were retrieved from the genomic DNA by PCR amplification. The PCR products were then purified and subjected to NextSeq platform (Illumina) next-generation sequencing.
+Experimental Design	genetic modification design	pathogenicity design
+Experimental Design Term Source REF	EFO	EFO
+Experimental Design Term Accession Number	EFO_0001758	EFO_0001761
+Experimental Factor Name	infect
+Experimental Factor Type	infect
+Experimental Factor Term Source REF	EFO
+Experimental Factor Term Accession Number	EFO_0000544
+Person Last Name	Ooi	Diep	Carette
+Person First Name	Yaw Shin	Jonathan	Jan
+Person Mid Initials			E.
+Person Email	ysooi@stanford.edu	jdiep@stanford.edu	carette@stanford.edu
+Person Phone
+Person Fax
+Person Address	299 Campus Drive,  Fairchild Science Building Rm. D345, Stanford, CA 94305	299 Campus Drive,  Fairchild Science Building Rm. D345, Stanford, CA 94305	299 Campus Drive,  Fairchild Science Building Rm. D345, Stanford, CA 94305
+Person Affiliation	Department of Microbiology & Immunology, Stanford University School of Medicine	Department of Microbiology & Immunology, Stanford University School of Medicine	Department of Microbiology & Immunology, Stanford University School of Medicine
+Person Roles	experiment performer;submitter	data analyst;experiment performer;submitter	investigator;submitter
+Public Release Date	2019-12-01
+Protocol Name	P-MTAB-87437	P-MTAB-87438	P-MTAB-87439	P-MTAB-87440
+Protocol Type	sample collection protocol	nucleic acid extraction protocol	nucleic acid library construction protocol	nucleic acid sequencing protocol
+Protocol Term Source REF	EFO	EFO	EFO	EFO
+Protocol Term Accession Number	EFO_0005518	EFO_0002944	EFO_0004184	EFO_0004170
+Protocol Description	>1000-fold coverage of mutagenized cells (libraries A and B) was infected with either RV-C15 (MOI=1 PFU/cell) or EV-D68 Missouri (MOI=1 PFU/cell).  RV-C15 infection was repeated for an additional round at 6 days post-infection. As soon as appearance of visibly viable colonies was observed, populations of virus-resistant cells were pooled and harvested. Uninfected starting populations of mutagenized cells were used as the unselected reference. 	Total genomic DNA from both virus-resistant and uninfected cells was respectively extracted using QIAamp DNA Mini Kit (Qiagen). 	The inserted guide RNA sequences were retrieved from the genomic DNA by PCR amplification.	The PCR products were then purified and subjected to NextSeq platform (Illumina) next-generation sequencing.
+Protocol Hardware				NextSeq 500
+Protocol Software
+Term Source Name	EFO
+Term Source File	http://www.ebi.ac.uk/efo/
+Term Source Version
+Comment[TemplateType]	Cell line - High-throughput sequencing
+Comment[AEExperimentType]	DNA-seq
+Comment[SecondaryAccession]	ERP116188
+Comment[SequenceDataURI]	http://www.ebi.ac.uk/ena/data/view/ERR3419978-ERR3419983
+SDRF File	E-MTAB-8125.sdrf.txt

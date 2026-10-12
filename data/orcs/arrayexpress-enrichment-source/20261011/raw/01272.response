@@ -1,0 +1,555 @@
+{
+  "accno" : "E-MTAB-9482",
+  "attributes" : [ {
+    "name" : "Title",
+    "value" : "In vivo CRISPR/Cas9 screen to identify candidate therapeutic gene targets to enhance docetaxel efficacy in prostate cancer"
+  }, {
+    "name" : "ReleaseDate",
+    "value" : "2020-10-07"
+  }, {
+    "name" : "RootPath",
+    "value" : "E-MTAB-9482"
+  }, {
+    "name" : "AttachTo",
+    "value" : "ArrayExpress"
+  } ],
+  "section" : {
+    "accno" : "s-E-MTAB-9482",
+    "type" : "Study",
+    "attributes" : [ {
+      "name" : "Title",
+      "value" : "In vivo CRISPR/Cas9 screen to identify candidate therapeutic gene targets to enhance docetaxel efficacy in prostate cancer"
+    }, {
+      "name" : "Study type",
+      "value" : "DNA-seq",
+      "valqual" : [ {
+        "name" : "Ontology",
+        "value" : "EFO"
+      }, {
+        "name" : "TermId",
+        "value" : "EFO_0002693"
+      } ]
+    }, {
+      "name" : "Study type",
+      "value" : "Animal - High-throughput sequencing"
+    }, {
+      "name" : "Organism",
+      "value" : "Mus musculus"
+    }, {
+      "name" : "Description",
+      "value" : "Docetaxel chemotherapy in metastatic prostate cancer offers only a modest survival benefit due to emerging resistance. To identify candidate therapeutic gene targets, we applied a murine prostate cancer orthograft model that recapitulates clinical invasive prostate cancer in a genome-wide CRISPR/Cas9 screen under docetaxel treatment pressure."
+    } ],
+    "links" : [ [ {
+      "url" : "E-MTAB-9484",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "Biostudies"
+      } ]
+    } ], [ {
+      "url" : "ERP123631",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "ENA"
+      } ]
+    } ] ],
+    "subsections" : [ [ {
+      "accno" : "P-MTAB-100416",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-MTAB-100416"
+      }, {
+        "name" : "Type",
+        "value" : "normalization data transformation protocol",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO_0003816"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "Collected sgRNA read counts were normalised by total read counts (--norm-method total) and only sgRNAs with an average expression higher than 100 reads across the treatment groups (either vehicle or docetaxel), and genes with at least 2 sgRNAs detected were kept for further analysis."
+      }, {
+        "name" : "Hardware"
+      } ]
+    }, {
+      "accno" : "P-MTAB-100415",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-MTAB-100415"
+      }, {
+        "name" : "Type",
+        "value" : "nucleic acid sequencing protocol",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO_0004170"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "Libraries for the different samples were pooled and sequenced on an Illumina NextSeq500."
+      }, {
+        "name" : "Hardware",
+        "value" : "NextSeq 500"
+      } ]
+    }, {
+      "accno" : "P-MTAB-100413",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-MTAB-100413"
+      }, {
+        "name" : "Type",
+        "value" : "nucleic acid extraction protocol",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO_0002944"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "DNA was extracted from 100mg of ground tumour (or entire tumour if weight under 100mg) using QIAamp DNA Mini kit (Qiagen) as per the manufacturer’s instructions."
+      }, {
+        "name" : "Hardware"
+      } ]
+    }, {
+      "accno" : "P-MTAB-100414",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-MTAB-100414"
+      }, {
+        "name" : "Type",
+        "value" : "nucleic acid library construction protocol",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO_0004184"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "DNA was prepared for deep sequencing by conducting a two-step PCR. The initial PCR amplified a region of the gRNA cassette to maintain library representation, while the second PCR added the primers required for sequencing. PCR was repeated 35 times for 100 fold library representation. All PCR products per sample were combined and used in the second PCR round to add the primers required for sequencing. PCR products from each sample were again combined and concentrated using a QIAquick PCR Purification Kit (Qiagen) as per the manufacturer’s instructions. Each sample was run on a 1.5% agarose gel. Bands were excised and DNA purified using a QIAquick Gel Extraction Kit before sending for sequencing."
+      }, {
+        "name" : "Hardware"
+      } ]
+    }, {
+      "accno" : "P-MTAB-100412",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-MTAB-100412"
+      }, {
+        "name" : "Type",
+        "value" : "sample collection protocol",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO_0005518"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "DNA was extracted from each whole tumour using the Blood and Cell Culture DNA Maxi kit (Qiagen) according to the manufacturer’s instructions."
+      }, {
+        "name" : "Hardware"
+      } ]
+    } ], {
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Peter Repiscak"
+      }, {
+        "name" : "Email",
+        "value" : "p.repiscak@beatson.gla.ac.uk"
+      }, {
+        "name" : "Role",
+        "value" : "submitter"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Hing Leung"
+      }, {
+        "name" : "Email",
+        "value" : "h.leung@beatson.gla.ac.uk"
+      }, {
+        "name" : "Role",
+        "value" : "investigator"
+      }, {
+        "name" : "affiliation",
+        "value" : "o2",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "o1",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Institute of Cancer Sciences, College of Medical, Veterinary and Life Sciences, University of Glasgow, Bearsden, Glasgow, G61 1QH, UK. CRUK Beatson Institute, Bearsden, Glasgow, G61 1BD, UK."
+      }, {
+        "name" : "Address",
+        "value" : "CRUK Beatson Institute, Bearsden, Glasgow, G61 1BD, UK"
+      } ]
+    }, {
+      "accno" : "o2",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Institute of Cancer Sciences, College of Medical, Veterinary and Life Sciences, University of Glasgow, Bearsden, Glasgow, G61 1QH, UK. CRUK Beatson Institute, Bearsden, Glasgow, G61 1BD, UK."
+      }, {
+        "name" : "Address",
+        "value" : "CRUK Beatson Institute, Bearsden, Glasgow, G61 1BD, UK"
+      } ]
+    }, {
+      "type" : "Publication",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "In vivo CRISPR/Cas9 screen identifies TCEAL1 as a target to enhance docetaxel efficacy in prostate cancer"
+      }, {
+        "name" : "Authors",
+        "value" : "Linda K. Rushworth, Victoria Harle, Peter Repiscak, William Clark, Robin Shaw, Holly Hall, Martin Bushell, Hing Y. Leung and Rachana Patel"
+      }, {
+        "name" : "Status",
+        "value" : "submitted"
+      } ]
+    }, {
+      "accno" : "s-samples-factors-E-MTAB-9482",
+      "type" : "Samples",
+      "attributes" : [ {
+        "name" : "Sample count",
+        "value" : "16"
+      }, {
+        "name" : "Experimental Designs",
+        "value" : "case control design",
+        "valqual" : [ {
+          "name" : "TermId",
+          "value" : "EFO:0001427"
+        } ]
+      }, {
+        "name" : "Experimental Factors",
+        "value" : "material type",
+        "valqual" : [ {
+          "name" : "TermName",
+          "value" : "material type"
+        } ]
+      }, {
+        "name" : "Experimental Factors",
+        "value" : "compound",
+        "valqual" : [ {
+          "name" : "TermName",
+          "value" : "compound"
+        } ]
+      } ],
+      "subsections" : [ {
+        "accno" : "exp_factor-E-MTAB-9482",
+        "type" : "Experimental Factors",
+        "attributes" : [ {
+          "name" : "Compound",
+          "value" : "vehicle"
+        }, {
+          "name" : "Compound",
+          "value" : "cells"
+        }, {
+          "name" : "Compound",
+          "value" : "plasmid"
+        }, {
+          "name" : "Compound",
+          "value" : "docetaxel"
+        }, {
+          "name" : "Material type",
+          "value" : "cells"
+        }, {
+          "name" : "Material type",
+          "value" : "tumour"
+        }, {
+          "name" : "Material type",
+          "value" : "plasmid"
+        } ],
+        "subsections" : [ [ {
+          "accno" : "factors_0",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "compound",
+            "value" : "vehicle"
+          }, {
+            "name" : "material type",
+            "value" : "tumour"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "9",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS4993307-ERS4993315"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_1",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "compound",
+            "value" : "plasmid"
+          }, {
+            "name" : "material type",
+            "value" : "plasmid"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS4993316"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_2",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "compound",
+            "value" : "cells"
+          }, {
+            "name" : "material type",
+            "value" : "cells"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS4993317"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_3",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "compound",
+            "value" : "docetaxel"
+          }, {
+            "name" : "material type",
+            "value" : "tumour"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "5",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS4993318-ERS4993322"
+            } ]
+          } ]
+        } ] ]
+      }, {
+        "accno" : "source_chars-E-MTAB-9482",
+        "type" : "Source Characteristics",
+        "attributes" : [ {
+          "name" : "Organism",
+          "value" : "Mus musculus"
+        }, {
+          "name" : "Strain",
+          "value" : "CD-1"
+        }, {
+          "name" : "Age",
+          "value" : "week"
+        }, {
+          "name" : "Age",
+          "value" : "6 week"
+        }, {
+          "name" : "Developmental stage",
+          "value" : "adult"
+        }, {
+          "name" : "Sex",
+          "value" : "male"
+        }, {
+          "name" : "Genotype",
+          "value" : "PbCre Ptenfl/fl Spry2fl/+"
+        }, {
+          "name" : "Organism part",
+          "value" : "prostate gland"
+        }, {
+          "name" : "Disease",
+          "value" : "prostate cancer"
+        } ],
+        "subsections" : [ [ {
+          "accno" : "source_0",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "strain",
+            "value" : "CD-1"
+          }, {
+            "name" : "age",
+            "value" : "6 week"
+          }, {
+            "name" : "developmental stage",
+            "value" : "adult"
+          }, {
+            "name" : "sex",
+            "value" : "male"
+          }, {
+            "name" : "genotype",
+            "value" : "PbCre Ptenfl/fl Spry2fl/+"
+          }, {
+            "name" : "organism part",
+            "value" : "prostate gland"
+          }, {
+            "name" : "disease",
+            "value" : "prostate cancer"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "14",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS4993307,ERS4993308,ERS4993309,ERS4993310,ERS4993311,ERS4993312,ERS4993313,ERS4993314,ERS4993315,ERS4993318,ERS4993319,ERS4993320,ERS4993321,ERS4993322"
+            } ]
+          } ]
+        }, {
+          "accno" : "source_1",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "strain"
+          }, {
+            "name" : "age",
+            "value" : "week"
+          }, {
+            "name" : "developmental stage"
+          }, {
+            "name" : "sex"
+          }, {
+            "name" : "genotype"
+          }, {
+            "name" : "organism part"
+          }, {
+            "name" : "disease"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "2",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS4993316-ERS4993317"
+            } ]
+          } ]
+        } ] ]
+      } ]
+    }, {
+      "accno" : "s-assays-data-E-MTAB-9482",
+      "type" : "Assays and Data",
+      "attributes" : [ {
+        "name" : "Assay count",
+        "value" : "16"
+      }, {
+        "name" : "Technology",
+        "value" : "Sequencing assay"
+      }, {
+        "name" : "Assay by Molecule",
+        "value" : "DNA assay"
+      } ],
+      "subsections" : [ {
+        "accno" : "processed-data",
+        "type" : "Processed Data",
+        "files" : [ [ {
+          "path" : "total_tax_mock.count_normalized.txt",
+          "size" : 11170425,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "total_all_tax_mock.count.txt",
+          "size" : 4336752,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "total_tax_mock.count.txt",
+          "size" : 3820713,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "total_all_tax_mock.count_normalized.txt",
+          "size" : 13701901,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "raw_counts_tax_filt_exp_sgrnas_rm_nontarget.tsv",
+          "size" : 1601685,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        } ] ]
+      }, {
+        "accno" : "mt-E-MTAB-9482",
+        "type" : "MAGE-TAB Files",
+        "files" : [ [ {
+          "path" : "E-MTAB-9482.idf.txt",
+          "size" : 4905,
+          "attributes" : [ {
+            "name" : "Type",
+            "value" : "IDF File"
+          }, {
+            "name" : "Format",
+            "value" : "tab-delimited text"
+          }, {
+            "name" : "Description",
+            "value" : "Investigation Design Format (IDF)"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "E-MTAB-9482.sdrf.txt",
+          "size" : 22660,
+          "attributes" : [ {
+            "name" : "Type",
+            "value" : "SDRF File"
+          }, {
+            "name" : "Format",
+            "value" : "tab-delimited text"
+          }, {
+            "name" : "Description",
+            "value" : "Sample and Data Relationship Format (SDRF)"
+          } ],
+          "type" : "file"
+        } ] ]
+      } ]
+    }, {
+      "accno" : "score-E-MTAB-9482",
+      "type" : "MINSEQE Score",
+      "attributes" : [ {
+        "name" : "Exp. Design",
+        "value" : "*"
+      }, {
+        "name" : "Variables",
+        "value" : "*"
+      }, {
+        "name" : "Protocols",
+        "value" : "*"
+      }, {
+        "name" : "Raw",
+        "value" : "*"
+      }, {
+        "name" : "Processed",
+        "value" : "*"
+      } ]
+    } ]
+  },
+  "type" : "submission"
+}

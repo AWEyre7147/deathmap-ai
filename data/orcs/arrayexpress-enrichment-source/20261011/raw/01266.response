@@ -1,0 +1,521 @@
+{
+  "accno" : "E-MTAB-8125",
+  "attributes" : [ {
+    "name" : "Title",
+    "value" : "Genome-scale CRISPR-Cas9 knockout screens for enterovirus D68 and rhinovirus C15"
+  }, {
+    "name" : "ReleaseDate",
+    "value" : "2019-07-10"
+  }, {
+    "name" : "RootPath",
+    "value" : "E-MTAB-8125"
+  }, {
+    "name" : "AttachTo",
+    "value" : "ArrayExpress"
+  } ],
+  "section" : {
+    "accno" : "s-E-MTAB-8125",
+    "type" : "Study",
+    "attributes" : [ {
+      "name" : "Title",
+      "value" : "Genome-scale CRISPR-Cas9 knockout screens for enterovirus D68 and rhinovirus C15"
+    }, {
+      "name" : "Study type",
+      "value" : "DNA-seq",
+      "valqual" : [ {
+        "name" : "Ontology",
+        "value" : "EFO"
+      }, {
+        "name" : "TermId",
+        "value" : "EFO_0002693"
+      } ]
+    }, {
+      "name" : "Study type",
+      "value" : "Cell line - High-throughput sequencing"
+    }, {
+      "name" : "Organism",
+      "value" : "Homo sapiens"
+    }, {
+      "name" : "Description",
+      "value" : "H1-HeLa cells were stably transduced with lentiCas9-Blast (Addgene, Plasmid #52962) and subsequently selected using blasticidin to generate constitutively expressing Cas9 H1-HeLa cells. A single Cas9-expressing H1-HeLa clone was then transduced with lentivirus without a selection marker to stably express CDHR3 C529Y (H1-HeLa+CDHR3). A single CDHR3-expressing H1-HeLa clone was then chosen based on RT-qPCR of CHDR3 expression and RV-C15 RNA levels for mutagenesis. 300 million of the H1-HeLa cells constitutively expressing CDHR3 and Cas9 were transduced with the lentiGuide-Puro from the GeCKO v2 library at a MOI of 0.3. Cells were selected using puromycin and heterogeneous H1-HeLa knockout cell populations were subsequently pooled together. The CRISPR genetic screens were started 10 days post transduction. >1000-fold coverage of mutagenized cells (libraries A and B) was infected with either RV-C15 (MOI=1 PFU/cell) or EV-D68 Missouri (MOI=1 PFU/cell). RV-C15 infection was repeated for an additional round at 6 days post-infection. As soon as appearance of visibly viable colonies was observed, populations of virus-resistant cells were pooled and harvested. Uninfected starting populations of mutagenized cells were used as the unselected reference. Total genomic DNA from both virus-resistant and uninfected cells was respectively extracted using QIAamp DNA Mini Kit (Qiagen). The inserted guide RNA sequences were retrieved from the genomic DNA by PCR amplification. The PCR products were then purified and subjected to NextSeq platform (Illumina) next-generation sequencing."
+    } ],
+    "links" : [ [ {
+      "url" : "ERP116188",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "ENA"
+      } ]
+    } ] ],
+    "subsections" : [ [ {
+      "accno" : "P-MTAB-87437",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-MTAB-87437"
+      }, {
+        "name" : "Type",
+        "value" : "sample collection protocol",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO_0005518"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : ">1000-fold coverage of mutagenized cells (libraries A and B) was infected with either RV-C15 (MOI=1 PFU/cell) or EV-D68 Missouri (MOI=1 PFU/cell).  RV-C15 infection was repeated for an additional round at 6 days post-infection. As soon as appearance of visibly viable colonies was observed, populations of virus-resistant cells were pooled and harvested. Uninfected starting populations of mutagenized cells were used as the unselected reference."
+      }, {
+        "name" : "Parameters"
+      }, {
+        "name" : "Hardware"
+      }, {
+        "name" : "Software"
+      }, {
+        "name" : "Contact"
+      } ]
+    }, {
+      "accno" : "P-MTAB-87438",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-MTAB-87438"
+      }, {
+        "name" : "Type",
+        "value" : "nucleic acid extraction protocol",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO_0002944"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "Total genomic DNA from both virus-resistant and uninfected cells was respectively extracted using QIAamp DNA Mini Kit (Qiagen)."
+      }, {
+        "name" : "Parameters"
+      }, {
+        "name" : "Hardware"
+      }, {
+        "name" : "Software"
+      }, {
+        "name" : "Contact"
+      } ]
+    }, {
+      "accno" : "P-MTAB-87439",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-MTAB-87439"
+      }, {
+        "name" : "Type",
+        "value" : "nucleic acid library construction protocol",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO_0004184"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "The inserted guide RNA sequences were retrieved from the genomic DNA by PCR amplification."
+      }, {
+        "name" : "Parameters"
+      }, {
+        "name" : "Hardware"
+      }, {
+        "name" : "Software"
+      }, {
+        "name" : "Contact"
+      } ]
+    }, {
+      "accno" : "P-MTAB-87440",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-MTAB-87440"
+      }, {
+        "name" : "Type",
+        "value" : "nucleic acid sequencing protocol",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO_0004170"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "The PCR products were then purified and subjected to NextSeq platform (Illumina) next-generation sequencing."
+      }, {
+        "name" : "Parameters"
+      }, {
+        "name" : "Hardware",
+        "value" : "NextSeq 500"
+      }, {
+        "name" : "Software"
+      }, {
+        "name" : "Contact"
+      } ]
+    } ], {
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Yaw Shin Ooi"
+      }, {
+        "name" : "Email",
+        "value" : "ysooi@stanford.edu"
+      }, {
+        "name" : "Role",
+        "value" : "experiment performer;submitter"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Jonathan Diep"
+      }, {
+        "name" : "Email",
+        "value" : "jdiep@stanford.edu"
+      }, {
+        "name" : "Role",
+        "value" : "data analyst;experiment performer;submitter"
+      }, {
+        "name" : "affiliation",
+        "value" : "o2",
+        "reference" : true
+      } ]
+    }, {
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Jan Carette"
+      }, {
+        "name" : "Email",
+        "value" : "carette@stanford.edu"
+      }, {
+        "name" : "Role",
+        "value" : "investigator;submitter"
+      }, {
+        "name" : "affiliation",
+        "value" : "o3",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "o1",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Department of Microbiology & Immunology, Stanford University School of Medicine"
+      }, {
+        "name" : "Address",
+        "value" : "299 Campus Drive,  Fairchild Science Building Rm. D345, Stanford, CA 94305"
+      } ]
+    }, {
+      "accno" : "o2",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Department of Microbiology & Immunology, Stanford University School of Medicine"
+      }, {
+        "name" : "Address",
+        "value" : "299 Campus Drive,  Fairchild Science Building Rm. D345, Stanford, CA 94305"
+      } ]
+    }, {
+      "accno" : "o3",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Department of Microbiology & Immunology, Stanford University School of Medicine"
+      }, {
+        "name" : "Address",
+        "value" : "299 Campus Drive,  Fairchild Science Building Rm. D345, Stanford, CA 94305"
+      } ]
+    }, {
+      "accno" : "s-samples-factors-E-MTAB-8125",
+      "type" : "Samples",
+      "attributes" : [ {
+        "name" : "Sample count",
+        "value" : "6"
+      }, {
+        "name" : "Experimental Designs",
+        "value" : "genetic modification design",
+        "valqual" : [ {
+          "name" : "TermId",
+          "value" : "EFO_0001758"
+        } ]
+      }, {
+        "name" : "Experimental Designs",
+        "value" : "pathogenicity design",
+        "valqual" : [ {
+          "name" : "TermId",
+          "value" : "EFO_0001761"
+        } ]
+      }, {
+        "name" : "Experimental Factors",
+        "value" : "infect",
+        "valqual" : [ {
+          "name" : "TermName",
+          "value" : "infect"
+        } ]
+      } ],
+      "subsections" : [ {
+        "accno" : "exp_factor-E-MTAB-8125",
+        "type" : "Experimental Factors",
+        "attributes" : [ {
+          "name" : "Infect",
+          "value" : "RV-C15 infected"
+        }, {
+          "name" : "Infect",
+          "value" : "EV-D68 (Missouri) infected"
+        }, {
+          "name" : "Infect",
+          "value" : "uninfected/unselected control"
+        } ],
+        "subsections" : [ [ {
+          "accno" : "factors_0",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "infect",
+            "value" : "uninfected/unselected control"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "2",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS3565982-ERS3565983"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_1",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "infect",
+            "value" : "EV-D68 (Missouri) infected"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "2",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS3565984-ERS3565985"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_2",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "infect",
+            "value" : "RV-C15 infected"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "2",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS3565986-ERS3565987"
+            } ]
+          } ]
+        } ] ]
+      }, {
+        "accno" : "source_chars-E-MTAB-8125",
+        "type" : "Source Characteristics",
+        "attributes" : [ {
+          "name" : "Organism",
+          "value" : "Homo sapiens"
+        }, {
+          "name" : "Cell line",
+          "value" : "CDHR3 and Cas9 expressing H1-HeLa cells"
+        }, {
+          "name" : "Genetic modification",
+          "value" : "CRISPR knockout by GeCKO v2 library A (PMID: 25075903)"
+        }, {
+          "name" : "Genetic modification",
+          "value" : "CRISPR knockout by GeCKO v2 library B (PMID: 25075903)"
+        }, {
+          "name" : "Infect",
+          "value" : "RV-C15 infected"
+        }, {
+          "name" : "Infect",
+          "value" : "EV-D68 (Missouri) infected"
+        }, {
+          "name" : "Infect",
+          "value" : "uninfected/unselected control"
+        } ],
+        "subsections" : [ [ {
+          "accno" : "source_0",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "genetic modification",
+            "value" : "CRISPR knockout by GeCKO v2 library A (PMID: 25075903)"
+          }, {
+            "name" : "infect",
+            "value" : "uninfected/unselected control"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS3565982"
+            } ]
+          } ]
+        }, {
+          "accno" : "source_1",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "genetic modification",
+            "value" : "CRISPR knockout by GeCKO v2 library B (PMID: 25075903)"
+          }, {
+            "name" : "infect",
+            "value" : "uninfected/unselected control"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS3565983"
+            } ]
+          } ]
+        }, {
+          "accno" : "source_2",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "genetic modification",
+            "value" : "CRISPR knockout by GeCKO v2 library A (PMID: 25075903)"
+          }, {
+            "name" : "infect",
+            "value" : "EV-D68 (Missouri) infected"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS3565984"
+            } ]
+          } ]
+        }, {
+          "accno" : "source_3",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "genetic modification",
+            "value" : "CRISPR knockout by GeCKO v2 library B (PMID: 25075903)"
+          }, {
+            "name" : "infect",
+            "value" : "EV-D68 (Missouri) infected"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS3565985"
+            } ]
+          } ]
+        }, {
+          "accno" : "source_4",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "genetic modification",
+            "value" : "CRISPR knockout by GeCKO v2 library A (PMID: 25075903)"
+          }, {
+            "name" : "infect",
+            "value" : "RV-C15 infected"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS3565986"
+            } ]
+          } ]
+        }, {
+          "accno" : "source_5",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "genetic modification",
+            "value" : "CRISPR knockout by GeCKO v2 library B (PMID: 25075903)"
+          }, {
+            "name" : "infect",
+            "value" : "RV-C15 infected"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS3565987"
+            } ]
+          } ]
+        } ] ]
+      } ]
+    }, {
+      "accno" : "s-assays-data-E-MTAB-8125",
+      "type" : "Assays and Data",
+      "attributes" : [ {
+        "name" : "Assay count",
+        "value" : "6"
+      }, {
+        "name" : "Technology",
+        "value" : "Sequencing assay"
+      }, {
+        "name" : "Assay by Molecule",
+        "value" : "DNA assay"
+      } ],
+      "subsections" : [ {
+        "accno" : "mt-E-MTAB-8125",
+        "type" : "MAGE-TAB Files",
+        "files" : [ [ {
+          "path" : "E-MTAB-8125.idf.txt",
+          "size" : 4570,
+          "attributes" : [ {
+            "name" : "Type",
+            "value" : "IDF File"
+          }, {
+            "name" : "Format",
+            "value" : "tab-delimited text"
+          }, {
+            "name" : "Description",
+            "value" : "Investigation Design Format (IDF)"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "E-MTAB-8125.sdrf.txt",
+          "size" : 3562,
+          "attributes" : [ {
+            "name" : "Type",
+            "value" : "SDRF File"
+          }, {
+            "name" : "Format",
+            "value" : "tab-delimited text"
+          }, {
+            "name" : "Description",
+            "value" : "Sample and Data Relationship Format (SDRF)"
+          } ],
+          "type" : "file"
+        } ] ]
+      } ]
+    }, {
+      "accno" : "score-E-MTAB-8125",
+      "type" : "MINSEQE Score",
+      "attributes" : [ {
+        "name" : "Exp. Design",
+        "value" : "*"
+      }, {
+        "name" : "Raw",
+        "value" : "*"
+      }, {
+        "name" : "Protocols",
+        "value" : "*"
+      }, {
+        "name" : "Processed",
+        "value" : "-"
+      }, {
+        "name" : "Variables",
+        "value" : "*"
+      } ]
+    } ]
+  },
+  "type" : "submission"
+}

@@ -1,0 +1,27 @@
+Comment[ArrayExpressAccession]	E-GEOD-75189
+MAGE-TAB Version	1.1																		
+Public Release Date	2015-11-25
+Investigation Title	High-Resolution CRISPR Screens Reveal Fitness Genes and Genotype-Specific Cancer Liabilities																		
+Comment[Submitted Name]	High-Resolution CRISPR Screens Reveal Fitness Genes and Genotype-Specific Cancer Liabilities
+Experiment Description	The ability to perturb genes in human cells is crucial for elucidating gene function and holds great potential for finding therapeutic targets for diseases such as cancer. To extend the catalog of human core and context- dependent fitness genes, we have developed a high-complexity second-generation genome-scale CRISPR-Cas9 gRNA library and applied it to fitness screens in five human cell lines. Using an improved Bayesian analytical approach, we consistently discover 5-fold more fitness genes than were previously observed. We present a list of 1,580 human core fitness genes and describe their general properties. Moreover, we demonstrate that context-dependent fitness genes accurately recapitulate pathway-specific genetic vulnerabilities induced by known oncogenes and reveal cell-type-specific dependencies for specific receptor tyrosine kinases, even in oncogenic KRAS backgrounds. Thus, rigorous identification of human cell line fitness genes using a high-complexity CRISPR-Cas9 library affords a high-resolution view of the genetic vulnerabilities of a cell.  Additional data can be found at tko.ccbr.utoronto.ca RNAseq of five human cell lines with Cas9 knock-ins.																		
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl																	
+Person Last Name	Moffat	Hart	Chandrashekhar	Aregger	Steinhart	Brown	MacLeod	Mis	Zimmermann	Fradet-Turcotte	Sun	Mero	Dirks	Sidhu	Roth	Rissland	Durocher	Angers	Moffat
+Person First Name	Jason	Traver	Megha	Michael	Zachary	Kevin	Graham	Monika	Michal	Amelie	Song	Patricia	Peter	Sachdev	Frederick	Olivia	Daniel	Stephane	Jason
+Person Mid Initials						R									P	S			
+Person Email	j.moffat@utoronto.ca																		
+Person Affiliation	University of Toronto																		
+Person Address	CCBR, University of Toronto, 160 College St, Toronto, ON, Canada																		
+Person Roles	submitter																		
+Protocol Name	P-GSE75189-4	P-GSE75189-1	P-GSE75189-3	P-GSE75189-2															
+Protocol Description	TopHat v2.0.13 command line: tophat --transcriptome-index gencode.v19.annotation -T hg19 [fastq file] Cufflinks v2.0.2 command ine: cufflinks -G gencode.v19.annotation.gtf accepted_hits.bam Genome_build: hg19 Supplementary_files_format_and_content: Excel spreadsheet of log2(fpkm+0.01) for protein coding genes	HCT116, HeLa, DLD1, hTERT RPE1 and GBM514 cells were infected with virus carrying the Cas9-2A-Blasticidin expressing cassette and infected cells were selected with blasticidin (5 ug/ml). After 10 days of selection, single cells were sorted onto 96-well plates with a BD FACS Aria IIu cell sorter at low pressure (20 PSI) using a 100 micron nozzle or by manual seeding of a single cell suspension at 0.6 cells/96 well plates. Independent clones were isolated and FLAG-Cas9 expression was determined using Western blot analysis.	RNA was extracted from Cas9-expressing cell lines using TriReagent (Sigma) according to manufacturer's instructions RNA sequencing libraries were prepared with Illumina TruSeq V2 RNA library preparation kit according to manufacturer's directions. Multiplexed libraries (HCT116 only) were sequenced on a single read High Output Illumina NextSeq500 flow cell (version 1 chemistry) with a read length of 61bp.	HCT116 cells were maintained in McCoyâs 5A medium with L-glutamine (Life Technologies) supplemented with 10% FBS (Life Technologies) and 1% Penicillin/Streptomycin (Life Technologies). HeLa, DLD1, and hTERT RPE1 cells were maintained in DMEM with high glucose and pyruvate (Life Technologies) supplemented with 10% FBS (Life Technologies) and 1% Penicillin/Streptomycin (Life Technologies). The patient-derived GBM514 glioblastoma cell line was kindly provided by Peter Dirksâ laboratory at SickKids, Toronto. GBM cells were cultured as described in Pollard et al. 2009.															
+Protocol Type	normalization data transformation protocol	sample treatment protocol	nucleic acid library construction protocol	growth protocol															
+Comment[SecondaryAccession]	GSE75189																		
+Comment[GEOReleaseDate]	2015-11-25																		
+Comment[ArrayExpressSubmissionDate]	2015-11-19																		
+Comment[GEOLastUpdateDate]	2015-11-25																		
+Comment[AEExperimentType]	RNA-seq of coding RNA																		
+Comment[AdditionalFile:Data1]	GSE75189_fpkm-log2-all_samples.xlsx																		
+Comment[SecondaryAccession]	SRP066424																		
+Comment[SequenceDataURI]	http://www.ebi.ac.uk/ena/data/view/SRR2925158-SRR2925169																		
+SDRF File	E-GEOD-75189.sdrf.txt

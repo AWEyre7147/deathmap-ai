@@ -1,0 +1,474 @@
+{
+  "accno" : "E-MTAB-12939",
+  "attributes" : [ {
+    "name" : "Title",
+    "value" : "Cancer-associated FBXW7 loss is synthetic lethal with pharmacological targeting of CDC7"
+  }, {
+    "name" : "ReleaseDate",
+    "value" : "2023-05-22"
+  }, {
+    "name" : "RootPath",
+    "value" : "E-MTAB-12939"
+  }, {
+    "name" : "AttachTo",
+    "value" : "ArrayExpress"
+  } ],
+  "section" : {
+    "accno" : "s-E-MTAB-12939",
+    "type" : "Study",
+    "attributes" : [ {
+      "name" : "Title",
+      "value" : "Cancer-associated FBXW7 loss is synthetic lethal with pharmacological targeting of CDC7"
+    }, {
+      "name" : "Study type",
+      "value" : "DNA-seq",
+      "valqual" : [ {
+        "name" : "Ontology",
+        "value" : "EFO"
+      }, {
+        "name" : "TermId",
+        "value" : "EFO_0002693"
+      } ]
+    }, {
+      "name" : "Organism",
+      "value" : "Homo sapiens"
+    }, {
+      "name" : "Description",
+      "value" : "Synthetic lethal CRISPR screen in MCF10A FBXW7 isogenic models"
+    } ],
+    "links" : [ [ {
+      "url" : "ERP147176",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "ENA"
+      } ]
+    } ] ],
+    "subsections" : [ [ {
+      "accno" : "P-MTAB-132807",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-MTAB-132807"
+      }, {
+        "name" : "Type",
+        "value" : "sample collection protocol",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO_0005518"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "Inducible SpCas9 expressing cells were seeded for 1000x representation per sgRNA, and infected at a multiplicity of infection (MOI) of 0.3, to avoid multiple sgRNA infections per cell, using the previously published and validated genome-wide human lentiviral library (Kosuke Yusa Human GW CRISPR guide RNA library V1). After puromycin selection (1 µg/mL), cells were exposed to doxycycline for 3 days and harvested at day 0 (T0) and on day 14 (T1)."
+      }, {
+        "name" : "Hardware"
+      } ]
+    }, {
+      "accno" : "P-MTAB-132808",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-MTAB-132808"
+      }, {
+        "name" : "Type",
+        "value" : "nucleic acid extraction protocol",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO_0002944"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "Genomic DNA was extracted from the T=0 and T=1 samples using DNeasy Blood and Tissue Kit (Qiagen) as per manufacturers instructions."
+      }, {
+        "name" : "Hardware"
+      } ]
+    }, {
+      "accno" : "P-MTAB-132809",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-MTAB-132809"
+      }, {
+        "name" : "Type",
+        "value" : "nucleic acid library construction protocol",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO_0004184"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "sgRNA sequence were amplified with Q5 polymerase (NEB) with the following primers Forward 5’- ACACTCTTTCCCTACACGACGCTCTTCCGATCTCTTGTGGAAAGGACGAAACA and Reverse 5’- TCGGCATTCCTGCTGAACCGCTCTTCCGATCTCTAAAGCGCATGCTCCAGAC."
+      }, {
+        "name" : "Hardware"
+      } ]
+    }, {
+      "accno" : "P-MTAB-132810",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-MTAB-132810"
+      }, {
+        "name" : "Type",
+        "value" : "nucleic acid sequencing protocol",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO_0004170"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "The PCR products sequenced on HiSeq2500."
+      }, {
+        "name" : "Hardware",
+        "value" : "Illumina HiSeq 2500"
+      } ]
+    } ], {
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Dragomir Krastev"
+      }, {
+        "name" : "Email",
+        "value" : "dragomir.krastev@icr.ac.uk"
+      }, {
+        "name" : "Role",
+        "value" : "submitter"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Christopher Lord"
+      }, {
+        "name" : "Email",
+        "value" : "chris.lord@icr.ac.uk"
+      }, {
+        "name" : "affiliation",
+        "value" : "o2",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "o1",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "The institute of Cancer Research"
+      }, {
+        "name" : "Address",
+        "value" : "237 Fulham Road, SW3 6JB London GB"
+      } ]
+    }, {
+      "accno" : "o2",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "The institute of Cancer Research"
+      }, {
+        "name" : "Address",
+        "value" : "237 Fulham Road, SW3 6JB London GB"
+      } ]
+    }, {
+      "accno" : "s-samples-factors-E-MTAB-12939",
+      "type" : "Samples",
+      "attributes" : [ {
+        "name" : "Sample count",
+        "value" : "6"
+      }, {
+        "name" : "Experimental Designs",
+        "value" : "cell type comparison design",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO:0001745"
+        } ]
+      }, {
+        "name" : "Experimental Factors",
+        "value" : "genotype",
+        "valqual" : [ {
+          "name" : "TermName",
+          "value" : "genotype"
+        } ]
+      }, {
+        "name" : "Experimental Factors",
+        "value" : "sampling time point",
+        "valqual" : [ {
+          "name" : "TermName",
+          "value" : "sampling time point"
+        } ]
+      } ],
+      "subsections" : [ {
+        "accno" : "exp_factor-E-MTAB-12939",
+        "type" : "Experimental Factors",
+        "attributes" : [ {
+          "name" : "Sampling time point",
+          "value" : "T1"
+        }, {
+          "name" : "Sampling time point",
+          "value" : "T0"
+        }, {
+          "name" : "Genotype",
+          "value" : "TP53-/-"
+        }, {
+          "name" : "Genotype",
+          "value" : "TP53-/-, FBXW7-/- clone24"
+        }, {
+          "name" : "Genotype",
+          "value" : "TP53-/-, FBXW7-/- clone17"
+        } ],
+        "subsections" : [ [ {
+          "accno" : "factors_0",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "sampling time point",
+            "value" : "T0"
+          }, {
+            "name" : "genotype",
+            "value" : "TP53-/-, FBXW7-/- clone17"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS15423173"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_1",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "sampling time point",
+            "value" : "T1"
+          }, {
+            "name" : "genotype",
+            "value" : "TP53-/-, FBXW7-/- clone17"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS15423174"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_2",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "sampling time point",
+            "value" : "T0"
+          }, {
+            "name" : "genotype",
+            "value" : "TP53-/-, FBXW7-/- clone24"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS15423175"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_3",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "sampling time point",
+            "value" : "T1"
+          }, {
+            "name" : "genotype",
+            "value" : "TP53-/-, FBXW7-/- clone24"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS15423176"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_4",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "sampling time point",
+            "value" : "T0"
+          }, {
+            "name" : "genotype",
+            "value" : "TP53-/-"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS15423177"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_5",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "sampling time point",
+            "value" : "T1"
+          }, {
+            "name" : "genotype",
+            "value" : "TP53-/-"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS15423178"
+            } ]
+          } ]
+        } ] ]
+      }, {
+        "accno" : "source_chars-E-MTAB-12939",
+        "type" : "Source Characteristics",
+        "attributes" : [ {
+          "name" : "Organism",
+          "value" : "Homo sapiens"
+        }, {
+          "name" : "Cell line",
+          "value" : "MCF-10A"
+        }, {
+          "name" : "Organism part",
+          "value" : "breast"
+        }, {
+          "name" : "Cell type",
+          "value" : "epithelial cell"
+        }, {
+          "name" : "Genotype",
+          "value" : "TP53-/-"
+        }, {
+          "name" : "Genotype",
+          "value" : "TP53-/-, FBXW7-/- clone24"
+        }, {
+          "name" : "Genotype",
+          "value" : "TP53-/-, FBXW7-/- clone17"
+        } ],
+        "subsections" : [ [ {
+          "accno" : "source_0",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "genotype",
+            "value" : "TP53-/-, FBXW7-/- clone17"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "2",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS15423173-ERS15423174"
+            } ]
+          } ]
+        }, {
+          "accno" : "source_1",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "genotype",
+            "value" : "TP53-/-, FBXW7-/- clone24"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "2",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS15423175-ERS15423176"
+            } ]
+          } ]
+        }, {
+          "accno" : "source_2",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "genotype",
+            "value" : "TP53-/-"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "2",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS15423177-ERS15423178"
+            } ]
+          } ]
+        } ] ]
+      } ]
+    }, {
+      "accno" : "s-assays-data-E-MTAB-12939",
+      "type" : "Assays and Data",
+      "attributes" : [ {
+        "name" : "Assay count",
+        "value" : "6"
+      }, {
+        "name" : "Technology",
+        "value" : "Sequencing assay"
+      }, {
+        "name" : "Assay by Molecule",
+        "value" : "DNA assay"
+      } ],
+      "subsections" : [ {
+        "accno" : "mt-E-MTAB-12939",
+        "type" : "MAGE-TAB Files",
+        "files" : [ [ {
+          "path" : "E-MTAB-12939.idf.txt",
+          "size" : 2736,
+          "attributes" : [ {
+            "name" : "Type",
+            "value" : "IDF File"
+          }, {
+            "name" : "Format",
+            "value" : "tab-delimited text"
+          }, {
+            "name" : "Description",
+            "value" : "Investigation Design Format (IDF)"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "E-MTAB-12939.sdrf.txt",
+          "size" : 3778,
+          "attributes" : [ {
+            "name" : "Type",
+            "value" : "SDRF File"
+          }, {
+            "name" : "Format",
+            "value" : "tab-delimited text"
+          }, {
+            "name" : "Description",
+            "value" : "Sample and Data Relationship Format (SDRF)"
+          } ],
+          "type" : "file"
+        } ] ]
+      } ]
+    }, {
+      "accno" : "score-E-MTAB-12939",
+      "type" : "MINSEQE Score",
+      "attributes" : [ {
+        "name" : "Exp. Design",
+        "value" : "*"
+      }, {
+        "name" : "Protocols",
+        "value" : "-"
+      }, {
+        "name" : "Variables",
+        "value" : "*"
+      }, {
+        "name" : "Processed",
+        "value" : "-"
+      }, {
+        "name" : "Raw",
+        "value" : "*"
+      } ]
+    } ]
+  },
+  "type" : "submission"
+}

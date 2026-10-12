@@ -1,0 +1,34 @@
+Comment[ArrayExpressAccession]	E-GEOD-70038
+MAGE-TAB Version	1.1						
+Public Release Date	2016-02-15
+Investigation Title	Genome-wide CRISPR-Cas9 screens reveal loss of redundancy between PKMYT1 and WEE1 in Glioblastoma stem-like cells						
+Comment[Submitted Name]	Genome-wide CRISPR-Cas9 screens reveal loss of redundancy between PKMYT1 and WEE1 in Glioblastoma stem-like cells
+Experiment Description	To identify new therapeutic targets for Glioblastoma (GBM), we performed genome-wide CRISPR-Cas9 &quot;knockout&quot; (KO) screens in patient-derived GBM stem-like cells (GSCs) and human neural stem/progenitors (NSCs), non-neoplastic stem cell controls, for genes required for their in vitro growth.  Surprisingly, the vast majority GSC-lethal hits were found outside of molecular networks commonly altered in GBM and GSCs (e.g., oncogenic drivers).  In vitro and in vivo validation of GSC-specific targets revealed several strong hits, including the wee1-like kinase, PKMYT1/Myt1.  Mechanistic studies demonstrated that PKMYT1 acts redundantly with WEE1 to inhibit Cyclin B-CDK1 activity via CDK1-Tyr15 phosphorylation and to promote timely completion of mitosis in NSCs.  However, in GSCs, this redundancy is lost, likely as a result of oncogenic signaling, causing GBM-specific lethality.  A whole-genome CRISPR-Cas9 knockout screens targeting over 18,000 genes using the all-in-one LV-sgRNA:Cas9 platform system were performed using a âshot gunâ approach by transducing 2 GBM patient-derived isolates and 2 human neural stem cell isolates with the pool library (2 biological replicates), and cultures were outgrown for ~3 weeks.  The end time point of each screen was compared to day 0 in order to determine which sgRNAs were overrepresented or underrepresented in the population.						
+Term Source Name	ArrayExpress	EFO
+Term Source File	http://www.ebi.ac.uk/arrayexpress/	http://www.ebi.ac.uk/efo/efo.owl					
+Person Last Name	Paddison	Toledo	Ding	Basom	Delrow	Olson	Paddison
+Person First Name	Patrick	Chad	Yu	Ryan	Jeffery	James	Patrick
+Person Mid Initials		M			J	M	J
+Person Email	paddison@fhcrc.org						
+Person Affiliation	Fred Hutchinson Cancer Research Center						
+Person Phone	206-667-4474						
+Person Address	Fred Hutchinson Cancer Research Center, 1100 Fairview Ave N, C3-187, Seattle, WA, USA						
+Person Roles	submitter						
+Protocol Name	P-GSE70038-1	P-GSE70038-2	P-GSE70038-3				
+Protocol Description	For large-scale transduction, ~ 220 million GSC or NSC cells were plated into T225 flasks at an appropriate density per biological replicate. Each replicate was transduced such that ~500 fold representation of the library was achieved (at MOI~1 and 30% infection efficiency). 2 days after transduction, puromycin was added (1-4Î¼g/ml) and maintained for 3 days. A portion of cells were harvested as Day 0 time point. The remaining cells were then passaged into T225 flasks maintaining 500 fold representation and cultured for an additional 21-23 days or ~8-10 cell doublings.	GSC and NSC lines were grown in N2B27 neural basal media (StemCell Technologies) supplemented with EGF and FGF-2 (20ng/mL each) (Peprotech) on laminin (Sigma) coated polystyrene plates and passaged as previously described. Cells were detached from their plates using Accutase (Millipore). Cells were split every 3-4 days.	Genomic DNA was extracted using QiaAmp blood purification Midi kit (Qiagen). A two-step PCR procedure was employed to amplify sgRNA sequences (first PCR:12 cycles) and then to incorporate deep sequencing primer sites onto sgRNA amplicons (second PCR:20 cycles). For the first PCR, the amount of genomic DNA for each sample was calculated in order to achieve 500-fold coverage over the library (~6.6 Î¼g of gDNA for 106 cells), which resulted in ~213 Î¼g DNA per sample. For each sample, ~100 separate PCR reactions were performed with 2 Î¼g genomic DNA in each reaction using Herculase II Fusion DNA Polymerase (Agilent). Afterwards, a second PCR was performed to add on Illumina adaptors and to barcode samples, using 5ul of the product from the first PCR. We used a primer set to include both a variable 1-6 bp sequence to increase library complexity and 6 bp Illumina barcodes for multiplexing of different biological samples. Resulting amplicons from the second PCR were column purified using the combination of PureLink PCR purification kit (Life Technologies) and MinElute PCR purification kit (Qiagen) to remove genomic DNA and first round PCR product. Purified products were quantified, and mixed.				
+Protocol Type	sample treatment protocol	growth protocol	nucleic acid extraction protocol				
+Experimental Factor Name	gbm subtype	time	isolate	cell type	age		
+Experimental Factor Type	gbm subtype	time	isolate	cell type	age		
+Publication Title	Genome-wide CRISPR-Cas9 Screens Reveal Loss of Redundancy between PKMYT1 and WEE1 in Glioblastoma Stem-like Cells.						
+Publication Author List	Toledo CM, Ding Y, Hoellerbauer P, Davis RJ, Basom R, Girard EJ, Lee E, Corrin P, Hart T, Bolouri H, Davison J, Zhang Q, Hardcastle J, Aronow BJ, Plaisier CL, Baliga NS, Moffat J, Lin Q, Li XN, Nam DH, Lee J, Pollard SM, Zhu J, Delrow JJ, Clurman BE, Olson JM, Paddison PJ						
+PubMed ID	26673326						
+Publication DOI	10.1016/j.celrep.2015.11.021						
+Comment[SecondaryAccession]	GSE70038						
+Comment[GEOReleaseDate]	2016-02-15						
+Comment[ArrayExpressSubmissionDate]	2015-06-19						
+Comment[GEOLastUpdateDate]	2016-02-15						
+Comment[AEExperimentType]	other						
+Comment[AdditionalFile:Data1]	GSE70038_rawReadCounts.txt						
+Comment[SecondaryAccession]	SRP059683						
+Comment[SequenceDataURI]	http://www.ebi.ac.uk/ena/data/view/SRR2071294-SRR2071309						
+SDRF File	E-GEOD-70038.sdrf.txt

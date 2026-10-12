@@ -11,3 +11,8 @@ Europe PMC accession annotations and literature-data links, and request receipts
 These retain upstream terms and original identifiers; the project MIT license
 does not relicense them. Annotation text supplied by metadata services is retained
 as returned, without retrieving the underlying publication bodies or supplements.
+
+The BioStudies–ArrayExpress collection includes native PageTab study metadata,
+IDF/SDRF descriptive metadata, Europe PMC accession annotations and request
+receipts. These remain source-derived metadata under their upstream terms, with
+original identifiers and provenance. Experimental data files were not retrieved.

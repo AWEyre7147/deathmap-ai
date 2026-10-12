@@ -1,0 +1,651 @@
+{
+  "accno" : "E-GEOD-70038",
+  "attributes" : [ {
+    "name" : "Title",
+    "value" : "Genome-wide CRISPR-Cas9 screens reveal loss of redundancy between PKMYT1 and WEE1 in Glioblastoma stem-like cells"
+  }, {
+    "name" : "ReleaseDate",
+    "value" : "2016-02-15"
+  }, {
+    "name" : "RootPath",
+    "value" : "E-GEOD-70038"
+  }, {
+    "name" : "AttachTo",
+    "value" : "ArrayExpress"
+  } ],
+  "section" : {
+    "accno" : "s-E-GEOD-70038",
+    "type" : "Study",
+    "attributes" : [ {
+      "name" : "Title",
+      "value" : "Genome-wide CRISPR-Cas9 screens reveal loss of redundancy between PKMYT1 and WEE1 in Glioblastoma stem-like cells"
+    }, {
+      "name" : "Study type",
+      "value" : "other"
+    }, {
+      "name" : "Organism",
+      "value" : "Homo sapiens"
+    }, {
+      "name" : "Description",
+      "value" : "To identify new therapeutic targets for Glioblastoma (GBM), we performed genome-wide CRISPR-Cas9 &quot;knockout&quot; (KO) screens in patient-derived GBM stem-like cells (GSCs) and human neural stem/progenitors (NSCs), non-neoplastic stem cell controls, for genes required for their in vitro growth.  Surprisingly, the vast majority GSC-lethal hits were found outside of molecular networks commonly altered in GBM and GSCs (e.g., oncogenic drivers).  In vitro and in vivo validation of GSC-specific targets revealed several strong hits, including the wee1-like kinase, PKMYT1/Myt1.  Mechanistic studies demonstrated that PKMYT1 acts redundantly with WEE1 to inhibit Cyclin B-CDK1 activity via CDK1-Tyr15 phosphorylation and to promote timely completion of mitosis in NSCs.  However, in GSCs, this redundancy is lost, likely as a result of oncogenic signaling, causing GBM-specific lethality.  A whole-genome CRISPR-Cas9 knockout screens targeting over 18,000 genes using the all-in-one LV-sgRNA:Cas9 platform system were performed using a âshot gunâ approach by transducing 2 GBM patient-derived isolates and 2 human neural stem cell isolates with the pool library (2 biological replicates), and cultures were outgrown for ~3 weeks.  The end time point of each screen was compared to day 0 in order to determine which sgRNAs were overrepresented or underrepresented in the population."
+    } ],
+    "links" : [ [ {
+      "url" : "SRP059683",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "ENA"
+      } ]
+    } ] ],
+    "subsections" : [ [ {
+      "accno" : "P-GSE70038-1",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-GSE70038-1"
+      }, {
+        "name" : "Type",
+        "value" : "sample treatment protocol"
+      }, {
+        "name" : "Description",
+        "value" : "For large-scale transduction, ~ 220 million GSC or NSC cells were plated into T225 flasks at an appropriate density per biological replicate. Each replicate was transduced such that ~500 fold representation of the library was achieved (at MOI~1 and 30% infection efficiency). 2 days after transduction, puromycin was added (1-4Î¼g/ml) and maintained for 3 days. A portion of cells were harvested as Day 0 time point. The remaining cells were then passaged into T225 flasks maintaining 500 fold representation and cultured for an additional 21-23 days or ~8-10 cell doublings."
+      } ]
+    }, {
+      "accno" : "P-GSE70038-2",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-GSE70038-2"
+      }, {
+        "name" : "Type",
+        "value" : "growth protocol"
+      }, {
+        "name" : "Description",
+        "value" : "GSC and NSC lines were grown in N2B27 neural basal media (StemCell Technologies) supplemented with EGF and FGF-2 (20ng/mL each) (Peprotech) on laminin (Sigma) coated polystyrene plates and passaged as previously described. Cells were detached from their plates using Accutase (Millipore). Cells were split every 3-4 days."
+      } ]
+    }, {
+      "accno" : "P-GSE70038-3",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-GSE70038-3"
+      }, {
+        "name" : "Type",
+        "value" : "nucleic acid extraction protocol"
+      }, {
+        "name" : "Description",
+        "value" : "Genomic DNA was extracted using QiaAmp blood purification Midi kit (Qiagen). A two-step PCR procedure was employed to amplify sgRNA sequences (first PCR:12 cycles) and then to incorporate deep sequencing primer sites onto sgRNA amplicons (second PCR:20 cycles). For the first PCR, the amount of genomic DNA for each sample was calculated in order to achieve 500-fold coverage over the library (~6.6 Î¼g of gDNA for 106 cells), which resulted in ~213 Î¼g DNA per sample. For each sample, ~100 separate PCR reactions were performed with 2 Î¼g genomic DNA in each reaction using Herculase II Fusion DNA Polymerase (Agilent). Afterwards, a second PCR was performed to add on Illumina adaptors and to barcode samples, using 5ul of the product from the first PCR. We used a primer set to include both a variable 1-6 bp sequence to increase library complexity and 6 bp Illumina barcodes for multiplexing of different biological samples. Resulting amplicons from the second PCR were column purified using the combination of PureLink PCR purification kit (Life Technologies) and MinElute PCR purification kit (Qiagen) to remove genomic DNA and first round PCR product. Purified products were quantified, and mixed."
+      } ]
+    } ], {
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Patrick Paddison"
+      }, {
+        "name" : "Email",
+        "value" : "paddison@fhcrc.org"
+      }, {
+        "name" : "Phone",
+        "value" : "206-667-4474"
+      }, {
+        "name" : "Role",
+        "value" : "submitter"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Chad Toledo"
+      } ]
+    }, {
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Yu Ding"
+      } ]
+    }, {
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Ryan Basom"
+      } ]
+    }, {
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Jeffery Delrow"
+      } ]
+    }, {
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "James Olson"
+      } ]
+    }, {
+      "accno" : "o1",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Fred Hutchinson Cancer Research Center"
+      }, {
+        "name" : "Address",
+        "value" : "Fred Hutchinson Cancer Research Center, 1100 Fairview Ave N, C3-187, Seattle, WA, USA"
+      } ]
+    }, {
+      "accno" : "26673326",
+      "type" : "Publication",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Genome-wide CRISPR-Cas9 Screens Reveal Loss of Redundancy between PKMYT1 and WEE1 in Glioblastoma Stem-like Cells."
+      }, {
+        "name" : "Authors",
+        "value" : "Toledo CM, Ding Y, Hoellerbauer P, Davis RJ, Basom R, Girard EJ, Lee E, Corrin P, Hart T, Bolouri H, Davison J, Zhang Q, Hardcastle J, Aronow BJ, Plaisier CL, Baliga NS, Moffat J, Lin Q, Li XN, Nam DH, Lee J, Pollard SM, Zhu J, Delrow JJ, Clurman BE, Olson JM, Paddison PJ"
+      }, {
+        "name" : "DOI",
+        "value" : "10.1016/j.celrep.2015.11.021"
+      } ],
+      "links" : [ {
+        "url" : "10.1016/j.celrep.2015.11.021",
+        "attributes" : [ {
+          "name" : "Type",
+          "value" : "DOI"
+        } ]
+      } ]
+    }, {
+      "accno" : "s-samples-factors-E-GEOD-70038",
+      "type" : "Samples",
+      "attributes" : [ {
+        "name" : "Sample count",
+        "value" : "16"
+      }, {
+        "name" : "Experimental Factors",
+        "value" : "gbm subtype",
+        "valqual" : [ {
+          "name" : "TermName",
+          "value" : "gbm subtype"
+        } ]
+      }, {
+        "name" : "Experimental Factors",
+        "value" : "time",
+        "valqual" : [ {
+          "name" : "TermName",
+          "value" : "time"
+        } ]
+      }, {
+        "name" : "Experimental Factors",
+        "value" : "isolate",
+        "valqual" : [ {
+          "name" : "TermName",
+          "value" : "isolate"
+        } ]
+      }, {
+        "name" : "Experimental Factors",
+        "value" : "cell type",
+        "valqual" : [ {
+          "name" : "TermName",
+          "value" : "cell type"
+        } ]
+      }, {
+        "name" : "Experimental Factors",
+        "value" : "age",
+        "valqual" : [ {
+          "name" : "TermName",
+          "value" : "age"
+        } ]
+      } ],
+      "subsections" : [ {
+        "accno" : "exp_factor-E-GEOD-70038",
+        "type" : "Experimental Factors",
+        "attributes" : [ {
+          "name" : "Age",
+          "value" : "Fetal"
+        }, {
+          "name" : "Age",
+          "value" : "adult"
+        }, {
+          "name" : "Cell type",
+          "value" : "GBM stem-like cells"
+        }, {
+          "name" : "Cell type",
+          "value" : "neural stem cell"
+        }, {
+          "name" : "Gbm subtype",
+          "value" : "Proneural"
+        }, {
+          "name" : "Gbm subtype",
+          "value" : "not specified"
+        }, {
+          "name" : "Gbm subtype",
+          "value" : "Mesenchymal"
+        }, {
+          "name" : "Isolate",
+          "value" : "NSC-U5"
+        }, {
+          "name" : "Isolate",
+          "value" : "NSC-CB660"
+        }, {
+          "name" : "Isolate",
+          "value" : "GSC-0131"
+        }, {
+          "name" : "Isolate",
+          "value" : "GSC-0827"
+        }, {
+          "name" : "Time",
+          "value" : "Day 23"
+        }, {
+          "name" : "Time",
+          "value" : "Day 21"
+        }, {
+          "name" : "Time",
+          "value" : "Day 0"
+        } ],
+        "subsections" : [ [ {
+          "accno" : "factors_0",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "age",
+            "value" : "Fetal"
+          }, {
+            "name" : "cell type",
+            "value" : "neural stem cell"
+          }, {
+            "name" : "gbm subtype",
+            "value" : "not specified"
+          }, {
+            "name" : "isolate",
+            "value" : "NSC-U5"
+          }, {
+            "name" : "time",
+            "value" : "Day 21"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "2",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/SRS966455-SRS966456"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_1",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "age",
+            "value" : "Fetal"
+          }, {
+            "name" : "cell type",
+            "value" : "neural stem cell"
+          }, {
+            "name" : "gbm subtype",
+            "value" : "not specified"
+          }, {
+            "name" : "isolate",
+            "value" : "NSC-U5"
+          }, {
+            "name" : "time",
+            "value" : "Day 0"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "2",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/SRS966457-SRS966458"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_2",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "age",
+            "value" : "Fetal"
+          }, {
+            "name" : "cell type",
+            "value" : "neural stem cell"
+          }, {
+            "name" : "gbm subtype",
+            "value" : "not specified"
+          }, {
+            "name" : "isolate",
+            "value" : "NSC-CB660"
+          }, {
+            "name" : "time",
+            "value" : "Day 23"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "2",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/SRS966459-SRS966460"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_3",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "age",
+            "value" : "Fetal"
+          }, {
+            "name" : "cell type",
+            "value" : "neural stem cell"
+          }, {
+            "name" : "gbm subtype",
+            "value" : "not specified"
+          }, {
+            "name" : "isolate",
+            "value" : "NSC-CB660"
+          }, {
+            "name" : "time",
+            "value" : "Day 0"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "2",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/SRS966461-SRS966462"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_4",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "age",
+            "value" : "adult"
+          }, {
+            "name" : "cell type",
+            "value" : "GBM stem-like cells"
+          }, {
+            "name" : "gbm subtype",
+            "value" : "Proneural"
+          }, {
+            "name" : "isolate",
+            "value" : "GSC-0827"
+          }, {
+            "name" : "time",
+            "value" : "Day 23"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "2",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/SRS966471-SRS966472"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_5",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "age",
+            "value" : "adult"
+          }, {
+            "name" : "cell type",
+            "value" : "GBM stem-like cells"
+          }, {
+            "name" : "gbm subtype",
+            "value" : "Proneural"
+          }, {
+            "name" : "isolate",
+            "value" : "GSC-0827"
+          }, {
+            "name" : "time",
+            "value" : "Day 0"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "2",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/SRS966473-SRS966474"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_6",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "age",
+            "value" : "adult"
+          }, {
+            "name" : "cell type",
+            "value" : "GBM stem-like cells"
+          }, {
+            "name" : "gbm subtype",
+            "value" : "Mesenchymal"
+          }, {
+            "name" : "isolate",
+            "value" : "GSC-0131"
+          }, {
+            "name" : "time",
+            "value" : "Day 23"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "2",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/SRS966475-SRS966476"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_7",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "age",
+            "value" : "adult"
+          }, {
+            "name" : "cell type",
+            "value" : "GBM stem-like cells"
+          }, {
+            "name" : "gbm subtype",
+            "value" : "Mesenchymal"
+          }, {
+            "name" : "isolate",
+            "value" : "GSC-0131"
+          }, {
+            "name" : "time",
+            "value" : "Day 0"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "2",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/SRS966477-SRS966478"
+            } ]
+          } ]
+        } ] ]
+      }, {
+        "accno" : "source_chars-E-GEOD-70038",
+        "type" : "Source Characteristics",
+        "attributes" : [ {
+          "name" : "Organism",
+          "value" : "Homo sapiens"
+        }, {
+          "name" : "Source",
+          "value" : "Primary patient-derived isolates"
+        }, {
+          "name" : "Age",
+          "value" : "Fetal"
+        }, {
+          "name" : "Age",
+          "value" : "adult"
+        }, {
+          "name" : "Cell type",
+          "value" : "GBM stem-like cells"
+        }, {
+          "name" : "Cell type",
+          "value" : "neural stem cell"
+        }, {
+          "name" : "Gbm subtype",
+          "value" : "Proneural"
+        }, {
+          "name" : "Gbm subtype",
+          "value" : "Mesenchymal"
+        }, {
+          "name" : "Isolate",
+          "value" : "NSC-U5"
+        }, {
+          "name" : "Isolate",
+          "value" : "NSC-CB660"
+        }, {
+          "name" : "Isolate",
+          "value" : "GSC-0131"
+        }, {
+          "name" : "Isolate",
+          "value" : "GSC-0827"
+        } ],
+        "subsections" : [ [ {
+          "accno" : "source_0",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "age",
+            "value" : "Fetal"
+          }, {
+            "name" : "cell type",
+            "value" : "neural stem cell"
+          }, {
+            "name" : "gbm subtype"
+          }, {
+            "name" : "isolate",
+            "value" : "NSC-U5"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "4",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/SRS966455-SRS966458"
+            } ]
+          } ]
+        }, {
+          "accno" : "source_1",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "age",
+            "value" : "Fetal"
+          }, {
+            "name" : "cell type",
+            "value" : "neural stem cell"
+          }, {
+            "name" : "gbm subtype"
+          }, {
+            "name" : "isolate",
+            "value" : "NSC-CB660"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "4",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/SRS966459-SRS966462"
+            } ]
+          } ]
+        }, {
+          "accno" : "source_2",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "age",
+            "value" : "adult"
+          }, {
+            "name" : "cell type",
+            "value" : "GBM stem-like cells"
+          }, {
+            "name" : "gbm subtype",
+            "value" : "Proneural"
+          }, {
+            "name" : "isolate",
+            "value" : "GSC-0827"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "4",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/SRS966471-SRS966474"
+            } ]
+          } ]
+        }, {
+          "accno" : "source_3",
+          "type" : "Characteristics Table",
+          "attributes" : [ {
+            "name" : "age",
+            "value" : "adult"
+          }, {
+            "name" : "cell type",
+            "value" : "GBM stem-like cells"
+          }, {
+            "name" : "gbm subtype",
+            "value" : "Mesenchymal"
+          }, {
+            "name" : "isolate",
+            "value" : "GSC-0131"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "4",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/SRS966475-SRS966478"
+            } ]
+          } ]
+        } ] ]
+      } ]
+    }, {
+      "accno" : "s-assays-data-E-GEOD-70038",
+      "type" : "Assays and Data",
+      "attributes" : [ {
+        "name" : "Assay count",
+        "value" : "16"
+      }, {
+        "name" : "Technology",
+        "value" : "Sequencing assay"
+      } ],
+      "subsections" : [ {
+        "accno" : "mt-E-GEOD-70038",
+        "type" : "MAGE-TAB Files",
+        "files" : [ [ {
+          "path" : "E-GEOD-70038.idf.txt",
+          "size" : 5739,
+          "attributes" : [ {
+            "name" : "Type",
+            "value" : "IDF File"
+          }, {
+            "name" : "Format",
+            "value" : "tab-delimited text"
+          }, {
+            "name" : "Description",
+            "value" : "Investigation Design Format (IDF)"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "E-GEOD-70038.sdrf.txt",
+          "size" : 10414,
+          "attributes" : [ {
+            "name" : "Type",
+            "value" : "SDRF File"
+          }, {
+            "name" : "Format",
+            "value" : "tab-delimited text"
+          }, {
+            "name" : "Description",
+            "value" : "Sample and Data Relationship Format (SDRF)"
+          } ],
+          "type" : "file"
+        } ] ]
+      } ]
+    }, {
+      "accno" : "score-E-GEOD-70038",
+      "type" : "MINSEQE Score",
+      "attributes" : [ {
+        "name" : "Exp. Design",
+        "value" : "-"
+      }, {
+        "name" : "Protocols",
+        "value" : "*"
+      }, {
+        "name" : "Raw",
+        "value" : "*"
+      }, {
+        "name" : "Variables",
+        "value" : "*"
+      }, {
+        "name" : "Processed",
+        "value" : "-"
+      } ]
+    } ]
+  },
+  "type" : "submission"
+}

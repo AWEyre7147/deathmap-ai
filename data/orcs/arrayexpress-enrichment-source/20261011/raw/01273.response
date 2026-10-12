@@ -1,0 +1,71 @@
+MAGE-TAB Version	1.1
+Investigation Title	In vivo CRISPR/Cas9 screen to identify candidate therapeutic gene targets to enhance docetaxel efficacy in prostate cancer
+
+Experimental Design	case control design
+Experimental Design Term Source REF	EFO
+Experimental Design Term Accession Number	EFO:0001427
+
+Experimental Factor Name	material type	compound
+Experimental Factor Type	material type	compound
+Experimental Factor Term Source REF
+Experimental Factor Term Accession Number
+
+Person Last Name	Repiscak	Leung
+Person First Name	Peter	Hing
+Person Mid Initials		Y
+Person Email	p.repiscak@beatson.gla.ac.uk	h.leung@beatson.gla.ac.uk
+Person Phone
+Person Fax
+Person Affiliation	Institute of Cancer Sciences, College of Medical, Veterinary and Life Sciences, University of Glasgow, Bearsden, Glasgow, G61 1QH, UK. CRUK Beatson Institute, Bearsden, Glasgow, G61 1BD, UK.	Institute of Cancer Sciences, College of Medical, Veterinary and Life Sciences, University of Glasgow, Bearsden, Glasgow, G61 1QH, UK. CRUK Beatson Institute, Bearsden, Glasgow, G61 1BD, UK.
+Person Address	CRUK Beatson Institute, Bearsden, Glasgow, G61 1BD, UK	CRUK Beatson Institute, Bearsden, Glasgow, G61 1BD, UK
+Person Roles	submitter	investigator
+Person Roles Term Source REF
+Person Roles Term Accession Number
+
+Quality Control Type
+Quality Control Term Source REF
+Quality Control Term Accession Number
+
+Replicate Type
+Replicate Term Source REF
+Replicate Term Accession Number
+
+Normalization Type
+Normalization Term Source REF
+Normalization Term Accession Number
+
+Date of Experiment	2017-03-14
+Public Release Date	2020-10-07
+
+PubMed ID
+Publication DOI
+Publication Author List	Linda K. Rushworth, Victoria Harle, Peter Repiscak, William Clark, Robin Shaw, Holly Hall, Martin Bushell, Hing Y. Leung and Rachana Patel
+Publication Title	In vivo CRISPR/Cas9 screen identifies TCEAL1 as a target to enhance docetaxel efficacy in prostate cancer
+Publication Status	submitted
+Publication Status Term Source REF
+Publication Status Term Accession Number
+
+Experiment Description	Docetaxel chemotherapy in metastatic prostate cancer offers only a modest survival benefit due to emerging resistance. To identify candidate therapeutic gene targets, we applied a murine prostate cancer orthograft model that recapitulates clinical invasive prostate cancer in a genome-wide CRISPR/Cas9 screen under docetaxel treatment pressure.
+
+Protocol Name	P-MTAB-100416	P-MTAB-100415	P-MTAB-100413	P-MTAB-100414	P-MTAB-100412
+Protocol Type	normalization data transformation protocol	nucleic acid sequencing protocol	nucleic acid extraction protocol	nucleic acid library construction protocol	sample collection protocol
+Protocol Term Source REF	EFO	EFO	EFO	EFO	EFO
+Protocol Term Accession Number	EFO_0003816	EFO_0004170	EFO_0002944	EFO_0004184	EFO_0005518
+Protocol Description	Collected sgRNA read counts were normalised by total read counts (--norm-method total) and only sgRNAs with an average expression higher than 100 reads across the treatment groups (either vehicle or docetaxel), and genes with at least 2 sgRNAs detected were kept for further analysis.	Libraries for the different samples were pooled and sequenced on an Illumina NextSeq500.	DNA was extracted from 100mg of ground tumour (or entire tumour if weight under 100mg) using QIAamp DNA Mini kit (Qiagen) as per the manufacturer’s instructions.	DNA was prepared for deep sequencing by conducting a two-step PCR. The initial PCR amplified a region of the gRNA cassette to maintain library representation, while the second PCR added the primers required for sequencing. PCR was repeated 35 times for 100 fold library representation. All PCR products per sample were combined and used in the second PCR round to add the primers required for sequencing. PCR products from each sample were again combined and concentrated using a QIAquick PCR Purification Kit (Qiagen) as per the manufacturer’s instructions. Each sample was run on a 1.5% agarose gel. Bands were excised and DNA purified using a QIAquick Gel Extraction Kit before sending for sequencing.	DNA was extracted from each whole tumour using the Blood and Cell Culture DNA Maxi kit (Qiagen) according to the manufacturer’s instructions.
+Protocol Parameters
+Protocol Hardware		NextSeq 500
+Protocol Software
+Protocol Contact
+
+Term Source Name	EFO	ArrayExpress
+Term Source File	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/arrayexpress/
+Term Source Version	2.38
+
+SDRF File	E-MTAB-9482.sdrf.txt
+Comment [TemplateType]	Animal - High-throughput sequencing
+Comment [Submitted Name]	In vivo CRISPR/Cas9 screen to identify candidate therapeutic gene targets to enhance docetaxel efficacy in prostate cancer
+Comment [SecondaryAccession]	ERP123631
+Comment [SequenceDataURI]	http://www.ebi.ac.uk/ena/data/view/ERR4508045-ERR4508062
+Comment [AEExperimentType]	DNA-seq
+Comment[ArrayExpressAccession]	E-MTAB-9482
+Comment [RelatedExperiment]	E-MTAB-9484

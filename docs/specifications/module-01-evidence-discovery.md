@@ -6,7 +6,7 @@ Module 1 — Evidence discovery and dataset attribution
 
 ## Status
 
-Current iteration: v02 — ORCS Pilot Enrichment. Partially implemented. Cached ORCS discovery, saved Cellosaurus interpretation, publication identifier enrichment and portable Excel output are implemented. PubMed-led metadata enrichment of the ORCS publication index and saved searches is implemented under the owner's 2026-10-08 authorization. GEO accession discovery, brief Series/GSM metadata, the registered owner template and shared ORCS database are implemented under the owner's 2026-10-10/11 authorization. All 418 publications were processed; ownership and screen attribution remain unassessed. BioStudies–ArrayExpress, ENA and screen grouping remain pending approved contracts. OmicsDI discovery is retired.
+Current iteration: v02 — ORCS Pilot Enrichment. Partially implemented. Cached ORCS discovery, saved Cellosaurus interpretation, publication identifier enrichment and portable Excel output are implemented. PubMed-led metadata enrichment of the ORCS publication index and saved searches is implemented under the owner's 2026-10-08 authorization. GEO accession discovery, brief Series/GSM metadata, the registered owner template and shared ORCS database are implemented under the owner's 2026-10-10/11 authorization. All 418 publications were processed; ownership and screen attribution remain unassessed. BioStudies–ArrayExpress enrichment is complete under the owner's 2026-10-11 authorization: 418 publications processed, ten candidate studies, eleven publication–study associations and IDF/SDRF for all ten studies. ENA and screen grouping remain pending approved contracts. OmicsDI discovery is retired.
 
 ## Objective
 
@@ -122,7 +122,7 @@ and experimental descriptions.
 Discovery and enrichment evidence remain separately attributed. An enrichment
 result must not be misreported as a direct discovery hit.
 
-Implemented sources: saved BioGRID ORCS metadata, saved Cellosaurus annotations, cached NCBI publication identifier responses, the owner-authorized PubMed EFetch/ELink/ESummary database, and GEO/Europe PMC metadata routes. GEO collections preserve native Series/GSM records and explicit hierarchy separately from candidate publication associations. PubMed and GEO workbooks preserve approved template XML envelopes. Next repository goals are BioStudies–ArrayExpress and ENA under their own accepted contracts; cross-resource attribution and evidence harmonization remain pending. PRIDE, MassIVE, jPOST and iProX remain later resource candidates.
+Implemented sources: saved BioGRID ORCS metadata, saved Cellosaurus annotations, cached NCBI publication identifier responses, the owner-authorized PubMed EFetch/ELink/ESummary database, and GEO/Europe PMC metadata routes. GEO collections preserve native Series/GSM records and explicit hierarchy separately from candidate publication associations. PubMed and GEO workbooks preserve approved template XML envelopes. BioStudies–ArrayExpress native study and IDF/SDRF metadata, accession annotations, the final owner template and canonical ORCS enrichment are implemented. The active discovery routes are complete-title search and accession annotations; the completed run retains its original code snapshots and route evidence. ENA remains a repository goal under its own accepted contract; cross-resource attribution and evidence harmonization remain pending. PRIDE, MassIVE, jPOST and iProX remain later resource candidates.
 
 ## Workflow
 

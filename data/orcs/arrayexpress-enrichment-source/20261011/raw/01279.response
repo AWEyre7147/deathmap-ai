@@ -1,0 +1,70 @@
+MAGE-TAB Version	1.1
+Investigation Title	Functional genomic screens in human cells to identify host factors for SARS-CoV-2 and common cold coronaviruses
+
+Experimental Design	genetic modification design
+Experimental Design Term Source REF	EFO
+Experimental Design Term Accession Number	EFO:0001758
+
+Experimental Factor Name	genotype	infect
+Experimental Factor Type	genotype	infect
+Experimental Factor Term Source REF	EFO	EFO
+Experimental Factor Term Accession Number	EFO_0000513	EFO_0000544
+
+Person Last Name	S
+Person First Name	Andreas Puschnik
+Person Mid Initials
+Person Email	andreas.puschnik@czbiohub.org
+Person Phone
+Person Fax
+Person Affiliation	Chan Zuckerberg Biohub
+Person Address	499 Illinois St. 4th floor San Francisco, CA 94158 USA
+Person Roles	submitter
+Person Roles Term Source REF
+Person Roles Term Accession Number
+
+Quality Control Type
+Quality Control Term Source REF
+Quality Control Term Accession Number
+
+Replicate Type
+Replicate Term Source REF
+Replicate Term Accession Number
+
+Normalization Type
+Normalization Term Source REF
+Normalization Term Accession Number
+
+Date of Experiment	2020-06-01
+Public Release Date	2020-10-16
+
+PubMed ID
+Publication DOI	10.1101/2020.09.24.312298
+Publication Author List	Ruofan Wang1,6, Camille R. Simoneau2,6, Jessie Kulsuptrakul1, Mehdi Bouhaddou 2,3,4, Katherine Travisano1, Jennifer M. Hayashi2, Jared Carlson-Stevermer5, Jennifer Oki5, Kevin Holden5, Nevan J. Krogan2,3,4, Melanie Ott2, Andreas S. Puschnik1,7,*
+Publication Title	Functional genomic screens identify human host factors for SARS-CoV-2 and common cold coronaviruses
+Publication Status	preprint
+Publication Status Term Source REF
+Publication Status Term Accession Number
+
+Experiment Description	We performed genome-wide CRISPR KO screens in human Huh7.5.1 cells to select for mutations that render host cells resistant to viral infection by SARS-CoV-2, human coronavirus 229E and OC43.
+
+Protocol Name	P-MTAB-101835	P-MTAB-101834	P-MTAB-101837	P-MTAB-101836
+Protocol Type	nucleic acid extraction protocol	sample collection protocol	nucleic acid sequencing protocol	nucleic acid library construction protocol
+Protocol Term Source REF	EFO	EFO	EFO	EFO
+Protocol Term Accession Number	EFO_0002944	EFO_0005518	EFO_0004170	EFO_0004184
+Protocol Description	Genomic DNA extraction using QIAamp DNA Blood Maxi Kit (Qiagen) or Quick-DNA Midiprep Plus (Zymo).	~60 million cells of unselected library cells were trypsinized and pelleted or 10-20 millions cells of virus selected cells were trypsinized and pelleted.	Pooled libraries were sequenced on an Illumina NextSeq 500 using a custom sequencing primer. Sequencing was performed using single-ed read for 25 cycles, and two index reads for 8 cycles.	The sgRNA expression cassettes were amplified from gDNA in a two-step nested PCR using KAPA HiFi HotStart ReadyMixPCR Kit (Kapa Biosystems). For PCR1, 40 reactions (for control samples) and 10-16 reactions (for virus selected samples) containing 4 μg gDNA were set up and amplified for 16 cycles. Reactions were pooled, mixed and 200 μl were cleaned up using QIAquick PCR Purification kit (Qiagen). For PCR2, 3 reactions containing 5 μl PCR1 product were amplified for 12 cycles using indexed primers. PCR products were gel purified using QIAquick Gel Extraction Kit (Qiagen).
+Protocol Parameters
+Protocol Hardware			NextSeq 550
+Protocol Software
+Protocol Contact
+
+Term Source Name	EFO	ArrayExpress
+Term Source File	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/arrayexpress/
+Term Source Version	2.38
+
+SDRF File	E-MTAB-9638.sdrf.txt
+Comment [TemplateType]	Cell line - High-throughput sequencing
+Comment [Submitted Name]	Functional genomic screens in human cells to identify host factors for SARS-CoV-2 and common cold coronaviruses
+Comment [SecondaryAccession]	ERP124350
+Comment [SequenceDataURI]	http://www.ebi.ac.uk/ena/data/view/ERR4659251-ERR4659264
+Comment [AEExperimentType]	genotyping by high throughput sequencing
+Comment[ArrayExpressAccession]	E-MTAB-9638

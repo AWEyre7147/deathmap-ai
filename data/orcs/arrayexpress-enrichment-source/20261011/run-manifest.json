@@ -1,0 +1,28 @@
+{
+  "strategy": "arrayexpress-orcs-metadata-v2",
+  "input": "data/orcs/publication-index.json",
+  "input_sha256": "63cb33b7095108e7a0776950e9c258e7b65fe148ca6b12ae75cd4dd914ad6c89",
+  "code_hashes": {
+    "arrayexpress_collection.py": "8b9141f6290a415193a8b2d6b258117429206f89ebedb639270162147d8308d3",
+    "arrayexpress_enrichment.py": "77c987585b2e6c5d7f4aa9cadcca9628406bb2e056cb2ee4875eabf15fddcd59",
+    "arrayexpress_europepmc.py": "7f1f13063d073c7d7603914d0fa8a31b3176d7d7c3f79dafe95a4037638a80e0"
+  },
+  "template": "data/templates/BioStudies-ArrayExpress-Enrichment.xlsx",
+  "template_sha256": "220c15a4f6afa23d5b5bc9516a5c9e56abec636ffa2723d39a4f47d378448583",
+  "pass_allowance": 1,
+  "metadata_depth": [
+    "native PageTab JSON",
+    "native IDF",
+    "native SDRF"
+  ],
+  "excluded_routes": [
+    "native PMID",
+    "native PMCID",
+    "duplicate DOI phrase",
+    "Europe PMC category links",
+    "diagnostic Europe PMC title",
+    "punctuation fallback"
+  ],
+  "tests": "13 focused offline tests passed",
+  "initial_sandbox_failure": "outputs/arrayexpress-orcs-20261011-S; stopped after two publications; network-enabled run is the full pass"
+}

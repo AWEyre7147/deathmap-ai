@@ -1,0 +1,481 @@
+{
+  "accno" : "E-MTAB-9484",
+  "attributes" : [ {
+    "name" : "Title",
+    "value" : "RNA-seq analysis of TCEAL1 knock down with/without docetaxel treatment to enhance docetaxel efficacy in prostate cancer"
+  }, {
+    "name" : "ReleaseDate",
+    "value" : "2020-10-07"
+  }, {
+    "name" : "RootPath",
+    "value" : "E-MTAB-9484"
+  }, {
+    "name" : "AttachTo",
+    "value" : "ArrayExpress"
+  } ],
+  "section" : {
+    "accno" : "s-E-MTAB-9484",
+    "type" : "Study",
+    "attributes" : [ {
+      "name" : "Title",
+      "value" : "RNA-seq analysis of TCEAL1 knock down with/without docetaxel treatment to enhance docetaxel efficacy in prostate cancer"
+    }, {
+      "name" : "Study type",
+      "value" : "Cell line - High-throughput sequencing"
+    }, {
+      "name" : "Study type",
+      "value" : "RNA-seq of coding RNA",
+      "valqual" : [ {
+        "name" : "Ontology",
+        "value" : "EFO"
+      }, {
+        "name" : "TermId",
+        "value" : "EFO_0003738"
+      } ]
+    }, {
+      "name" : "Organism",
+      "value" : "Homo sapiens"
+    }, {
+      "name" : "Description",
+      "value" : "Docetaxel chemotherapy in metastatic prostate cancer offers only a modest survival benefit due to emerging resistance. This experiment studies effect of TCEAL1 gene knock down with/without docetaxel treatment. The TCEAL1 gene was identified as the top candidate gene in vivo CRISPR/Cas9 screen."
+    } ],
+    "links" : [ [ {
+      "url" : "E-MTAB-9482",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "Biostudies"
+      } ]
+    } ], [ {
+      "url" : "ERP123632",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "ENA"
+      } ]
+    }, {
+      "url" : "E-MTAB-9484",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "gxa"
+      } ]
+    } ] ],
+    "subsections" : [ [ {
+      "accno" : "P-MTAB-100418",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-MTAB-100418"
+      }, {
+        "name" : "Type",
+        "value" : "nucleic acid extraction protocol",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO_0002944"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "Total mRNA was extracted using the RNeasy Mini Kit (Qiagen) according to the manufacturer’s instructions. RNA was quantified using the NanoDrop 2000 spectrophotometer (Thermo Scientific). For RNA sequencing samples, RNA quality was assessed on a 2100 Bioanalyser (Agilent)."
+      }, {
+        "name" : "Hardware"
+      } ]
+    }, {
+      "accno" : "P-MTAB-100417",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-MTAB-100417"
+      }, {
+        "name" : "Type",
+        "value" : "sample collection protocol",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO_0005518"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "Samples were prepared from four independent experiments where PC3M cells were treated with control or TCEAL1 siRNA and -/+ docetaxel for 48 hours before collecting total mRNA samples."
+      }, {
+        "name" : "Hardware"
+      } ]
+    }, {
+      "accno" : "P-MTAB-100419",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-MTAB-100419"
+      }, {
+        "name" : "Type",
+        "value" : "nucleic acid library construction protocol",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO_0004184"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "Libraries were prepared using the Illumina TotalPrep RNA Amplification Kit (Ambion, Life Technologies) with Poly(A) selection according to the manufacturer’s instructions."
+      }, {
+        "name" : "Hardware"
+      } ]
+    }, {
+      "accno" : "P-MTAB-100422",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-MTAB-100422"
+      }, {
+        "name" : "Type",
+        "value" : "normalization data transformation protocol",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO_0003816"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "Gene level count table was generated using HTSeq version 0.9.1."
+      }, {
+        "name" : "Hardware"
+      } ]
+    }, {
+      "accno" : "P-MTAB-100420",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-MTAB-100420"
+      }, {
+        "name" : "Type",
+        "value" : "nucleic acid sequencing protocol",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO_0004170"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "Libraries for the different samples were pooled and sequenced on an Illumina NextSeq500."
+      }, {
+        "name" : "Hardware",
+        "value" : "NextSeq 500"
+      } ]
+    }, {
+      "accno" : "P-MTAB-100421",
+      "type" : "Protocols",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "P-MTAB-100421"
+      }, {
+        "name" : "Type",
+        "value" : "high throughput sequence alignment protocol",
+        "valqual" : [ {
+          "name" : "Ontology",
+          "value" : "EFO"
+        }, {
+          "name" : "TermId",
+          "value" : "EFO_0004917"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "RNA-Seq paired-end reads were aligned to the Ensembl version 38 build 95 of the human genome using HiSat2 version 2.1.0"
+      }, {
+        "name" : "Hardware"
+      } ]
+    } ], {
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Hing Leung"
+      }, {
+        "name" : "Email",
+        "value" : "h.leung@beatson.gla.ac.uk"
+      }, {
+        "name" : "Role",
+        "value" : "investigator"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Peter Repiscak"
+      }, {
+        "name" : "Email",
+        "value" : "p.repiscak@beatson.gla.ac.uk"
+      }, {
+        "name" : "Role",
+        "value" : "submitter"
+      }, {
+        "name" : "affiliation",
+        "value" : "o2",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "o1",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Institute of Cancer Sciences, College of Medical, Veterinary and Life Sciences, University of Glasgow, Bearsden, Glasgow, G61 1QH, UK. CRUK Beatson Institute, Bearsden, Glasgow, G61 1BD, UK."
+      }, {
+        "name" : "Address",
+        "value" : "CRUK Beatson Institute, Bearsden, Glasgow, G61 1BD, UK"
+      } ]
+    }, {
+      "accno" : "o2",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Institute of Cancer Sciences, College of Medical, Veterinary and Life Sciences, University of Glasgow, Bearsden, Glasgow, G61 1QH, UK. CRUK Beatson Institute, Bearsden, Glasgow, G61 1BD, UK."
+      }, {
+        "name" : "Address",
+        "value" : "CRUK Beatson Institute, Bearsden, Glasgow, G61 1BD, UK"
+      } ]
+    }, {
+      "type" : "Publication",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "In vivo CRISPR/Cas9 screen identifies TCEAL1 as a target to enhance docetaxel efficacy in prostate cancer"
+      }, {
+        "name" : "Authors",
+        "value" : "Linda K. Rushworth, Victoria Harle, Peter Repiscak, William Clark, Robin Shaw, Holly Hall, Martin Bushell, Hing Y. Leung and Rachana Patel"
+      }, {
+        "name" : "Status",
+        "value" : "submitted"
+      } ]
+    }, {
+      "accno" : "s-samples-factors-E-MTAB-9484",
+      "type" : "Samples",
+      "attributes" : [ {
+        "name" : "Sample count",
+        "value" : "16"
+      }, {
+        "name" : "Experimental Designs",
+        "value" : "case control design",
+        "valqual" : [ {
+          "name" : "TermId",
+          "value" : "EFO:0001427"
+        } ]
+      }, {
+        "name" : "Experimental Factors",
+        "value" : "compound",
+        "valqual" : [ {
+          "name" : "TermName",
+          "value" : "compound"
+        } ]
+      }, {
+        "name" : "Experimental Factors",
+        "value" : "RNA interference",
+        "valqual" : [ {
+          "name" : "TermName",
+          "value" : "RNA interference"
+        } ]
+      }, {
+        "name" : "Experimental Factors",
+        "value" : "dose",
+        "valqual" : [ {
+          "name" : "TermName",
+          "value" : "dose"
+        } ]
+      } ],
+      "subsections" : [ {
+        "accno" : "exp_factor-E-MTAB-9484",
+        "type" : "Experimental Factors",
+        "attributes" : [ {
+          "name" : "Dose",
+          "value" : "2"
+        }, {
+          "name" : "Rna interference",
+          "value" : "control siRNA"
+        }, {
+          "name" : "Rna interference",
+          "value" : "TCEAL1 siRNA"
+        }, {
+          "name" : "Compound",
+          "value" : "docetaxel"
+        }, {
+          "name" : "Compound",
+          "value" : "DMSO"
+        } ],
+        "subsections" : [ [ {
+          "accno" : "factors_0",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "RNA interference",
+            "value" : "control siRNA"
+          }, {
+            "name" : "compound",
+            "value" : "DMSO"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "4",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS4993323,ERS4993325,ERS4993327,ERS4993329"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_1",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "RNA interference",
+            "value" : "TCEAL1 siRNA"
+          }, {
+            "name" : "compound",
+            "value" : "DMSO"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "4",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS4993324,ERS4993326,ERS4993328,ERS4993330"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_2",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "RNA interference",
+            "value" : "control siRNA"
+          }, {
+            "name" : "compound",
+            "value" : "docetaxel"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "4",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS4993331,ERS4993333,ERS4993335,ERS4993337"
+            } ]
+          } ]
+        }, {
+          "accno" : "factors_3",
+          "type" : "Factors Table",
+          "attributes" : [ {
+            "name" : "RNA interference",
+            "value" : "TCEAL1 siRNA"
+          }, {
+            "name" : "compound",
+            "value" : "docetaxel"
+          }, {
+            "name" : "No. of Samples",
+            "value" : "4",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.ebi.ac.uk/ena/browser/view/ERS4993332,ERS4993334,ERS4993336,ERS4993338"
+            } ]
+          } ]
+        } ] ]
+      }, {
+        "accno" : "source_chars-E-MTAB-9484",
+        "type" : "Source Characteristics",
+        "attributes" : [ {
+          "name" : "Organism",
+          "value" : "Homo sapiens"
+        }, {
+          "name" : "Cell line",
+          "value" : "PC3M"
+        }, {
+          "name" : "Disease",
+          "value" : "prostate carcinoma"
+        }, {
+          "name" : "Organism part",
+          "value" : "prostate"
+        }, {
+          "name" : "Developmental stage",
+          "value" : "adult"
+        } ]
+      } ]
+    }, {
+      "accno" : "s-assays-data-E-MTAB-9484",
+      "type" : "Assays and Data",
+      "attributes" : [ {
+        "name" : "Assay count",
+        "value" : "16"
+      }, {
+        "name" : "Technology",
+        "value" : "Sequencing assay"
+      }, {
+        "name" : "Assay by Molecule",
+        "value" : "RNA assay"
+      } ],
+      "subsections" : [ {
+        "accno" : "processed-data",
+        "type" : "Processed Data",
+        "files" : [ [ {
+          "path" : "20190328_LR_R08_raw_counts.tsv",
+          "size" : 1795729,
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Processed Data"
+          } ],
+          "type" : "file"
+        } ] ]
+      }, {
+        "accno" : "mt-E-MTAB-9484",
+        "type" : "MAGE-TAB Files",
+        "files" : [ [ {
+          "path" : "E-MTAB-9484.idf.txt",
+          "size" : 4493,
+          "attributes" : [ {
+            "name" : "Type",
+            "value" : "IDF File"
+          }, {
+            "name" : "Format",
+            "value" : "tab-delimited text"
+          }, {
+            "name" : "Description",
+            "value" : "Investigation Design Format (IDF)"
+          } ],
+          "type" : "file"
+        }, {
+          "path" : "E-MTAB-9484.sdrf.txt",
+          "size" : 26756,
+          "attributes" : [ {
+            "name" : "Type",
+            "value" : "SDRF File"
+          }, {
+            "name" : "Format",
+            "value" : "tab-delimited text"
+          }, {
+            "name" : "Description",
+            "value" : "Sample and Data Relationship Format (SDRF)"
+          } ],
+          "type" : "file"
+        } ] ]
+      } ]
+    }, {
+      "accno" : "score-E-MTAB-9484",
+      "type" : "MINSEQE Score",
+      "attributes" : [ {
+        "name" : "Exp. Design",
+        "value" : "*"
+      }, {
+        "name" : "Variables",
+        "value" : "*"
+      }, {
+        "name" : "Raw",
+        "value" : "*"
+      }, {
+        "name" : "Processed",
+        "value" : "*"
+      }, {
+        "name" : "Protocols",
+        "value" : "*"
+      } ]
+    } ]
+  },
+  "type" : "submission"
+}
