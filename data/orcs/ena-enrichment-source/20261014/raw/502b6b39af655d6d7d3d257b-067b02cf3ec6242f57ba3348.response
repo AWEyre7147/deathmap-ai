@@ -1,0 +1,74 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA822846" alias="PRJNA822846" center_name="Bioinformatics Core, Biostatistics, Harvard School of Public Health" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA822846</PRIMARY_ID>
+    <SECONDARY_ID>SRP367368</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE200084</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Bioinformatics Core, Biostatistics, Harvard School of Public Health">PRJNA822846</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Immune challenged SC-islets first response profiled by single cell transcription analysis after co-culture with human allogeneic PBMCs [scRNA-seq_invitro]</NAME>
+  <TITLE>Immune challenged SC-islets first response profiled by single cell transcription analysis after co-culture with human allogeneic PBMCs [scRNA-seq_invitro]</TITLE>
+  <DESCRIPTION>We performed an in vitro co-culture of allogeneic PBMCs and SC-islet clusters. SC-islet clusters were enriched for β cells (using CD49A magnetic sorting; SC-α still remain at lower numbers) (Veres et al., 2019), dissociated and reaggregated to obtain a more uniform cell count between wells. SC-islets were co-cultured with human allogeneic PBMCs for 24 or 48 hours. As controls [time(t)=0], SC-islets remained in culture without PBMC addition. These samples, in addition to PBMCs alone (t=0), were used for scRNA-seq (Figure 2A). Overall design: Comparing expression datasets from PBMC co-cultured with SC-islets, to SC-islets alone</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA822999"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>36055241</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA822846&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA822846&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>822846</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2022-10-07</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

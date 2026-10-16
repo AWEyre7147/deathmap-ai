@@ -1,0 +1,74 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA542764" alias="PRJNA542764" center_name="Dana-Farber Cancer Institute" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA542764</PRIMARY_ID>
+    <SECONDARY_ID>SRP198378</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE131099</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Dana-Farber Cancer Institute">PRJNA542764</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Synthetic lethal and resistance interactions with BET bromodomain inhibitors [RNA-Seq]</NAME>
+  <TITLE>Synthetic lethal and resistance interactions with BET bromodomain inhibitors [RNA-Seq]</TITLE>
+  <DESCRIPTION>BET bromodomain inhibitors (BBDI) are promising therapeutic agents in triple-negative breast cancer (TNBC). However, not all tumors respond and acquired resistance emerges rapidly even in the responders. Using CRISPR and small molecule inhibitor screens combined with comprehensive molecular profiling of BBDI response and resistance in TNBC cell lines, we identified numerous synthetic lethal interactions with BBDIs as well as genes that when deleted confer resistance. The most prominent and consistent synergy was observed with CDK4/6 inhibitors and paclitaxel. We also uncovered functional similarities and differences between BBD proteins BRD2, BRD4, and BRD7, whereas deletion of BRD2 and BRD4 enhances sensitivity to BBDIs, BRD7 loss leads to resistance. Lastly, single cell RNA-seq and cellular barcoding analysis of BBDI responses in sensitive and resistant cell lines highlight heterogeneity among samples and demonstrate that BBDI resistance can be both pre-existing and acquired. Overall design: RNA-Seq of parental and JQ1 resistant breast cancer cell lines</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA542697"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>32416067</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA542764&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA542764&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>542764</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2020-04-03</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-05-04</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

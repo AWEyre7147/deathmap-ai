@@ -1,0 +1,77 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA862263" alias="PRJNA862263" center_name="Department of Biology and Biochemistry, University of Houston" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA862263</PRIMARY_ID>
+    <SECONDARY_ID>SRP388086</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE209750</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Department of Biology and Biochemistry, University of Houston">PRJNA862263</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Integrated multi-omics analyses identify key anti-viral host factors and pathways controlling SARS-CoV-2 infection</NAME>
+  <TITLE>Integrated multi-omics analyses identify key anti-viral host factors and pathways controlling SARS-CoV-2 infection</TITLE>
+  <DESCRIPTION>Anti-viral host factors are essential for controlling SARS-CoV-2 infection but remain largely unknown due to the biases of previous large-scale studies toward pro-viral host factors. To fill this gap, we performed a genome-wide CRISPR dropout screen and integrated analyses of the multi-omics data of the CRISPR screen, genome-wide association studies, single-cell RNA-seq, and host-host/viral protein-protein/RNA interactome. We identified many anti-viral host genes that were missed by previous studies, including the components of V-ATPases, ESCRT, and N-glycosylation pathways that inhibited viral entry/replication. We also identified the cohesin complex as a novel antiviral pathway, supporting an important role of three-dimensional chromatin organization in mediating host-viral interaction. Furthermore, we discovered an anti-viral transcription factor KLF5, a regulator of sphingolipid metabolism, which was up-regulated and harbored genetic variations linked to COVID-19 patients with severe symptoms. Our analyses provide a resource for understanding the host antiviral network for combating SARS-CoV-2 and may help develop new therapeutic strategies. Overall design: We performed a genome-wide LOF screen based on virus-induced cytopathic effect. Our LOF screen was optimized to identify depleted hits with potential anti-viral activities. This screen employed a SARS-CoV-2-permissive lung epithelial cell line, A549-AC, which constitutively expresses human ACE2 and Cas-9. Cells with gRNAs targeting anti-viral host factors would be significantly depleted after SARS-CoV-2 infection, whereas gRNAs targeting pro-viral host factors would be enriched.To achieve 50-80% of cell killing (an optimal selection condition for dropout screens), we infected A549-AC cells with MOI 5 for 48-hour (h) post infection. Cells with gRNA library without virus infection were used as the negative control.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>36032971</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>38168026</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA862263&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA862263&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>862263</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2023-08-18</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

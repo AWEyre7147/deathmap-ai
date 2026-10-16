@@ -1,0 +1,79 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA114111" alias="PRJNA114111" center_name="Roche Molecular Systems" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA114111</PRIMARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE13159</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Roche Molecular Systems">PRJNA114111</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Homo sapiens</NAME>
+  <TITLE>Microarray Innovations in LEukemia (MILE) study: Stage 1 data</TITLE>
+  <DESCRIPTION>An International Multi-Center Study to Define the Clinical Utility of Microarray–Based Gene Expression Profiling in the Diagnosis and Sub-classification of Leukemia (MILE Study) Established in 2005, the MILE (Microarray Innovations in LEukemia) study research program included 11 participating centers in three continents. This cohort of n=2,096 samples represents data on the retrospective whole-genome analysis phase. This dataset is part of the MILE Study (Microarray Innovations In LEukemia) program, headed by the European Leukemia Network (ELN) and sponsored by Roche Molecular Systems, Inc. Overall design: 2096 blood or bone marrow samples of acute and chronic leukemia patients were hybridized to Affymetrix HG-U133 Plus 2.0 GeneChips.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA109747"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>18573112</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>20406941</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA114111&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA114111&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>114111</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2014-02-11</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

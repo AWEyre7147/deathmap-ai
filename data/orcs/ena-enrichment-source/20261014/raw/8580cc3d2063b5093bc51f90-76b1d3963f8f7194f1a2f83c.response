@@ -1,0 +1,74 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA955102" alias="PRJNA955102" center_name="Princess Maxima Center" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA955102</PRIMARY_ID>
+    <SECONDARY_ID>SRP432411</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE229585</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Princess Maxima Center">PRJNA955102</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Unbiased transcription factor CRISPR screen identifies ZNF800 as master repressor of enteroendocrine differentiation [scRNA-seq]</NAME>
+  <TITLE>Unbiased transcription factor CRISPR screen identifies ZNF800 as master repressor of enteroendocrine differentiation [scRNA-seq]</TITLE>
+  <DESCRIPTION>Enteroendocrine cells (EECs) are hormone-producing cells residing in the epithelium of stomach, small intestine (SI) and colon. EECs regulate various aspects of metabolic activity including insulin levels, satiety, gastrointestinal secretion and motility. The generation of different EEC lineages of the SI is incompletely understood. We now report a TFome-wide CRISPR knockout screen in adult human intestinal organoids to identify dominant transcription factors controlling EEC differentiation. ZNF800 is discovered as a master repressor for endocrine lineage commitment, which particularly restricts enterochromaffin cell differentiation by directly controlling an endocrine TF network centered on PAX4. Thus, organoid models allow unbiased functional SCRISPR screens for genes that program cell differentiation. Overall design: Single-cell RNA-sequencing of WT and ZNF800-KO human small intestinal organoids</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA955079"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>37883554</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA955102&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA955102&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>955102</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2023-10-29</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

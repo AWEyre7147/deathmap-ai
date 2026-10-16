@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA493012" alias="PRJNA493012" center_name="CHUV" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA493012</PRIMARY_ID>
+    <SECONDARY_ID>SRP162561</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE120411</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="CHUV">PRJNA493012</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Human induced pluripotent stem cell-derived astrocytes are differentially activated by multiple sclerosis-associated cytokines</NAME>
+  <TITLE>Human induced pluripotent stem cell-derived astrocytes are differentially activated by multiple sclerosis-associated cytokines</TITLE>
+  <DESCRIPTION>Recent studies highlighted the importance of astrocytes in neuroinflammatory diseases, interacting closely with other CNS cells but also with the immune system. However, due to the difficulty in obtaining human astrocytes, their role in these pathologies is still poorly characterized. Here, we develop a new serum-free protocol to differentiate human iPSCs into astrocytes. Gene expression and functional assays show that our protocol consistently yields a highly enriched population of resting mature astrocytes across the thirteen hiPSC lines differentiated. Using this new model, we first highlight the importance of serum-free media for astrocyte culture to generate resting astrocytes. Second, we assess the astrocytic response to IL-1β, TNFα and IL-6, all cytokines important in neuroinflammation, such as multiple sclerosis. Our study reveals very specific profiles of reactive astrocytes depending on the triggering stimulus. This new model provides ideal conditions for in-depth and unbiased characterization of astrocyte reactivity in neuroinflammatory conditions. Overall design: Comparison of resting astrocytes vs astrocytes exposed to serum, IL-1β, IL-6 and TNFα</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>30409508</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA493012&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA493012&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>493012</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2018-11-03</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

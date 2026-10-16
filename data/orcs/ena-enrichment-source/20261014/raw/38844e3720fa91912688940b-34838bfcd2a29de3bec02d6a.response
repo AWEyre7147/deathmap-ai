@@ -1,0 +1,74 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA352221" alias="PRJNA352221" center_name="Friedrich Miescher Institute for Biomedical Research" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA352221</PRIMARY_ID>
+    <SECONDARY_ID>SRP092455</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE89435</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Friedrich Miescher Institute for Biomedical Research">PRJNA352221</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Mus musculus</NAME>
+  <TITLE>Gene bivalency at Polycomb domains regulates cranial neural crest positional identity [ChIP-seq]</TITLE>
+  <DESCRIPTION>The cranial neural crest cells are pluripotent cells that provide head skeletogenic mesenchyme and are crucial for craniofacial patterning. Here, we analyzed the in vivo chromatin landscapes of mouse cranial neural crest subpopulations. Early postmigratory neural crest subpopulations contributing to distinct mouse craniofacial structures displayed similar chromatin accessibility patterns, yet differed transcriptionally. Accessible promoters and enhancers of differentially silenced genes carried H3K27me3/H3K4me2 bivalent chromatin marks embedded in large Ezh2-dependent Polycomb domains, indicating transcriptional poising. These postmigratory bivalent regions were already present in neural crest premigratory progenitors. At Polycomb domains, H3K27me3 antagonized H3K4me2 deposition, which was restricted to accessible sites. Thus, bivalent Polycomb domains provide a chromatin template for the regulation of cranial neural crest cell positional identity in vivo contributing novel insights into the epigenetic regulation of face morphogenesis. Overall design: RNAseq, ChIPseq (single H3K27me3, H3K4me2 and H3K27ac ChIPseq; sequential H3K27me3/H3K4me2 ChIPseq) and ATACseq profiling of cranial neural crest cell (NCC) progenitors (E8.5) and postmigratory subpopulations (FNP, Mx, Md, PA2; E10.5 and E11.5) of wildtype, Ezh2-conditional knockout, Hoxa2-temporal knockout and Hoxa2-overexpression genotypes.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>10090</TAXON_ID>
+      <SCIENTIFIC_NAME>Mus musculus</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA352213"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9559"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>28360266</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA352221&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA352221&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>352221</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2017-04-19</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

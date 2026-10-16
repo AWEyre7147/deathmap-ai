@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA664775" alias="PRJNA664775" center_name="Knowledge Science Research, Informatics &amp; Predictive Sciences, Bristol Myers Squibb" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA664775</PRIMARY_ID>
+    <SECONDARY_ID>SRP284274</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE158303</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Knowledge Science Research, Informatics &amp; Predictive Sciences, Bristol Myers Squibb">PRJNA664775</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Deciphering the Mechanisms of CC-122 Resistance in DLBCL via a Genome-Wide Screen</NAME>
+  <TITLE>Deciphering the Mechanisms of CC-122 Resistance in DLBCL via a Genome-Wide Screen</TITLE>
+  <DESCRIPTION>CC-122 is a next-generation cereblon E3 ligase modulating agent that has demonstrated promising clinical efficacy in relapsed or refractory diffuse large B‐cell lymphoma (R/R DLBCL) patients. Mechanistically, CC-122 induces the degradation of IKZF1/3, leading to T cell activation and robust cell-autonomous killing in DLBCL. Here, we report a genome-wide CRISPR/Cas9 positive selection screen for CC-122 in a DLBCL cell line SU-DHL-4 with follow-up mechanistic characterization in 6 DLBCL cell lines to identify genes regulating the response to CC-122. Top-ranked CC-122 resistance genes encode not only well-defined members or regulators of the CUL4-DDB1-RBX1-CRBN E3 ubiquitin ligase complex, but also key components of several signaling and transcriptional networks that have not previously been shown to modulate the response to other cereblon modulators. Ablation of CYLD, NFKBIA, TRAF2, or TRAF3 induces hyper-activation of the canonical and/or non-canonical NF-κB pathways and subsequently diminishes CC-122-induced apoptosis in 5 out of 6 DLBCL cell lines. Depletion of KCTD5, the substrate receptor of the CUL3-RBX1-KCTD5 ubiquitin ligase complex, promotes the stabilization of its cognate substrate, GNG5, resulting in CC-122 resistance in HT, SU-DHL-4, and WSU-DLCL2. Furthermore, knockout of AMBRA1 renders resistance to CC-122 in SU-DHL-4 and U-2932, whereas knockout of RFX7 leads to resistance specifically in SU-DHL-4. The ubiquitous and cell line-specific mechanisms of CC-122 resistance in DLBCL cell lines revealed in this work pinpoint genetic alternations that are potentially associated with clinical resistance in patients, and facilitate the development of biomarker strategies for patient stratification, which may improve clinical outcome of CC-122 for R/R DLBCL. Overall design: SU-DHL-4 cells treated with either DMSO or 10 µM CC-122 were profiled to identify changes in transcriptome-wide expression using RNA-seq. Biological replicates were used for RNA sequencing, where 150 bp PE-reads were obtained using Illumina Hiseq 4000 Sequencer.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>33847741</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA664775&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA664775&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>664775</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2020-10-02</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

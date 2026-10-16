@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA524337" alias="PRJNA524337" center_name="Applied Bioinformatics Laboratories (ABL), Division of Advanced Research Technologies (DART), New York University, NYU Langone Medical Center" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA524337</PRIMARY_ID>
+    <SECONDARY_ID>SRP186899</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE127205</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Applied Bioinformatics Laboratories (ABL), Division of Advanced Research Technologies (DART), New York University, NYU Langone Medical Center">PRJNA524337</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>RNA-seq to compare gene expression profiles between Asf1a WT and Asf1a KO cells</NAME>
+  <TITLE>RNA-seq to compare gene expression profiles between Asf1a WT and Asf1a KO cells</TITLE>
+  <DESCRIPTION>KrasG12D/P53-/-(KP)-Cas9 single clone was transfected with ctrl vector, ctrl sgRNA-1, ctrl-sgRNA-2 or ctrl-sgRNA-3 and then selected by using 5ug/ml Blasticidin, to get the 4 ctrl lines; KP-Cas9 single clone was transfected with Asf1a sgRNA-1, sgRNA-2, sgRNA-3 and new sgRNA-1 and then selected by using 5ug/ml Blasticidin, and then picked up single clones with Asf1a KO. For each Asf1a sgRNA, we selected one clone for RNA seq, so totally we have 4 Asf1a KO clones for RNA seq. Overall design: Examination of differential gene expression profiles between Asf1a WT and Asf1a KO cells.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>10090</TAXON_ID>
+      <SCIENTIFIC_NAME>Mus musculus</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9559"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>31744829</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA524337&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA524337&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>524337</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2019-11-28</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

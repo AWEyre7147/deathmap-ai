@@ -1,0 +1,62 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA281090" alias="PRJNA281090" center_name="FMI" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA281090</PRIMARY_ID>
+    <SECONDARY_ID>SRP057157</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE67867</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="FMI">PRJNA281090</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Competition between DNA methylation and transcription factors determines binding of NRF1</NAME>
+  <TITLE>Competition between DNA methylation and transcription factors determines binding of NRF1</TITLE>
+  <DESCRIPTION>Eukaryotic transcription factors (TFs) are key determinants of gene activity, yet they bind only a fraction of their corresponding DNA sequence motifs in any given cell type. Chromatin has the potential to restrict accessibility of binding sites; however, in which context chromatin states are instructive for TF binding remains mainly unknown. To explore the contribution of DNA methylation to constrained TF binding, we mapped DNase-I-hypersensitive sites in murine stem cells in the presence and absence of DNA methylation. Methylation-restricted sites are enriched for TF motifs containing CpGs, especially for those of NRF1. In fact, the TF NRF1 occupies several thousand additional sites in the unmethylated genome, resulting in increased transcription. Restoring de novo methyltransferase activity initiates remethylation at these sites and outcompetes NRF1 binding. This suggests that binding of DNA-methylationsensitive TFs relies on additional determinants to induce local hypomethylation. In support of this model, removal of neighbouring motifs in cis or of a TF in trans causes local hypermethylation and subsequent loss of NRF1 binding. This competition between DNA methylation and TFs in vivo reveals a case of cooperativity between TFs that acts indirectly via DNA methylation. Methylation removal by methylation-insensitive factors enables occupancy of methylation-sensitive factors, a principle that rationalizes hypomethylation of regulatory regions. Overall design: DNase-seq (2 replicates) in mouse embryonic stem cells with (WT) and without DNA methylation (DNMT TKO). RNA-seq (3 replicates) in WT and DNMT TKO cells and in DNMT TKO cells after treatment with control siRNA or siRNA targeting Nrf1. H3K27ac ChIP-seq (2 replicates) in WT and DNMT TKO cells. NRF1 ChIP-seq (2 replicates) in WT and DNMT TKO cells, in WT upon culture in different conditions (adaptation to 2i and back to serum), upon transient overexpression of NRF1 and after differentiation into neuronal progenitor cells (NP). Whole-genome bisulfite sequencing in DNMT TKO cells and in WT upon culture in different conditions (adaptation to 2i and back to serum). NRF1 ChIP-seq (2 replicates) in human HMEC and HCC1954 cells.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+  </SUBMISSION_PROJECT>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>26675734</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA281090&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA281090&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>281090</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2016-10-10</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2023-05-19</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

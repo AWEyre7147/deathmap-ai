@@ -1,0 +1,73 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA174047" alias="PRJNA174047" center_name="Washington University in St.Louis" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA174047</PRIMARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE40442</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Washington University in St.Louis">PRJNA174047</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Homo sapiens</NAME>
+  <TITLE>Gene expression profiling in primary AML cells treated with decitabine and cytarabine</TITLE>
+  <DESCRIPTION>Acute myeloid leukemia (AML), and other myeloid malignancies, are frequently treated with hypomethylating agents like decitabine. Alterations in the epigenome, induced by decitabine, are likely to result in gene expression changes. The effects of decitabine have not been systemically studied using primary AML samples. Overall design: We cultured 18 different primary AML samples for 7 days, the last 3 days of which included 100 nM decitabine (DAC) or 100 nm cytarabine (AraC). We hypothesized that decitabine treatment would result in detectable and consistent gene expression changes. For comparison, we also analyzed mRNA from cells treated with DMSO control (mock) and mRNA from uncultured cells taken at the time of diagnosis.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA175141"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>23297133</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA174047&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA174047&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>174047</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2014-02-11</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

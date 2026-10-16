@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA631608" alias="PRJNA631608" center_name="Institute for Research in Immunology and Cancer, Department of Medicine, University of Montreal" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA631608</PRIMARY_ID>
+    <SECONDARY_ID>SRP261055</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE150232</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Institute for Research in Immunology and Cancer, Department of Medicine, University of Montreal">PRJNA631608</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Genome-wide screens reveal that resveratrol induces replicative stress in human cells</NAME>
+  <TITLE>Genome-wide screens reveal that resveratrol induces replicative stress in human cells</TITLE>
+  <DESCRIPTION>Using genome-wide CRISPR-Cas9 screens and other cell-based assays, we show that the pro-longevity agent resveratrol and its analogue pterostilbene induce a genetic signature of replicative stress that is similar to hydroxyurea Overall design: Genome-wide CRISPR-Cas9 screens were conducted in two cell lines: NALM-6 cells treated with resveratrol (16 µM), pterostilbene (16 µM), or hydroxyurea (100 µM), and Jurkat cells treated with resveratrol (25 µM), compared to their respective DMSO-treated controls.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>32755594</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA631608&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA631608&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>631608</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2020-08-06</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

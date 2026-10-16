@@ -203,10 +203,11 @@ def export_workbook(template, output, rows):
         extent = 'A1:' + get_column_letter(len(data[0])) + str(len(rows[name]) + 1)
         dimension = '<dimension xmlns="' + NS + '" ref="' + extent + '"/>'
         xml, count = re.subn(r'<(?:[A-Za-z_][\w.-]*:)?dimension\b[^>]*/>', lambda _: dimension, xml, count=1)
-        # Some valid header-only exports omit dimension. Insert it before views,
-        # after any sheet properties, without reserializing the owner XML envelope.
+        # Header-only exports can omit both dimensions and sheet views. Insert
+        # before the first subsequent worksheet block, after sheet properties,
+        # while preserving the owner's namespace envelope and column settings.
         if count == 0:
-            xml, count = re.subn(r'(<(?:[A-Za-z_][\w.-]*:)?sheetViews\b)', lambda m: dimension + m[1], xml, count=1)
+            xml, count = re.subn(r'(<(?:[A-Za-z_][\w.-]*:)?(?:sheetViews|sheetFormatPr|cols|sheetData)\b)', lambda m: dimension + m[1], xml, count=1)
         assert count == 1
         parts[member] = xml.encode()
         changed.add(member)
@@ -230,5 +231,7 @@ def export_workbook(template, output, rows):
             elif name.startswith('xl/worksheets/'):
                 before, after = ET.fromstring(original.read(name)), ET.fromstring(result.read(name))
                 for tag in ['cols', 'sheetViews', 'sheetFormatPr', 'pageMargins']:
-                    assert ET.tostring(before.find(q(tag))) == ET.tostring(after.find(q(tag)))
+                    left, right = before.find(q(tag)), after.find(q(tag))
+                    assert ((left is None and right is None) or
+                            (left is not None and right is not None and ET.tostring(left) == ET.tostring(right)))
                 assert ET.tostring(before.find(q('sheetData'))[0]) == ET.tostring(after.find(q('sheetData'))[0])

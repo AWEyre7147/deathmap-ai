@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA705647" alias="PRJNA705647" center_name="EMBL" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA705647</PRIMARY_ID>
+    <SECONDARY_ID>SRP308681</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE167944</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="EMBL">PRJNA705647</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>High-speed fluorescence image-enabled cell sorting</NAME>
+  <TITLE>High-speed fluorescence image-enabled cell sorting</TITLE>
+  <DESCRIPTION>Fast and selective isolation of single cells with unique spatial and morphological traits remains a technical challenge. We address this by establishing high speed image-enabled cell sorting (ICS), which records multicolor fluorescence images, and sorts cells based on measurements from image data at speeds up to 15,000 events per second. We combine ICS with CRISPR-pooled screens to identify novel regulators of the NF-κB pathway, enabling the completion of genome-wide image- based screens in around nine hours of run-time. Overall design: Pooled CRISPR-Cas9 screens for regulators of NFkB signaling with a novel sorting technology using a genome-wide and a focused gRNA library in HeLa cells.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>35050652</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA705647&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA705647&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>705647</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2021-11-01</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

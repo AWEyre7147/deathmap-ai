@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA849204" alias="PRJNA849204" center_name="Molecular Biology, UT Southwestern Medical Center" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA849204</PRIMARY_ID>
+    <SECONDARY_ID>SRP380200</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE206101</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Molecular Biology, UT Southwestern Medical Center">PRJNA849204</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Genome-wide CRISPR screen for regulators of SARS-CoV-2 programmed ribosomal frameshifting</NAME>
+  <TITLE>Genome-wide CRISPR screen for regulators of SARS-CoV-2 programmed ribosomal frameshifting</TITLE>
+  <DESCRIPTION>Genome-wide CRISPR-Cas9 knockout screens were performed in dual-fluorescent frameshifting reporter cell lines to identify human host factors for SARS-CoV-2 programmed ribosomal frameshfiting. Overall design: Two independent clones for PRF-1 and PRF0 were used for the screen and 1.4x10^8 cells were infected with the Brunello pooled lentiviral CRISPR library (Addgene #73179) in the presence of 5 μg/ml polybrene at a multiplicity of infection between 0.3 to 0.5. Two days after transduction, the cells were selected in medium containing 1 μg/ml puromycin. After 10 days of puromycin selection, the top 1% eGFP/mCherry population and bottom 0.75% eGFP/mCherry population were sorted on an FACS Aria 2 cell sorter (BD Biosciences). gDNA from sorted pools was isolated by phenol-chloroform extraction. gDNA from 6x10^7 unsorted cells, was isolated with the Masterpure DNA isolation kit (Lucigen). Sequencing libraries were generated from the isolated gDNA through two sequential PCR reactions using the Herculase II DNA polymerase (Agilent). After 18 rounds of initial PCR amplification, 5% of the reaction product was used for a second round of PCR (11-13 cycles) with primers that introduced Illumina sequencing adapters and barcodes. The final PCR products were purified using AMPure XP beads (Beckman Coulter). Libraries were sequenced on a NextSeq500 (Illumina) with 75 bp single-end reads at an average sequencing depth of ~2x10^7 reads per sample. sgRNAs sequences were extracted from fastq files through an in-house Galaxy script and normalized reads counts were calculated.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>36753415</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA849204&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA849204&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>849204</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2023-01-27</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

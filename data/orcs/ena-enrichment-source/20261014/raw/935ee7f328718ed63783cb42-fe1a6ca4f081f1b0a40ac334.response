@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA791926" alias="PRJNA791926" center_name="UMR7242 Biotechnology and Cell Signalling, CNRS" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA791926</PRIMARY_ID>
+    <SECONDARY_ID>SRP352300</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE192556</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="UMR7242 Biotechnology and Cell Signalling, CNRS">PRJNA791926</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Identification of factors involved in the silencing of germline genes in mouse embryonic cells</NAME>
+  <TITLE>Identification of factors involved in the silencing of germline genes in mouse embryonic cells</TITLE>
+  <DESCRIPTION>In mammals, many germline genes are repressed by epigenetic mechanisms to prevent their illegitimate expression in embryonic and somatic cells. To advance our understanding of the complete mechanisms restricting the expression of germline genes in mammals, we performed a genome-wide CRISPR-Cas9 knock-out screen for genes involved in germline gene repression in mouse embryonic stem cells (ESCs). We identified and validated several novel genes involved in the repression of germline genes, and characterized three of them: Usp7, Shfm1 (also known as Sem1) and Erh. Inactivation of Usp7, Shfm1 or Erh leads to the upregulation of germline genes, as well as retrotransposons for Shfm1, in mouse ESCs. Overall design: We performed RNA-seq in mouse ESCs transfected with non-targeting control siRNA and siRNA against Usp7, Dnmt1, Erh or Shfm1. siRNA experiments were performed three times independently. We also performed RNA-seq in four independent WT and Usp7-KO mouse ESC clones. To study the role of Usp7 in DNA methylation, we performed RRBS in mouse ESCs transfected with non-targeting control siRNA and siRNA against Usp7 or Dnmt1 (three independent experiments for each condition), as well as in four independent WT and Usp7-KO ESC clones.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>10090</TAXON_ID>
+      <SCIENTIFIC_NAME>Mus musculus</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9559"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>36772830</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA791926&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA791926&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>791926</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2023-02-15</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

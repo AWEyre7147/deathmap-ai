@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA773728" alias="PRJNA773728" center_name="Zhengkui Zhang, Institutes of Biology and Medical Science, Soochow University" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA773728</PRIMARY_ID>
+    <SECONDARY_ID>SRP342691</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE186396</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Zhengkui Zhang, Institutes of Biology and Medical Science, Soochow University">PRJNA773728</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>RNF31 inhibition sensitizes tumors to bystander killing by innate and adaptive immune cells</NAME>
+  <TITLE>RNF31 inhibition sensitizes tumors to bystander killing by innate and adaptive immune cells</TITLE>
+  <DESCRIPTION>We evaluated whether there are transcriptional differences between RNF31-proficient immune-resistant and RNF31-deficient immune-sensitive tumor cells. We stimulated sensitive (sgRNF31- or HOIPIN-8-treated) and resistant (sgCtl, vehicle) BLM tumor cells with TNF for 0 or 6 hours and performed RNA sequencing analysis. Tumor cells sensitized by RNF31 inhibition show a reduced canonical NF-kB and increased pro-death signature upon TNF challenge. Overall design: 1×10E6 BLM sgCtl or sgRNF31 BLM human melanoma cells were pretreated with vehicle (DMSO) or HOIPIN-8 (10 µM) for 16 h, followed by TNF stimulation (100 ng/ml) for 0 or 6 hours. Two replicates for each sample were performed.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>35688159</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA773728&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA773728&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>773728</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2022-05-16</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

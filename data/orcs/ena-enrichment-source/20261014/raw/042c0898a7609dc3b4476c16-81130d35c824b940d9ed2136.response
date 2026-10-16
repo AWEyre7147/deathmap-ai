@@ -1,0 +1,74 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA692987" alias="PRJNA692987" center_name="SUSTech" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA692987</PRIMARY_ID>
+    <SECONDARY_ID>SRP302197</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE165025</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="SUSTech">PRJNA692987</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>BRD2 inhibition blocks SARS-CoV-2 infection by reducing transcription of the host cell receptor ACE2</NAME>
+  <TITLE>BRD2 inhibition blocks SARS-CoV-2 infection by reducing transcription of the host cell receptor ACE2</TITLE>
+  <DESCRIPTION>We performed RNA sequencing of Calu-3 cells after treatment with the BET-domain inhibitors JQ-1 and ABBV-744 as well as BRD2 CRISPRi knockdown. We also included CRISPRi knockdown of two other validated hit genes from our screen, COMP and ACE2. Overall design: The Quant-seq experiments were performed using Calu-3 cells in the following 6 conditions: 1) untreated, 2)10uM JQ1 treament for 72hrs, 3) 10uM ABBV-744 treatment for 72hrs, 4) ACE2 knnockdown, 5) BRD2 knockdown, 6) COMP knockdown and 7) ProteinE overexpression. Each sample was sequenced twice and two sequecing runs were combined for further analysis.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJEB40771"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>33501440</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA692987&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA692987&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>692987</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2021-01-20</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

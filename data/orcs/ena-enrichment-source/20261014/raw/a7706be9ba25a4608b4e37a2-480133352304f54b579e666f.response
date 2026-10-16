@@ -1,0 +1,70 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA535417" alias="PRJNA535417" center_name="Michael Bassik Lab, Stanford University" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA535417</PRIMARY_ID>
+    <SECONDARY_ID>SRP194167</SECONDARY_ID>
+    <SUBMITTER_ID namespace="Michael Bassik Lab, Stanford University">PRJNA535417</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Homo sapiens</NAME>
+  <TITLE>Genome-wide CRISPR screens in lung cancer spheroids</TITLE>
+  <DESCRIPTION>Cancer genomics studies have nominated thousands of putative cancer driver genes; however, a major challenge is to develop high-throughput and accurate models to define their functions. Here we devised a highly scalable cancer spheroid model and performed comparative genome-wide CRISPR screens in 2D-monolayers and 3D lung cancer spheroids. We found that CRISPR growth phenotypes in 3D spheroids more accurately recapitulate those of in vivo tumor xenografts. Importantly, genes that have differential sensitivities between 2D and 3D are strongly enriched for significant mutations in lung cancers. These analyses also revealed novel candidate drivers that are essential for cancer growth in 3D spheroids and in vivo, but not in 2D monolayers.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>32238925</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA535417&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA535417&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>535417</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2019-11-15</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

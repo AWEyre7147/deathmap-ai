@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA498126" alias="PRJNA498126" center_name="Microbiology, UT Southwestern Medical Center" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA498126</PRIMARY_ID>
+    <SECONDARY_ID>SRP166666</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE121710</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Microbiology, UT Southwestern Medical Center">PRJNA498126</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>CRISPR screen for interferon-alpha inducible inhibitors of yellow fever virus replication</NAME>
+  <TITLE>CRISPR screen for interferon-alpha inducible inhibitors of yellow fever virus replication</TITLE>
+  <DESCRIPTION>Host cells produce interferon (IFN) in response to viral infections. Secreted interferon results in the transcription and production of hundreds of interferon-stimulated genes (ISGs). A genome-wide CRISPR screen using IFN alpha-treated Huh7.5 cells was performed to determine which ISGs were required in order for host cells to suppress yellow fever virus (YFV) infection. Overall design: Human Huh7.5 cells were transduced with a human CRISPR library in a single replicate at 900X library coverage, treated with IFN alpha, infected with YFV-17D-venus, and GFP-positive cells that escaped IFN-alpha suppression of YFV-17D-venus infection were collected by FACS.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>30224801</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA498126&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA498126&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>498126</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2018-10-26</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

@@ -1,0 +1,62 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA351924" alias="PRJNA351924" center_name="Molecular Genetics and Microbiology, Duke University School of Medicine" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA351924</PRIMARY_ID>
+    <SECONDARY_ID>SRP092380</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE89371</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Molecular Genetics and Microbiology, Duke University School of Medicine">PRJNA351924</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>A genome-wide CRISPR activation screen identifies B4GALNT2 as an inhibitory host factor for influenza virus infection</NAME>
+  <TITLE>A genome-wide CRISPR activation screen identifies B4GALNT2 as an inhibitory host factor for influenza virus infection</TITLE>
+  <DESCRIPTION>Identification of factors to inhibit influenza virus infection Overall design: CRISPR activation technology was used to identify genes that rendered the cell refractory to infection. The complete sgRNA library (plasmid sample) were packaged into lentivirus and used to transduce A549 cells (transduced sample). In three independent biological replicates, the transduced cells were infected with influenza virus, and the cells that were refractory to infection were collected and the sgRNAs enriched in those populations were sequenced (samples A, B, and C).</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+  </SUBMISSION_PROJECT>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>28813663</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA351924&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA351924&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>351924</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2017-07-19</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2023-05-19</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

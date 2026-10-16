@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA828541" alias="PRJNA828541" center_name="Center for Applied Bioinformatics, St. Jude Childrens Research Hospital" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA828541</PRIMARY_ID>
+    <SECONDARY_ID>SRP371321</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE201137</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Center for Applied Bioinformatics, St. Jude Childrens Research Hospital">PRJNA828541</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Interrogating bromodomain inhibitor resistance in KMT2A-rearranged leukemia through combinatorial CRISPR screens</NAME>
+  <TITLE>Interrogating bromodomain inhibitor resistance in KMT2A-rearranged leukemia through combinatorial CRISPR screens</TITLE>
+  <DESCRIPTION>Bromo- and extra-terminal domain inhibitors (BETi) have exhibited therapeutic activities in many cancers, including KMT2A-rearranged (KMT2A-r) leukemia, in preclinical studies. However, the mechanisms controlling BETi response and resistance are poorly understood. We conducted genome-wide loss-of-function CRISPR screens using BETi-treated KMT2A-r cell lines. SPOP gene deficiency caused significant BETi resistance, which was further validated in cell line and xenograft models. In SPOP-knockout KMT2A-r leukemia cells, TRIM24 was identified as a SPOP substrate that mediates resistance to BETi. Additionally, proteomics analysis and a kinase-vulnerability CRISPR screen indicated that resistant cells are sensitive to GSK3 inhibition. Genetically perturbating TRIM24 or pharmaceutical inhibition of its downstream target GSK3 in SPOP-knockout cells reversed the BETi-resistance phenotype. A combination therapy regimen inhibiting both BET and GSK3 impeded leukemia progression in patient-derived xenografts in vivo. Our results revealed not only novel molecular mechanisms underlying BETi resistance but also a promising strategy for treating KMT2A-r leukemia. Overall design: SEM cells, with or without SPOP KO, were treated with DMSO, CHIR98014, ABBV-744, or a combination thereof.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>37036970</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA828541&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA828541&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>828541</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2023-04-05</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

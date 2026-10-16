@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA544340" alias="PRJNA544340" center_name="Dana Faber Cancer Institute" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA544340</PRIMARY_ID>
+    <SECONDARY_ID>SRP199253</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE131674</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Dana Faber Cancer Institute">PRJNA544340</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>A major chromatin regulator determines resistance of tumor cells to T cell–mediated killing</NAME>
+  <TITLE>A major chromatin regulator determines resistance of tumor cells to T cell–mediated killing</TITLE>
+  <DESCRIPTION>Many human cancers are resistant to immunotherapy, for reasons that are poorly understood. We used a genome-scale CRISPR-Cas9 screen to identify mechanisms of tumor cell resistance to killing by cytotoxic T cells, the central effectors of antitumor immunity. Inactivation of >100 genes—including Pbrm1, Arid2, and Brd7, which encode components of the PBAF form of the SWI/SNF chromatin remodeling complex—sensitized mouse B16F10 melanoma cells to killing by T cells. Loss of PBAF function increased tumor cell sensitivity to interferon-γ, resulting in enhanced secretion of chemokines that recruit effector T cells. Treatment-resistant tumors became responsive to immunotherapy when Pbrm1 was inactivated. In many human cancers, expression of PBRM1 and ARID2 inversely correlated with expression of T cell cytotoxicity genes, and Pbrm1-deficient murine melanomas were more strongly infiltrated by cytotoxic T cells. Overall design: Contro and Pbrm1 deficient B16F10 cells were either left untreated or treated with IFNg for 24 hours.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>10090</TAXON_ID>
+      <SCIENTIFIC_NAME>Mus musculus</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9559"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>29301958</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA544340&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA544340&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>544340</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2019-05-24</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

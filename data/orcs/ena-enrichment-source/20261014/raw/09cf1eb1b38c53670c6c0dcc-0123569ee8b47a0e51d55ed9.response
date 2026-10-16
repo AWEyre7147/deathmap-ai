@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA600235" alias="PRJNA600235" center_name="Nissim Benvenisty, Hebrew University of Jerusalem" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA600235</PRIMARY_ID>
+    <SECONDARY_ID>SRP240921</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE143371</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Nissim Benvenisty, Hebrew University of Jerusalem">PRJNA600235</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Transcriptome analysis of differentiated human embryonic stem cells (hESCs) upon CRISPR/Cas9-mediated mutagenesis of lineage-specific and common essential genes</NAME>
+  <TITLE>Transcriptome analysis of differentiated human embryonic stem cells (hESCs) upon CRISPR/Cas9-mediated mutagenesis of lineage-specific and common essential genes</TITLE>
+  <DESCRIPTION>Pluripotent stem cells can differentiate into all embryonic germ layers, a process that is orchestrated by the dissolution of pluripotency network and activation of pro-differentiation pathways. We established a genome-wide loss-of-function library in haploid hPSCs and differentiated these cells into the three germ layers. The analyses of our high-throughput genetic screening revealed germ layer-specific essential transcription factors, as well as common essential genes for the transition from pluripotency into the three embryonic germ layer fates. Here, we have generated individual knockouts of seven lineage-specific and four common essential genes in human embryonic stem cells by CRISPR/Cas9 mutagenesis and analyzed the transcriptomes of the mutants upon either directed or spontaneous differentiation. Overall design: mutant and control hESCs were either specifically differentiated towards definitive endoderm, early mesoderm or neuroectoderm, or were allowed to undergo spontanaeos differentiation as embryoid bodies (EBs). Two or three biological replicates were analyzed for the differentiated and undifferentiated cells of each transcription factor mutant. EBs were harvested at two time points (after 5 and 10 days of differentiation), and one sample was analyzed for each time point for each common essential gene mutant.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>32735778</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA600235&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA600235&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>600235</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2020-08-01</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

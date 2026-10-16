@@ -1,0 +1,70 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA96029" alias="PRJNA96029" center_name="Biology, Indiana University" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA96029</PRIMARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE5542</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Biology, Indiana University">PRJNA96029</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Homo sapiens</NAME>
+  <TITLE>Differential Gene Induction by Type I And Type II Interferons and Their Combination</TITLE>
+  <DESCRIPTION>Type I and type II interferons (IFNs) bind to different cell surface receptors but activate overlapping signal transduction pathways. We examined the effects of a type I IFN (IFN-acon1) and a type II iFN (IFN-g1b) on gene experession in A549 cells and demonstrate that there is a common set of genes modulated by both IFNs as well as a set of gene specifically regulated by each, reflecting the activation of different signaling pathways. In particualr, IFN-g induced many more genes of the signaling pathways, apoptosis, and cytokine interactions than did IFN-a. Even with genes induced by both IFNs there were distinctive quantitativive differences in expression. IFN-g1b plays a major role in the induction and regulation of the complement pathway. Previous work has shown a synergistic antivral and antiproliferative effect of type I and type II IFNs in cell culture and in the treament of tumors in mice. We demonstrate that a majority of genes showed and additive effect of IFN-acon1 and IFN-g1b, but a subset of gene is synergistically induced; these incluce ISG10, MX2, OAS2, and other genes known to be involved in the antiviral response, TRAIL (TNFSF10) and caspases involved in apoptosis and chemokine genes RANTES, CXCL10, and CXCL11. Greater than additive transcription of some of these genes in the presence of both IFNs was confirmed by real-time kinetic RT-PCR. Elevated induction of many of these genes may be sufficient to explain the synergistic antiviral and antitumor effects of this combination of IFNS in vivo. Keywords: comparison of 2 treatments, combination, and untreated at two time points Overall design: 4 cell culture replicates per treatment group.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>16800785</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA96029&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA96029&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>96029</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2014-02-11</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

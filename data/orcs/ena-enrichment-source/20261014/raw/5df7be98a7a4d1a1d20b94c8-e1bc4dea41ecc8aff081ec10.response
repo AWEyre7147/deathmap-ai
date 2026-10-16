@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA420647" alias="PRJNA420647" center_name="Bohlen, Neuroscience, Genentech" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA420647</PRIMARY_ID>
+    <SECONDARY_ID>SRP125932</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE107566</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Bohlen, Neuroscience, Genentech">PRJNA420647</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>RNA-seq for U937 cells with or without 3 day differentiation with PMA and recovery</NAME>
+  <TITLE>RNA-seq for U937 cells with or without 3 day differentiation with PMA and recovery</TITLE>
+  <DESCRIPTION>Sequencing data related to our manuscript "Systematic identification of general and context-specific regulators of phagocytosis using magnetic genome-wide CRISPR screens" Overall design: Two groups of U937 cells were sequenced before and after PMA differentiation. One group carried Streptococcus pyogenes Cas9 and a safe-harbor control sgRNA, and the second group was a clonally expanded U937 line expressing GFP. Each group was separated into eight separate wells at d0, and half of the wells were treated with 50 nM PMA. At day 3, undifferentiated cells were split to prevent overcrowding, and differentiated cells were trypsinized and replated. Cells were allowed to recover for 2 additional days before cells were lysed for RNA harvest and sequencing.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>30397336</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA420647&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA420647&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>420647</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2018-08-04</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

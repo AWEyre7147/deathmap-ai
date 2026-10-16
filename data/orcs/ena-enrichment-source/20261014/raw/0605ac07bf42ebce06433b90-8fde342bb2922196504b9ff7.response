@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA257389" alias="PRJNA257389" center_name="Pharmacogenomics, Translational Science, Medimmune" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA257389</PRIMARY_ID>
+    <SECONDARY_ID>SRP045225</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE60052</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Pharmacogenomics, Translational Science, Medimmune">PRJNA257389</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Homo sapiens</NAME>
+  <TITLE>The RNAseq of 79 small cell lung cancer (sclc) and 7 normal control</TITLE>
+  <DESCRIPTION>Even though small cell lung cancer (SCLC) has entered the age of broad genomic analysis, platinum-based chemotherapy remains the standard care for SCLC. Topotecan is the only approved agent for recurrent or progressive SCLC (1). In the absence of well-defined genomic biomarkers, clinical efficacy signals in genomically distinct subsets of SCLC could have been missed. Serine/Arginine Splicing Factor 1 (SRSF1) is a member of SR protein family. The deleterious consequences of overexpression of the SRSF1 proto-oncogene in human cancers suggest that there are complex mechanisms and pathways underlying SRSF1-mediated transformation (2). Whole exome and transcriptome sequencing of primary tumor SCLC from 99 Chinese patients has identified SRSF1 DNA amplification and mRNA over-expression which predicts poor survival in Chinese SCLC patients. In vitro and in vivo studies have demonstrated that SRSF1 is essential for tumorigenecity of SCLC and plays a key role in DNA repair and chemo-sensitivity. Overall design: We did RNAseq on 79 small cell lung cancer patients' tumor sample and 7 normal lung tissue. We normalized the RNAseq data and did differential expression analysis. The deleterious consequences of overexpression of the SRSF1 proto-oncogene in human cancers suggest that there are complex mechanisms and pathways underlying SRSF1-mediated transformation.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>27093186</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA257389&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA257389&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>257389</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2016-10-10</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

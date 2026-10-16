@@ -1,0 +1,65 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA731516" alias="PRJNA731516" center_name="Dana Farber Cancer Institute" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA731516</PRIMARY_ID>
+    <SECONDARY_ID>SRP320720</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE174784</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Dana Farber Cancer Institute">PRJNA731516</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Role of Cop1 on chromatin accessibility in 4T1 mouse triple negative breast cancer cells</NAME>
+  <TITLE>Role of Cop1 on chromatin accessibility in 4T1 mouse triple negative breast cancer cells</TITLE>
+  <DESCRIPTION>Cop1 regulates stability of transcription factors. We determined the role of Cop1 in the regulation of Cebpd transciptional output. We generated 4T1breast cancer cells with CRISPR/Cas9 mediated Cop1 (gene symbol RFWD2) knockout. We treated control sgRosa26 and sgCop1 cells with vehicle or IFNgamma (20ng/ml) for 24 hours and did ATAC-seq. Overall design: ATAC-seq on Cop1-replete or -deficient 4T1 cells that were treated with vehicle or 20ng/ml IFNγ.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>10090</TAXON_ID>
+      <SCIENTIFIC_NAME>Mus musculus</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9559"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA731516&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA731516&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>731516</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2021-05-22</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

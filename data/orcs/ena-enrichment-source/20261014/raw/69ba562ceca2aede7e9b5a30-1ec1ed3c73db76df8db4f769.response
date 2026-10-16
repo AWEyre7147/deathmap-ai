@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA616333" alias="PRJNA616333" center_name="Ian Macara Lab, Cell and Developmental Biology, Vanderbilt University" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA616333</PRIMARY_ID>
+    <SECONDARY_ID>SRP254649</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE147767</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Ian Macara Lab, Cell and Developmental Biology, Vanderbilt University">PRJNA616333</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>RNA sequencing of NT control cells, Traf3 KO, and Traf3/p100 double KO cells</NAME>
+  <TITLE>RNA sequencing of NT control cells, Traf3 KO, and Traf3/p100 double KO cells</TITLE>
+  <DESCRIPTION>Loss of Traf3 caused a dramatic induction of innate immune response genes. Antigen presentation, interferon response genes and genes responsible for foreign DNA and RNA recognition were strongly upregulated by deletion of Traf3, but KO of p100 in Traf3 KO samples reversed the activation of these pathways. We did not detect any stimulation by Traf3 KO of those signaling pathways classically involved in proliferation, including PI3K/AKT, JNK, TGF-beta, WNT and Hippo Overall design: We established a stable EpH4 line that expresses ES-FUCCI, which labels cells in G1/G0 with mCherry and cells in S/G2/M with mCitrine. We transduced EpH4-FUCCI mammary epithelial cell line with non-targeted (NT), Traf3, or Traf3 plus p100 sgRNA lentiviruses, and grew them to day 4 postconfluency. Then we sorted cells for G1/G0 phase (mCherry+) cells. This strategy eliminates indirect gene expression differences reflective of the larger fraction of cycling (mCitrine+) cells caused by loss of Traf3, but will not remove constitutive changes in gene expression. Two biological replicates of each cell line were processed for total RNA sequencing, and fastq files were analyzed using CLC Genomics Workbench. Differential gene expression was filtered for > 2-fold differences, FDR &lt; 0.05.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>10090</TAXON_ID>
+      <SCIENTIFIC_NAME>Mus musculus</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9559"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>33185187</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA616333&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA616333&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>616333</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2020-04-03</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-13</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

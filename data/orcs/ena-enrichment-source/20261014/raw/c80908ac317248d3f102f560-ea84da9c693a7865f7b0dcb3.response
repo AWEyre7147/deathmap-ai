@@ -1,0 +1,74 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA388093" alias="PRJNA388093" center_name="Genome Science Division, RCAST, The University of Tokyo" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA388093</PRIMARY_ID>
+    <SECONDARY_ID>SRP108057</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE99312</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Genome Science Division, RCAST, The University of Tokyo">PRJNA388093</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Homo sapiens</NAME>
+  <TITLE>PRC2 overexpression and PRC2-target gene repression relating to poorer prognosis in small cell lung cancer</TITLE>
+  <DESCRIPTION>Small cell lung cancer (SCLC) is a subtype of lung cancer with poor prognosis. Expression array analysis of 23 SCLC cases and 42 normal tissues revealed that EZH2 and other PRC2 members were highly expressed in SCLC. ChIP-seq for H3K27me3 suggested that genes with H3K27me3(+) in SCLC were extended not only to PRC2-target genes in ES cells but also to other target genes such as cellular adhesion-related genes. These H3K27me3(+) genes in SCLC were repressed significantly, and introduction of the most repressed gene JUB into SCLC cell line lead to growth inhibition. Shorter overall survival of clinical SCLC cases correlated to repression of JUB alone, or a set of four genes including H3K27me3(+) genes. Treatment with EZH2 inhibitors, DZNep and GSK126, resulted in growth repression of SCLC cell lines. High PRC2 expression was suggested to contribute to gene repression in SCLC, and may play a role in genesis of SCLC. Overall design: ChIP using H3K27me3 or Suz12 antibody was performed, and sequencing was performed using Illumina Genome Analyzer Iix.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA388092"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>23714854</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA388093&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA388093&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>388093</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2017-05-31</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

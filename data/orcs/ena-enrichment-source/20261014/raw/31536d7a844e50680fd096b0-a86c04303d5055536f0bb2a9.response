@@ -1,0 +1,74 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA599373" alias="PRJNA599373" center_name="Sun-yat sen University" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA599373</PRIMARY_ID>
+    <SECONDARY_ID>SRP239801</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE143233</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Sun-yat sen University">PRJNA599373</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>RNA m6A methylation regulates sorafenib-resistance in liver cancer through FOXO3-mediated autophagy [RNA-seq]</NAME>
+  <TITLE>RNA m6A methylation regulates sorafenib-resistance in liver cancer through FOXO3-mediated autophagy [RNA-seq]</TITLE>
+  <DESCRIPTION>N6-methyladenosine (m6A) is a type of nucleotide modification abundant in mRNA, which regulates mRNA stability, splicing and translation. However, its physiological role in intratumoral microenvironment and drug resistancehave not been fully understood. We demonstrated that METTL3,a primary m6A methyltransferase, was significantly down-regulated in human sorafenib-resistant hepatocellular carcinoma (HCC). Depletion of METTL3 under hypoxia promoted sorafenib-resistance and angiogenesis and exacerbated progression by activating autophagy-associated pathway. Mechanistically, we identified FOXO3 as a key downstream target of the METTL3-mediated m6A modification. The m6A modification of FOXO3 at the 3'-untranslated region increased FOXO3 mRNA stability. Analysis of clinical samples showed that METTL3levels aretightly correlated with FOXO3levels in patients with HCC, and suppression of FOXO3 predicted poor clinical outcomes. Importantly, METTL3-depletion significantly enhanced sorafenib-resistance of HCC via a METTL3-FOXO3 axis, whereasoverexpression of FOXO3 restored the m6A-dependent sorafenib-sensitivity. Collectively, our work revealedthe critical function of the METTL3-mediated m6A modification in HCC in hypoxic tumor microenvironment, and provided insights into the molecular mechanism of the m6A modification in the resistance of HCC to sorafenib therapy. Overall design: We examined differentially expressed genes between HCC tissue and sorafenib-resistant HCC tissue from patients via transcriptome sequencing.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA599368"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>32368828</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA599373&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA599373&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>599373</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2020-04-05</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

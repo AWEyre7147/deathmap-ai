@@ -1,0 +1,74 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA674661" alias="PRJNA674661" center_name="Institute for Research in Immunology and Cancer, Department of Medicine, University of Montreal" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA674661</PRIMARY_ID>
+    <SECONDARY_ID>SRP291207</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE160867</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Institute for Research in Immunology and Cancer, Department of Medicine, University of Montreal">PRJNA674661</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>A genome-wide screen for essentiality upon telomerase inhibition identifies a novel p53 regulator, C16ORF72/TAPR1 [TAPR1_KO]</NAME>
+  <TITLE>A genome-wide screen for essentiality upon telomerase inhibition identifies a novel p53 regulator, C16ORF72/TAPR1 [TAPR1_KO]</TITLE>
+  <DESCRIPTION>Telomere erosion in cells with insufficient levels of the telomerase reverse transcriptase, TERT, contributes to age-associated tissue dysfunction and senescence, and p53 plays a crucial role in this response. We undertook a genome-wide screen to identify gene deletions that sensitized p53-positive human cells to telomerase inhibition. We uncovered a previously unannotated gene, C16ORF72, which we term Telomere Attrition and p53 Response 1, TAPR1, that exhibited a synthetic-sick relationship with TERT loss. A genome-wide screen in TAPR1-disrupted cells also identified TERT as a sensitizing gene deletion. Additional genetic and transcriptome analysis of TAPR1-disrupted cells revealed that TAPR1 tapered p53 activation in response to eroded telomeres, p53 stabilization with nutlin-3a, or DNA damage. Importantly, deletion of TP53 rescued the fitness defect in TAPR1-disrupted cells. These findings identify C16ORF72/TAPR1 as new regulator at the nexus between telomere integrity and p53 regulation. Overall design: Genome-wide screen to test for gene deletions that affect fitness in cells harboring a homozygous deletion for the C16orf72/TAPR1 gene.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA674659"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>33660365</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA674661&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA674661&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>674661</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2021-03-06</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

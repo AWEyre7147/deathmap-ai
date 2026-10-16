@@ -1,0 +1,70 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA680344" alias="PRJNA680344" center_name="NYU Langone Health" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA680344</PRIMARY_ID>
+    <SECONDARY_ID>SRP293765</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE162038</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="NYU Langone Health">PRJNA680344</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Genome-scale identification of SARS-CoV-2 and pan-coronavirus host factor networks</NAME>
+  <TITLE>Genome-scale identification of SARS-CoV-2 and pan-coronavirus host factor networks</TITLE>
+  <DESCRIPTION>The COVID-19 pandemic has claimed the lives of more than one million people worldwide. The causative agent, SARS-CoV-2, is a member of the Coronaviridae family, which are viruses that cause respiratory infections of varying severity. The cellular host factors and pathways co-opted by SARS- CoV-2 and other coronaviruses in the execution of their life cycles remain ill-defined. To develop an extensive compendium of host factors required for infection by SARS-CoV-2 and three seasonal coronaviruses (HCoV-OC43, HCoV-NL63, and HCoV-229E), we performed parallel genome-scale CRISPR knockout screens. These screens uncovered multiple host factors and pathways with pan- coronavirus and virus-specific functional roles, including major dependency on glycosaminoglycan biosynthesis, SREBP signaling, BMP signaling, and glycosylphosphatidylinositol biosynthesis, as well as a requirement for several poorly characterized proteins. We identified an absolute requirement for the VTT-domain containing protein TMEM41B for infection by SARS-CoV-2 and three seasonal coronaviruses. This human Coronaviridae host factor compendium represents a rich resource to develop new therapeutic strategies for acute COVID-19 and potential future coronavirus spillover events. Overall design: Genome-wide CRISPR screens for SARS-CoV-2, HCoV-OC43, HCoV-NL63, and HCoV-229E coronavirus host factors.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJEB40771"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJEB40772"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>33382968</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA680344&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA680344&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>680344</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2020-12-09</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

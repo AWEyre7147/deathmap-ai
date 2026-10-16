@@ -1,0 +1,70 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA278454" alias="PRJNA278454" center_name="Microarray and Sequencing Resource, Boston University" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA278454</PRIMARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE66949</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Microarray and Sequencing Resource, Boston University">PRJNA278454</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Homo sapiens</NAME>
+  <TITLE>A YAP/TAZ-Regulated Molecular Signature is Associated with Oral Squamous Cell Carcinoma</TITLE>
+  <DESCRIPTION>Oral squamous cell carcinoma (OSCC) is a prevalent form of cancer that develops from the epithelium of the oral cavity. OSCC is on the rise worldwide, and death rates associated with the disease are particularly high. Despite progress in understanding of the mutational and expression landscape associated with OSCC, advances in deciphering these alterations for the development of therapeutic strategies have been limited. Further insight into the molecular cues that contribute to OSCC is therefore required. Here we show that the transcriptional regulators YAP (YAP1) and TAZ (WWTR1), which are key effectors of the Hippo pathway, drive pro-tumorigenic signals in OSCC. Regions of pre-malignant oral tissues exhibit aberrant nuclear YAP accumulation, suggesting that dysregulated YAP activity contributes to the onset of OSCC. Supporting this premise, we determined that nuclear YAP and TAZ activity drives OSCC cell proliferation, survival, and migration in vitro, and is required for OSCC tumor growth and metastasis in vivo. Global gene expression profiles associated with YAP and TAZ knockdown revealed changes in the control of gene expression implicated in pro-tumorigenic signaling, including those required for cell cycle progression and survival. Notably, the transcriptional signature regulated by YAP and TAZ significantly correlates with gene expression changes occurring in human OSCCs identified by The Cancer Genome Atlas (TCGA), emphasizing a central role for YAP and TAZ in OSCC biology. Expression profiling was conducted following the repression of the transcriptional regulators TAZ and YAP (YAP/TAZ) in human SCC2 oral cancer cells. Overall design: Human SCC2 oral cancer cells were transfected with control siRNA, or siRNAs targeting TAZ, YAP, or YAP/TAZ for 48 hours. Total RNA from three independent experiments carried out on separate days was isolated and purified and the samples were then profiled on Affymetrix Human Gene 2.0 Chips at the Boston University Microarray Core. The expression profiles were processed and normalized using the Robust Multi-array Average (RMA) procedure (23) based on a custom Brainarray CDF (24). For each of the siRNA experiments, signatures of genes differentially expressed between treatment and corresponding siRNA control with an FDR q-value ≤0.05 and a fold change ≥2 were identified as either activated (up-regulated in control) or repressed (up-regulated in treatment). The overlap between the differentially expressed gene signatures was evaluated by Fisher test. Hierarchical gene and sample clustering was performed on the top 3000 genes with highest median absolute deviation (MAD; a robust version of the variance) across 12 samples, using “ward” as the agglomeration rule, and 1 minus Pearson correlation and Euclidean as the distance measures for genes and samples, respectively.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>25794680</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA278454&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA278454&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>278454</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2015-05-28</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

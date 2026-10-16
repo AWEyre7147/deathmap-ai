@@ -1,0 +1,70 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA116855" alias="PRJNA116855" center_name="Molecular Medical Research, Institute of Clinical Medicine, Universitetet i Tromsø" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA116855</PRIMARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE15781</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Molecular Medical Research, Institute of Clinical Medicine, Universitetet i Tromsø">PRJNA116855</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Homo sapiens</NAME>
+  <TITLE>New specific molecular targets for radiochemotherapy in colorectal cancer</TITLE>
+  <DESCRIPTION>A promising treatment for patients with advanced colorectal cancer is preoperative radiochemotherapy. The early side effects of this treatment have been considered to be acceptable. The aim of this study was to identify the effects of preoperative radiochemotherapy (PRT) on gene expression in tumour and normal colon rectal tissue form the same patients, before and after PRT. For that purpose, tissue samples from ten patients with operable rectal adenocarcinomas were collected for use in whole genome–microarray based gene expression analysis. A factorial experimental design allowed us to look solely at the radiation effect on tumours. This resulted in 4496 differentially expressed genes in tumour tissue with p&lt;0.05. In addition to known markers for radiochemotherapy, a Gene Set Enrichment Analysis (GSEA) showed a significant enrichment in gene sets associated with cell adhesion and leukocyte transendothelial migration (TEM). We conclude that radiochemotherapy has a greater effect in tumour tissue gene expression than normal tissue. Not only is the effect on normal tissue limited compared to tumour, but significantly different gene sets are enriched. The profound change of cell adhesion molecule expression in tumour tissue could either increase the risk of metastasis, or decrease the tumours invasive potential. Further characterization of genes involved in cell adhesion and leukocyte TEM may give new insights into the molecular responses to radiochemotherapy in colorectal cancer. Overall design: Factorial experimental design</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>19969511</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA116855&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA116855&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>116855</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2014-02-11</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

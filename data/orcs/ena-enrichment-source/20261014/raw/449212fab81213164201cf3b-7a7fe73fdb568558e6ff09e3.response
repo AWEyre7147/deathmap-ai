@@ -1,0 +1,77 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA198448" alias="PRJNA198448" center_name="Attardi lab, Stanford University" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA198448</PRIMARY_ID>
+    <SECONDARY_ID>SRP021219</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE46240</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Attardi lab, Stanford University">PRJNA198448</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Mus musculus</NAME>
+  <TITLE>Global genomic profiling of p53-regulated genes</TITLE>
+  <DESCRIPTION>p53 is a critical tumor suppressor and works as a stress-induced transcription factor to induce target genes mediating apoptosis, cell cycle arrest and senescence or other responses. To gain new insights into p53 biology, we used high-throughput sequencing to analyze global p53 transcriptional networks in primary mouse embryo fibroblasts in response to DNA damage. ChIP-sequencing reveals 4785 p53-bound sites in the genome located near 3193 genes involved in diverse biological processes. RNA-sequencing analysis shows that only a subset of p53-bound genes is transcriptionally regulated, yielding a list of 432 p53-bound and regulated genes. Furthermore, we define a list of 1269 basal-p53 regulated genes, of which 253 are p53-bound and basal-p53 regulated. Overall design: ChIP-seq was performed to determine the genome-wide p53 binding sites in doxorubicin-treated primary MEFs. RNA-seq was used to define differentially expressed genes in response to DNA damage in wild-type and p53-/- MEFs, and basal p53 regulated genes by deriving differentially expressed genes between untreated wild-type and p53-/- MEFs.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>10090</TAXON_ID>
+      <SCIENTIFIC_NAME>Mus musculus</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9559"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>23651856</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>25704813</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA198448&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA198448&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>198448</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2013-05-31</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

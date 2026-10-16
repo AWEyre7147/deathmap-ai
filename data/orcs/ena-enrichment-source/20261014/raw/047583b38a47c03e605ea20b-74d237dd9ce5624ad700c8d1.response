@@ -1,0 +1,74 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA647390" alias="PRJNA647390" center_name="Yale University" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA647390</PRIMARY_ID>
+    <SECONDARY_ID>SRP272632</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE154761</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Yale University">PRJNA647390</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Genome-wide CRISPR screen reveals host genes that regulate SARS-CoV-2 infection</NAME>
+  <TITLE>Genome-wide CRISPR screen reveals host genes that regulate SARS-CoV-2 infection</TITLE>
+  <DESCRIPTION>Identification of host genes essential for SARS-CoV-2 infection may reveal novel therapeutic targets and inform our understanding of COVID-19 pathogenesis. A genome-wide CRISPR screen with SARS-CoV-2 was performed in Vero-E6 cells (data not provided here), identifying known SARS-CoV-2 host factors including the receptor ACE2 and protease Cathepsin L. We additionally discovered novel pro-viral genes and pathways including the SWI/SNF chromatin remodeling complex, the alarmin HMGB1, and the transcription factors Smad3 and Smad4. Small molecule inhibitors of these pathways inhibited SARS-CoV-2-infection in both monkey and human cells, demonstrating the conserved role of these genetic hits across species. We also revealed that HMGB1 is a novel regulator of ACE2 expression and critical for SARS-CoV-2 replication. In contrast, loss of the histone H3.3 chaperone complex sensitized cells to virus-induced death. Together this study reveals potential therapeutic targets for SARS-CoV-2 and highlights host genes that may regulate COVID-19 pathogenesis. Overall design: Examination of H3K27ac in wild-type and HMGB1 knockout Vero-E6 cells</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>60711</TAXON_ID>
+      <SCIENTIFIC_NAME>Chlorocebus sabaeus</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJEB40772"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA108707"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>33147444</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA647390&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA647390&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>647390</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2020-10-08</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

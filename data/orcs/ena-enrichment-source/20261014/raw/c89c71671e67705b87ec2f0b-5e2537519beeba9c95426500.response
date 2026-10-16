@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA430440" alias="PRJNA430440" center_name="BRIGHAM AND WOMEN S Hospital" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA430440</PRIMARY_ID>
+    <SECONDARY_ID>SRP131095</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE109326</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="BRIGHAM AND WOMEN S Hospital">PRJNA430440</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Transcriptional changes after overexpression of proliferation drivers in human mammary epithelial cells.</NAME>
+  <TITLE>Transcriptional changes after overexpression of proliferation drivers in human mammary epithelial cells.</TITLE>
+  <DESCRIPTION>Genomics has provided a detailed structural description of the cancer genome. Identifying oncogenic drivers that work primarily through dosage changes is a current challenge. Unrestrained proliferation is a critical hallmark of human cancer. We constructed modular, barcoded libraries of human open reading frames (ORFs) and performed screens for proliferation regulators in multiple cell types. Approximately 10% of genes tested regulate proliferation, many performing in an unexpectedly highly tissue-specific manner. Proliferation drivers in a given cell type showed specific enrichment in SCNAs (somatic copy number changes) from cognate tumors and helped predict aneuploidy patterns in those tumors, implying that tissue type-specific genetic network architectures underlie SCNA selection in different cancers. In vivo screening confirmed these results. We report a substantial contribution to the catalog of SCNA-associated cancer drivers, identifying 147 amplified and 107 deleted genes as potential drivers, and derive new insights about the genetic network architecture of aneuploidy in tumors. KRTAPs are a class of human genes that promote proliferation in mammary epithelial cells (HMEC), but the mechanism is not understood. We performed RNAseq to study transcriptional changes associated with oeverxepression of KRTAPs and other oncogenes in hTERT-immortalized human mammary epithelial cells. GSEA analysis revealed the top enriched pathways upregulated by KRTAP expression are E2F-mediated regulation of DNA replication, G1-S specific transcription, cell cycle, translation and ribosome. KRTAP-induced mRNA changes are most closely related to those due to CCND1 expression, including induction of E2F1 transcription factor. Overall design: Analysis of whole transcriptome in HMEC overexpressing different human genes.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>29576454</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA430440&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA430440&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>430440</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2018-05-02</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

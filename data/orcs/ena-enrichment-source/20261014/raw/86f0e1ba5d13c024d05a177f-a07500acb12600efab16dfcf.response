@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA587765" alias="PRJNA587765" center_name="Pu, Cardiology, Boston Children's Hospital" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA587765</PRIMARY_ID>
+    <SECONDARY_ID>SRP228497</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE139975</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Pu, Cardiology, Boston Children's Hospital">PRJNA587765</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>In vivo CRISPR screening identifies RNF20/40 as epigenetic regulators of cardiomyocyte maturation</NAME>
+  <TITLE>In vivo CRISPR screening identifies RNF20/40 as epigenetic regulators of cardiomyocyte maturation</TITLE>
+  <DESCRIPTION>Between birth and adulthood cardiomyocytes (CMs) undergo dramatic changes in size, ultrastructure, metabolism, and gene expression, in a process collectively referred to as CM maturation. The transcriptional network that coordinates CM maturation is poorly understood, creating a bottleneck for cardiac regenerative medicine. Forward genetic screens are a powerful, unbiased method to gain novel insights into transcriptional networks, yet this approach has rarely been used in vivo in mammals because of high resource demands. Here we utilized somatic mutagenesis to perform the first reported in vivo CRISPR genetic screen within a mammalian heart. We discovered and validated several novel transcriptional regulators of CM maturation. Among them were RNF20 and RNF40, which form a complex that monoubiquitinates H2B on lysine 120. Mechanistic studies indicated that this epigenetic mark controls dynamic changes in gene expression required for CM maturation. These insights into CM maturation will inform efforts in cardiac regenerative medicine. More broadly, our approach will enable unbiased forward genetics across mammalian organ systems. Overall design: A CRISPR guide RNA library was recovered from Myh7YFP+ cardiomyocytes, sequenced, and gRNA enrichment calculated. Gene expression was assessed in P6 GATA4/6 knockout cardiomyocytes by RNA-sequencing. Gene expression was assessed in P28 RNF20/40 depleted cardiomyocytes by RNA-sequencing. H2Bub1 ChIP-sequencing was conducted on P1 and P28 cardiomyocytes. H3K4me3 and H3K36me3 ChIP-sequencing was conducted on P7 wildtype and Rnf20 cardiomyocyte-specific KO ventricles.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>10090</TAXON_ID>
+      <SCIENTIFIC_NAME>Mus musculus</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9559"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>34290256</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA587765&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA587765&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>587765</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2021-06-01</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

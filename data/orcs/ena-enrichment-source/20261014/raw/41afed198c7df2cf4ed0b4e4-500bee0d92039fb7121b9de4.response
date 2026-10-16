@@ -1,0 +1,74 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA822847" alias="PRJNA822847" center_name="Bioinformatics Core, Biostatistics, Harvard School of Public Health" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA822847</PRIMARY_ID>
+    <SECONDARY_ID>SRP367369</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE200083</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Bioinformatics Core, Biostatistics, Harvard School of Public Health">PRJNA822847</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Single cell transcriptional profile of SC-islet grafts in an in vivo humanized model [scRNA-seq_invivo]</NAME>
+  <TITLE>Single cell transcriptional profile of SC-islet grafts in an in vivo humanized model [scRNA-seq_invivo]</TITLE>
+  <DESCRIPTION>To study immune responses in the context of human allogeneic graft rejection, we chose the Hu-PBL-NSG-MHCnull humanized mouse (Brehm et al., 2019). NOD-scid IL-2 receptor subunit γ (IL2rg)null (NSG) immunocompromised mice that lack murine MHC class I and II, were transplanted (under the kidney capsule, n=12) with 5M SC-islets (HLA-A2 positive), followed by human PBMC injection (termed ‘hPi-mice’; 50M/mouse, n=6) from healthy unmatched donors (HLA-A2 negative). The lack of murine MHC allowed us to monitor the graft function for prolonged durations without the risk of xenogeneic graft vs host disease (GVHD). Half of the SC-islet transplanted cohort (n=6 mice) was used as the control, without PBMC injection (Figure 1A). Since graft elimination by PBMCs is incomplete and residual endocrine cells remain in the hPi-mice grafts, we retrieved the SC-islet grafts for single cell RNA sequencing (scRNA-seq) analysis. These samples, along with pre-injected PBMCs as controls, were used for 10x Genomics mRNA expression library preparation and Illumina sequencing. Overall design: Comparing expression datasets from hPi grafts to controls</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA822999"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>36055241</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA822847&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA822847&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>822847</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2022-10-07</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

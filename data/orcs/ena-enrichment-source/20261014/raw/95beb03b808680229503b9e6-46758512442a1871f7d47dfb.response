@@ -1,0 +1,73 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA267124" alias="PRJNA267124" center_name="McCarroll Lab, Genetics, Harvard Medical School" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA267124</PRIMARY_ID>
+    <SECONDARY_ID>SRP049775</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE63269</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="McCarroll Lab, Genetics, Harvard Medical School">PRJNA267124</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Drop-Seq analysis of mixtures of human (HEK) and mouse (3T3) cells (1000/100 STAMPs) at 50 cells per microliter</NAME>
+  <TITLE>Drop-Seq analysis of mixtures of human (HEK) and mouse (3T3) cells (1000/100 STAMPs) at 50 cells per microliter</TITLE>
+  <DESCRIPTION>A cell supsension containing an equal mix of HEK and 3T3 cells was used in Drop-Seq, a novel technology for high-throughput single cell mRNAseq. The cells were mixed at a final concentration of 50 cells per microliter. Overall design: An estimated 1000 STAMPs and 100 STAMPs were separately selected for sequencing to obtain both high coverage and broad coverage data</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA267855"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>26000488</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>32888429</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA267124&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA267124&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>267124</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2015-05-22</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

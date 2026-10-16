@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA575910" alias="PRJNA575910" center_name="Craig Thompson Lab, Cancer Biology and Genetics, Memorial Sloan Kettering Cancer Center" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA575910</PRIMARY_ID>
+    <SECONDARY_ID>SRP224398</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE138459</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Craig Thompson Lab, Cancer Biology and Genetics, Memorial Sloan Kettering Cancer Center">PRJNA575910</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Reversible mitochondrial dysfunction drives terminal T-cell exhaustion</NAME>
+  <TITLE>Reversible mitochondrial dysfunction drives terminal T-cell exhaustion</TITLE>
+  <DESCRIPTION>The failure of T-cells to control tumor growth has been associated with several functional defects that collectively lead to T-cell “exhaustion.” This phenotype results from chronic antigen stimulation within the tumor microenvironment, but how repetitive antigenic stimulation leads to T-cell exhaustion remains poorly defined. Here we show that persistent antigen stimulation induces mitochondrial oxidative stress that reduces tricarboxylic acid (TCA) cycle activity. The resultant bioenergetic compromise impairs nucleotide triphosphate synthesis, induces endoplasmic reticulum (ER) stress, and activates an exhaustion-associated gene expression program. Reversal of oxidative stress with N-acetylcysteine effectively restores T-cell proliferation, effector function, and memory-associated gene expression and enhances anti-tumor T-cell efficacy in vivo. These data reveal that induction of mitochondrial oxidative stress is a critical component of terminal T-cell dysfunction. Furthermore, treatments that restore mitochondrial redox are sufficient to prevent T-cell exhaustion and enhance anti-tumor immunity. Overall design: RNA-sequencing of polyclonal or OT-I transgenic CD8+ T cells following acute or chronic TCR stimulation ex vivo, +/- N-acetylcysteine</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>10090</TAXON_ID>
+      <SCIENTIFIC_NAME>Mus musculus</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9559"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>32661364</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA575910&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA575910&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>575910</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2020-05-23</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

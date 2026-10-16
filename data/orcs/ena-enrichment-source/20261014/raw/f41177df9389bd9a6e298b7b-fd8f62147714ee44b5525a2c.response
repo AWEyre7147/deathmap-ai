@@ -1,0 +1,57 @@
+<PROJECT_SET>
+<PROJECT accession="PRJEB39747" alias="ena-STUDY-NATIONAL UNIVERSITY OF IRELAND GALWAY-06-08-2020-14:31:51:865-2257" center_name="NATIONAL UNIVERSITY OF IRELAND GALWAY">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJEB39747</PRIMARY_ID>
+    <SECONDARY_ID>ERP123304</SECONDARY_ID>
+    <SUBMITTER_ID namespace="NATIONAL UNIVERSITY OF IRELAND GALWAY">ena-STUDY-NATIONAL UNIVERSITY OF IRELAND GALWAY-06-08-2020-14:31:51:865-2257</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Genome-scale CRISPR-Cas9 knockout screen with ATP-competitive inhibition of CDC7</NAME>
+  <TITLE>ATR restrains DNA synthesis and mitotic catastrophe in response to CDC7 inhibition</TITLE>
+  <DESCRIPTION>Summary: DNA replication initiates from multiple origins and selective CDC7 kinase inhibitors (CDC7i) restrain cell proliferation by limiting origin firing. To understand how human cells respond to CDC7i, we have performed a CRISPR/Cas9 genome-wide screen to identify genes that, when lost, allow cells treated with sub-efficacious doses of CDC7i to proliferate. Among these, loss of function of ETAA1, an ATR activator, and RIF1 reduce the sensitivity to CDC7i by allowing DNA synthesis to occur more efficiently, markedly during late S phase. We show that CDC7 inhibition induces ATR activation mainly through ETAA1, and that if ATR is subsequently inhibited, origin firing is unleashed in a CDK and CDC7 dependent manner. Cells are then driven into a premature and highly defective mitosis, a phenotype that can be recapitulated by ETAA1 and TOPBP1 co-depletion. This work defines how ATR mediates CDC7 inhibition establishing the framework to understand how the origin firing checkpoint functions.
+
+Pooled genome wide CRISPR/Cas9 screen outline
+
+Cell line: MCF10A cells were stably transduced with EditR Lentiviral Cas9 nuclease (hEF1a promoter, Blasticidin resistance marker, Dharmacon) and subsequently selected using blasticidin to generate constitutively expressing Cas9 MCF10A cells. A single clone was isolated (MCF10A EditR cell line) and used for pooled genome-wide CRISPR/Cas9 screens.
+
+CRISPR pooled lentiviral sgRNA library: A plasmid based CRISPR pooled lentiviral sgRNA library that can be used in a modular format was purchased from CELLECTA (CELLECTA: CRISPR Human Genome Knockout Library, Module 1 (200 µg plasmid), #sgRNA: 52,549, KOHGW-M1-P; Module 2 (200 µg plasmid), #sgRNA: 49,461, KOHGW-M2-P; and Module 3 (200 µg plasmid), #sgRNA: 48,578, KOHGW-M3-P). Each module covers approximately 6,300 genes and each gene is targeted by 8x sgRNAs (~50,000 sgRNAs per module), in total targeting >19,000 protein coding genes. The modules were packaged, titered and used, according to the manufactures instructions, to perform a pooled genome-wide CRISPR/Cas9 screen.
+
+Pooled genome-wide CRISPR/Cas9 screen: MCF10A EditR cells were transduced with individual modules (Modules I, II and III) at a Multiplicity of Infection of 0.4 achieving ~275 fold guide representation. Transduced cells were selected with puromycin for 3 days before being harvested and samples taken for analysis by next generation sequencing (NGS) at the start of the screen (day 0). The remaining puromycin resistant cells from each module were cultured independently from each other in untreated and XL413 treated (20 μM) experimental branches. Throughout the screen cell proliferation and viability were monitored and cells were cultured in order to maintain ~100 fold guide representation. Finally, cells were harvested and a sample of cells taken for analysis by NGS at the end of the screen (day 16). All cell pellets were shipped to CELLECTA for genomic DNA extraction and analysed by NGS.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+  </SUBMISSION_PROJECT>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMISSION</DB>
+        <ID>ERA2798869</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJEB39747&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJEB39747&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2020-09-01</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2020-08-19</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

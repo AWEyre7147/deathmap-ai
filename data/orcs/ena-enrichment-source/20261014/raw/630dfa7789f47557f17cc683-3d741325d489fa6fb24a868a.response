@@ -1,0 +1,70 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA478932" alias="PRJNA478932" center_name="German Cancer Research Center" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA478932</PRIMARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE116528</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="German Cancer Research Center">PRJNA478932</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Consensus Molecular Subtype predicts differential vulnerability of colorectal cancer to the survivin suppressant YM155 II</NAME>
+  <TITLE>Consensus Molecular Subtype predicts differential vulnerability of colorectal cancer to the survivin suppressant YM155 II</TITLE>
+  <DESCRIPTION>Tumor heterogeneity is a major challenge to the treatment of colorectal cancer (CRC). Recently, a transcriptome-based classification was developed, segregating CRC into four consensus molecular subtypes (CMS) with distinct biological and clinical characteristics. Here, we applied the CMS classification on CRC cell lines to identify novel subtype-specific drug vulnerabilities. We combined publicly available transcriptome data from multiple resources to assign 159 CRC cell lines to CMS. By integrating results from large scale drug screens, we discovered that CMS1 cancer is highly vulnerable to the survivin suppressor YM155. We confirmed our results using an independent panel of CRC cell lines and demonstrate a 100-fold higher sensitivity of CMS1 lines. This vulnerability was specific to YM155 and not observed for commonly used chemotherapeutic agents. In CMS1 cancer, low concentrations of YM155 induced apoptosis and expression signatures associated with NFkappaB and ER stress mediated apoptosis signaling. Using a genome-wide CRISPR/Cas9 screen, we discovered a novel role of genes involved in LDL-receptor recycling as modulators of YM155 response in CMS1 CRC. Our work shows that combining drug response data with CMS classification in cell lines can reveal specific vulnerabilities and propose YM155 as novel CMS1 specific drug. We performed expression profiling experiments in order to validate molecular subtypes for selected cell lines Overall design: Total RNA from human colorectal cancer cells</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>33186476</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA478932&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA478932&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>478932</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2018-07-04</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

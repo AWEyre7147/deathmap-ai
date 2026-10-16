@@ -1,0 +1,74 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA412431" alias="PRJNA412431" center_name="Cold Spring Harbor Laboratory" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA412431</PRIMARY_ID>
+    <SECONDARY_ID>SRP119046</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE104307</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Cold Spring Harbor Laboratory">PRJNA412431</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>A TFIID-SAGA perturbation that targets MYB and suppresses acute myeloid leukemia (ChIP-seq)</NAME>
+  <TITLE>A TFIID-SAGA perturbation that targets MYB and suppresses acute myeloid leukemia (ChIP-seq)</TITLE>
+  <DESCRIPTION>Targeting of general coactivators, such as BRD4, is an emerging strategy to interfere with oncogenic transcription factors (TFs) in cancer. However, coactivator perturbations have the potential to influence the function of numerous TFs, thereby resulting in biological pleiotropy. Here we identify TAF12, an 18 kilodalton subunit of TFIID/SAGA coactivator complexes, as a selective requirement for acute myeloid leukemia (AML) progression. We trace this AML-specific dependency to a direct interaction between the TAF12/TAF4 histone-fold heterodimer and the transactivation domain of MYB, a TF with established roles in leukemogenesis. Ectopic expression of a histone-fold domain fragment of TAF4 can efficiently squelch TAF12 in cells, suppress MYB, and regress AML in mice. Our study reveals a strategy for potent MYB inhibition in AML and highlights how an oncogenic TF can be selectively neutralized by targeting a general coactivator complex. Overall design: TAF2 and TAF10 ChIP-seq were performed using antibodies recognizing endogenous protein with input genomic DNA as control. FLAG-TAF12 ChIP-seq was performed in FLAG-TAF12 expressing cells.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>10090</TAXON_ID>
+      <SCIENTIFIC_NAME>Mus musculus</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA412307"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9559"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>29316427</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA412431&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA412431&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>412431</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2018-03-01</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

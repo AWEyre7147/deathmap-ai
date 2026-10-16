@@ -1,0 +1,62 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA576429" alias="PRJNA576429" center_name="Applied Bioinformatics Laboratories (ABL), Division of Advanced Research Technologies (DART), New York University, NYU Langone Medical Center" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA576429</PRIMARY_ID>
+    <SECONDARY_ID>SRP224749</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE138571</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Applied Bioinformatics Laboratories (ABL), Division of Advanced Research Technologies (DART), New York University, NYU Langone Medical Center">PRJNA576429</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>In vivo epigenetic CRISPR screen identifies Asf1a as an immunotherapeutic target in Kras-mutant lung adenocarcinoma</NAME>
+  <TITLE>In vivo epigenetic CRISPR screen identifies Asf1a as an immunotherapeutic target in Kras-mutant lung adenocarcinoma</TITLE>
+  <DESCRIPTION>Despite substantial progress in lung cancer immunotherapy, the overall response rate in KRAS-mutant lung adenocarcinoma (ADC) patients remains low. Combining standard immunotherapy with adjuvant approaches that enhance adaptive immune responsesâ€”such as epigenetic modulation of anti-tumor immunityâ€”is therefore an attractive strategy. To identify epigenetic regulators of tumor immunity, we constructed an epigenetic-focused sgRNA library, and performed an in vivo CRISPR screen in KrasG12D/P53-/- (KP) lung ADC model. Our data showed that loss of the histone chaperone Asf1a in tumor cells sensitizes tumors to anti-PD-1 treatment. Mechanistic studies revealed that tumor cell intrinsic Asf1a deficiency induced immunogenic macrophage differentiation in the tumor microenvironment by upregulating GM-CSF expression and potentiated T cell activation in combination with anti-PD-1. Our results provide a rationale for a novel combination therapy consisting of Asf1a inhibition and anti-PD-1 immunotherapy. Overall design: ATAC seq to compare DNA accisibility in KP cell line with or without Asf1a knockout; ChIP seq to check DNA binding sites of ASF1A in H2009 cell line</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+  </SUBMISSION_PROJECT>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>31744829</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA576429&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA576429&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>576429</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2019-11-28</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2023-05-17</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

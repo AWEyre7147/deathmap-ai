@@ -1,0 +1,74 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA448880" alias="PRJNA448880" center_name="tianjin medical university" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA448880</PRIMARY_ID>
+    <SECONDARY_ID>SRP137675</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE112733</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="tianjin medical university">PRJNA448880</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>A genome-wide screen identifies E2F6 as critical factor for TMZ chemoresistance in EGFRvIII expressing GBM (DNA-seq)</NAME>
+  <TITLE>A genome-wide screen identifies E2F6 as critical factor for TMZ chemoresistance in EGFRvIII expressing GBM (DNA-seq)</TITLE>
+  <DESCRIPTION>We conducted a genome-wide screen by clustered regularly interspaced short palindromic repeats (CRISPR)-Cas9 library to identify genes which are particularly resistant to EGFRvIII GBM cells under the chemo-stress of TMZ. In vitro and in vivo validation of EGFRvIII-specific targets revealed several strong hits, including E2F6. Mechanistic studies demonstrated that E2F6 reveals its resistance to TMZ through NF-κB and TMZ inducement. Overall design: A pooled genome-wide CRISPR-Cas9-based screen using a sgRNA lentiviral library harboring 123,411 sgRNAs which target 20,914 human genes were performed to transduce EGFRwt and EGFRvIII U87 cells ( no replicate), then treated with TMZ for 7 and 14 days. The end time point of each screen was compared to day 0 in order to determine which sgRNAs were overrepresented or underrepresented in the population.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA448877"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>31508283</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA448880&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA448880&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>448880</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2020-06-07</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

@@ -1,0 +1,74 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA271614" alias="PRJNA271614" center_name="Rice, The Rockefeller University" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA271614</PRIMARY_ID>
+    <SECONDARY_ID>SRP051705</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE64677</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Rice, The Rockefeller University">PRJNA271614</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Homo sapiens</NAME>
+  <TITLE>Hepatitis C virus functionally sequesters miR-122 [RNA-Seq]</TITLE>
+  <DESCRIPTION>Hepatitis C virus uniquely requires the liver specific microRNA-122 for replication, yet global effects on endogenous miRNA targets during infection are unexplored. Here, high-throughput sequencing and crosslinking immunoprecipitation (HITS-CLIP) experiments of human Argonaute (Ago) during HCV infection showed robust Ago binding on the HCV 5’UTR, at known and predicted miR-122 sites. On the human transcriptome, we observed reduced Ago binding and functional mRNA de-repression of miR-122 targets during virus infection. This miR-122 “sponge” effect could be relieved and redirected to miR-15 targets by swapping the miRNA tropism of the virus. Single-cell expression data from reporters containing miR-122 sites showed significant de-repression during HCV infection depending on expression level and number of sites. We describe a quantitative mathematical model of HCV induced miR-122 sequestration and propose that such miR-122 inhibition by HCV RNA may result in global de-repression of host miR-122 targets, providing an environment fertile for the long-term oncogenic potential of HCV. Overall design: mRNA-seq libraries were generated from mock or J6/JFH1 Clone2 infected Huh7.5 cells. Cells were infected at an MOI of 1-2 and harvested at 72 hours and 96 hours post-infection for CLIP. Libraries were generated using Illumina Truseq technology.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA271611"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>25768906</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA271614&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA271614&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>271614</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2015-01-07</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

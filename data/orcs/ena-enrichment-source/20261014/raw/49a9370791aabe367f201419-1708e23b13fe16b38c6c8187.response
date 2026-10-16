@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA414977" alias="PRJNA414977" center_name="University Health Network" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA414977</PRIMARY_ID>
+    <SECONDARY_ID>SRP120496</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE105161</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="University Health Network">PRJNA414977</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Glutaminolysis is a metabolic dependency in FLT3 ITD Acute Myeloid Leukemia unmasked by FLT3 Tyrosine Kinase Inhibition</NAME>
+  <TITLE>Glutaminolysis is a metabolic dependency in FLT3 ITD Acute Myeloid Leukemia unmasked by FLT3 Tyrosine Kinase Inhibition</TITLE>
+  <DESCRIPTION>FLT3ITD are common mutations in Acute Myeloid Leukemia (AML) and carry a particularly bad prognosis. Although new generation FLT3 tyrosine kinase inhibitors (TKI) have shown promising results, the outcome of FLT3-mutated AML patients remains poor and demands the identification of novel, specific and validated therapeutic targets for this highly aggressive AML subtype. Utilizing an unbiased genome-wide CRISPR/Cas9 screen, we identify GLS, the first enzyme in glutamine metabolism, as synthetically lethal with FLT3 TKI treatment. Using complementary metabolomic and gene-expression analysis, we demonstrate that glutamine metabolism, through its ability to support both mitochondrial function and cellular redox metabolism, becomes a metabolic dependency of FLT3ITD AML, specifically unmasked by FLT3-TKI treatment. We extend these findings to AML subtypes driven by other tyrosine kinase activating mutations, and validate the role of GLS as a clinically actionable therapeutic target in both primary AML and in vivo models. Our work highlights the role of metabolic adaptations as a resistance mechanism to several TKI inhibitors, and suggests glutaminolysis as a therapeutically targetable vulnerability when combined with specific TKI in FLT3ITD and other TK activating mutation driven leukemias. Overall design: Gene expression analysis by RNA-Seq of FLT3ITD mutant cell lines MV411 and MOLM13 treated with AC220 1nM vs vehicle control and of BCR-ABL mutated K562 cells treated with Imatinib 2uM vs vehicle control.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>29463564</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA414977&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA414977&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>414977</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2018-03-09</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

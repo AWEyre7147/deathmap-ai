@@ -1,0 +1,35 @@
+{
+  "reason": "One-off recovery/render/release helpers and failed Node exporter retained as run evidence; active ENA exporter uses existing Python XML writer",
+  "files": [
+    {
+      "original": "scripts\\export_enrichment_template.mjs",
+      "retained": "data\\orcs\\ena-enrichment-source\\20261014\\executed-code\\export_enrichment_template.mjs",
+      "sha256": "74c13e57acce362f17c8f01bff1e7ce70e7001ede00278cdd2d119f20d9410a3"
+    },
+    {
+      "original": "scripts\\restore_ena_report_cache.py",
+      "retained": "data\\orcs\\ena-enrichment-source\\20261014\\executed-code\\restore_ena_report_cache.py",
+      "sha256": "c2fe050c75549eb0e53de87740730d7f1122e4186df0d929e300105853c989d7"
+    },
+    {
+      "original": "scripts\\recover_ena_title_requests.py",
+      "retained": "data\\orcs\\ena-enrichment-source\\20261014\\executed-code\\recover_ena_title_requests.py",
+      "sha256": "dcca95e986f6843ca6881613cbc939ec2b6ec2d9fc6536171b93460862e7576a"
+    },
+    {
+      "original": "scripts\\recover_ena_run_reports.py",
+      "retained": "data\\orcs\\ena-enrichment-source\\20261014\\executed-code\\recover_ena_run_reports.py",
+      "sha256": "f8b329ab20c88ef5cdaa6d3acb7e44b91c8ebf3182970f0d54d4fc979ef86fb4"
+    },
+    {
+      "original": "scripts\\finalize_ena_collection.py",
+      "retained": "data\\orcs\\ena-enrichment-source\\20261014\\executed-code\\finalize_ena_collection.py",
+      "sha256": "3147e9f0f9e28ab33c06a7a78a03b1b5b6aa3ef7885911358b4d839ea6dc215c"
+    },
+    {
+      "original": "scripts\\preview_ena_export.mjs",
+      "retained": "data\\orcs\\ena-enrichment-source\\20261014\\executed-code\\preview_ena_export.mjs",
+      "sha256": "94328a9d226f77e6d43d0d1ea1638456890bdfbc37ac6bf1fc02eb76154ab848"
+    }
+  ]
+}

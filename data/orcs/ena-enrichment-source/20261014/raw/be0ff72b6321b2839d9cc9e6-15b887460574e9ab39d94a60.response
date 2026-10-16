@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA317534" alias="PRJNA317534" center_name="Molecular and Cellular Biology, University of Arizona" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA317534</PRIMARY_ID>
+    <SECONDARY_ID>SRP072919</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE79968</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Molecular and Cellular Biology, University of Arizona">PRJNA317534</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Homo sapiens</NAME>
+  <TITLE>Merkel cell polyomavirus small T antigen promotes pro-glycolytic metabolic perturbations required for transformation</TITLE>
+  <DESCRIPTION>Merkel cell polyomavirus (MCPyV) is an etiological agent of Merkel cell carcinoma (MCC), a highly aggressive skin cancer. The MCPyV small tumor antigen (ST) is required for maintenance of MCC and can transform normal cells. To gain insight into cellular perturbations induced by MCPyV ST, we performed transcriptome analysis of normal human fibroblasts with inducible expression of ST. MCPyV ST dynamically alters the cellular transcriptome with increased levels of glycolytic genes, including the monocarboxylate lactate transporter SLC16A1 (MCT1). Extracellular flux analysis revealed increased lactate export reflecting elevated aerobic glycolysis in ST expressing cells. Inhibition of MCT1 activity suppressed the growth of MCC cell lines and impaired MCPyV-dependent transformation of IMR90 cells. Both NF-κB and MYC have been shown to regulate MCT1 expression. While MYC was required for MCT1 induction, MCPyV-induced MCT1 levels decreased following knockdown of the NF-κB subunit RelA, supporting a synergistic activity between MCPyV and MYC in regulating MCT1 levels. Several MCC lines had high levels of MYCL and MYCN but not MYC. Increased levels of MYCL was more effective than MYC or MYCN in increasing extracellular acidification in MCC cells. Our results demonstrate the effects of MCPyV ST on the cellular transcriptome and reveal that transformation is dependent, at least in part, on elevated aerobic glycolysis. Overall design: Expression of MCPyV ST or GFP was induced in IMR90 fibroblasts, and triplicate RNA samples were extracted and sequenced every 8 hours for a total of 96 hours</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>27880818</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA317534&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA317534&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>317534</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2016-10-30</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

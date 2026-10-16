@@ -1,0 +1,74 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA647903" alias="PRJNA647903" center_name="Division of Genetics, Department of Medicine, Brighan and Women's Hospital and Harvard Medical School" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA647903</PRIMARY_ID>
+    <SECONDARY_ID>SRP273148</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE154936</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Division of Genetics, Department of Medicine, Brighan and Women's Hospital and Harvard Medical School">PRJNA647903</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Elucidation of remdesivir cytotoxicity pathways through genome-wide CRISPR/Cas9 screening and transcriptomics</NAME>
+  <TITLE>Elucidation of remdesivir cytotoxicity pathways through genome-wide CRISPR/Cas9 screening and transcriptomics</TITLE>
+  <DESCRIPTION>The adenosine analogue remdesivir has emerged as a front-line antiviral treatment for SARS-CoV-2, with preliminary evidence that it reduces the duration and severity of illness. As clinical trials are ongoing, the full side effect profile of remdesivir is not yet known. Prior clinical studies have identified adverse events, and remdesivir has been shown to inhibit mitochondrial RNA polymerase in biochemical experiments, yet little is known about the specific genetic pathways involved in cellular remdesivir metabolism and cytotoxicity. Through genome-wide CRISPR/Cas9 screening (data not provided here) and RNA sequencing, we identify specific genes and pathways implicated in remdesivir metabolism. We show that remdesivir treatment leads to a global repression of mitochondrial respiratory activity. Further, we show that loss of the mitochondrial nucleoside transporter SLC29A3 or the mitochondrial adenylate kinase AK2 provide 10-72-fold mitigation of remdesivir toxicity while conserving its antiviral potency. This work provides candidate gene targets to reduce remdesivir toxicity and provides a proof-of-principle for the use of CRISPR/Cas9 screening to elucidate mechanisms of drug cytotoxicity. Overall design: RNA-sequencing of on liver and intestinal cell lines treated with remdesivir or Hydroxychloroquine (HCQ).</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJEB40771"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>32869031</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA647903&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA647903&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>647903</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2020-09-11</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

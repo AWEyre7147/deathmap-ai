@@ -1,0 +1,74 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA476373" alias="PRJNA476373" center_name="Department for Computational Biology of Infection Research, Helmholtz Centre for Infection Research" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA476373</PRIMARY_ID>
+    <SECONDARY_ID>SRP150649</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE115894</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Department for Computational Biology of Infection Research, Helmholtz Centre for Infection Research">PRJNA476373</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Dynamic gene expression in T-ALL following treatment and release of gamma-secretase inhibition [GRO-Seq]</NAME>
+  <TITLE>Dynamic gene expression in T-ALL following treatment and release of gamma-secretase inhibition [GRO-Seq]</TITLE>
+  <DESCRIPTION>Gro-seq analysis following NOTCH1 inhibition and release gave an ovierview of the kinetics of NOTCH1 dependent transcriptional regulatiion Overall design: NOTCH1-driven T-ALL cell line CUTLL1 was treated with gamma-secretase inhibitor (gSI) for 72 hours. Dynamic gene expression pattern was followed by GRO-Seq upon release of gSI after 0, 1, 2, 3, 4, 5, 6, 8 and 10 hours.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA476370"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>32203470</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA476373&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA476373&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>476373</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2019-08-06</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

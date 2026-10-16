@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA523003" alias="PRJNA523003" center_name="Chemical Biology and Therapeutic Sciences, Broad Institute of MIT and Harvard" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA523003</PRIMARY_ID>
+    <SECONDARY_ID>SRP186175</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE126696</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Chemical Biology and Therapeutic Sciences, Broad Institute of MIT and Harvard">PRJNA523003</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>A genome-wide CRISPR screen identifies mediators of ferroptosis sensitivity in clear-cell carcinomas</NAME>
+  <TITLE>A genome-wide CRISPR screen identifies mediators of ferroptosis sensitivity in clear-cell carcinomas</TITLE>
+  <DESCRIPTION>Clear-cell carcinomas (CCCs) are a histological group of highly aggressive malignancies commonly originating in the kidney and ovary. CCC tumors are distinguished by aberrant lipid and glycogen accumulation and are inherently refractory to a broad range of anti-cancer therapies. In the study associated with this dataset, we identified an intrinsic vulnerability to ferroptosis associated with the unique metabolic state in CCC cells. However, the mediators of this sensitivity to ferroptosis are unknown. Here we perform a genome-wide CRISPR screen to identify genes that mediate the sensitivity to ML210, a selective inhibitor of glutathione peroxidase 4 (GPX4) and a potent inducer of ferroptotic cell death in 786-O, a clear-cell renal cell carcinoma cell line. Overall design: 786-O cells with Cas9 expression were infected with a genome-wide lentiviral sgRNA library, selected with puromycin, and expanded for treatment with DMSO or ML210 for 4, 6, or 8 days, respectively. sgRNA-barcodes that were enriched in ML210 treated conditions were identified by high-throughput sequencing.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>30962421</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA523003&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA523003&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>523003</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2019-03-05</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA691936" alias="PRJNA691936" center_name="The University of Tokyo" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA691936</PRIMARY_ID>
+    <SECONDARY_ID>SRP301627</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE164778</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="The University of Tokyo">PRJNA691936</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Genome-wide CRISPR screening reveals nucleotide synthesis negatively regulates autophagy</NAME>
+  <TITLE>Genome-wide CRISPR screening reveals nucleotide synthesis negatively regulates autophagy</TITLE>
+  <DESCRIPTION>Macroautophagy (hereafter, autophagy) is a process that directs the degradation of cytoplasmic material in lysosomes. In addition to its homeostatic roles, autophagy undergoes dynamic positive and negative regulation in response to multiple forms of cellular stress, thus enabling the survival of cells. However, the precise mechanisms of autophagy regulation are not fully understood. To identify potential negative regulators of autophagy, we performed a genome-wide CRISPR screen using the quantitative autophagic flux reporter GFP-LC3-RFP. We identified phosphoribosylformylglycinamidine synthase (PFAS), a component of the de novo purine synthesis pathway, as one such negative regulator of autophagy. Autophagy was activated in cells lacking PFAS or phosphoribosyl pyrophosphate amidotransferase (PPAT), another de novo purine synthesis enzyme, or treated with methotrexate when exogenous levels of purines were insufficient. Purine starvation-induced autophagy activation was concomitant with mTORC1 suppression, and was profoundly suppressed in cells deficient for TSC2, which negatively regulates mTORC1 through inhibition of RHEB, suggesting that purines regulate autophagy through the TSC-RHEB-mTORC1 signaling axis. Moreover, depletion of the pyrimidine synthesis enzymes carbamoyl-phosphate synthetase 2, aspartate transcarbamylase, and dihydroorotase (CAD) and dihydroorotate dehydrogenase (DHODH) activated autophagy as well, although mTORC1 activity was not altered by pyrimidine shortage. These results suggest a different mechanism of autophagy induction between purine and pyrimidine starvation. These findings provide novel insights into the regulation of autophagy by nucleotides and possibly the role of autophagy in nucleotide metabolism, leading to further developing anticancer strategies involving nucleotide synthesis and autophagy. Overall design: Genome-wide CRISPR screen of autophagy-activated cells, measured using the GFP-LC3-RFP autophagy flux reporter.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>34000301</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA691936&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA691936&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>691936</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2021-05-13</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

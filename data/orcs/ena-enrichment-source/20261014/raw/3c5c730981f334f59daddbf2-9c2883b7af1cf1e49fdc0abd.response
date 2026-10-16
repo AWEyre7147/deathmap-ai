@@ -1,0 +1,65 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA593248" alias="PRJNA593248" center_name="Microbial Infection and Immunity, Ohio State University" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA593248</PRIMARY_ID>
+    <SECONDARY_ID>SRP234567</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE141386</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Microbial Infection and Immunity, Ohio State University">PRJNA593248</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Barrier-to-autointegration factor 1 protects against a basal cGAS-STING response</NAME>
+  <TITLE>Barrier-to-autointegration factor 1 protects against a basal cGAS-STING response</TITLE>
+  <DESCRIPTION>Although the pathogen recognition receptor pathways that activate cell-intrinsic antiviral responses are well delineated, less is known about how the host regulates this response to prevent sustained signaling and possible immune-mediated damage. Using a genome-wide CRISPR-Cas9 screening approach to identify host factors that modulate interferon (IFN) stimulated gene (ISG) expression, we identified the DNA binding protein Barrier-to-autointegration factor 1 (Banf1), a previously described inhibitor of retrovirus integration, as a modulator of basal cell-intrinsic immunity. Ablation of Banf1 by gene editing resulted in enhanced chromatin accessibility of host defense genes and increased expression of ISGs including Oas2, Rsad2 (viperin), Ifit1, ISG15 and Cxcl10. The phenotype in Banf1-deficient cells occurred through a cGAS, STING, and IRF3-dependent signaling axis, was associated with reduced infection of RNA and DNA viruses, and was reversed in Banf1 complemented cells. Confocal microscopy and biochemical studies revealed that a loss of expression of Banf1 resulted in higher level of cytosolic double-stranded DNA at baseline. Our study identifies an undescribed role for Banf1 in regulating levels of cytoplasmic DNA and cGAS-dependent ISG homeostasis and suggests possible therapeutic directions for promoting or inhibiting cell-intrinsic innate immune responses. Overall design: Examination of different chromatin activity by H3K27ac native ChIP-seq, and paired RNA-seq, in three different BV2 genotypes</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>10090</TAXON_ID>
+      <SCIENTIFIC_NAME>Mus musculus</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9559"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA593248&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA593248&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>593248</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2021-01-01</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

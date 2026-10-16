@@ -1,0 +1,65 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA607207" alias="PRJNA607207" center_name="Radiation Oncology, Stanford University School of Medicine" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA607207</PRIMARY_ID>
+    <SECONDARY_ID>SRP249789</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE145430</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Radiation Oncology, Stanford University School of Medicine">PRJNA607207</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Identifying differentially expressed genes in Zmat3 knockout cells</NAME>
+  <TITLE>Identifying differentially expressed genes in Zmat3 knockout cells</TITLE>
+  <DESCRIPTION>The goal of the study was to identify genes whose expression is Zmat3 depedent using RNA-seq. Overall design: We used CRISPR/Cas9 to knockout Zmat3 in Cas9+ E1A;HrasG12V mouse embryonic fibroblasts (MEFs). After selection for Zmat3 or negative control sgRNAs, cells were cultured for 10 days, and then RNA was collected for RNA-seq, using Illumina TruSeq v2.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>10090</TAXON_ID>
+      <SCIENTIFIC_NAME>Mus musculus</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9559"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA607207&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA607207&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>607207</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2020-11-08</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

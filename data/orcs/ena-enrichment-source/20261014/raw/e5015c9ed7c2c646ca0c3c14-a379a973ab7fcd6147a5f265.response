@@ -1,0 +1,65 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA732072" alias="PRJNA732072" center_name="Dana Farber Cancer Institute" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA732072</PRIMARY_ID>
+    <SECONDARY_ID>SRP320949</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE175332</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Dana Farber Cancer Institute">PRJNA732072</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>In Vivo CRISPR Screens Identify E3 Ligase Cop1 as a Modulator of Macrophage Infiltration and Cancer Immunotherapy Target</NAME>
+  <TITLE>In Vivo CRISPR Screens Identify E3 Ligase Cop1 as a Modulator of Macrophage Infiltration and Cancer Immunotherapy Target</TITLE>
+  <DESCRIPTION>Cop1 regulates stability of transcription factors. We found that Cop1 can regulate the proteasomal degradation of Cebpd. We generated 4T1 breast cancer cells with CRISPR/Cas9 mediated Cop1 (gene symbol RFWD2) knockout. We used Cebpd antibody to pulldown the DNA fragments binding with Cebpd and did ChIP-seq. Overall design: Examination of Cebpd ChIP-seq under two condtions in 4T1 breast cancer cells: Rosa26 and Cop1 knockout. Additionally, we used two different gRNAs to knockout Cop1. Two replicaters per condition.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>10090</TAXON_ID>
+      <SCIENTIFIC_NAME>Mus musculus</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9559"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA732072&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA732072&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>732072</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2021-05-24</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

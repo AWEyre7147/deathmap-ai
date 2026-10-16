@@ -1,0 +1,70 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA91771" alias="PRJNA91771" center_name="Department of Clinical Science and Community Health - Hematology 1, University of Milan - Fondazione IRCCS Ospedale Maggiore Policlinico" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA91771</PRIMARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE2113</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Department of Clinical Science and Community Health - Hematology 1, University of Milan - Fondazione IRCCS Ospedale Maggiore Policlinico">PRJNA91771</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Homo sapiens</NAME>
+  <TITLE>Plasma cell dyscrasias expression profiles associated with distinct IGH translocations in multiple myeloma</TITLE>
+  <DESCRIPTION>This series of microarray experiments contains the gene expression profiles of purified plasma cells (PCs) obtained from 7 monoclonal gammopathy of undetermined significance (MGUS), 39 newly diagnosed multiple myeloma (MM) and 6 plasma-cell leukaemia (PCL) patients. PCs were purified from bone marrow Seriess, after red blood cell lysis with 0.86% ammonium chloride, using CD138 immunomagnetic microbeads. The purity of the positively selected PCs was assessed by morphology and flow cytometry and was > 90% in all cases. 5 micrograms of total RNA was processed and hybridized to the Affymetrix HG-U133A chip following the manufacturer's instructions. After scanning, the images were processed using Affymetrix MicroArray Suite (MAS) 5.0 software to generate gene expression intensity values. Arrays normalization was performed using MAS 5.0 "global scaling" procedure, which normalizes the signals of different experiments to the same target intensity (TGT=100). Keywords: other</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>15735737</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA91771&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA91771&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>91771</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2014-02-11</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

@@ -1,0 +1,73 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA114395" alias="PRJNA114395" center_name="General Electric" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA114395</PRIMARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE14554</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="General Electric">PRJNA114395</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Rattus norvegicus</NAME>
+  <TITLE>Toxicogenomic Comparison of TCDD and PCB 126 Responsiveness in Primary Rat Hepatocytes</TITLE>
+  <DESCRIPTION>(Abstract) Toxicogenomics has great potential for enhancing our understanding of environmental chemical toxicity, hopefully leading to better-informed human health risk assessments. This study employed toxicogenomic technology to reveal species differences in response to two prototypical aryl hydrocarbon receptor (AHR) agonists, 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD) and the polychlorinated biphenyl (PCB) congener PCB 126. Dose responses of primary cultures of rat and human hepatocytes were determined using species-specific microarrays sharing over 4,000 gene orthologs. Forty-seven human and 79 rat genes satisfied dose response criteria for both chemicals and were subjected to further analysis including the calculation of EC50 and the relative potency (REP) of PCB 126 for each gene. Only 5 responsive orthologous genes were shared between the two species, yet the geometric mean of the REPs for all rat and human modeled responsive genes were 0.06 (95% Confidence Interval (CI); 0.03-0.1) and 0.002 (95% CI; 0.001-0.005), respectively, suggesting broad species differences in the initial events that follow AHR activation but precede toxicity. This indicates that there are species differences in both the specific genes that responded and the agonist potency and relative potency for those genes. This observed insensitivity of human cells to PCB 126 is consistent with more traditional measurements of AHR activation (i.e., CYP1A1 enzyme activity) and suggests that the species difference in PCB 126 sensitivity is likely due to certain aspects of AHR function. That a species divergence also exists in this expanded AHR-regulated gene repertoire is a novel finding and should help when extrapolating animal data to humans. Overall design: Primary hepatocyte cultures, separated into 2 pools of 3 female Sprague Dawley rats each, were treated with vehicle (0.5% DMSO), TCDD (-14 to -6.5 log10 M) , or PCB 126 (-12 to -5 log10 M) for 48h. Total RNA was extracted and screened with RG-U34A microarrays for dose response.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>10116</TAXON_ID>
+      <SCIENTIFIC_NAME>Rattus norvegicus</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA10621"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA111733"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>19692669</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA114395&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA114395&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>114395</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2014-02-11</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

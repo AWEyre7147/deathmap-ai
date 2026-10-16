@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA588019" alias="PRJNA588019" center_name="Tony Wyss-Coray, Neurology, Stanford University" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA588019</PRIMARY_ID>
+    <SECONDARY_ID>SRP228776</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE140009</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Tony Wyss-Coray, Neurology, Stanford University">PRJNA588019</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>RNA-seq of lipid droplet-low and lipid droplet-rich microglia isolated from the hippocampi of Progranulin KO mice</NAME>
+  <TITLE>RNA-seq of lipid droplet-low and lipid droplet-rich microglia isolated from the hippocampi of Progranulin KO mice</TITLE>
+  <DESCRIPTION>Sequencing data related to the manuscript entitled, "Lipid droplet accumulating microglia represent a dysfunctional and pro-inflammatory state in the aging brain". Overall design: 10-month old Progranulin knockout mice (GRN KO) were perfused and hippocampi were dissected (Hippocampi of 2 mice were pooled per sample). Primary microglia were isolated by gentle dounce homogenization of the brain, Percoll-based myelin removal, and FACS-purification of ~10,000 live CD11b+CD45lo cells. BODIPYlo (=lipid droplet-low) and BODIPYhi (=lipid droplet-high) microglia were sorted into RLT Plus buffer (Qiagen) containing beta-mercaptoethanol. RNA was extracted using a RNeasy Micro Plus kit (Qiagen) according to the manufacturer’s protocol. RNA integrity was assessed on a Bioanalyzer (Agilent), and high quality samples (RIN >9) were used for library preparation. cDNA synthesis and amplification was performed using the SmartSeq v4 Ultra-low input kit (Takara), and libraries were tagmented, adaptor ligated, and indexed using the Nextera XT kit (Illumina). Sequencing of isolated microglia was carried out with Illumina Novogene 6000, paired end, 2x 100 bp. The quality of fastq files was assessed using FASTQC (v 0.11.4). Reads were mapped to mouse mm10 reference genome using STAR (v 2.5.3a). Raw read counts were generated with STAR using the GeneCounts function. Differential expression analysis was performed using DESeq2 with standard settings.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>10090</TAXON_ID>
+      <SCIENTIFIC_NAME>Mus musculus</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9559"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>31959936</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA588019&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA588019&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>588019</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2019-11-08</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

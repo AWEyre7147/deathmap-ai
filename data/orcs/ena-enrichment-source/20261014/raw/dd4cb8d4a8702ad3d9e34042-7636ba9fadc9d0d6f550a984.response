@@ -1,0 +1,59 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA779941" alias="PRJNA779941" center_name="Institute of Virology and Immunology (IVI), University of Bern" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA779941</PRIMARY_ID>
+    <SECONDARY_ID>SRP345751</SECONDARY_ID>
+    <SUBMITTER_ID namespace="Institute of Virology and Immunology (IVI), University of Bern">PRJNA779941</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <TITLE>A genome-wide CRISPR screen identifies interactors of the autophagy pathway as conserved coronavirus targets</TITLE>
+  <DESCRIPTION>Here we conducted two independent genome-wide CRISPR knockout screens to identify MERS-CoV and HCoV-229E host dependency factors (HDF) required for HCoV replication in the human Huh7 cell line. Top scoring genes were further validated and assessed in the context of MERS-CoV and HCoV-229E infection as well as SARS-CoV and SARS-CoV-2 infection. Strikingly, we found that several autophagy-related genes, including TMEM41B, MINAR1, and the immunophilin FKBP8, were common host factors required for pan-CoV replication. Importantly, inhibition of the immunophilin protein family with the compounds cyclosporine A and the non-immunosuppressive derivative alisporivir, resulted in dose-dependent inhibition of CoV replication in primary human nasal epithelial cell cultures, which recapitulate the natural site of virus replication. Overall, we identified host factors that are crucial for CoV replication and demonstrated that these factors constitute potential targets for therapeutic intervention by clinically approved drugs.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJEB40771"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA779941&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA779941&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>779941</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2021-11-16</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

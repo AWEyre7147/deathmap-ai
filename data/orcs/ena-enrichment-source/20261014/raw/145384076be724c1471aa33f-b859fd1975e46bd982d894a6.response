@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA894105" alias="PRJNA894105" center_name="Hui Jiang, National Institute of Biological Sciences" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA894105</PRIMARY_ID>
+    <SECONDARY_ID>SRP404364</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE216499</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Hui Jiang, National Institute of Biological Sciences">PRJNA894105</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Mitochondrial cristae architecture protects against mtDNA release and inflammation</NAME>
+  <TITLE>Mitochondrial cristae architecture protects against mtDNA release and inflammation</TITLE>
+  <DESCRIPTION>Mitochondrial damage causes mtDNA release to activate type I interferon (IFN-I) response via the cGAS-STING pathway. mtDNA-induced inflammation promotes autoimmune and aging-related degenerative disorders. However, the global picture of inflammation-inducing mitochondrial damages remains obscure. Here we performed a mitochondria-targeted CRISPR-knockout screen for regulators of the IFN-I response. Strikingly, our screen revealed dozens of hits enriched with key regulators of cristae architecture, including phospholipid cardiolipin and protein complexes such as OPA1, MICOS, SAM, MIB, PHB, and the F1Fo-ATP synthase. Disrupting these cristae organizers consistently induced mtDNA release and STING-dependent IFN-I response. Furthermore, robust STING-dependent IFN-I response was induced in vivo by knocking out MTX2, a subunit of the SAM complex whose null-mutations cause progeria in human. Taken together, beyond revealing the central role of cristae architecture to prevent mtDNA release and inflammation, our results mechanistically link mitochondrial cristae disorganization and inflammation, two emerging hallmarks of aging and aging-related degenerative diseases. Overall design: We performed RNA-seq in MEF cell lines to find out how prominent is the IFN-I response among all the cellular transcriptional changes in mutant cells with cristae disorganization. The cell lines we used for RNA-seq in this study include 3 Knockout cell lines (CHCHD3 KO, MTX2 KO, DNAJC11 KO) and 1 WT cell for control, 2 DOX-induced KD cell lines (OPA1-DOX, Mic60-DOX) with their un-induced samples (OPA1, Mic60) for control, 1 un-induced non-targeting-control-shRNA cell line(NC) and Dox-induced NC-shRNA (NC-DOX) cell lines for negative control. Each cell line has 3 biological replicates for RNA-seq. We also performed RNA-seq in mouse tissue to determine if cristae disorganization activates the IFN-I response in vivo. We generated MTX2 liver-specific KO (MTX2-LKO) mice and non-targeting control (NTC) mice as control. For RNA-seq, we used RNA from liver of 5 mice (12-week old) of each group for biological replicates.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>10090</TAXON_ID>
+      <SCIENTIFIC_NAME>Mus musculus</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9559"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>36476853</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA894105&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA894105&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>894105</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2022-11-05</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

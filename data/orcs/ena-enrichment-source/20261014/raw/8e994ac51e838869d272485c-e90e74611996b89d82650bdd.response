@@ -1,0 +1,73 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA296123" alias="PRJNA296123" center_name="Gyneconogical cancer, cancer biology center" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA296123</PRIMARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE73091</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Gyneconogical cancer, cancer biology center">PRJNA296123</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Homo sapiens</NAME>
+  <TITLE>Gene expression profile of tumor cells from primary tumors, ascites and metastases of low grade serous ovarian cancer patients</TITLE>
+  <DESCRIPTION>Differ from the aggressive nature of HGSOC (high grade serous ovarian cancer), LGSOC (low grade serous ovarian cancer) is characterized by an early age of disease onset, slow growth pattern, and poor response to chemotherapy. To understand more specifically the underlying gene profiling discrepancy that contributes to their behavior distinction, we performed parallel gene expression profiling in 9 magnetic sorted tumor cells samples from matched primary tumors, ascites and metastases of 3 LGSOC patients as in HGSOC. By comparing the expression data among primary tumor cells, ascitic tumor cells and metastasis tumor cells, we identified a set of differential expressed genes along LGSOC progression. Further study revealed that the gene phenotype perturbance along LGSOC progression was quite different from that of HGSOC patients. We used microarrays to profile the expression of 9 matched tumor cells samples in order to identify molecular alteration between primary tumor cells, ascitic tumor cells and metastatic tumor cells in low grade serous ovarian cancer. Overall design: Transcriptome profiling analyses were performed on 9 magnetical sorted epithelial tumor samples from matched primary tumors, ascites and metastases in low grade serous ovarian cancer patients, using the Affymetrix human genome U133 Plus 2.0 microarray.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA296094"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>30710055</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA296123&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA296123&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>296123</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2024-04-04</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

@@ -1,0 +1,192 @@
+{
+  "schema_version": "ena-enrichment-manifest/1.0",
+  "strategy": "ena-orcs-metadata-v1",
+  "status": "complete_with_omissions",
+  "finalized_utc": "2026-10-16T17:45:23.432285+00:00",
+  "database": "data\\orcs\\ena-enrichment.json",
+  "database_sha256": "7e5b1f291db3b369575f65cf3bad336c9e77a8f7063e10915359e5131b0dcae5",
+  "workbook": "data\\orcs\\ENA-Enrichment.xlsx",
+  "workbook_sha256": "de892a5ca46a02cf688ee3e88ca81da275070b4913e61999ded0cd1b208c1a17",
+  "source_package": "data\\orcs\\ena-enrichment-source\\20261014",
+  "template_sha256": "1708948aa381c7c5332e26e8f7012bbf925b5e78ca18b2f9d756198fcba25cb6",
+  "summary": {
+    "publications_processed": 418,
+    "failed_study_accessions": 0,
+    "run_report_issues": 0,
+    "studies": 533,
+    "publications_with_candidates": 191,
+    "association_pairs": 561,
+    "route_counts": {
+      "saved-pubmed-study-link": {
+        "studies": 287,
+        "publication_study_pairs": 300
+      },
+      "pmid-xref": {
+        "studies": 280,
+        "publication_study_pairs": 281
+      },
+      "complete-title": {
+        "studies": 110,
+        "publication_study_pairs": 110
+      },
+      "saved-geo-study-link": {
+        "studies": 501,
+        "publication_study_pairs": 517
+      }
+    },
+    "title_only_pairs": [
+      [
+        "30449619",
+        "PRJNA487352"
+      ],
+      [
+        "31540829",
+        "PRJNA549978"
+      ],
+      [
+        "31657721",
+        "PRJNA613474"
+      ],
+      [
+        "32028983",
+        "PRJNA601000"
+      ],
+      [
+        "32268084",
+        "PRJEB31006"
+      ],
+      [
+        "32877678",
+        "PRJEB39747"
+      ],
+      [
+        "33110234",
+        "PRJNA663915"
+      ],
+      [
+        "33147445",
+        "PRJNA669098"
+      ],
+      [
+        "34962926",
+        "PRJNA779941"
+      ],
+      [
+        "35421191",
+        "PRJNA777043"
+      ],
+      [
+        "35972292",
+        "PRJEB47213"
+      ],
+      [
+        "37163373",
+        "PRJEB62092"
+      ],
+      [
+        "37866880",
+        "PRJEB62094"
+      ],
+      [
+        "38291084",
+        "PRJNA1026718"
+      ],
+      [
+        "40852982",
+        "PRJEB94852"
+      ],
+      [
+        "40852982",
+        "PRJEB95952"
+      ],
+      [
+        "40852982",
+        "PRJEB95957"
+      ],
+      [
+        "ORCS:1054",
+        "PRJNA1105721"
+      ],
+      [
+        "ORCS:657",
+        "PRJNA647903"
+      ],
+      [
+        "ORCS:842",
+        "PRJNA927297"
+      ]
+    ],
+    "association_status_counts": {
+      "native-pmid-match": 281,
+      "no-native-pmid": 72,
+      "native-pmid-differs": 205,
+      "search-pmid-unavailable": 3
+    },
+    "discovery_issues": 0,
+    "sheet_rows": {
+      "Studies": 533,
+      "Publications": 418,
+      "Study hierarchy": 1777,
+      "Samples": 10592,
+      "Experiments": 14322,
+      "Runs": 16253,
+      "File listings": 25227
+    },
+    "distinct_runs": 16253,
+    "live_attempts": 1886,
+    "cached_responses": 23,
+    "metadata_only_projects": [
+      "PRJEB40771",
+      "PRJEB40772",
+      "PRJNA63443"
+    ],
+    "complete_run_reports": 530
+  },
+  "scope_decision": {
+    "date": "2026-10-16",
+    "source": "Owner accepted AH4",
+    "metadata_only_projects": [
+      "PRJEB40771",
+      "PRJEB40772",
+      "PRJNA63443"
+    ],
+    "previous_checkpoint_sha256": "13abf4efa349f2bb4b2212d5f97807f87802eb12a140e50a2c5623960ce6c1d2"
+  },
+  "verification": {
+    "all_projected_cells_verified": 607554,
+    "sheet_rows": {
+      "Studies": 533,
+      "Publications": 418,
+      "Study hierarchy": 1777,
+      "Samples": 10592,
+      "Experiments": 14322,
+      "Runs": 16253,
+      "File listings": 25227
+    },
+    "template_sha256": "1708948aa381c7c5332e26e8f7012bbf925b5e78ca18b2f9d756198fcba25cb6",
+    "workbook_sha256": "de892a5ca46a02cf688ee3e88ca81da275070b4913e61999ded0cd1b208c1a17",
+    "database_sha256": "ebe433bc6ae2905b1f203208663e68143acfe10d115b2a4df212bc09b8ef8c32",
+    "native_application_opening": "not tested"
+  },
+  "response_hashes_verified": 1909,
+  "focused_tests_passed": 12,
+  "code_snapshots": {
+    "ena_collection.py": "2411101f2bcfb150b117fa40a9fc41360f096441787e54616ca394abeedc8799",
+    "ena_projection.py": "896facba435c9dc3da95e8a5d43dc8000e99ccc8a3a7b2eeac768493501b9e87",
+    "export_enrichment_template.mjs": "74c13e57acce362f17c8f01bff1e7ce70e7001ede00278cdd2d119f20d9410a3",
+    "final-ena_collection.py": "5c90a49c48e82377d763629d0565f75e3da8bd64367a56b478b6b269a0bba861",
+    "final-ena_projection.py": "896facba435c9dc3da95e8a5d43dc8000e99ccc8a3a7b2eeac768493501b9e87",
+    "final-ena_workbook.py": "5ed3828041ddc89c383e12e7bfd19c68d084628f547a8770d3481e57c4bf36a2",
+    "final-geo_workbook.py": "25243fa7378bb013e73a037c967097802cc043cddfa2f81a4d58dee9adcec78a",
+    "final-pubmed_workbook.py": "98c0b4377e934001d46725200a8880eda22c82b13095eece61343d86753bc0b8",
+    "finalize_ena_collection.py": "3147e9f0f9e28ab33c06a7a78a03b1b5b6aa3ef7885911358b4d839ea6dc215c",
+    "preview_ena_export.mjs": "94328a9d226f77e6d43d0d1ea1638456890bdfbc37ac6bf1fc02eb76154ab848",
+    "recover_ena_run_reports.py": "f8b329ab20c88ef5cdaa6d3acb7e44b91c8ebf3182970f0d54d4fc979ef86fb4",
+    "recover_ena_title_requests.py": "dcca95e986f6843ca6881613cbc939ec2b6ec2d9fc6536171b93460862e7576a",
+    "restore_ena_report_cache.py": "c2fe050c75549eb0e53de87740730d7f1122e4186df0d929e300105853c989d7",
+    "test_ena_collection.py": "3a4aef9cf33a98d4bb02e13bb69aa2f0acad00d06dd7db920f0230b3df785beb",
+    "verify_enrichment_template.py": "46be13f7e41dbb4a35c6a3b98c7c467a4dca958ff5fbb80c8a014dde85b346ca"
+  },
+  "visual_check": "Seven saved-workbook value/style excerpts rendered and inspected; native Excel application opening not tested",
+  "exporter": "deathmap_ai.ena_workbook: existing template-preserving XML writer"
+}

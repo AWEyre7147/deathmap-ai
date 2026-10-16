@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA302748" alias="PRJNA302748" center_name="Moffat, CCBR, University of Toronto" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA302748</PRIMARY_ID>
+    <SECONDARY_ID>SRP066424</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE75189</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Moffat, CCBR, University of Toronto">PRJNA302748</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Homo sapiens</NAME>
+  <TITLE>High-Resolution CRISPR Screens Reveal Fitness Genes and Genotype-Specific Cancer Liabilities</TITLE>
+  <DESCRIPTION>The ability to perturb genes in human cells is crucial for elucidating gene function and holds great potential for finding therapeutic targets for diseases such as cancer. To extend the catalog of human core and context- dependent fitness genes, we have developed a high-complexity second-generation genome-scale CRISPR-Cas9 gRNA library and applied it to fitness screens in five human cell lines. Using an improved Bayesian analytical approach, we consistently discover 5-fold more fitness genes than were previously observed. We present a list of 1,580 human core fitness genes and describe their general properties. Moreover, we demonstrate that context-dependent fitness genes accurately recapitulate pathway-specific genetic vulnerabilities induced by known oncogenes and reveal cell-type-specific dependencies for specific receptor tyrosine kinases, even in oncogenic KRAS backgrounds. Thus, rigorous identification of human cell line fitness genes using a high-complexity CRISPR-Cas9 library affords a high-resolution view of the genetic vulnerabilities of a cell. Additional data can be found at tko.ccbr.utoronto.ca Overall design: RNAseq of five human cell lines with Cas9 knock-ins.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>26627737</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA302748&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA302748&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>302748</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2015-11-25</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-11</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

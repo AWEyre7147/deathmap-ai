@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA489369" alias="PRJNA489369" center_name="Alexander Marson, University of California, San Franscisco" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA489369</PRIMARY_ID>
+    <SECONDARY_ID>SRP159632</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE119450</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Alexander Marson, University of California, San Franscisco">PRJNA489369</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>CROP-Seq in Primary Human T Cells</NAME>
+  <TITLE>CROP-Seq in Primary Human T Cells</TITLE>
+  <DESCRIPTION>We adapted sgRNA lentiviral infection and Cas9 electroporation (SLICE) to allow for CROP-Seq (Datlinger et al, Nat Med 2017) in primary cells. We used a library of 48 sgRNA, derived from GW screens, to explore transcriptional changes downstream of CRISPR-KO. Overall design: Pooled CRISPR screen with single cell RNASeq readout (Perturb-Seq / CROP-Seq) in primary human T cells. Dataset includes CD8 T cells from two donors, for two conditions: with TCR stimulation or No stimulation.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>30449619</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA489369&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA489369&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>489369</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2018-09-07</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

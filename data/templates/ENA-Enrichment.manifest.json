@@ -1,0 +1,438 @@
+{
+  "schema_version": "enrichment-template/1.0",
+  "name": "ENA-Enrichment",
+  "template": "data/templates/ENA-Enrichment.xlsx",
+  "sha256": "1708948aa381c7c5332e26e8f7012bbf925b5e78ca18b2f9d756198fcba25cb6",
+  "status": "owner_selected",
+  "registered_utc": "2026-10-14T16:32:32.024991+00:00",
+  "sheets": [
+    {
+      "name": "Studies",
+      "headers": [
+        "Study accession",
+        "SRA study accession",
+        "Search PMID",
+        "ENA PMID",
+        "Study title",
+        "Organism",
+        "Native record type",
+        "Samples in report",
+        "Experiments in report",
+        "Runs in report",
+        "Study description",
+        "Source URL"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Studies",
+      "columns": [
+        {
+          "header": "Study accession",
+          "source_key": "Study accession",
+          "width": 22.0
+        },
+        {
+          "header": "SRA study accession",
+          "source_key": "SRA study accession",
+          "width": 22.0
+        },
+        {
+          "header": "Search PMID",
+          "source_key": "ORCS PMID",
+          "width": 22.0
+        },
+        {
+          "header": "ENA PMID",
+          "source_key": "Native ENA PMID",
+          "width": 22.0
+        },
+        {
+          "header": "Study title",
+          "source_key": "Study title",
+          "width": 55.0
+        },
+        {
+          "header": "Organism",
+          "source_key": "Organism",
+          "width": 22.0
+        },
+        {
+          "header": "Native record type",
+          "source_key": "Native record type",
+          "width": 22.0
+        },
+        {
+          "header": "Samples in report",
+          "source_key": "Samples in report",
+          "width": 22.0
+        },
+        {
+          "header": "Experiments in report",
+          "source_key": "Experiments in report",
+          "width": 22.0
+        },
+        {
+          "header": "Runs in report",
+          "source_key": "Runs in report",
+          "width": 22.0
+        },
+        {
+          "header": "Study description",
+          "source_key": "Study description",
+          "width": 90.0
+        },
+        {
+          "header": "Source URL",
+          "source_key": "Source URL",
+          "width": 60.0
+        }
+      ]
+    },
+    {
+      "name": "Publications",
+      "headers": [
+        "PMID",
+        "DOI",
+        "PMCID",
+        "Publication title",
+        "Authors",
+        "Journal",
+        "Publication date",
+        "Retrieval result"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Publications",
+      "columns": [
+        {
+          "header": "PMID",
+          "source_key": "PMID",
+          "width": 22.0
+        },
+        {
+          "header": "DOI",
+          "source_key": "DOI",
+          "width": 22.0
+        },
+        {
+          "header": "PMCID",
+          "source_key": "PMCID",
+          "width": 22.0
+        },
+        {
+          "header": "Publication title",
+          "source_key": "Publication title",
+          "width": 55.0
+        },
+        {
+          "header": "Authors",
+          "source_key": "Authors",
+          "width": 22.0
+        },
+        {
+          "header": "Journal",
+          "source_key": "Journal",
+          "width": 22.0
+        },
+        {
+          "header": "Publication date",
+          "source_key": "Publication date",
+          "width": 22.0
+        },
+        {
+          "header": "Retrieval result",
+          "source_key": "Retrieval result",
+          "width": 22.0
+        }
+      ]
+    },
+    {
+      "name": "Study hierarchy",
+      "headers": [
+        "Study accession",
+        "Relationship",
+        "Related study accession"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Study hierarchy",
+      "columns": [
+        {
+          "header": "Study accession",
+          "source_key": "Study accession",
+          "width": 22.0
+        },
+        {
+          "header": "Relationship",
+          "source_key": "Relationship",
+          "width": 22.0
+        },
+        {
+          "header": "Related study accession",
+          "source_key": "Related study accession",
+          "width": 22.0
+        }
+      ]
+    },
+    {
+      "name": "Samples",
+      "headers": [
+        "Sample accession",
+        "Sample title",
+        "Sample description",
+        "Organism",
+        "Reporting studies",
+        "Run accessions"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Samples",
+      "columns": [
+        {
+          "header": "Sample accession",
+          "source_key": "Sample accession",
+          "width": 22.0
+        },
+        {
+          "header": "Sample title",
+          "source_key": "Sample title",
+          "width": 55.0
+        },
+        {
+          "header": "Sample description",
+          "source_key": "Sample description",
+          "width": 90.0
+        },
+        {
+          "header": "Organism",
+          "source_key": "Organism",
+          "width": 22.0
+        },
+        {
+          "header": "Reporting studies",
+          "source_key": "Reporting studies",
+          "width": 22.0
+        },
+        {
+          "header": "Run accessions",
+          "source_key": "Run accessions",
+          "width": 22.0
+        }
+      ]
+    },
+    {
+      "name": "Experiments",
+      "headers": [
+        "Experiment accession",
+        "Experiment title",
+        "Sample accession",
+        "Library strategy",
+        "Library source",
+        "Library selection",
+        "Library layout",
+        "Instrument platform",
+        "Instrument model",
+        "Library construction protocol",
+        "Reporting studies",
+        "Run accessions"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Experiments",
+      "columns": [
+        {
+          "header": "Experiment accession",
+          "source_key": "Experiment accession",
+          "width": 22.0
+        },
+        {
+          "header": "Experiment title",
+          "source_key": "Experiment title",
+          "width": 55.0
+        },
+        {
+          "header": "Sample accession",
+          "source_key": "Sample accession",
+          "width": 22.0
+        },
+        {
+          "header": "Library strategy",
+          "source_key": "Library strategy",
+          "width": 22.0
+        },
+        {
+          "header": "Library source",
+          "source_key": "Library source",
+          "width": 22.0
+        },
+        {
+          "header": "Library selection",
+          "source_key": "Library selection",
+          "width": 22.0
+        },
+        {
+          "header": "Library layout",
+          "source_key": "Library layout",
+          "width": 22.0
+        },
+        {
+          "header": "Instrument platform",
+          "source_key": "Instrument platform",
+          "width": 22.0
+        },
+        {
+          "header": "Instrument model",
+          "source_key": "Instrument model",
+          "width": 22.0
+        },
+        {
+          "header": "Library construction protocol",
+          "source_key": "Library construction protocol",
+          "width": 90.0
+        },
+        {
+          "header": "Reporting studies",
+          "source_key": "Reporting studies",
+          "width": 22.0
+        },
+        {
+          "header": "Run accessions",
+          "source_key": "Run accessions",
+          "width": 22.0
+        }
+      ]
+    },
+    {
+      "name": "Runs",
+      "headers": [
+        "Run accession",
+        "Native study accession",
+        "SRA study accession",
+        "Sample accession",
+        "Experiment accession",
+        "Read count",
+        "Base count",
+        "Reporting studies"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Runs",
+      "columns": [
+        {
+          "header": "Run accession",
+          "source_key": "Run accession",
+          "width": 22.0
+        },
+        {
+          "header": "Native study accession",
+          "source_key": "Native study accession",
+          "width": 22.0
+        },
+        {
+          "header": "SRA study accession",
+          "source_key": "SRA study accession",
+          "width": 22.0
+        },
+        {
+          "header": "Sample accession",
+          "source_key": "Sample accession",
+          "width": 22.0
+        },
+        {
+          "header": "Experiment accession",
+          "source_key": "Experiment accession",
+          "width": 22.0
+        },
+        {
+          "header": "Read count",
+          "source_key": "Read count",
+          "width": 22.0
+        },
+        {
+          "header": "Base count",
+          "source_key": "Base count",
+          "width": 22.0
+        },
+        {
+          "header": "Reporting studies",
+          "source_key": "Reporting studies",
+          "width": 22.0
+        }
+      ]
+    },
+    {
+      "name": "File listings",
+      "headers": [
+        "Run accession",
+        "Native study accession",
+        "Sample accession",
+        "Experiment accession",
+        "File position",
+        "Native FTP location",
+        "MD5 checksum",
+        "Size (bytes)",
+        "File format"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "File listings",
+      "columns": [
+        {
+          "header": "Run accession",
+          "source_key": "Run accession",
+          "width": 22.0
+        },
+        {
+          "header": "Native study accession",
+          "source_key": "Native study accession",
+          "width": 22.0
+        },
+        {
+          "header": "Sample accession",
+          "source_key": "Sample accession",
+          "width": 22.0
+        },
+        {
+          "header": "Experiment accession",
+          "source_key": "Experiment accession",
+          "width": 22.0
+        },
+        {
+          "header": "File position",
+          "source_key": "File position",
+          "width": 22.0
+        },
+        {
+          "header": "Native FTP location",
+          "source_key": "Native FTP location",
+          "width": 60.0
+        },
+        {
+          "header": "MD5 checksum",
+          "source_key": "MD5 checksum",
+          "width": 22.0
+        },
+        {
+          "header": "Size (bytes)",
+          "source_key": "Size (bytes)",
+          "width": 22.0
+        },
+        {
+          "header": "File format",
+          "source_key": "File format",
+          "width": 22.0
+        }
+      ]
+    }
+  ],
+  "formatting": "Plain bold Carlito 11 headers, no fill, retained review column widths, no tables, filters or frozen panes",
+  "missing_values": "Blank; retain explicit native zero counts where reported",
+  "evidence_policy": "Display fields selected by owner; raw evidence, provenance and unresolved publication associations remain in canonical pilot metadata",
+  "date_policy": "Preserve source publication-date text and its reported precision",
+  "terminology": "Experiments and Runs retain ENA native record terminology; ENA experiments are not automatically qualifying scientific screens",
+  "source_reference": {
+    "workbook": "outputs\\ena-ten-publications-20261013\\workbook-review\\ENA-Enrichment-Review.xlsx",
+    "sha256": "2b805c97556edf125e34af4f8ebf44adf8ffe9fa2a590757898c387ad1b6f730"
+  },
+  "projection_contract": "Rows grouped by source_table, with original keys retained in columns.source_key. Renamed headers do not change native evidence. Registration does not implement the full-ORCS exporter."
+}

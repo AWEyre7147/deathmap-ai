@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA189721" alias="PRJNA189721" center_name="Computational and Systems Biology, Genome Institute of Singapore" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA189721</PRIMARY_ID>
+    <SECONDARY_ID>SRP018770</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE44067</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Computational and Systems Biology, Genome Institute of Singapore">PRJNA189721</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Mus musculus</NAME>
+  <TITLE>Chromatin connectivity maps reveal dynamic promoter-enhancer long-range associations</TITLE>
+  <DESCRIPTION>In multicellular organisms, transcription regulation is one of the central mechanisms modelling lineage differentiation and cell-fate determination. Transcription requires dynamic chromatin configurations between promoters and their corresponding distal regulatory elements. It is believed that their communication occurs within large discrete foci of aggregated RNA polymerases termed transcription factories in three-dimensional nuclear space. However, the dynamic nature of chromatin connectivity has not been characterized at the genome-wide level. Here, through a chromatin interaction analysis with paired-end tagging approach using an antibody that primarily recognizes the pre-initiation complexes of RNA polymerase II, we explore the transcriptional interactomes of three mouse cells of progressive lineage commitment, including pluripotent embryonic stem cells, neural stem cells and neurosphere stem/progenitor cells. Our global chromatin connectivity maps reveal approximately 40,000 long-range interactions, suggest precise enhancer?promoter associations and delineate cell-type-specific chromatin structures. Analysis of the complex regulatory repertoire shows that there are extensive colocalizations among promoters and distal-acting enhancers. Most of the enhancers associate with promoters located beyond their nearest active genes, indicating that the linear juxtaposition is not the only guiding principle driving enhancer target selection. Although promoter?enhancer interactions exhibit high cell-type specificity, promoters involved in interactions are found to be generally common and mostly active among different cells. Chromatin connectivity networks reveal that the pivotal genes of reprogramming functions are transcribed within physical proximity to each other in embryonic stem cells, linking chromatin architecture to coordinated gene expression. Our study sets the stage for the full-scale dissection of spatial and temporal genome structures and their roles in orchestrating development. Overall design: RNA polymerase II (RNAPII) guided chromatin interactions were discovered by Chromatin Interaction Analysis with Paired-End Tag (ChIA-PET) sequencing, in order to study genome-wise the enhancer-promoter interactions. Three cell lines, namely mouse embryonic stem cell E14, Neural stem cell NS5 and neuroshpere cells were grown under standard culture conditions and harvested at log phase. Harvested cells were cross-linked using 1% formaldehyde followed by neutralization with 0.2M glycine. Chromatin was isolated and subjected to ChIA-PET protocol as described in Fullwood et al, 2009. The ChIA-PET sequence reads were processed and analyzed using ChIA-PET Tool (Li et al, 2010) Examine the distal transcriptional interactions in three murine cell lineages (RNA-Seq)</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>10090</TAXON_ID>
+      <SCIENTIFIC_NAME>Mus musculus</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9559"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>24213634</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA189721&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA189721&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>189721</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2013-11-05</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

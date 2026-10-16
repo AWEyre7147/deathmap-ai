@@ -40,3 +40,10 @@ template, with no tables or filters. The manifest
 records the unchanged workbook hash, ordered headers and projected-record keys.
 Canonical source evidence remains separate. Registration does not itself run
 whole-ORCS enrichment or implement the ArrayExpress exporter.
+
+`ENA-Enrichment.xlsx` is the owner-selected seven-sheet template, registered in
+`ENA-Enrichment.manifest.json`: Studies, Publications, Study hierarchy, Samples,
+Experiments, Runs and File listings. Search PMID and ENA PMID remain distinct.
+Experiments and Runs retain ENA's native terminology and do not imply qualifying
+CRISPR screens. The template is unchanged by population; omitted broad-project
+child counts stay blank and their scope decisions remain in canonical evidence.

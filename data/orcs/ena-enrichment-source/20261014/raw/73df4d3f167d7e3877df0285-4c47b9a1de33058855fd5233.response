@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA867386" alias="PRJNA867386" center_name="European Molecular Biology Laboratory" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA867386</PRIMARY_ID>
+    <SECONDARY_ID>SRP390477</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE210762</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="European Molecular Biology Laboratory">PRJNA867386</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Single-cell gene expression profiling of MYCN-amplified neuroblastoma cells following CRISPR activation of ferroptosis regulators</NAME>
+  <TITLE>Single-cell gene expression profiling of MYCN-amplified neuroblastoma cells following CRISPR activation of ferroptosis regulators</TITLE>
+  <DESCRIPTION>Understanding the operational molecular, and metabolic networks that determine the balance between pro- and anti-ferroptotic regulatory pathways could unravel unique vulnerabilities to be exploited for cancer therapy. Using genome-wide and single-cell CRISPR activation screens, we identify the selenoprotein P (SELENOP) receptor, LRP8, as a key determinant protecting MYCN-amplified neuroblastoma cells from ferroptosis in vitro and in orthotopic neuroblastoma mouse models. Specifically, the exquisite dependency on LRP8-mediated selenocysteine import is caused by the failure of MYCN-amplified cells to efficiently utilize alternative forms of selenium/selenocysteine based uptake necessary for selenoprotein biosynthesis. Increased activity of one of such transporters, SLC7A11, in MYCN-amplified cells leads to cysteine overload, progressive mitochondrial decline and impaired proliferation. These data reveal in LRP8 a targetable, and specific vulnerability of MYCN-amplified neuroblastoma cells and disclose a yet-unaccounted mechanism for selective ferroptosis induction that has the potential to become an important therapeutic entry point for MYCN-amplified neuroblastoma. Overall design: The CROP-seq experiment was performed in human SK-N-DZ cells stably expressing dCas9-VP64 and p65-HSF1. Cells were transduced with a library of CRISPR activation gRNAs targeting 36 hits derived from the primary ferroptosis resistance screens with two independent gRNAs. After puromycin selection and recovery, two lanes of the 10X platform were used to partition individual cells into gel bead-in-emulsions (GEMs) and single-cell libraries were constructed.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>37435859</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA867386&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA867386&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>867386</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2023-04-13</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

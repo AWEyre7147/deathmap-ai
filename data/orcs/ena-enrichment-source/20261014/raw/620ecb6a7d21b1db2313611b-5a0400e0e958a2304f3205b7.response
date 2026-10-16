@@ -1,0 +1,54 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA1105721" alias="PRJNA1105721" center_name="QIMR Berghofer Medical Research Institute" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA1105721</PRIMARY_ID>
+    <SECONDARY_ID>SRP504528</SECONDARY_ID>
+    <SUBMITTER_ID namespace="QIMR Berghofer Medical Research Institute">PRJNA1105721</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <TITLE>TMEM106B-mediated SARS-CoV-2 infection allows for robust ACE2-independent infection in vitro but not in vivo</TITLE>
+  <DESCRIPTION>Angiotensin converting enzyme 2 (ACE2) serves as the primarily entry receptor for severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). However, ACE2-independent entry has been observed in vitro for SARS-CoV-2 strains containing the E484D amino acid substitution in the spike protein. In this study, we conducted a whole genome CRISPR-Cas9 knockout screen using a SARS-CoV-2 strain containing the spike-E484D substitution (SARS-CoV-2MA1) to identify the ACE2-independent infection entry mechanisms. Our findings revealed that SARS-CoV-2MA1 infection in HEK293T cells relied on heparan sulfate and endocytic pathways, with TMEM106B emerging as the most significant contributor. While SARS-CoV-2MA1 productively infected human brain organoids and K18-hACE2 mouse brains, it did not infect C57BL/6J or Ifnar-/- mouse brains. This suggests that ACE2-independent entry via TMEM106B, which is predominantly expressed in the brain, did not overtly increase the risk of SARS-CoV-2 neuroinvasiveness in wild-type mice. Importantly, SARS-CoV-2MA1 did not replicate in Ace2-/- mouse respiratory tracts. Overall, this suggests that robust ACE2-independent infection by SARS-CoV-2E484D is likely a phenomenon specific to in vitro conditions, with no apparent clinical implications.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+  </SUBMISSION_PROJECT>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1105721&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1105721&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>1105721</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2024-05-07</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2024-05-07</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

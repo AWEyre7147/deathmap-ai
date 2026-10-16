@@ -1,0 +1,74 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA590464" alias="PRJNA590464" center_name="Gewurz lab, Medicine, Brigham&amp;Women's Hospital, Harvard Medical School" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA590464</PRIMARY_ID>
+    <SECONDARY_ID>SRP230613</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE140652</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Gewurz lab, Medicine, Brigham&amp;Women's Hospital, Harvard Medical School">PRJNA590464</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Transcriptome analysis of xenograft tumors treated with vehicle control or CBL0137</NAME>
+  <TITLE>Transcriptome analysis of xenograft tumors treated with vehicle control or CBL0137</TITLE>
+  <DESCRIPTION>RNAseq was used to identify host and viral transcriptome changes in xenograft tumors treated with DMSO or CBL0137. Mouse xenograft experiments were regulated by Institutional Animal Care &amp; Use Committee (IACUC# 2017-0035) of Weill Cornell Medical Center(WCMC). Non-obese diabetic/severe combined immunodeficiency (NOD-SCID) mice were obtained from Jackson Laboratories. Six to eight-week-old male and female mice (10 male/18 female) were injected in the flank with 1 x 107 BL cells in PBS with Matrigel eleven days before the treatment. Once the mice developed tumors with the size greater than 300 mm^3, they were grouped randomly and injected with vehicle (5% dextrose), 10mg/kg, or 60mg/kg of CBL0137. One week later, mice were injected with second dose of vehicle or CBL0137. Mice were humanely sacrificed at set experimental timepoints or when tumors reached the institutional cutoff. Tumors were harvested and snap frozen in liquid nitrogen for RNA, DNA, and sectioning for immunohistochemistry. RNAseq experiments were performed with tumor samples from 3 control and 3 60mg/kg CBL0137 treated mice. Overall design: Total RNA extracted from 100mg of xenograft tumors with DMSO or CBL0137.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA590460"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>32315601</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA590464&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA590464&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>590464</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2020-04-27</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

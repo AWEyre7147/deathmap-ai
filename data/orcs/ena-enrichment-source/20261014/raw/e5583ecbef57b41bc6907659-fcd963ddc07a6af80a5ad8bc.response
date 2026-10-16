@@ -1,0 +1,74 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA798057" alias="PRJNA798057" center_name="Genetic Perturbation Platform, Broad Institute" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA798057</PRIMARY_ID>
+    <SECONDARY_ID>SRP356804</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE193834</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Genetic Perturbation Platform, Broad Institute">PRJNA798057</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Bidirectional genome-wide CRISPR screens reveal host factors regulating SARS-CoV-2, MERS-CoV and seasonal HCoVs</NAME>
+  <TITLE>Bidirectional genome-wide CRISPR screens reveal host factors regulating SARS-CoV-2, MERS-CoV and seasonal HCoVs</TITLE>
+  <DESCRIPTION>Several genome-wide CRISPR knockout screens have been conducted to identify host factors regulating SARS-CoV-2 replication, but the models used have often relied on overexpression of ACE2 receptor and didn’t express TMPRSS2 protease, known to be important for viral entry at the plasma membrane. Here, we conducted a meta-analysis of these screens and showed a high level of cell-type specificity of the identified hits, arguing for the necessity to pursue efforts to uncover the full landscape of SARS-CoV-2 regulators. We performed genome-wide, bidirectional CRISPR screens in Calu-3 lung epithelial cells, as well as knockout screens in Caco-2 intestinal cells. As well as identifying ACE2 and TMPRSS2 as top hits, our study reveals a series of so far unidentified and critical host-dependency factors, including the Adaptins AP1G1 and AP1B1 and the flippase ATP8B1. Additionally, new anti-SARS-CoV-2 proteins with potent activity, including several membrane-associated Mucins (MUC1, MUC4 and MUC21), IL6R and CD44 were identified . We further observed that these genes mostly acted at the critical step of viral entry, with the notable exception of ATP8B1, the knockout of which prevented late stages of viral replication. Exploring the pro- and anti-viral breadth of these genes using highly pathogenic MERS-CoV, seasonal HCoV-NL63 and -229E and influenza A virus, we reveal that some genes such as AP1G1 and ATP8B1 are general coronavirus cofactors. In contrast, Mucins recapitulated their known role as a general antiviral defense mechanism. These results demonstrate the value of considering multiple cell models and perturbational modalities for understanding SARS-CoV-2 replication and provide a list of potential new targets for therapeutic interventions. Overall design: 37 samples analyzed, Control named:initial population, Selected population named: resistant population, replicates are included and mentioned below</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJEB40771"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>35879413</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA798057&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA798057&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>798057</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2022-01-22</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

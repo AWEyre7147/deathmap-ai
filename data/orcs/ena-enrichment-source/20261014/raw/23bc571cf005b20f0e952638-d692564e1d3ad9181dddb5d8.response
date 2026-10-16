@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA842576" alias="PRJNA842576" center_name="Alexander Marson, University of California, San Franscisco" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA842576</PRIMARY_ID>
+    <SECONDARY_ID>SRP377183</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE204862</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Alexander Marson, University of California, San Franscisco">PRJNA842576</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>RASA2 checkpoint ablation in T cells boosts antigen sensitivity and long-term function</NAME>
+  <TITLE>RASA2 checkpoint ablation in T cells boosts antigen sensitivity and long-term function</TITLE>
+  <DESCRIPTION>Adoptive T cell therapies have been transformative in the treatment of a subset of hematological malignancies. However, many patients either fail to respond or relapse, and these therapies still have had much more limited success in solid tumors. A critical challenge for increasing patient response rates and achieving durable efficacy of adoptive T cell therapies is overcoming suppressive signals from both extrinsic factors and intrinsic inhibitory checkpoints. Targeted gene editing has the potential to enhance T cell therapeutic function and improve clinical responses. Here we perform multiple genome-wide CRISPR knock-out screens under different immunosuppressive conditions to nominate genes that could be targeted to prevent T cell dysfunction. These CRISPR screens converged on RASA2 as a target to confer resistance to suppressive conditions found in tumor microenvironments. We identify RASA2 as a signaling checkpoint in human T cells that is downregulated upon acute TCR stimulation but increases gradually with chronic antigen exposure. Antigen titration showed that genetic ablation of RASA2 enhances mitogen activated protein kinase (MAPK) signaling and CAR-T cell cytolytic activity in response to low antigen levels. Repeated tumor antigen stimulation in vitro revealed that RASA2-deficient TCR-T and CAR-T cells have increased activation, cytokine production, and metabolic activity compared to control cells, and show a striking advantage in persistent cancer cell killing. RASA2 KO CAR-T cells showed a competitive fitness advantage over CAR-T control cells in the bone marrow of an in vivo leukemia model. Deletion of RASA2 in multiple preclinical models of TCR- and CAR-T cell therapies prolonged survival in animals xenografted with either liquid or solid tumors. Altogether, our findings from multiple genome-wide screens and preclinical studies highlight RASA2 as a promising new target to enhance both persistence and effector function in TCR-T and CAR-T cell therapies for cancer treatment. Overall design: Gene expression analysis of primary human T cells in a repeated antigen stimulation assay, comparing RASA2 KO to control edited T cells</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>36002574</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA842576&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA842576&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>842576</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2022-05-30</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

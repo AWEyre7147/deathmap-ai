@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA694637" alias="PRJNA694637" center_name="Amsterdam UMC" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA694637</PRIMARY_ID>
+    <SECONDARY_ID>SRP303154</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE165252</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Amsterdam UMC">PRJNA694637</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>RNA sequencing of the phase II PERFECT trial combining a PD-L1 inhibitor (atezolizumab) with neoadjuvant chemoradiotherapy in resectable esophageal adenocarcinoma patients.</NAME>
+  <TITLE>RNA sequencing of the phase II PERFECT trial combining a PD-L1 inhibitor (atezolizumab) with neoadjuvant chemoradiotherapy in resectable esophageal adenocarcinoma patients.</TITLE>
+  <DESCRIPTION>We performed bulk RNA sequencing of tumor biopsies from patients before treatment, on-treatment and in case a poor response was suspected from the resection specimen. At baseline we found in responding patients a higher six-gene IFNy score compared to non-responders. On-treatment non-responders showed either high expression of co-inhibitory checkpoints with a high number of cytotoxic lymphocytes or low expression and a low number of cytotoxic lymphocytes. Overall design: RNA sequencing of esophageal tumor biopsies at baseline from patients, on-treatment (3rd week) and at resection.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>33504550</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA694637&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA694637&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>694637</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2021-02-06</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

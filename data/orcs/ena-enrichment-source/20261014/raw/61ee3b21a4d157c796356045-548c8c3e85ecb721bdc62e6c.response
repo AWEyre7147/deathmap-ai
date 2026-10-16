@@ -1,0 +1,76 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA138211" alias="PRJNA138211" center_name="Stanford University" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA138211</PRIMARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE27901</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Stanford University">PRJNA138211</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Mus musculus</NAME>
+  <TITLE>Transactivation-deficient p53 Mutants in Ras-induced Cellular Senescence</TITLE>
+  <DESCRIPTION>As a critical cellular stress sensor, p53 mediates a variety of defensive processes including cell-cycle arrest, apoptosis, and senescence to prevent propagation of hyperproliferative cells or cells with a damaged genome, hence the formation of neoplasia. Transactivation of downstream genes plays an important while sometimes controversial role in regulating these cellular processes. To evaluate the dependence on transcriptional activation in p53’s activities, we generated genetically-modified mouse lines carrying mutations in the transactivation domains (TADs) of p53. These transactivatio-deficient mutants serve as unique reagents to probe the dependence on robust transactivation in p53-mediated cellular functions, as well as the underneath mechanisms. To identify genes differentially regulated by these p53 mutants, we performed gene expression profiling analysis on mouse embryonic fibroblast cells (MEFs) from these mice in the context of oncogenic Ras-induced premature cellular senescence. Overall design: Mouse embryonic fibroblasts (MEFs) with different p53 genotypes were infected with retroviral H-Ras V12, which induces premature cellular senescence in p53 wild-type MEFs but not in p53 null MEFs. 5 genotypic groups of MEFs were used in the study: (i) p53L25Q/W26S, or "25,26", in which the first TAD (transactivation domain) of p53 is disrupted by the mutation, 5 biological samples; (ii) p53W53Q/F54S, or "53,54", in which the second TAD of p53 is disrupted by the mutation, 3 biological samples; (iii) p53L25Q/W26S/W53Q/F54S, or "QM", in which both TADs or p53 are disrupted, 3 biological samples; (iv) p53 wild-type, or "WT", 6 biological samples; (v) p53 null, or "Null", 6 biological samples.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>10090</TAXON_ID>
+      <SCIENTIFIC_NAME>Mus musculus</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9559"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>21565614</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>25704813</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA138211&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA138211&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>138211</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2014-02-11</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

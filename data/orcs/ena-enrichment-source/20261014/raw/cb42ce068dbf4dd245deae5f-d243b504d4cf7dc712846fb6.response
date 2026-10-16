@@ -1,0 +1,80 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA608742" alias="PRJNA608742" center_name="Shenzhen 3rd People's Hospital" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA608742</PRIMARY_ID>
+    <SECONDARY_ID>SRP250732</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE145926</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Shenzhen 3rd People's Hospital">PRJNA608742</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Single-cell landscape of bronchoalveolar immune cells in COVID-19 patients</NAME>
+  <TITLE>Single-cell landscape of bronchoalveolar immune cells in COVID-19 patients</TITLE>
+  <DESCRIPTION>Immune characteristics associated with Coronavirus Disease-2019 (COVID-19) severity are currently unclear. We characterized bronchoalveolar lavage fluid (BALF) immune cells from patients with varying severity of COVID-19 disease and from healthy subjects using single-cell RNA-sequencing. Proinflammatory monocyte-derived macrophages were abundant in the BALF from severe COVID-9 patients. Moderate cases were characterized by the presence of highly clonally expanded tissue-resident CD8+ T cells. This atlas of the bronchoalveolar immune-microenvironment suggests potential mechanisms underlying pathogenesis and recovery in COVID-19. Overall design: Using 10x genomics to measure single-cell RNA sequence (scRNA-seq)/TCR-seq to comprehensively characterize the lung immune microenvironment in the bronchoalveolar lavage fluid (BALF) from 6 severe and 3 moderate COVID-19 patients and 3 healthy control.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJEB40771"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>32398875</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>39369126</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA608742&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA608742&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>608742</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2020-04-27</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-05-04</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA914263" alias="PRJNA914263" center_name="Microbiology and Molecular Genetics, Michigan State University" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA914263</PRIMARY_ID>
+    <SECONDARY_ID>SRP414112</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE221413</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Microbiology and Molecular Genetics, Michigan State University">PRJNA914263</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>A genome-wide screen in macrophages defines host genes regulating the uptake of Mycobacterium abscessus</NAME>
+  <TITLE>A genome-wide screen in macrophages defines host genes regulating the uptake of Mycobacterium abscessus</TITLE>
+  <DESCRIPTION>The initial interactions between a host cell and a pathogen can dictate disease outcomes and are important targets for host-directed therapies. Mycobacterium abscessus (Mab) is a highly antibiotic resistant, rapidly growing non-tuberculous mycobacterium that infects patients with chronic lung diseases, like cystic fibrosis. Mab can infect host immune cells, such as macrophages, which contribute to its pathogenesis. However, our understanding of host genes that modulate the initial host-Mab interactions remains unclear. Here, we developed a functional genetic approach by coupling a Mab fluorescent reporter with a genome-wide knockout library in murine macrophages. We used this approach to conduct a forward genetic screen to uncover host genes that contribute to the uptake of Mab by macrophages. We identified known regulators of phagocytosis, such as the integrin Itgb2, and uncovered a key requirement for glycosaminoglycan (sGAG) synthesis for macrophages to efficiently bind to Mab. CRISPR-Cas9 targeting of three key sGAG biosynthesis regulators, UGDH, B4GALT7 and B3GAT3 resulted in reduced uptake of both smooth and rough Mab variants by macrophages. Mechanistic studies suggest that sGAGs function upstream of pathogen engulfment and are required for uptake of Mab but not Escherichia coli or latex beads. Further investigation found that the loss of sGAGs reduces the surface expression, but not the mRNA expression, of key integrins, suggesting a key role for sGAGs in modulating surface receptor availability. Together these studies globally defined and characterized important regulators of macrophage-Mab interactions and are a first step better understand important host genes that contribute to Mab pathogenesis and disease. Overall design: Genome-wide CRISPR knockout screen in murine iBMDMs for regulators of M. abscessus uptake</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>10090</TAXON_ID>
+      <SCIENTIFIC_NAME>Mus musculus</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9559"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>36794958</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA914263&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA914263&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>914263</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2023-01-20</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

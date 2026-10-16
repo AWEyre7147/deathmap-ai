@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA575535" alias="PRJNA575535" center_name="Oregon Health and Science University" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA575535</PRIMARY_ID>
+    <SECONDARY_ID>SRP224010</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE138343</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Oregon Health and Science University">PRJNA575535</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Genome wide CRISPR screen for Sorafenib resistance in MOLM13 and MV411 cells using Y. Kosuke library</NAME>
+  <TITLE>Genome wide CRISPR screen for Sorafenib resistance in MOLM13 and MV411 cells using Y. Kosuke library</TITLE>
+  <DESCRIPTION>MOLM13 or MV411 cells were generated to express Cas9, infected with CRISPR library (Tzelepis et al 2016) , selected for puromycin resistance and exposed to Sorafenib (50nM), Crenolanib (20nM) or vehicle, DMSO. Cells were collected at time 0 (post puromycin selection), day 7 and 14 for Sorafenib as well as 14 and 21 for Crenolanib. DNA was extracted and sgRNA barcodes were amplified. The resulting PCR library was deep sequenced using the Illumina HiSeq 2500 using 6 samples per lane. Overall design: Performed comparisons of sgRNA read counts between DMSO (FASTQ from GSE130412 processed using the data processing pipeline below) and Sorafenib treated cells at corresponding time points. Addition of MV411 CRISPR sequencing data to be added to existing GSE138343.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>33375770</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA575535&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA575535&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>575535</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2021-05-21</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

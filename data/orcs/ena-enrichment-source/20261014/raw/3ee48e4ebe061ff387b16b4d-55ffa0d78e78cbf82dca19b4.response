@@ -1,0 +1,62 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA388068" alias="PRJNA388068" center_name="Cancer Program, Broad Institute of MIT and Harvard" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA388068</PRIMARY_ID>
+    <SECONDARY_ID>SRP108032</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE99299</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Cancer Program, Broad Institute of MIT and Harvard">PRJNA388068</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Cytokine Stimulation of PTPN2-deleted cancer cells</NAME>
+  <TITLE>Cytokine Stimulation of PTPN2-deleted cancer cells</TITLE>
+  <DESCRIPTION>PTPN2 was deleted from a selection of murine and human cancer cells using CRISPR/Cas9. The loss-of-function phenotype was assessed in vitro with cytokine stimulation or vehicle control. Overall design: In order to determine the effect of PTPN2-inhibition of interferon signalling, Cas9-expressing murine (B16 melanoma) and human (A375, A549, HT29, MelJuSo) cancer cells were infected with lentivirus containing guide RNA (sgRNA) against Ptpn2 or a non-targeting sequence. After Ptpn2 deletion was verified, the cell lines were treated with vehicle control (PBS with 0.1% BSA), interferon-beta (IFNb), interferon-gamma (IFNg), or tumor necrosis factor (TNFa), alone or in combination, and transcriptionally profiled by directional, paired-end RNAseq after a 48 hour stimulation.!Series_overall_design = Please note that 'Bro3' and 'Bro4' refer to non-targeting guides provided by the Broad Institute. Please note that 'Bro3' and 'Bro4' refer to non-targeting guides provided by the Broad Institute.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+  </SUBMISSION_PROJECT>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>28723893</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA388068&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA388068&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>388068</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2017-08-02</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2025-01-26</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

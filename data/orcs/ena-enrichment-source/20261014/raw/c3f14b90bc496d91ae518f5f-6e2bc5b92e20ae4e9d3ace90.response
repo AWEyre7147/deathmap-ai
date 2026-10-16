@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA579227" alias="PRJNA579227" center_name="Laboratory of Immunogenetics, Molecular &amp; Cellular Immunology Section, National Institute of Allergy and Infectious Diseases" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA579227</PRIMARY_ID>
+    <SECONDARY_ID>SRP226783</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE139313</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Laboratory of Immunogenetics, Molecular &amp; Cellular Immunology Section, National Institute of Allergy and Infectious Diseases">PRJNA579227</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Genome-wide CRISPR screen reveals cancer cell resistance to NK cells induced by NK-derived IFN-gamma</NAME>
+  <TITLE>Genome-wide CRISPR screen reveals cancer cell resistance to NK cells induced by NK-derived IFN-gamma</TITLE>
+  <DESCRIPTION>The anti-leukemia activity of NK cells helps to prevent relapse during hematopoietic stem cell transplantation in leukemia patients. However, the factors that determine sensitivity or resistance of leukemia cells in the context of NK-mediated cytotoxicity are not well established. Here we performed a genome-wide CRIPSR screen in the human chronic-myelogenous-leukemia (CML) cell line K562 to identify genes that regulate vulnerability of leukemia cells to killing by primary human NK cells. Distribution of guide RNAs (gRNAs) in K562 cells that survived co-incubation with NK cells showed that loss of NCR3LG1, which encodes the ligand of the natural cytotoxicity receptor NKp30, protected K562 cells from killing. In contrast, loss of genes that regulate pathways for antigen-presentation and interferon-gamma-signaling increased the vulnerability of K562 cells. Addition of IFN-gamma neutralizing antibody increased the susceptibility of K562 cells to NK-mediated killing. Upregulation of MHC class I on K562 cells after co-incubation with NK cells was dependent on IFNGR2. Analysis of RNA-seq data from The Cancer Genome Atlas (TCGA) showed that low IFNGR2 expression in cancer tissues associated with improved overall survival in acute myeloid leukemia (AML) and Kidney Renal Clear Cell Carcinoma (KIRC) patients. Our results showing that upregulation of MHC class I by NK-derived IFN-gamma leads to resistance to NK cytotoxicity suggest that targeting IFN-gamma responses might be a promising approach to enhance NK cell anti-cancer efficacy. Overall design: Cas9-expressing K562 cells were transduced with GeCKO V2 lentivirus libraries at a low MOI of 0.3 and selected in puromycin for 7 days. 50 × 106 transduced K562 cells were incubated with IL-2 -activated NK cells at an E to T ratio of 0.3:1. Percentages of surviving K562 cells were monitored. If needed, extra NK cells were added until only 10% of K562 cells had survived. To recover surviving K562 cells, dead cells were removed by Dead Cell Removal Kit (Miltenyi Biotec) followed by depletion of NK cells using EasySep™ Human CD56 Positive Selection Kit (Stemcell Technologies). In the screen with low selection pressure, recovered K562 cells were refreshed in complete media for 48 hours before genomic DNA extraction. To achieve higher selection pressure, recovered K562 cells were further cultured up to 50 × 106 cells, which were selected again by 2 rounds of co-incubation with NK cells. Control K562 cells were kept in the same culture conditions without exposure to NK cells. Two biological repeats were performed in the screen under low selection pressure, and two technical repeats were performed in the screen with high selection pressure.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>31921143</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA579227&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA579227&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>579227</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2019-10-25</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-13</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

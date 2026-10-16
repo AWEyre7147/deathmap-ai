@@ -1,0 +1,67 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA531105" alias="PRJNA531105" center_name="Peter MacCallum Cancer Centre" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA531105</PRIMARY_ID>
+    <SECONDARY_ID>SRP191040</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE129380</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Peter MacCallum Cancer Centre">PRJNA531105</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>An evolutionarily conserved function of polycomb silences the MHC class I antigen presentation pathway and enables immune evasion in cancer [ChIP-Seq]</NAME>
+  <TITLE>An evolutionarily conserved function of polycomb silences the MHC class I antigen presentation pathway and enables immune evasion in cancer [ChIP-Seq]</TITLE>
+  <DESCRIPTION>Loss of MHC class I (MHC-I) antigen presentation in cancer cells can lead to immunotherapy resistance. Using a genome-wide CRISPR/Cas9 screen we identify a critical role for polycomb repressive complex 2 (PRC2) in the coordinated transcriptional silencing of the MHC-I antigen processing pathway (MHC-I APP). This evolutionarily conserved function of PRC2 promotes evasion of T-cell mediated immunity, enabling tumor transmission to non-histocompatible recipients in small cell lung cancer (SCLC) and Tasmanian Devil Facial Tumor. MHC-I APP gene promoters in MHC-I low cancers harbour bivalent activating H3K4me3 and repressive H3K27me3 histone modifications, silencing basal MHC-I expression and restricting cytokine induced MHC-I APP gene upregulation. Bivalent chromatin at MHC-I APP genes is a normal developmental process active in embryonic stem cells and maintained during neural progenitor differentiation. This physiological silencing of MHC-I expression highlights a conserved mechanism by which cancers arising from these primitive tissues coopt PRC2 activity to enable immune evasion. Overall design: Changes in histone modifications and IRF1 binding with EZH2 inhibitor in mouse SCLC and human K562 cells</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA531099"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>31564637</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA531105&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA531105&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>531105</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2019-09-29</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

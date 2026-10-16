@@ -4,8 +4,9 @@
 
 The metadata pipeline supports cached ORCS discovery, publication identifier
 resolution, PubMed enrichment, GEO Series/sample enrichment and BioStudies–
-ArrayExpress study/IDF/SDRF enrichment. ENA enrichment, screen attribution and
-evidence harmonization remain future work. The executable package remains v0.1.0.
+ArrayExpress study/IDF/SDRF enrichment. ENA metadata retrieval is complete with
+three broad-project expansions omitted under the owner decision. Screen attribution
+and evidence harmonization remain future work. The executable package remains v0.1.0.
 
 - [Project vision](specifications/project-vision-v01.md): purpose and scope.
 - [Module specification](specifications/module-01-evidence-discovery.md): entity

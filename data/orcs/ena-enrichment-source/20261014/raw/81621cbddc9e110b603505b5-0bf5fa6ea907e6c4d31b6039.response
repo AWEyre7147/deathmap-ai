@@ -1,0 +1,65 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA395150" alias="PRJNA395150" center_name="Kieff Lab, Department of Microbiology and Molecular Genetics, Harvard Medical School" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA395150</PRIMARY_ID>
+    <SECONDARY_ID>SRP113157</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE101666</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Kieff Lab, Department of Microbiology and Molecular Genetics, Harvard Medical School">PRJNA395150</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Homo sapiens</NAME>
+  <TITLE>3D genome landscape of Epstein-Barr Virus oncoproteins and virus activated NF-kB in lymphoblastoid cells</TITLE>
+  <DESCRIPTION>Epstein-Barr Virus (EBV) encoded Nuclear Antigens (EBNAs) and virus activated NF-B subunits mostly bind to enhancers in EBV transformed lymphoblastoid cells lines (LCLs). Using LCL 3D genome organization map that links EBV enhancers to promoters, we built the most comprehensive virus regulome. EBV regulome contained 1992 genes and enhancers directly linked to them. ~30% of genes essential for LCL growth were linked to EBV enhancers. CRISPR knock out of EBNA2 sites significantly reduced their target gene expression. Additional EBV super-enhancer (ESE) targets including MCL1, IRF4, and EBF were identified. MYC ESEs looping to MYC TSS was dependent on EBNAs. CRISPR deletions of MYC ESEs greatly reduced MYC expression and LCL growth. EBNA3A/3C altered CDKN2A/B spatial organization to suppress senescence. EZH2 inhibition decreased the looping at the CDKN2A/B loci and reduced LCL growth. This study defines the most comprehensive host-pathogen interactions on the spatial organiz ation of chromatin during infection and cancer. Overall design: Discarded human peripheral blood mononuclear cell from healthy anonymous platelet donors were obtained from Dana Farber Cancer Institute blood bank. Viable peripheral blood mononuclear cells were isolated using LymphoprepTM density gradient centrifugation. Resting B cells were isolated by two step immunomagnetic negative selection using EasySep B Cell Isolation Kit and RosetteSep B Cell isolation Kit (StemCell). Total RNAs were prepared and RNAs depleted for ribosomal RNA were sequenced with Illumina HiSeq 2000.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA395150&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA395150&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>395150</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2019-07-02</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

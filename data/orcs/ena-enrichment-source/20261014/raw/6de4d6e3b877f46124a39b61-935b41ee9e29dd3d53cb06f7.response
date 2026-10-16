@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA588260" alias="PRJNA588260" center_name="The Salk Institute for Biological Studies" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA588260</PRIMARY_ID>
+    <SECONDARY_ID>SRP229099</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE140102</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="The Salk Institute for Biological Studies">PRJNA588260</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>CRISPR screen in regulatory T cells reveals ubiquitination modulators of Foxp3 stability</NAME>
+  <TITLE>CRISPR screen in regulatory T cells reveals ubiquitination modulators of Foxp3 stability</TITLE>
+  <DESCRIPTION>Regulatory T cells (Tregs) are required to control immune responses and maintain homeostasis, but are a significant barrier to anti-tumor immunity1. Conversely, Treg instability, characterized by loss of the master transcription factor Foxp3 and acquisition of pro-inflammatory properties2, can promote autoimmunity and/or facilitate more effective tumor immunity3,4. A comprehensive understanding of the pathways that regulate Foxp3 could lead to more effective Treg therapies for autoimmune disease and cancer. Despite improved functional genetic tools that now allow for systematic interrogation, dissection of the gene regulatory programs that modulate Foxp3 expression has not yet been reported. In this study, we developed a CRISPR-based pooled screening platform for phenotypes in primary mouse Tregs and applied this technology to perform a targeted loss-of-function screen of 490 nuclear factors to identify gene regulatory programs that promote or disrupt Foxp3 expression. We discovered several novel modulators including , Ataxin 7 like 3 (Atxn7l3) and members of the deubiquitination module of the SAGA chromatin modifying complex, Usp22 and Atxn7l3, were discovered to be positive regulators that stabilized Foxp3 expression; whereas the screen suggested Rnf20, an E3 ubiquitin ligase, is a negative regulator of Foxp3. Treg-specific ablation of Usp22 in mice reduced Foxp3 protein and created defects in their suppressive function that led to spontaneous autoimmunity, but protected against tumor growth in multiple cancer models. Foxp3 destabilization in Usp22-deficient Tregs could be rescued by ablation of Rnf20, revealing a reciprocal ubiquitin switch in Tregs. These results reveal novel modulators of Foxp3 and demonstrate a screening method that can be broadly applied to discover new targets for Treg immunotherapies for cancer and autoimmune disease. Overall design: ChIP-seq experiments were performed for H2BK120Ub histone modification in regulatory T cells (Tregs) with or without genetic deletion of Usp22 and Rnf20. These data support the finding that USP22 regulates Foxp3 expression by modulating levels of H2BK120Ub at the Foxp3 locus. ChIP-seq experiments were also done to profile binding of USP22 and RNF20 in untreated Tregs.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>10090</TAXON_ID>
+      <SCIENTIFIC_NAME>Mus musculus</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9559"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>32499641</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA588260&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA588260&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>588260</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2020-05-06</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA503251" alias="PRJNA503251" center_name="Microbiology-Immunology, Northwestern University" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA503251</PRIMARY_ID>
+    <SECONDARY_ID>SRP167385</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE122040</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Microbiology-Immunology, Northwestern University">PRJNA503251</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Genome-wide CRISPR inactivation based resistance screens using IMiDs in Primary Effusion Lymphoma (PEL) cells</NAME>
+  <TITLE>Genome-wide CRISPR inactivation based resistance screens using IMiDs in Primary Effusion Lymphoma (PEL) cells</TITLE>
+  <DESCRIPTION>We report the application of genome-wide CRISPR-Cas9 inactivation based screening technology to identify genes whose inactivation can confer resistance to the IMiD compounds Lenalidomide, Pomalidomide and Avadomide (CC-122) in Kaposi's sarcoma-associated herpesvirus-transformed primary effusion lymphoma cell line BC-3. Cas9 expressing BC-3 cells were transduced with a lentiviral genome-wide targeting sgRNA library (Brunello, Doench et al, Nature Biotechnology, 2016) and subsequently treated with lethal concentrations (5uM Lenalidomide, 1uM Pomalidomide and 1uM CC-122) of the IMiD compounds mentioned above or DMSO vehicle. gDNA from resistant cells and matched DMSO treated control cells was harvested and the lentiviral sgRNA inserts in each sample were PCR amplified, barcoded and subjected to next gen sequencing on the Illumina HiSeq 4000 platform. This study provides a candidate list of genes whose inactivation can confer resistance to one or more IMiD compounds in BC-3 cells. Overall design: Identification of genes whose inactivation confers resistance to IMiD compounds in PEL</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>31300418</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA503251&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA503251&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>503251</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2019-06-14</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

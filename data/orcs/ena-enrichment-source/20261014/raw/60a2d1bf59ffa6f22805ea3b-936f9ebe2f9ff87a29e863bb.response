@@ -1,0 +1,74 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA625518" alias="PRJNA625518" center_name="RNA Biology and Posttranscriptional Regulation, Berlin Institute for Medical Systems Biology, Max Delbrück Center for Molecular Medicine" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA625518</PRIMARY_ID>
+    <SECONDARY_ID>SRP256479</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE148729</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="RNA Biology and Posttranscriptional Regulation, Berlin Institute for Medical Systems Biology, Max Delbrück Center for Molecular Medicine">PRJNA625518</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Gene expression profiling of SARS-CoV-1/2 infected human cell lines at bulk and single-cell level</NAME>
+  <TITLE>Gene expression profiling of SARS-CoV-1/2 infected human cell lines at bulk and single-cell level</TITLE>
+  <DESCRIPTION>To identify human genes and cellular pathways influencing SARS-CoV-1 and SARS-CoV-2 infection, we performed genome-wide measurements of different aspects of gene expression at the bulk and single-cell level. Overall design: Different human cell lines were infected with SARS-CoV-1 and SARS-CoV-2 and harvested at different time points. Gene expression profiling was measured using bulk and single-cell polyA RNA-sequencing, smallRNA sequencing, and totalRNA sequencing. Raw data are not provided for AEC samples due to patient privacy concerns.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJEB40771"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>33585804</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA625518&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA625518&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>625518</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2020-05-06</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

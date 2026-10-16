@@ -1,0 +1,67 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA812945" alias="PRJNA812945" center_name="Noam Stern-Ginossar, Molecular Genetics, Weizmann Institute" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA812945</PRIMARY_ID>
+    <SECONDARY_ID>SRP362549</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE197962</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Noam Stern-Ginossar, Molecular Genetics, Weizmann Institute">PRJNA812945</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>CRISPR screens for host factors critical for infection by SARS-CoV-2 variants of concern</NAME>
+  <TITLE>CRISPR screens for host factors critical for infection by SARS-CoV-2 variants of concern</TITLE>
+  <DESCRIPTION>The global spread of SARS-CoV-2 lead to the most challenging pandemic in this century, posing major economic and health challenges worldwide. Revealing host genes essential for infection by multiple variants of SARS-CoV-2 can provide insights into the virus pathogenesis, and facilitates the development of novel broad-spectrum host-directed therapeutics. Here, employing genome-scale CRISPR screens, we provide a comprehensive data-set of cellular factors that are exploited by WT-SARS-CoV-2 as well as two additional recently emerged variants of concerns (VOCs), Alpha and Beta. These screens identified known and novel host factors critical for SARS-CoV-2 infection, including various components belonging to the Clathrin-dependent transport pathway, ubiquitination and Heparan sulfate biogenesis. In addition, the host phosphatidylglycerol biosynthesis processes appeared to have major anti-viral functions. Comparative analysis of the different VOCs revealed the host factors KREMEN2 and SETDB1 as potential unique candidates required only to the Alpha variant, providing a possible explanation for the increased infectivity of this variant. Furthermore, the analysis identified GATA6, a zinc finger transcription factor, as an essential pro-viral gene for all variants inspected. We revealed that GATA6 directly regulates ACE2 transcription and accordingly, is critical for SARS-CoV-2 cell entry. Analysis of clinical samples collected from SARS-CoV-2 infected individuals showed an elevated level of GATA6, indicating the important role GATA6 may be playing in COVID-19 pathogenesis. Finally, pharmacological inhibition of GATA6 resulted in down-modulation of ACE2 and consequently to inhibition of the viral infectivity. Overall, we show GATA6 represents a target for the development of anti-SARS-CoV-2 therapeutic strategies and reaffirm the value of the CRISPR loss-of-function screens in providing a list of potential new targets for therapeutic interventions. Overall design: Genome-wide CRISPR screen (GeCKO library) in Calu3 cells infected with different SARS-CoV-2 strains (WT, alpha and beta) or left uninfected.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJEB40771"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>35469023</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA812945&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA812945&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>812945</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2022-03-30</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

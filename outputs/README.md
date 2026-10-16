@@ -7,3 +7,5 @@ Historical output iterations are excluded from the curated release. Shared GEO
 databases and native sources are under `data/orcs`; see the
 [GEO collection guide](../docs/geo-orcs-enrichment.md). This folder holds new
 working runs, rather than duplicate copies of finalized shared databases.
+
+ENA development pilots and the GEO template-test workspace were archived on 2026-10-16 outside the repository. Final shared enrichment outputs and native evidence remain under data/orcs. Curated ORCS runs remain unchanged. The local cleanup receipt is logs/ena-cleanup-receipt-20261016.json.

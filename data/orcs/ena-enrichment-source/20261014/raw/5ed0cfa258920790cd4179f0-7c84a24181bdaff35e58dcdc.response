@@ -1,0 +1,67 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA728974" alias="PRJNA728974" center_name="Marson Lab, Gladstone-UCSF Institute of Genomic Immunology, J. David Gladstone Institutes" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA728974</PRIMARY_ID>
+    <SECONDARY_ID>SRP319477</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE174255</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Marson Lab, Gladstone-UCSF Institute of Genomic Immunology, J. David Gladstone Institutes">PRJNA728974</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>CRISPR activation and interference screens decode stimulation responses in primary human T cells [CRISPR]</NAME>
+  <TITLE>CRISPR activation and interference screens decode stimulation responses in primary human T cells [CRISPR]</TITLE>
+  <DESCRIPTION>Regulation of cytokine production in stimulated T cells can be disrupted in autoimmunity, immunodeficiencies, and cancer. Systematic discovery of stimulation-dependent cytokine regulators requires both loss-of-function and gain-of-function studies, which have been challenging in primary human cells. We now report genome-wide CRISPR activation (CRISPRa) and interference (CRISPRi) screens in primary human T cells to identify gene networks controlling interleukin 2 and interferon gamma production. Arrayed CRISPRa confirmed key hits and enabled multiplexed secretome characterization, revealing reshaped cytokine responses. Coupling CRISPRa screening with single-cell RNA-seq enabled deep molecular characterization of screen hits, revealing how perturbations tuned T cell activation and promoted cell states characterized by distinct cytokine expression profiles. Together, these screens reveal genes that reprogram critical immune cell functions, which could inform the design of immunotherapies. Overall design: Pooled CRISPRa and CRISPRi screens followed by sorting for IL-2 and IFN-g high or low expressing bins</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA729110"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>35113687</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA728974&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA728974&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>728974</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2021-05-15</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

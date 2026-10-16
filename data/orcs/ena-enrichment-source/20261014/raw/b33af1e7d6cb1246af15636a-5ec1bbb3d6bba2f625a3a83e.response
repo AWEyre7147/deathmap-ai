@@ -1,0 +1,70 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA132159" alias="PRJNA132159" center_name="Molecular Genetics, Weizmann Institute of Science" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA132159</PRIMARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE24759</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Molecular Genetics, Weizmann Institute of Science">PRJNA132159</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Homo sapiens</NAME>
+  <TITLE>Densely interconnected transcriptional circuits control cell states in human hematopoiesis</TITLE>
+  <DESCRIPTION>Tremendous progress has been made in identifying individual transcription factors that regulate hematopoietic differentiation, but many aspects of the global architecture of hematopoiesis remain unknown. Here, we profiled gene expression in 38 distinct purified populations of human hematopoietic cells and used probabilistic models of gene expression patterns and sequence-based analysis of motifs in gene promoters to decipher the general organization of their regulatory circuitry. We identified modules of highly co-expressed genes, some of which are restricted to a single lineage, but most are expressed at variable levels across multiple lineages. We found densely interconnected cis-regulatory circuits and a large number of transcription factors that are differentially expressed across hematopoietic states, suggesting a more complex regulatory system than previously assumed. We functionally validated a subset of candidate factors using RNA interference and ChIP-Seq. Our dataset, analytic tools, and findings, available on a web-based portal, provide a unique resource to study the regulatory architecture of hematopoiesis. Overall design: We defined 38 distinct hematopoietic cell states based on cell surface marker expression, representing hematopoietic stem and progenitor cells, terminally differentiated cells, and intermediate states. For each state, we purified samples separately from 4 to 7 independent donors by multiparameter flow cytometry, yielding 211 profiled samples. Cells from all stem and progenitor populations were purified from umbilical cord blood. Terminally differentiated lymphocyte populations were purified from peripheral blood.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>21241896</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA132159&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA132159&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>132159</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2014-02-11</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

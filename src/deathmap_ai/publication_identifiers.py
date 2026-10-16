@@ -109,7 +109,7 @@ def main():
     """Resolve positional IDs individually, or grouped records from JSON input."""
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('identifiers',nargs='*');parser.add_argument('--input',type=Path)
-    parser.add_argument('--output',type=Path,required=True);parser.add_argument('--cache',type=Path,default=Path('data/publication-identifiers/cache'))
+    parser.add_argument('--output',type=Path,required=True);parser.add_argument('--cache',type=Path,default=Path('data/orcs/publication-source/identifier-resolution-cache'))
     args=parser.parse_args()
     records=json.loads(args.input.read_text(encoding='utf-8')) if args.input else [{'pmcid' if v.upper().startswith('PMC') else 'pmid' if v.isdigit() else 'doi':v} for v in args.identifiers]
     if not records:parser.error('Supply identifiers or --input JSON')

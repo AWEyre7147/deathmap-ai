@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA509929" alias="PRJNA509929" center_name="Genetics, Systems Biology, Yale University" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA509929</PRIMARY_ID>
+    <SECONDARY_ID>SRP173473</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE123824</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Genetics, Systems Biology, Yale University">PRJNA509929</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Convergent identification and interrogation of tumor-intrinsic factors for immune escape in vivo</NAME>
+  <TITLE>Convergent identification and interrogation of tumor-intrinsic factors for immune escape in vivo</TITLE>
+  <DESCRIPTION>Evading immune destruction is a hallmark of cancer and a key feature for the resistance to cancer immunotherapy. Genetic alterations can directly influence the nature of cancer cells in the native tumor microenvironment to mediate immune escape. Our genome-scale in vivo CRISPR screens robustly identified multiple regulators of tumor-intrinsic factors that alter the ability of cells to grow as tumors across different levels of immunocompetence. As a convergent hit from these screens, Prkar1a mutant cells are able to robustly outgrow as tumors in fully immunocompetent hosts. Functional interrogation showed that Prkar1a loss greatly altered the transcriptome and proteome involved in inflammatory and immune responses as well as extracellular protein production. Single cell transcriptomic profiling and flow cytometry analysis mapped the tumor microenvironment of Prkar1a mutant tumors, and revealed the transcriptomic alterations in host myeloid cells. Taken together, tumor-intrinsic mutations in Prkar1a led to drastic alterations in the genetic program of cancer cells, thereby remodeling the tumor microenvironment. Overall design: Single-cell RNA-seq (scRNA-seq) was performed by DropSeq method for Prkar1a-deficient tumors in Rag1-/- and Nu/Nu mice, and for vector-control tumors in Rag1-/- mice. scRNA-seq was performed using the 10X Genomics method for Prkar1a-deficient tumors in C57Bl/6 mice.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>10090</TAXON_ID>
+      <SCIENTIFIC_NAME>Mus musculus</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9559"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>30797773</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA509929&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA509929&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>509929</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2019-12-15</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

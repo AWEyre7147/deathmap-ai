@@ -1,0 +1,73 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA174614" alias="PRJNA174614" center_name="Memorial Sloan-Kettering Cancer Center" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA174614</PRIMARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE40685</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Memorial Sloan-Kettering Cancer Center">PRJNA174614</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Mus musculus</NAME>
+  <TITLE>Foxp3 exploits a preexistent enhancer landscape for regulatory T cell lineage specification [Expression]</TITLE>
+  <DESCRIPTION>Regulatory T (Treg) cells, whose identity and function are defined by the transcription factor Foxp3, are indispensable for immune homeostasis. It is unclear whether Foxp3 exerts its Treg lineage specification function through active modification of the chromatin landscape and establishment of new enhancers or by exploiting a pre-existing enhancer landscape. Analysis of the chromatin accessibility of Foxp3-bound enhancers in Treg and Foxp3-negative T cells showed that Foxp3 was bound overwhelmingly to pre-accessible enhancers occupied by its cofactors in precursor cells or a structurally related predecessor. Furthermore, the bulk of Foxp3-bound Treg cell enhancers inaccessible in Foxp3- CD4+ cells became accessible upon T cell receptor activation prior to Foxp3 expression with only a small subset associated with several functionally important genes being exclusively Treg cell-specific. Thus, in a late cellular differentiation process Foxp3 defines Treg cell functionality in an “opportunistic” manner by largely exploiting the preformed enhancer network instead of establishing a new enhancer landscape. Overall design: Array expression. Three cell types with 3-5 replicates each.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>10090</TAXON_ID>
+      <SCIENTIFIC_NAME>Mus musculus</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA174612"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9559"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>23021222</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA174614&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA174614&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>174614</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2014-02-11</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

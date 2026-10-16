@@ -1,0 +1,74 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA687660" alias="PRJNA687660" center_name="Peter MacCallum Cancer Centre" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA687660</PRIMARY_ID>
+    <SECONDARY_ID>SRP299240</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE163802</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Peter MacCallum Cancer Centre">PRJNA687660</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>A PP2A-Integrator complex fine-tunes transcription by opposing CDK9 [3UTR-seq]</NAME>
+  <TITLE>A PP2A-Integrator complex fine-tunes transcription by opposing CDK9 [3UTR-seq]</TITLE>
+  <DESCRIPTION>Gene expression by RNA Polymerase II (RNAPII) is tightly controlled by Cyclin-dependent kinases (CDKs) at discrete checkpoints during the transcription cycle. The RNAPII pausing checkpoint, engaged after transcription initiation, is controlled by CDK9 to regulate transcription in metazoans. We discovered that CDK9-mediated RNAPII pause-release is functionally opposed by a protein phosphatase 2A (PP2A) complex. PP2A dynamically competes for key CDK9 substrates, DSIF and RNAPII-CTD, and is recruited to transcription pausing sites by the Integrator complex subunit INTS6. INTS6 depletion confers resistance to CDK9 inhibition in a variety of normal and tumor cell lines. Loss of INTS6 abolishes the Integrator-PP2A association leading to unrestrained CDK9 activity, which amplifies transcriptional responses. Pharmacological PP2A activation synergizes with CDK9 inhibition to kill MLL-rearranged leukemias and solid tumors and provide therapeutic benefit in vivo. These data demonstrate that f inely-tuned gene expression relies on the balance of kinase and phosphatase activity at the pausing checkpoint. Overall design: We performed 3'RNA-seq on RNA isolated from THP-1 cells expressing Cas9 and non-targeting or INTS6 targeting sgRNAs which had been treated with LPS to perform differential gene expression analysis. We also performed 3'RNA-seq on RNA isolated from HT-29 cells treated with a CDK9 inhibitor (AZ5576) or a PP2A agonist (DBK-1154) to perform differential gene expression analysis.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA687654"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>34004147</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA687660&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA687660&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>687660</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2021-05-26</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

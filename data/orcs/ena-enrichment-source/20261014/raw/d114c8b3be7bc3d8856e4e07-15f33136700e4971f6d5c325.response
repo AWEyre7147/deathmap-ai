@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA552032" alias="PRJNA552032" center_name="Applied Bioinformatics Laboratories (ABL), Division of Advanced Research Technologies (DART), New York University, NYU Langone Medical Center" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA552032</PRIMARY_ID>
+    <SECONDARY_ID>SRP212687</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE133604</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Applied Bioinformatics Laboratories (ABL), Division of Advanced Research Technologies (DART), New York University, NYU Langone Medical Center">PRJNA552032</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Single-cell transcriptomic profiling of mouse KrasG12DP53-/- (KP) lung tumors in response to tumor cell intrinsic Asf1a knockout (KO), anti-PD-1 or combination treatment (Asf1a KO + anti-PD-1).</NAME>
+  <TITLE>Single-cell transcriptomic profiling of mouse KrasG12DP53-/- (KP) lung tumors in response to tumor cell intrinsic Asf1a knockout (KO), anti-PD-1 or combination treatment (Asf1a KO + anti-PD-1).</TITLE>
+  <DESCRIPTION>We performed single-cell RNA sequencing (scRNAseq) analysis on the mouse lung tissues from KP tumor-bearing mice treated with tumor cell intrinsic Asf1a KO, anti-PD-1 or combination treatment Overall design: Single-cell RNA-sequencing libraries of mouse tissues using 10x Genomics technology.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>10090</TAXON_ID>
+      <SCIENTIFIC_NAME>Mus musculus</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9559"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>31744829</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA552032&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA552032&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>552032</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2019-11-28</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

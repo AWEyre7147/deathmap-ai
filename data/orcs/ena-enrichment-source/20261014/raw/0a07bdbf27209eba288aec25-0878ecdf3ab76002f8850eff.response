@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA415354" alias="PRJNA415354" center_name="Schoggins Lab, Department of Microbiology, UT Southwester Medical Center" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA415354</PRIMARY_ID>
+    <SECONDARY_ID>SRP120946</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE105771</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Schoggins Lab, Department of Microbiology, UT Southwester Medical Center">PRJNA415354</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Transcriptional profile of human STAT1-/- fibroblasts expressing IFI6 or empty control vector</NAME>
+  <TITLE>Transcriptional profile of human STAT1-/- fibroblasts expressing IFI6 or empty control vector</TITLE>
+  <DESCRIPTION>Detection of viral infection by pattern-recognition receptors triggers production of interferon. Secreted interferon binds to cognate receptors, triggering JAK/STAT signaling, resulting in the transcription and production of hundreds of interferon-stimulated genes (ISGs). Our lab identified interferon alpha inducible protein 6 (IFI6) as an ISG that potently suppresses replication of viruses from the Flavivirus genus. To test whether the inhibitory effects of IFI6 were due to activating expression of other antiviral ISGs, we overexpressed IFI6 and a control vector and examined global transcription using RNA-Seq. Overall design: Human STAT1-deficient fibroblasts stably expressing IFI6 or empty control vector in biological triplicate.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>30224801</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA415354&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA415354&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>415354</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2018-12-03</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

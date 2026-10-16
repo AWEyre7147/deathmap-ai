@@ -1,0 +1,67 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA285195" alias="PRJNA285195" center_name="The Francis Crick Institute" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA285195</PRIMARY_ID>
+    <SECONDARY_ID>SRP058804</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE69322</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="The Francis Crick Institute">PRJNA285195</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Gata6 potently initiates reprogramming of pluripotent and differentiated cells to extraembryonic endoderm stem cells [ChIP-Seq &amp; RNA-Seq]</NAME>
+  <TITLE>Gata6 potently initiates reprogramming of pluripotent and differentiated cells to extraembryonic endoderm stem cells [ChIP-Seq &amp; RNA-Seq]</TITLE>
+  <DESCRIPTION>Transcription factor-mediated reprogramming is a powerful method to study cell fate changes. In this work, we demonstrate that the transcription factor Gata6 can initiate reprograming of multiple cell types to induced extraembryonic endoderm (iXEN) cells. Intriguingly, Gata6 is sufficient to drive iXEN cells from mouse pluripotent cells and differentiated neural cells. Furthermore, GATA6 induction in human ES (hES) cells also downregulates pluripotency gene expression and upregulates extraembryonic endoderm genes, revealing a conserved function in mediating this cell fate switch. Profiling transcriptional changes following Gata6 induction in mES cells reveals step-wise pluripotency factor disengagement, with initial repression of Nanog and Esrrb, then Sox2 and finally Oct4, alongside step-wise activation of extraembryonic endoderm genes. Chromatin immunoprecipitation and subsequent high-throughput sequencing analysis shows Gata6 enrichment near both pluripotency and endoderm genes, suggesting that Gata6 functions as both a direct repressor and activator. Together this demonstrates that Gata6 is a versatile and potent reprogramming factor that can act alone to drive a cell fate switch from diverse cell types. Overall design: (1) Microarray analysis of Gata6 overexpressing cells from 12 to 144 hours of doxycycline treatment in mouse embryonic stem (mES) cells compared to uninduced mES cells, embryo-derived XEN cells and Sox7 overexpressing mES cells after 144 hours of doxycycline treatment. (2) ChIP-seq analysis of Gata6 binding 36 hours following doxycycline treatment. (3) ChIP-seq analysis of Gata6 binding in embryo-derived XEN cells. (4) RNA-seq analysis of GATA6 overexpressing cells following 144 hours of induction in hES cells.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA285192"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>26109048</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA285195&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA285195&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>285195</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2015-06-30</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

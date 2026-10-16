@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA153317" alias="PRJNA153317" center_name="Young Lab, Whitehead Institute for Biomedical Research" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA153317</PRIMARY_ID>
+    <SECONDARY_ID>SRP011429</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE36354</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Young Lab, Whitehead Institute for Biomedical Research">PRJNA153317</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Homo sapiens</NAME>
+  <TITLE>Transcriptional Amplification in Tumor Cells with Elevated c-Myc</TITLE>
+  <DESCRIPTION>Excessive expression of c-Myc occurs frequently in human cancers, where high levels are associated with tumor aggression and poor clinical outcome, but the effect of high levels of c-Myc on global gene regulation is poorly understood. We report here that in tumor cells expressing high levels of c-Myc, the transcription factor binds to E-box sequences in the core promoters of most actively transcribed genes and, unexpectedly, the enhancers of these active genes. The predominant effect of increasing c-Myc levels at both proximal and distal promoter elements is to produce higher levels of transcription at existing active genes by promoting RNA polymerase II elongation, as opposed to stimulating transcription of novel target genes. Our results argue that c-Myc overexpression drives increased transcription of growth-promoting genes, and does so by amplifying the levels of transcripts associated with the entire gene expression program of the cancer cell. Thus, excess c-Myc functions to elicit the transcriptional amplification of existing active genes through the invasion of enhancers across the cancer cell genome, thereby reducing the rate-limiting constraints required for continuous tumor growth and proliferation. Overall design: ChIP-Seq of multiple factors and histone modifications in a variety of human tumor cell lines</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>23021215</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA153317&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA153317&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>153317</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2013-05-31</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

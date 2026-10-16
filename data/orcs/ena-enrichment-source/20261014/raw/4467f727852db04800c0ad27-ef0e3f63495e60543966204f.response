@@ -1,0 +1,65 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA865737" alias="PRJNA865737" center_name="Microbiology-Immunology, Northwestern University" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA865737</PRIMARY_ID>
+    <SECONDARY_ID>SRP389708</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE210445</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Microbiology-Immunology, Northwestern University">PRJNA865737</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>CRISPR screens for synthetic rescue of cFLIP depletion in primary effusion lymphoma cell lines</NAME>
+  <TITLE>CRISPR screens for synthetic rescue of cFLIP depletion in primary effusion lymphoma cell lines</TITLE>
+  <DESCRIPTION>Kaposi’s sarcoma-associated herpesvirus (KSHV) causes the B cell malignancy primary effusion lymphoma (PEL). We have previously shown that cultured PEL cell lines require expression of the cellular FLICE inhibitory protein (cFLIP) for survival (Manzano et al., Nat Comm 2018), although KSHV encodes a viral homolog of this protein (vFLIP). Here we employed genome-wide CRISPR/Cas9 synthetic rescue screens to identify loss of function perturbations that can compensate for cFLIP knockout/knockdown. Overall design: BCBL1 lentiCas9-Blast cells clonally selected for high Cas9 editing activity were transduced with the genome-wide Brunello (Doench et al., Nature Biotechnology 2016) CRISPR library followed by a second challenge with either lentiviral sgRNAs (sgAAVS1, sgCFLIP) or lentiviral shRNAs (shRen308, shRen713, sh1-cFLIP, shM-cFLIP, or shN-cFLIP). Experiments utilizing sgAAVS1 and sgAAVS1 were repeated in BC2 lentiCas9-Blast (no clonal selection for Cas9 activity) cells.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA865737&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA865737&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>865737</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2022-10-07</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

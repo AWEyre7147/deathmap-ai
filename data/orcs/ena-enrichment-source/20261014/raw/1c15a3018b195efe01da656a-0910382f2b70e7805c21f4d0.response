@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA948403" alias="PRJNA948403" center_name="IRIC, Université de Montréal" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA948403</PRIMARY_ID>
+    <SECONDARY_ID>SRP429123</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE228155</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="IRIC, Université de Montréal">PRJNA948403</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Genetic enhancers of partial PLK1 inhibition reveal hypersensitivity to kinetochore perturbations</NAME>
+  <TITLE>Genetic enhancers of partial PLK1 inhibition reveal hypersensitivity to kinetochore perturbations</TITLE>
+  <DESCRIPTION>Polo-like kinase 1 (PLK1) is a serine/threonine kinase required for mitosis and cytokinesis. As cancer cells are often hypersensitive to partial PLK1 inactivation, chemical inhibitors of PLK1 have been developed and tested in clinical trials. However, these molecules alone were not completely effective. PLK1 promotes numerous molecular and cellular events in the cell division cycle. To date, it is unclear which of these events most crucially depend on PLK1 activity. We used a CRISPR-based genome-wide screening strategy to identify genes whose inactivation enhances cell proliferation defects upon partial chemical inhibition of PLK1. Genes identified encode proteins that are functionally linked to PLK1 in multiple ways. Among them, factors that promote centromere and kinetochore function were clearly enriched. In particular, inactivation of the kinesin KIF18A or SKA1 in PLK1-compromised cells results in mitotic defects, activation of the spindle assembly checkpoint and nuclear reassembly defects. Our results suggest that functions of PLK1 at kinetochores are most sensitive to its inhibition, and point at KIF18A as a possible target for combinatorial therapies using existing PLK1 inhibitors. Overall design: Genome-wide CRISPR/Cas9 screens to test for gene deletions that affect fitness in human cells treated with PLK1 inhibitors BI2536, BI6727 and GSK461364A.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>37639469</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA948403&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA948403&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>948403</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2023-10-06</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

@@ -1,0 +1,74 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA842692" alias="PRJNA842692" center_name="St. Jude Children's Research Hospital" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA842692</PRIMARY_ID>
+    <SECONDARY_ID>SRP377212</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE204899</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="St. Jude Children's Research Hospital">PRJNA842692</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Activation of g-globin expression by hypoxia-inducible factor 1a [CaptureC]</NAME>
+  <TITLE>Activation of g-globin expression by hypoxia-inducible factor 1a [CaptureC]</TITLE>
+  <DESCRIPTION>Longstanding observations that fetal hemoglobin (HbF, a2g2) expression is reactivated in postnatal red blood cells (RBCs) during hypoxia or recovery from anemia remain unexplained. We identified the hypoxia inducible factor (HIF) signaling pathway as a direct regulator of HbF expression in a CRISPR/Cas9 genetic screen. In RBC precursors, depletion of the von Hippel–Lindau (VHL) E3 ligase stabilized its ubiquitination target HIF1a to induce g-globin gene transcription. Mechanistically, HIF1a-HIF1bheterodimers bound cognate DNA elements in BGLT3, a long-noncoding RNA gene located 2.7 kb downstream of the tandem g-globin genes. This was followed by recruitment of transcriptional activators, chromatin opening, and increased long-range interactions between the g-globin genes and their upstream enhancer. These effects were recapitulated by hypoxia or inhibition of prolyl hydroxylase domain (PHD) enzymes that target HIF1a for ubiquitination. Our findings link globin gene regulation with canonical hypoxia adaptation, elucidate a mechanism for HbF induction during stress erythropoiesis, and identify a novel therapeutic approach for β-hemoglobinopathies. Overall design: Capture-C experiments were performed CD34+ HSPCs derived erythroblast cells treated with NT sgRNA or VHL sgRNA1</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA764707"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>36224385</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA842692&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA842692&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>842692</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2022-07-16</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

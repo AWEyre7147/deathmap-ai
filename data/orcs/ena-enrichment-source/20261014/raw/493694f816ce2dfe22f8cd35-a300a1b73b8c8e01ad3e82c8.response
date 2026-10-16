@@ -1,0 +1,59 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA777043" alias="PRJNA777043" center_name="Icahn School of medicine at Mount Sinai" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA777043</PRIMARY_ID>
+    <SECONDARY_ID>SRP344172</SECONDARY_ID>
+    <SUBMITTER_ID namespace="Icahn School of medicine at Mount Sinai">PRJNA777043</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <TITLE>Inducible CRISPR activation screen for interferon-stimulated genes identifies OAS1 as a SARS-CoV-2 restriction factor</TITLE>
+  <DESCRIPTION>Interferons establish an antiviral state through the induction of hundreds of interferon-stimulated genes (ISGs). The mechanisms and viral specificities for most ISGs remain incompletely understood. To enable high-throughput interrogation of ISG antiviral functions in pooled genetic screens while mitigating potentially confounding effects of endogenous interferon and antiproliferative/proapoptotic ISG activities, we adapted a CRISPR-activation (CRISPRa) system for inducible ISG expression in isogenic cell lines with and without the capacity to respond to interferons. We used this platform to screen for ISGs that restrict SARS-CoV-2. Results included ISGs previously described to restrict SARS-CoV-2 and novel candidate antiviral factors. We validated a subset of these by complementary CRISPRa and cDNA expression experiments. OAS1, a top-ranked hit across multiple screens, exhibited strong antiviral effects against SARS-CoV-2, which required OAS1 catalytic activity. These studies demonstrate a high-throughput approach to assess antiviral functions within the ISG repertoire, exemplified by identification of multiple SARS-CoV-2 restriction factors.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJEB40771"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA777043&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA777043&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>777043</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2022-01-01</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

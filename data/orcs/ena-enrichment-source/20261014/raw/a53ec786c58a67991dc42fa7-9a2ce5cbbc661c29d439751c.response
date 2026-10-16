@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA541237" alias="PRJNA541237" center_name="UMR7242 Biotechnology and Cell Signalling, CNRS" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA541237</PRIMARY_ID>
+    <SECONDARY_ID>SRP195507</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE130735</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="UMR7242 Biotechnology and Cell Signalling, CNRS">PRJNA541237</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Genome-wide roles of DNA methyltransferases in mouse embryos</NAME>
+  <TITLE>Genome-wide roles of DNA methyltransferases in mouse embryos</TITLE>
+  <DESCRIPTION>Mouse embryos acquire global DNA methylation of their genome during implantation. However the exact roles of DNA methyltransferases (DNMTs) in embryognesis have not been studied comprehensively. Here we systematically analyze the consequences of genetic inactivation of Dnmt1, Dnmt3a and Dnmt3b on the methylome and transcriptome of mouse embryos and fibroblasts. Overall design: We mapped DNA methylation by Whole Genome Bisulfite Sequencing (WGBS) in two independent WT, Dnmt1-/- and Dnmt3a-/- Dnmt3b-/- (DKO) E8.5 embryos. We also sequenced RRBS libraries from three Dnmt1-/- (D1KO_Rep1-3) and WT (D1WT_Rep1-3) littermate E8.5 embryos, as well as three Dnmt3a-/- Dnmt3b-/- (DKO_Rep1-3) together with two WT (D3abWT_Rep1-2), three Dnmt3a-/+ (D3aHet_Rep1-3), three Dnmt3a-/+ Dnmt3b-/+ (D3abHet_Rep1-3) littermate E8.5 embryos. To study the role of DNMT3A/B and DNMT1 in maintenance methylation, we generated Dnmt3aL2/L2; Dnmt3bL2/L2; CreERT2 and Dnmt1L2/L2; CreERT2 immortalized mouse embryonic fibroblasts (MEFs). The CreERT2 recombinase is activated by tamoxifen treatment to generate Dnmt3a Dnmt3b double conditional knockout (cDKO) and Dnmt1 conditional knockout (D1cKO) MEFs. We performed three independent tamoxifen induction experiments and profiled DNA methylation by RRBS in cells treated with Tamoxifen (Tam_Rep1-3) or not treated with Tamoxifen (noTam_Rep1-3) at various time points of culture (day 23 and day 69 for cDKO MEFs, day 5 and day 7 for D1cKO MEFs). The transcriptome of Dnmt mutant embryos was analyzed by RNA-seq. We sequenced RNA-seq libraries from three Dnmt1-/- (D1KO_Rep1-3) and three WT (D1WT_Rep1-3) littermate E8.5 embryos, as well as six Dnmt3a-/- Dnmt3b-/- E8.5 embryos (DKO_Rep1-6) together with two WT (D3abWT_Rep1-2) and four Dnmt3a-/+ (D3aHet_Rep1-4) littermate controls.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>10090</TAXON_ID>
+      <SCIENTIFIC_NAME>Mus musculus</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9559"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>32561758</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA541237&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA541237&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>541237</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2020-05-23</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA783287" alias="PRJNA783287" center_name="CNIO" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA783287</PRIMARY_ID>
+    <SECONDARY_ID>SRP347627</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE189499</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="CNIO">PRJNA783287</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>FBXW7</NAME>
+  <TITLE>FBXW7</TITLE>
+  <DESCRIPTION>Purpose: FBXW7 is one of the most frequently mutated tumor suppressors, the deficiency of which has been associated with resistance to some anticancer therapies. Through bioinformatic analyses and genome-wide CRISPR screens, we here reveal that FBXW7 deficiency leads to multi-drug resistance (MDR), to a bigger extent than well-established MDR-drivers such as ABCB1. Proteomic data from FBXW7-deficient cells and human cancer samples identify the upregulation of mitochondrial function as a hallmark of FBXW7 deficiency, which has been previously linked to an increased resistance to chemotherapy. Accordingly, genetic or chemical targeting of mitochondria is preferentially toxic for FBXW7-deficient cells. For instance, targeting mitochondrial translation with the antibiotic Tigecycline efficiently kills FBXW7-deficient cells in vitro and in vivo, by a mechanism that involves activation of the Integrated Stress Response (ISR). Searching for additional drugs that overcome MDR in FBXW7-deficient cells, we found several targeted therapies such as Erlotinib, Dasatinib or Vemurafenib which unexpectedly also activate the ISR. Together, our study reveals that one of the most frequent mutations in cancer reduces the sensitivity to the vast majority of available therapies, and identifies a general principle to overcome such resistance. Methods: This study was performed in 2 groups of DLD1 cells with duplicate samples per group. Both control (Wild Type, WT) and experimental (FBXW7 -/-, KO) were exposed to Tigecycline (10µM). DMSO was used as a control for the treatment. After 24h, the RNA was extracted and the transcriptome was profiled with RNA-Sequencing (RNA-seq) analysis. Results: our study reveals that one of the most frequent mutations in cancer reduces the sensitivity to the vast majority of available therapies, and identifies a general principle to overcome such resistance. Overall design: This study was performed in 2 groups of DLD1 cells with duplicate samples per group. Both control (Wild Type, WT) and experimental (FBXW7 -/-, KO) were exposed to Tigecycline (10µM). Subsequent transcriptome differences were exposed by RNA-seq analysis.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>35861150</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA783287&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA783287&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>783287</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2022-06-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-05-04</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

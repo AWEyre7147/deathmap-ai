@@ -1,0 +1,73 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA296124" alias="PRJNA296124" center_name="Gyneconogical cancer, cancer biology center" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA296124</PRIMARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE73064</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Gyneconogical cancer, cancer biology center">PRJNA296124</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Homo sapiens</NAME>
+  <TITLE>Gene expression profile of tumor cells from primary tumors, ascites and metastases of high grade serous ovarian cancer patients</TITLE>
+  <DESCRIPTION>HGSOC, the most aggressive form of OC, is characterized by insidious onset, rapid intraperitoneal spread and development of massive ascites. Peritoneal adhesion was considered as the first step of abdominal metastasis, underscoring that only tumor cells gain access to peritoneal adherence contribute to metastasis. Studies on ovarian cancer progression were mainly focused on the primary and metastatic tumor cells, while understanding of the ascitic tumor cells is limited. We hypothesized that uncovering the gene expression profiles of ascitic tumor cells from high grade serous ovarian cancer patients will allow us to understand more specifically their unique phenotype which mediates the peritoneal adhesion. In this study, gene expression profiling was completed for 15 magnetic sorted tumor cells samples from matched primary tumors, ascites and metastases of 5 high grade serous ovarian cancer patients. By comparing the expression data from ascitic tumor cells with primary and metastasis tumor cells, we identified a set of differential expressed genes in ovarian ascitic tumor cells advantageous for peritoneal adhesion and metastasis. Further study revealed that ascites microenvironment modulated the ascitic tumor cells phenotype and contributed to ovarian cancer dissemination through facilitating CAFs in formation of compact spheroids with ascitic tumor cells. We used microarrays to profile the expression of 15 matched tumor cells samples in order to identify molecular alteration between primary tumor cells, ascitic tumor cells and metastatic tumor cells in high grade serous ovarian cancer. Overall design: Transcriptome profiling analyses were performed on 15 magnetical sorted epithelial tumor samples from matched primary tumors, ascites and metastases in high grade serous ovarian cancer patients, using the Affymetrix human genome U133 Plus 2.0 microarray.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA296094"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>30710055</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA296124&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA296124&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>296124</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2024-04-04</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA532943" alias="PRJNA532943" center_name="The Salk Institute for Biological Studies" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA532943</PRIMARY_ID>
+    <SECONDARY_ID>SRP192649</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE129846</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="The Salk Institute for Biological Studies">PRJNA532943</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>A genome-wide CRISPR screen reveals a role for the non-canonical nucleosome remodeling BAF complex in Foxp3 expression and regulatory T cell function</NAME>
+  <TITLE>A genome-wide CRISPR screen reveals a role for the non-canonical nucleosome remodeling BAF complex in Foxp3 expression and regulatory T cell function</TITLE>
+  <DESCRIPTION>Regulatory T cells (Treg) play a pivotal role in suppressing auto-reactive T cells and maintaining immune homeostasis. Treg development and function are dependent on the transcription factor Foxp3. Here we performed a genome-wide CRISPR loss-of-function screen to identify Foxp3 regulators in mouse primary Treg cells. Foxp3 regulators were enriched in genes encoding subunits of the SWI/SNF nucleosome remodeling and SAGA chromatin modifying complexes. Among the three SWI/SNF-related complexes, the Brd9-containing non-canonical (nc)BAF complex promoted Foxp3 expression, whereas the PBAF complex was repressive. Chemical-induced degradation of Brd9 led to reduced Foxp3 expression and reduced Treg function in vitro. Brd9 ablation compromised Treg function in inflammatory disease and tumor immunity in vivo. Furthermore, Brd9 promoted Foxp3 binding and expression of a subset of Foxp3 target genes. Our findings provide an unbiased analysis of the genetic networks regulating Foxp3 and reveal ncBAF as a target for therapeutic manipulation of Treg function. Overall design: ChIP-seq for Foxp3, BRG1, BRD9 and PHF10 in natural T regulatory cells (nTregs) from Foxp3Thy1.1/Rosa-Cas9 mice to assess their genomic localization; replicates are indicated. ChIP-seq for Foxp3 and H3K27ac in nTregs either transduced with sgNT, sgFoxp3, sgBrd9, sgPbrm or treated with DMSO vehicle or dBRD9 to determine the role of Brd9 and Pbrm1 in regulating Foxp3 binding and H3K27ac levels. ChIP-seq for Foxp3 in nTregs exogenously expressing either MIGR empty vector or Foxp3 construct, with transduction of either sgNT or sgBrd9. ATAC-seq in nTregs transduced with sgNT (non-targeting) or sgBrd9 to assess changes in chromatin accessibility after loss of Brd9. Two replicates per sample. RNA-seq in nTregs treated with DMSO vehicle or dBRD9. RNA-seq in nTregs transduced with sgNT, sgFoxp3 or guides targeting different SWI/SNF subunits. Two to three replicates per sample.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>10090</TAXON_ID>
+      <SCIENTIFIC_NAME>Mus musculus</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9559"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>32640256</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA532943&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA532943&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>532943</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2020-07-08</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

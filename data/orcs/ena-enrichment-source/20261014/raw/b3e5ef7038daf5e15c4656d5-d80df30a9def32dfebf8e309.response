@@ -1,0 +1,74 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA608811" alias="PRJNA608811" center_name="Functional Genomics Center Zurich, ETH/University of Zurich" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA608811</PRIMARY_ID>
+    <SECONDARY_ID>SRP299728</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE145182</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Functional Genomics Center Zurich, ETH/University of Zurich">PRJNA608811</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Pooled CRISPR screens in human intestinal organoids [ATAC-seq]</NAME>
+  <TITLE>Pooled CRISPR screens in human intestinal organoids [ATAC-seq]</TITLE>
+  <DESCRIPTION>We performed CRISPR screens on both a sub-library and a genome-wide scale in human intestinal organoids to discover cancer driver genes. We investigated the Wnt and the TGFB pathway and used both WT, APC-mutant and APC-TP53-mutant organoids. Overall design: To investigate how the identified SWI/SNF screening hits confer TGFB resistance, we assessed changes in chromatin accessibility upon ARID1A or SMARCA4 perturbation and TGFB treatment using ATAC-seq Please note that each peak file was generated from both replicates and is linked to the corresponding rep1 sample records</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA608374"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>32142663</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA608811&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA608811&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>608811</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2020-03-24</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

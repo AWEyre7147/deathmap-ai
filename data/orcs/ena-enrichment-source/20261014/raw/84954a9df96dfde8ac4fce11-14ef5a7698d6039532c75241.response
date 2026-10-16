@@ -1,0 +1,62 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA376803" alias="PRJNA376803" center_name="Wysocka lab, Chemical and Systems Biology, Stanford University" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA376803</PRIMARY_ID>
+    <SECONDARY_ID>SRP100725</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE95374</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Wysocka lab, Chemical and Systems Biology, Stanford University">PRJNA376803</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Selective silencing of euchromatic L1s revealed by genome-wide screens for L1 regulators</NAME>
+  <TITLE>Selective silencing of euchromatic L1s revealed by genome-wide screens for L1 regulators</TITLE>
+  <DESCRIPTION>Transposable elements (TEs) are now recognized not only as parasitic DNA, whose spread in the genome must be controlled by the host, but also as major players in shaping genome evolution and providing genetic substrates for evolving new regulatory functions. Long INterspersed Element-1 (LINE-1 or L1), the only currently autonomous mobile transposon in humans, occupies 17% of the genome and continues to generate inter- and intra-individual genetic variation, in some cases resulting in disease. Nonetheless, our knowledge of how L1 activity is controlled and what function L1s play in host gene regulation remains fragmentary. Here, we use CRISPR/Cas9 screening strategies in two distinct human cell lines to provide the first genome-wide survey of genes involved in L1 retrotransposition control. Through this approach we identified functionally diverse genes that either promote or restrict L1 retrotransposition. These factors control the L1 life cycle at transcriptional or post-transcriptional levels, and in a manner which in some, but not in other cases depends on the endogenous L1 sequence, underscoring the complexity of L1 regulation. We further investigated L1 restriction by three candidate regulators, MORC2 and HUSH (human silencing hub) complex subunits TASOR and MPP8. HUSH/MORC2 selectively bind evolutionarily young, full-length L1s immersed within transcriptionally permissive euchromatic environment, and promote H3K9me3 deposition for transcriptional silencing. Interestingly, these silencing events often occur within introns of transcriptionally active host genes, and lead to down-regulation of host gene expression in a HUSH/MORC2-dependent manner. Together, our data provide a rich resource for studies of L1 retrotransposition, elucidate a novel L1 restriction pathway, and illustrate how epigenetic silencing of TEs can influence host gene expression programs. Overall design: Identify L1 regulators by one genome-wide CRISPR screen followed by one secondary batch screen in K562 and HeLa cells; Identify the binding profiles of MORC2, MPP8 and TASOR by ChIP-seq in wild type and KO cells; Identify the H3K9me3 methylation changes and RNA polymerase II binding site changes by ChIP-seq and the transcriptional changes by polyA-selected RNA-seq in wild-type and corresponding KO cells.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+  </SUBMISSION_PROJECT>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>29211708</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA376803&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA376803&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>376803</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2017-12-07</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2023-05-19</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

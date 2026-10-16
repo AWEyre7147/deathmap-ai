@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA628709" alias="PRJNA628709" center_name="Public Health Sciences/Basic Sciences, Fred Hutchinson Cancer Research Center" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA628709</PRIMARY_ID>
+    <SECONDARY_ID>SRP258746</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE149455</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Public Health Sciences/Basic Sciences, Fred Hutchinson Cancer Research Center">PRJNA628709</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Minor intron retention drives clonal hematopoietic disorders and diverse cancer predisposition</NAME>
+  <TITLE>Minor intron retention drives clonal hematopoietic disorders and diverse cancer predisposition</TITLE>
+  <DESCRIPTION>Most eukaryotes harbor two distinct pre-mRNA splicing machineries: the major spliceosome, which removes >99% of introns, and the minor spliceosome, which removes rare, evolutionarily conserved introns. Although hypothesized to serve important regulatory functions, physiologic roles for the minor spliceosome are not well understood. For example, the minor spliceosome component ZRSR2 is subject to recurrent, leukemia-associated mutations, yet functional connections between minor introns, hematopoiesis, and cancers are unclear. Here, we identify that impaired minor intron excision via ZRSR2 loss enhances hematopoietic stem cell self-renewal. CRISPR screens mimicking nonsense-mediated decay of minor intron-containing mRNAs converged on LZTR1, a regulator of Ras-related GTPases. LZTR1 minor intron retention was also discovered in the RASopathy Noonan syndrome, due to intronic mutations disrupting splicing, and diverse solid tumors. These data uncover minor intron recognition as a regulator of hematopoiesis, noncoding mutations within minor introns as cancer drivers, and links between ZRSR2 mutations, LZTR1 regulation, and leukemias. Overall design: RNA-seq of hematopoietic stem/progenitor cells (DAPI- lineage-negative c-Kit+ cells) harvested from Mx1-Cre-Zrsr2 conditional knockout mice.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>10090</TAXON_ID>
+      <SCIENTIFIC_NAME>Mus musculus</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9559"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>33846634</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA628709&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA628709&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>628709</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2021-02-11</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

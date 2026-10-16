@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA361554" alias="PRJNA361554" center_name="Medicine, Brigham and Women's Hospital" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA361554</PRIMARY_ID>
+    <SECONDARY_ID>SRP096865</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE93681</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Medicine, Brigham and Women's Hospital">PRJNA361554</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Homo sapiens</NAME>
+  <TITLE>CRISPR/Cas9 Screens Reveal Epstein-Barr virus Synthetic Lethal Targets</TITLE>
+  <DESCRIPTION>Epstein-Barr virus (EBV) causes endemic Burkitt lymphoma and immunosuppression-related lymphomas. These B-cell malignancies arise by distinct transformation pathways and utilize divergent viral and host expression programs. To identify host dependency factors elicited by EBV latent-infection states, we performed parallel genome-wide CRISPR/Cas9 screens in Burkitt lymphoma (BL) and lymphoblasotid cell lines (LCL). Our results highlighted 57 BL and 87 LCL genes selectively critical for their growth and survival.  LCL hits were enriched for EBV-induced genes, including viral super-enhancer targets and multiple kinases. We uncovered key CD19/CD81 roles in EBV membrane protein-driven PI3K/AKT activation and mechanisms by which EBV evades tumor suppressor responses to its growth program. LMP1-induced cFLIP was critical for LCL defense against TNFa-mediated programmed cell death, while EBV-induced BATF/IRF4 were critical for LCL BIM suppression and MYC induction. EBV super-enhancer targeted IRF2 protected LCLs against BLIMP1 responses. Collectively, our results identify host/pathogen interaction-driven synthetic lethal targets for therapeutic intervention. Overall design: CRISPR was employed to knock out IRF2, IRF4 and BATF in LCLs. Control sgRNA was included as a control. RNA-seq was performed on these samples to conduct transcriptome profiling.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>28494239</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA361554&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA361554&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>361554</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2017-05-13</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-11</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

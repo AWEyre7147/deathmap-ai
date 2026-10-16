@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA601009" alias="PRJNA601009" center_name="Aaron Gitler, Genetics, Stanford University" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA601009</PRIMARY_ID>
+    <SECONDARY_ID>SRP241834</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE143598</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Aaron Gitler, Genetics, Stanford University">PRJNA601009</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Knockout of reactive astrocyte activating factors slows disease progression in an ALS mouse model</NAME>
+  <TITLE>Knockout of reactive astrocyte activating factors slows disease progression in an ALS mouse model</TITLE>
+  <DESCRIPTION>Reactive astrocytes have been implicated in the pathogenesis of neurodegenerative diseases, including a non-cell autonomous effect on motor neuron survival in ALS. We previously defined a mechanism by which microglia release three factors, IL-1α, TNFα, and C1q, to induce neurotoxic astrocytes. Here we report that knocking out these three factors markedly extends survival in the SOD1G93A ALS mouse model, providing evidence for gliosis as a potential ALS therapeutic target. Overall design: Isolated astrocyte and microglia RNA samples were first assayed on an Agilent 2100 Bioanalyzer System to quantify RNA quality and total RNA abundance. mRNA libraries were then prepared for Illumina paired-end sequencing using the Agilent SureSelect Strand Specific RNA-Seq Library Preparation kit (G9691B) on the Agilent Bravo Automated Liquid Handling Platform. Libraries were sequenced on an Illumina HiSeq 4000. Alignment of RNA-sequencing reads to the mouse mm10 reference genome and transcriptome was performed using STAR v2.7.3a27 following ENCODE standard options, read counts were generated using rsem, and differential expression analysis was performed in R v3.6.1 using the DESeq2 package v1.38.028 (detailed pipeline v2.0.1 and options available on https://github.com/emc2cube/Bioinformatics/).</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>10090</TAXON_ID>
+      <SCIENTIFIC_NAME>Mus musculus</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9559"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>32719333</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA601009&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA601009&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>601009</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2020-06-19</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

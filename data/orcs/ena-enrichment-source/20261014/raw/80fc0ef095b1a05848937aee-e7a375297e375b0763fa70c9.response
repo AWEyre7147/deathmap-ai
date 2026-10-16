@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA803440" alias="PRJNA803440" center_name="University of California, San Diego" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA803440</PRIMARY_ID>
+    <SECONDARY_ID>SRP358293</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE196122</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="University of California, San Diego">PRJNA803440</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>MHC class II proteins mediate cross-species entry of bat influenza viruses</NAME>
+  <TITLE>MHC class II proteins mediate cross-species entry of bat influenza viruses</TITLE>
+  <DESCRIPTION>Zoonotic influenza A viruses of avian origin can cause severe disease in individuals, or even global pandemics, and thus pose a threat to human populations. Waterfowl and shorebirds are believed to be the reservoir for all influenza A viruses, but this has recently been challenged by the identification of novel influenza A viruses in bats. The major bat influenza A virus envelope glycoprotein, haemagglutinin, does not bind the canonical influenza A virus receptor, sialic acid or any other glycan, despite its high sequence and structural homology with conventional haemagglutinins. This functionally uncharacterized plasticity of the bat influenza A virus haemagglutinin means the tropism and zoonotic potential of these viruses has not been fully determined. Here we show, using transcriptomic profiling of susceptible versus non-susceptible cells in combination with genome-wide CRISPR-Cas9 screening, that the major histocompatibility complex class II (MHC-II) human leukocyte antigen DR isotype (HLA-DR) is an essential entry determinant for bat influenza A viruses. Genetic ablation of the HLA-DR α-chain rendered cells resistant to infection by bat influenza A virus, whereas ectopic expression of the HLA-DR complex in non-susceptible cells conferred susceptibility. Expression of MHC-II from different bat species, pigs, mice or chickens also conferred susceptibility to infection. Notably, the infection of mice with bat influenza A virus resulted in robust virus replication in the upper respiratory tract, whereas mice deficient for MHC-II were resistant. Collectively, our data identify MHC-II as a crucial entry mediator for bat influenza A viruses in multiple species, which permits a broad vertebrate tropism. Overall design: Positive selection CRISPR screen with VSV-H18 in U-87MG cells</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>30787439</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA803440&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA803440&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>803440</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2022-02-07</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

@@ -1,0 +1,77 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA737127" alias="PRJNA737127" center_name="Ciaudo lab, Biology, ETH Zurich" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA737127</PRIMARY_ID>
+    <SECONDARY_ID>SRP323833</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE177543</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Ciaudo lab, Biology, ETH Zurich">PRJNA737127</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Genome-wide knockout screen of OC43/SARS-CoV2-infected HEK293-hACE2 cells II</NAME>
+  <TITLE>Genome-wide knockout screen of OC43/SARS-CoV2-infected HEK293-hACE2 cells II</TITLE>
+  <DESCRIPTION>Genome-wide CRISPR screens identified host factors that promote human coronavirus infection, revealing novel antiviral drug targets. Overall design: The objectives of this study were to identify host factors that promote HCoV replication and to determine whether these host factors can be targeted with commercially available drugs to block viral infection in vitro. To achieve this goal, we performed genome-wide CRISPR knockout screens in Vero E6 cells using a newly generated Vervet sgRNA library and in HEK293T-hACE2 cells using the commercially available human Brunello sgRNA library. In brief, cells transduced with sgRNA libraries were infected with HCoVs, SARS-CoV-2 and OC43, using various MOIs. Cells surviving infection were expanded and re-infected, and the sgRNAs enriched in resistant clones was determined bvy sequencing.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJEB40771"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA737123"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>35086559</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA737127&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA737127&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>737127</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2021-12-26</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

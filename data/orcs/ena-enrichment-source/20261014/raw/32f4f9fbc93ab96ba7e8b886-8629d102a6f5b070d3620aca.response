@@ -1,0 +1,74 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA476371" alias="PRJNA476371" center_name="Department of Pathology, NYU School of Medicine" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA476371</PRIMARY_ID>
+    <SECONDARY_ID>SRP150648</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE115893</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Department of Pathology, NYU School of Medicine">PRJNA476371</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Dynamic 3D chromosomal landscapes in acute leukemia [ChIP-Seq]</NAME>
+  <TITLE>Dynamic 3D chromosomal landscapes in acute leukemia [ChIP-Seq]</TITLE>
+  <DESCRIPTION>Background: Disruptions of 3D chromatin architecture can alter the activity of topologically associated domains (TADs), rewire enhancer-promoter interactions and thus significantly impact gene regulatory programs. Recently, such disruptions have been implicated in tumorigenesis, highlighting the need for a deeper understanding of their detailed role. Methods: T-ALL primary samples and prototypical cell lines as well as healthy T cell counterparts were profiled by in-situ Hi-C, RNA-Seq and CTCF ChIP-Seq. Data was subsequently integrated. Results: Our studies showed that the genome of leukemia cells does not display global changes in TAD structures but presents local changes in selected TAD boundaries as well as alterations of intra-TAD activity which are associated with changes in gene expression of key oncogenes and tumor suppressors, strong correlation with CTCF-mediated insulation and enhancer activity. Finally, we showed that 3D interactions on selected loci can be partially corrected pharmacologically, potentially accounting for the anti-leukemogenic effects of these drugs. Conclusions: Our studies underscore the need for further investigation of factors that rewire long range interactions especially during tumorigenesis, as they could be targets for pharmacological targeting. Overall design: Primary samples and prototypical cell lines of T cell acute lymphoblastic leukemia (T-ALL) as well as healthy T cell counterparts from three different donors were collected.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA476370"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>32203470</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA476371&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA476371&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>476371</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2019-08-06</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

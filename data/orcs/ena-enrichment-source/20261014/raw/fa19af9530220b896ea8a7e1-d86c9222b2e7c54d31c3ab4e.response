@@ -1,0 +1,74 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA632635" alias="PRJNA632635" center_name="Molecular Biology, UT Southwestern Medical Center" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA632635</PRIMARY_ID>
+    <SECONDARY_ID>SRP261509</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE150524</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Molecular Biology, UT Southwestern Medical Center">PRJNA632635</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>RNA-seq of Paraquat-treated cells</NAME>
+  <TITLE>RNA-seq of Paraquat-treated cells</TITLE>
+  <DESCRIPTION>Nonsense-mediated decay (NMD) is a pathway that degrades messenger RNAs containing premature termination codons. Here, a genome-wide screen for NMD factors uncovered an unexpected mechanism that broadly governs 3ʹ untranslated region (UTR)-directed regulation. The screen revealed that NMD requires lysosomal acidification, which allows transferrin-mediated iron uptake, which in turn is necessary for iron-sulfur (Fe-S) cluster biogenesis. This pathway converges on the Fe-S cluster-containing ribosome recycling factor ABCE1, whose impaired function results in the movement of ribosomes into 3ʹ UTRs where they displace exon junction complexes, thereby abrogating NMD. Importantly, these effects extend beyond NMD substrates, with ABCE1 activity required to maintain the accessibility of 3ʹ UTRs to diverse regulators, including microRNAs and RNA binding proteins. Due to the sensitivity of the Fe-S cluster of ABCE1 to iron availability and reactive oxygen species, these findings reveal an unanticipated vulnerability of 3ʹ UTR-directed regulation to lysosomal dysfunction, iron deficiency, and oxidative stress. Overall design: Method: RNA-seq was performed in HCT116 NMD reporter cells that were either treated with ddH2O or 200 μM paraquat for 96 hours. Two replicates in each condition, and thus 4 biological samples were used for these experiments.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA602913"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>32668236</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA632635&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA632635&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>632635</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2020-07-16</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

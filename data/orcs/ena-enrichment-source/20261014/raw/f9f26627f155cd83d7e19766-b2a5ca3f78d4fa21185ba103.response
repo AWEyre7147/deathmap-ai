@@ -1,0 +1,73 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA306005" alias="PRJNA306005" center_name="Univerity of Toronto" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA306005</PRIMARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE76008</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Univerity of Toronto">PRJNA306005</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Homo sapiens</NAME>
+  <TITLE>A 17-Gene Stemness Score for Rapid Identification of High-Risk AML Patients [Illumina]</TITLE>
+  <DESCRIPTION>In AML, most patients are initiated on standard chemotherapy and afterwards assigned to a post-remission strategy based on genetically-defined risk categories. However, outcomes remain heterogeneous, indicating the need for novel biomarker tests that can rapidly and accurately identify high-risk patients, allowing better stratification of both induction and post-remission therapy. As patient outcomes are linked to leukemia stem cell (LSC) properties that confer therapy resistance and drive relapse, LSC-based biomarkers may be highly informative. We tested 227 CD34/CD38 cell fractions from 78 AML patients for LSC activity in xenotransplantation assays. Comparison of microarray-based gene expression (GE) profiles between 138 LSC+ and 89 LSC? fractions identified 104 differentially-expressed LSC-specific genes. To obtain prognostic signatures, we performed statistical regression analysis of LSC GE against patient outcome using a training cohort of 495 AML patients treated with curative intent. A score calculated as the weighted sum of expression of 17 LSC signature genes (LSC17) was strongly associated with survival in 4 independent datasets (716 AML cases) spanning all risk categories in multi-variate analysis; an optimized 3-gene sub-score (LSC3) was prognostic in favorable risk subsets. These scores were robust across GE technology platforms, including the clinically serviceable NanoString system (LSC17: HR=2.73, P&lt;0.0001; LSC3: HR=6.3, P&lt;0.02). The LSC17 and LSC3 scores provide rapid and accurate identification of high-risk patients for whom conventional chemotherapy is non-curative. These scores will enable evaluation in clinical trials of whether such patients may benefit from novel and/or more intensified therapies during induction or in the post-remission setting. Overall design: Microarray GE profiling was performed on funcationally validated 138 LSC+ and 89 LSC– cell fractions sorted from 83 primary AML patient samples based on the expression of CD34 and CD38</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA306002"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>27926740</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA306005&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA306005&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>306005</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2017-04-19</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

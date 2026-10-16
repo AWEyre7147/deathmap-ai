@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA577699" alias="PRJNA577699" center_name="IRIC, Université de Montréal" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA577699</PRIMARY_ID>
+    <SECONDARY_ID>SRP225761</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE138894</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="IRIC, Université de Montréal">PRJNA577699</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Imipridone anticancer compounds ectopically activate the ClpP protease and represent a new scaffold for antibiotic development</NAME>
+  <TITLE>Imipridone anticancer compounds ectopically activate the ClpP protease and represent a new scaffold for antibiotic development</TITLE>
+  <DESCRIPTION>Systematic genetic interaction profiles can reveal the mechanism-of-action of bioactive compounds. The imipridone ONC201, which is currently in cancer clinical trials, has been ascribed a variety of different targets. To investigate the genetic dependencies of imipridone action, we screened a genome-wide CRISPR knockout library in the presence of either ONC201 or its more potent analog ONC212. Loss of the mitochondrial matrix protease CLPP or the mitochondrial intermediate peptidase MIPEP conferred strong resistance to both compounds. Biochemical and surrogate genetic assays showed that impridones directly activate CLPP and that MIPEP is necessary for proteolytic maturation of CLPP into a catalytically competent form. Quantitative proteomic analysis of cells treated with ONC212 revealed degradation of many mitochondrial as well as non-mitochondrial proteins. Prompted by the conservation of ClpP from bacteria to humans, we found that the imipridones also activate ClpP from Escherichia coli, B. subtilis and Staphylococcus aureus in biochemical and genetic assays. ONC212 and acyldepsipeptide (ADEP)-4, a known activator of bacterial ClpP, caused similar proteome-wide degradation profiles in S. aureus. ONC212 suppressed the proliferation of a number of Gram-positive (S. aureus, B. subtilis, Enterococcus faecium) and Gram-negative species (E. coli, Neisseria gonorrhoeae). Moreover, ONC212 enhanced the ability of rifampin to eradicate antibiotic-tolerant S. aureus persister cells. These results reveal the genetic dependencies of imipridone action in human cells and identify the imipridone scaffold as a new entry point for antibiotic development. Overall design: Nalm-6 cells infected with the EKO sgRNA library (Bertomeu et al. 2017, PMID:29038160), after 7 days of Cas9 induction with doxycycline, were exposed to either 150nM ONC212, 10uM ONC201/TIC10 or media only for 8 days. sgRNA abundance was then assessed by high-throughput sequencing. Cells exposed to media only for two days served as controls.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>32094149</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA577699&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA577699&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>577699</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2020-03-24</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

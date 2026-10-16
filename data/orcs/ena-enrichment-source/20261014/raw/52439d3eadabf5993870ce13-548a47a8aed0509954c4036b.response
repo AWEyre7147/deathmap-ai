@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA782904" alias="PRJNA782904" center_name="The University of Tokyo" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA782904</PRIMARY_ID>
+    <SECONDARY_ID>SRP347429</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE189405</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="The University of Tokyo">PRJNA782904</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>A genome-wide CRISPR/Cas9 screen identifies therapeutic targets required for the tumorigenesis of ovarian clear cell carcinoma (OCCC).</NAME>
+  <TITLE>A genome-wide CRISPR/Cas9 screen identifies therapeutic targets required for the tumorigenesis of ovarian clear cell carcinoma (OCCC).</TITLE>
+  <DESCRIPTION>To identify genes critical for the proliferation of ovarian clear cell carcinoma (OCCC), we performed CRISPR/CAS9 screens against the OCCC cell lines OVICE, ES2, TOV21G and JHOC5 using the TKOv3 sgRNA library. Overall design: Genome-wide CRISPR/Cas9 screen of OVISE, TOV21G, ES2 and JHOC5 (ovarian cancer cell) using the Toronto KnockOut (TKO) CRISPR Library (TKOv3). 2 biological replicates (OVISE, TOV21G, ES2) and 1 biological replicate (JHOC5).</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>35377528</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA782904&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA782904&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>782904</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2022-06-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

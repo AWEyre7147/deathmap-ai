@@ -1,0 +1,76 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA289342" alias="PRJNA289342" center_name="Pediatric Neurooncology, German Cancer Research Center DKFZ" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA289342</PRIMARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE70678</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Pediatric Neurooncology, German Cancer Research Center DKFZ">PRJNA289342</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Homo sapiens</NAME>
+  <TITLE>Gene expression data from ATRT tumor samples</TITLE>
+  <DESCRIPTION>Atypical teratoid/rhabdoid tumor (ATRT) is one of the most common brain tumors in infants. Although the prognosis of ATRT patients is poor, some patients respond favorably to current treatments, suggesting molecular inter-tumor heterogeneity. To investigate this further, we genetically and epigenetically analyzed a large series of human ATRTs. Three distinct molecular subgroups of ATRTs, associated with differences in demographics, tumor location, and type of SMARCB1 alterations, were identified. Whole-genome DNA and RNA sequencing found no recurrent mutations in addition to SMARCB1 that would explain the differences between subgroups. Whole-genome bisulfite sequencing and H3K27Ac chromatin-immunoprecipitation sequencing of primary tumors, however, revealed clear differences, leading to the identification of subgroup-specific regulatory networks and potential therapeutic targets. Overall design: 49 ATRT samples were selected for RNA extraction and hybridization on Affymetrix Affymetrix Human Genome U133 Plus 2.0 Arrays. ---------------------------------------- This submission consists of the expression data for 49 of 170 samples only</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>26923874</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>31708418</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA289342&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA289342&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>289342</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2024-04-04</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

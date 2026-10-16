@@ -19,6 +19,8 @@ deathmap-export-excel = "deathmap_ai.excel_export:main"
 deathmap-resolve-publication = "deathmap_ai.publication_identifiers:main"
 deathmap-enrich-geo = "deathmap_ai.geo_enrichment:main"
 deathmap-enrich-geo-collection = "deathmap_ai.geo_collection:main"
+deathmap-enrich-ena-collection = "deathmap_ai.ena_collection:main"
+deathmap-export-ena-workbook = "deathmap_ai.ena_workbook:main"
 
 [tool.setuptools.package-data]
 deathmap_ai = ["reference_schema.json"]

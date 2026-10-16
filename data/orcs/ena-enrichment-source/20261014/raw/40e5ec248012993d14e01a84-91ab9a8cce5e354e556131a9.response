@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA150405" alias="PRJNA150405" center_name="Broad Institute ; Harvard University" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA150405</PRIMARY_ID>
+    <SECONDARY_ID>SRP010061</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE34740</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Broad Institute ; Harvard University">PRJNA150405</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Homo sapiens</NAME>
+  <TITLE>K562 polyA RNA-Seq</TITLE>
+  <DESCRIPTION>RNA-Seq reads and TopHat (Trapnell et al. Bioinformatics 2009) alignments of K562 cell-line transcriptome. These were used to validate the expression of short peptides idenitified by Mass-Spectrometry in K562 cells. Overall design: K562 polyA+ RNA (Batch 1) and total RNA (batch 2) was purchased from Ambion. We used oligo (dT)-selected polyA+ RNA to construct libraries for RNA-Seq.We then profiled the transcriptome of polyadenylated mRNA-Seq using Illumina sequencing platforms. We then used the sequenced reads to reconstruct the transcriptome using the Cufflinks de-novo assembler (Trapnell et al. Nat.Bio.Tech. 2010). Recent computational and ribosome profiling analyses suggest that many short open reading frames (sORFs) in eukaryotic genomes are translated. However, evidence that these sORFs produce stable polypeptides is lacking. Here we develop a strategy to discover and validate novel sORF-encoded polypeptides (SEPs) in human cells. In total, we detect 117 SEPs, 114 of which are novel, varying in length from 15 to 149 amino acids. Of these, 10 SEPs (0.5%) are derived from long intergenic non-coding RNAs (lincRNAs). We also observe the presence of polycistronic genes and the widespread use of non-AUG start codons, which is a phenomenon historically thought to be rare in the mammalian genome. Quantitative measurements reveal that SEPs can be found at concentrations between ~10-2000 copies per cell, which is within the range of typical cellular proteins. We confirm the translation of a number of these SEPs through heterologous expression of their encoding cDNAs. We also discover that several SEPs possess properties characteristic of functional proteins. These results demonstrate that human sORFs produce numerous stable polypeptides, revealing that the human proteome is larger and more diverse than previously appreciated.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>23160002</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA150405&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA150405&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>150405</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2013-05-31</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-05-04</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

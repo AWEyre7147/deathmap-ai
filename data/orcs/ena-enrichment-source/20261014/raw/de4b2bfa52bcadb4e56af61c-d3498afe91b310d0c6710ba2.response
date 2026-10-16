@@ -1,0 +1,65 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA708271" alias="PRJNA708271" center_name="Sun Yat-sen University" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA708271</PRIMARY_ID>
+    <SECONDARY_ID>SRP309965</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE168544</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Sun Yat-sen University">PRJNA708271</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Loss-of-function genetic screening identifies ALDOA as an essential driver for hepatocellular carcinoma cell growth under hypoxia</NAME>
+  <TITLE>Loss-of-function genetic screening identifies ALDOA as an essential driver for hepatocellular carcinoma cell growth under hypoxia</TITLE>
+  <DESCRIPTION>Hypoxia is a common feature of tumor microenvironment (TME), which promotes tumor progression, metastasis and therapeutic drug resistance via a myriad of cell activities in tumor and stroma cells. While targeting hypoxic TME is emerging as a promising strategy for treating solid tumors, preclinical studies with this approach are lacking in hepatocellular carcinoma (HCC). From a genome-wide CRISPR/Cas9 gene knockout screening, we identified aldolase A (ALDOA), a key enzyme in glycolysis and gluconeogenesis, as a master driver for HCC cell growth under hypoxia. To delineate the functional implications of ALDOA in HCC, transcriptome sequencing is performed to interrogate the differential gene expression in ALDOA-knockdown HepG2 cells under hypoxia. Overall design: The HCC cells are cultured in 20% O2 and 1% O2 for 3 days to mimic normoxia and hypoxia, genome-wide CRISPR/Cas9 knockout library screening and sequencing to identify essential genes responding to hypoxia in HCC tumor cells. RNA sequencing is performed to interrogate the differential gene expression in ALDOA-knockdown HepG2 cells under hypoxia.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA708271&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA708271&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>708271</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2021-06-30</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

@@ -1,0 +1,74 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA318041" alias="PRJNA318041" center_name="Bradner Lab, Medical Oncology, Dana-Farber Cancer Institute" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA318041</PRIMARY_ID>
+    <SECONDARY_ID>SRP073113</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE80150</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Bradner Lab, Medical Oncology, Dana-Farber Cancer Institute">PRJNA318041</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Homo sapiens</NAME>
+  <TITLE>Enhancer invasion shapes MYCN dependent transcriptional amplification in neuroblastoma [ChIP_RX]</TITLE>
+  <DESCRIPTION>In neuroblastoma, amplification of the oncogenic basic helix-loop-helix (bHLH) transcription factor (TF) MYCN is the defining prognosticator of high-risk disease, occurs in one-third of neuroblastoma, and drastically reduces overall survival rates. As a proto-oncogene, targeted MYCN overexpression in peripheral neural crest is sufficient to initiate disease in mouse models. In MYCN amplified neuroblastoma, elevated expression of the factor is crucial to maintain tumor stemness and is associated with increased proliferation and aberrant cell cycle progression, as these tumors lack the ability to arrest in G1 in response to irradiation. MYCN down-regulation broadly reverses these oncogenic phenotypes in a variety of neuroblastoma models and recent thereapeutic strategies to indirectly target MYCN production or protein stability have reduced tumor growth in vivo. These observations motivate an investigation of MYCN binding in MYCN amplified tumors as it remains fundamentally unclear how elevated levels of the factor occupy the genome and alter transcriptional programs in neuroblastoma. Here we present the first dynamic chromatin and transcriptional landscape of direct MYCN perturbation in neuroblastoma. We find that at oncogenic levels, MYCN associates with E-box (CANNTG) binding motifs in an affinity dependent manner across most active cis-regulatory promoters and enhancers. MYCN shutdown globally reduces histone acetylation and transcription, consistent with prior descriptions of MYC proteins as non-linear amplifiers of gene expression. We establish that MYCN load at the promoter and proximal enhancers predicts transcriptional responsiveness to MYCN shutdown and that MYCN enhancer binding occurs prominently at the most strongly occupied and down-regulated genes, suggesting a role for these tissue specific elements in predicating MYCN responsive “target” genes. At these invaded enhancers, we identify the lineage specific bHLH TWIST1 as a key collaborator and dependency of oncogenic MYCN. These data suggest that MYCN enhancer invasion helps shape transcriptional amplification of the neuroblastoma gene expression program to promote tumorigenesis. Overall design: ChIP-Rx in the SHEP21 neuroblastoma cell lines for H3K27ac, RNA PolII, and MYCN. ChIP-Rx in the SHEP21 neuroblastoma cell lines for H3K4me3 and CTCF.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA318035"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>29379199</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA318041&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA318041&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>318041</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2016-09-02</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

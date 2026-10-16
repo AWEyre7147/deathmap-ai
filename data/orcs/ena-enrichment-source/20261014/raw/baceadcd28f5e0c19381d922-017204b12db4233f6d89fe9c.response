@@ -1,0 +1,62 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA429967" alias="PRJNA429967" center_name="Genetics, Harvard Medical School" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA429967</PRIMARY_ID>
+    <SECONDARY_ID>SRP130969</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE109177</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Genetics, Harvard Medical School">PRJNA429967</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>CRISPR-Cas9 screens in human cells and primary neurons identify modifiers of C9orf72 dipeptide repeat protein toxicity</NAME>
+  <TITLE>CRISPR-Cas9 screens in human cells and primary neurons identify modifiers of C9orf72 dipeptide repeat protein toxicity</TITLE>
+  <DESCRIPTION>Hexanucleotide repeat expansions in the C9orf72 gene are the most common cause of amyotrophic lateral sclerosis and frontotemporal dementia (c9FTD/ALS). The nucleotide repeat expansions are translated into dipeptide repeat (DPR) proteins, which are aggregation-prone and may contribute to neurodegeneration. We used the CRISPR-Cas9 system to perform genome-wide gene knockout screens for suppressors and enhancers of C9orf72 DPR toxicity in human cells. We validated hits by performing secondary CRISPR-Cas9 screens in primary mouse neurons. We uncovered potent modifiers of DPR toxicity whose gene products function in nucleocytoplasmic transport, the endoplasmic reticulum (ER), proteasome, RNA processing pathways, and in chromatin modification. One modifier, TMX2, modulated the ER-stress signature elicited by C9orf72 DPRs in neurons, and improved survival of human induced motor neurons from C9orf72 ALS patients. Together, this work demonstrates the promise of CRISPR-Cas9 screens to define mechanisms of neurodegenerative diseases. This dataset contains the RNA-sequencing data used to support the conclusions from this study. Overall design: Differential gene expression derived from RNA-sequencing data, analyzed using DESeq2. 3 independent experiments were performed for this study, each had 6 samples per experiment (3 biological replicate controls and 3 biological replicate experimental conditions). Experiment #1 = K562 cells treated with 10uM synthetic PR20 peptides compared to untreated controls (samples GSM2934784 - GSM2934789). Experiment #2 = primary mouse cortical neuron cultures from Cas9+ mice with control sgRNAs or TMX2 targeting sgRNAs, both groups expressing PR50 (samples GSM2934790 - GSM2934795). Experiment #3 = primary mouse cortical neuron cultures treated with a control GFP lentivirus or a lentivirus expressing PR50 (samples GSM2934796 - GSM2934801).</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+  </SUBMISSION_PROJECT>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>29507424</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA429967&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA429967&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>429967</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2018-03-01</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2023-05-17</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

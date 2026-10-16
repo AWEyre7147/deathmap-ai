@@ -1,0 +1,74 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA630664" alias="PRJNA630664" center_name="Molecular Genetics, University of Toronto" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA630664</PRIMARY_ID>
+    <SECONDARY_ID>SRP260215</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE149933</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Molecular Genetics, University of Toronto">PRJNA630664</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Functional genomic landscape of cancer-intrinsic immune evasion to cytotoxic T lymphocyte killing [CRISPR screen]</NAME>
+  <TITLE>Functional genomic landscape of cancer-intrinsic immune evasion to cytotoxic T lymphocyte killing [CRISPR screen]</TITLE>
+  <DESCRIPTION>The genetic circuits that allow cancer cells to evade destruction by the host immune system remain poorly understood. To identify a phenotypically robust core set of genes and pathways that facilitate cancer cell-intrinsic evasion to cytotoxic T lymphocyte (CTL)-mediated killing, we performed genome-wide CRISPR screens across a panel of genetically diverse cancer models cultured in the presence of CTLs. We uncovered a core set of 182 genes whose individual perturbation leads to either cancer cell sensitivity or resistance to CTL toxicity. Systematic exploration of our dataset using genetic co-similarity reveals the hierarchical and coordinated nature by which genes and pathways act to orchestrate intrinsic CTL evasion, with discrete functional modules controlling the interferon response and tumor necrosis factor alpha (TNFa)-induced cytotoxicity emerging as dominant sub-phenotypes. Our data establish a central role for previously identified negative regulators of the Type II interferon response (e.g. Ptpn2, Socs1, Adar1) in mediating intrinsic CTL evasion and demonstrate a requirement for the lipid droplet related gene Fitm2 for maintaining cell fitness upon exposure to interferon gamma (IFNg). Additionally, we identify the autophagy pathway as a conserved mediator of cancer intrinsic CTL evasion, required to resist cytokine-mediated cytotoxicity caused by IFNg and TNFa. By mapping cytokine- and CTL-based genetic interactions, as well as in vivo CRISPR screens, we illuminate the pleiotropic nature by which autophagy acts to orchestrate intrinsic CTL evasion and highlight the importance of our observed effects within the tumor microenvironment. Collectively, our data expands our appreciation of the genetic circuits that contribute to cancer intrinsic immune evasion, highlighting the importance of leveraging systematic functional genomics approaches for furthering our understanding of this biology. Overall design: CRISPR screens in Renca (wild-type vs. Atg12-KO vs. Fitm2-KO), Renca-HA (wild-type vs. Atg12-KO vs. Fitm2-KO), EMT6-HA, CT26-HA, 4T1-HA, B16-Ova, MC38-Ova cultured in the presence or absence of IFNg, TNFa or cytotoxic T-lymphocytes</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>10090</TAXON_ID>
+      <SCIENTIFIC_NAME>Mus musculus</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA630662"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9559"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>32968282</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA630664&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA630664&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>630664</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2020-08-01</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-13</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

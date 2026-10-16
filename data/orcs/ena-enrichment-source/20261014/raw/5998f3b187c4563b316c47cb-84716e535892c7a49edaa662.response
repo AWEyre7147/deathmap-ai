@@ -1,0 +1,74 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA287016" alias="PRJNA287016" center_name="James A. DeCaprio, Medical Oncology, Dana-Farber Cancer Institute" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA287016</PRIMARY_ID>
+    <SECONDARY_ID>SRP059497</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE69877</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="James A. DeCaprio, Medical Oncology, Dana-Farber Cancer Institute">PRJNA287016</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Homo sapiens</NAME>
+  <TITLE>MCPyV ST, MAX and the TRRAP complex cooperate to bind to Transcription Start Sites</TITLE>
+  <DESCRIPTION>To determine if MCPyV ST was recruited to chromatin together with MAX and the TRRAP complex, we performed chromatin immunoprecipitation (ChIP) using the validated antibodies to MCPyV ST produced in our lab, HA tagged ST, MAX and EP400 followed by next generation sequencing. De novo DNA motif analysis revealed that the canonical E-box MYC target sequence was the most frequently observed motif. Metagene analysis revealed that antibodies to MAX, EP400, ST (Ab5) and HA tagged ST showed strong enrichment in transcription start site (TSS). H3K4me3 ChIP-seq confirmed that the peaks enriched with antibodies to MAX, EP400 and ST all centered on the H3K4me3 peaks with a high degree of overlap. Overall design: Examination of the hypothesis that transcripton factors Max and TRRAP complex bind same DNA loci as a complex.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA287013"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>29028833</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA287016&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA287016&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>287016</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2023-03-28</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

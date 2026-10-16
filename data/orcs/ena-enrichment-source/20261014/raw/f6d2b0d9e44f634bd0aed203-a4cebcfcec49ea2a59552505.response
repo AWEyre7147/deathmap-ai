@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA917767" alias="PRJNA917767" center_name="NIH" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA917767</PRIMARY_ID>
+    <SECONDARY_ID>SRP415646</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE222104</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="NIH">PRJNA917767</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>SAYSD1 senses UFMylated ribosome to safeguard co-translational protein translocation at the endoplasmic reticulum</NAME>
+  <TITLE>SAYSD1 senses UFMylated ribosome to safeguard co-translational protein translocation at the endoplasmic reticulum</TITLE>
+  <DESCRIPTION>Translocon clogging at the endoplasmic reticulum (ER) as a result of translation stalling triggers ribosome UFMylation, activating Translocation-Associated Quality Control (TAQC) to degrade clogged substrates. How cells sense ribosome UFMylation to initiate TAQC is unclear. We conduct a genome-wide CRISPR/Cas9 screen to identify an uncharacterized membrane protein named SAYSD1 that facilitates TAQC. SAYSD1 associates with the Sec61 translocon, and also recognizes both ribosome and UFM1 directly, engaging a stalled nascent chain to ensure its transport via the TRAPP complex to lysosomes for degradation. Like UFM1 deficiency, SAYSD1 depletion causes the accumulation of translocation-stalled proteins at the ER and triggers ER stress. Importantly, disrupting UFM1- and SAYSD1-dependent TAQC in Drosophila leads to intracellular accumulation of translocation-stalled collagens, defective collagen deposition, abnormal basement membranes, and reduced stress tolerance. Thus, SAYSD1 acts as a UFM1 sensor that collaborates with ribosome UFMylation at the site of clogged translocon, safeguarding ER homeostasis during animal development. Overall design: 293T cells stably expressing ERGFP_K20 were infected with GeckoV2 libraries. GFP high (1% of cells) and GFP low (80%) were sorted by a FACS Ariall cell sorter. Genomic DNA was extracted for amplification of sgRNAs by PCB. Amplified sgRNAs were deep-sequenced by an Illumina platform.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>36848233</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA917767&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA917767&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>917767</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2023-01-21</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

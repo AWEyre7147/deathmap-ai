@@ -1,0 +1,68 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA725482" alias="PRJNA725482" center_name="Institut Pasteur" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA725482</PRIMARY_ID>
+    <SECONDARY_ID>SRP316565</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE173418</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Institut Pasteur">PRJNA725482</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Identification of DAXX As A Restriction Factor Of SARS-CoV-2 Through A CRISPR/Cas9 Screen</NAME>
+  <TITLE>Identification of DAXX As A Restriction Factor Of SARS-CoV-2 Through A CRISPR/Cas9 Screen</TITLE>
+  <DESCRIPTION>While the interferon response restricts SARS-CoV-2 replication in cell culture, only a handful of Interferon Stimulated Genes with antiviral activity against SARS-CoV-2 have been identified. Here, we describe a functional CRISPR/Cas9 screen aiming at identifying SARS-CoV-2 restriction factors. Overall design: We performed a CRISPR/Cas9 screen specifically designed to identify restriction factors for SARS-CoV-2, assessing the ability of 1905 ISGs to modulate SARS-CoV-2 replication in human epithelial lung cells.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJEB40771"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA725482&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA725482&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>725482</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2021-05-10</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

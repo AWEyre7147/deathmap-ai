@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA784586" alias="PRJNA784586" center_name="Brigham and Women's Hospital | HHMI" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA784586</PRIMARY_ID>
+    <SECONDARY_ID>SRP348449</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE189818</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Brigham and Women's Hospital | HHMI">PRJNA784586</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Genetic analysis of cancer drivers reveals cohesin and CTCF as suppressors of PD-L1</NAME>
+  <TITLE>Genetic analysis of cancer drivers reveals cohesin and CTCF as suppressors of PD-L1</TITLE>
+  <DESCRIPTION>PD-1/PD-L1 Immunoinhibitory axis has recently been demonstrated to play a key role in immune evasion of cancer cells and therapies targeting PD-1/PD-L1 axis have demonstrated high efficacy in certain cancer types. Understanding how cancer drivers regulate immune surveillance can allow for development of novel therapeutic strategies which interfere with cancer-mediated immune evasion as well as identification of new biomarkers for application of these therapies. Here we utilized genetic screening with curated library of top 500 tumor suppressor genes to identify cohesin ring, one of the most mutated complex in cancer, as the most significant suppressor of PD-L1. Additionally, we comprehensively describe the consequences of loss of STAG2 subunit of cohesin and identify induction of IFN and NFκB response. Our findings thus elucidate transcriptional changes in immune related pathways as well as upregulation of key immune regulatory molecules including PD-L1, PD-L2 and MHC in cohesin deficient cells which could have significant implications on cancer microenvironment of cohesin deficient tumors. Overall design: RNA-Seq for wild-type and STAG2-KO U937 cells, and HMEC cells treated with siRNA targeting STAG2 and control siRNAs.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>35149558</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA784586&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA784586&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>784586</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2022-02-09</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

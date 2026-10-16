@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA531655" alias="PRJNA531655" center_name="Dana-Farber Cancer Institute" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA531655</PRIMARY_ID>
+    <SECONDARY_ID>SRP192023</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE129521</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Dana-Farber Cancer Institute">PRJNA531655</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Neuronal differentiation and cell-cycle programs mediate response to BET-bromodomain inhibition in MYC-driven medulloblastoma (ChIP-seq)</NAME>
+  <TITLE>Neuronal differentiation and cell-cycle programs mediate response to BET-bromodomain inhibition in MYC-driven medulloblastoma (ChIP-seq)</TITLE>
+  <DESCRIPTION>BET-bromodomain inhibition (BETi) has shown pre-clinical promise for MYC-amplified medulloblastoma. However, the mechanisms for its action, and ultimately for resistance, have not been fully defined. Here, using a combination of expression profiling, genome-scale CRISPR/Cas9-mediated loss of function and ORF/cDNA driven rescue screens, and cell-based models of spontaneous resistance, we identify bHLH/homeobox transcription factors and cell-cycle regulators as key genes mediating BETi’s response and resistance. Cells that acquire drug tolerance exhibit a more neuronally differentiated cell-state and expression of lineage-specific bHLH/homeobox transcription factors. However, they do not terminally differentiate, maintain expression of CCND2, and continue to cycle through S-phase. Moreover, CDK4/CDK6 inhibition delays acquisition of resistance. Therefore, our data provide insights about the mechanisms underlying BETi effects and the appearance of resistance and support the therapeutic use of combined cell-cycle inhibitors with BETi in MYC-amplified medulloblastoma. Overall design: Drug sensitive and drug tolerant cells were treated with 1uM JQ1 or DMSO controls</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>31160565</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA531655&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA531655&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>531655</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2019-06-17</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

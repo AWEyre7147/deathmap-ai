@@ -1,0 +1,79 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA615032" alias="PRJNA615032" center_name="tenOever Lab, Microbiology, Icahn School of Medicine at Mount Sina" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA615032</PRIMARY_ID>
+    <SECONDARY_ID>SRP253951</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE147507</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="tenOever Lab, Microbiology, Icahn School of Medicine at Mount Sina">PRJNA615032</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Transcriptional response to SARS-CoV-2 infection</NAME>
+  <TITLE>Transcriptional response to SARS-CoV-2 infection</TITLE>
+  <DESCRIPTION>Viral pandemics pose an imminent threat to humanity. The ongoing COVID-19 pandemic, caused by the SARS-CoV-2 virus, requires the urgent development of anti-viral therapies. Because of its recent emergence, there is a paucity of information regarding viral behavior and host response following SARS-CoV-2 infection. Here, we offer an in-depth analysis of the host response to SARS-CoV-2 as it compares to other respiratory infections. Cell and animal models of SARS-CoV-2 infections, in addition to transcriptional profiling of a COVID-19 lung biopsy consistently revealed a unique and inappropriate inflammatory response defined by elevated chemokine expression in the absence of Type I and III interferons. Our identification of a muted transcriptional response to SARS-CoV-2 supports a model in which initial failure to rapidly respond to infection results in prolonged viral replication and an influx of proinflammatory cells that induce alveolar damage and manifest in COVID-19 lung pathology. Overall design: Cell lines: Independent biological triplicates of primary human lung epithelium (NHBE) were mock treated or infected with SARS-CoV-2 (USA-WA1/2020), IAV (A/Puerto Rico/8/1934 (H1N1)), a IAV that lacks the NS1 protein (IAVdNS1) and treated with human interferon-beta. Independent biological triplicates of transformed lung alveolar (A549) cells were mock treated or infected with SARS-CoV-2 (USA-WA1/2020), RSV (A2 strain) or IAV (A/Puerto Rico/8/1934 (H1N1)). Additionally, Independent biological triplicates of transformed lung alveolar (A549) transduced with a vector expressing human ACE2, were also mock treated or infected with SARS-CoV-2 (USA-WA1/2020) with or without Ruxolitinib pre-treatment (500 nM). Finally transformed lung-derived Calu-3 cells were mock treated or infected with SARS-CoV-2 (USA-WA1/2020). Ferrets: 4 month old ferrets were infected intranasally with 105 PFU of influenza A/California/04/2009 (pH1N1) virus and nasal washes were collected from anesthetized ferrets on day 7 post infection. Additionally, another group of 4 month old ferrets were infected intranasally with 5 × 104 PFU of SARS-CoV-2 isolate USA-WA1/2020 and nasal washes were collected from anesthetized ferrets on days -1, 1, 3 and 7 post-infection. Finally, a separate group of 4 month old ferrets were mock treated (intranasally) with PBS. COVID19 patient samples: Uninfected human lung biopsies were derived from one male (age 72) and one female (age 60) and used as biological replicates. Additionally, lung samples derived from a single male COVID19 deceased patient (age 74) were processed in technical replicates. Experiments using samples from human subjects were conducted in accordance with local regulations and with the approval of the institutional review board at the Icahn School of Medicine at Mount Sinai under protocol HS#12-00145.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJEB40771"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJEB40772"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>32416070</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>33782412</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA615032&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA615032&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>615032</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2020-03-26</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

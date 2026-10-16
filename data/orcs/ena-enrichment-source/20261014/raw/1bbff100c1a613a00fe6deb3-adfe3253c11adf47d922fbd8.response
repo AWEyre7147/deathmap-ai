@@ -1,0 +1,74 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA693181" alias="PRJNA693181" center_name="NYU Langone Medical Centre" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA693181</PRIMARY_ID>
+    <SECONDARY_ID>SRP302314</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE165069</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="NYU Langone Medical Centre">PRJNA693181</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Neuroinflammatory astrocyte subtypes in the mouse brain [bulk RNA-seq, Interferon_in_vitro]</NAME>
+  <TITLE>Neuroinflammatory astrocyte subtypes in the mouse brain [bulk RNA-seq, Interferon_in_vitro]</TITLE>
+  <DESCRIPTION>RNA-seq of primary astrocytes exposed to different cytokines Overall design: Primary immunopanned astrocytes were treated with IFNg (3 ng/ml), IFNb (1000 U/ml), TNFa (30 ng/ml)+IL1a (3 ng/ml) +C1q (40 ng/ml) or combinations thereof for 24h, RNA collected and sequenced on a NovaSeq6000</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>10116</TAXON_ID>
+      <SCIENTIFIC_NAME>Rattus norvegicus</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA10621"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA625200"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>34413515</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA693181&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA693181&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>693181</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2021-03-02</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

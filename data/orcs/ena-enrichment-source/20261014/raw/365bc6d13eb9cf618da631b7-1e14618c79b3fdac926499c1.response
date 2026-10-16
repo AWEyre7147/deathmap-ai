@@ -1,0 +1,74 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA665533" alias="PRJNA665533" center_name="HAIB" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA665533</PRIMARY_ID>
+    <SECONDARY_ID>SRP285317</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE158540</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="HAIB">PRJNA665533</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Pooled CRISPR screening in pancreatic cancer cells implicates co-repressor complexes as a cause of multiple drug resistance via regulation of epithelial-to-mesenchymal transition [ChIP-seq]</NAME>
+  <TITLE>Pooled CRISPR screening in pancreatic cancer cells implicates co-repressor complexes as a cause of multiple drug resistance via regulation of epithelial-to-mesenchymal transition [ChIP-seq]</TITLE>
+  <DESCRIPTION>We performed ChIP-seq ananlysis on HDAC1 in MiaPaCa2 using two different antibodies (Santa Cruz Biotechnologies sc-81598 HDAC1(10E2) and Invitrogen HDAC1 Polyclonal Antibody PA1-860), two non-targeting scrableled sgRNA controls and two replicates for each. Overall design: ChIP-seq data in both control and HDAC1 over expressed MiaPaCa2 cell lines were produced using standard ENCODE protocols ( https://www.encodeproject.org/documents/73c95206-fc02-41ea-93e0-a929a6939aaf/ )</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA665529"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>34049503</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA665533&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA665533&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>665533</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2021-05-20</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

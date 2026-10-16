@@ -1,0 +1,74 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA474683" alias="PRJNA474683" center_name="Hematology, st jude children's research hospital" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA474683</PRIMARY_ID>
+    <SECONDARY_ID>SRP149805</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE115357</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Hematology, st jude children's research hospital">PRJNA474683</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>FBXO11-Mediated Proteolysis of BAHD1 Relieves PRC2-dependent Transcriptional Repression in Erythropoiesis</NAME>
+  <TITLE>FBXO11-Mediated Proteolysis of BAHD1 Relieves PRC2-dependent Transcriptional Repression in Erythropoiesis</TITLE>
+  <DESCRIPTION>The histone mark H3K27me3 and its reader/writer Polycomb repressive complex 2 (PRC2) mediate widespread transcriptional repression in stem and progenitor cells. Mechanisms that regulate this activity are critical for tissue development but poorly understood. Here we show that the E3 ubiquitin ligase FBXO11 relieves PRC2-mediated repression during erythroid maturation by targeting its newly identified substrate BAHD1, an H3K27me3 reader that recruits transcriptional co-repressors. Erythroblasts lacking FBXO11 are developmentally delayed, with reduced expression of maturation-associated genes, most of which harbor bivalent histone marks (activating H3K4me3 and repressive H3K27me3), bind BAHD1, and fail to recruit the erythroid transcription factor GATA1. The BAHD1 complex interacts physically with PRC2 and depletion of either component restores FBXO11-deficient erythroid gene expression. Previous studies showed that FBXO11 promotes B-cell development and inhibits lymphomagenesis by degrading the transcriptional repressor BCL6. We show that in aggressive B-cell lymphoma lines, depletion of FBXO11 causes the accumulation of both BCL6 and BAHD1, and that suppression of BAHD1 slows cell expansion. Our studies identify BAHD1 as a novel effector of PRC2-mediated repression and reveal how a single E3 ubiquitin ligase eliminates PRC2 repression at developmentally poised bivalent genes during erythropoiesis. The FBXO11-BAHD1 regulatory axis may function in other developmental pathways, including B-lymphopoiesis and lymphomagenesis. Overall design: The goals of this study are to compare the transcriptomes in wild type HUDEP-2 and FBXO11 -/- HUDEP-2 erythroblast. We further compare the transcriptomes in BAHD1shRNA or shLuciferase treated FBXO11 KO HUDEP-2 cells. Finally we intergrate the RNA-seq data with CHIP-Seq data (BAHD1, H3K27me3, H4me3, GATA1) to support our hypothesis.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA1232827"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>33156908</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA474683&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA474683&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>474683</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2021-01-01</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

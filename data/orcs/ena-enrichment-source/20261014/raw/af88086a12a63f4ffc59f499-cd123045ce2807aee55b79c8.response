@@ -1,0 +1,76 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA116341" alias="PRJNA116341" center_name="Dr. Andrew Kung, Pediatric Oncology, Dana-Farber Cancer Institute" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA116341</PRIMARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE16347</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Dr. Andrew Kung, Pediatric Oncology, Dana-Farber Cancer Institute">PRJNA116341</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Homo sapiens</NAME>
+  <TITLE>Genome-wide HIF-1 binding sites in HepG2 cells</TITLE>
+  <DESCRIPTION>Adaptation to hypoxia is mediated through a coordinated transcriptional response driven largely by Hypoxia-Inducible Factor 1 (HIF-1). The direct transcriptional targets of HIF-1 play important roles in facilitating both short-term and long-term adaptation to hypoxia. Alignment of the sequences encompassing all well-characterized HIF-1 binding sites has revealed a consensus core HRE motif of 5'-RCGTG-3' (R = A or G). Since the consensus HIF-1 binding motif is too promiscuous to accurately predict binding a priori, we used ChIP-chip to define HIF-1 chromatin binding on a genome-wide level. We integrated these results with gene expression profiling to interrogate mechanisms regulating hypoxia-induced gene expression, and to more comprehensively identify direct targets of HIF-1 transactivation. Overall design: HepG2 cells were cultured under normoxic (ambient) or hypoxic (0.5%O2, 4 h) conditions. HIF-1 ChIP was performed with a HIF-1 polyclonal Ab. Triplicate ChIPed DNA and inputs were amplified and hybridized onto the Affymetrix Gene-Chip Human Tiling 2.0R Array Set. The MAT algorithm was used to identify peaks of probe intensity (‘‘hits’’).</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>19255431</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>19828020</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA116341&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA116341&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>116341</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2014-02-11</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

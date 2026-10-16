@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA516226" alias="PRJNA516226" center_name="NYU Langone Medical Center" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA516226</PRIMARY_ID>
+    <SECONDARY_ID>SRP181053</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE125403</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="NYU Langone Medical Center">PRJNA516226</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Targeting mitochondrial structure sensitizes AML to Venetoclax</NAME>
+  <TITLE>Targeting mitochondrial structure sensitizes AML to Venetoclax</TITLE>
+  <DESCRIPTION>The BCL-2 family plays important roles in acute myeloid leukemia (AML) and Venetoclax, a selective BCL-2 inhibitor, has received FDA approval for treatment of AML. However, drug resistance ensues after prolonged treatment, highlighting the need for a greater understanding of the underlying mechanisms. Using a genome-wide CRISPR/Cas9 screen in human AML, we identified genes whose inactivation sensitizes AML blasts to Venetoclax. Genes involved in mitochondrial organization and function were significantly depleted throughout our screen, including the mitochondrial chaperonin CLPB. We demonstrated that CLPB is upregulated in human AML, it is further induced upon acquisition of Venetoclax resistance and its ablation sensitizes AML cells to Venetoclax. Mechanistically, CLPB maintains the mitochondrial cristae structure via its interaction with the cristae-shaping protein OPA1, whereas its loss promotes apoptosis by inducing cristae remodeling and mitochondrial stress responses. Overall, our data suggest that targeting mitochondrial architecture may provide a promising approach to circumvent Venetoclax resistance. Overall design: RNA-sequencing (RNA-Seq) was performed to 1) explore the molecular mechanisms underpinning the Venetoclax resistance and 2) underlying mechanisms of CLPB function in AML cells.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>31048321</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA516226&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA516226&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>516226</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2019-05-04</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

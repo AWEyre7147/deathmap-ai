@@ -1,0 +1,70 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA680345" alias="PRJNA680345" center_name="NYU Langone Health" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA680345</PRIMARY_ID>
+    <SECONDARY_ID>SRP293819</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE162039</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="NYU Langone Health">PRJNA680345</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Functional interrogation of a SARS-CoV-2 host protein interactome identifies unique and shared coronavirus host factors</NAME>
+  <TITLE>Functional interrogation of a SARS-CoV-2 host protein interactome identifies unique and shared coronavirus host factors</TITLE>
+  <DESCRIPTION>The ongoing SARS-CoV-2 pandemic has devastated the global economy and claimed more than one million lives, presenting an urgent global health crisis. To identify host factors required for infection by SARS-CoV-2 and seasonal coronaviruses, we designed a focused high-coverage CRISPR-Cas9 library targeting 332 members of a recently published SARS-CoV-2 protein interactome. We leveraged the compact nature of this library to systematically screen SARS-CoV-2 at two physiologically relevant temperatures (33 ºC and 37 ºC) along with three related coronaviruses (HCoV-229E, HCoV-NL63, and HCoV-OC43), allowing us to probe this interactome at a much higher resolution relative to genome scale studies. This approach yielded several new insights, including unexpected virus-specific differences in Rab GTPase requirements and GPI anchor biosynthesis, as well as identification of multiple pan-coronavirus factors involved in cholesterol homeostasis. This coronavirus essentiality catalog could inform ongoing drug development efforts aimed at intercepting and treating COVID-19, and help prepare for future coronavirus outbreaks. Overall design: Focused CRISPR screens targeting host factors in the SARS-CoV-2 interactome were performed for SARS-CoV-2, HCoV-229E, HCoV-NL63, and HCoV-OC43 coronaviruses.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJEB40771"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJEB40772"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>33357464</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA680345&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA680345&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>680345</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2020-12-09</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

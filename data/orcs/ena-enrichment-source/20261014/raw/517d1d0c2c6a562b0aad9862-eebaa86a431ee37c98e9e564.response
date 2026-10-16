@@ -1,0 +1,49 @@
+<PROJECT_SET>
+<PROJECT accession="PRJEB31006" alias="ena-STUDY-EMBL-29-01-2019-05:14:00:131-10" center_name="European Molecular Biology Laboratory">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJEB31006</PRIMARY_ID>
+    <SECONDARY_ID>ERP113512</SECONDARY_ID>
+    <SUBMITTER_ID namespace="European Molecular Biology Laboratory">ena-STUDY-EMBL-29-01-2019-05:14:00:131-10</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>CUL3_project</NAME>
+  <TITLE>Genome-wide screens implicate loss of cullin ring ligase 3 in persistent proliferation and genome instability in TP53 deficient cells</TITLE>
+  <DESCRIPTION>TP53 deficiency is the most common alteration in cancer but it is typically not sufficient to drive tumorigenesis. To identify genes promoting tumorigenesis in combination with TP53 deficiency, we performed genome-wide CRISPR/Cas9 knockout screens coupled with proliferation and transformation assays in isogenic cell lines. Loss of several known tumor suppressor genes enhanced cellular proliferation and transformation independent of TP53 mutation status. Surprisingly, loss of several members of the neddylation pathway, which were recently reported to undergo recurrent somatic mutation in different cancers, promoted uncontrolled proliferation exclusively in TP53-deficient cells. We focused on the effect of CUL3, which when lost jointly with TP53 results in an oncogenic transcriptional program governed by the NFκB, AP-1 and TGF-β pathways. This program maintained persistent cellular proliferation and induced partial epithelial to mesenchymal transition as well as resulted in DNA damage accumulation, genomic instability, and chromosomal rearrangements. Our findings reveal CUL3 mutation as a key event stimulating persistent proliferation in TP53 deficient cells. These findings may be clinically relevant, since in vitro compound screening revealed TP53-CUL3 deficient cells to be highly sensitive to ATM inhibition, exposing a vulnerability that could be exploited for cancer treatment.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+  </SUBMISSION_PROJECT>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMISSION</DB>
+        <ID>ERA1729858</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJEB31006&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJEB31006&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2019-10-05</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2019-10-05</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

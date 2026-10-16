@@ -1,0 +1,80 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA532650" alias="PRJNA532650" center_name="Neurology, Brigham and Women's Hospital" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA532650</PRIMARY_ID>
+    <SECONDARY_ID>SRP192467</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE129763</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Neurology, Brigham and Women's Hospital">PRJNA532650</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Genome-wide analysis of the transcriptional profile of astrocytes during EAE in Gfap-TdTomato mice by scRNA-seq [scRNA-seq 2]</NAME>
+  <TITLE>Genome-wide analysis of the transcriptional profile of astrocytes during EAE in Gfap-TdTomato mice by scRNA-seq [scRNA-seq 2]</TITLE>
+  <DESCRIPTION>We identify astrocyte heterogeneity during EAE in B6 mice. Multiple sclerosis (MS) is an autoimmune neurologic disease leading to demyelination and neurologic dysfunction controlled by both genetic and environmental factors. In addition to CNS-infiltrating immune cells, CNS-resident cells, such as astrocytes, are thought to play an important role in MS pathogenesis. However, a comprehensive understanding of the extent to which gene expression is disrupted in astrocytes is not known. Here, we implement single-cell RNA sequencing, in vivo genetic perturbations, cell-specific RNA profiling by Ribotag, as well as single-cell RNA sequencing of human MS patient samples to identify a transcriptional regulatory network in astrocytes that controls the pathogenesis of EAE and potentially, MS. We defined an astrocyte subpopulation characterized by expression of the small Maf protein, MAFG, which represses NRF2-driven antioxidant mechanisms and promotes EAE pathogenesis. Mechanistically, MAFG suppresses NRF2-dependent antioxidant genetic programs by cooperating with its cofactor, MAT2a, to promote DNA methylation in the context of CNS inflammation, which in turn increases pathogenic signaling processes in astrocytes. MAFG/MAT2a astrocytes are controlled by GM-CSF signaling, which drives EAE pathogenesis and MAFG expression. MAFG is activated in astrocytes derived from MS patients, which are characterized by DNA methylation programs, pro-inflammatory signaling processes including GM-CSF signaling, and repressed NRF2 activation. Together, these data create a transcriptional and epigenetic framework to analyze CNS inflammation in MS and may provide new therapeutic targets. Overall design: Naïve mice (n=4), EAE peak phase (n=4), EAE remission phase (n=4).</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>10090</TAXON_ID>
+      <SCIENTIFIC_NAME>Mus musculus</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA534022"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9559"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>32051591</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>40537468</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA532650&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA532650&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>532650</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2020-02-13</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-05-04</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

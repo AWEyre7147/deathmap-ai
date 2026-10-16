@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA436565" alias="PRJNA436565" center_name="Hebrew University of Jerusalem" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA436565</PRIMARY_ID>
+    <SECONDARY_ID>SRP133764</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE111309</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Hebrew University of Jerusalem">PRJNA436565</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>DNAseq analysis of a genome-wide loss-of-function CRISPR/Cas9 library established in haploid human embryonic stem cells (hESCs)</NAME>
+  <TITLE>DNAseq analysis of a genome-wide loss-of-function CRISPR/Cas9 library established in haploid human embryonic stem cells (hESCs)</TITLE>
+  <DESCRIPTION>The maintenance of pluripotency requires coordinated expression of a set of essential genes. Using our recently established haploid human pluripotent stem cells (hPSCs), we generated a genome-wide loss-of-function library targeting 18,166 protein-coding genes to define the essential genes in hPSCs. We could allude to an intrinsic bias of essentiality across cellular-compartments, uncover two opposing roles for tumor-suppressor genes, and link autosomal-recessive disorders with growth-retardation phenotypes to early embryogenesis. hPSC-enriched essential genes mainly encode transcription factors and proteins related to cell-cycle and DNA-repair, revealing that a quarter of the nuclear-factors are essential for normal growth. Our screen also led to the identification of growth-restricting genes whose loss-of-function provides growth advantage to hPSCs, highlighting the role of the P53-mTOR pathway in this context. Overall, we have constructed an atlas of essential and growth-restricting genes in hPSCs, revealing key aspects of cellular essentiality and providing a reference for future studies on human pluripotency. Overall design: Haploid hESCs were transduced with a lentiviral pooled gRNA library carrying 181,131 gRNAs at a multiplicity of infection of 0.3 to enrich for single integrations/mutations per cell. Transduced haploid hESCs were selected with puromycin and cultured for 30 days. Mutant hESCs were passaged every 4-5 days and DNA samples were collected from the population at multiple time points during the passaging. gRNA sequences were amplified from the genomic DNA and analyzed by high-throughput deep sequencing.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>29662178</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA436565&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA436565&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>436565</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2018-05-02</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

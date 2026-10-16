@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA524906" alias="PRJNA524906" center_name="Stanford" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA524906</PRIMARY_ID>
+    <SECONDARY_ID>SRP187108</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE127542</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Stanford">PRJNA524906</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>RNA-seq of microglia isolated from the hippocampi of young and aged mice</NAME>
+  <TITLE>RNA-seq of microglia isolated from the hippocampi of young and aged mice</TITLE>
+  <DESCRIPTION>Sequencing data related to the manuscript entitled, "CD22 blockade restores homeostatic microglial phagocytosis in the aging brain." Overall design: Hippocampi from young (3 month old) and aged (20 month old) mice were microdissected following perfusion. Primary microglia were isolated by gentle dounce homogenization of the brain, magentic myelin removal, and FACS-purification of ~20,000 live CD11b+CD45lo cells. Microglia were sorted into RLT Plus buffer (Qiagen) containing beta-mercaptoethanol. RNA was extracted using a RNeasy Micro Plus kit (Qiagen) according the manufacturer’s protocol. RNA integrity was assessed on a Bioanalyzer (Agilent), and high quality samples were used for library preparation. cDNA synthesis and amplification was performed using the SmartSeq v4 Ultra-low input kit (Takara), and libraries were tagmented, adaptor ligated, and indexed using the Nextera XT kit (Illumina). After normalization and pooling, libraries were sequenced on a Novaseq 6000 (Illumina) using paired-end 150bp reads. Raw sequencing files were demultiplexed with bcl2fastq, trimmed with fastx_trimmer, reads were aligned using STAR, the count matrix was generated using samtools, and differential expression analysis was performed using DESeq2 with standard settings.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>10090</TAXON_ID>
+      <SCIENTIFIC_NAME>Mus musculus</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9559"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>30944478</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA524906&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA524906&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>524906</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2019-03-02</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

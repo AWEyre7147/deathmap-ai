@@ -1,0 +1,74 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA755724" alias="PRJNA755724" center_name="Institute for Neurodegenerative Diseases, University of California San Francisco" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA755724</PRIMARY_ID>
+    <SECONDARY_ID>SRP332931</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE182307</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Institute for Neurodegenerative Diseases, University of California San Francisco">PRJNA755724</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>CROP-seq of hiPSC-derived astrocytes (bulk RNA-Seq)</NAME>
+  <TITLE>CROP-seq of hiPSC-derived astrocytes (bulk RNA-Seq)</TITLE>
+  <DESCRIPTION>In response to central nervous system injury or disease, astrocytes become reactive, adopting context-dependent states with altered functions. Certain inflammatory insults induce reactive astrocyte states that lose homeostatic functions and gain neurotoxicity, and likely contribute to neuroinflammatory and neurodegenerative diseases. However, the cellular pathways controlling these states are not fully understood. Here, we combined single-cell transcriptomics with CRISPRi screening in human iPSC-derived astrocytes to systematically interrogate inflammatory reactivity. We found that autocrine-paracrine IL-6 and interferon signaling downstream of canonical NF-kB activation drove two distinct inflammatory reactive states dependent on STAT3 and IRF1, respectively. Furthermore, these states corresponded with those observed in other experimental contexts, including in vivo, and their markers were upregulated in the human brain in Alzheimer's disease and ischemic-hypoxic encephalopathy. These results and the platform we established have the potential to guide the development of therapeutics to selectively modulate different aspects of inflammatory astrocyte reactivity. Overall design: hiPSC-derived astrocytes generated using different protocols, hiPSC-derived neurons, and hiPSC-derived neural progenitor cells were treated with vehicle vs. IL1a+TNF+C1q for 24h</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA755719"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>36303069</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA755724&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA755724&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>755724</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2021-08-25</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA603962" alias="PRJNA603962" center_name="Broad Institute" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA603962</PRIMARY_ID>
+    <SECONDARY_ID>SRP246093</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE144527</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Broad Institute">PRJNA603962</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>RNA-seq 6 day timecourse for K562 cells grown in hypoxia/normoxia (21%, 5%, 1% oxygen)</NAME>
+  <TITLE>RNA-seq 6 day timecourse for K562 cells grown in hypoxia/normoxia (21%, 5%, 1% oxygen)</TITLE>
+  <DESCRIPTION>K562 cells were grown at different oxygen levels (21%, 5%, 1%) and samples were collected at 6hr, 24hr, 3day, and 6day time points (triplicate per time point). Overall design: RNA-seq was performed for K562 cells grown in 3 oxygen levels (21%, 5%, 1%) at 4 time points (6hr, 24hr, 3day, 6day) for each of 3 replicates. K562 cells were seeded at a density of 1e5/ml in 3ml of DMEM media per well of 6-well plate. Plates were maintained in 1%, 5% or 21% O2 incubators and passaged at 3d of growth. At each time point, cells were pelleted, rinsed with PBS and then stored at -80C. RNA extraction was performed using the Qiagen RNAeasy kit. The RNASeq libraries were generated as described (Picelli et al., 2014; Trapnell et al., 2012). RNA was isolated using RNASPRI beads. Following reverse transcription, cDNA was fragmented and barcoded. Samples were subjected to paired-end sequencing of 2x25bp. RNASeq data was processed using the Cufflinks suite (tophat, cuffquant, cuffnorm) as previously described (Trapnell et al., 2012).</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>32259488</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA603962&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA603962&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>603962</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2020-02-01</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA269142" alias="PRJNA269142" center_name="Cancer Science Institute of Singapore" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA269142</PRIMARY_ID>
+    <SECONDARY_ID>SRP050493</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE63816</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Cancer Science Institute of Singapore">PRJNA269142</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Homo sapiens</NAME>
+  <TITLE>Aberrant splicing of U12-type introns is the hallmark of ZRSR2 mutant myelodysplastic syndrome</TITLE>
+  <DESCRIPTION>Somatic mutations in the spliceosome gene ZRSR2— located on the X chromosome — are associated with myelodysplastic syndrome (MDS). ZRSR2 is involved in the recognition of 3΄ splice site during the early stages of spliceosome assembly; however, its precise role in RNA splicing has remained unclear. Here, we characterize ZRSR2 as an essential component of the minor spliceosome (U12-dependent) assembly. shRNA mediated knockdown of ZRSR2 leads to impaired splicing of the U12-type introns, and RNA-Sequencing of MDS bone marrow reveals that loss of ZRSR2 activity causes increased mis-splicing. These splicing defects involve retention of the U12-type introns while splicing of the U2-type introns remain mostly unaffected. ZRSR2 deficient cells also exhibit reduced proliferation potential and distinct alterations in myeloid and erythroid differentiation in vitro. These data identify a specific role for ZRSR2 in RNA splicing and highlight dysregulated splicing of U12-type introns as a characteristic feature of ZRSR2 mutations in MDS. Overall design: RNA sequencing was performed on 16 bone marrow samples (MDS and normal) and six samples of control or ZRSR2 shRNA transduced TF-1 cells and data was analysed for aberrant splicing caused by ZRSR2 mutations/deficiency.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>25586593</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA269142&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA269142&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>269142</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2015-01-17</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

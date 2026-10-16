@@ -1,0 +1,74 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA517697" alias="PRJNA517697" center_name="St.Jude Children's Research Hospital" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA517697</PRIMARY_ID>
+    <SECONDARY_ID>SRP182830</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE125841</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="St.Jude Children's Research Hospital">PRJNA517697</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>A minimal DNA sequence within the ARF promoter represses p16INK4A expression via long-range chromatin interaction [Cut&amp;Run ChiP-seq]</NAME>
+  <TITLE>A minimal DNA sequence within the ARF promoter represses p16INK4A expression via long-range chromatin interaction [Cut&amp;Run ChiP-seq]</TITLE>
+  <DESCRIPTION>Loss of function of CDKN2A/B, also known as INK4/ARF [encoding for p16INK4A, p15INK4B, and p14ARF (mouse p19Arf)]), confers susceptibility to cancers, whereas its up-regulation during organismal aging provokes cellular senescence and tissue degenerative disorders. To better understand molecular regulation of the locus, we knocked P2A-mCherry into the C-terminus of p16INK4A, and this construct faithfully recapitulated the endogenous transcription. Using this reporter cell line, we performed a noncoding tiling pooled screening targeting open chromatin regions spanning the approximately 500-kb region in the topological associated domain that includes p16INK4A. In both Cas9- and dCas9-KRAB–mediated screenings, we identified a 42-bp DNA sequence within exon 1β of the ARF gene, as the repressive element controlling p16INK4A expression. Chromatin conformation capture indicated that inactivating this element abolished the physical interaction between p15INK4B and ARF, thereby abolishing p16INK4A repression. This study has revealed a new mechanism of transcriptional regulation of p16INK4A by long-range chromatin interaction. Overall design: CUT&amp;RUN ChIP-seq was performed on p16mCherry/+;dCas9-KRAB cells infected with two sgRNAs targeting the ARF promoter and two sgRNAs targeting the CDKN2aINK4A promoter, using antibodies against dCas9 for a pulldown assay.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA517696"/>
+    </RELATED_PROJECT>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>31818950</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA517697&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA517697&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>517697</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2019-12-20</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

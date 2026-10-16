@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA691473" alias="PRJNA691473" center_name="Schimmer Lab, Princess Margaret Cancer Centre, University Health Network" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA691473</PRIMARY_ID>
+    <SECONDARY_ID>SRP301381</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE164639</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Schimmer Lab, Princess Margaret Cancer Centre, University Health Network">PRJNA691473</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>A genome-wide CRISPR/Cas9 screen in acute myeloid leukemia cells identifies regulators of TAK-243 sensitivity</NAME>
+  <TITLE>A genome-wide CRISPR/Cas9 screen in acute myeloid leukemia cells identifies regulators of TAK-243 sensitivity</TITLE>
+  <DESCRIPTION>TAK-243 is a first-in-class inhibitor of ubiquitin-like modifier activating enzyme 1 (UBA1) that catalyzes ubiquitin activation, the first step in the ubiquitylation cascade. Based on its preclinical efficacy and tolerability, TAK-243 has been advanced to phase 1 clinical trials in advanced malignancies. Nonetheless, the determinants of TAK-243 sensitivity remain largely unknown. Here, we conducted a genome-wide CRISPR/Cas9 knockout screen in acute myeloid leukemia (AML) cells in the presence of TAK-243 to identify genes essential for TAK-243 action. We identified BEN domain-containing protein 3 (BEND3), a transcriptional repressor and a regulator of chromatin organization, as the top gene whose knockout confers resistance to TAK-243 Overall design: A positive-selection genome-wide CRISPR/Cas9 knockout screen in OCI-AML2 cells to identify gRNAs significantly enriched in the presence of TAK-243. Specifically, cells were treated with DMSO or TAK-243 at 25 nM or 30 nM for 32 days or 36 days, followed by extraction of genomic DNA and sequencing</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>33476303</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA691473&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA691473&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>691473</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2021-01-14</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

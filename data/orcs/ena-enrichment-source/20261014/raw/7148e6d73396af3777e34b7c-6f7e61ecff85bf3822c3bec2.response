@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA925824" alias="PRJNA925824" center_name="Emerman, Fred Hutchinson Cancer Center" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA925824</PRIMARY_ID>
+    <SECONDARY_ID>SRP418419</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE223326</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Emerman, Fred Hutchinson Cancer Center">PRJNA925824</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>A Virus-Packageable CRISPR System Identifies Host Dependency Factors Co-opted by Multiple HIV-1 Strains</NAME>
+  <TITLE>A Virus-Packageable CRISPR System Identifies Host Dependency Factors Co-opted by Multiple HIV-1 Strains</TITLE>
+  <DESCRIPTION>The goal of this CRISPR-based screen (HIV-CRISPR) is to identify HIV-1 dependency factors by evaluating multiple pathways simultaneously. Here are Illumina sequencing data and counts files from HIV-CRISPR screens using a guide RNA library targeting the whole genome (TKOv3), a custom guide RNA library targeting human epigenome genes (HuEpi), a custom guide RNA library targeting interferon-stimulated genes (PIKA), and a custom guide RNA library of genes containing of a subset of each of the aforementioned libraries designed to target human dependency factors (HIVDEP). The HIV-CRISPR screens described here were performed in clonal ZAP knockout Jurkat cell lines as ZAP inhibition of the HIV-CRISPR vector has been previously described (PMID: 30520725). Overall design: These HIV-CRISPR screens were performed by generating a pool of ZAP-knockout Jurkat cells engineered to stably overexpress CCR5 and that are each knocked out for human genes using the TKOv3, HuEpi, PIKA, or HIVDEP guide RNA libraries. Each screen was performed in two biological replicates. Afterwards, for each condition, the cell pellets were harvested, genomic DNA (gDNA) was extracted, and sequencing was performed to evaluate the single guide RNA (sgRNA) representation of the library. Simultaneously, the viral supernatant was harvested, viral RNA (vRNA) was extracted, and sequencing was performed. By comparing the sgRNA representation of the viral RNA to the library representation of the genomic DNA, the sgRNAs that are depleted in the viral population are associated with potential HIV-1 dependency factors. The plasmid library of the HIV-CRISPR HIVDEP guide RNA library was also sequenced and included here. The plasmid guide libraries of the guide RNA libraries TKOv3, PIKA, and HuEpi have been sequenced before and are not included here.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>36744886</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA925824&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA925824&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>925824</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2023-01-28</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

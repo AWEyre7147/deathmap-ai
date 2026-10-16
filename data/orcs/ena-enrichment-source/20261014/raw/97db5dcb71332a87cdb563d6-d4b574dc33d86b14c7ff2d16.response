@@ -1,0 +1,70 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA111511" alias="PRJNA111511" center_name="LCCI laboratory, Melbourne Tumour Biology Branch, Ludwig Institute for Cancer Research" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA111511</PRIMARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE14333</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="LCCI laboratory, Melbourne Tumour Biology Branch, Ludwig Institute for Cancer Research">PRJNA111511</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Homo sapiens</NAME>
+  <TITLE>Expression data from 290 primary colorectal cancers</TITLE>
+  <DESCRIPTION>Samples were taken from colorectal cancers in surgically resected specimens in 290 colorectal cancer patients. The expression profiles were determined using Affymetrix Human Genome U133Plus 2.0 arrays. The training set of our prognosis classifier included the stage A and D samples. Validation used our stage B and C samples. Keywords: Expression profiling by array Overall design: mRNA from 290 primary colorectal tumour samples were extracted and hybridized to HG-U133Plus 2.0 expression arrays. The MAS5.0 procedure was used to make calls of expression. Data from the Stage A and D samples were quantile normalized and used with microarray data from the expO set to build a classifier. The Stage B and C samples were were quantile normalized with reference to a training set prior to application of our prognosis classifier.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>19996206</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA111511&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA111511&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>111511</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2014-02-11</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

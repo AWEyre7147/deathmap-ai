@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA783540" alias="PRJNA783540" center_name="The University of Tokyo" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA783540</PRIMARY_ID>
+    <SECONDARY_ID>SRP347871</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE189553</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="The University of Tokyo">PRJNA783540</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Gene expression profiling of epithelial ovarian cancer by bulk RNA-seq</NAME>
+  <TITLE>Gene expression profiling of epithelial ovarian cancer by bulk RNA-seq</TITLE>
+  <DESCRIPTION>Ovarian cancer has one of the worst prognoses among gynecologic malignancies. About 60% of ovarian cancer cases are diagnosed at Stages III and IV, and their five-year survival rate is less than 30%. Ovarian cancer is classified into four major histological subtypes; serous, clear cell, endometrioid and mucinous. Ovarian clear cell carcinoma (OCCC) is less sensitive to conventional platinum-based chemotherapy and has worse prognosis than other subtypes. In this study, we attempted to identify novel molecular targets critical for the proliferation and tumorigenicity of OCCC using the CRISPR/Cas9 system, and identified some genes as important candidates. Some of these candedates were upregulated in ovarian cancer tissue, especially OCCC. Our results suggest that not only may be these candedates a promising diagnostic maker for OCCC, drugs against these candedates would be useful for the therapeutic treatment of OCCC. Overall design: Profiling of gene expression in primary ovarian cancer specimens (Clear cell (CCC); n = 11, High-grade serous (HGSC); n = 8, Endometrioid (EC); n= 4).</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>35377528</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA783540&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA783540&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>783540</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2022-06-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

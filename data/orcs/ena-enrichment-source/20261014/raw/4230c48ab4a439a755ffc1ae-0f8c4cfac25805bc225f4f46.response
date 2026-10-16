@@ -1,0 +1,71 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA630062" alias="PRJNA630062" center_name="Luijsterburglab, Human Genetics, LUMC" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA630062</PRIMARY_ID>
+    <SECONDARY_ID>SRP259968</SECONDARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE149760</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Luijsterburglab, Human Genetics, LUMC">PRJNA630062</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>ELOF1 is a transcription-coupled DNA repair factor that directs RNA polymerase II ubiquitylation</NAME>
+  <TITLE>ELOF1 is a transcription-coupled DNA repair factor that directs RNA polymerase II ubiquitylation</TITLE>
+  <DESCRIPTION>Removal of transcription-blocking DNA lesions requires the binding of transcription-coupled repair (TCR) factors to DNA damage-stalled RNA polymerase II (RNAPII). The full repertoire of factors required for TCR remains to be elucidated. Through genome-wide CRISPR screens and strand-specific ChIP-seq, we identify the RNAPII-associated factor ELOF1 as a new core TCR component. Mechanistically, ELOF1 does not affect the association of TCR components CSB and the CRL4CSA ubiquitin ligase, but instead regulates RNAPII ubiquitylation, and subsequent ubiquitin-dependent recruitment of repair factors. This function requires its constitutive interaction with RNAPII close to the K1268 site, revealing ELOF1 as a specificity factor that positions CRL4CSA for optimal RNAPII ubiquitylation to orchestrate transcription-coupled repair. Finally, ELOF1 operates in a second transcription stress-response pathway, regulated by the deubiquitylating enzyme OTUD5. Overall design: ATAC-seq, BrU-seq, ChIP-seq and RNA-seq in human RPE1-iCas9 or U2OS cell lines either untreated (mock) or dfferent time points after UV-C treatment with varying dose (as indicated per sample).</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>34108663</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA630062&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA630062&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>630062</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2021-04-22</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

@@ -1,0 +1,70 @@
+<PROJECT_SET>
+<PROJECT accession="PRJNA116473" alias="PRJNA116473" center_name="Psychiatry and Behavioral Sciences, Miller School of Medicine, University of Miami" broker_name="NCBI">
+  <IDENTIFIERS>
+    <PRIMARY_ID>PRJNA116473</PRIMARY_ID>
+    <EXTERNAL_ID namespace="GEO">GSE15222</EXTERNAL_ID>
+    <SUBMITTER_ID namespace="Psychiatry and Behavioral Sciences, Miller School of Medicine, University of Miami">PRJNA116473</SUBMITTER_ID>
+  </IDENTIFIERS>
+  <NAME>Homo sapiens</NAME>
+  <TITLE>Genetic control of human brain transcript expression in Alzheimer’s disease.</TITLE>
+  <DESCRIPTION>We recently surveyed the relationship between the human brain transcriptome and genome in a series of neuropathologically normal postmortem samples. We now have analyzed additional samples with a confirmed pathologic diagnosis of late onset Alzheimer's disease (LOAD, final n=187 controls, 176 cases). Nine percent of the cortical transcripts we analyzed had expression profiles correlated with their genotypes in the combined cohort and approximately 5% of transcripts had SNP-transcript relationships that could distinguish LOAD samples. Two of these transcripts have been previously implicated in LOAD candidate gene SNP-expression screens. This study shows how the relationship between common inherited genetic variants and brain transcript expression can be used in the study of human brain disorders. We suggest that studying the transcriptome as a quantitative endo-phenotype has greater power to find risk SNPs influencing expression than the use of discrete diagnostic categories such as presence or absence of disease. see DOI:10.1016/j.ajhg.2009.03.011 for further details and complete author list. Overall design: Expression quantitative trait loci study using human brain from 363 cortical samples. Affymetrix 500K chip for genotyping, Illumina ref-seq 8 chip for expression. Genotyping data will be available at dbGAP.</DESCRIPTION>
+  <SUBMISSION_PROJECT>
+    <SEQUENCING_PROJECT/>
+    <ORGANISM>
+      <TAXON_ID>9606</TAXON_ID>
+      <SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+    </ORGANISM>
+  </SUBMISSION_PROJECT>
+  <RELATED_PROJECTS>
+    <RELATED_PROJECT>
+      <PARENT_PROJECT accession="PRJNA9558"/>
+    </RELATED_PROJECT>
+  </RELATED_PROJECTS>
+  <PROJECT_LINKS>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>PUBMED</DB>
+        <ID>19361613</ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-FASTQ-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA116473&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+    <PROJECT_LINK>
+      <XREF_LINK>
+        <DB>ENA-SUBMITTED-FILES</DB>
+        <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA116473&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+      </XREF_LINK>
+    </PROJECT_LINK>
+  </PROJECT_LINKS>
+  <PROJECT_ATTRIBUTES>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-REFSEQ</TAG>
+      <VALUE>N</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>PROJECT-ID</TAG>
+      <VALUE>116473</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>NCBI-PROJECT-TYPE</TAG>
+      <VALUE>SUBMISSION</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-STATUS</TAG>
+      <VALUE>PUBLIC</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-FIRST-PUBLIC</TAG>
+      <VALUE>2014-02-11</VALUE>
+    </PROJECT_ATTRIBUTE>
+    <PROJECT_ATTRIBUTE>
+      <TAG>ENA-LAST-UPDATE</TAG>
+      <VALUE>2026-10-12</VALUE>
+    </PROJECT_ATTRIBUTE>
+  </PROJECT_ATTRIBUTES>
+</PROJECT>
+</PROJECT_SET>

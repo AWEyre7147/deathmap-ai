@@ -24,7 +24,7 @@ def enrich(root,archive):
         if hashlib.sha256((target/name).read_bytes()).hexdigest()!=digest:raise ValueError('Backup mismatch')
         backups.append({'file':name,'sha256':digest})
     eligible=[row for row in rows if any(row.get(k) for k in ['PMID','DOI','PMCID'])]
-    results=Resolver(root/'data/publication-identifiers/cache').resolve([{k.lower():row.get(k) for k in ['PMID','DOI','PMCID']} for row in eligible])
+    results=Resolver(root/'data/orcs/publication-source/identifier-resolution-cache').resolve([{k.lower():row.get(k) for k in ['PMID','DOI','PMCID']} for row in eligible])
     for row in rows:row.setdefault('PMCID',None);row.setdefault('IDENTIFIER_ENRICHMENT',{})
     for row,result in zip(eligible,results):
         added=list(row.get('IDENTIFIER_ENRICHMENT',{}).get('added_fields',[]))
