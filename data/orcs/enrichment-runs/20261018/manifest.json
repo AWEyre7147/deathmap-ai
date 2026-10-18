@@ -1,0 +1,330 @@
+{
+  "schema_version": "complete-enrichment-run/1",
+  "status": "complete",
+  "publication_count": 418,
+  "without_pmid": 3,
+  "resource_stages": {
+    "registry": {
+      "publications": 418,
+      "without_pmid": 3,
+      "stage": "registry",
+      "completed_utc": "2026-10-18T21:02:15.055871+00:00",
+      "publication_index": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\publication-index.json",
+      "publication_index_sha256": "63cb33b7095108e7a0776950e9c258e7b65fe148ca6b12ae75cd4dd914ad6c89",
+      "command_code_sha256": "23d794aa028264e43ef2c10b948ed130df4b73f3c247bc4c8921678adb18cc64"
+    },
+    "pubmed": {
+      "template": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\templates\\review-v2\\PubMed-Enrichment.xlsx",
+      "template_sha256": "646280cea1aa2c1827240b26f39f2a38670606e7dfed96e2f83df50f81bfd8af",
+      "output": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\enrichment-runs\\20261018\\pubmed\\PubMed-Enrichment.xlsx",
+      "workbook_sha256": "972cb03b7e5a2714e5532469fc50d68d482be97e1888dca2c3fe325237a55bcb",
+      "sheet_rows": {
+        "Publication": 415,
+        "Repository Records": 572,
+        "SRA Accessions": 5822,
+        "MeSH": 2781,
+        "MeSH Links": 6724
+      },
+      "verified_cells": 97139,
+      "writer": "streamed-template-XML/1",
+      "publications": 418,
+      "pmids": 415,
+      "live_attempts": 0,
+      "cached_responses": 90,
+      "stage": "pubmed",
+      "completed_utc": "2026-10-18T21:02:44.619174+00:00",
+      "publication_index": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\publication-index.json",
+      "publication_index_sha256": "63cb33b7095108e7a0776950e9c258e7b65fe148ca6b12ae75cd4dd914ad6c89",
+      "command_code_sha256": "23d794aa028264e43ef2c10b948ed130df4b73f3c247bc4c8921678adb18cc64"
+    },
+    "geo": {
+      "template": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\templates\\review-v2\\GEO-Enrichment.xlsx",
+      "template_sha256": "3605bf7e851c18fed6645411b61329f7f7c1fdc512815047960df1be5fbcb273",
+      "output": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\enrichment-runs\\20261018\\geo\\GEO-Enrichment.xlsx",
+      "workbook_sha256": "30a93b85b4d13d0d1557b821cdf7a5ee87c3aa4d344a2c248419cc0c92f6e6bd",
+      "sheet_rows": {
+        "Series Records": 519,
+        "Series Hierarchy": 213,
+        "Repository Identifiers": 115718,
+        "Sample Metadata": 36303
+      },
+      "verified_cells": 1760465,
+      "writer": "streamed-template-XML/1",
+      "stage": "geo",
+      "completed_utc": "2026-10-18T21:11:19.142643+00:00",
+      "publication_index": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\publication-index.json",
+      "publication_index_sha256": "63cb33b7095108e7a0776950e9c258e7b65fe148ca6b12ae75cd4dd914ad6c89",
+      "command_code_sha256": "23d794aa028264e43ef2c10b948ed130df4b73f3c247bc4c8921678adb18cc64"
+    },
+    "arrayexpress": {
+      "template": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\templates\\review-v2\\BioStudies-ArrayExpress-Enrichment.xlsx",
+      "template_sha256": "74d19772b0e1f7390f16cd85f18f90e0e535fc4fdb35c112457f06bb3ea4fbf7",
+      "output": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\enrichment-runs\\20261018\\arrayexpress\\BioStudies-ArrayExpress-Enrichment.xlsx",
+      "workbook_sha256": "084d121398ad07d83c5c9ab411738c240efd99f71557e2b97118312570244c15",
+      "sheet_rows": {
+        "Studies": 10,
+        "Repository citations": 5,
+        "Protocols": 46,
+        "Sample metadata": 96,
+        "Assay metadata": 10,
+        "File listings": 39,
+        "SDRF metadata": 4642,
+        "IDF metadata": 1180
+      },
+      "verified_cells": 43838,
+      "writer": "streamed-template-XML/1",
+      "publications_processed": 418,
+      "publications_with_candidates": 10,
+      "candidate_accessions": 10,
+      "arrayexpress_studies": 10,
+      "publication_study_associations": 11,
+      "incomplete_publications": 0,
+      "failed_studies": 0,
+      "metadata_file_issues": 0,
+      "metadata_files": 20,
+      "route_states": [
+        {
+          "route": "europepmc_annotations",
+          "status": "complete",
+          "publications": 5
+        },
+        {
+          "route": "europepmc_annotations",
+          "status": "no_results",
+          "publications": 410
+        },
+        {
+          "route": "europepmc_annotations",
+          "status": "skipped_missing_identifier",
+          "publications": 3
+        },
+        {
+          "route": "native_complete_title",
+          "status": "complete",
+          "publications": 5
+        },
+        {
+          "route": "native_complete_title",
+          "status": "no_results",
+          "publications": 413
+        }
+      ],
+      "distinct_candidates_by_route": {
+        "native_complete_title": 5,
+        "europepmc_annotations": 5
+      },
+      "live_attempts": 0,
+      "cached_responses": 863,
+      "stage": "arrayexpress",
+      "completed_utc": "2026-10-18T21:04:04.910683+00:00",
+      "publication_index": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\publication-index.json",
+      "publication_index_sha256": "63cb33b7095108e7a0776950e9c258e7b65fe148ca6b12ae75cd4dd914ad6c89",
+      "command_code_sha256": "23d794aa028264e43ef2c10b948ed130df4b73f3c247bc4c8921678adb18cc64"
+    },
+    "ena": {
+      "template": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\templates\\review-v2\\ENA-Enrichment.xlsx",
+      "template_sha256": "78a0db536da7a099da0636565c914018791b2602d8b1bd6d8c40492b9991264f",
+      "output": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\enrichment-runs\\20261018\\ena\\ENA-Enrichment.xlsx",
+      "workbook_sha256": "a4fca4337cb2508b85ae0be0c60124c47b65bdc8c1d7b58acaddb4569d17fd98",
+      "sheet_rows": {
+        "Studies": 533,
+        "Publications": 418,
+        "Study hierarchy": 1540,
+        "Samples": 10592,
+        "Experiments": 14322,
+        "Runs": 16253,
+        "File listings": 25227
+      },
+      "verified_cells": 604711,
+      "writer": "streamed-template-XML/1",
+      "publications_processed": 418,
+      "studies": 533,
+      "publications_with_candidates": 191,
+      "association_pairs": 561,
+      "route_counts": {
+        "complete-title": {
+          "studies": 110,
+          "publication_study_pairs": 110
+        },
+        "saved-pubmed-study-link": {
+          "studies": 287,
+          "publication_study_pairs": 300
+        },
+        "pmid-xref": {
+          "studies": 280,
+          "publication_study_pairs": 281
+        },
+        "saved-geo-study-link": {
+          "studies": 502,
+          "publication_study_pairs": 518
+        }
+      },
+      "title_only_pairs": [
+        [
+          "30449619",
+          "PRJNA487352"
+        ],
+        [
+          "31540829",
+          "PRJNA549978"
+        ],
+        [
+          "31657721",
+          "PRJNA613474"
+        ],
+        [
+          "32028983",
+          "PRJNA601000"
+        ],
+        [
+          "32268084",
+          "PRJEB31006"
+        ],
+        [
+          "32877678",
+          "PRJEB39747"
+        ],
+        [
+          "33110234",
+          "PRJNA663915"
+        ],
+        [
+          "33147445",
+          "PRJNA669098"
+        ],
+        [
+          "34962926",
+          "PRJNA779941"
+        ],
+        [
+          "35421191",
+          "PRJNA777043"
+        ],
+        [
+          "35972292",
+          "PRJEB47213"
+        ],
+        [
+          "37163373",
+          "PRJEB62092"
+        ],
+        [
+          "37866880",
+          "PRJEB62094"
+        ],
+        [
+          "38291084",
+          "PRJNA1026718"
+        ],
+        [
+          "40852982",
+          "PRJEB94852"
+        ],
+        [
+          "40852982",
+          "PRJEB95952"
+        ],
+        [
+          "40852982",
+          "PRJEB95957"
+        ],
+        [
+          "ORCS:1054",
+          "PRJNA1105721"
+        ],
+        [
+          "ORCS:657",
+          "PRJNA647903"
+        ]
+      ],
+      "distinct_runs": 16253,
+      "failed_study_accessions": 0,
+      "run_report_issues": 0,
+      "discovery_issues": 0,
+      "live_attempts": 2,
+      "cached_responses": 1900,
+      "metadata_only_projects": [
+        "PRJEB40771",
+        "PRJEB40772",
+        "PRJNA63443"
+      ],
+      "stage": "ena",
+      "completed_utc": "2026-10-18T21:12:53.344690+00:00",
+      "publication_index": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\publication-index.json",
+      "publication_index_sha256": "63cb33b7095108e7a0776950e9c258e7b65fe148ca6b12ae75cd4dd914ad6c89",
+      "command_code_sha256": "23d794aa028264e43ef2c10b948ed130df4b73f3c247bc4c8921678adb18cc64"
+    },
+    "synthesis": {
+      "template": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\templates\\Enrichment-Synthesis.xlsx",
+      "template_sha256": "c531593718e8da4fbe601d06f0dd22ace8411d1169a2431bba54dd4292489bc8",
+      "output": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\enrichment-runs\\20261018\\synthesis\\Enrichment-Synthesis.xlsx",
+      "workbook_sha256": "9d5894be23732d334f806bc8b5522a8384ec24c800b934e6c13465e726a3855d",
+      "sheet_rows": {
+        "Publications": 418,
+        "PUB-Repository Links": 1390,
+        "PubMed-Repository Links": 558,
+        "PubMed-SRA Links": 5822,
+        "PubMed-MeSH Terms": 2781,
+        "PubMed-MeSH Links": 6724,
+        "GEO Series Records": 503,
+        "GEO Series Hierarchy": 213,
+        "GEO Repository Links": 40838,
+        "GEO Sample Records": 22139,
+        "ENA Study Records": 533,
+        "ENA Study Hierarchy": 1540,
+        "ENA Sample Records": 10592,
+        "ENA Experiment Records": 14322,
+        "ENA Run Records": 16253,
+        "ArrayExpress Study Records": 10,
+        "ArrayExpress Protocol Records": 46,
+        "ArrayExpress Sample Records": 96,
+        "ArrayExpress Assay Records": 10,
+        "ArrayExpress IDF Metadata": 1180,
+        "ArrayExpress SDRF Metadata": 4642
+      },
+      "verified_cells": 1385692,
+      "writer": "streamed-template-XML/1",
+      "overflow_sidecar": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\enrichment-runs\\20261018\\synthesis\\Enrichment-Synthesis.overflow.json.gz",
+      "overflow_values": 1,
+      "overflow_sha256": "426d2e6a46d101a83af9509ffaede6f14a77e88b180e3e0967fe3409dd18149d",
+      "source_database": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\enrichment-runs\\20261018\\synthesis\\synthesis.json.gz",
+      "source_database_sha256": "88e280aace85e39a6c181e471c83baf8c9008b89af8afa6a04c78cd8a7d18dbb",
+      "stage": "synthesize",
+      "status": "complete",
+      "execution": "Native projection completed, then maintained offline export resumed after Excel preflight size checkpoint; no retrieval repeated"
+    }
+  },
+  "validation": {
+    "status": "passed",
+    "publication_indices": 418,
+    "without_pmid": 3,
+    "publication_repository_links": 1390,
+    "final_verified_cells": 1385692,
+    "source_hashes_unchanged": true,
+    "workbook_hashes_verified": true,
+    "GEO_live_receipts": 214,
+    "focused_tests": 33,
+    "native_excel_opening": "not tested"
+  },
+  "current_replay_code_sha256": {
+    "src\\deathmap_ai\\enrichment_commands.py": "102381bae2e5e17212b1da9f7a452bf451196f59a71bb97c27f65defc08ec3da",
+    "src\\deathmap_ai\\enrichment_export.py": "532d5b1a6c762399be34388c739cb6e86add5495636f5e2194a054c785c69256",
+    "src\\deathmap_ai\\enrichment_synthesis.py": "4e97a67f3c2ffaacd72419d44f94b467a8608f44eb5b37d9cc6a046750c08320",
+    "src\\deathmap_ai\\synthesis_layout.py": "219b47997cc98070682bbdfc9f3b9753db22415fb0d7c32aa04e8f9d1fbbfa6f",
+    "src\\deathmap_ai\\review_projection.py": "a17ff3d6c9b2d6c56b578d00348f3e97a12be8da1e0909446b7fccfe8814ff2e"
+  },
+  "metadata_only_projects": [
+    "PRJEB40771",
+    "PRJEB40772",
+    "PRJNA63443"
+  ],
+  "network_attempts": {
+    "pubmed": 0,
+    "geo": 214,
+    "arrayexpress": 0,
+    "ena": 2
+  },
+  "native_dates": "Original receipt dates retained on cache reuse; live-response dates recorded separately",
+  "workflow": "docs/complete-enrichment.md",
+  "associations": "Candidates; qualifying screen roles unassessed"
+}

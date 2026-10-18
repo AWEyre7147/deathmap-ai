@@ -380,7 +380,7 @@ def project(database):
 
     Notes
     -----
-    One native attribute is one row; long values are kept whole. SDRF is long
+    Native attributes are pivoted by study-scoped identity; long values stay whole. SDRF is long
     form, retaining native row and column indices. Neither SDRF rows nor native
     sample summaries are automatically distinct screens. No truncation occurs.
     """
@@ -451,6 +451,10 @@ def project(database):
                     for c,value in enumerate(row[1:],2):
                         tables['IDF metadata'].append({'Study accession':accession,'Native line':r,
                             'Native column':c,'Native field':row[0],'Original value':value})
+    from .review_projection import pivot_attributes
+    for name in ('Protocols', 'Sample metadata', 'Assay metadata'):
+        identity = 'Native protocol ID' if name == 'Protocols' else 'Native section ID'
+        tables[name] = pivot_attributes(tables[name], identity, ('Contact',) if name == 'Protocols' else ())
     return tables
 
 

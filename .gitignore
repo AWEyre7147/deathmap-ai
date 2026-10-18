@@ -49,7 +49,6 @@ docs/.obsidian/cache/
 /docs/development/
 /docs/github-preparation.md
 /AGENTS.md
-/searches/orcs/*/run-plan.md
 
 # Installed dependencies, local build products and duplicate documentation backup
 node_modules/
@@ -81,3 +80,22 @@ data/cellosaurus/orcs-annotations/raw/*.part
 # Excel session lock files
 ~$*.xlsx
 ~$*.xlsm
+
+# Complete enrichment evidence is published in each run's source-material.zip.
+# Restoring the exact original files must not add large duplicate payloads to Git.
+/data/orcs/enrichment-runs/20261018/pubmed/*
+!/data/orcs/enrichment-runs/20261018/pubmed/*.xlsx
+!/data/orcs/enrichment-runs/20261018/pubmed/*.manifest.json
+!/data/orcs/enrichment-runs/20261018/pubmed/stage-receipt.json
+/data/orcs/enrichment-runs/20261018/geo/*
+!/data/orcs/enrichment-runs/20261018/geo/*.xlsx
+!/data/orcs/enrichment-runs/20261018/geo/*.manifest.json
+!/data/orcs/enrichment-runs/20261018/geo/stage-receipt.json
+/data/orcs/enrichment-runs/20261018/arrayexpress/*
+!/data/orcs/enrichment-runs/20261018/arrayexpress/*.xlsx
+!/data/orcs/enrichment-runs/20261018/arrayexpress/*.manifest.json
+!/data/orcs/enrichment-runs/20261018/arrayexpress/stage-receipt.json
+/data/orcs/enrichment-runs/20261018/ena/*
+!/data/orcs/enrichment-runs/20261018/ena/*.xlsx
+!/data/orcs/enrichment-runs/20261018/ena/*.manifest.json
+!/data/orcs/enrichment-runs/20261018/ena/stage-receipt.json

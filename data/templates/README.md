@@ -1,49 +1,53 @@
-# Excel template
+# Excel templates
 
-`DeathMap-AI-output.xlsx` is the owner-finalized, repaired main template. `DeathMap-AI-output-backup.xlsx` is a byte-identical backup. The active manifest records its hash; changes require registration before export.
-
-The ORCS search command exports `workbook-authored.xlsx` automatically into each new run directory using Python/openpyxl. Existing outputs are refused. Column styles preserve owner coloring when body rows are blank. `owner-change-catalog.json` records the original-to-final comparison. Superseded models and proposal materials are archived externally with hashes.
-
-Sources-sheet example counts are illustrative; use run summaries for measured counts. Template opening was confirmed by the owner; generated exports need their own Excel opening check.
+`DeathMap-AI-output.xlsx` is the owner-finalized main ORCS search template.
+`DeathMap-AI-output-backup.xlsx` is its byte-identical backup. The active
+`current-template.json` and `owner-change-catalog.json` register that workbook;
+this template and its reference sheets are unchanged by enrichment consolidation.
+ORCS search exports use Python/openpyxl and refuse existing output workbooks.
+Sources-sheet example counts are illustrative, not measured run counts.
 
 ## Repository enrichment templates
 
-`GEO-Enrichment.xlsx` is the owner-approved four-sheet template: Series Records,
-Series Hierarchy, Repository Identifiers and Sample Metadata. Discovery Evidence
-is excluded from this workbook; native responses and evidence remain in saved
-metadata pending the v02 evidence-compilation design. Its byte-for-byte hash,
-ordered headers and projected-record mappings are registered in
-`GEO-Enrichment.manifest.json`.
+The four current, owner-approved enrichment templates and registration manifests
+are directly in this folder. They are the same workbook bytes previously used
+from the review-v2 folder; the maintained commands now select these main paths.
 
-`PubMed-Enrichment.xlsx` retains its five sheets and existing columns, with the
-same plain formatting as GEO: bold headers, uniform widths and no decorative
-fills or Excel table objects. Its regenerated manifest records the current hash,
-ordered headers and canonical row positions. Publication dates retain literal
-text `MM;DD;YYYY`, partial `MM;YYYY` or `YYYY`.
+- `PubMed-Enrichment.xlsx`: five metadata/link/MeSH sheets; complete publication
+  dates use literal YYYY-MM-DD and partial dates retain reported precision.
+- `GEO-Enrichment.xlsx`: four sheets; excludes citation and places Identifier and
+  GSM immediately after PMID in their respective tables.
+- `ENA-Enrichment.xlsx`: seven sheets, including File listings. The study table
+  excludes Search PMID, ENA PMID, Native record type and Source URL. Experiments
+  and Runs retain ENA's native terminology.
+- `BioStudies-ArrayExpress-Enrichment.xlsx`: eight sheets. Protocol, sample and
+  assay fields are pivoted to columns at native record level; contact attributes
+  and Value state are excluded from those review tables. IDF/SDRF remain retained.
 
-`deathmap_ai.geo_workbook.export_workbook` validates the registered template and
-field mappings, then populates a fresh workbook from projected metadata tables.
-It reuses the XML-preserving writer in `pubmed_workbook`; body cells follow the
-template default style. Missing values stay blank; existing output paths are
-refused. Owner template changes need registration before GEO export.
+Each adjacent `.manifest.json` registers the workbook SHA-256, exact sheet/header
+order and source-field mappings. The portable exporters validate that registration
+and compare saved values against their projected tables. Missing values remain
+blank, native numeric/Boolean values retain their types, and metadata text is not
+executed as formulas. Existing outputs are refused. Omitted workbook fields remain
+in canonical evidence; publication association is not qualifying screen attribution.
 
-Active templates and registration manifests remain here. Their recorded hashes
-and field mappings define the inputs accepted by the workbook exporters.
+## Final combined enrichment output
 
-`BioStudies-ArrayExpress-Enrichment.xlsx` is the owner-approved blank eight-sheet
-template registered in `BioStudies-ArrayExpress-Enrichment.manifest.json`.
-It retains the selected Studies fields and repository metadata sheets, excludes
-Publication links, External links and Other metadata, and removes the specified
-display columns. SDRF retains individual sample/assay fields through Part; IDF
-retains fields through Original value. Formatting matches the plain PubMed
-template, with no tables or filters. The manifest
-records the unchanged workbook hash, ordered headers and projected-record keys.
-Canonical source evidence remains separate. Registration does not itself run
-whole-ORCS enrichment or implement the ArrayExpress exporter.
+[Enrichment-Synthesis.xlsx](Enrichment-Synthesis.xlsx) is the approved header-only
+21-sheet combined review template. Its [manifest](Enrichment-Synthesis.manifest.json)
+registers 209 columns, source mappings, Publication Index links, display aliases,
+date convention and hash. The ORCS search, resource-specific and combined templates
+retain distinct purposes. See [the complete workflow](../../docs/complete-enrichment.md).
 
-`ENA-Enrichment.xlsx` is the owner-selected seven-sheet template, registered in
-`ENA-Enrichment.manifest.json`: Studies, Publications, Study hierarchy, Samples,
-Experiments, Runs and File listings. Search PMID and ENA PMID remain distinct.
-Experiments and Runs retain ENA's native terminology and do not imply qualifying
-CRISPR screens. The template is unchanged by population; omitted broad-project
-child counts stay blank and their scope decisions remain in canonical evidence.
+## Historical template preservation
+
+[Template history](template-history-20261018.zip) preserves the earlier default
+workbooks/registrations and the original review-v2 files byte-for-byte. The
+[history receipt](template-history-20261018.manifest.json) records original paths,
+ZIP members, hashes and approved-template relocations. Extract it into a separate
+working directory when a historical export requires its original schema; current
+commands do not depend on the ZIP or the retired review-v2 directory.
+
+Existing populated workbooks, historical execution manifests and source-code
+snapshots retain their original bytes and paths as scientific provenance. Changing
+a template's location does not require a new enrichment run or production export.

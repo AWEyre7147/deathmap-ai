@@ -1,26 +1,22 @@
 {
   "schema_version": "enrichment-template/1.0",
   "name": "ENA-Enrichment",
-  "template": "data/templates/ENA-Enrichment.xlsx",
-  "sha256": "1708948aa381c7c5332e26e8f7012bbf925b5e78ca18b2f9d756198fcba25cb6",
-  "status": "owner_selected",
-  "registered_utc": "2026-10-14T16:32:32.024991+00:00",
+  "template": "data\\templates\\ENA-Enrichment.xlsx",
+  "sha256": "78a0db536da7a099da0636565c914018791b2602d8b1bd6d8c40492b9991264f",
+  "status": "owner_requested_revision",
+  "registered_utc": "2026-10-17T00:08:09.377Z",
   "sheets": [
     {
       "name": "Studies",
       "headers": [
         "Study accession",
         "SRA study accession",
-        "Search PMID",
-        "ENA PMID",
         "Study title",
         "Organism",
-        "Native record type",
         "Samples in report",
         "Experiments in report",
         "Runs in report",
-        "Study description",
-        "Source URL"
+        "Study description"
       ],
       "header_row": 1,
       "first_data_row": 2,
@@ -29,62 +25,42 @@
         {
           "header": "Study accession",
           "source_key": "Study accession",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "SRA study accession",
           "source_key": "SRA study accession",
-          "width": 22.0
-        },
-        {
-          "header": "Search PMID",
-          "source_key": "ORCS PMID",
-          "width": 22.0
-        },
-        {
-          "header": "ENA PMID",
-          "source_key": "Native ENA PMID",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "Study title",
           "source_key": "Study title",
-          "width": 55.0
+          "width": 55
         },
         {
           "header": "Organism",
           "source_key": "Organism",
-          "width": 22.0
-        },
-        {
-          "header": "Native record type",
-          "source_key": "Native record type",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "Samples in report",
           "source_key": "Samples in report",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "Experiments in report",
           "source_key": "Experiments in report",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "Runs in report",
           "source_key": "Runs in report",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "Study description",
           "source_key": "Study description",
-          "width": 90.0
-        },
-        {
-          "header": "Source URL",
-          "source_key": "Source URL",
-          "width": 60.0
+          "width": 90
         }
       ]
     },
@@ -107,42 +83,42 @@
         {
           "header": "PMID",
           "source_key": "PMID",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "DOI",
           "source_key": "DOI",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "PMCID",
           "source_key": "PMCID",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "Publication title",
           "source_key": "Publication title",
-          "width": 55.0
+          "width": 55
         },
         {
           "header": "Authors",
           "source_key": "Authors",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "Journal",
           "source_key": "Journal",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "Publication date",
           "source_key": "Publication date",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "Retrieval result",
           "source_key": "Retrieval result",
-          "width": 22.0
+          "width": 22
         }
       ]
     },
@@ -160,17 +136,17 @@
         {
           "header": "Study accession",
           "source_key": "Study accession",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "Relationship",
           "source_key": "Relationship",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "Related study accession",
           "source_key": "Related study accession",
-          "width": 22.0
+          "width": 22
         }
       ]
     },
@@ -191,32 +167,32 @@
         {
           "header": "Sample accession",
           "source_key": "Sample accession",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "Sample title",
           "source_key": "Sample title",
-          "width": 55.0
+          "width": 55
         },
         {
           "header": "Sample description",
           "source_key": "Sample description",
-          "width": 90.0
+          "width": 90
         },
         {
           "header": "Organism",
           "source_key": "Organism",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "Reporting studies",
           "source_key": "Reporting studies",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "Run accessions",
           "source_key": "Run accessions",
-          "width": 22.0
+          "width": 22
         }
       ]
     },
@@ -243,62 +219,62 @@
         {
           "header": "Experiment accession",
           "source_key": "Experiment accession",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "Experiment title",
           "source_key": "Experiment title",
-          "width": 55.0
+          "width": 55
         },
         {
           "header": "Sample accession",
           "source_key": "Sample accession",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "Library strategy",
           "source_key": "Library strategy",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "Library source",
           "source_key": "Library source",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "Library selection",
           "source_key": "Library selection",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "Library layout",
           "source_key": "Library layout",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "Instrument platform",
           "source_key": "Instrument platform",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "Instrument model",
           "source_key": "Instrument model",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "Library construction protocol",
           "source_key": "Library construction protocol",
-          "width": 90.0
+          "width": 90
         },
         {
           "header": "Reporting studies",
           "source_key": "Reporting studies",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "Run accessions",
           "source_key": "Run accessions",
-          "width": 22.0
+          "width": 22
         }
       ]
     },
@@ -321,42 +297,42 @@
         {
           "header": "Run accession",
           "source_key": "Run accession",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "Native study accession",
           "source_key": "Native study accession",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "SRA study accession",
           "source_key": "SRA study accession",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "Sample accession",
           "source_key": "Sample accession",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "Experiment accession",
           "source_key": "Experiment accession",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "Read count",
           "source_key": "Read count",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "Base count",
           "source_key": "Base count",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "Reporting studies",
           "source_key": "Reporting studies",
-          "width": 22.0
+          "width": 22
         }
       ]
     },
@@ -380,47 +356,47 @@
         {
           "header": "Run accession",
           "source_key": "Run accession",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "Native study accession",
           "source_key": "Native study accession",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "Sample accession",
           "source_key": "Sample accession",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "Experiment accession",
           "source_key": "Experiment accession",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "File position",
           "source_key": "File position",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "Native FTP location",
           "source_key": "Native FTP location",
-          "width": 60.0
+          "width": 60
         },
         {
           "header": "MD5 checksum",
           "source_key": "MD5 checksum",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "Size (bytes)",
           "source_key": "Size (bytes)",
-          "width": 22.0
+          "width": 22
         },
         {
           "header": "File format",
           "source_key": "File format",
-          "width": 22.0
+          "width": 22
         }
       ]
     }
@@ -434,5 +410,7 @@
     "workbook": "outputs\\ena-ten-publications-20261013\\workbook-review\\ENA-Enrichment-Review.xlsx",
     "sha256": "2b805c97556edf125e34af4f8ebf44adf8ffe9fa2a590757898c387ad1b6f730"
   },
-  "projection_contract": "Rows grouped by source_table, with original keys retained in columns.source_key. Renamed headers do not change native evidence. Registration does not implement the full-ORCS exporter."
+  "projection_contract": "Rows grouped by source_table, with original keys retained in columns.source_key. Renamed headers do not change native evidence. Registration does not implement the full-ORCS exporter.",
+  "supersedes_for_future_exports": "data/templates/ENA-Enrichment.xlsx",
+  "publication_date_format": "YYYY-MM-DD literal text; retain partial precision"
 }

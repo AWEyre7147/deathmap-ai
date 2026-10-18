@@ -337,3 +337,6 @@ Repository-native metadata adapters may consume publication identifiers and acce
   adapter and single-publication checkpoint are implemented; broader metadata,
   template and full ORCS GEO database remain pending. SRA is deferred separately.
 - 2026-10-08 — Restructured existing requirements into the adopted template, preserved M1 point identifiers, clarified implemented versus planned behavior, and removed dependence on work-session specifications. No pipeline behavior or scientific filters changed.
+
+## 2026-10-18 accepted enrichment execution update
+The owner authorized maintained end-to-end scripts and one complete ORCS enrichment pass, including each repository workbook and final registered synthesis output. The implementation separates native retrieval stages from strictly offline synthesis/export. All 418 publications receive stable enrichment registry indices; missing PMIDs remain explicit. This does not authorize exact screen attribution, experimental downloads, benchmark-driven discovery, grouping, commits or publication. The versioned 20261018 execution preserves prior owner workbooks and native source packages.

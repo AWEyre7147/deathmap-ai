@@ -12,7 +12,7 @@ module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
 
 class PilotProfileTests(unittest.TestCase):
     def setUp(self):
-        self.profile=json.loads((ROOT/'searches/orcs/orcs-crispr-biological-classes-pilot-v01/profile.json').read_text(encoding='utf-8'))
+        self.profile=json.loads((ROOT/'searches/orcs/orcs-crispr-biological-classes-pilot-v01.json').read_text(encoding='utf-8'))
         self.columns={'screen':{'ORGANISM_OFFICIAL','LIBRARY_TYPE','CELL_TYPE','NOTES','SCREEN_RATIONALE'},
                       'publication':{'TITLE','ABSTRACT'},'annotation':{'category'}}
 
@@ -21,7 +21,7 @@ class PilotProfileTests(unittest.TestCase):
         # Tests must not recreate or depend on those abandoned configurations.
         names={'orcs-crispr-biological-classes-pilot-v01':4}
         for name,count in names.items():
-            p=json.loads((ROOT/'searches/orcs'/name/'profile.json').read_text(encoding='utf-8'))
+            p=json.loads((ROOT/'searches/orcs'/(name+'.json')).read_text(encoding='utf-8'))
             baseline=copy.deepcopy(p)
             self.assertEqual(module.validate_profile(p,self.columns),count)
             self.assertEqual(p,baseline)

@@ -20,8 +20,9 @@ from .orcs_fields import DIRECT,CROSSWALKS
 from .orcs_evidence_v6 import adapt
 from .evidence_model import build_evidence,validate_evidence,write_ledger
 
-PROFILE='searches/orcs/orcs-crispr-biological-classes-pilot-v01/profile.json'
-VERSION='orcs-profile-refresh-v1.1'
+PROFILE='searches/orcs/orcs-crispr-biological-classes-pilot-v01.json'
+VERSION='orcs-profile-refresh-v1.2'
+UNBOUNDED_PROFILE='searches/orcs/orcs-crispr-biological-classes-pilot-v02.json'
 
 
 def _hash(path):
@@ -93,12 +94,22 @@ def evaluate(screens,publications,annotations,profile):
         gates=[test_rule(n,native,ann) for n in profile['common_filters']]
         rules={r['rule_id']:test_rule(r['test'],native,ann) for r in profile['candidate_rules']}
         passed=[rid for rid,result in rules.items() if result['status']=='pass']
-        seed=all(g['status']=='pass' for g in gates) and bool(passed)
         key=_key(native);pub=pubs.get(key)
+        # Date bounds belong to the joined publication, never to a screen's
+        # retrieval date or an external validation inventory. Unknown years
+        # remain audited but cannot seed the bounded publication search.
+        bounds=profile.get('publication_year_range')
+        reported_date=(pub or {}).get('PUBLICATION_DATE')
+        match=re.match(r'^(\d{4})(?:\b|[-/])',str(reported_date or '').strip())
+        year=int(match[1]) if match else None
+        date_status='not_filtered' if bounds is None else ('missing' if year is None else
+                    'pass' if bounds['start'] <= year <= bounds['end'] else 'fail')
+        seed=all(g['status']=='pass' for g in gates) and bool(passed) and date_status in ('pass','not_filtered')
         item={'SCREEN_ID':sid,'native':native,'common_gates':gates,'candidate_rules':rules,
             'matched_rule_ids':passed,'common_filters_pass':all(g['status']=='pass' for g in gates),
             'role':'direct_rule_candidate' if seed else 'excluded','PUBLICATION_ID':pub['PUBLICATION_ID'] if pub else None,
-            'annotation_review_issues':(ann or {}).get('review_issues',[]),'publication_join_status':'direct' if pub else 'unresolved'}
+            'annotation_review_issues':(ann or {}).get('review_issues',[]),'publication_join_status':'direct' if pub else 'unresolved',
+            'publication_year_filter':{'status':date_status,'reported_date':reported_date,'year':year,'bounds':bounds}}
         audit.append(item)
         if seed and key and pub:anchors.setdefault(key,[]).append(sid)
     for item in audit:
@@ -153,9 +164,9 @@ def project(audit,publications):
 def execute(root,run_id=None,profile_path=PROFILE):
     """Validate, run and write a new offline CRISPR package; refuse existing output paths."""
     root=Path(root).resolve();profile_path=Path(profile_path).as_posix();profile=_read(root/profile_path)
-    allowed={PROFILE,'searches/orcs/cancer-cell-crispr-knockout-v01/profile.json','searches/orcs/cancer-cell-crispr-knockout-v02/profile.json'}
-    if profile_path not in allowed:raise ValueError('Only the three owner-authorized profiles are supported')
-    categorical=profile_path!=PROFILE
+    allowed={PROFILE,UNBOUNDED_PROFILE,'searches/orcs/cancer-cell-crispr-knockout-v01.json','searches/orcs/cancer-cell-crispr-knockout-v02.json'}
+    if profile_path not in allowed:raise ValueError('Only owner-authorized profiles are supported')
+    categorical=profile_path not in (PROFILE,UNBOUNDED_PROFILE)
     spec=importlib.util.spec_from_file_location('pilot_preflight',root/'scripts/validate_orcs_pilot_profiles.py')
     validator=importlib.util.module_from_spec(spec);spec.loader.exec_module(validator)
     preflight=validator.preflight(root,root/profile_path) if not categorical else {'profile_sha256':_hash(root/profile_path),'input_hashes':{v:_hash(root/v) for v in profile['input'].values()},'network_requests':0}
@@ -166,7 +177,8 @@ def execute(root,run_id=None,profile_path=PROFILE):
     if len(native)!=cache['screens_retrieved'] or len(pubs)!=pubmanifest['publication_count'] or anns['cache_sha256']!=_hash(root/profile['input']['screen_metadata']):raise ValueError('Catalog completeness or annotation hash mismatch')
     stamp=datetime.now(timezone.utc);run_id=run_id or stamp.strftime('%Y%m%dT%H%M%S%fZ')
     if not re.fullmatch(r'[A-Za-z0-9_-]+',run_id):raise ValueError('Unsafe run ID')
-    out=root/'outputs/orcs'/Path(profile_path).parent.name/run_id
+    # Flat profile filenames preserve the established per-search output namespace.
+    out=root/'outputs/orcs'/Path(profile_path).stem/run_id
     if out.exists():raise FileExistsError(out)
     # Existing outputs are frozen inputs to the preservation check, never seeds.
     preserve_paths=[p for folder in ['outputs','data/orcs','data/cellosaurus','data/templates'] for p in (root/folder).rglob('*') if p.is_file()]

@@ -42,7 +42,9 @@ Join screen-index SCREEN_ID to publication-screen-links SCREEN_ID, then links PU
 - [Publication source snapshots](publication-source/README.md): saved metadata headers, browse response, homepage observation and durable request receipts.
 - screen-index.manifest.json, download-receipt.json, relocation.json and cache-summary.json: original screen source provenance and verification.
 - metadata-service-vocabularies.json and its manifest: byte-exact saved service vocabulary snapshot.
-- website-capability/: previous small screen-page metadata feasibility sample.
+- The superseded five-screen website feasibility sample is externally archived
+  with unchanged bytes and a SHA-256/path receipt; production discovery does not
+  depend on it. See the current release-preparation note.
 
 The existing screen index and CSV were not changed by this task. No gene-level results, screen score endpoints, publication-screen downloads, supplementary contents or external bibliographic pages were retrieved.
 
@@ -51,11 +53,11 @@ The local collector is python -m deathmap_ai.orcs_publications with src on PYTHO
 
 For a later resource refresh, create a new dated collection and retain the original snapshot. The current collector implements this dated collection, not a generalized refresh scheduler.
 
-[Field-source map](../../docs/orcs/workbook-field-source-map.md) and [enrichment plan](../../docs/orcs/enrichment-plan.md) consider both complete catalogs. They plan future local joins; they do not enrich the previous search workbook.
+The [complete enrichment workflow](../../docs/complete-enrichment.md) documents independently runnable repository stages and offline synthesis. Shared catalogs remain independent of the saved search filters.
 
 ## [DB4] Completed PubMed enrichment
 
-The current publication index contains 418 records with 415 verified PMIDs. The shared [PubMed database](pubmed-enrichment.json), [Excel view](PubMed-Enrichment.xlsx), and [manifest](pubmed-enrichment.manifest.json) preserve retrieved publication metadata, direct GEO/BioProject associations, SRA accessions, MeSH pairs and unresolved entries. Three records without verified PMIDs remain unresolved. The earlier 412-PMID extraction counts above describe the source-page extraction before identifier enrichment. See [retrieval and interpretation](../../docs/pubmed-enrichment.md). Native batch responses and hashes are retained under `pubmed-enrichment-source/20261008/`.
+The current publication index contains 418 records with 415 verified PMIDs. The shared [PubMed database](pubmed-enrichment.json), [Excel view](PubMed-Enrichment.xlsx), and [manifest](pubmed-enrichment.manifest.json) preserve retrieved publication metadata, direct GEO/BioProject associations, SRA accessions, MeSH pairs and unresolved entries. Three records without verified PMIDs remain unresolved. The earlier 412-PMID extraction counts above describe the source-page extraction before identifier enrichment. See [retrieval and interpretation](../../docs/complete-enrichment.md). Native batch responses and hashes are retained under `pubmed-enrichment-source/20261008/`.
 
 ## [DB5] Completed GEO metadata enrichment
 
@@ -66,4 +68,7 @@ associations) and retrieved all 22,139 distinct GSM metadata records. The
 and [manifest](geo-enrichment.manifest.json) retain native metadata and candidate
 relationships; ownership and qualifying screen roles remain unassessed.
 [Native responses and receipts](geo-enrichment-source/20261011/README.md) are
-preserved separately. See [pipeline command and interpretation](../../docs/geo-orcs-enrichment.md).
+preserved separately. See [pipeline command and interpretation](../../docs/complete-enrichment.md).
+
+## [DB6] Complete enrichment and synthesis — 2026-10-18
+The [versioned complete run](enrichment-runs/20261018/README.md) starts from all 418 saved ORCS publications, produces each repository workbook and the final 21-sheet Enrichment-Synthesis workbook. It uses the [persistent enrichment publication registry](enrichment-publication-registry.json), including three publications without PMIDs. Previous shared databases and workbooks remain unchanged. Follow the [maintained commands](../../docs/complete-enrichment.md) to reproduce the stages without a ChatGPT-specific builder.

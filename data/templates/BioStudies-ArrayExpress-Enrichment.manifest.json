@@ -1,10 +1,10 @@
 {
   "schema_version": "enrichment-template/1.0",
   "name": "BioStudies-ArrayExpress-Enrichment",
-  "template": "data/templates/BioStudies-ArrayExpress-Enrichment.xlsx",
-  "sha256": "220c15a4f6afa23d5b5bc9516a5c9e56abec636ffa2723d39a4f47d378448583",
-  "status": "owner_finalized",
-  "registered_utc": "2026-10-11T23:13:48.744Z",
+  "template": "data\\templates\\BioStudies-ArrayExpress-Enrichment.xlsx",
+  "sha256": "74d19772b0e1f7390f16cd85f18f90e0e535fc4fdb35c112457f06bb3ea4fbf7",
+  "status": "owner_requested_revision",
+  "registered_utc": "2026-10-17T00:08:09.727Z",
   "sheets": [
     {
       "name": "Studies",
@@ -116,9 +116,12 @@
       "headers": [
         "Study accession",
         "Native protocol ID",
-        "Field",
-        "Original value",
-        "Value state"
+        "Description",
+        "Hardware",
+        "Name",
+        "Parameters",
+        "Software",
+        "Type"
       ],
       "header_row": 1,
       "first_data_row": 2,
@@ -133,16 +136,28 @@
           "source_key": "Native protocol ID"
         },
         {
-          "header": "Field",
-          "source_key": "Field"
+          "header": "Description",
+          "source_key": "Description"
         },
         {
-          "header": "Original value",
-          "source_key": "Original value"
+          "header": "Hardware",
+          "source_key": "Hardware"
         },
         {
-          "header": "Value state",
-          "source_key": "Value state"
+          "header": "Name",
+          "source_key": "Name"
+        },
+        {
+          "header": "Parameters",
+          "source_key": "Parameters"
+        },
+        {
+          "header": "Software",
+          "source_key": "Software"
+        },
+        {
+          "header": "Type",
+          "source_key": "Type"
         }
       ]
     },
@@ -150,11 +165,53 @@
       "name": "Sample metadata",
       "headers": [
         "Study accession",
-        "Native section type",
         "Native section ID",
-        "Field",
-        "Original value",
-        "Value state"
+        "Native section type",
+        "Age",
+        "Cell line",
+        "Cell type",
+        "Compound",
+        "Developmental stage",
+        "Disease",
+        "Dose",
+        "Experimental Designs",
+        "Experimental Factors",
+        "Gbm subtype",
+        "Genetic modification",
+        "Genotype",
+        "Infect",
+        "Isolate",
+        "Material type",
+        "No. of Samples",
+        "Organism",
+        "Organism part",
+        "RNA interference",
+        "Rna interference",
+        "Sample count",
+        "Sampling time point",
+        "Sex",
+        "Source",
+        "Stimulus",
+        "Strain",
+        "Time",
+        "age",
+        "cell line",
+        "cell type",
+        "compound",
+        "developmental stage",
+        "disease",
+        "gbm subtype",
+        "genetic modification",
+        "genotype",
+        "infect",
+        "isolate",
+        "material type",
+        "organism part",
+        "sampling time point",
+        "sex",
+        "stimulus",
+        "strain",
+        "time"
       ],
       "header_row": 1,
       "first_data_row": 2,
@@ -165,24 +222,192 @@
           "source_key": "Study accession"
         },
         {
-          "header": "Native section type",
-          "source_key": "Native section type"
-        },
-        {
           "header": "Native section ID",
           "source_key": "Native section ID"
         },
         {
-          "header": "Field",
-          "source_key": "Field"
+          "header": "Native section type",
+          "source_key": "Native section type"
         },
         {
-          "header": "Original value",
-          "source_key": "Original value"
+          "header": "Age",
+          "source_key": "Age"
         },
         {
-          "header": "Value state",
-          "source_key": "Value state"
+          "header": "Cell line",
+          "source_key": "Cell line"
+        },
+        {
+          "header": "Cell type",
+          "source_key": "Cell type"
+        },
+        {
+          "header": "Compound",
+          "source_key": "Compound"
+        },
+        {
+          "header": "Developmental stage",
+          "source_key": "Developmental stage"
+        },
+        {
+          "header": "Disease",
+          "source_key": "Disease"
+        },
+        {
+          "header": "Dose",
+          "source_key": "Dose"
+        },
+        {
+          "header": "Experimental Designs",
+          "source_key": "Experimental Designs"
+        },
+        {
+          "header": "Experimental Factors",
+          "source_key": "Experimental Factors"
+        },
+        {
+          "header": "Gbm subtype",
+          "source_key": "Gbm subtype"
+        },
+        {
+          "header": "Genetic modification",
+          "source_key": "Genetic modification"
+        },
+        {
+          "header": "Genotype",
+          "source_key": "Genotype"
+        },
+        {
+          "header": "Infect",
+          "source_key": "Infect"
+        },
+        {
+          "header": "Isolate",
+          "source_key": "Isolate"
+        },
+        {
+          "header": "Material type",
+          "source_key": "Material type"
+        },
+        {
+          "header": "No. of Samples",
+          "source_key": "No. of Samples"
+        },
+        {
+          "header": "Organism",
+          "source_key": "Organism"
+        },
+        {
+          "header": "Organism part",
+          "source_key": "Organism part"
+        },
+        {
+          "header": "RNA interference",
+          "source_key": "RNA interference"
+        },
+        {
+          "header": "Rna interference",
+          "source_key": "Rna interference"
+        },
+        {
+          "header": "Sample count",
+          "source_key": "Sample count"
+        },
+        {
+          "header": "Sampling time point",
+          "source_key": "Sampling time point"
+        },
+        {
+          "header": "Sex",
+          "source_key": "Sex"
+        },
+        {
+          "header": "Source",
+          "source_key": "Source"
+        },
+        {
+          "header": "Stimulus",
+          "source_key": "Stimulus"
+        },
+        {
+          "header": "Strain",
+          "source_key": "Strain"
+        },
+        {
+          "header": "Time",
+          "source_key": "Time"
+        },
+        {
+          "header": "age",
+          "source_key": "age"
+        },
+        {
+          "header": "cell line",
+          "source_key": "cell line"
+        },
+        {
+          "header": "cell type",
+          "source_key": "cell type"
+        },
+        {
+          "header": "compound",
+          "source_key": "compound"
+        },
+        {
+          "header": "developmental stage",
+          "source_key": "developmental stage"
+        },
+        {
+          "header": "disease",
+          "source_key": "disease"
+        },
+        {
+          "header": "gbm subtype",
+          "source_key": "gbm subtype"
+        },
+        {
+          "header": "genetic modification",
+          "source_key": "genetic modification"
+        },
+        {
+          "header": "genotype",
+          "source_key": "genotype"
+        },
+        {
+          "header": "infect",
+          "source_key": "infect"
+        },
+        {
+          "header": "isolate",
+          "source_key": "isolate"
+        },
+        {
+          "header": "material type",
+          "source_key": "material type"
+        },
+        {
+          "header": "organism part",
+          "source_key": "organism part"
+        },
+        {
+          "header": "sampling time point",
+          "source_key": "sampling time point"
+        },
+        {
+          "header": "sex",
+          "source_key": "sex"
+        },
+        {
+          "header": "stimulus",
+          "source_key": "stimulus"
+        },
+        {
+          "header": "strain",
+          "source_key": "strain"
+        },
+        {
+          "header": "time",
+          "source_key": "time"
         }
       ]
     },
@@ -190,11 +415,11 @@
       "name": "Assay metadata",
       "headers": [
         "Study accession",
-        "Native section type",
         "Native section ID",
-        "Field",
-        "Original value",
-        "Value state"
+        "Native section type",
+        "Assay by Molecule",
+        "Assay count",
+        "Technology"
       ],
       "header_row": 1,
       "first_data_row": 2,
@@ -205,24 +430,24 @@
           "source_key": "Study accession"
         },
         {
-          "header": "Native section type",
-          "source_key": "Native section type"
-        },
-        {
           "header": "Native section ID",
           "source_key": "Native section ID"
         },
         {
-          "header": "Field",
-          "source_key": "Field"
+          "header": "Native section type",
+          "source_key": "Native section type"
         },
         {
-          "header": "Original value",
-          "source_key": "Original value"
+          "header": "Assay by Molecule",
+          "source_key": "Assay by Molecule"
         },
         {
-          "header": "Value state",
-          "source_key": "Value state"
+          "header": "Assay count",
+          "source_key": "Assay count"
+        },
+        {
+          "header": "Technology",
+          "source_key": "Technology"
         }
       ]
     },
@@ -356,5 +581,7 @@
   "missing_values": "Blank; preserve reported empty/missing distinctions in Value state where present; no inferred repository citations",
   "evidence_policy": "Canonical metadata and raw evidence retained separately; workbook includes only owner-selected display fields",
   "date_policy": "No date columns in the final accepted template",
-  "projection_contract": "Projected record dictionaries keyed by registered headers, grouped under the registered source_table names. This registration does not implement the whole-ORCS enrichment or its exporter."
+  "projection_contract": "Projected record dictionaries keyed by registered headers, grouped under the registered source_table names. This registration does not implement the whole-ORCS enrichment or its exporter.",
+  "supersedes_for_future_exports": "data/templates/BioStudies-ArrayExpress-Enrichment.xlsx",
+  "publication_date_format": "YYYY-MM-DD literal text; retain partial precision"
 }

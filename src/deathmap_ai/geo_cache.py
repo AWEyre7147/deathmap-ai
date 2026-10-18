@@ -17,14 +17,15 @@ class _SavedNativeCache:
         self.base = Path(base)
         self.links, self.articles, self.summaries, self.titles = {}, {}, {}, {}
 
-    def _inventory(self, root):
+    def _inventory(self, root, cache_roots=()):
         """Validate eligible native receipts and index records independently of projections."""
         paths = sorted((root / 'data/orcs/pubmed-enrichment-source').glob('*/requests.json'))
         # Curated sources remain reusable after exploratory run directories are archived.
         paths += sorted((root / 'data/orcs/geo-enrichment-source').glob('**/requests.json'))
         paths += sorted((root / 'outputs/geo').glob('**/requests.json'))
+        paths += [p for cache in cache_roots for p in Path(cache).rglob('requests.json')]
         for receipts in paths:
-            for receipt in json.loads(receipts.read_text()):
+            for receipt in json.loads(receipts.read_text(encoding='utf-8-sig')):
                 member = receipt.get('file') or receipt.get('raw_file')
                 if not member or receipt.get('error') or not receipt.get('sha256') or receipt.get('parents'):
                     continue

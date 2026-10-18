@@ -2,12 +2,13 @@
 
 Exact native child-record duplicates are merged across overlapping study reports,
 while differing source values remain separate rows. Study associations preserve
-Search PMID versus ENA PMID. Missing evidence is blank; no screen classification
+native publication observations outside the selected study table. Missing evidence is blank; no screen classification
 or repository hierarchy traversal is introduced by this workbook projection.
 """
 from __future__ import annotations
 import json
 from itertools import zip_longest
+from .review_projection import hierarchy_rows, publication_date
 
 
 def _join(values):
@@ -42,10 +43,9 @@ def project(database):
     for accession, study in sorted(database['studies'].items()):
         sheets['Studies'].append({'Study accession': accession,
             'SRA study accession': _join(x for x in study['aliases'] if x.startswith(('SRP', 'ERP', 'DRP'))),
-            'ORCS PMID': _join(x.get('search_pmid') for x in study['associations']), 'Native ENA PMID': _join(study['pmids']),
-            'Study title': study['title'], 'Organism': _join(study['organism']), 'Native record type': study['native_record_type'],
+            'Study title': study['title'], 'Organism': _join(study['organism']),
             'Samples in report': study.get('sample_count'), 'Experiments in report': study.get('experiment_count'),
-            'Runs in report': study.get('run_count'), 'Study description': study['description'], 'Source URL': study['source_url']})
+            'Runs in report': study.get('run_count'), 'Study description': study['description']})
         for relation in study['hierarchy']:
             sheets['Study hierarchy'].append({'Study accession': accession, 'Relationship': relation['relationship'], 'Related study accession': relation['accession']})
         for index, row in enumerate(study['runs']):
@@ -64,7 +64,7 @@ def project(database):
             status += '; discovery incomplete'
         sheets['Publications'].append({'PMID': p.get('PMID'), 'DOI': p.get('DOI'), 'PMCID': p.get('PMCID'),
             'Publication title': p['TITLE'], 'Authors': p.get('AUTHORS'), 'Journal': p.get('JOURNAL'),
-            'Publication date': p.get('PUBLICATION_DATE'), 'Retrieval result': status})
+            'Publication date': publication_date(p.get('PUBLICATION_DATE')), 'Retrieval result': status})
     samples, experiments = {}, {}
     sample_keys = ['sample_accession', 'sample_title', 'sample_description', 'scientific_name']
     experiment_keys = ['experiment_accession', 'experiment_title', 'sample_accession', 'library_strategy', 'library_source',
@@ -95,4 +95,5 @@ def project(database):
             sheets[name].append(dict(zip(headers, values), **{'Reporting studies': _join(record['studies']), 'Run accessions': _join(record['runs'])}))
     for name in ('Runs', 'File listings'):
         sheets[name].sort(key=lambda r: (r['Run accession'], r.get('File position', 0)))
+    sheets['Study hierarchy'] = hierarchy_rows(sheets['Study hierarchy'], 'Study accession', 'Related study accession', 'ENA')
     return sheets

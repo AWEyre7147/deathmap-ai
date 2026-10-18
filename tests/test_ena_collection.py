@@ -25,9 +25,13 @@ class ENATests(unittest.TestCase):
             result = export_workbook(source, template, output)
             book = openpyxl.load_workbook(output)
             self.assertEqual(book['Studies']['A2'].value, 'PRJNA1')
-            self.assertEqual(book['Studies']['E2'].value, '=literal source')
-            self.assertEqual(book['Studies']['E2'].data_type, 's')
-            self.assertEqual(book['Studies']['J2'].value, 0)
+            # Bind assertions to native field names so approved column moves do
+            # not turn the literal-text and zero-count checks into stale offsets.
+            headers = [cell.value for cell in book['Studies'][1]]
+            title = book['Studies'].cell(2, headers.index('Study title') + 1)
+            self.assertEqual(title.value, '=literal source')
+            self.assertEqual(title.data_type, 's')
+            self.assertEqual(book['Studies'].cell(2, headers.index('Runs in report') + 1).value, 0)
             self.assertEqual(result['sheet_rows']['Studies'], 1)
             book.close()
 

@@ -1,8 +1,8 @@
 # DeathMap-AI v0.1
 
-A metadata discovery and curation pipeline for studies involving CRISPR perturbation. The completed ORCS milestone searches saved BioGRID ORCS metadata with structured filters and Cellosaurus interpretation. PubMed enrichment supplies a shared PMID-led metadata database and separate enrichment workbooks for all three saved ORCS searches. GEO enrichment supplies Series hierarchy, sample metadata and a shared ORCS database. BioStudies–ArrayExpress enrichment supplies study, protocol, sample and IDF/SDRF metadata. ENA enrichment adds native study and sequencing metadata with explicit broad-project omissions. OmicsDI discovery has been retired.
+A metadata discovery and curation pipeline for studies involving CRISPR perturbation. The completed ORCS milestone searches saved BioGRID ORCS metadata with structured filters and Cellosaurus interpretation. PubMed enrichment supplies a shared PMID-led metadata database and repository/publication associations. GEO enrichment supplies Series hierarchy, sample metadata and a shared ORCS database. BioStudies–ArrayExpress enrichment supplies study, protocol, sample and IDF/SDRF metadata. ENA enrichment adds native study and sequencing metadata with explicit broad-project omissions. OmicsDI discovery has been retired.
 
-The [biological-classes profile](searches/orcs/orcs-crispr-biological-classes-pilot-v01/profile.json) is the current scientific baseline. It retained 1,830 direct-rule candidates and 56 publication companions across 328 publications from 2,217 cached screens. The owner reported representation of 33/33 ORCS-present comparison publications. This publication-level result does not establish dataset availability or eligibility of every candidate.
+The biological-classes search has two current profiles: [v01, 2014–2022](searches/orcs/orcs-crispr-biological-classes-pilot-v01.json), retained 1,704 direct-rule candidates and 55 publication companions across 288 publications; [v02, without date bounds](searches/orcs/orcs-crispr-biological-classes-pilot-v02.json), retained 1,830 direct-rule candidates and 56 companions across 328 publications. Both use the same 2,217 cached screens. The owner reported representation of 33/33 ORCS-present comparison publications. This publication-level result does not establish dataset availability or eligibility of every candidate.
 
 ## Run locally
 
@@ -11,7 +11,7 @@ Python 3.11 or later, from the repository root:
 ```powershell
 python -m pip install -e ".[dev]"
 python -m pytest -q
-deathmap-search-orcs --profile searches/orcs/orcs-crispr-biological-classes-pilot-v01/profile.json
+deathmap-search-orcs --profile searches/orcs/orcs-crispr-biological-classes-pilot-v01.json
 ```
 
 Each execution writes canonical metadata to a new UTC-named folder under `outputs/orcs`. It does not refresh sources or download experimental files.
@@ -49,3 +49,9 @@ The ENA exporter reuses the existing Python template-preserving writer.
 Read the [current specifications](docs/specifications/README.md), [resource planning](docs/resources/README.md), and [documentation index](docs/index.md). Code is [MIT licensed](LICENSE); saved third-party metadata retains [upstream terms](THIRD_PARTY_NOTICES.md).
 
 Publication identifiers can be resolved independently of ORCS using `deathmap-resolve-publication`.
+
+An [offline enrichment synthesis pilot](docs/enrichment-synthesis.md) connects
+saved repository records through persistent publication indices. It preserves
+repository metadata separately and never launches enrichment automatically.
+
+The [complete ORCS enrichment workflow](docs/complete-enrichment.md) is available as independently runnable Python stages (deathmap-enrichment-stage). It produces PubMed, GEO, ArrayExpress and ENA workbooks, then fills the registered synthesis template from saved canonical results. The portable exporter requires no ChatGPT, Codex or Node runtime. See [the 2026-10-18 complete run](data/orcs/enrichment-runs/20261018/README.md).

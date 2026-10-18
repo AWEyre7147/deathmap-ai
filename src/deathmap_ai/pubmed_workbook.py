@@ -13,6 +13,7 @@ import re
 import zipfile
 import xml.etree.ElementTree as ET
 import openpyxl
+from .review_projection import publication_date
 from openpyxl.utils import get_column_letter
 
 NS = 'http://schemas.openxmlformats.org/spreadsheetml/2006/main'
@@ -32,15 +33,10 @@ def date_text(value):
     Returns
     -------
     str
-        MM;DD;YYYY, MM;YYYY, or the original year/free-text value. Missing
+        YYYY-MM-DD, YYYY-MM, or the original year/free-text value. Missing
         components are never inferred; this is not an Excel numeric date.
     """
-    if re.fullmatch(r'\d{4}-\d{2}-\d{2}', value):
-        return date.fromisoformat(value).strftime('%m;%d;%Y')
-    if re.fullmatch(r'\d{4}-\d{2}', value):
-        year, month = value.split('-')
-        return f'{month};{year}'
-    return value
+    return publication_date(value)
 
 
 def subset_rows(database, pmids):

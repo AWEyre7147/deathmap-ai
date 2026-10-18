@@ -24,10 +24,11 @@ import argparse
 class _Collection:
     """Isolate one serial, resumable collection's inputs, caches and checkpoints."""
 
-    def __init__(self, index, base, root):
+    def __init__(self, index, base, root, cache_roots=()):
         self.index, self.base, self.root = Path(index).resolve(), Path(base).resolve(), Path(root).resolve()
         self.base.mkdir(parents=True, exist_ok=True)
         self.keys, self.cache = [], {}
+        self.cache_roots = list(cache_roots)
         self.started, self.original_get = time.monotonic(), geo._Requests.get
         self.native = _SavedNativeCache(self.base)
         saved = self.base / 'selected-publications.json'
@@ -52,10 +53,11 @@ class _Collection:
 
     def _cache_inventory(self):
         """Index receipts only; verify saved bytes when a matching response is reused."""
-        self.native._inventory(self.root)
+        self.native._inventory(self.root, self.cache_roots)
         # Keep exact GEO response reuse independent of temporary development runs.
         paths = sorted((self.root / 'data/orcs/geo-enrichment-source').glob('**/requests.json'))
         paths += sorted((self.root / 'outputs/geo').glob('**/requests.json'))
+        paths += [p for cache in self.cache_roots for p in Path(cache).rglob('requests.json')]
         for path in paths:
             for receipt in self._load(path):
                 member = receipt.get('file') or receipt.get('raw_file')
@@ -335,6 +337,16 @@ class _Collection:
         issues = self._load(self.base / 'issues.json')
         if issues:
             tables['Retrieval Issues'] = issues
+        # Review removes redundant inverse claims; native series fields above
+        # and the canonical source package still preserve each original claim.
+        from .review_projection import hierarchy_rows
+        tables['Series Hierarchy'] = hierarchy_rows(tables['Series Hierarchy'], 'GSE', 'Related GSE', 'GEO')
+        for row in tables['Series Records']:
+            row.pop('citation', None)
+        for name, identifier in (('Repository Identifiers', 'Identifier'), ('Sample Metadata', 'GSM')):
+            tables[name] = [{key: row.get(key) for key in ('PMID', identifier)} |
+                            {key: value for key, value in row.items() if key not in ('PMID', identifier)}
+                            for row in tables[name]]
         self._save('workbook-data.json', tables)
         verification = {'sheet_rows': {name: len(rows) for name, rows in tables.items()},
                         'unique_gses': len(series), 'unique_gsms': len(samples), 'pmids': list(results),
@@ -372,7 +384,7 @@ class _Collection:
             tables['Contributors and Contacts'].append(row)
 
 
-def enrich_collection(publication_index, output_dir, *, repository_root=None, phase='all', template=None):
+def enrich_collection(publication_index, output_dir, *, repository_root=None, phase='all', template=None, cache_roots=()):
     """Run or resume a GEO metadata collection using the approved repository template.
 
     Parameters
@@ -416,7 +428,7 @@ def enrich_collection(publication_index, output_dir, *, repository_root=None, ph
         raise ValueError('Unknown GEO collection phase')
     index = Path(publication_index).resolve()
     root = Path(repository_root).resolve() if repository_root else index.parents[2]
-    collection = _Collection(index, output_dir, root)
+    collection = _Collection(index, output_dir, root, cache_roots)
     if phase in ('all', 'discover'):
         collection._discover()
         if collection._load(collection.base / 'issues.json'):

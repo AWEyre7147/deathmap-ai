@@ -1,10 +1,10 @@
 {
   "schema_version": "enrichment-template/1.0",
   "name": "PubMed Enrichment",
-  "template": "data/templates/PubMed-Enrichment.xlsx",
-  "sha256": "09eb7ebf94645e4ee5b2b631b5c2e025e4b58ddf4a48925d79dbc98e3d03cfbb",
-  "status": "owner_finalized",
-  "registered_utc": "2026-10-11T17:37:25.034334+00:00",
+  "template": "data\\templates\\PubMed-Enrichment.xlsx",
+  "sha256": "646280cea1aa2c1827240b26f39f2a38670606e7dfed96e2f83df50f81bfd8af",
+  "status": "owner_requested_revision",
+  "registered_utc": "2026-10-17T00:08:07.423Z",
   "sheets": [
     {
       "name": "Publication",
@@ -219,5 +219,7 @@
     "Reported Data Type",
     "Title",
     "Description"
-  ]
+  ],
+  "supersedes_for_future_exports": "data/templates/PubMed-Enrichment.xlsx",
+  "publication_date_format": "YYYY-MM-DD literal text; retain partial precision"
 }

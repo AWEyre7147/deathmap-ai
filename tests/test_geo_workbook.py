@@ -14,9 +14,8 @@ MANIFEST = TEMPLATE.with_suffix('.manifest.json')
 
 class GeoWorkbookTests(unittest.TestCase):
     def setUp(self):
-        folder = ROOT / 'outputs/geo/template-test-temp'
-        folder.mkdir(parents=True, exist_ok=True)
-        self.directory = tempfile.TemporaryDirectory(dir=folder)
+        # Use a self-cleaning workspace without recreating retired GEO run folders.
+        self.directory = tempfile.TemporaryDirectory(dir=ROOT / 'outputs')
         self.addCleanup(self.directory.cleanup)
         self.output = Path(self.directory.name) / 'fixture.xlsx'
         self.tables = {

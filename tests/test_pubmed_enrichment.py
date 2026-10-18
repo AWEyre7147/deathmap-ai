@@ -8,8 +8,8 @@ from deathmap_ai.pubmed_workbook import date_text, subset_rows, validate_namespa
 
 
 def test_dates_keep_source_precision():
-    assert date_text('2014-01-03') == '01;03;2014'
-    assert date_text('2016-06') == '06;2016'
+    assert date_text('2014-01-03') == '2014-01-03'
+    assert date_text('2016-06') == '2016-06'
     assert date_text('2020') == '2020'
     assert date_text('2020 Spring') == '2020 Spring'
 

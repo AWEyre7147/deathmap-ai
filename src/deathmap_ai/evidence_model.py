@@ -35,7 +35,7 @@ def display_value(value, target=300):
 def v6_allowed(profile_id, profile_version, profile_schema=None):
     """Allow later outputs and the owner-authorized new CRISPR pilot family."""
     return profile_id == 'orcs-cancer-cell-crispr-knockout-v01' or profile_version >= 2 or (profile_schema == 'deathmap-orcs-pilot-profile/1.0' and
-        profile_id == 'orcs-crispr-biological-classes-pilot-v01')
+        profile_id in ('orcs-crispr-biological-classes-pilot-v01', 'orcs-crispr-biological-classes-pilot-v02'))
 
 
 def build_evidence(observations, *, run_id, profile_id, profile_version, tool=None, profile_schema=None, first_index=1):

@@ -1,0 +1,65 @@
+{
+  "template": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\templates\\review-v2\\BioStudies-ArrayExpress-Enrichment.xlsx",
+  "template_sha256": "74d19772b0e1f7390f16cd85f18f90e0e535fc4fdb35c112457f06bb3ea4fbf7",
+  "output": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\enrichment-runs\\20261018\\arrayexpress\\BioStudies-ArrayExpress-Enrichment.xlsx",
+  "workbook_sha256": "084d121398ad07d83c5c9ab411738c240efd99f71557e2b97118312570244c15",
+  "sheet_rows": {
+    "Studies": 10,
+    "Repository citations": 5,
+    "Protocols": 46,
+    "Sample metadata": 96,
+    "Assay metadata": 10,
+    "File listings": 39,
+    "SDRF metadata": 4642,
+    "IDF metadata": 1180
+  },
+  "verified_cells": 43838,
+  "writer": "streamed-template-XML/1",
+  "publications_processed": 418,
+  "publications_with_candidates": 10,
+  "candidate_accessions": 10,
+  "arrayexpress_studies": 10,
+  "publication_study_associations": 11,
+  "incomplete_publications": 0,
+  "failed_studies": 0,
+  "metadata_file_issues": 0,
+  "metadata_files": 20,
+  "route_states": [
+    {
+      "route": "europepmc_annotations",
+      "status": "complete",
+      "publications": 5
+    },
+    {
+      "route": "europepmc_annotations",
+      "status": "no_results",
+      "publications": 410
+    },
+    {
+      "route": "europepmc_annotations",
+      "status": "skipped_missing_identifier",
+      "publications": 3
+    },
+    {
+      "route": "native_complete_title",
+      "status": "complete",
+      "publications": 5
+    },
+    {
+      "route": "native_complete_title",
+      "status": "no_results",
+      "publications": 413
+    }
+  ],
+  "distinct_candidates_by_route": {
+    "native_complete_title": 5,
+    "europepmc_annotations": 5
+  },
+  "live_attempts": 0,
+  "cached_responses": 863,
+  "stage": "arrayexpress",
+  "completed_utc": "2026-10-18T21:04:04.910683+00:00",
+  "publication_index": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\publication-index.json",
+  "publication_index_sha256": "63cb33b7095108e7a0776950e9c258e7b65fe148ca6b12ae75cd4dd914ad6c89",
+  "command_code_sha256": "23d794aa028264e43ef2c10b948ed130df4b73f3c247bc4c8921678adb18cc64"
+}

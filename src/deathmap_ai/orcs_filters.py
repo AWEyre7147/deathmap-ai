@@ -18,7 +18,7 @@ from pathlib import Path
 from .orcs_paths import resolve_historical
 
 VERSION = 'orcs-filter-v1.0'
-PROFILE = 'searches/orcs/cancer-cell-crispr-knockout-v01/profile.json'
+PROFILE = 'searches/orcs/cancer-cell-crispr-knockout-v01.json'
 CACHE = 'data/orcs/screen-index.json'
 ANNOTATIONS = 'data/cellosaurus/orcs-annotations/annotations.json'
 EXPECTED = {'CELL_LINE': ['Cancer cell line'], 'ENZYME': ['Cas9'],

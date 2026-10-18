@@ -1,0 +1,1504 @@
+{
+  "schema_version": "enrichment-template/1.0",
+  "name": "Enrichment-Synthesis",
+  "template": "data/templates/Enrichment-Synthesis.xlsx",
+  "status": "owner_approved_layout",
+  "approved_date": "2026-10-18",
+  "source_workbook": "outputs\\enrichment-synthesis-five-20261018-r2\\Enrichment-Synthesis-Pilot.xlsx",
+  "source_workbook_sha256": "a8c6b1789beae76beae91200d6ac4301e27bdcd6b25926c34034c11b3e2cbd4e",
+  "publication_key": "Publication Index",
+  "publication_date_format": "YYYY-MM-DD literal text; retain reported partial precision",
+  "display_value_aliases": {
+    "BioProject": "NCBI BioProject",
+    "BioSample": "NCBI BioSample"
+  },
+  "sheets": [
+    {
+      "name": "Publications",
+      "headers": [
+        "Publication Index",
+        "PMID",
+        "DOI",
+        "PMCID",
+        "Publication Title",
+        "Authors",
+        "Journal",
+        "Publication Date"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Publications",
+      "native_source_table": "Publications",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "native_source_key": "Publication index"
+        },
+        {
+          "header": "PMID",
+          "source_key": "PMID",
+          "native_source_key": "PMID"
+        },
+        {
+          "header": "DOI",
+          "source_key": "DOI",
+          "native_source_key": "DOI"
+        },
+        {
+          "header": "PMCID",
+          "source_key": "PMCID",
+          "native_source_key": "PMCID"
+        },
+        {
+          "header": "Publication Title",
+          "source_key": "Publication Title",
+          "native_source_key": "Publication title"
+        },
+        {
+          "header": "Authors",
+          "source_key": "Authors",
+          "native_source_key": "Authors"
+        },
+        {
+          "header": "Journal",
+          "source_key": "Journal",
+          "native_source_key": "Journal"
+        },
+        {
+          "header": "Publication Date",
+          "source_key": "Publication Date",
+          "native_source_key": "Publication date"
+        }
+      ]
+    },
+    {
+      "name": "PUB-Repository Links",
+      "headers": [
+        "Publication Index",
+        "Repository",
+        "Accession"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "PUB-Repository Links",
+      "native_source_table": "Publication-repository links",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "native_source_key": "Publication index"
+        },
+        {
+          "header": "Repository",
+          "source_key": "Repository",
+          "native_source_key": "Repository"
+        },
+        {
+          "header": "Accession",
+          "source_key": "Accession",
+          "native_source_key": "Accession"
+        }
+      ]
+    },
+    {
+      "name": "PubMed-Repository Links",
+      "headers": [
+        "Publication Index",
+        "Accession",
+        "Repository",
+        "Title",
+        "Description",
+        "Native Entity Level",
+        "Reported Data Type"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "PubMed-Repository Links",
+      "native_source_table": "PubMed - Repository Records",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "native_source_key": "Publication index"
+        },
+        {
+          "header": "Accession",
+          "source_key": "Accession",
+          "native_source_key": "Accession"
+        },
+        {
+          "header": "Repository",
+          "source_key": "Repository",
+          "native_source_key": "Resource"
+        },
+        {
+          "header": "Title",
+          "source_key": "Title",
+          "native_source_key": "Title"
+        },
+        {
+          "header": "Description",
+          "source_key": "Description",
+          "native_source_key": "Description"
+        },
+        {
+          "header": "Native Entity Level",
+          "source_key": "Native Entity Level",
+          "native_source_key": "Native Entity Level"
+        },
+        {
+          "header": "Reported Data Type",
+          "source_key": "Reported Data Type",
+          "native_source_key": "Reported Data Type"
+        }
+      ]
+    },
+    {
+      "name": "PubMed-SRA Links",
+      "headers": [
+        "Publication Index",
+        "PubMed Study",
+        "PubMed Sample",
+        "PubMed Experiment",
+        "PubMed Run",
+        "NCBI BioProject",
+        "NCBI BioSample"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "PubMed-SRA Links",
+      "native_source_table": "PubMed - SRA Accessions",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "native_source_key": "Publication index"
+        },
+        {
+          "header": "PubMed Study",
+          "source_key": "PubMed Study",
+          "native_source_key": "Study Accession"
+        },
+        {
+          "header": "PubMed Sample",
+          "source_key": "PubMed Sample",
+          "native_source_key": "Sample Accession"
+        },
+        {
+          "header": "PubMed Experiment",
+          "source_key": "PubMed Experiment",
+          "native_source_key": "Experiment Accession"
+        },
+        {
+          "header": "PubMed Run",
+          "source_key": "PubMed Run",
+          "native_source_key": "Run Accession"
+        },
+        {
+          "header": "NCBI BioProject",
+          "source_key": "NCBI BioProject",
+          "native_source_key": "BioProject Accession"
+        },
+        {
+          "header": "NCBI BioSample",
+          "source_key": "NCBI BioSample",
+          "native_source_key": "BioSample Accession"
+        }
+      ]
+    },
+    {
+      "name": "PubMed-MeSH Terms",
+      "headers": [
+        "Descriptor UI",
+        "Descriptor",
+        "Qualifier UI",
+        "Qualifier",
+        "Publication Indices"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "PubMed-MeSH Terms",
+      "native_source_table": "PubMed - MeSH",
+      "columns": [
+        {
+          "header": "Descriptor UI",
+          "source_key": "Descriptor UI",
+          "native_source_key": "Descriptor UI"
+        },
+        {
+          "header": "Descriptor",
+          "source_key": "Descriptor",
+          "native_source_key": "Descriptor"
+        },
+        {
+          "header": "Qualifier UI",
+          "source_key": "Qualifier UI",
+          "native_source_key": "Qualifier UI"
+        },
+        {
+          "header": "Qualifier",
+          "source_key": "Qualifier",
+          "native_source_key": "Qualifier"
+        },
+        {
+          "header": "Publication Indices",
+          "source_key": "Publication Indices",
+          "native_source_key": "Publication indices"
+        }
+      ]
+    },
+    {
+      "name": "PubMed-MeSH Links",
+      "headers": [
+        "Publication Index",
+        "Descriptor UI",
+        "Descriptor Major Topic",
+        "Qualifier UI",
+        "Qualifier Major Topic"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "PubMed-MeSH Links",
+      "native_source_table": "PubMed - MeSH Links",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "native_source_key": "Publication index"
+        },
+        {
+          "header": "Descriptor UI",
+          "source_key": "Descriptor UI",
+          "native_source_key": "Descriptor UI"
+        },
+        {
+          "header": "Descriptor Major Topic",
+          "source_key": "Descriptor Major Topic",
+          "native_source_key": "Descriptor Major Topic"
+        },
+        {
+          "header": "Qualifier UI",
+          "source_key": "Qualifier UI",
+          "native_source_key": "Qualifier UI"
+        },
+        {
+          "header": "Qualifier Major Topic",
+          "source_key": "Qualifier Major Topic",
+          "native_source_key": "Qualifier Major Topic"
+        }
+      ]
+    },
+    {
+      "name": "GEO Series Records",
+      "headers": [
+        "Publication Index",
+        "GEO Study",
+        "Platform Organism",
+        "Platform TaxID",
+        "Sample Organism",
+        "Sample TaxID",
+        "Sample Count",
+        "Title",
+        "Summary",
+        "Overall Design",
+        "Type"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "GEO Series Records",
+      "native_source_table": "GEO - Series Records",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "native_source_key": "Publication index"
+        },
+        {
+          "header": "GEO Study",
+          "source_key": "GEO Study",
+          "native_source_key": "geo_accession"
+        },
+        {
+          "header": "Platform Organism",
+          "source_key": "Platform Organism",
+          "native_source_key": "platform_organism"
+        },
+        {
+          "header": "Platform TaxID",
+          "source_key": "Platform TaxID",
+          "native_source_key": "platform_taxid"
+        },
+        {
+          "header": "Sample Organism",
+          "source_key": "Sample Organism",
+          "native_source_key": "sample_organism"
+        },
+        {
+          "header": "Sample TaxID",
+          "source_key": "Sample TaxID",
+          "native_source_key": "sample_taxid"
+        },
+        {
+          "header": "Sample Count",
+          "source_key": "Sample Count",
+          "native_source_key": "sample_count"
+        },
+        {
+          "header": "Title",
+          "source_key": "Title",
+          "native_source_key": "title"
+        },
+        {
+          "header": "Summary",
+          "source_key": "Summary",
+          "native_source_key": "summary"
+        },
+        {
+          "header": "Overall Design",
+          "source_key": "Overall Design",
+          "native_source_key": "overall_design"
+        },
+        {
+          "header": "Type",
+          "source_key": "Type",
+          "native_source_key": "type"
+        }
+      ]
+    },
+    {
+      "name": "GEO Series Hierarchy",
+      "headers": [
+        "Publication Index",
+        "GEO Study",
+        "Relationship",
+        "Related GEO Study"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "GEO Series Hierarchy",
+      "native_source_table": "GEO - Series Hierarchy",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "native_source_key": "Publication index"
+        },
+        {
+          "header": "GEO Study",
+          "source_key": "GEO Study",
+          "native_source_key": "GSE"
+        },
+        {
+          "header": "Relationship",
+          "source_key": "Relationship",
+          "native_source_key": "Relationship"
+        },
+        {
+          "header": "Related GEO Study",
+          "source_key": "Related GEO Study",
+          "native_source_key": "Related GSE"
+        }
+      ]
+    },
+    {
+      "name": "GEO Repository Links",
+      "headers": [
+        "Publication Index",
+        "GEO Study",
+        "Accession",
+        "GEO Sample",
+        "GEO Level",
+        "Resource",
+        "GEO Field"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "GEO Repository Links",
+      "native_source_table": "GEO - Repository Identifiers",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "native_source_key": "Publication index"
+        },
+        {
+          "header": "GEO Study",
+          "source_key": "GEO Study",
+          "native_source_key": "GSE"
+        },
+        {
+          "header": "Accession",
+          "source_key": "Accession",
+          "native_source_key": "Identifier"
+        },
+        {
+          "header": "GEO Sample",
+          "source_key": "GEO Sample",
+          "native_source_key": "GSM"
+        },
+        {
+          "header": "GEO Level",
+          "source_key": "GEO Level",
+          "native_source_key": "Entity Level"
+        },
+        {
+          "header": "Resource",
+          "source_key": "Resource",
+          "native_source_key": "Resource"
+        },
+        {
+          "header": "GEO Field",
+          "source_key": "GEO Field",
+          "native_source_key": "Native Field"
+        }
+      ]
+    },
+    {
+      "name": "GEO Sample Records",
+      "headers": [
+        "Publication Index",
+        "GEO Sample",
+        "GEO Study",
+        "Type",
+        "Title",
+        "Source Name",
+        "Organism",
+        "TaxID",
+        "Characteristics",
+        "Treatment Protocol",
+        "Growth Protocol",
+        "Molecule",
+        "Extract Protocol",
+        "Description",
+        "Data Processing",
+        "Platform ID",
+        "Instrument Model",
+        "Library Selection",
+        "Library Source",
+        "Library Strategy",
+        "Label",
+        "Label Protocol",
+        "Hyb Protocol",
+        "Scan Protocol"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "GEO Sample Records",
+      "native_source_table": "GEO - Sample Metadata",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "native_source_key": "Publication index"
+        },
+        {
+          "header": "GEO Sample",
+          "source_key": "GEO Sample",
+          "native_source_key": "GSM"
+        },
+        {
+          "header": "GEO Study",
+          "source_key": "GEO Study",
+          "native_source_key": "GSE"
+        },
+        {
+          "header": "Type",
+          "source_key": "Type",
+          "native_source_key": "type"
+        },
+        {
+          "header": "Title",
+          "source_key": "Title",
+          "native_source_key": "title"
+        },
+        {
+          "header": "Source Name",
+          "source_key": "Source Name",
+          "native_source_key": "source_name_ch1"
+        },
+        {
+          "header": "Organism",
+          "source_key": "Organism",
+          "native_source_key": "organism_ch1"
+        },
+        {
+          "header": "TaxID",
+          "source_key": "TaxID",
+          "native_source_key": "taxid_ch1"
+        },
+        {
+          "header": "Characteristics",
+          "source_key": "Characteristics",
+          "native_source_key": "characteristics_ch1"
+        },
+        {
+          "header": "Treatment Protocol",
+          "source_key": "Treatment Protocol",
+          "native_source_key": "treatment_protocol_ch1"
+        },
+        {
+          "header": "Growth Protocol",
+          "source_key": "Growth Protocol",
+          "native_source_key": "growth_protocol_ch1"
+        },
+        {
+          "header": "Molecule",
+          "source_key": "Molecule",
+          "native_source_key": "molecule_ch1"
+        },
+        {
+          "header": "Extract Protocol",
+          "source_key": "Extract Protocol",
+          "native_source_key": "extract_protocol_ch1"
+        },
+        {
+          "header": "Description",
+          "source_key": "Description",
+          "native_source_key": "description"
+        },
+        {
+          "header": "Data Processing",
+          "source_key": "Data Processing",
+          "native_source_key": "data_processing"
+        },
+        {
+          "header": "Platform ID",
+          "source_key": "Platform ID",
+          "native_source_key": "platform_id"
+        },
+        {
+          "header": "Instrument Model",
+          "source_key": "Instrument Model",
+          "native_source_key": "instrument_model"
+        },
+        {
+          "header": "Library Selection",
+          "source_key": "Library Selection",
+          "native_source_key": "library_selection"
+        },
+        {
+          "header": "Library Source",
+          "source_key": "Library Source",
+          "native_source_key": "library_source"
+        },
+        {
+          "header": "Library Strategy",
+          "source_key": "Library Strategy",
+          "native_source_key": "library_strategy"
+        },
+        {
+          "header": "Label",
+          "source_key": "Label",
+          "native_source_key": "label_ch1"
+        },
+        {
+          "header": "Label Protocol",
+          "source_key": "Label Protocol",
+          "native_source_key": "label_protocol_ch1"
+        },
+        {
+          "header": "Hyb Protocol",
+          "source_key": "Hyb Protocol",
+          "native_source_key": "hyb_protocol"
+        },
+        {
+          "header": "Scan Protocol",
+          "source_key": "Scan Protocol",
+          "native_source_key": "scan_protocol"
+        }
+      ]
+    },
+    {
+      "name": "ENA Study Records",
+      "headers": [
+        "Publication Index",
+        "ENA Study",
+        "SRA Accession",
+        "Organism",
+        "Samples",
+        "Experiments",
+        "Runs",
+        "Study Title",
+        "Study Description"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "ENA Study Records",
+      "native_source_table": "ENA - Studies",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "native_source_key": "Publication index"
+        },
+        {
+          "header": "ENA Study",
+          "source_key": "ENA Study",
+          "native_source_key": "Study accession"
+        },
+        {
+          "header": "SRA Accession",
+          "source_key": "SRA Accession",
+          "native_source_key": "SRA study accession"
+        },
+        {
+          "header": "Organism",
+          "source_key": "Organism",
+          "native_source_key": "Organism"
+        },
+        {
+          "header": "Samples",
+          "source_key": "Samples",
+          "native_source_key": "Samples in report"
+        },
+        {
+          "header": "Experiments",
+          "source_key": "Experiments",
+          "native_source_key": "Experiments in report"
+        },
+        {
+          "header": "Runs",
+          "source_key": "Runs",
+          "native_source_key": "Runs in report"
+        },
+        {
+          "header": "Study Title",
+          "source_key": "Study Title",
+          "native_source_key": "Study title"
+        },
+        {
+          "header": "Study Description",
+          "source_key": "Study Description",
+          "native_source_key": "Study description"
+        }
+      ]
+    },
+    {
+      "name": "ENA Study Hierarchy",
+      "headers": [
+        "Publication Index",
+        "ENA Study",
+        "Relationship",
+        "Related ENA Study"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "ENA Study Hierarchy",
+      "native_source_table": "ENA - Study hierarchy",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "native_source_key": "Publication index"
+        },
+        {
+          "header": "ENA Study",
+          "source_key": "ENA Study",
+          "native_source_key": "Study accession"
+        },
+        {
+          "header": "Relationship",
+          "source_key": "Relationship",
+          "native_source_key": "Relationship"
+        },
+        {
+          "header": "Related ENA Study",
+          "source_key": "Related ENA Study",
+          "native_source_key": "Related study accession"
+        }
+      ]
+    },
+    {
+      "name": "ENA Sample Records",
+      "headers": [
+        "Publication Index",
+        "ENA Sample",
+        "Reported ENA Studies",
+        "ENA Runs",
+        "Sample Title",
+        "Sample Description",
+        "Organism"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "ENA Sample Records",
+      "native_source_table": "ENA - Samples",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "native_source_key": "Publication index"
+        },
+        {
+          "header": "ENA Sample",
+          "source_key": "ENA Sample",
+          "native_source_key": "Sample accession"
+        },
+        {
+          "header": "Reported ENA Studies",
+          "source_key": "Reported ENA Studies",
+          "native_source_key": "Reporting studies"
+        },
+        {
+          "header": "ENA Runs",
+          "source_key": "ENA Runs",
+          "native_source_key": "Run accessions"
+        },
+        {
+          "header": "Sample Title",
+          "source_key": "Sample Title",
+          "native_source_key": "Sample title"
+        },
+        {
+          "header": "Sample Description",
+          "source_key": "Sample Description",
+          "native_source_key": "Sample description"
+        },
+        {
+          "header": "Organism",
+          "source_key": "Organism",
+          "native_source_key": "Organism"
+        }
+      ]
+    },
+    {
+      "name": "ENA Experiment Records",
+      "headers": [
+        "Publication Index",
+        "ENA Experiment",
+        "ENA Sample",
+        "Reported ENA Studies",
+        "ENA Run",
+        "Experiment Title",
+        "Library Strategy",
+        "Library Source",
+        "Library Selection",
+        "Library Layout",
+        "Instrument Platform",
+        "Instrument Model",
+        "Library Construction Protocol"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "ENA Experiment Records",
+      "native_source_table": "ENA - Experiments",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "native_source_key": "Publication index"
+        },
+        {
+          "header": "ENA Experiment",
+          "source_key": "ENA Experiment",
+          "native_source_key": "Experiment accession"
+        },
+        {
+          "header": "ENA Sample",
+          "source_key": "ENA Sample",
+          "native_source_key": "Sample accession"
+        },
+        {
+          "header": "Reported ENA Studies",
+          "source_key": "Reported ENA Studies",
+          "native_source_key": "Reporting studies"
+        },
+        {
+          "header": "ENA Run",
+          "source_key": "ENA Run",
+          "native_source_key": "Run accessions"
+        },
+        {
+          "header": "Experiment Title",
+          "source_key": "Experiment Title",
+          "native_source_key": "Experiment title"
+        },
+        {
+          "header": "Library Strategy",
+          "source_key": "Library Strategy",
+          "native_source_key": "Library strategy"
+        },
+        {
+          "header": "Library Source",
+          "source_key": "Library Source",
+          "native_source_key": "Library source"
+        },
+        {
+          "header": "Library Selection",
+          "source_key": "Library Selection",
+          "native_source_key": "Library selection"
+        },
+        {
+          "header": "Library Layout",
+          "source_key": "Library Layout",
+          "native_source_key": "Library layout"
+        },
+        {
+          "header": "Instrument Platform",
+          "source_key": "Instrument Platform",
+          "native_source_key": "Instrument platform"
+        },
+        {
+          "header": "Instrument Model",
+          "source_key": "Instrument Model",
+          "native_source_key": "Instrument model"
+        },
+        {
+          "header": "Library Construction Protocol",
+          "source_key": "Library Construction Protocol",
+          "native_source_key": "Library construction protocol"
+        }
+      ]
+    },
+    {
+      "name": "ENA Run Records",
+      "headers": [
+        "Publication Index",
+        "ENA Run",
+        "ENA Study",
+        "ENA Sample",
+        "ENA Experiment",
+        "Read Count",
+        "Base Count",
+        "Reported ENA Studies",
+        "SRA Accession"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "ENA Run Records",
+      "native_source_table": "ENA - Runs",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "native_source_key": "Publication index"
+        },
+        {
+          "header": "ENA Run",
+          "source_key": "ENA Run",
+          "native_source_key": "Run accession"
+        },
+        {
+          "header": "ENA Study",
+          "source_key": "ENA Study",
+          "native_source_key": "Native study accession"
+        },
+        {
+          "header": "ENA Sample",
+          "source_key": "ENA Sample",
+          "native_source_key": "Sample accession"
+        },
+        {
+          "header": "ENA Experiment",
+          "source_key": "ENA Experiment",
+          "native_source_key": "Experiment accession"
+        },
+        {
+          "header": "Read Count",
+          "source_key": "Read Count",
+          "native_source_key": "Read count"
+        },
+        {
+          "header": "Base Count",
+          "source_key": "Base Count",
+          "native_source_key": "Base count"
+        },
+        {
+          "header": "Reported ENA Studies",
+          "source_key": "Reported ENA Studies",
+          "native_source_key": "Reporting studies"
+        },
+        {
+          "header": "SRA Accession",
+          "source_key": "SRA Accession",
+          "native_source_key": "SRA study accession"
+        }
+      ]
+    },
+    {
+      "name": "ArrayExpress Study Records",
+      "headers": [
+        "Publication Index",
+        "ArrayExpress Study",
+        "Study Title",
+        "Organism",
+        "Study Type",
+        "Samples Reported",
+        "Assays Reported",
+        "Study Description"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "ArrayExpress Study Records",
+      "native_source_table": "AE - Studies",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "native_source_key": "Publication index"
+        },
+        {
+          "header": "ArrayExpress Study",
+          "source_key": "ArrayExpress Study",
+          "native_source_key": "Study accession"
+        },
+        {
+          "header": "Study Title",
+          "source_key": "Study Title",
+          "native_source_key": "Study title"
+        },
+        {
+          "header": "Organism",
+          "source_key": "Organism",
+          "native_source_key": "Organism"
+        },
+        {
+          "header": "Study Type",
+          "source_key": "Study Type",
+          "native_source_key": "Study type"
+        },
+        {
+          "header": "Samples Reported",
+          "source_key": "Samples Reported",
+          "native_source_key": "Samples reported"
+        },
+        {
+          "header": "Assays Reported",
+          "source_key": "Assays Reported",
+          "native_source_key": "Assays reported"
+        },
+        {
+          "header": "Study Description",
+          "source_key": "Study Description",
+          "native_source_key": "Study description"
+        }
+      ]
+    },
+    {
+      "name": "ArrayExpress Protocol Records",
+      "headers": [
+        "Publication Index",
+        "ArrayExpress Protocol",
+        "ArrayExpress Study",
+        "Description",
+        "Hardware",
+        "Name",
+        "Parameters",
+        "Software",
+        "Type"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "ArrayExpress Protocol Records",
+      "native_source_table": "AE - Protocols",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "native_source_key": "Publication index"
+        },
+        {
+          "header": "ArrayExpress Protocol",
+          "source_key": "ArrayExpress Protocol",
+          "native_source_key": "Native protocol ID"
+        },
+        {
+          "header": "ArrayExpress Study",
+          "source_key": "ArrayExpress Study",
+          "native_source_key": "Study accession"
+        },
+        {
+          "header": "Description",
+          "source_key": "Description",
+          "native_source_key": "Description"
+        },
+        {
+          "header": "Hardware",
+          "source_key": "Hardware",
+          "native_source_key": "Hardware"
+        },
+        {
+          "header": "Name",
+          "source_key": "Name",
+          "native_source_key": "Name"
+        },
+        {
+          "header": "Parameters",
+          "source_key": "Parameters",
+          "native_source_key": "Parameters"
+        },
+        {
+          "header": "Software",
+          "source_key": "Software",
+          "native_source_key": "Software"
+        },
+        {
+          "header": "Type",
+          "source_key": "Type",
+          "native_source_key": "Type"
+        }
+      ]
+    },
+    {
+      "name": "ArrayExpress Sample Records",
+      "headers": [
+        "Publication Index",
+        "ArrayExpress Study",
+        "ArrayExpress Section ID",
+        "ArrayExpress Section Type",
+        "Age",
+        "Cell Line",
+        "Cell Type",
+        "Compound",
+        "Developmental Stage",
+        "Disease",
+        "Dose",
+        "Experimental Designs",
+        "Experimental Factors",
+        "GBM Subtype",
+        "Genetic Modification",
+        "Genotype",
+        "Infect",
+        "Isolate",
+        "Material Type",
+        "No. Of Samples",
+        "Organism",
+        "Organism Part",
+        "RNA Interference",
+        "RNA Interference (2)",
+        "Sample Count",
+        "Sampling Time Point",
+        "Sex",
+        "Source",
+        "Stimulus",
+        "Strain",
+        "Time",
+        "Age (2)",
+        "Cell Line (2)",
+        "Cell Type (2)",
+        "Compound (2)",
+        "Developmental Stage (2)",
+        "Disease (2)",
+        "GBM Subtype (2)",
+        "Genetic Modification (2)",
+        "Genotype (2)",
+        "Infect (2)",
+        "Isolate (2)",
+        "Material Type (2)",
+        "Organism Part (2)",
+        "Sampling Time Point (2)",
+        "Sex (2)",
+        "Stimulus (2)",
+        "Strain (2)",
+        "Time (2)"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "ArrayExpress Sample Records",
+      "native_source_table": "AE - Sample metadata",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "native_source_key": "Publication index"
+        },
+        {
+          "header": "ArrayExpress Study",
+          "source_key": "ArrayExpress Study",
+          "native_source_key": "Study accession"
+        },
+        {
+          "header": "ArrayExpress Section ID",
+          "source_key": "ArrayExpress Section ID",
+          "native_source_key": "Native section ID"
+        },
+        {
+          "header": "ArrayExpress Section Type",
+          "source_key": "ArrayExpress Section Type",
+          "native_source_key": "Native section type"
+        },
+        {
+          "header": "Age",
+          "source_key": "Age",
+          "native_source_key": "Age"
+        },
+        {
+          "header": "Cell Line",
+          "source_key": "Cell Line",
+          "native_source_key": "Cell line"
+        },
+        {
+          "header": "Cell Type",
+          "source_key": "Cell Type",
+          "native_source_key": "Cell type"
+        },
+        {
+          "header": "Compound",
+          "source_key": "Compound",
+          "native_source_key": "Compound"
+        },
+        {
+          "header": "Developmental Stage",
+          "source_key": "Developmental Stage",
+          "native_source_key": "Developmental stage"
+        },
+        {
+          "header": "Disease",
+          "source_key": "Disease",
+          "native_source_key": "Disease"
+        },
+        {
+          "header": "Dose",
+          "source_key": "Dose",
+          "native_source_key": "Dose"
+        },
+        {
+          "header": "Experimental Designs",
+          "source_key": "Experimental Designs",
+          "native_source_key": "Experimental Designs"
+        },
+        {
+          "header": "Experimental Factors",
+          "source_key": "Experimental Factors",
+          "native_source_key": "Experimental Factors"
+        },
+        {
+          "header": "GBM Subtype",
+          "source_key": "GBM Subtype",
+          "native_source_key": "Gbm subtype"
+        },
+        {
+          "header": "Genetic Modification",
+          "source_key": "Genetic Modification",
+          "native_source_key": "Genetic modification"
+        },
+        {
+          "header": "Genotype",
+          "source_key": "Genotype",
+          "native_source_key": "Genotype"
+        },
+        {
+          "header": "Infect",
+          "source_key": "Infect",
+          "native_source_key": "Infect"
+        },
+        {
+          "header": "Isolate",
+          "source_key": "Isolate",
+          "native_source_key": "Isolate"
+        },
+        {
+          "header": "Material Type",
+          "source_key": "Material Type",
+          "native_source_key": "Material type"
+        },
+        {
+          "header": "No. Of Samples",
+          "source_key": "No. Of Samples",
+          "native_source_key": "No. of Samples"
+        },
+        {
+          "header": "Organism",
+          "source_key": "Organism",
+          "native_source_key": "Organism"
+        },
+        {
+          "header": "Organism Part",
+          "source_key": "Organism Part",
+          "native_source_key": "Organism part"
+        },
+        {
+          "header": "RNA Interference",
+          "source_key": "RNA Interference",
+          "native_source_key": "RNA interference"
+        },
+        {
+          "header": "RNA Interference (2)",
+          "source_key": "RNA Interference (2)",
+          "native_source_key": "Rna interference"
+        },
+        {
+          "header": "Sample Count",
+          "source_key": "Sample Count",
+          "native_source_key": "Sample count"
+        },
+        {
+          "header": "Sampling Time Point",
+          "source_key": "Sampling Time Point",
+          "native_source_key": "Sampling time point"
+        },
+        {
+          "header": "Sex",
+          "source_key": "Sex",
+          "native_source_key": "Sex"
+        },
+        {
+          "header": "Source",
+          "source_key": "Source",
+          "native_source_key": "Source"
+        },
+        {
+          "header": "Stimulus",
+          "source_key": "Stimulus",
+          "native_source_key": "Stimulus"
+        },
+        {
+          "header": "Strain",
+          "source_key": "Strain",
+          "native_source_key": "Strain"
+        },
+        {
+          "header": "Time",
+          "source_key": "Time",
+          "native_source_key": "Time"
+        },
+        {
+          "header": "Age (2)",
+          "source_key": "Age (2)",
+          "native_source_key": "age"
+        },
+        {
+          "header": "Cell Line (2)",
+          "source_key": "Cell Line (2)",
+          "native_source_key": "cell line"
+        },
+        {
+          "header": "Cell Type (2)",
+          "source_key": "Cell Type (2)",
+          "native_source_key": "cell type"
+        },
+        {
+          "header": "Compound (2)",
+          "source_key": "Compound (2)",
+          "native_source_key": "compound"
+        },
+        {
+          "header": "Developmental Stage (2)",
+          "source_key": "Developmental Stage (2)",
+          "native_source_key": "developmental stage"
+        },
+        {
+          "header": "Disease (2)",
+          "source_key": "Disease (2)",
+          "native_source_key": "disease"
+        },
+        {
+          "header": "GBM Subtype (2)",
+          "source_key": "GBM Subtype (2)",
+          "native_source_key": "gbm subtype"
+        },
+        {
+          "header": "Genetic Modification (2)",
+          "source_key": "Genetic Modification (2)",
+          "native_source_key": "genetic modification"
+        },
+        {
+          "header": "Genotype (2)",
+          "source_key": "Genotype (2)",
+          "native_source_key": "genotype"
+        },
+        {
+          "header": "Infect (2)",
+          "source_key": "Infect (2)",
+          "native_source_key": "infect"
+        },
+        {
+          "header": "Isolate (2)",
+          "source_key": "Isolate (2)",
+          "native_source_key": "isolate"
+        },
+        {
+          "header": "Material Type (2)",
+          "source_key": "Material Type (2)",
+          "native_source_key": "material type"
+        },
+        {
+          "header": "Organism Part (2)",
+          "source_key": "Organism Part (2)",
+          "native_source_key": "organism part"
+        },
+        {
+          "header": "Sampling Time Point (2)",
+          "source_key": "Sampling Time Point (2)",
+          "native_source_key": "sampling time point"
+        },
+        {
+          "header": "Sex (2)",
+          "source_key": "Sex (2)",
+          "native_source_key": "sex"
+        },
+        {
+          "header": "Stimulus (2)",
+          "source_key": "Stimulus (2)",
+          "native_source_key": "stimulus"
+        },
+        {
+          "header": "Strain (2)",
+          "source_key": "Strain (2)",
+          "native_source_key": "strain"
+        },
+        {
+          "header": "Time (2)",
+          "source_key": "Time (2)",
+          "native_source_key": "time"
+        }
+      ]
+    },
+    {
+      "name": "ArrayExpress Assay Records",
+      "headers": [
+        "Publication Index",
+        "ArrayExpress Study",
+        "ArrayExpress Section ID",
+        "ArrayExpress Section Type",
+        "Assay By Molecule",
+        "Assay Count",
+        "Technology"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "ArrayExpress Assay Records",
+      "native_source_table": "AE - Assay metadata",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "native_source_key": "Publication index"
+        },
+        {
+          "header": "ArrayExpress Study",
+          "source_key": "ArrayExpress Study",
+          "native_source_key": "Study accession"
+        },
+        {
+          "header": "ArrayExpress Section ID",
+          "source_key": "ArrayExpress Section ID",
+          "native_source_key": "Native section ID"
+        },
+        {
+          "header": "ArrayExpress Section Type",
+          "source_key": "ArrayExpress Section Type",
+          "native_source_key": "Native section type"
+        },
+        {
+          "header": "Assay By Molecule",
+          "source_key": "Assay By Molecule",
+          "native_source_key": "Assay by Molecule"
+        },
+        {
+          "header": "Assay Count",
+          "source_key": "Assay Count",
+          "native_source_key": "Assay count"
+        },
+        {
+          "header": "Technology",
+          "source_key": "Technology",
+          "native_source_key": "Technology"
+        }
+      ]
+    },
+    {
+      "name": "ArrayExpress IDF Metadata",
+      "headers": [
+        "Publication Index",
+        "ArrayExpress Study",
+        "ArrayExpress Field",
+        "Original Value",
+        "ArrayExpress Line",
+        "ArrayExpress Column"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "ArrayExpress IDF Metadata",
+      "native_source_table": "AE - IDF metadata",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "native_source_key": "Publication index"
+        },
+        {
+          "header": "ArrayExpress Study",
+          "source_key": "ArrayExpress Study",
+          "native_source_key": "Study accession"
+        },
+        {
+          "header": "ArrayExpress Field",
+          "source_key": "ArrayExpress Field",
+          "native_source_key": "Native field"
+        },
+        {
+          "header": "Original Value",
+          "source_key": "Original Value",
+          "native_source_key": "Original value"
+        },
+        {
+          "header": "ArrayExpress Line",
+          "source_key": "ArrayExpress Line",
+          "native_source_key": "Native line"
+        },
+        {
+          "header": "ArrayExpress Column",
+          "source_key": "ArrayExpress Column",
+          "native_source_key": "Native column"
+        }
+      ]
+    },
+    {
+      "name": "ArrayExpress SDRF Metadata",
+      "headers": [
+        "Publication Index",
+        "ArrayExpress Study",
+        "Source Name",
+        "ArrayExpress Field",
+        "Original Value",
+        "ArrayExpress Row",
+        "ArrayExpress Column"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "ArrayExpress SDRF Metadata",
+      "native_source_table": "AE - SDRF metadata",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "native_source_key": "Publication index"
+        },
+        {
+          "header": "ArrayExpress Study",
+          "source_key": "ArrayExpress Study",
+          "native_source_key": "Study accession"
+        },
+        {
+          "header": "Source Name",
+          "source_key": "Source Name",
+          "native_source_key": "Source name"
+        },
+        {
+          "header": "ArrayExpress Field",
+          "source_key": "ArrayExpress Field",
+          "native_source_key": "Native field"
+        },
+        {
+          "header": "Original Value",
+          "source_key": "Original Value",
+          "native_source_key": "Original value"
+        },
+        {
+          "header": "ArrayExpress Row",
+          "source_key": "ArrayExpress Row",
+          "native_source_key": "Native data row"
+        },
+        {
+          "header": "ArrayExpress Column",
+          "source_key": "ArrayExpress Column",
+          "native_source_key": "Native column"
+        }
+      ]
+    }
+  ],
+  "sha256": "c531593718e8da4fbe601d06f0dd22ace8411d1169a2431bba54dd4292489bc8",
+  "registered_utc": "2026-10-18T19:23:11.208Z"
+}

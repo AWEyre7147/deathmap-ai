@@ -14,7 +14,7 @@ and evidence harmonization remain future work. The executable package remains v0
 - [Repository enrichment outputs](../data/orcs/) and
   [owner templates](../data/templates/README.md).
 - [Curated ORCS outputs](../outputs/orcs/README.md) and
-  [search profiles](../searches/orcs/README.md).
+  [search profiles](../searches/orcs/).
 
 ## Resources and definitions
 
@@ -27,3 +27,7 @@ Current work uses descriptive metadata and identifiers. Publication association
 does not establish qualifying screen content or exact screen–dataset attribution.
 Experimental-file downloads, analysis and future reasoning are outside the
 implemented enrichment stages.
+
+- [Complete ORCS enrichment workflow](complete-enrichment.md): independently runnable resource stages, persistent publication registry and portable synthesis/template export.
+
+- [Enrichment synthesis milestone preparation](enrichment-release-preparation.md): retained artifacts, source-bundle restoration, cleanup and verification boundaries.

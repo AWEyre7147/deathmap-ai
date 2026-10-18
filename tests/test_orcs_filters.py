@@ -11,7 +11,7 @@ ROOT=Path(__file__).resolve().parents[1]
 
 class OrcsFilterTests(unittest.TestCase):
     def setUp(self):
-        self.profile=read(ROOT/'searches/orcs/cancer-cell-crispr-knockout-v01/profile.json')
+        self.profile=read(ROOT/'searches/orcs/cancer-cell-crispr-knockout-v01.json')
         self.row={k:v[0] for k,v in EXPECTED.items()};self.row.update(SCREEN_ID='x1',SOURCE_TYPE='pubmed',SOURCE_ID='123',CELL_LINE='Fixture cancer',SCREEN_NAME='fixture',AUTHOR='A (2020)')
         self.ann={'cache_sha256':'abc','cell_lines':[{'value':'Fixture cancer','category':'Cancer cell line','accession':'CVCL_TEST','review_issues':[]}]}
     def test_profile_and_unknown_operations(self):

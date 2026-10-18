@@ -18,7 +18,7 @@ def refresh(root,archive):
     names=['cancer-cell-crispr-knockout-v01','cancer-cell-crispr-knockout-v02','orcs-crispr-biological-classes-pilot-v01']
     old={name:[p for p in (base/name).iterdir() if p.is_dir()] for name in names};new={}
     for name in names:
-        out=run_and_export(root,profile_path=f'searches/orcs/{name}/profile.json');new[name]=out
+        out=run_and_export(root,profile_path=f'searches/orcs/{name}.json');new[name]=out
         projection=json.loads((out/'projection.json').read_text(encoding='utf-8'))
         book=load_workbook(out/'workbook-authored.xlsx')
         for sheet,rows in projection['sheets'].items():

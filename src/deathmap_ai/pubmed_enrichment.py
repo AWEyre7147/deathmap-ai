@@ -51,7 +51,7 @@ class Retrieval:
 and 15 minutes total per invocation. Reusing a receipt requires the same URL and
 saved-byte hash. An error stops the stage; it is never treated as an empty result.
 """
-    def __init__(self, folder):
+    def __init__(self, folder, cache_roots=()):
         self.folder = Path(folder)
         self.folder.mkdir(parents=True, exist_ok=True)
         self.receipts = []
@@ -60,6 +60,12 @@ saved-byte hash. An error stops the stage; it is never treated as an empty resul
             self.receipts = json.loads(path.read_text(encoding='utf-8'))
         self.started = time.monotonic()
         self.attempts = 0
+        self.cache = {}
+        for root in cache_roots:
+            for path in Path(root).rglob('requests.json'):
+                for item in json.loads(path.read_text(encoding='utf-8')):
+                    if item.get('file') and item.get('sha256') and not item.get('error'):
+                        self.cache[item['url']] = (path.parent / item['file'], item)
 
     def request(self, endpoint, params, filename):
         """Retrieve or reuse one response with a durable URL/date/hash receipt.
@@ -94,6 +100,16 @@ saved-byte hash. An error stops the stage; it is never treated as an empty resul
                 assert receipt['url'] == url
                 assert hashlib.sha256(path.read_bytes()).hexdigest() == receipt['sha256']
                 return path.read_bytes()
+        if url in self.cache:
+            parent, old = self.cache[url]
+            body = parent.read_bytes()
+            if hashlib.sha256(body).hexdigest() != old['sha256']:
+                raise ValueError('Cached PubMed response hash mismatch')
+            path.write_bytes(body)
+            self.receipts.append({**old, 'file': filename, 'reused_from': str(parent),
+                                  'reused_utc': datetime.now(timezone.utc).isoformat()})
+            save_json(self.folder / 'requests.json', self.receipts)
+            return body
         for attempt in (1, 2):
             if self.attempts >= 250 or time.monotonic() - self.started > 900:
                 raise RuntimeError('Request/time checkpoint reached; saved responses remain resumable')

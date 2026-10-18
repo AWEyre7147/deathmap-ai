@@ -11,7 +11,7 @@ ROOT=Path(__file__).resolve().parents[1]
 
 class RefreshTests(unittest.TestCase):
     def test_v02_fallback_missing_only_multivalue_and_companion(self):
-        p=json.loads((ROOT/'searches/orcs/cancer-cell-crispr-knockout-v02/profile.json').read_text())
+        p=json.loads((ROOT/'searches/orcs/cancer-cell-crispr-knockout-v02.json').read_text())
         def row(sid,**changes):
             return {'SCREEN_ID':sid,'SOURCE_TYPE':'pubmed','SOURCE_ID':'123','CELL_LINE':'unknown','CELL_TYPE':'carcinoma',
                 'ORGANISM_OFFICIAL':'Homo sapiens','SCREEN_FORMAT':'Pool','PHENOTYPE':'cell viability | cell migration',**changes}

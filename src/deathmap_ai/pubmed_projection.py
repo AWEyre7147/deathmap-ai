@@ -99,7 +99,7 @@ def project_saved(folder, pmids):
         year,month,day=[text(pd,k) for k in ['Year','Month','Day']]
         if year and month and day:
             month_number=int(month) if month.isdigit() else months[month]
-            value=date(int(year),month_number,int(day))
+            value=date(int(year),month_number,int(day)).isoformat()
         else:
             month_number=(int(month) if month.isdigit() else months.get(month)) if month else None
             value=f'{year}-{month_number:02d}' if year and month_number else (year or text(pd,'MedlineDate'))

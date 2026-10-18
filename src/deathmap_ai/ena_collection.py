@@ -232,6 +232,43 @@ def _search(transport, endpoint, params, route):
     raise LimitReached('20-page study search checkpoint reached')
 
 
+def _recover_title(transport, title):
+    """Retry failed full-title syntax as TSV, then the same complete EBI phrase.
+
+    This is a bounded alternate encoding of the accepted route, never a shorter
+    title search. Invalid/error responses remain failures, not empty hits.
+    """
+    with transport.lock:
+        transport.title_recoveries = getattr(transport, 'title_recoveries', 0) + 1
+        if transport.title_recoveries > 10:
+            raise LimitReached('More than ten failed full-title queries; checkpoint required')
+    params = {'result': 'study', 'query': 'study_title=' + _phrase(title), 'format': 'tsv',
+              'fields': 'study_accession,study_title', 'limit': 1000}
+    try:
+        body, receipt = transport.get(API + 'portal/api/search?' + urlencode(params))
+        reader = csv.DictReader(io.StringIO(body.decode()), delimiter='\t')
+        if 'study_accession' not in (reader.fieldnames or []):
+            raise ValueError('Invalid full-title TSV response')
+        rows = list(reader)
+        if len(rows) >= 1000:
+            raise LimitReached('Full-title recovery page cap')
+    except LimitReached:
+        raise
+    except Exception:
+        url = 'https://www.ebi.ac.uk/ebisearch/ws/rest/sra-study?' + urlencode(
+            {'query': _phrase(title), 'format': 'json', 'fields': 'acc,study_title,PUBMED', 'size': 100})
+        body, receipt = transport.get(url)
+        native = json.loads(body)
+        if 'hitCount' not in native or native['hitCount'] > len(native.get('entries', [])):
+            raise ValueError('Incomplete full-title recovery response')
+        rows = [dict(row, study_accession=row['id']) for row in native.get('entries', [])]
+    if any(not STUDY_ID.fullmatch(row.get('study_accession', '')) for row in rows):
+        raise ValueError('Invalid recovered study accession')
+    return ([{'accession': row['study_accession'], 'route': 'complete-title',
+              'evidence': {'response': receipt['file'], 'row': i, 'native_record': row,
+                           'recovery_interface': receipt['url']}} for i, row in enumerate(rows)], [receipt])
+
+
 def _discover(transport, pub, saved):
     key = pub.get('PMID') or 'ORCS:' + pub['PUBLICATION_ID']
     result = {'key': key, 'publication': pub, 'observations': list(saved), 'routes': [], 'issues': []}
@@ -246,7 +283,19 @@ def _discover(transport, pub, saved):
         except LimitReached:
             raise
         except Exception as error:
-            result['issues'].append({'route': route, 'error': str(error)})
+            if route == 'complete-title':
+                try:
+                    found, receipts = _recover_title(transport, pub['TITLE'])
+                    result['observations'].extend(found)
+                    result['routes'].append({'route': route, 'status': 'recovered', 'hits': len(found), 'requests': receipts})
+                    result.setdefault('resolved_issues', []).append({'route': route, 'error': str(error)})
+                    continue
+                except LimitReached:
+                    raise
+                except Exception as recovery_error:
+                    result['issues'].append({'route': route, 'error': str(error), 'recovery_error': str(recovery_error)})
+            else:
+                result['issues'].append({'route': route, 'error': str(error)})
     result['status'] = 'complete_with_issues' if result['issues'] else 'complete'
     return result
 
@@ -260,6 +309,8 @@ def _seeds(publications, geo, pubmed):
     for accession, series in geo['series'].items():
         ids = sorted(set(STUDY_ID.findall(' '.join(series['fields'].get('Series_relation', [])))))
         for key in series['publication_keys']:
+            if key.startswith('orcs-'):
+                key = 'ORCS:' + key.removeprefix('orcs-')
             if key not in saved:
                 continue
             geo_map.setdefault(key, []).append({'accession': accession, 'seed_accessions': ids, 'source_file': series['source_file']})
@@ -299,7 +350,8 @@ def _apply_metadata_only_policy(studies, accessions):
                 study.pop(field, None)
 
 
-def run(root, folder, cache_roots=(), resume=False, metadata_only_projects=()):
+def run(root, folder, cache_roots=(), resume=False, metadata_only_projects=(),
+        publication_index=None, geo_database=None, pubmed_database=None, template=None):
     """Enrich all saved ORCS publications in one new or explicitly resumed run.
 
     Parameters
@@ -335,8 +387,11 @@ def run(root, folder, cache_roots=(), resume=False, metadata_only_projects=()):
         raise FileExistsError('Use a new ENA run directory or explicit resume')
     folder.mkdir(parents=True, exist_ok=True)
     paths = {name: root / ('data/orcs/' + name + '.json') for name in ('publication-index', 'geo-enrichment', 'pubmed-enrichment')}
+    for key, value in [('publication-index', publication_index), ('geo-enrichment', geo_database), ('pubmed-enrichment', pubmed_database)]:
+        if value is not None:
+            paths[key] = Path(value)
     hashes = {name: hashlib.sha256(path.read_bytes()).hexdigest() for name, path in paths.items()}
-    template_path = root / 'data/templates/ENA-Enrichment.xlsx'
+    template_path = Path(template or root / 'data/templates/ENA-Enrichment.xlsx')
     template_manifest = _load(template_path.with_suffix('.manifest.json'))
     if hashlib.sha256(template_path.read_bytes()).hexdigest() != template_manifest['sha256']:
         raise ValueError('Registered ENA template hash mismatch')
@@ -345,7 +400,7 @@ def run(root, folder, cache_roots=(), resume=False, metadata_only_projects=()):
     if manifest_path.exists() and _load(manifest_path)['input_hashes'] != hashes:
         raise ValueError('ENA resume input hashes changed')
     manifest = {'strategy': STRATEGY, 'started_utc': _now(), 'python': platform.python_version(), 'input_hashes': hashes,
-        'source_paths': {k: str(p.relative_to(root)) for k, p in paths.items()},
+        'source_paths': {k: str(p.resolve()) for k, p in paths.items()},
         'template': template_manifest,
         'metadata_only_projects': sorted(set(metadata_only_projects)),
         'limits': {'workers': 4, 'minimum_start_interval_seconds': 0.2, 'request_attempts': 3000, 'response_bytes': 32 * 1024**2,
@@ -363,7 +418,7 @@ def run(root, folder, cache_roots=(), resume=False, metadata_only_projects=()):
     inputs = {k: _load(p) for k, p in paths.items()}
     saved, geo_map = _seeds(inputs['publication-index'], inputs['geo-enrichment'], inputs['pubmed-enrichment'])
     transport = Transport(folder, cache_roots)
-    database = {'schema_version': 'ena-enrichment/1.0', 'strategy': STRATEGY, 'source_package': str(folder.relative_to(root)),
+    database = {'schema_version': 'ena-enrichment/1.0', 'strategy': STRATEGY, 'source_package': str(folder.resolve()),
         'publications': [], 'studies': {}, 'study_failures': {}, 'issues': [], 'status': 'running'}
     with ThreadPoolExecutor(max_workers=4) as pool:
         jobs = [pool.submit(_discover, transport, pub, saved[pub.get('PMID') or 'ORCS:' + pub['PUBLICATION_ID']]) for pub in inputs['publication-index']]
@@ -438,14 +493,25 @@ def run(root, folder, cache_roots=(), resume=False, metadata_only_projects=()):
 
     def report(accession):
         url = API + 'portal/api/filereport?' + urlencode({'accession': accession, 'result': 'read_run', 'fields': ','.join(REPORT_FIELDS), 'format': 'tsv'})
-        body, receipt = transport.get(url)
-        reader = csv.DictReader(io.StringIO(body.decode('utf-8')), delimiter='\t')
-        if not set(REPORT_FIELDS) <= set(reader.fieldnames or []):
-            raise ValueError('Invalid run report header')
-        rows = list(reader)
-        if any(not re.fullmatch(r'[SED]RR\d+', row['run_accession'] or '') for row in rows):
-            raise ValueError('Invalid run report identifier')
-        return accession, rows, receipt
+        for attempt in range(2):
+            body, receipt = transport.get(url)
+            reader = csv.DictReader(io.StringIO(body.decode('utf-8')), delimiter='\t')
+            rows = list(reader)
+            valid = (set(REPORT_FIELDS) <= set(reader.fieldnames or []) and
+                     all(re.fullmatch(r'[SED]RR\d+', row.get('run_accession') or '') for row in rows))
+            if valid:
+                return accession, rows, receipt
+            # HTTP 200 can contain an ENA error line. Keep those bytes as failed
+            # evidence and prevent cache reuse; retry this report only once.
+            with transport.lock:
+                receipt['incomplete'] = True
+                _save(folder / 'requests.json', transport.receipts)
+                transport.cache.pop(_key(url), None)
+                if attempt == 0:
+                    transport.report_recoveries = getattr(transport, 'report_recoveries', 0) + 1
+                    if transport.report_recoveries > 10:
+                        raise LimitReached('More than ten invalid run reports; checkpoint required')
+        raise ValueError('Invalid run report after bounded recovery')
     _apply_metadata_only_policy(database['studies'], metadata_only_projects)
     with ThreadPoolExecutor(max_workers=4) as pool:
         jobs = {pool.submit(report, accession): accession for accession in database['studies'] if accession not in metadata_only_projects}

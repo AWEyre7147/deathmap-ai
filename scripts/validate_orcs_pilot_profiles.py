@@ -30,8 +30,12 @@ def validate_profile(profile, columns):
     required={'schema_version','profile_id','profile_version','created_date','resource',
         'classification_target','purpose','status','input','filter_logic','common_filters',
         'candidate_rules','expansion','constraints','evidence','scope_notes'}
-    if not required <= set(profile) or set(profile)-required-{'tags'}:
+    if not required <= set(profile) or set(profile)-required-{'tags','publication_year_range'}:
         raise ValueError('Missing or unknown profile keys')
+    if 'publication_year_range' in profile:
+        bounds=profile['publication_year_range']
+        if not isinstance(bounds,dict) or set(bounds) != {'start','end'} or any(type(bounds[k]) is not int for k in bounds) or not 1000 <= bounds['start'] <= bounds['end'] <= 9999:
+            raise ValueError('Publication year range requires ordered inclusive integer years')
     if profile['schema_version'] != SCHEMA or profile['resource'] != 'ORCS' or profile['profile_version'] != 1:
         raise ValueError('Unsupported pilot schema/version/resource')
     if not re.fullmatch(r'orcs-[a-z0-9-]+',profile['profile_id']):
