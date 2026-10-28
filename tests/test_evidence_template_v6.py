@@ -8,9 +8,12 @@ ROOT=Path(__file__).resolve().parents[1]
 class TemplateTests(unittest.TestCase):
     def test_current_schema(self):
         book=load_workbook(approved_template(ROOT))
-        self.assertEqual([c.value for c in book['Evidence'][1]],HEADERS)
-        self.assertEqual(book['Screens']['AM1'].value,'cellosaurus_accession')
-        self.assertEqual(book['Publications']['P1'].value,'evidence_id_link')
+        registration=json.loads((ROOT/'data/templates/DeathMap-AI-output.manifest.json').read_text())
+        evidence=next(s for s in registration['sheets'] if s['name']=='Evidence')
+        self.assertEqual([c['source_key'] for c in evidence['columns']],HEADERS)
+        self.assertEqual([c.value for c in book['Evidence'][1]],evidence['headers'])
+        self.assertEqual(book['Screens']['AM1'].value,'Cellosaurus Accession')
+        self.assertEqual(book['Publications']['P1'].value,'Evidence ID Link')
         self.assertFalse(any(c.value=='Cell line' for row in book['Definitions'] for c in row))
         book.close()
     def test_backup_and_manifest(self):

@@ -88,11 +88,16 @@ def synthesis_tables(data, root):
             repository, native = name.split(' - ', 1)
             registration = _load(Path(root) / f'data/templates/{sources[repository]}.manifest.json')
             spec = next(s for s in registration['sheets'] if s['name'] == native)
-            headers = ([] if native == 'MeSH' else ['Publication index']) + [c['header'] for c in spec['columns'] if c['header'] != 'PMID']
+            # Keep every raw source key until layout consolidation, even when
+            # multiple capitalization variants share one displayed column.
+            headers = [] if native == 'MeSH' else ['Publication index']
+            for column in spec['columns']:
+                for key in column.get('source_keys', [column.get('source_key', column['header'])]):
+                    if key != 'PMID' and key not in headers:
+                        headers.append(key)
             if 'Associated PMIDs' in headers:
                 headers[headers.index('Associated PMIDs')] = 'Publication indices'
-            source_keys = {c['header']: c.get('source_key', c['header']) for c in spec['columns']}
-            rows = [{h: row.get(source_keys.get(h, h), row.get(h, '')) for h in headers} for row in rows]
+            rows = [{h: row.get(h, '') for h in headers} for row in rows]
         displayed = layout_sheet({'name': name, 'headers': headers, 'rows': [[row.get(h) for h in headers] for row in rows]})
         result[displayed['name']] = [dict(zip(displayed['headers'], values)) for values in displayed['rows']]
     return result

@@ -15,6 +15,6 @@ The October 9 biological-classes run preceded the v01 date-bound configuration. 
 
 ## Repository enrichment
 
-The original cancer-cell runs retain their historical PubMed subset workbooks. The current [complete ORCS enrichment run](../../data/orcs/enrichment-runs/20261018/README.md) covers all 418 publications independently of these search filters, supplies each repository workbook and the final 21-sheet synthesis, and retains a persistent enrichment publication registry. [Maintained commands](../../docs/complete-enrichment.md) reproduce the resource stages and offline synthesis.
+The original cancer-cell runs retain their historical PubMed subset workbooks. The current [complete ORCS enrichment run](../../data/orcs/enrichment-runs/20261018/README.md) covers all 418 publications independently of these search filters, supplies each repository workbook and the final 21-sheet synthesis, and retains a persistent enrichment publication registry. [Maintained commands](../../data/orcs/enrichment-runs/20261018/README.md) reproduce the resource stages and offline synthesis.
 
 ORCS search indices are run-local. Join to enrichment by native ORCS publication ID or PMID, rather than assuming that equal PUB strings identify the same publication. Source-sheet example counts are illustrative; use each run's summary.json for measured screen counts. Publication association is not proof of qualifying screen content or exact screen–dataset attribution.

@@ -11,11 +11,11 @@ class SynthesisLayoutTests(unittest.TestCase):
         self.assertEqual(out['headers'], ['Publication Index', 'Accession', 'Repository', 'Title', 'Description', 'Native Entity Level', 'Reported Data Type'])
         self.assertEqual(out['rows'][0][1], 'Accession')
 
-    def test_native_case_variants_are_not_merged(self):
+    def test_native_case_variants_are_consolidated_without_losing_values(self):
         out = layout_sheet({'name': 'AE - Sample metadata', 'headers': ['Study accession', 'Age', 'age'], 'rows': [['S1', 'adult', '10']]})
-        self.assertEqual(out['headers'], ['ArrayExpress Study', 'Age', 'Age (2)'])
-        self.assertEqual(out['rows'], [['S1', 'adult', '10']])
-        self.assertEqual(out['columns'][-1]['source_header'], 'age')
+        self.assertEqual(out['headers'], ['ArrayExpress Study Accession', 'Age'])
+        self.assertEqual(out['rows'], [['S1', 'adult\n10']])
+        self.assertEqual(out['columns'][-1]['source_headers'], ['Age', 'age'])
 
     def test_sdrf_removal_is_explicit_and_row_coordinates_move_last(self):
         headers = ['Publication index', 'Study accession', 'Source name', 'Native data row', 'Native column', 'Native field', 'Original value', 'Part']
@@ -26,7 +26,7 @@ class SynthesisLayoutTests(unittest.TestCase):
 
     def test_geo_channel_suffix_is_only_removed_from_label(self):
         out = layout_sheet({'name': 'GEO - Sample Metadata', 'headers': ['GSM', 'organism_ch1'], 'rows': [['GSM1', 'human']]})
-        self.assertEqual(out['headers'], ['GEO Sample', 'Organism'])
+        self.assertEqual(out['headers'], ['GEO Sample Accession', 'Organism'])
         self.assertEqual(out['columns'][1]['source_header'], 'organism_ch1')
 
     def test_repository_label_changes_preserve_accessions(self):
@@ -37,7 +37,7 @@ class SynthesisLayoutTests(unittest.TestCase):
     def test_geo_duplicate_display_columns_are_removed(self):
         out = layout_sheet({'name': 'GEO - Sample Metadata', 'headers': ['Publication index', 'GSM', 'GSE', 'series_id', 'geo_accession'],
                             'rows': [['PUB-0001', 'GSM1', 'GSE1', 'GSE1', 'GSM1']]})
-        self.assertEqual(out['headers'], ['Publication Index', 'GEO Sample', 'GEO Study'])
+        self.assertEqual(out['headers'], ['Publication Index', 'GEO Sample Accession', 'GEO Series Accession'])
         self.assertEqual(out['removed_headers'], ['series_id', 'geo_accession'])
 
 

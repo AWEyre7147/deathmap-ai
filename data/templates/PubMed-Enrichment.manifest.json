@@ -2,8 +2,7 @@
   "schema_version": "enrichment-template/1.0",
   "name": "PubMed Enrichment",
   "template": "data\\templates\\PubMed-Enrichment.xlsx",
-  "sha256": "646280cea1aa2c1827240b26f39f2a38670606e7dfed96e2f83df50f81bfd8af",
-  "status": "owner_requested_revision",
+  "sha256": "78273aa5ea59226c2eb159cc669bbec7d9cd7e3fb450c170cf35fb8b4b52fbdb",
   "registered_utc": "2026-10-17T00:08:07.423Z",
   "sheets": [
     {
@@ -21,23 +20,28 @@
       "columns": [
         {
           "header": "PMID",
-          "source_column_index": 0
+          "source_column_index": 0,
+          "source_key": "PMID"
         },
         {
           "header": "DOI",
-          "source_column_index": 1
+          "source_column_index": 1,
+          "source_key": "DOI"
         },
         {
           "header": "PMCID",
-          "source_column_index": 2
+          "source_column_index": 2,
+          "source_key": "PMCID"
         },
         {
           "header": "Title",
-          "source_column_index": 3
+          "source_column_index": 3,
+          "source_key": "Title"
         },
         {
           "header": "Publication Date",
-          "source_column_index": 4
+          "source_column_index": 4,
+          "source_key": "Publication Date"
         }
       ]
     },
@@ -58,31 +62,38 @@
       "columns": [
         {
           "header": "PMID",
-          "source_column_index": 0
+          "source_column_index": 0,
+          "source_key": "PMID"
         },
         {
           "header": "Resource",
-          "source_column_index": 1
+          "source_column_index": 1,
+          "source_key": "Resource"
         },
         {
           "header": "Accession",
-          "source_column_index": 2
+          "source_column_index": 2,
+          "source_key": "Accession"
         },
         {
           "header": "Native Entity Level",
-          "source_column_index": 3
+          "source_column_index": 3,
+          "source_key": "Native Entity Level"
         },
         {
           "header": "Reported Data Type",
-          "source_column_index": 4
+          "source_column_index": 4,
+          "source_key": "Reported Data Type"
         },
         {
           "header": "Title",
-          "source_column_index": 5
+          "source_column_index": 5,
+          "source_key": "Title"
         },
         {
           "header": "Description",
-          "source_column_index": 6
+          "source_column_index": 6,
+          "source_key": "Description"
         }
       ]
     },
@@ -90,12 +101,12 @@
       "name": "SRA Accessions",
       "headers": [
         "PMID",
-        "Experiment Accession",
-        "Study Accession",
-        "Sample Accession",
+        "SRA Experiment Accession",
+        "SRA Study Accession",
+        "SRA Sample Accession",
         "BioSample Accession",
         "BioProject Accession",
-        "Run Accession"
+        "SRA Run Accession"
       ],
       "header_row": 1,
       "first_data_row": 2,
@@ -103,31 +114,38 @@
       "columns": [
         {
           "header": "PMID",
-          "source_column_index": 0
+          "source_column_index": 0,
+          "source_key": "PMID"
         },
         {
-          "header": "Experiment Accession",
-          "source_column_index": 1
+          "header": "SRA Experiment Accession",
+          "source_column_index": 1,
+          "source_key": "Experiment Accession"
         },
         {
-          "header": "Study Accession",
-          "source_column_index": 2
+          "header": "SRA Study Accession",
+          "source_column_index": 2,
+          "source_key": "Study Accession"
         },
         {
-          "header": "Sample Accession",
-          "source_column_index": 3
+          "header": "SRA Sample Accession",
+          "source_column_index": 3,
+          "source_key": "Sample Accession"
         },
         {
           "header": "BioSample Accession",
-          "source_column_index": 4
+          "source_column_index": 4,
+          "source_key": "BioSample Accession"
         },
         {
           "header": "BioProject Accession",
-          "source_column_index": 5
+          "source_column_index": 5,
+          "source_key": "BioProject Accession"
         },
         {
-          "header": "Run Accession",
-          "source_column_index": 6
+          "header": "SRA Run Accession",
+          "source_column_index": 6,
+          "source_key": "Run Accession"
         }
       ]
     },
@@ -147,27 +165,33 @@
       "columns": [
         {
           "header": "Descriptor UI",
-          "source_column_index": 0
+          "source_column_index": 0,
+          "source_key": "Descriptor UI"
         },
         {
           "header": "Descriptor",
-          "source_column_index": 1
+          "source_column_index": 1,
+          "source_key": "Descriptor"
         },
         {
           "header": "Qualifier UI",
-          "source_column_index": 2
+          "source_column_index": 2,
+          "source_key": "Qualifier UI"
         },
         {
           "header": "Qualifier",
-          "source_column_index": 3
+          "source_column_index": 3,
+          "source_key": "Qualifier"
         },
         {
           "header": "Publication Count",
-          "source_column_index": 4
+          "source_column_index": 4,
+          "source_key": "Publication Count"
         },
         {
           "header": "Associated PMIDs",
-          "source_column_index": 5
+          "source_column_index": 5,
+          "source_key": "Associated PMIDs"
         }
       ]
     },
@@ -186,23 +210,28 @@
       "columns": [
         {
           "header": "PMID",
-          "source_column_index": 0
+          "source_column_index": 0,
+          "source_key": "PMID"
         },
         {
           "header": "Descriptor UI",
-          "source_column_index": 1
+          "source_column_index": 1,
+          "source_key": "Descriptor UI"
         },
         {
           "header": "Qualifier UI",
-          "source_column_index": 2
+          "source_column_index": 2,
+          "source_key": "Qualifier UI"
         },
         {
           "header": "Descriptor Major Topic",
-          "source_column_index": 3
+          "source_column_index": 3,
+          "source_key": "Descriptor Major Topic"
         },
         {
           "header": "Qualifier Major Topic",
-          "source_column_index": 4
+          "source_column_index": 4,
+          "source_key": "Qualifier Major Topic"
         }
       ]
     }

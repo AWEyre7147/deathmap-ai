@@ -59,7 +59,7 @@ class EndToEndTests(unittest.TestCase):
             manifest = json.loads(template.with_suffix('.manifest.json').read_text(encoding='utf-8'))
             tables = {s['name']: [] for s in manifest['sheets']}
             value = 'GSM1234\n' * 5000
-            tables['GEO Repository Links'] = [{'Publication Index': 'PUB-0001', 'Accession': 'GPL1', 'GEO Sample': value}]
+            tables['GEO Repository Links'] = [{'Publication Index': 'PUB-0001', 'Accession': 'GPL1', 'GEO Sample Accession': value}]
             output = Path(t)/'membership.xlsx'
             with self.assertRaises(ValueError):
                 export_registered(template, output, tables)

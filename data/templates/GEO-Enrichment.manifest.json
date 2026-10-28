@@ -2,24 +2,23 @@
   "schema_version": "enrichment-template/1.0",
   "name": "GEO Enrichment",
   "template": "data\\templates\\GEO-Enrichment.xlsx",
-  "sha256": "3605bf7e851c18fed6645411b61329f7f7c1fdc512815047960df1be5fbcb273",
-  "status": "owner_requested_revision",
+  "sha256": "31bb857cc6d7cdf73211cd1c39e3a13dfccafdf2c7087115dcdfe782ae20fbe8",
   "registered_utc": "2026-10-17T00:08:09.130Z",
   "sheets": [
     {
       "name": "Series Records",
       "headers": [
         "PMID",
-        "geo_accession",
-        "title",
-        "summary",
-        "overall_design",
-        "type",
-        "platform_organism",
-        "platform_taxid",
-        "sample_organism",
-        "sample_taxid",
-        "sample_count"
+        "GEO Series Accession",
+        "Title",
+        "Summary",
+        "Overall Design",
+        "Type",
+        "Platform Organism",
+        "Platform TaxID",
+        "Sample Organism",
+        "Sample TaxID",
+        "Sample Count"
       ],
       "header_row": 1,
       "first_data_row": 2,
@@ -30,43 +29,43 @@
           "source_key": "PMID"
         },
         {
-          "header": "geo_accession",
+          "header": "GEO Series Accession",
           "source_key": "geo_accession"
         },
         {
-          "header": "title",
+          "header": "Title",
           "source_key": "title"
         },
         {
-          "header": "summary",
+          "header": "Summary",
           "source_key": "summary"
         },
         {
-          "header": "overall_design",
+          "header": "Overall Design",
           "source_key": "overall_design"
         },
         {
-          "header": "type",
+          "header": "Type",
           "source_key": "type"
         },
         {
-          "header": "platform_organism",
+          "header": "Platform Organism",
           "source_key": "platform_organism"
         },
         {
-          "header": "platform_taxid",
+          "header": "Platform TaxID",
           "source_key": "platform_taxid"
         },
         {
-          "header": "sample_organism",
+          "header": "Sample Organism",
           "source_key": "sample_organism"
         },
         {
-          "header": "sample_taxid",
+          "header": "Sample TaxID",
           "source_key": "sample_taxid"
         },
         {
-          "header": "sample_count",
+          "header": "Sample Count",
           "source_key": "sample_count"
         }
       ]
@@ -75,9 +74,9 @@
       "name": "Series Hierarchy",
       "headers": [
         "PMID",
-        "GSE",
+        "GEO Series Accession",
         "Relationship",
-        "Related GSE"
+        "Related GEO Series Accession"
       ],
       "header_row": 1,
       "first_data_row": 2,
@@ -88,7 +87,7 @@
           "source_key": "PMID"
         },
         {
-          "header": "GSE",
+          "header": "GEO Series Accession",
           "source_key": "GSE"
         },
         {
@@ -96,7 +95,7 @@
           "source_key": "Relationship"
         },
         {
-          "header": "Related GSE",
+          "header": "Related GEO Series Accession",
           "source_key": "Related GSE"
         }
       ]
@@ -105,9 +104,9 @@
       "name": "Repository Identifiers",
       "headers": [
         "PMID",
-        "Identifier",
-        "GSE",
-        "GSM",
+        "Accession",
+        "GEO Series Accession",
+        "GEO Sample Accession",
         "Entity Level",
         "Resource",
         "Native Field"
@@ -121,15 +120,15 @@
           "source_key": "PMID"
         },
         {
-          "header": "Identifier",
+          "header": "Accession",
           "source_key": "Identifier"
         },
         {
-          "header": "GSE",
+          "header": "GEO Series Accession",
           "source_key": "GSE"
         },
         {
-          "header": "GSM",
+          "header": "GEO Sample Accession",
           "source_key": "GSM"
         },
         {
@@ -150,31 +149,30 @@
       "name": "Sample Metadata",
       "headers": [
         "PMID",
-        "GSM",
-        "GSE",
-        "series_id",
-        "geo_accession",
-        "type",
-        "title",
-        "source_name_ch1",
-        "organism_ch1",
-        "taxid_ch1",
-        "characteristics_ch1",
-        "treatment_protocol_ch1",
-        "growth_protocol_ch1",
-        "molecule_ch1",
-        "extract_protocol_ch1",
-        "description",
-        "data_processing",
-        "platform_id",
-        "instrument_model",
-        "library_selection",
-        "library_source",
-        "library_strategy",
-        "label_ch1",
-        "label_protocol_ch1",
-        "hyb_protocol",
-        "scan_protocol"
+        "GEO Sample Accession",
+        "GEO Series Accession",
+        "Series ID",
+        "Type",
+        "Title",
+        "Source Name",
+        "Organism",
+        "TaxID",
+        "Characteristics",
+        "Treatment Protocol",
+        "Growth Protocol",
+        "Molecule",
+        "Extract Protocol",
+        "Description",
+        "Data Processing",
+        "Platform ID",
+        "Instrument Model",
+        "Library Selection",
+        "Library Source",
+        "Library Strategy",
+        "Label",
+        "Label Protocol",
+        "Hybridization Protocol",
+        "Scan Protocol"
       ],
       "header_row": 1,
       "first_data_row": 2,
@@ -185,103 +183,103 @@
           "source_key": "PMID"
         },
         {
-          "header": "GSM",
-          "source_key": "GSM"
+          "header": "GEO Sample Accession",
+          "source_key": "GSM",
+          "source_keys": [
+            "GSM",
+            "geo_accession"
+          ]
         },
         {
-          "header": "GSE",
+          "header": "GEO Series Accession",
           "source_key": "GSE"
         },
         {
-          "header": "series_id",
+          "header": "Series ID",
           "source_key": "series_id"
         },
         {
-          "header": "geo_accession",
-          "source_key": "geo_accession"
-        },
-        {
-          "header": "type",
+          "header": "Type",
           "source_key": "type"
         },
         {
-          "header": "title",
+          "header": "Title",
           "source_key": "title"
         },
         {
-          "header": "source_name_ch1",
+          "header": "Source Name",
           "source_key": "source_name_ch1"
         },
         {
-          "header": "organism_ch1",
+          "header": "Organism",
           "source_key": "organism_ch1"
         },
         {
-          "header": "taxid_ch1",
+          "header": "TaxID",
           "source_key": "taxid_ch1"
         },
         {
-          "header": "characteristics_ch1",
+          "header": "Characteristics",
           "source_key": "characteristics_ch1"
         },
         {
-          "header": "treatment_protocol_ch1",
+          "header": "Treatment Protocol",
           "source_key": "treatment_protocol_ch1"
         },
         {
-          "header": "growth_protocol_ch1",
+          "header": "Growth Protocol",
           "source_key": "growth_protocol_ch1"
         },
         {
-          "header": "molecule_ch1",
+          "header": "Molecule",
           "source_key": "molecule_ch1"
         },
         {
-          "header": "extract_protocol_ch1",
+          "header": "Extract Protocol",
           "source_key": "extract_protocol_ch1"
         },
         {
-          "header": "description",
+          "header": "Description",
           "source_key": "description"
         },
         {
-          "header": "data_processing",
+          "header": "Data Processing",
           "source_key": "data_processing"
         },
         {
-          "header": "platform_id",
+          "header": "Platform ID",
           "source_key": "platform_id"
         },
         {
-          "header": "instrument_model",
+          "header": "Instrument Model",
           "source_key": "instrument_model"
         },
         {
-          "header": "library_selection",
+          "header": "Library Selection",
           "source_key": "library_selection"
         },
         {
-          "header": "library_source",
+          "header": "Library Source",
           "source_key": "library_source"
         },
         {
-          "header": "library_strategy",
+          "header": "Library Strategy",
           "source_key": "library_strategy"
         },
         {
-          "header": "label_ch1",
+          "header": "Label",
           "source_key": "label_ch1"
         },
         {
-          "header": "label_protocol_ch1",
+          "header": "Label Protocol",
           "source_key": "label_protocol_ch1"
         },
         {
-          "header": "hyb_protocol",
+          "header": "Hybridization Protocol",
           "source_key": "hyb_protocol"
         },
         {
-          "header": "scan_protocol",
+          "header": "Scan Protocol",
           "source_key": "scan_protocol"
         }
       ]

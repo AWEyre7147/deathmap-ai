@@ -1,6 +1,6 @@
 # Complete ORCS enrichment — 2026-10-18
 
-Completed all 418 ORCS publications using independently runnable repository stages followed by offline synthesis. See [workflow](../../../../docs/complete-enrichment.md).
+Completed all 418 ORCS publications using independently runnable repository stages followed by offline synthesis. See [workflow](README.md).
 
 ## Review workbooks
 

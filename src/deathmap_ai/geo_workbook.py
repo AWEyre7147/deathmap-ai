@@ -8,6 +8,8 @@ import hashlib
 import json
 from pathlib import Path
 
+from .display_labels import merge_display_values
+
 import openpyxl
 
 from .pubmed_workbook import export_workbook as _write_template
@@ -73,7 +75,7 @@ def export_workbook(template, output, tables, manifest=None):
         for record in tables[source_table]:
             values = []
             for column in sheet['columns']:
-                value = record.get(column['source_key'])
+                value = merge_display_values(record.get(key) for key in column.get('source_keys', [column['source_key']]))
                 if value is None:
                     value = ''
                 if isinstance(value, str) and len(value) > 32767:

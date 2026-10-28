@@ -1,7 +1,7 @@
 """Apply owner-selected synthesis labels without altering native source keys.
 
 Each column retains an explicit source-header mapping. Cosmetic case collisions
-receive numbered labels rather than merging scientifically distinct attributes.
+share one column while retaining distinct reported values.
 This imported layout helper performs no retrieval or scientific normalization.
 """
 
@@ -34,11 +34,7 @@ ORDERS = {
 }
 
 
-def _title(header):
-    acronyms = {'id': 'ID', 'ui': 'UI', 'pmid': 'PMID', 'doi': 'DOI', 'pmcid': 'PMCID', 'geo': 'GEO',
-                'sra': 'SRA', 'ena': 'ENA', 'rna': 'RNA', 'dna': 'DNA', 'url': 'URL', 'gbm': 'GBM',
-                'biosample': 'BioSample', 'bioproject': 'BioProject', 'taxid': 'TaxID'}
-    return ' '.join(acronyms.get(word.lower(), word.capitalize()) for word in header.replace('_ch1', '').replace('_', ' ').split())
+from .display_labels import readable_title as _title, readable_headers, merge_display_values, identifier_label
 
 
 def layout_sheet(sheet):
@@ -94,17 +90,18 @@ def layout_sheet(sheet):
                         'Native section ID': 'ArrayExpress Section ID', 'Native section type': 'ArrayExpress Section Type',
                         'Native line': 'ArrayExpress Line', 'Native column': 'ArrayExpress Column',
                         'Native field': 'ArrayExpress Field', 'Native data row': 'ArrayExpress Row'})
-    labels, counts = [], {}
-    for h in order:
-        label = aliases.get(h, _title(h))
-        counts[label] = counts.get(label, 0) + 1
-        labels.append(label if counts[label] == 1 else f'{label} ({counts[label]})')
-    positions = [headers.index(h) for h in order]
+    resource = name.split(' - ', 1)[0]
+    labels = readable_headers([identifier_label(resource, name, h, aliases.get(h, _title(h))) for h in order])
+    groups = {}
+    for label, h in zip(labels, order):
+        groups.setdefault(label, []).append(h)
+    labels = list(groups)
+    positions = [[headers.index(h) for h in groups[label]] for label in labels]
     # Change repository labels, not identifiers or scientific prose. Original
     # source rows/keys remain in the companion evidence, including native labels.
     def display(value):
         return 'NCBI BioProject' if value == 'BioProject' else 'NCBI BioSample' if value == 'BioSample' else value
     return {'name': NAMES[name], 'headers': labels,
-            'rows': [[display(row[i]) for i in positions] for row in sheet['rows']],
-            'source_sheet': name, 'columns': [{'header': label, 'source_header': h} for label, h in zip(labels, order)],
+            'rows': [[merge_display_values(display(row[i]) for i in group) for group in positions] for row in sheet['rows']],
+            'source_sheet': name, 'columns': [{'header': label, 'source_header': groups[label][0], 'source_headers': groups[label]} for label in labels],
             'removed_headers': [h for h in headers if h not in order]}

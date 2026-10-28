@@ -26,6 +26,8 @@ deathmap-enrichment-stage = "deathmap_ai.enrichment_commands:main"
 
 deathmap-export-enrichment = "deathmap_ai.enrichment_export:main"
 
+deathmap-enrich-pmc-supplementals = "deathmap_ai.pmc_supplemental_collection:main"
+
 [tool.setuptools.package-data]
 deathmap_ai = ["reference_schema.json"]
 

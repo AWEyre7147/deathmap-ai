@@ -1,0 +1,963 @@
+{
+  "schema_version": "enrichment-template/1.0",
+  "name": "DeathMap-AI Output",
+  "template": "data\\templates\\DeathMap-AI-output.xlsx",
+  "sheets": [
+    {
+      "name": "Publications",
+      "headers": [
+        "Publication ID",
+        "Title Original",
+        "Publication Type Reported",
+        "Journal Reported",
+        "Publication Year",
+        "Author List Reported",
+        "PMID",
+        "PMID Link",
+        "PMCID",
+        "PMC Link",
+        "DOI",
+        "DOI Link",
+        "Retrieval Sources",
+        "Evidence Status",
+        "Publication Notes",
+        "Evidence ID Link"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Publications",
+      "columns": [
+        {
+          "header": "Publication ID",
+          "source_key": "publication_id"
+        },
+        {
+          "header": "Title Original",
+          "source_key": "title_original"
+        },
+        {
+          "header": "Publication Type Reported",
+          "source_key": "publication_type_reported"
+        },
+        {
+          "header": "Journal Reported",
+          "source_key": "journal_reported"
+        },
+        {
+          "header": "Publication Year",
+          "source_key": "publication_year"
+        },
+        {
+          "header": "Author List Reported",
+          "source_key": "author_list_reported"
+        },
+        {
+          "header": "PMID",
+          "source_key": "pmid"
+        },
+        {
+          "header": "PMID Link",
+          "source_key": "pmid_link"
+        },
+        {
+          "header": "PMCID",
+          "source_key": "pmcid"
+        },
+        {
+          "header": "PMC Link",
+          "source_key": "pmc_link"
+        },
+        {
+          "header": "DOI",
+          "source_key": "doi"
+        },
+        {
+          "header": "DOI Link",
+          "source_key": "doi_link"
+        },
+        {
+          "header": "Retrieval Sources",
+          "source_key": "retrieval_sources"
+        },
+        {
+          "header": "Evidence Status",
+          "source_key": "evidence_status"
+        },
+        {
+          "header": "Publication Notes",
+          "source_key": "publication_notes"
+        },
+        {
+          "header": "Evidence ID Link",
+          "source_key": "evidence_id_link"
+        }
+      ]
+    },
+    {
+      "name": "Screen Groups",
+      "headers": [
+        "Screen Group ID",
+        "Publication ID",
+        "Group Name Curated",
+        "Group Name Reported",
+        "Group Stage Normalized",
+        "Group Objective Curated",
+        "Perturbation Type Normalized",
+        "Library Name Reported",
+        "Library Scope Normalized",
+        "Experimental Setting Normalized",
+        "Shared Design Summary",
+        "Source Evidence IDs",
+        "Curation Status",
+        "Group Notes"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Screen Groups",
+      "columns": [
+        {
+          "header": "Screen Group ID",
+          "source_key": "screen_group_id"
+        },
+        {
+          "header": "Publication ID",
+          "source_key": "publication_id"
+        },
+        {
+          "header": "Group Name Curated",
+          "source_key": "group_name_curated"
+        },
+        {
+          "header": "Group Name Reported",
+          "source_key": "group_name_reported"
+        },
+        {
+          "header": "Group Stage Normalized",
+          "source_key": "group_stage_normalized"
+        },
+        {
+          "header": "Group Objective Curated",
+          "source_key": "group_objective_curated"
+        },
+        {
+          "header": "Perturbation Type Normalized",
+          "source_key": "perturbation_type_normalized"
+        },
+        {
+          "header": "Library Name Reported",
+          "source_key": "library_name_reported"
+        },
+        {
+          "header": "Library Scope Normalized",
+          "source_key": "library_scope_normalized"
+        },
+        {
+          "header": "Experimental Setting Normalized",
+          "source_key": "experimental_setting_normalized"
+        },
+        {
+          "header": "Shared Design Summary",
+          "source_key": "shared_design_summary"
+        },
+        {
+          "header": "Source Evidence IDs",
+          "source_key": "source_evidence_ids"
+        },
+        {
+          "header": "Curation Status",
+          "source_key": "curation_status"
+        },
+        {
+          "header": "Group Notes",
+          "source_key": "group_notes"
+        }
+      ]
+    },
+    {
+      "name": "Screens",
+      "headers": [
+        "Screen ID",
+        "Screen Group ID",
+        "Publication ID",
+        "Screen Name Curated",
+        "Screen Name Reported",
+        "Screen Category Normalized",
+        "Experimental Setting Normalized",
+        "Screen Format Normalized",
+        "Perturbation Type Normalized",
+        "Methodology Reported",
+        "Enzyme Reported",
+        "Library Name Reported",
+        "Library Type Reported",
+        "Library Scope Normalized",
+        "Library Gene Count Reported",
+        "Library Guide Count Reported",
+        "Perturbed Population Reported",
+        "Interacting Population Reported",
+        "Cell Line Reported",
+        "Organism Reported",
+        "Disease Context Normalized",
+        "Immune Interaction Mode Normalized",
+        "Immune Cell Population Reported",
+        "Immune Cell Population Normalized",
+        "Coculture Configuration Normalized",
+        "Effector Target Ratio Reported",
+        "Condition Name Reported",
+        "Condition Dosage Reported",
+        "Duration Reported",
+        "Comparator Reported",
+        "Phenotype Original",
+        "Readout Reported",
+        "Replicate Design Reported",
+        "Statistical Analysis Reported",
+        "Source Evidence IDs",
+        "Curation Status",
+        "Screen Notes",
+        "Immune Context Notes",
+        "Cellosaurus Accession"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Screens",
+      "columns": [
+        {
+          "header": "Screen ID",
+          "source_key": "screen_id"
+        },
+        {
+          "header": "Screen Group ID",
+          "source_key": "screen_group_id"
+        },
+        {
+          "header": "Publication ID",
+          "source_key": "publication_id"
+        },
+        {
+          "header": "Screen Name Curated",
+          "source_key": "screen_name_curated"
+        },
+        {
+          "header": "Screen Name Reported",
+          "source_key": "screen_name_reported"
+        },
+        {
+          "header": "Screen Category Normalized",
+          "source_key": "screen_category_normalized"
+        },
+        {
+          "header": "Experimental Setting Normalized",
+          "source_key": "experimental_setting_normalized"
+        },
+        {
+          "header": "Screen Format Normalized",
+          "source_key": "screen_format_normalized"
+        },
+        {
+          "header": "Perturbation Type Normalized",
+          "source_key": "perturbation_type_normalized"
+        },
+        {
+          "header": "Methodology Reported",
+          "source_key": "methodology_reported"
+        },
+        {
+          "header": "Enzyme Reported",
+          "source_key": "enzyme_reported"
+        },
+        {
+          "header": "Library Name Reported",
+          "source_key": "library_name_reported"
+        },
+        {
+          "header": "Library Type Reported",
+          "source_key": "library_type_reported"
+        },
+        {
+          "header": "Library Scope Normalized",
+          "source_key": "library_scope_normalized"
+        },
+        {
+          "header": "Library Gene Count Reported",
+          "source_key": "library_gene_count_reported"
+        },
+        {
+          "header": "Library Guide Count Reported",
+          "source_key": "library_guide_count_reported"
+        },
+        {
+          "header": "Perturbed Population Reported",
+          "source_key": "perturbed_population_reported"
+        },
+        {
+          "header": "Interacting Population Reported",
+          "source_key": "interacting_population_reported"
+        },
+        {
+          "header": "Cell Line Reported",
+          "source_key": "cell_line_reported"
+        },
+        {
+          "header": "Organism Reported",
+          "source_key": "organism_reported"
+        },
+        {
+          "header": "Disease Context Normalized",
+          "source_key": "disease_context_normalized"
+        },
+        {
+          "header": "Immune Interaction Mode Normalized",
+          "source_key": "immune_interaction_mode_normalized"
+        },
+        {
+          "header": "Immune Cell Population Reported",
+          "source_key": "immune_cell_population_reported"
+        },
+        {
+          "header": "Immune Cell Population Normalized",
+          "source_key": "immune_cell_population_normalized"
+        },
+        {
+          "header": "Coculture Configuration Normalized",
+          "source_key": "coculture_configuration_normalized"
+        },
+        {
+          "header": "Effector Target Ratio Reported",
+          "source_key": "effector_target_ratio_reported"
+        },
+        {
+          "header": "Condition Name Reported",
+          "source_key": "condition_name_reported"
+        },
+        {
+          "header": "Condition Dosage Reported",
+          "source_key": "condition_dosage_reported"
+        },
+        {
+          "header": "Duration Reported",
+          "source_key": "duration_reported"
+        },
+        {
+          "header": "Comparator Reported",
+          "source_key": "comparator_reported"
+        },
+        {
+          "header": "Phenotype Original",
+          "source_key": "phenotype_original"
+        },
+        {
+          "header": "Readout Reported",
+          "source_key": "readout_reported"
+        },
+        {
+          "header": "Replicate Design Reported",
+          "source_key": "replicate_design_reported"
+        },
+        {
+          "header": "Statistical Analysis Reported",
+          "source_key": "statistical_analysis_reported"
+        },
+        {
+          "header": "Source Evidence IDs",
+          "source_key": "source_evidence_ids"
+        },
+        {
+          "header": "Curation Status",
+          "source_key": "curation_status"
+        },
+        {
+          "header": "Screen Notes",
+          "source_key": "screen_notes"
+        },
+        {
+          "header": "Immune Context Notes",
+          "source_key": "immune_context_notes"
+        },
+        {
+          "header": "Cellosaurus Accession",
+          "source_key": "cellosaurus_accession"
+        }
+      ]
+    },
+    {
+      "name": "Datasets",
+      "headers": [
+        "Dataset ID",
+        "Publication ID",
+        "Repository Normalized",
+        "Accession",
+        "Accession Level Normalized",
+        "Parent Accession",
+        "Title Original",
+        "Description Reported",
+        "Dataset Type Normalized",
+        "Experiment Type Reported",
+        "Organism Reported",
+        "Sample Count Reported",
+        "BioProject Accession",
+        "SRA Study Accession",
+        "Raw Data Available",
+        "Processed Data Available",
+        "Screen Data Available",
+        "Library Definition Available",
+        "Availability Reported",
+        "Dataset URL",
+        "Supporting Asset URLs Reported",
+        "Source Evidence IDs",
+        "Attribution Status",
+        "Dataset Notes"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Datasets",
+      "columns": [
+        {
+          "header": "Dataset ID",
+          "source_key": "dataset_id"
+        },
+        {
+          "header": "Publication ID",
+          "source_key": "publication_id"
+        },
+        {
+          "header": "Repository Normalized",
+          "source_key": "repository_normalized"
+        },
+        {
+          "header": "Accession",
+          "source_key": "accession_reported"
+        },
+        {
+          "header": "Accession Level Normalized",
+          "source_key": "accession_level_normalized"
+        },
+        {
+          "header": "Parent Accession",
+          "source_key": "parent_accession_reported"
+        },
+        {
+          "header": "Title Original",
+          "source_key": "title_original"
+        },
+        {
+          "header": "Description Reported",
+          "source_key": "description_reported"
+        },
+        {
+          "header": "Dataset Type Normalized",
+          "source_key": "dataset_type_normalized"
+        },
+        {
+          "header": "Experiment Type Reported",
+          "source_key": "experiment_type_reported"
+        },
+        {
+          "header": "Organism Reported",
+          "source_key": "organism_reported"
+        },
+        {
+          "header": "Sample Count Reported",
+          "source_key": "sample_count_reported"
+        },
+        {
+          "header": "BioProject Accession",
+          "source_key": "bioproject_accession"
+        },
+        {
+          "header": "SRA Study Accession",
+          "source_key": "sra_study_accession"
+        },
+        {
+          "header": "Raw Data Available",
+          "source_key": "raw_data_available"
+        },
+        {
+          "header": "Processed Data Available",
+          "source_key": "processed_data_available"
+        },
+        {
+          "header": "Screen Data Available",
+          "source_key": "screen_data_available"
+        },
+        {
+          "header": "Library Definition Available",
+          "source_key": "library_definition_available"
+        },
+        {
+          "header": "Availability Reported",
+          "source_key": "availability_reported"
+        },
+        {
+          "header": "Dataset URL",
+          "source_key": "dataset_url"
+        },
+        {
+          "header": "Supporting Asset URLs Reported",
+          "source_key": "supporting_asset_urls_reported"
+        },
+        {
+          "header": "Source Evidence IDs",
+          "source_key": "source_evidence_ids"
+        },
+        {
+          "header": "Attribution Status",
+          "source_key": "attribution_status"
+        },
+        {
+          "header": "Dataset Notes",
+          "source_key": "dataset_notes"
+        }
+      ]
+    },
+    {
+      "name": "Screen-Dataset Links",
+      "headers": [
+        "Link ID",
+        "Screen ID",
+        "Dataset ID",
+        "Relationship Type Normalized",
+        "Evidence Basis",
+        "Evidence Source ID",
+        "Evidence Locator",
+        "Attribution Status",
+        "Link Notes"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Screen-Dataset Links",
+      "columns": [
+        {
+          "header": "Link ID",
+          "source_key": "link_id"
+        },
+        {
+          "header": "Screen ID",
+          "source_key": "screen_id"
+        },
+        {
+          "header": "Dataset ID",
+          "source_key": "dataset_id"
+        },
+        {
+          "header": "Relationship Type Normalized",
+          "source_key": "relationship_type_normalized"
+        },
+        {
+          "header": "Evidence Basis",
+          "source_key": "evidence_basis"
+        },
+        {
+          "header": "Evidence Source ID",
+          "source_key": "evidence_source_id"
+        },
+        {
+          "header": "Evidence Locator",
+          "source_key": "evidence_locator"
+        },
+        {
+          "header": "Attribution Status",
+          "source_key": "attribution_status"
+        },
+        {
+          "header": "Link Notes",
+          "source_key": "link_notes"
+        }
+      ]
+    },
+    {
+      "name": "Evidence",
+      "headers": [
+        "Evidence ID",
+        "Supports Entity Type",
+        "Supports Entity ID",
+        "Claim",
+        "Fields Supported",
+        "Source Name",
+        "Source Link",
+        "Supporting Value",
+        "Supporting Value Truncated",
+        "Evidence Basis",
+        "Evidence Status",
+        "Reviewer Check",
+        "Reviewer Note"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Evidence",
+      "columns": [
+        {
+          "header": "Evidence ID",
+          "source_key": "evidence_id"
+        },
+        {
+          "header": "Supports Entity Type",
+          "source_key": "supports_entity_type"
+        },
+        {
+          "header": "Supports Entity ID",
+          "source_key": "supports_entity_id"
+        },
+        {
+          "header": "Claim",
+          "source_key": "claim"
+        },
+        {
+          "header": "Fields Supported",
+          "source_key": "fields_supported"
+        },
+        {
+          "header": "Source Name",
+          "source_key": "source_name"
+        },
+        {
+          "header": "Source Link",
+          "source_key": "source_link"
+        },
+        {
+          "header": "Supporting Value",
+          "source_key": "supporting_value"
+        },
+        {
+          "header": "Supporting Value Truncated",
+          "source_key": "supporting_value_truncated"
+        },
+        {
+          "header": "Evidence Basis",
+          "source_key": "evidence_basis"
+        },
+        {
+          "header": "Evidence Status",
+          "source_key": "evidence_status"
+        },
+        {
+          "header": "Reviewer Check",
+          "source_key": "reviewer_check"
+        },
+        {
+          "header": "Reviewer Note",
+          "source_key": "reviewer_note"
+        }
+      ]
+    },
+    {
+      "name": "Reviewer Tasks",
+      "headers": [
+        "Review Category",
+        "Reviewer Responsibility",
+        "Pipeline Responsibility",
+        "Use This Category When",
+        "Examples"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Reviewer Tasks",
+      "columns": [
+        {
+          "header": "Review Category",
+          "source_key": "Review category"
+        },
+        {
+          "header": "Reviewer Responsibility",
+          "source_key": "Reviewer responsibility"
+        },
+        {
+          "header": "Pipeline Responsibility",
+          "source_key": "Pipeline responsibility"
+        },
+        {
+          "header": "Use This Category When",
+          "source_key": "Use this category when"
+        },
+        {
+          "header": "Examples",
+          "source_key": "Examples"
+        }
+      ]
+    },
+    {
+      "name": "Definitions",
+      "headers": [
+        "Sheet",
+        "Definition Generalized",
+        "Definition Technical",
+        "Create A New Record When",
+        "Keep Within The Existing Record When",
+        "Critical Boundary"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Definitions",
+      "columns": [
+        {
+          "header": "Sheet",
+          "source_key": "Sheet"
+        },
+        {
+          "header": "Definition Generalized",
+          "source_key": "Definition generalized"
+        },
+        {
+          "header": "Definition Technical",
+          "source_key": "Definition technical"
+        },
+        {
+          "header": "Create A New Record When",
+          "source_key": "Create a new record when"
+        },
+        {
+          "header": "Keep Within The Existing Record When",
+          "source_key": "Keep within the existing record when"
+        },
+        {
+          "header": "Critical Boundary",
+          "source_key": "Critical boundary"
+        }
+      ]
+    },
+    {
+      "name": "Scientific Glossary",
+      "headers": [
+        "Output Sheet",
+        "Output Column",
+        "Scientific Meaning Generalized",
+        "Scientific Meaning",
+        "What The Value Does Not Establish",
+        "Reviewer Responsibility"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Scientific Glossary",
+      "columns": [
+        {
+          "header": "Output Sheet",
+          "source_key": "Output sheet"
+        },
+        {
+          "header": "Output Column",
+          "source_key": "Output column"
+        },
+        {
+          "header": "Scientific Meaning Generalized",
+          "source_key": "Scientific meaning generalized"
+        },
+        {
+          "header": "Scientific Meaning",
+          "source_key": "Scientific meaning"
+        },
+        {
+          "header": "What The Value Does Not Establish",
+          "source_key": "What the value does not establish"
+        },
+        {
+          "header": "Reviewer Responsibility",
+          "source_key": "Reviewer responsibility"
+        }
+      ]
+    },
+    {
+      "name": "Sources",
+      "headers": [
+        "Resource Name",
+        "Resource Type",
+        "Programmatic Access",
+        "Access Method",
+        "Authentication Required",
+        "Queried In This Version",
+        "Publications Discovered",
+        "Datasets Discovered",
+        "Screens Discovered",
+        "Unique Contribution",
+        "Limitations",
+        "Documentation URL",
+        "Discovery Resources Notes"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Sources",
+      "columns": [
+        {
+          "header": "Resource Name",
+          "source_key": "resource_name"
+        },
+        {
+          "header": "Resource Type",
+          "source_key": "resource_type"
+        },
+        {
+          "header": "Programmatic Access",
+          "source_key": "programmatic_access"
+        },
+        {
+          "header": "Access Method",
+          "source_key": "access_method"
+        },
+        {
+          "header": "Authentication Required",
+          "source_key": "authentication_required"
+        },
+        {
+          "header": "Queried In This Version",
+          "source_key": "queried_in_this_version"
+        },
+        {
+          "header": "Publications Discovered",
+          "source_key": "publications_discovered"
+        },
+        {
+          "header": "Datasets Discovered",
+          "source_key": "datasets_discovered"
+        },
+        {
+          "header": "Screens Discovered",
+          "source_key": "screens_discovered"
+        },
+        {
+          "header": "Unique Contribution",
+          "source_key": "unique_contribution"
+        },
+        {
+          "header": "Limitations",
+          "source_key": "limitations"
+        },
+        {
+          "header": "Documentation URL",
+          "source_key": "documentation_url"
+        },
+        {
+          "header": "Discovery Resources Notes",
+          "source_key": "discovery_resources_notes"
+        }
+      ]
+    },
+    {
+      "name": "Source Glossary",
+      "headers": [
+        "Output Sheet",
+        "Output Column",
+        "Expected Source Family",
+        "Source-Specific Meaning",
+        "Source Evidence Boundary"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Source Glossary",
+      "columns": [
+        {
+          "header": "Output Sheet",
+          "source_key": "Output sheet"
+        },
+        {
+          "header": "Output Column",
+          "source_key": "Output column"
+        },
+        {
+          "header": "Expected Source Family",
+          "source_key": "Expected source family"
+        },
+        {
+          "header": "Source-Specific Meaning",
+          "source_key": "Source-specific meaning"
+        },
+        {
+          "header": "Source Evidence Boundary",
+          "source_key": "Source evidence boundary"
+        }
+      ]
+    },
+    {
+      "name": "Technical Glossary",
+      "headers": [
+        "Output Sheet",
+        "Output Column",
+        "Technical Definition",
+        "Value Format",
+        "Cardinality",
+        null,
+        null,
+        null,
+        null
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Technical Glossary",
+      "columns": [
+        {
+          "header": "Output Sheet",
+          "source_key": "Output sheet"
+        },
+        {
+          "header": "Output Column",
+          "source_key": "Output column"
+        },
+        {
+          "header": "Technical Definition",
+          "source_key": "Technical definition"
+        },
+        {
+          "header": "Value Format",
+          "source_key": "Value format"
+        },
+        {
+          "header": "Cardinality",
+          "source_key": "Cardinality"
+        },
+        {
+          "header": null,
+          "source_key": null
+        },
+        {
+          "header": null,
+          "source_key": null
+        },
+        {
+          "header": null,
+          "source_key": null
+        },
+        {
+          "header": null,
+          "source_key": null
+        }
+      ]
+    },
+    {
+      "name": "Pipeline Glossary",
+      "headers": [
+        "Output Sheet",
+        "Output Column",
+        "Population Method",
+        "Transformation Or Acceptance Rule",
+        "Review Category",
+        "Missing Or Conflict Behavior"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Pipeline Glossary",
+      "columns": [
+        {
+          "header": "Output Sheet",
+          "source_key": "Output sheet"
+        },
+        {
+          "header": "Output Column",
+          "source_key": "Output column"
+        },
+        {
+          "header": "Population Method",
+          "source_key": "Population method"
+        },
+        {
+          "header": "Transformation Or Acceptance Rule",
+          "source_key": "Transformation or acceptance rule"
+        },
+        {
+          "header": "Review Category",
+          "source_key": "Review category"
+        },
+        {
+          "header": "Missing Or Conflict Behavior",
+          "source_key": "Missing or conflict behavior"
+        }
+      ]
+    }
+  ],
+  "sha256": "3e31991f91d234d701514b6af4dba09b1318258d093828e09c5a03fbe1f46c17"
+}

@@ -15,6 +15,8 @@ import zipfile
 import xml.etree.ElementTree as ET
 from xml.sax.saxutils import escape
 
+from .display_labels import merge_display_values
+
 import openpyxl
 from openpyxl.utils import get_column_letter
 from .pubmed_workbook import NS, q, replace_block
@@ -60,7 +62,7 @@ def export_registered(template, output, tables, *, overflow_sidecar=False):
             raise ValueError('Missing projected table: ' + name)
         for row_index, record in enumerate(tables[name]):
             yield [replacements.get((spec['name'], row_index, i),
-                   record.get(c.get('source_key', c['header'])) if isinstance(record, dict)
+                   merge_display_values(record.get(key) for key in c.get('source_keys', [c.get('source_key', c['header'])])) if isinstance(record, dict)
                    else record[c.get('source_column_index', c.get('source_index', i))]) for i, c in enumerate(spec['columns'])]
     # Preflight before creating output: no silent truncation, missing mappings,
     # experimental files or executable formula interpretation.

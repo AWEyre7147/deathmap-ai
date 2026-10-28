@@ -25,15 +25,17 @@ class GeoWorkbookTests(unittest.TestCase):
             'Sample Metadata': [{'PMID': '1', 'GSE': 'GSE2', 'GSM': 'GSM4', 'scan_protocol': '=literal metadata'}],
         }
 
-    def test_population_preserves_owner_format_and_column_z(self):
+    def test_population_preserves_owner_format_and_last_field(self):
         before = TEMPLATE.read_bytes()
         receipt = export_workbook(TEMPLATE, self.output, self.tables)
         book = openpyxl.load_workbook(self.output)
         template = openpyxl.load_workbook(TEMPLATE)
         try:
             self.assertIn(book['Series Records']['L2'].value, (None, ''))
-            self.assertEqual(book['Sample Metadata']['Z2'].value, '=literal metadata')
-            self.assertEqual(book['Sample Metadata']['Z2'].data_type, 's')
+            headers = [c.value for c in book['Sample Metadata'][1]]
+            scan = book['Sample Metadata'].cell(2, headers.index('Scan Protocol') + 1)
+            self.assertEqual(scan.value, '=literal metadata')
+            self.assertEqual(scan.data_type, 's')
             self.assertEqual(copy(book['Sample Metadata']['A2'].font), copy(template['Sample Metadata']['A2'].font))
             self.assertIsNone(book['Sample Metadata'].row_dimensions[2].height)
             self.assertEqual(receipt['sheet_rows']['Sample Metadata'], 1)

@@ -99,3 +99,10 @@ data/cellosaurus/orcs-annotations/raw/*.part
 !/data/orcs/enrichment-runs/20261018/ena/*.xlsx
 !/data/orcs/enrichment-runs/20261018/ena/*.manifest.json
 !/data/orcs/enrichment-runs/20261018/ena/stage-receipt.json
+
+# PMC native responses are preserved in the verified source archive. Keep local
+# checkpoints, duplicate exports and superseded partial results out of Git.
+/data/orcs/pmc-supplemental-enrichment/20261028/*
+!/data/orcs/pmc-supplemental-enrichment/20261028/source-material.zip
+!/data/orcs/pmc-supplemental-enrichment/20261028/source-material.manifest.json
+!/data/orcs/pmc-supplemental-enrichment/20261028/README.md

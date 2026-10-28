@@ -2,38 +2,37 @@
   "schema_version": "enrichment-template/1.0",
   "name": "ENA-Enrichment",
   "template": "data\\templates\\ENA-Enrichment.xlsx",
-  "sha256": "78a0db536da7a099da0636565c914018791b2602d8b1bd6d8c40492b9991264f",
-  "status": "owner_requested_revision",
+  "sha256": "06dc0e3547e3b38b91772456bcbbf1b2e22e2730b926bfe57b2948bbc00f11b6",
   "registered_utc": "2026-10-17T00:08:09.377Z",
   "sheets": [
     {
       "name": "Studies",
       "headers": [
-        "Study accession",
-        "SRA study accession",
-        "Study title",
+        "BioProject Accession",
+        "SRA Study Accession",
+        "Study Title",
         "Organism",
-        "Samples in report",
-        "Experiments in report",
-        "Runs in report",
-        "Study description"
+        "Samples In Report",
+        "Experiments In Report",
+        "Runs In Report",
+        "Study Description"
       ],
       "header_row": 1,
       "first_data_row": 2,
       "source_table": "Studies",
       "columns": [
         {
-          "header": "Study accession",
+          "header": "BioProject Accession",
           "source_key": "Study accession",
           "width": 22
         },
         {
-          "header": "SRA study accession",
+          "header": "SRA Study Accession",
           "source_key": "SRA study accession",
           "width": 22
         },
         {
-          "header": "Study title",
+          "header": "Study Title",
           "source_key": "Study title",
           "width": 55
         },
@@ -43,22 +42,22 @@
           "width": 22
         },
         {
-          "header": "Samples in report",
+          "header": "Samples In Report",
           "source_key": "Samples in report",
           "width": 22
         },
         {
-          "header": "Experiments in report",
+          "header": "Experiments In Report",
           "source_key": "Experiments in report",
           "width": 22
         },
         {
-          "header": "Runs in report",
+          "header": "Runs In Report",
           "source_key": "Runs in report",
           "width": 22
         },
         {
-          "header": "Study description",
+          "header": "Study Description",
           "source_key": "Study description",
           "width": 90
         }
@@ -70,11 +69,11 @@
         "PMID",
         "DOI",
         "PMCID",
-        "Publication title",
+        "Publication Title",
         "Authors",
         "Journal",
-        "Publication date",
-        "Retrieval result"
+        "Publication Date",
+        "Retrieval Result"
       ],
       "header_row": 1,
       "first_data_row": 2,
@@ -96,7 +95,7 @@
           "width": 22
         },
         {
-          "header": "Publication title",
+          "header": "Publication Title",
           "source_key": "Publication title",
           "width": 55
         },
@@ -111,12 +110,12 @@
           "width": 22
         },
         {
-          "header": "Publication date",
+          "header": "Publication Date",
           "source_key": "Publication date",
           "width": 22
         },
         {
-          "header": "Retrieval result",
+          "header": "Retrieval Result",
           "source_key": "Retrieval result",
           "width": 22
         }
@@ -125,16 +124,16 @@
     {
       "name": "Study hierarchy",
       "headers": [
-        "Study accession",
+        "BioProject Accession",
         "Relationship",
-        "Related study accession"
+        "Related BioProject Accession"
       ],
       "header_row": 1,
       "first_data_row": 2,
       "source_table": "Study hierarchy",
       "columns": [
         {
-          "header": "Study accession",
+          "header": "BioProject Accession",
           "source_key": "Study accession",
           "width": 22
         },
@@ -144,7 +143,7 @@
           "width": 22
         },
         {
-          "header": "Related study accession",
+          "header": "Related BioProject Accession",
           "source_key": "Related study accession",
           "width": 22
         }
@@ -153,29 +152,29 @@
     {
       "name": "Samples",
       "headers": [
-        "Sample accession",
-        "Sample title",
-        "Sample description",
+        "BioSample Accession",
+        "Sample Title",
+        "Sample Description",
         "Organism",
-        "Reporting studies",
-        "Run accessions"
+        "Reported BioProject Accessions",
+        "SRA Run Accessions"
       ],
       "header_row": 1,
       "first_data_row": 2,
       "source_table": "Samples",
       "columns": [
         {
-          "header": "Sample accession",
+          "header": "BioSample Accession",
           "source_key": "Sample accession",
           "width": 22
         },
         {
-          "header": "Sample title",
+          "header": "Sample Title",
           "source_key": "Sample title",
           "width": 55
         },
         {
-          "header": "Sample description",
+          "header": "Sample Description",
           "source_key": "Sample description",
           "width": 90
         },
@@ -185,12 +184,12 @@
           "width": 22
         },
         {
-          "header": "Reporting studies",
+          "header": "Reported BioProject Accessions",
           "source_key": "Reporting studies",
           "width": 22
         },
         {
-          "header": "Run accessions",
+          "header": "SRA Run Accessions",
           "source_key": "Run accessions",
           "width": 22
         }
@@ -199,80 +198,80 @@
     {
       "name": "Experiments",
       "headers": [
-        "Experiment accession",
-        "Experiment title",
-        "Sample accession",
-        "Library strategy",
-        "Library source",
-        "Library selection",
-        "Library layout",
-        "Instrument platform",
-        "Instrument model",
-        "Library construction protocol",
-        "Reporting studies",
-        "Run accessions"
+        "SRA Experiment Accession",
+        "Experiment Title",
+        "BioSample Accession",
+        "Library Strategy",
+        "Library Source",
+        "Library Selection",
+        "Library Layout",
+        "Instrument Platform",
+        "Instrument Model",
+        "Library Construction Protocol",
+        "Reported BioProject Accessions",
+        "SRA Run Accessions"
       ],
       "header_row": 1,
       "first_data_row": 2,
       "source_table": "Experiments",
       "columns": [
         {
-          "header": "Experiment accession",
+          "header": "SRA Experiment Accession",
           "source_key": "Experiment accession",
           "width": 22
         },
         {
-          "header": "Experiment title",
+          "header": "Experiment Title",
           "source_key": "Experiment title",
           "width": 55
         },
         {
-          "header": "Sample accession",
+          "header": "BioSample Accession",
           "source_key": "Sample accession",
           "width": 22
         },
         {
-          "header": "Library strategy",
+          "header": "Library Strategy",
           "source_key": "Library strategy",
           "width": 22
         },
         {
-          "header": "Library source",
+          "header": "Library Source",
           "source_key": "Library source",
           "width": 22
         },
         {
-          "header": "Library selection",
+          "header": "Library Selection",
           "source_key": "Library selection",
           "width": 22
         },
         {
-          "header": "Library layout",
+          "header": "Library Layout",
           "source_key": "Library layout",
           "width": 22
         },
         {
-          "header": "Instrument platform",
+          "header": "Instrument Platform",
           "source_key": "Instrument platform",
           "width": 22
         },
         {
-          "header": "Instrument model",
+          "header": "Instrument Model",
           "source_key": "Instrument model",
           "width": 22
         },
         {
-          "header": "Library construction protocol",
+          "header": "Library Construction Protocol",
           "source_key": "Library construction protocol",
           "width": 90
         },
         {
-          "header": "Reporting studies",
+          "header": "Reported BioProject Accessions",
           "source_key": "Reporting studies",
           "width": 22
         },
         {
-          "header": "Run accessions",
+          "header": "SRA Run Accessions",
           "source_key": "Run accessions",
           "width": 22
         }
@@ -281,56 +280,56 @@
     {
       "name": "Runs",
       "headers": [
-        "Run accession",
-        "Native study accession",
-        "SRA study accession",
-        "Sample accession",
-        "Experiment accession",
-        "Read count",
-        "Base count",
-        "Reporting studies"
+        "SRA Run Accession",
+        "BioProject Accession",
+        "SRA Study Accession",
+        "BioSample Accession",
+        "SRA Experiment Accession",
+        "Read Count",
+        "Base Count",
+        "Reported BioProject Accessions"
       ],
       "header_row": 1,
       "first_data_row": 2,
       "source_table": "Runs",
       "columns": [
         {
-          "header": "Run accession",
+          "header": "SRA Run Accession",
           "source_key": "Run accession",
           "width": 22
         },
         {
-          "header": "Native study accession",
+          "header": "BioProject Accession",
           "source_key": "Native study accession",
           "width": 22
         },
         {
-          "header": "SRA study accession",
+          "header": "SRA Study Accession",
           "source_key": "SRA study accession",
           "width": 22
         },
         {
-          "header": "Sample accession",
+          "header": "BioSample Accession",
           "source_key": "Sample accession",
           "width": 22
         },
         {
-          "header": "Experiment accession",
+          "header": "SRA Experiment Accession",
           "source_key": "Experiment accession",
           "width": 22
         },
         {
-          "header": "Read count",
+          "header": "Read Count",
           "source_key": "Read count",
           "width": 22
         },
         {
-          "header": "Base count",
+          "header": "Base Count",
           "source_key": "Base count",
           "width": 22
         },
         {
-          "header": "Reporting studies",
+          "header": "Reported BioProject Accessions",
           "source_key": "Reporting studies",
           "width": 22
         }
@@ -339,62 +338,62 @@
     {
       "name": "File listings",
       "headers": [
-        "Run accession",
-        "Native study accession",
-        "Sample accession",
-        "Experiment accession",
-        "File position",
-        "Native FTP location",
-        "MD5 checksum",
-        "Size (bytes)",
-        "File format"
+        "SRA Run Accession",
+        "BioProject Accession",
+        "BioSample Accession",
+        "SRA Experiment Accession",
+        "File Position",
+        "Native FTP Location",
+        "MD5 Checksum",
+        "Size (Bytes)",
+        "File Format"
       ],
       "header_row": 1,
       "first_data_row": 2,
       "source_table": "File listings",
       "columns": [
         {
-          "header": "Run accession",
+          "header": "SRA Run Accession",
           "source_key": "Run accession",
           "width": 22
         },
         {
-          "header": "Native study accession",
+          "header": "BioProject Accession",
           "source_key": "Native study accession",
           "width": 22
         },
         {
-          "header": "Sample accession",
+          "header": "BioSample Accession",
           "source_key": "Sample accession",
           "width": 22
         },
         {
-          "header": "Experiment accession",
+          "header": "SRA Experiment Accession",
           "source_key": "Experiment accession",
           "width": 22
         },
         {
-          "header": "File position",
+          "header": "File Position",
           "source_key": "File position",
           "width": 22
         },
         {
-          "header": "Native FTP location",
+          "header": "Native FTP Location",
           "source_key": "Native FTP location",
           "width": 60
         },
         {
-          "header": "MD5 checksum",
+          "header": "MD5 Checksum",
           "source_key": "MD5 checksum",
           "width": 22
         },
         {
-          "header": "Size (bytes)",
+          "header": "Size (Bytes)",
           "source_key": "Size (bytes)",
           "width": 22
         },
         {
-          "header": "File format",
+          "header": "File Format",
           "source_key": "File format",
           "width": 22
         }

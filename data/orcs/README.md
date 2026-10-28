@@ -53,11 +53,11 @@ The local collector is python -m deathmap_ai.orcs_publications with src on PYTHO
 
 For a later resource refresh, create a new dated collection and retain the original snapshot. The current collector implements this dated collection, not a generalized refresh scheduler.
 
-The [complete enrichment workflow](../../docs/complete-enrichment.md) documents independently runnable repository stages and offline synthesis. Shared catalogs remain independent of the saved search filters.
+The [complete enrichment workflow](enrichment-runs/20261018/README.md) documents independently runnable repository stages and offline synthesis. Shared catalogs remain independent of the saved search filters.
 
 ## [DB4] Completed PubMed enrichment
 
-The current publication index contains 418 records with 415 verified PMIDs. The shared [PubMed database](pubmed-enrichment.json), [Excel view](PubMed-Enrichment.xlsx), and [manifest](pubmed-enrichment.manifest.json) preserve retrieved publication metadata, direct GEO/BioProject associations, SRA accessions, MeSH pairs and unresolved entries. Three records without verified PMIDs remain unresolved. The earlier 412-PMID extraction counts above describe the source-page extraction before identifier enrichment. See [retrieval and interpretation](../../docs/complete-enrichment.md). Native batch responses and hashes are retained under `pubmed-enrichment-source/20261008/`.
+The current publication index contains 418 records with 415 verified PMIDs. The shared [PubMed database](pubmed-enrichment.json), [Excel view](PubMed-Enrichment.xlsx), and [manifest](pubmed-enrichment.manifest.json) preserve retrieved publication metadata, direct GEO/BioProject associations, SRA accessions, MeSH pairs and unresolved entries. Three records without verified PMIDs remain unresolved. The earlier 412-PMID extraction counts above describe the source-page extraction before identifier enrichment. See [retrieval and interpretation](enrichment-runs/20261018/README.md). Native batch responses and hashes are retained under `pubmed-enrichment-source/20261008/`.
 
 ## [DB5] Completed GEO metadata enrichment
 
@@ -68,7 +68,20 @@ associations) and retrieved all 22,139 distinct GSM metadata records. The
 and [manifest](geo-enrichment.manifest.json) retain native metadata and candidate
 relationships; ownership and qualifying screen roles remain unassessed.
 [Native responses and receipts](geo-enrichment-source/20261011/README.md) are
-preserved separately. See [pipeline command and interpretation](../../docs/complete-enrichment.md).
+preserved separately. See [pipeline command and interpretation](enrichment-runs/20261018/README.md).
 
 ## [DB6] Complete enrichment and synthesis — 2026-10-18
-The [versioned complete run](enrichment-runs/20261018/README.md) starts from all 418 saved ORCS publications, produces each repository workbook and the final 21-sheet Enrichment-Synthesis workbook. It uses the [persistent enrichment publication registry](enrichment-publication-registry.json), including three publications without PMIDs. Previous shared databases and workbooks remain unchanged. Follow the [maintained commands](../../docs/complete-enrichment.md) to reproduce the stages without a ChatGPT-specific builder.
+The [versioned complete run](enrichment-runs/20261018/README.md) starts from all 418 saved ORCS publications, produces each repository workbook and the final 21-sheet Enrichment-Synthesis workbook. It uses the [persistent enrichment publication registry](enrichment-publication-registry.json), including three publications without PMIDs. Previous shared databases and workbooks remain unchanged. Follow the [maintained commands](enrichment-runs/20261018/README.md) to reproduce the stages without a ChatGPT-specific builder.
+
+## [DB7] PMC supplemental enrichment - 2026-10-28
+
+All 418 publications were processed, including 364 with PMCIDs, with zero retrieval
+issues. The [workbook](PMC-Supplemental-Enrichment.xlsx),
+[canonical metadata](pmc-supplemental-enrichment.json) and
+[manifest](PMC-Supplemental-Enrichment.manifest.json) retain 2,353 supplementary
+entries across 329 publications and 3,895 cloud file records. The 2,233 unmatched
+cloud records remain available, including figures and potentially useful workbooks.
+File availability does not establish relevance to a qualifying screen.
+[Native evidence](pmc-supplemental-enrichment/20261028/README.md) is packaged separately.
+No supplemental contents were downloaded or article prose searched. This independent
+stage is not yet incorporated into the earlier synthesis run.

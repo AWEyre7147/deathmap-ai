@@ -1,0 +1,254 @@
+{
+  "schema_version": "enrichment-template/1.0",
+  "name": "PMC Supplemental Enrichment",
+  "template": "data\\templates\\PMC-Supplemental-Enrichment.xlsx",
+  "sha256": "93d51b2c6d0b2182ddb4b592d0c499ef8135d0a74ef6f5866ac95e37aa3cc8e2",
+  "registered_utc": "2026-10-28T19:42:14.418538+00:00",
+  "sheets": [
+    {
+      "name": "Publications",
+      "headers": [
+        "Publication Index",
+        "PMCID",
+        "PMID",
+        "DOI",
+        "Title",
+        "Citation",
+        "XML Version",
+        "XML Source",
+        "XML Entries",
+        "Distinct XML File References",
+        "Cloud Versions",
+        "Cloud Media Files",
+        "Open Access",
+        "Author Manuscript",
+        "Retracted",
+        "Article Pdf URL"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Publications",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "width": 25
+        },
+        {
+          "header": "PMCID",
+          "source_key": "PMCID",
+          "width": 25
+        },
+        {
+          "header": "PMID",
+          "source_key": "PMID",
+          "width": 25
+        },
+        {
+          "header": "DOI",
+          "source_key": "DOI",
+          "width": 35
+        },
+        {
+          "header": "Title",
+          "source_key": "Title",
+          "width": 52
+        },
+        {
+          "header": "Citation",
+          "source_key": "Citation",
+          "width": 80
+        },
+        {
+          "header": "XML Version",
+          "source_key": "XML Version",
+          "width": 25
+        },
+        {
+          "header": "XML Source",
+          "source_key": "XML Source",
+          "width": 60
+        },
+        {
+          "header": "XML Entries",
+          "source_key": "XML Entries",
+          "width": 25
+        },
+        {
+          "header": "Distinct XML File References",
+          "source_key": "Distinct XML File References",
+          "width": 30
+        },
+        {
+          "header": "Cloud Versions",
+          "source_key": "Cloud Versions",
+          "width": 25
+        },
+        {
+          "header": "Cloud Media Files",
+          "source_key": "Cloud Media Files",
+          "width": 25
+        },
+        {
+          "header": "Open Access",
+          "source_key": "Open Access",
+          "width": 25
+        },
+        {
+          "header": "Author Manuscript",
+          "source_key": "Author Manuscript",
+          "width": 25
+        },
+        {
+          "header": "Retracted",
+          "source_key": "Retracted",
+          "width": 25
+        },
+        {
+          "header": "Article Pdf URL",
+          "source_key": "Article PDF URL",
+          "width": 60
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Entries",
+      "headers": [
+        "Publication Index",
+        "Supplemental Index",
+        "Filename",
+        "Label",
+        "Title",
+        "Caption",
+        "Native Reference File",
+        "Supplemental DOI"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Supplementary Entries",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "width": 25
+        },
+        {
+          "header": "Supplemental Index",
+          "source_key": "Supplemental Index",
+          "width": 25
+        },
+        {
+          "header": "Filename",
+          "source_key": "Filename",
+          "width": 60
+        },
+        {
+          "header": "Label",
+          "source_key": "Label",
+          "width": 40
+        },
+        {
+          "header": "Title",
+          "source_key": "Title",
+          "width": 52
+        },
+        {
+          "header": "Caption",
+          "source_key": "Caption",
+          "width": 80
+        },
+        {
+          "header": "Native Reference File",
+          "source_key": "Native Reference File",
+          "width": 60
+        },
+        {
+          "header": "Supplemental DOI",
+          "source_key": "Supplemental DOI",
+          "width": 40
+        }
+      ]
+    },
+    {
+      "name": "Cloud Files",
+      "headers": [
+        "Publication Index",
+        "Supplemental Index",
+        "Cloud Index",
+        "Filename",
+        "File Type",
+        "Size (Bytes)",
+        "Label",
+        "Title",
+        "Caption",
+        "File URL"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Cloud Files",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "width": 25
+        },
+        {
+          "header": "Supplemental Index",
+          "source_key": "Supplemental Index",
+          "width": 25
+        },
+        {
+          "header": "Cloud Index",
+          "source_key": "Cloud Index",
+          "width": 25
+        },
+        {
+          "header": "Filename",
+          "source_key": "Filename",
+          "width": 60
+        },
+        {
+          "header": "File Type",
+          "source_key": "File Type",
+          "width": 25
+        },
+        {
+          "header": "Size (Bytes)",
+          "source_key": "Size (bytes)",
+          "width": 25
+        },
+        {
+          "header": "Label",
+          "source_key": "Label",
+          "width": 40
+        },
+        {
+          "header": "Title",
+          "source_key": "Title",
+          "width": 52
+        },
+        {
+          "header": "Caption",
+          "source_key": "Caption",
+          "width": 80
+        },
+        {
+          "header": "File URL",
+          "source_key": "File URL",
+          "width": 60
+        }
+      ]
+    }
+  ],
+  "formatting": "Plain bold Carlito 11 headers, no fill, 46-point header row, consistent review column widths; no tables, filters or frozen panes",
+  "missing_values": "Blank; retain explicit native zeros and Boolean values where reported",
+  "evidence_policy": "Preserve all native supporting-material listings and unmatched cloud media. Filename associations do not establish byte identity or scientific eligibility. Raw XML/cloud JSON and provenance remain outside the display workbook.",
+  "date_policy": "Preserve reported date precision; no date columns selected in this template",
+  "source_reference": {
+    "workbook": "outputs\\pmc-template-registration-20261028\\source\\PMC-Supplemental-Enrichment.xlsx",
+    "sha256": "5dd1834c51a032a223d3438a2f0172c25b4b0c1d72641e9742d352183039f116",
+    "library_file_id": "libfile_3dbe2aef9214819187d7774cc150f398",
+    "version": 0
+  },
+  "projection_contract": "Future projected rows are grouped by source_table and keyed by the exact source_key values above. This registers the owner-selected display schema only; the final PMC projection/export and pilot run have not been implemented or executed."
+}

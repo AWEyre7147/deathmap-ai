@@ -22,7 +22,7 @@ The search command exports Excel automatically. Excel export uses the project's 
 deathmap-export-excel <new-run-directory>
 ```
 
-Existing authored workbooks are refused. See the [owner change catalog](data/templates/owner-change-catalog.json). Reference-sheet example counts are not measured run counts; consult each run summary.
+Existing authored workbooks are refused. See the registered template manifests. Reference-sheet example counts are not measured run counts; consult each run summary.
 
 ## Milestone and roadmap
 
@@ -48,10 +48,20 @@ The ENA exporter reuses the existing Python template-preserving writer.
 
 Read the [current specifications](docs/specifications/README.md), [resource planning](docs/resources/README.md), and [documentation index](docs/index.md). Code is [MIT licensed](LICENSE); saved third-party metadata retains [upstream terms](THIRD_PARTY_NOTICES.md).
 
+PMC supplemental enrichment processed all 418 ORCS publications, including 364
+with PMCIDs, with no retrieval issues. It retained 2,353 supplementary entries
+across 329 publications and 3,895 cloud file records, including 2,233 without an
+exact supplementary-entry match. The [workbook](data/orcs/PMC-Supplemental-Enrichment.xlsx),
+[canonical metadata](data/orcs/pmc-supplemental-enrichment.json) and
+[source archive](data/orcs/pmc-supplemental-enrichment/20261028/README.md) preserve
+file descriptions, identifiers, links and provenance. These are file inventories,
+not confirmed qualifying datasets. See the [independent collector](src/deathmap_ai/pmc_supplemental_collection.py).
+Supplemental contents were not downloaded; article prose was not searched.
+
 Publication identifiers can be resolved independently of ORCS using `deathmap-resolve-publication`.
 
-An [offline enrichment synthesis pilot](docs/enrichment-synthesis.md) connects
+An [offline enrichment synthesis pilot](data/orcs/enrichment-runs/20261018/README.md) connects
 saved repository records through persistent publication indices. It preserves
 repository metadata separately and never launches enrichment automatically.
 
-The [complete ORCS enrichment workflow](docs/complete-enrichment.md) is available as independently runnable Python stages (deathmap-enrichment-stage). It produces PubMed, GEO, ArrayExpress and ENA workbooks, then fills the registered synthesis template from saved canonical results. The portable exporter requires no ChatGPT, Codex or Node runtime. See [the 2026-10-18 complete run](data/orcs/enrichment-runs/20261018/README.md).
+The [complete ORCS enrichment workflow](data/orcs/enrichment-runs/20261018/README.md) is available as independently runnable Python stages (deathmap-enrichment-stage). It produces PubMed, GEO, ArrayExpress and ENA workbooks, then fills the registered synthesis template from saved canonical results. The portable exporter requires no ChatGPT, Codex or Node runtime. See [the 2026-10-18 complete run](data/orcs/enrichment-runs/20261018/README.md).

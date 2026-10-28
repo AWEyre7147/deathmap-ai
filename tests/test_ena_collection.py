@@ -27,11 +27,12 @@ class ENATests(unittest.TestCase):
             self.assertEqual(book['Studies']['A2'].value, 'PRJNA1')
             # Bind assertions to native field names so approved column moves do
             # not turn the literal-text and zero-count checks into stale offsets.
-            headers = [cell.value for cell in book['Studies'][1]]
-            title = book['Studies'].cell(2, headers.index('Study title') + 1)
+            columns = next(s['columns'] for s in registration['sheets'] if s['name'] == 'Studies')
+            positions = {c['source_key']: i + 1 for i, c in enumerate(columns)}
+            title = book['Studies'].cell(2, positions['Study title'])
             self.assertEqual(title.value, '=literal source')
             self.assertEqual(title.data_type, 's')
-            self.assertEqual(book['Studies'].cell(2, headers.index('Runs in report') + 1).value, 0)
+            self.assertEqual(book['Studies'].cell(2, positions['Runs in report']).value, 0)
             self.assertEqual(result['sheet_rows']['Studies'], 1)
             book.close()
 

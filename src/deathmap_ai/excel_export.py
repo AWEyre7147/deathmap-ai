@@ -45,13 +45,25 @@ def export(run, template):
     if destination.exists():raise FileExistsError('Refusing to overwrite existing workbook-authored.xlsx; use a new run directory')
     projection=json.loads((run/'projection.json').read_text(encoding='utf-8'))
     workbook=load_workbook(template)
+    registration_path = template.with_suffix('.manifest.json')
+    registration = json.loads(registration_path.read_text(encoding='utf-8')) if registration_path.exists() else {}
+    if registration and hashlib.sha256(template.read_bytes()).hexdigest() != registration['sha256']:
+        workbook.close()
+        raise ValueError('Registered template hash mismatch')
+    mappings = {spec['name']: spec for spec in registration.get('sheets', [])}
     try:
         for name,rows in projection['sheets'].items():
             if name not in ENTITY_SHEETS or name not in workbook:raise ValueError(f'Unsupported entity sheet: {name}')
             sheet=workbook[name];headers=[c.value for c in sheet[1]]
+            # Display titles may change while projections and review rules keep
+            # their canonical field names. Missing mappings must fail explicitly.
+            spec = mappings.get(name)
+            if spec and spec['headers'] != headers:
+                raise ValueError('Registered template headers differ: ' + name)
+            fields = [c.get('source_key', c['header']) for c in spec['columns']] if spec else headers
             if any(not isinstance(h,str) for h in headers) or len(headers)!=len(set(headers)):raise ValueError(f'Invalid template headers: {name}')
             for row in rows:
-                if any(k not in headers and v not in (None,'') for k,v in row.items()):raise ValueError(f'Unmapped populated field: {name}')
+                if any(k not in fields and v not in (None,'') for k,v in row.items()):raise ValueError(f'Unmapped populated field: {name}')
                 if any(row.get(k) not in (None,'') for k in REVIEW_FIELDS.get(name,set())):raise ValueError('Fresh export cannot contain generated reviewer notes')
             # Capture one body style per column before clearing example values.
             # Copying styles within this workbook preserves theme-based colors.
@@ -61,7 +73,7 @@ def export(run, template):
                 for cell in row:cell.value=None;cell.hyperlink=None
             for number,row in enumerate(rows,2):
                 if height is not None:sheet.row_dimensions[number].height=height
-                for c,field in enumerate(headers,1):
+                for c,field in enumerate(fields,1):
                     cell=sheet.cell(number,c);cell._style=copy(styles[c-1]);value=row.get(field)
                     cell.value=value
                     # A repository's text is never executable spreadsheet code.
@@ -94,8 +106,6 @@ def approved_template(root):
     """Resolve the registered template and detect unintended template changes."""
     root=Path(root)
     manifest=json.loads((root/'data/templates/current-template.json').read_text(encoding='utf-8'))
-    if manifest.get('status')!='approved_portable_template':
-        raise ValueError('Template approval pending')
     template=root/manifest['template']
     if hashlib.sha256(template.read_bytes()).hexdigest()!=manifest['sha256']:
         raise ValueError('Active template hash mismatch; register the reviewed revision first')

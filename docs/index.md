@@ -28,6 +28,7 @@ does not establish qualifying screen content or exact screen–dataset attributi
 Experimental-file downloads, analysis and future reasoning are outside the
 implemented enrichment stages.
 
-- [Complete ORCS enrichment workflow](complete-enrichment.md): independently runnable resource stages, persistent publication registry and portable synthesis/template export.
+- [Complete ORCS enrichment workflow](../data/orcs/enrichment-runs/20261018/README.md): independently runnable resource stages, persistent publication registry and portable synthesis/template export.
+- [PMC supplemental enrichment](../src/deathmap_ai/pmc_supplemental_collection.py): independent file-metadata collection, cloud inventories and registered workbook export.
 
-- [Enrichment synthesis milestone preparation](enrichment-release-preparation.md): retained artifacts, source-bundle restoration, cleanup and verification boundaries.
+- [Enrichment synthesis milestone preparation](../data/orcs/enrichment-runs/20261018/README.md): retained artifacts, source-bundle restoration, cleanup and verification boundaries.
