@@ -71,6 +71,7 @@ class DisplayLabelTests(unittest.TestCase):
             manifest=json.loads(path.read_text(encoding='utf-8'))
             self.assertNotIn('status',manifest)
             if 'template' not in manifest or 'sheets' not in manifest:continue
+            self.assertNotIn(chr(92), manifest['template'], 'Template paths must use portable forward slashes')
             template=ROOT/manifest['template']
             self.assertEqual(hashlib.sha256(template.read_bytes()).hexdigest(),manifest['sha256'])
             w=load_workbook(template,read_only=True)
