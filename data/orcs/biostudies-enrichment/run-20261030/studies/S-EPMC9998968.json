@@ -1,0 +1,595 @@
+{
+  "accession": "S-EPMC9998968",
+  "native": {
+    "accno": "S-EPMC9998968",
+    "attributes": [
+      {
+        "name": "DataSource",
+        "value": "Europe PMC"
+      },
+      {
+        "name": "Title",
+        "value": "Genome-wide CRISPR/Cas9 screens reveal shared and cell-specific mechanisms of resistance to SHP2 inhibition."
+      },
+      {
+        "name": "ReleaseDate",
+        "value": "2023-01-01"
+      },
+      {
+        "name": "AttachTo",
+        "value": "EuropePMC"
+      }
+    ],
+    "section": {
+      "type": "Study",
+      "attributes": [
+        {
+          "name": "Title",
+          "value": "Genome-wide CRISPR/Cas9 screens reveal shared and cell-specific mechanisms of resistance to SHP2 inhibition."
+        },
+        {
+          "name": "Abstract",
+          "value": "SHP2 (PTPN11) acts upstream of SOS1/2 to enable RAS activation. Allosteric SHP2 inhibitors (SHP2i) in the clinic prevent SHP2 activation, block proliferation of RTK- or cycling RAS mutant-driven cancers, and overcome \"adaptive resistance.\" To identify SHP2i resistance mechanisms, we performed genome-wide CRISPR/Cas9 knockout screens on two SHP2i-sensitive cell lines, recovering genes expected to cause resistance (NF1, PTEN, CDKN1B, LZTR1, and RASA2) and novel targets (INPPL1, MAP4K5, epigenetic modifiers). We screened 14 additional lines with a focused CRISPR library targeting common \"hits\" from the genome-wide screens. LZTR1 deletion conferred resistance in 12/14 lines, followed by MAP4K5 (8/14), SPRED2/STK40 (6/14), and INPPL1 (5/14). INPPL1, MAP4K5, or LZTR1 deletion reactivated ERK signaling. INPPL1-mediated sensitization to SHP2i required its NPXY motif but not lipid phosphatase activity. MAP4K5 acted upstream of MEK through a kinase-dependent target(s); LZTR1 had cell-dependent effects on RIT and RAS stability. INPPL1, MAP4K5, or LZTR1 deletion also conferred SHP2i resistance in vivo. Defining the SHP2i resistance landscape could suggest effective combination approaches."
+        }
+      ],
+      "files": [
+        {
+          "path": "JEM_20221563_SourceDataF2.pdf",
+          "size": 8827422,
+          "type": "file"
+        },
+        {
+          "path": "JEM_20221563_SourceDataF3.pdf",
+          "size": 12062043,
+          "type": "file"
+        },
+        {
+          "path": "JEM_20221563_SourceDataF4.pdf",
+          "size": 9085120,
+          "type": "file"
+        },
+        {
+          "path": "JEM_20221563_SourceDataFS5.pdf",
+          "size": 8876237,
+          "type": "file"
+        },
+        {
+          "path": "JEM_20221563_TableS1.xlsx",
+          "size": 14146720,
+          "type": "file"
+        },
+        {
+          "path": "JEM_20221563_TableS2.xlsx",
+          "size": 23093,
+          "type": "file"
+        },
+        {
+          "path": "JEM_20221563_TableS3.xlsx",
+          "size": 139016,
+          "type": "file"
+        },
+        {
+          "path": "JEM_20221563_TableS4.xlsx",
+          "size": 141833,
+          "type": "file"
+        },
+        {
+          "path": "JEM_20221563_TableS5.xlsx",
+          "size": 231516,
+          "type": "file"
+        },
+        {
+          "path": "JEM_20221563_TableS6.xlsx",
+          "size": 10233,
+          "type": "file"
+        }
+      ],
+      "links": [
+        [
+          {
+            "url": "GSE218491",
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "geo"
+              }
+            ]
+          }
+        ]
+      ],
+      "subsections": [
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "NHGRI NIH HHS"
+            },
+            {
+              "name": "grant_id",
+              "value": "DP2 HG010099"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "NCI NIH HHS"
+            },
+            {
+              "name": "grant_id",
+              "value": "R37 CA049152"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "National Human Genome Research Institute"
+            },
+            {
+              "name": "grant_id",
+              "value": "HG010099"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "NCI NIH HHS"
+            },
+            {
+              "name": "grant_id",
+              "value": "P30 CA016087"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "National Cancer Institute"
+            },
+            {
+              "name": "grant_id",
+              "value": "P30 CA016087"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "NCI NIH HHS"
+            },
+            {
+              "name": "grant_id",
+              "value": "R01 CA049152"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "National Cancer Institute"
+            },
+            {
+              "name": "grant_id",
+              "value": "CA244896"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "National Cancer Institute"
+            },
+            {
+              "name": "grant_id",
+              "value": "CA49152"
+            }
+          ]
+        },
+        {
+          "type": "Publication",
+          "attributes": [
+            {
+              "name": "Journal",
+              "value": "The Journal of experimental medicine"
+            },
+            {
+              "name": "Volume",
+              "value": "220(5)"
+            },
+            {
+              "name": "Pages",
+              "value": "e20221563"
+            },
+            {
+              "name": "Publication date",
+              "value": "2023 May"
+            }
+          ],
+          "links": [
+            [
+              {
+                "url": "10.1084/jem.20221563",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "DOI"
+                  }
+                ]
+              },
+              {
+                "url": "PMC9998968",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "PMC"
+                  }
+                ]
+              },
+              {
+                "url": "36820830",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "PMID"
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "accno": "a1",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Wei W"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0001-5556-3941"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a2",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Geer MJ"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0003-1457-987X"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a3",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Guo X"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0002-3539-6725"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a4",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Dolgalev I"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0003-4451-126X"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a5",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Sanjana NE"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0002-1504-0027"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a6",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Neel BG"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "o1",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Laura and Isaac Perlmutter Cancer Center, NYU Grossman School of Medicine, NYU Langone Health , New York, NY, USA"
+            }
+          ]
+        },
+        {
+          "type": "ExtractedLinks"
+        }
+      ]
+    },
+    "type": "submission"
+  },
+  "source": {
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-EPMC9998968",
+    "retrieved_utc": "2026-10-31T01:00:46.596451+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "388007439a0aeb05b9d369545a994fc429748200db9debc69563d3f7e8ca6b34",
+    "body": "native/63d0c5c049393dc8ece43dcc0b2491f957a62777b3193b6fd8d9792491531d1b.body"
+  },
+  "info": {
+    "columns": [
+      {
+        "name": "Name",
+        "title": "Name",
+        "visible": true,
+        "searchable": true,
+        "data": "Name",
+        "defaultContent": ""
+      },
+      {
+        "name": "Size",
+        "title": "Size",
+        "visible": true,
+        "searchable": false,
+        "data": "Size",
+        "defaultContent": ""
+      }
+    ],
+    "files": 10,
+    "httpLink": "https://ftp.ebi.ac.uk/pub/databases/biostudies/S-EPMC/968/S-EPMC9998968",
+    "ftpLink": "ftp://ftp.ebi.ac.uk/pub/databases/biostudies/S-EPMC/968/S-EPMC9998968",
+    "globusLink": "https://app.globus.org/file-manager?origin_id=47772002-3e5b-4fd3-b97c-18cee38d6df2&origin_path=/pub/databases/biostudies/S-EPMC/968/S-EPMC9998968",
+    "isPublic": true,
+    "relPath": "S-EPMC/968/S-EPMC9998968",
+    "hasZippedFolders": false,
+    "views": 0,
+    "released": 1672531200000,
+    "modified": 1784157274892,
+    "sections": [],
+    "sectionFileCounts": {}
+  },
+  "files": [
+    {
+      "path": "JEM_20221563_SourceDataF2.pdf",
+      "size": 8827422,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "JEM_20221563_SourceDataF2.pdf",
+        "size": 8827422,
+        "type": "file"
+      }
+    },
+    {
+      "path": "JEM_20221563_SourceDataF3.pdf",
+      "size": 12062043,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "JEM_20221563_SourceDataF3.pdf",
+        "size": 12062043,
+        "type": "file"
+      }
+    },
+    {
+      "path": "JEM_20221563_SourceDataF4.pdf",
+      "size": 9085120,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "JEM_20221563_SourceDataF4.pdf",
+        "size": 9085120,
+        "type": "file"
+      }
+    },
+    {
+      "path": "JEM_20221563_SourceDataFS5.pdf",
+      "size": 8876237,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "JEM_20221563_SourceDataFS5.pdf",
+        "size": 8876237,
+        "type": "file"
+      }
+    },
+    {
+      "path": "JEM_20221563_TableS1.xlsx",
+      "size": 14146720,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "JEM_20221563_TableS1.xlsx",
+        "size": 14146720,
+        "type": "file"
+      }
+    },
+    {
+      "path": "JEM_20221563_TableS2.xlsx",
+      "size": 23093,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "JEM_20221563_TableS2.xlsx",
+        "size": 23093,
+        "type": "file"
+      }
+    },
+    {
+      "path": "JEM_20221563_TableS3.xlsx",
+      "size": 139016,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "JEM_20221563_TableS3.xlsx",
+        "size": 139016,
+        "type": "file"
+      }
+    },
+    {
+      "path": "JEM_20221563_TableS4.xlsx",
+      "size": 141833,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "JEM_20221563_TableS4.xlsx",
+        "size": 141833,
+        "type": "file"
+      }
+    },
+    {
+      "path": "JEM_20221563_TableS5.xlsx",
+      "size": 231516,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "JEM_20221563_TableS5.xlsx",
+        "size": 231516,
+        "type": "file"
+      }
+    },
+    {
+      "path": "JEM_20221563_TableS6.xlsx",
+      "size": 10233,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "JEM_20221563_TableS6.xlsx",
+        "size": 10233,
+        "type": "file"
+      }
+    }
+  ],
+  "issues": [],
+  "info_source": {
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-EPMC9998968/info",
+    "retrieved_utc": "2026-10-31T01:00:52.594254+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "7075e0d9f85730143034672c26ec2244204031953fa10f8b7b1cb9890513cac1",
+    "body": "native/d6f27956ba6ad7e9be4be7822cc6d247b730cf31fdeaa1aaf24e6b8ee258f1fb.body"
+  },
+  "links": [
+    {
+      "url": "GSE218491",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "geo"
+        }
+      ]
+    },
+    {
+      "url": "10.1084/jem.20221563",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "DOI"
+        }
+      ]
+    },
+    {
+      "url": "PMC9998968",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "PMC"
+        }
+      ]
+    },
+    {
+      "url": "36820830",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "PMID"
+        }
+      ]
+    }
+  ]
+}

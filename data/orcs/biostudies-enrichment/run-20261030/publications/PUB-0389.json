@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0389",
+    "PMID": "36744886",
+    "DOI": "10.1128/mbio.00009-23",
+    "PMCID": "PMC9973025",
+    "Title": "A Virus-Packageable CRISPR System Identifies Host Dependency Factors Co-Opted by Multiple HIV-1 Strains.",
+    "ORCS Publication ID": "1106",
+    "ORCS Publication Index": "PUB-0389",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC9973025",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1128%2Fmbio.00009-23%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:34:59.977307+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "fd989f5354cff33838cf07024736345cafd2c0a54124440654964e7df2586b7a",
+        "body": "native/9316e30d95b6e0f9f20f4f022bb0f9b6c781ec2b8c77f68d72ff28778c7d4205.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9973025",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236744886%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:35:05.965408+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "d14b3e3194b6de162eabdd700ee47e4ce4c895670826076116ff23c2a176371a",
+        "body": "native/b0b31ee7f63776ff11db4642c8528b146648e55036eca6cbbf8c92f700dfd884.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9973025",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9973025%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:35:11.972002+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "04d413aea4329d03a3ad18e7fb407a531ed2135d62f944c8337118db8aa249b7",
+        "body": "native/daafc3e364bf1e80ac6550cb79f63203c754e78713d8ca46daeb010c4dc9a21e.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9973025",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+Virus-Packageable+CRISPR+System+Identifies+Host+Dependency+Factors+Co-Opted+by+Multiple+HIV-1+Strains.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:35:17.978674+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "9428ab21adb6892b87108de54e3cfa85c1ee3fbe5ba2a056ec37a5e295728eda",
+        "body": "native/1c5c51c8eee59c81217fb8883dfca3d2cd437044836ea4deb994b9f328e809b2.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1128%2Fmbio.00009-23%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236744886%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9973025%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+Virus-Packageable+CRISPR+System+Identifies+Host+Dependency+Factors+Co-Opted+by+Multiple+HIV-1+Strains.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A36744886&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

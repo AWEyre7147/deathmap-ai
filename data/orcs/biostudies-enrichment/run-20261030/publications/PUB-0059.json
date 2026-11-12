@@ -1,0 +1,91 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0059",
+    "PMID": "30860482",
+    "DOI": "10.7554/elife.44161",
+    "PMCID": "PMC6436895",
+    "Title": "Renal medullary carcinomas depend upon loss and are sensitive to proteasome inhibition.",
+    "ORCS Publication ID": "133",
+    "ORCS Publication Index": "PUB-0059",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC6436895",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.7554%2Felife.44161%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:29:35.678601+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "a43f08a8058161b5b0a309aaf155a40d6bac0bc8b494cc17cf44aa711600e102",
+        "body": "native/c79f3cbcc3efbfd25896e7efee6466eb722504aeb54f9cf101e6b2381a7d93ed.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6436895",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2230860482%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:29:40.317405+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "efffd977216484d7d6a87b11434eb5b81095e4feec4a28c45ab8dd5a6d5622af",
+        "body": "native/d25ffa901d175521d8bc450b270ce500c4a3a8c2689898f07d0562807342169f.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6436895",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6436895%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:29:44.938582+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "81a1f39e9e9ea250b74b34fd10aed59569413d29b7efa22fabbaac12a5c0edce",
+        "body": "native/bfbdf727c7a98bd93858c69e8a1e9d1db9f6923f9bc7af5becfe6758f43d2f13.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.7554%2Felife.44161%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2230860482%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6436895%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Renal+medullary+carcinomas+depend+upon+loss+and+are+sensitive+to+proteasome+inhibition.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A30860482&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

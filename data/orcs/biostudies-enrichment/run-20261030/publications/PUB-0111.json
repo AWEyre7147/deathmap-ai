@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0111",
+    "PMID": "28985505",
+    "DOI": "10.1016/j.molcel.2017.09.012",
+    "PMCID": "PMC5640507",
+    "Title": "Combined CRISPRi/a-Based Chemical Genetic Screens Reveal that Rigosertib Is a Microtubule-Destabilizing Agent.",
+    "ORCS Publication ID": "308",
+    "ORCS Publication Index": "PUB-0111",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC5640507",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.molcel.2017.09.012%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:33:14.367995+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "9a8bb947e283a8b8d5244bf74d06050d266a1a5820a1d7307bd30ff2a7c570f0",
+        "body": "native/4b9230315c49b6cca7d510ec4a5ed380919363918b391480be8bd43bd3e35dac.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5640507",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2228985505%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:33:17.724271+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "7410468cd614cd12d79588cd0b4cf78a30454a6de58518f2351be1b09bd0206b",
+        "body": "native/8c4ca8ffea57dfbbc36246d169fded0e3404a5731817c31e146e2bd81ae95456.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5640507",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC5640507%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:33:25.702875+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "141cabfbbfe67514fc022aa7bba39e0239730a43ae03fffefb645510ca18d866",
+        "body": "native/0721e5b4023929a3e9a78991c24156c96147206899d938f782511f0fb9ccbd10.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5640507",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Combined+CRISPRi%2Fa-Based+Chemical+Genetic+Screens+Reveal+that+Rigosertib+Is+a+Microtubule-Destabilizing+Agent.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:33:33.020364+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "b976019b76a1681056810c41862c88a7c4b03f897a3d8b0a22a0fcf6225f3aa8",
+        "body": "native/3dc98fe2052bd3b0f51c713333f3271e6b871f23b8db719dba5216f017fb33d2.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.molcel.2017.09.012%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2228985505%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC5640507%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Combined+CRISPRi%2Fa-Based+Chemical+Genetic+Screens+Reveal+that+Rigosertib+Is+a+Microtubule-Destabilizing+Agent.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A28985505&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

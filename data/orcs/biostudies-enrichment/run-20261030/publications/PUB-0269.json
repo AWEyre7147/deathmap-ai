@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0269",
+    "PMID": "33846634",
+    "DOI": "10.1038/s41588-021-00828-9",
+    "PMCID": "PMC8177065",
+    "Title": "Minor intron retention drives clonal hematopoietic disorders and diverse cancer predisposition.",
+    "ORCS Publication ID": "690",
+    "ORCS Publication Index": "PUB-0269",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC8177065",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41588-021-00828-9%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:27:08.922079+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "bf99d4e007d600185ecd63fb31e4e5661f6e24964a3ba5a32304b6add9ead68c",
+        "body": "native/5adaa0ef8d33cc123f6bca9317f2e3633062eb635b159724e59513a2ac925b00.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8177065",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233846634%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:27:14.928136+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "ce987b9bf62e80a019f8379c1d1663d687b1a10537e4073c037bfac8230d3b55",
+        "body": "native/41fc65513d529d47960cbc33ee8b02f1731d5f0930988d705bfbcdfc2abf2c73.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8177065",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC8177065%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:27:20.926490+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "4ba5cc2e5a461ff241634881c2a6f34ae67894760631c71bc1122ef702cf8b59",
+        "body": "native/d9b3d119ed3527690ede0e01f2420d86caa0f6f5164a039fc516e9d845f28baf.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8177065",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Minor+intron+retention+drives+clonal+hematopoietic+disorders+and+diverse+cancer+predisposition.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:27:26.142846+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "5d8a2c302f397019e01519685b2d4ad17ef723f838fe0a3cb8a69ed44afdf916",
+        "body": "native/5955eb5cd520ade9624e38adccc5884cfe17bd6db4ea68fa56f6b197071a5b8a.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41588-021-00828-9%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233846634%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC8177065%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Minor+intron+retention+drives+clonal+hematopoietic+disorders+and+diverse+cancer+predisposition.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A33846634&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

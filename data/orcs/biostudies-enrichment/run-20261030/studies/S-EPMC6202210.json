@@ -1,0 +1,567 @@
+{
+  "accession": "S-EPMC6202210",
+  "native": {
+    "accno": "S-EPMC6202210",
+    "attributes": [
+      {
+        "name": "DataSource",
+        "value": "Europe PMC"
+      },
+      {
+        "name": "Title",
+        "value": "A CRISPR screen identifies IFI6 as an ER-resident interferon effector that blocks flavivirus replication."
+      },
+      {
+        "name": "ReleaseDate",
+        "value": "2018-01-01"
+      },
+      {
+        "name": "AttachTo",
+        "value": "EuropePMC"
+      }
+    ],
+    "section": {
+      "type": "Study",
+      "attributes": [
+        {
+          "name": "Title",
+          "value": "A CRISPR screen identifies IFI6 as an ER-resident interferon effector that blocks flavivirus replication."
+        },
+        {
+          "name": "Abstract",
+          "value": "The endoplasmic reticulum (ER) is an architecturally diverse organelle that serves as a membrane source for the replication of multiple viruses. Flaviviruses, including yellow fever virus, West Nile virus, dengue virus and Zika virus, induce unique single-membrane ER invaginations that house the viral replication machinery<sup>1</sup>. Whether this virus-induced ER remodelling is vulnerable to antiviral pathways is unknown. Here, we show that flavivirus replication at the ER is targeted by the interferon (IFN) response. Through genome-scale CRISPR screening, we uncovered an antiviral mechanism mediated by a functional gene pairing between IFI6 (encoding IFN-α-inducible protein 6), an IFN-stimulated gene cloned over 30 years ago<sup>2</sup>, and HSPA5, which encodes the ER-resident heat shock protein 70 chaperone BiP. We reveal that IFI6 is an ER-localized integral membrane effector that is stabilized through interactions with BiP. Mechanistically, IFI6 prophylactically protects uninfected cells by preventing the formation of virus-induced ER membrane invaginations. Notably, IFI6 has little effect on other mammalian RNA viruses, including the related Flaviviridae family member hepatitis C virus, which replicates in double-membrane vesicles that protrude outwards from the ER. These findings support a model in which the IFN response is armed with a membrane-targeted effector that discriminately blocks the establishment of virus-specific ER microenvironments that are required for replication."
+        }
+      ],
+      "files": [
+        {
+          "path": "41564_2018_244_MOESM1_ESM.pdf",
+          "size": 20859638,
+          "type": "file"
+        },
+        {
+          "path": "41564_2018_244_MOESM2_ESM.pdf",
+          "size": 70519,
+          "type": "file"
+        },
+        {
+          "path": "41564_2018_244_MOESM3_ESM.xlsx",
+          "size": 1829664,
+          "type": "file"
+        }
+      ],
+      "links": [
+        [
+          {
+            "url": "GSE105771",
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "geo"
+              }
+            ]
+          }
+        ]
+      ],
+      "subsections": [
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "NIDDK NIH HHS"
+            },
+            {
+              "name": "grant_id",
+              "value": "K01 DK095031"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "NCATS NIH HHS"
+            },
+            {
+              "name": "grant_id",
+              "value": "UL1 TR001105"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "NIAID NIH HHS"
+            },
+            {
+              "name": "grant_id",
+              "value": "T32 AI005284"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "NIAID NIH HHS"
+            },
+            {
+              "name": "grant_id",
+              "value": "DP2 AI117922"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "NIAID NIH HHS"
+            },
+            {
+              "name": "grant_id",
+              "value": "T32 AI007520"
+            }
+          ]
+        },
+        {
+          "type": "Publication",
+          "attributes": [
+            {
+              "name": "Journal",
+              "value": "Nature microbiology"
+            },
+            {
+              "name": "Volume",
+              "value": "3(11)"
+            },
+            {
+              "name": "Pages",
+              "value": "1214-1223"
+            },
+            {
+              "name": "Publication date",
+              "value": "2018 Nov"
+            }
+          ],
+          "links": [
+            [
+              {
+                "url": "10.1038/s41564-018-0244-1",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "DOI"
+                  }
+                ]
+              },
+              {
+                "url": "PMC6202210",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "PMC"
+                  }
+                ]
+              },
+              {
+                "url": "30224801",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "PMID"
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "accno": "a1",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Richardson RB"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a2",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Ohlson MB"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0002-1055-2269"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a3",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Eitson JL"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a4",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Kumar A"
+            },
+            {
+              "name": "affiliation",
+              "value": "o2",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a5",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "McDougal MB"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0002-3957-8868"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a6",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Boys IN"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0002-0854-207X"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a7",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Mar KB"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0003-3640-2418"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a8",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "De La Cruz-Rivera PC"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a9",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Douglas C"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0002-1115-8802"
+            },
+            {
+              "name": "affiliation",
+              "value": "o3",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a10",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Konopka G"
+            },
+            {
+              "name": "affiliation",
+              "value": "o3",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a11",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Xing C"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0002-1838-0502"
+            },
+            {
+              "name": "affiliation",
+              "value": "o2",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a12",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Schoggins JW"
+            },
+            {
+              "name": "affiliation",
+              "value": "o4",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "o2",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Bioinformatics Core, McDermott Center, University of Texas Southwestern Medical Center, Dallas, TX, USA"
+            }
+          ]
+        },
+        {
+          "accno": "o1",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Department of Microbiology, University of Texas Southwestern Medical Center, Dallas, TX, USA"
+            }
+          ]
+        },
+        {
+          "accno": "o4",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Department of Microbiology, University of Texas Southwestern Medical Center, Dallas, TX, USA. john.schoggins@utsouthwestern.edu"
+            }
+          ]
+        },
+        {
+          "accno": "o3",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Department of Neuroscience, University of Texas Southwestern Medical Center, Dallas, TX, USA"
+            }
+          ]
+        },
+        {
+          "type": "ExtractedLinks",
+          "attributes": [
+            {
+              "name": "Link List",
+              "value": "S-EPMC6202210_extracted_links.json"
+            }
+          ]
+        }
+      ]
+    },
+    "type": "submission"
+  },
+  "source": {
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-EPMC6202210",
+    "retrieved_utc": "2026-10-31T00:52:09.316824+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "56e5ee9be57c1e654eb21a31648fc55093f7590c53f6eddb5c6141958739015f",
+    "body": "native/2f14ab341b5c5c980bc560591182cb803c064cb6689da0e270d16d0fbcd9ae81.body"
+  },
+  "info": {
+    "columns": [
+      {
+        "name": "Name",
+        "title": "Name",
+        "visible": true,
+        "searchable": true,
+        "data": "Name",
+        "defaultContent": ""
+      },
+      {
+        "name": "Size",
+        "title": "Size",
+        "visible": true,
+        "searchable": false,
+        "data": "Size",
+        "defaultContent": ""
+      }
+    ],
+    "files": 3,
+    "httpLink": "https://ftp.ebi.ac.uk/pub/databases/biostudies/S-EPMC/210/S-EPMC6202210",
+    "ftpLink": "ftp://ftp.ebi.ac.uk/pub/databases/biostudies/S-EPMC/210/S-EPMC6202210",
+    "globusLink": "https://app.globus.org/file-manager?origin_id=47772002-3e5b-4fd3-b97c-18cee38d6df2&origin_path=/pub/databases/biostudies/S-EPMC/210/S-EPMC6202210",
+    "isPublic": true,
+    "relPath": "S-EPMC/210/S-EPMC6202210",
+    "hasZippedFolders": false,
+    "views": 0,
+    "released": 1514764800000,
+    "modified": 1777849260891,
+    "sections": [],
+    "sectionFileCounts": {}
+  },
+  "files": [
+    {
+      "path": "41564_2018_244_MOESM1_ESM.pdf",
+      "size": 20859638,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "41564_2018_244_MOESM1_ESM.pdf",
+        "size": 20859638,
+        "type": "file"
+      }
+    },
+    {
+      "path": "41564_2018_244_MOESM2_ESM.pdf",
+      "size": 70519,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "41564_2018_244_MOESM2_ESM.pdf",
+        "size": 70519,
+        "type": "file"
+      }
+    },
+    {
+      "path": "41564_2018_244_MOESM3_ESM.xlsx",
+      "size": 1829664,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "41564_2018_244_MOESM3_ESM.xlsx",
+        "size": 1829664,
+        "type": "file"
+      }
+    }
+  ],
+  "issues": [],
+  "info_source": {
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-EPMC6202210/info",
+    "retrieved_utc": "2026-10-31T00:52:15.328311+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "e6500e76631ab8efb03f16f5c768d7e9d7ce638acc1868ed66ab2fe9dd51da7b",
+    "body": "native/e5d7905f9598188452fddd58cdd129f6052d7f7946306c711693ff5ea76fce9f.body"
+  },
+  "links": [
+    {
+      "url": "GSE105771",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "geo"
+        }
+      ]
+    },
+    {
+      "url": "10.1038/s41564-018-0244-1",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "DOI"
+        }
+      ]
+    },
+    {
+      "url": "PMC6202210",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "PMC"
+        }
+      ]
+    },
+    {
+      "url": "30224801",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "PMID"
+        }
+      ]
+    }
+  ]
+}

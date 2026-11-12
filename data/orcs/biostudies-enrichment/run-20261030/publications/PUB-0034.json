@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0034",
+    "PMID": "29028833",
+    "DOI": "10.1371/journal.ppat.1006668",
+    "PMCID": "PMC5640240",
+    "Title": "Merkel cell polyomavirus recruits MYCL to the EP400 complex to promote oncogenesis.",
+    "ORCS Publication ID": "58",
+    "ORCS Publication Index": "PUB-0034",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC5640240",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1371%2Fjournal.ppat.1006668%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:28:00.669189+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "0f7791ae4fdb4ab46c8953309ca3713313e5f9adbe434c4db9cffb073c1cd66c",
+        "body": "native/50951db4b3c590f8efcd66ecb73de26f99d222328dd3d2b0328cb6eb181b8dd9.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5640240",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2229028833%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:28:07.398302+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "a27c72d0500b2789cb5d977f0f7a2a193222b6a1edfd8bbbe639331b55f4562b",
+        "body": "native/45a2c19c82277e37213366ef3b6fad4fed7e9238ca564e24419bf5a375a3c936.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5640240",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC5640240%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:28:13.221295+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "451f0a19f65da330a76821bef22f4d17d69897ad59f421713476f91168985ed5",
+        "body": "native/c5a43d378291ebe6e62b5178abf3ad56bf93b6cc0d3d649024c40bd20b0c4e5a.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5640240",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Merkel+cell+polyomavirus+recruits+MYCL+to+the+EP400+complex+to+promote+oncogenesis.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:28:19.509559+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "4dc6c292730be2b1f3be7f1474b809bf33daf551f8dd686bf3f3b16cfaf70535",
+        "body": "native/a831ffe07423616dc80efb64c027c7b352f5f3dd66ff726b0297df78bcd1a16e.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1371%2Fjournal.ppat.1006668%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2229028833%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC5640240%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Merkel+cell+polyomavirus+recruits+MYCL+to+the+EP400+complex+to+promote+oncogenesis.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A29028833&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0296",
+    "PMID": "36032971",
+    "DOI": "10.21203/rs.3.rs-1910932/v1",
+    "PMCID": "PMC9413708",
+    "Title": "Integrated multi-omics analyses identify key anti-viral host factors and pathways controlling SARS-CoV-2 infection",
+    "ORCS Publication ID": "775",
+    "ORCS Publication Index": "PUB-0296",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC9413708",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.21203%2Frs.3.rs-1910932%2Fv1%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:28:48.874758+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "4c873d7c5058906d0dc095801854d1346a26910b06dac8e3aa4b68400c785cdb",
+        "body": "native/b30f18b03180df5174f1b33f914b8e8f08ad0e673864993c4d42125074a7c91f.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9413708",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236032971%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:28:54.882489+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "e15491f3e1b912aa7178776531850c52bdc442d52ec712c38161222cca82d28d",
+        "body": "native/4af5233bf2bb1e093db05684640b1d7290b9a9c4cf41d27c57002b964bc94ce3.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9413708",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9413708%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:29:00.899034+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "063302bf9c32042b1a12cee12516822d6a1a8644b906a1a06129e181289d1020",
+        "body": "native/8ae470625c9e62b4712fdc5140689917e06914b16743e400203eaef7ae9c460a.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9413708",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Integrated+multi-omics+analyses+identify+key+anti-viral+host+factors+and+pathways+controlling+SARS-CoV-2+infection%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:29:06.891863+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "3d5bac0886c4a298404e635b82811cfa09b7032183d7f79f601fef25dff63d8f",
+        "body": "native/96a4fd9c536b767ccb69a25e010bc10bed99fbfd465d64908acc84c6f7ff4da0.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.21203%2Frs.3.rs-1910932%2Fv1%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236032971%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9413708%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Integrated+multi-omics+analyses+identify+key+anti-viral+host+factors+and+pathways+controlling+SARS-CoV-2+infection%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A36032971&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0256",
+    "PMID": "34431042",
+    "DOI": "10.1007/s11427-021-1990-5",
+    "PMCID": "PMC8384091",
+    "Title": "Genome-wide CRISPR activation screen identifies candidate receptors for SARS-CoV-2 entry.",
+    "ORCS Publication ID": "653",
+    "ORCS Publication Index": "PUB-0256",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC8384091",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1007%2Fs11427-021-1990-5%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:26:10.864575+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "eb332f772c99c28f3e7093d708c77e47494f0f034db484064cdb3ea4f3e39b8e",
+        "body": "native/34517b8b4337a6be1ed699b34afa6f2270b2391cfae2f8ec66b0eaeb0332f366.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8384091",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2234431042%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:26:16.871300+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "83cc1ec402093759a477e71ec6dc16bd6cf36c9489e893a652447c1e104f6144",
+        "body": "native/c3c74df830242c20ff23cce0551b69c048790c9152c4dc94430634cd64462fb4.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8384091",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC8384091%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:26:22.878280+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "d364f5af98624300d007ed8c013720d1862bf45faaeb862d6546b531d40324e4",
+        "body": "native/8764c952b5f68ed2ef7cbfb4e053b1bc61154187a6c66298144e5db5c54403c2.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8384091",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+CRISPR+activation+screen+identifies+candidate+receptors+for+SARS-CoV-2+entry.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:26:28.882150+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "46a9d06f6769fe9b97e491a49c4cf9c6878b3ca0e9950a5f485c9a5a68122901",
+        "body": "native/e1ab4c94f79257b5cab24a94df00a1dc05df7c013ca0722b87bb77ceb47111f7.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1007%2Fs11427-021-1990-5%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2234431042%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC8384091%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+CRISPR+activation+screen+identifies+candidate+receptors+for+SARS-CoV-2+entry.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A34431042&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

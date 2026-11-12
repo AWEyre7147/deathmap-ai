@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0164",
+    "PMID": "31353801",
+    "DOI": "10.15252/embr.201948235",
+    "PMCID": "PMC6727027",
+    "Title": "A genome-wide screen identifies IRF2 as a key regulator of caspase-4 in human cells.",
+    "ORCS Publication ID": "410",
+    "ORCS Publication Index": "PUB-0164",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC6727027",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.15252%2Fembr.201948235%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:05:34.069069+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "f12f2ce67b24f362ce2321829b6850c773bc07d8d21bf4d279a9f41d9cccb451",
+        "body": "native/1521a1ebe27ef5fdc24376a09952fa61255847913c094c7e072744e201fd4b69.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6727027",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231353801%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:05:37.801491+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "83c319ce35dca73e5297c36d7af6c6ad8e8c9ff549e2339dd9b4ac2db06405f0",
+        "body": "native/5555db2e937f88be04158f7755db920c7be41897805ac10d7994b70dec24c72b.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6727027",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6727027%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:08:29.560503+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "fcc0c6b00e1a726be40fbc327afa0027dd30c5d35fcfa8c95c4e031e6cc31125",
+        "body": "native/299a376cd368098fd44ecd11c41fa6e1d3e9f9cf39eff5bf9dc216ed0c7de340.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6727027",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+genome-wide+screen+identifies+IRF2+as+a+key+regulator+of+caspase-4+in+human+cells.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:05:40.826254+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "b649e4aded3c79febe71faf5dbb72716746a01a25be5e237adb3f05214fa2cd2",
+        "body": "native/499c65c75dbda354d034c0dc35e59ea7134553be96bd58185213b4f2a1551b22.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.15252%2Fembr.201948235%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231353801%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6727027%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+genome-wide+screen+identifies+IRF2+as+a+key+regulator+of+caspase-4+in+human+cells.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A31353801&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

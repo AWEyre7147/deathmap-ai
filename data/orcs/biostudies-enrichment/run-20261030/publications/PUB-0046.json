@@ -1,0 +1,37 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0046",
+    "PMID": "29655804",
+    "DOI": "10.1016/j.bbamcr.2018.04.006",
+    "PMCID": null,
+    "Title": "Characterization of WDR20: A new regulator of the ERAD machinery.",
+    "ORCS Publication ID": "100",
+    "ORCS Publication Index": "PUB-0046",
+    "input_accessions": []
+  },
+  "observations": [],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.bbamcr.2018.04.006%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2229655804%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Characterization+of+WDR20%3A+A+new+regulator+of+the+ERAD+machinery.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A29655804&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

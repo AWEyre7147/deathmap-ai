@@ -5,6 +5,7 @@ new JSON only: no network calls, enrichment launches, dataset merges or source
 edits. Source row mappings accompany each table so joined cell values do not
 erase conflicting native observations. Excel is a derived review view.
 """
+from .json_storage import load_json, resolve_json_path
 import argparse
 import hashlib
 import gzip
@@ -13,7 +14,6 @@ from pathlib import Path
 import re
 
 import openpyxl
-from .arrayexpress_collection import project as arrayexpress_project
 from .ena_projection import project as ena_project
 from .pubmed_workbook import subset_rows
 from .review_projection import hierarchy_rows, publication_date, unique_entities
@@ -36,7 +36,7 @@ def _read_book(path):
         book.close()
 
 
-def synthesize(root, registry, output, *, publication_index=None, pubmed=None, geo=None, arrayexpress=None, ena=None, compress=False):
+def synthesize(root, registry, output, *, publication_index=None, pubmed=None, geo=None, biostudies=None, ena=None, compress=False):
     """Write an offline selected-publication projection into a fresh directory.
 
     Parameters
@@ -76,14 +76,14 @@ def synthesize(root, registry, output, *, publication_index=None, pubmed=None, g
         raise FileExistsError(output)
     sources = {}
     def load(name, override=None):
-        path = Path(override) if override else root / 'data/orcs' / name
+        path = resolve_json_path(Path(override) if override else root / 'data/orcs' / name)
         sources[str(path.resolve())] = hashlib.sha256(path.read_bytes()).hexdigest()
-        return json.loads(path.read_text(encoding='utf-8'))
+        return load_json(path)
     ena = load('ena-enrichment.json', ena)
-    ae = load('arrayexpress-enrichment.json', arrayexpress)
+    bst = load('biostudies-enrichment.json', biostudies)
     pm = load('pubmed-enrichment.json', pubmed)
     publications = load('publication-index.json', publication_index)
-    for label, database in [('PubMed', pm), ('ArrayExpress', ae), ('ENA', ena)]:
+    for label, database in [('PubMed', pm), ('BioStudies', bst), ('ENA', ena)]:
         if database.get('status') and database['status'] not in ('complete', 'complete_with_omissions'):
             raise ValueError(label + ' source is incomplete; synthesis cannot hide retrieval failures')
     if not set(pmids) <= {str(row[0]) for row in pm['rows']['Publication']}:
@@ -91,8 +91,8 @@ def synthesize(root, registry, output, *, publication_index=None, pubmed=None, g
     expected_keys = {str(p.get('PMID') or 'ORCS:' + str(p['ORCS Publication ID'])) for p in registry}
     if not expected_keys <= {str(p['key']) for p in ena['publications']}:
         raise ValueError('ENA source does not cover the selected publication registry')
-    if not expected_keys <= {str(p['publication'].get('PMID') or 'ORCS:' + str(p['publication']['PUBLICATION_ID'])) for p in ae['publications']}:
-        raise ValueError('ArrayExpress source does not cover the selected publication registry')
+    if not expected_keys <= {str(p['publication'].get('PMID') or 'ORCS:' + str(p['publication'].get('ORCS Publication ID') or p['publication'].get('PUBLICATION_ID'))) for p in bst['publications']}:
+        raise ValueError('BioStudies source does not cover the selected publication registry')
     if geo:
         native_geo = load('geo-enrichment.json', geo)
         covered = {key.replace('orcs-', 'ORCS:') for key in native_geo['publications']}
@@ -134,12 +134,11 @@ def synthesize(root, registry, output, *, publication_index=None, pubmed=None, g
     # PubMed row layouts come from the registered source headers, not guessed
     # accession types. Grouped MeSH counts are recomputed for this selection.
     projected_pm = subset_rows(pm, pmids)
-    registration = json.loads((root / 'data/templates/PubMed-Enrichment.manifest.json').read_text(encoding='utf-8'))
-    for sheet in registration['sheets']:
-        name = sheet['name']
+    from .pubmed_layout import NATIVE_HEADERS
+    for name, headers in NATIVE_HEADERS.items():
         if name == 'Publication':
             continue
-        rows = [dict(zip(sheet['headers'], row)) for row in projected_pm[name]]
+        rows = [dict(zip(headers, row)) for row in projected_pm[name]]
         for row in rows:
             if 'PMID' in row:
                 row['Publication index'] = indices(row.pop('PMID'))
@@ -197,28 +196,23 @@ def synthesize(root, registry, output, *, publication_index=None, pubmed=None, g
                     'Samples': ['Sample accession'], 'Experiments': ['Experiment accession'], 'Runs': ['Run accession']}[name]
         store('ENA - ' + name, rows, identity)
 
-    ae_members = {}
-    for publication in ae['publications']:
-        p = publication['publication']
-        key = str(p.get('PMID') or 'ORCS:' + str(p['PUBLICATION_ID']))
+    # Remap source cohort indices through PMID/native ORCS identity.
+    bst_indices = {}
+    for record in bst['publications']:
+        p = record['publication']
+        key = str(p.get('PMID') or 'ORCS:' + str(p.get('ORCS Publication ID') or p.get('PUBLICATION_ID')))
         if key in mapping:
-            for observation in publication['observations']:
-                accession = observation['accession']
-                if accession in ae['studies'] and ae['studies'][accession].get('arrayexpress_membership_confirmed'):
-                    current = set(ae_members.get(accession, '').split('\n')) - {''}
-                    ae_members[accession] = '\n'.join(sorted(current | {mapping[key]}))
-    for row in ae['rows']['Studies']:
-        if indices(row.get('PMID')):
-            accession = row['Study accession']
-            current = set(ae_members.get(accession, '').split('\n')) - {''}
-            ae_members[accession] = '\n'.join(sorted(current | set(indices(row['PMID']).split('\n'))))
-    for accession, pubs in ae_members.items():
-        member('ArrayExpress', accession, pubs)
-    projected_ae = arrayexpress_project({**ae, 'studies': {k: v for k, v in ae['studies'].items() if k in ae_members}})
-    for name in ('Studies', 'Protocols', 'Sample metadata', 'Assay metadata', 'IDF metadata', 'SDRF metadata'):
-        rows = [{'Publication index': ae_members[r['Study accession']], **{k: v for k, v in r.items() if k != 'PMID'}}
-                for r in projected_ae[name]]
-        store('AE - ' + name, rows)
+            bst_indices[p['Publication Index']] = mapping[key]
+    for name in ('Publications', 'Supplementary Files'):
+        rows = []
+        for original in bst['rows'][name]:
+            source_index = original['Publication Index']
+            if source_index not in bst_indices or not original.get('BioStudies Accession'):
+                continue
+            p = bst_indices[source_index]
+            rows.append({'Publication index': p, **{k:v for k,v in original.items() if k != 'Publication Index'}})
+            member('BioStudies', original['BioStudies Accession'], p)
+        store('BioStudies - ' + name, rows, ['BioStudies Accession'] if name == 'Publications' else ['BioStudies Index'])
     for (repository, accession), pubs in sorted(memberships.items()):
         links.extend({'Publication index': p, 'Repository': repository, 'Accession': accession}
                      for p in sorted(pubs))

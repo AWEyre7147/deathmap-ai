@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0060",
+    "PMID": "30930145",
+    "DOI": "10.1016/j.stem.2019.02.020",
+    "PMCID": "PMC7137093",
+    "Title": "The Mitochondrial Transacylase, Tafazzin, Regulates for AML Stemness by Modulating Intracellular Levels of Phospholipids.",
+    "ORCS Publication ID": "135",
+    "ORCS Publication Index": "PUB-0060",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC7137093",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.stem.2019.02.020%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:29:44.950124+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "62a89996dd5c51327cff6635f49926ce2ff856439c6fdcce6c45e29a24518e20",
+        "body": "native/87b9224907f9f9c3c505f9e15930cc54d79e4835679542d0b1d595acc42e4c85.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7137093",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2230930145%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:29:51.817160+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "bffbd1a03a879264d8884c7bebe1da40cfd713dadb3d13c1c7d7b8adc8f1837d",
+        "body": "native/0817b7d0b3cd54556861fa8098819452360452d282c2a72eeaf617b508023ba0.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7137093",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7137093%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:29:57.439154+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "8a22a3382041c9f7e14cb26f62397159832b13bc5b3ab710614d4dd9f781e426",
+        "body": "native/a6f815b10faa5aaef3ced6251cdfb6fb62a47795328ce3b3f2e8cd10d70b4855.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7137093",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22The+Mitochondrial+Transacylase%2C+Tafazzin%2C+Regulates+for+AML+Stemness+by+Modulating+Intracellular+Levels+of+Phospholipids.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:30:01.540906+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "5caab82dc62af7b38079b6996c70ca136bce76392cdf2024237a15a544df387e",
+        "body": "native/b508604ed5e194ba1c236bf7ad9ad4985c49e9c33e3275f7ffed29b2680437ce.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.stem.2019.02.020%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2230930145%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7137093%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22The+Mitochondrial+Transacylase%2C+Tafazzin%2C+Regulates+for+AML+Stemness+by+Modulating+Intracellular+Levels+of+Phospholipids.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A30930145&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

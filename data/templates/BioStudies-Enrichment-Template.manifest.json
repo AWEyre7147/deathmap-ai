@@ -1,0 +1,211 @@
+{
+  "schema_version": "enrichment-template/1.0",
+  "name": "BioStudies Enrichment",
+  "template": "data/templates/BioStudies-Enrichment-Template.xlsx",
+  "sha256": "2068ee60cc7b2c50b214c8fb0c6f01bfbeab7c5383d3e3899b9fed4be88a561c",
+  "registered_utc": "2026-10-30T22:01:41.524936+00:00",
+  "source": {
+    "name": "BioStudies template.xlsx",
+    "library_file_id": "libfile_d1a19486c1308191b5d9551927436016",
+    "sha256": "a9a9574529aaadf2fb36d3c3c66ef22664d0b1d5a7e615ee17244a185c11b765"
+  },
+  "index_format": {
+    "BioStudies Index": "BST-0001; native study accession and file path mapping"
+  },
+  "sheets": [
+    {
+      "name": "Publications",
+      "headers": [
+        "Publication Index",
+        "BioStudies Accession",
+        "PMID",
+        "PMCID",
+        "DOI",
+        "Title",
+        "Journal",
+        "Publication Date",
+        "Volume",
+        "Pages",
+        "Collection",
+        "Data Source",
+        "Release Date",
+        "Public",
+        "File Count",
+        "Total Size (Bytes)",
+        "Abstract",
+        "Study URL",
+        "Metadata API URL",
+        "HTTP Files Root",
+        "FTP Files Root"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Publications",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "width": 24.0
+        },
+        {
+          "header": "BioStudies Accession",
+          "source_key": "BioStudies Accession",
+          "width": 28.0
+        },
+        {
+          "header": "PMID",
+          "source_key": "PMID",
+          "width": 24.0
+        },
+        {
+          "header": "PMCID",
+          "source_key": "PMCID",
+          "width": 24.0
+        },
+        {
+          "header": "DOI",
+          "source_key": "DOI",
+          "width": 28.0
+        },
+        {
+          "header": "Title",
+          "source_key": "Title",
+          "width": 55.0
+        },
+        {
+          "header": "Journal",
+          "source_key": "Journal",
+          "width": 24.0
+        },
+        {
+          "header": "Publication Date",
+          "source_key": "Publication Date",
+          "width": 24.0
+        },
+        {
+          "header": "Volume",
+          "source_key": "Volume",
+          "width": 24.0
+        },
+        {
+          "header": "Pages",
+          "source_key": "Pages",
+          "width": 24.0
+        },
+        {
+          "header": "Collection",
+          "source_key": "Collection",
+          "width": 28.0
+        },
+        {
+          "header": "Data Source",
+          "source_key": "Data Source",
+          "width": 24.0
+        },
+        {
+          "header": "Release Date",
+          "source_key": "Release Date",
+          "width": 24.0
+        },
+        {
+          "header": "Public",
+          "source_key": "Public",
+          "width": 24.0
+        },
+        {
+          "header": "File Count",
+          "source_key": "File Count",
+          "width": 24.0
+        },
+        {
+          "header": "Total Size (Bytes)",
+          "source_key": "Total Size (Bytes)",
+          "width": 24.0
+        },
+        {
+          "header": "Abstract",
+          "source_key": "Abstract",
+          "width": 70.0
+        },
+        {
+          "header": "Study URL",
+          "source_key": "Study URL",
+          "width": 70.0
+        },
+        {
+          "header": "Metadata API URL",
+          "source_key": "Metadata API URL",
+          "width": 70.0
+        },
+        {
+          "header": "HTTP Files Root",
+          "source_key": "HTTP Files Root",
+          "width": 70.0
+        },
+        {
+          "header": "FTP Files Root",
+          "source_key": "FTP Files Root",
+          "width": 70.0
+        }
+      ]
+    },
+    {
+      "name": "Supplementary Files",
+      "headers": [
+        "Publication Index",
+        "BioStudies Accession",
+        "BioStudies Index",
+        "Filename",
+        "File Type",
+        "Size (Bytes)",
+        "Context",
+        "File URL"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Supplementary Files",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "width": 24.0
+        },
+        {
+          "header": "BioStudies Accession",
+          "source_key": "BioStudies Accession",
+          "width": 28.0
+        },
+        {
+          "header": "BioStudies Index",
+          "source_key": "BioStudies Index",
+          "width": 28.0
+        },
+        {
+          "header": "Filename",
+          "source_key": "Filename",
+          "width": 28.0
+        },
+        {
+          "header": "File Type",
+          "source_key": "File Type",
+          "width": 24.0
+        },
+        {
+          "header": "Size (Bytes)",
+          "source_key": "Size (Bytes)",
+          "width": 24.0
+        },
+        {
+          "header": "Context",
+          "source_key": "Context",
+          "width": 24.0
+        },
+        {
+          "header": "File URL",
+          "source_key": "File URL",
+          "width": 70.0
+        }
+      ]
+    }
+  ]
+}

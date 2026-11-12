@@ -1,0 +1,901 @@
+{
+  "accession": "S-EPMC9419706",
+  "native": {
+    "accno": "S-EPMC9419706",
+    "attributes": [
+      {
+        "name": "DataSource",
+        "value": "Europe PMC"
+      },
+      {
+        "name": "Title",
+        "value": "Inter-cellular CRISPR screens reveal regulators of cancer cell phagocytosis."
+      },
+      {
+        "name": "ReleaseDate",
+        "value": "2021-01-01"
+      },
+      {
+        "name": "AttachTo",
+        "value": "EuropePMC"
+      }
+    ],
+    "section": {
+      "type": "Study",
+      "attributes": [
+        {
+          "name": "Title",
+          "value": "Inter-cellular CRISPR screens reveal regulators of cancer cell phagocytosis."
+        },
+        {
+          "name": "Abstract",
+          "value": "Monoclonal antibody therapies targeting tumour antigens drive cancer cell elimination in large part by triggering macrophage phagocytosis of cancer cells<sup>1-7</sup>. However, cancer cells evade phagocytosis using mechanisms that are incompletely understood. Here we develop a platform for unbiased identification of factors that impede antibody-dependent cellular phagocytosis (ADCP) using complementary genome-wide CRISPR knockout and overexpression screens in both cancer cells and macrophages. In cancer cells, beyond known factors such as CD47, we identify many regulators of susceptibility to ADCP, including the poorly characterized enzyme adipocyte plasma membrane-associated protein (APMAP). We find that loss of APMAP synergizes with tumour antigen-targeting monoclonal antibodies and/or CD47-blocking monoclonal antibodies to drive markedly increased phagocytosis across a wide range of cancer cell types, including those that are otherwise resistant to ADCP. Additionally, we show that APMAP loss synergizes with several different tumour-targeting monoclonal antibodies to inhibit tumour growth in mice. Using genome-wide counterscreens in macrophages, we find that the G-protein-coupled receptor GPR84 mediates enhanced phagocytosis of APMAP-deficient cancer cells. This work reveals a cancer-intrinsic regulator of susceptibility to antibody-driven phagocytosis and, more broadly, expands our knowledge of the mechanisms governing cancer resistance to macrophage phagocytosis."
+        }
+      ],
+      "files": [
+        {
+          "path": "NIHMS1827519-supplement-Reporting_Summary.pdf",
+          "size": 4733417,
+          "type": "file"
+        },
+        {
+          "path": "NIHMS1827519-supplement-Source_Data_Extended_Data_Fig__6.xlsx",
+          "size": 14454,
+          "type": "file"
+        },
+        {
+          "path": "NIHMS1827519-supplement-Source_Data_Fig_3.xlsx",
+          "size": 13335,
+          "type": "file"
+        },
+        {
+          "path": "NIHMS1827519-supplement-Supplementary_Information.pdf",
+          "size": 1217863,
+          "type": "file"
+        },
+        {
+          "path": "NIHMS1827519-supplement-Supplementary_Table_1.xlsx",
+          "size": 2456146,
+          "type": "file"
+        },
+        {
+          "path": "NIHMS1827519-supplement-Supplementary_Table_2.xlsx",
+          "size": 4007601,
+          "type": "file"
+        },
+        {
+          "path": "NIHMS1827519-supplement-Supplementary_Table_3.xlsx",
+          "size": 170596,
+          "type": "file"
+        },
+        {
+          "path": "NIHMS1827519-supplement-Supplementary_Table_4.xlsx",
+          "size": 3719166,
+          "type": "file"
+        },
+        {
+          "path": "NIHMS1827519-supplement-Supplementary_Table_5.xlsx",
+          "size": 1188928,
+          "type": "file"
+        },
+        {
+          "path": "NIHMS1827519-supplement-Supplementary_Table_6.xlsx",
+          "size": 4906660,
+          "type": "file"
+        },
+        {
+          "path": "NIHMS1827519-supplement-Supplementary_Table_7.xlsx",
+          "size": 6699469,
+          "type": "file"
+        },
+        {
+          "path": "NIHMS1827519-supplement-Supplementary_Table_8.xlsx",
+          "size": 971874,
+          "type": "file"
+        },
+        {
+          "path": "NIHMS1827519-supplement-Supplementary_Table_9.xlsx",
+          "size": 10391,
+          "type": "file"
+        }
+      ],
+      "links": [
+        [
+          {
+            "url": "PRJNA748551",
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "bioproject"
+              }
+            ]
+          },
+          {
+            "url": "Q9DHC9",
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "uniprot"
+              }
+            ]
+          },
+          {
+            "url": "3sre",
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "pdb"
+              }
+            ]
+          },
+          {
+            "url": "2dg1",
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "pdb"
+              }
+            ]
+          }
+        ]
+      ],
+      "subsections": [
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "NCI NIH HHS"
+            },
+            {
+              "name": "grant_id",
+              "value": "U01 CA213273"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "NCI NIH HHS"
+            },
+            {
+              "name": "grant_id",
+              "value": "R35 CA220434"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "NCI NIH HHS"
+            },
+            {
+              "name": "grant_id",
+              "value": "R35 CA231997"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "NIAID NIH HHS"
+            },
+            {
+              "name": "grant_id",
+              "value": "R01 AI143889"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "NICHD NIH HHS"
+            },
+            {
+              "name": "grant_id",
+              "value": "DP2 HD084069"
+            }
+          ]
+        },
+        {
+          "type": "Publication",
+          "attributes": [
+            {
+              "name": "Journal",
+              "value": "Nature"
+            },
+            {
+              "name": "Volume",
+              "value": "597(7877)"
+            },
+            {
+              "name": "Pages",
+              "value": "549-554"
+            },
+            {
+              "name": "Publication date",
+              "value": "2021 Sep"
+            }
+          ],
+          "links": [
+            [
+              {
+                "url": "10.1038/s41586-021-03879-4",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "DOI"
+                  }
+                ]
+              },
+              {
+                "url": "10.1038/s41586-021-03879-4",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "DOI"
+                  }
+                ]
+              },
+              {
+                "url": "PMC9419706",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "PMC"
+                  }
+                ]
+              },
+              {
+                "url": "34497417",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "PMID"
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "accno": "a1",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Kamber RA"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a2",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Nishiga Y"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a3",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Morton B"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a4",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Banuelos AM"
+            },
+            {
+              "name": "affiliation",
+              "value": "o2",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a5",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Barkal AA"
+            },
+            {
+              "name": "affiliation",
+              "value": "o2",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a6",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Vences-Catalan F"
+            },
+            {
+              "name": "affiliation",
+              "value": "o3",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a7",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Gu M"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a8",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Fernandez D"
+            },
+            {
+              "name": "affiliation",
+              "value": "o4",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a9",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Seoane JA"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0002-3856-9177"
+            },
+            {
+              "name": "affiliation",
+              "value": "o5",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a10",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Yao D"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a11",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Liu K"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0002-9616-9403"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a12",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Lin S"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a13",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Spees K"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a14",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Curtis C"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a15",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Jerby-Arnon L"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a16",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Weissman IL"
+            },
+            {
+              "name": "affiliation",
+              "value": "o2",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a17",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Sage J"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a18",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Bassik MC"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0001-5185-8427"
+            },
+            {
+              "name": "affiliation",
+              "value": "o6",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "o1",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Department of Genetics, Stanford University School of Medicine, Stanford, CA, USA"
+            }
+          ]
+        },
+        {
+          "accno": "o6",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Department of Genetics, Stanford University School of Medicine, Stanford, CA, USA. bassik@stanford.edu"
+            }
+          ]
+        },
+        {
+          "accno": "o3",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Division of Oncology, Department of Medicine, Stanford University School of Medicine, Stanford, CA, USA"
+            }
+          ]
+        },
+        {
+          "accno": "o2",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Institute for Stem Cell Biology and Regenerative Medicine, Stanford University School of Medicine, Stanford, CA, USA"
+            }
+          ]
+        },
+        {
+          "accno": "o4",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Program in Chemistry, Engineering, and Medicine for Human Health (ChEM-H), Stanford University, Stanford, CA, USA"
+            }
+          ]
+        },
+        {
+          "accno": "o5",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Stanford Cancer Institute, Stanford University School of Medicine, Stanford, CA, USA"
+            }
+          ]
+        },
+        {
+          "type": "ExtractedLinks"
+        }
+      ]
+    },
+    "type": "submission"
+  },
+  "source": {
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-EPMC9419706",
+    "retrieved_utc": "2026-10-31T00:59:35.603476+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "46f58b358399185251080e7f3faeb352151ec186bac369f41e44e0f81d39f82d",
+    "body": "native/42d70d556569e652ec2e6bf278898ecac8ca06b67e53581882d271ee0dc0ae62.body"
+  },
+  "info": {
+    "columns": [
+      {
+        "name": "Name",
+        "title": "Name",
+        "visible": true,
+        "searchable": true,
+        "data": "Name",
+        "defaultContent": ""
+      },
+      {
+        "name": "Size",
+        "title": "Size",
+        "visible": true,
+        "searchable": false,
+        "data": "Size",
+        "defaultContent": ""
+      }
+    ],
+    "files": 13,
+    "httpLink": "https://ftp.ebi.ac.uk/pub/databases/biostudies/S-EPMC/706/S-EPMC9419706",
+    "ftpLink": "ftp://ftp.ebi.ac.uk/pub/databases/biostudies/S-EPMC/706/S-EPMC9419706",
+    "globusLink": "https://app.globus.org/file-manager?origin_id=47772002-3e5b-4fd3-b97c-18cee38d6df2&origin_path=/pub/databases/biostudies/S-EPMC/706/S-EPMC9419706",
+    "isPublic": true,
+    "relPath": "S-EPMC/706/S-EPMC9419706",
+    "hasZippedFolders": false,
+    "views": 0,
+    "released": 1609459200000,
+    "modified": 1779923325487,
+    "sections": [],
+    "sectionFileCounts": {}
+  },
+  "files": [
+    {
+      "path": "NIHMS1827519-supplement-Reporting_Summary.pdf",
+      "size": 4733417,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "NIHMS1827519-supplement-Reporting_Summary.pdf",
+        "size": 4733417,
+        "type": "file"
+      }
+    },
+    {
+      "path": "NIHMS1827519-supplement-Source_Data_Extended_Data_Fig__6.xlsx",
+      "size": 14454,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "NIHMS1827519-supplement-Source_Data_Extended_Data_Fig__6.xlsx",
+        "size": 14454,
+        "type": "file"
+      }
+    },
+    {
+      "path": "NIHMS1827519-supplement-Source_Data_Fig_3.xlsx",
+      "size": 13335,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "NIHMS1827519-supplement-Source_Data_Fig_3.xlsx",
+        "size": 13335,
+        "type": "file"
+      }
+    },
+    {
+      "path": "NIHMS1827519-supplement-Supplementary_Information.pdf",
+      "size": 1217863,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "NIHMS1827519-supplement-Supplementary_Information.pdf",
+        "size": 1217863,
+        "type": "file"
+      }
+    },
+    {
+      "path": "NIHMS1827519-supplement-Supplementary_Table_1.xlsx",
+      "size": 2456146,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "NIHMS1827519-supplement-Supplementary_Table_1.xlsx",
+        "size": 2456146,
+        "type": "file"
+      }
+    },
+    {
+      "path": "NIHMS1827519-supplement-Supplementary_Table_2.xlsx",
+      "size": 4007601,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "NIHMS1827519-supplement-Supplementary_Table_2.xlsx",
+        "size": 4007601,
+        "type": "file"
+      }
+    },
+    {
+      "path": "NIHMS1827519-supplement-Supplementary_Table_3.xlsx",
+      "size": 170596,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "NIHMS1827519-supplement-Supplementary_Table_3.xlsx",
+        "size": 170596,
+        "type": "file"
+      }
+    },
+    {
+      "path": "NIHMS1827519-supplement-Supplementary_Table_4.xlsx",
+      "size": 3719166,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "NIHMS1827519-supplement-Supplementary_Table_4.xlsx",
+        "size": 3719166,
+        "type": "file"
+      }
+    },
+    {
+      "path": "NIHMS1827519-supplement-Supplementary_Table_5.xlsx",
+      "size": 1188928,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "NIHMS1827519-supplement-Supplementary_Table_5.xlsx",
+        "size": 1188928,
+        "type": "file"
+      }
+    },
+    {
+      "path": "NIHMS1827519-supplement-Supplementary_Table_6.xlsx",
+      "size": 4906660,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "NIHMS1827519-supplement-Supplementary_Table_6.xlsx",
+        "size": 4906660,
+        "type": "file"
+      }
+    },
+    {
+      "path": "NIHMS1827519-supplement-Supplementary_Table_7.xlsx",
+      "size": 6699469,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "NIHMS1827519-supplement-Supplementary_Table_7.xlsx",
+        "size": 6699469,
+        "type": "file"
+      }
+    },
+    {
+      "path": "NIHMS1827519-supplement-Supplementary_Table_8.xlsx",
+      "size": 971874,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "NIHMS1827519-supplement-Supplementary_Table_8.xlsx",
+        "size": 971874,
+        "type": "file"
+      }
+    },
+    {
+      "path": "NIHMS1827519-supplement-Supplementary_Table_9.xlsx",
+      "size": 10391,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "NIHMS1827519-supplement-Supplementary_Table_9.xlsx",
+        "size": 10391,
+        "type": "file"
+      }
+    }
+  ],
+  "issues": [],
+  "info_source": {
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-EPMC9419706/info",
+    "retrieved_utc": "2026-10-31T00:59:41.596784+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "c80ffd91b92fa5e49c5192c2d31fdf9f4d228f23fe224ff12e52cd12229c4efd",
+    "body": "native/7bec54e7dd7cd4b48ac8308c62dad59f17f77017de407d19f09e1e2cc58469d9.body"
+  },
+  "links": [
+    {
+      "url": "PRJNA748551",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "bioproject"
+        }
+      ]
+    },
+    {
+      "url": "Q9DHC9",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "uniprot"
+        }
+      ]
+    },
+    {
+      "url": "3sre",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "pdb"
+        }
+      ]
+    },
+    {
+      "url": "2dg1",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "pdb"
+        }
+      ]
+    },
+    {
+      "url": "10.1038/s41586-021-03879-4",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "DOI"
+        }
+      ]
+    },
+    {
+      "url": "10.1038/s41586-021-03879-4",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "DOI"
+        }
+      ]
+    },
+    {
+      "url": "PMC9419706",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "PMC"
+        }
+      ]
+    },
+    {
+      "url": "34497417",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "PMID"
+        }
+      ]
+    }
+  ]
+}

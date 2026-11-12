@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0118",
+    "PMID": "29259014",
+    "DOI": "10.1158/0008-5472.can-17-1904",
+    "PMCID": "PMC5815936",
+    "Title": "ER Stress Signaling Promotes the Survival of Cancer \"Persister Cells\" Tolerant to EGFR Tyrosine Kinase Inhibitors.",
+    "ORCS Publication ID": "323",
+    "ORCS Publication Index": "PUB-0118",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC5815936",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1158%2F0008-5472.can-17-1904%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:33:38.056001+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "5534265a93369e0fee9c086f66e7db5e620b61896bf1e144f882136f19814784",
+        "body": "native/6fe26b27445a23e957a66dd80edd2be2e5b61ee0c2a8434cca4578c749b24bfd.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5815936",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2229259014%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:33:44.578883+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "1c4bfe7806062466e347fc81395647dfa4bd91affc32b9090018c99f9564f123",
+        "body": "native/ba2cbf6c3c686a6bcfe8820944feef45ac8f04c9eb62df22f76baf795a051810.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5815936",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC5815936%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:33:49.640473+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "b3dc5972815f2377cf5e37e6e7397b4784a28ca2c0e084fd6f23d6ad0d116ef7",
+        "body": "native/3e1f860292bc3eabde2c41d80c7049cf41d5d0f4f90a1d02a1fba7943ca51330.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5815936",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22ER+Stress+Signaling+Promotes+the+Survival+of+Cancer+%5C%22Persister+Cells%5C%22+Tolerant+to+EGFR+Tyrosine+Kinase+Inhibitors.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:33:54.808444+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "c7e5b613a8bc8663e98759637adf0fdcad2fa9864f5b4233b8c929f2bc26a00e",
+        "body": "native/ae69588344ef5f773cc511da4eda7d33eb72790db241f0a3dd9b31f909f11953.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1158%2F0008-5472.can-17-1904%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2229259014%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC5815936%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22ER+Stress+Signaling+Promotes+the+Survival+of+Cancer+%5C%22Persister+Cells%5C%22+Tolerant+to+EGFR+Tyrosine+Kinase+Inhibitors.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A29259014&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

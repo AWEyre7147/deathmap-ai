@@ -1,0 +1,126 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0106",
+    "PMID": "31527793",
+    "DOI": "10.1038/s41564-019-0551-1",
+    "PMCID": "PMC6879830",
+    "Title": "Enterovirus pathogenesis requires the host methyltransferase SETD3.",
+    "ORCS Publication ID": "298",
+    "ORCS Publication Index": "PUB-0106",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC6879830",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41564-019-0551-1%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:32:56.227281+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "c715e8ace863c45c678eea16ebc9a6b2f496e8d317d986d4571057d951bb3c5b",
+        "body": "native/1247df4966d5fd30b0fd814f4656c0a8298e7edf44d62c4d1d7d46a9e2f15d64.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6879830",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231527793%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:32:59.651366+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "54e948b8700b8fd076f80f792eb2f56b0e0fce1a278b66217ab6a0909b335ea6",
+        "body": "native/d51c1d2e45e3288bdfdce887e779daf377ffdac89c454d7befd9aacd69497cb2.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6879830",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6879830%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:33:08.701440+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "44690a15e90fceb791d479fb17d68bc2f2d1c29163828d319a64ae9b1dd2561b",
+        "body": "native/54eee38b0376718c37f5c4883a7745746769b8a8704c90dfe5f47b180954a003.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6879830",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Enterovirus+pathogenesis+requires+the+host+methyltransferase+SETD3.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:33:13.366628+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "9bc7a78bd41c268797f969ef0f905595a7ca09b7b5ae490ae3e0adf5487f3826",
+        "body": "native/498053448151afc8f2dcb560f16992f5993cd1c1048b67e05fb9ab5e013bd89a.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "E-MTAB-8125",
+      "route": "europepmc_annotations",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A31527793&type=Accession+Numbers&format=JSON",
+        "attempt": 1,
+        "retrieved_utc": "2026-10-11T21:30:22.190941+00:00",
+        "http_status": 200,
+        "content_type": "application/json",
+        "file": "raw/00306.response",
+        "bytes": 16075,
+        "sha256": "6a03391ec4e77f3a7688ced9678ad4bff838edd981a1a6ff53b95297b107cea8",
+        "reused_from": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\outputs\\arrayexpress-europepmc-pilot-20261011-continuation\\raw\\002.response",
+        "reused_utc": "2026-10-11T23:28:53.317117+00:00",
+        "body": "native/35549c9ed7c68d9b1f8dd74e29d4db62dab5f7716aa199969e5e78314e1ad869.body"
+      },
+      "locator": "$[0].annotations[42]",
+      "evidence_kind": "precomputed_accession_mention"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41564-019-0551-1%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231527793%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6879830%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Enterovirus+pathogenesis+requires+the+host+methyltransferase+SETD3.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A31527793&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

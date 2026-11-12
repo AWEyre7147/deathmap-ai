@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0124",
+    "PMID": "30556811",
+    "DOI": "10.7554/elife.41460",
+    "PMCID": "PMC6312402",
+    "Title": "Genome-wide interrogation of extracellular vesicle biology using barcoded miRNAs.",
+    "ORCS Publication ID": "333",
+    "ORCS Publication Index": "PUB-0124",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC6312402",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.7554%2Felife.41460%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:34:02.904224+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "9525487e667e6a7ceee9e42fa26b0564fdf63ea488a88e865c1ab910d1e20b15",
+        "body": "native/f7e0f77aeab8dcbef691937e43b10eb91d56064ce90c3f9a3c76f49d790d80fe.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6312402",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2230556811%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:34:10.942966+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "b5b48b224d4fe100a34b5a1cf13e06844ce66c7bb633d1f51d159b3a624c6f23",
+        "body": "native/65592732cd8bd9f170e84ec8f0c772e7b7fc37d34e9e2dff3e1afbfb5fb960fb.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6312402",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6312402%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:34:13.784469+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "dc324966eca3f0e0b54284c1472d9ffbb927202e1866c7650492608bb488a9e9",
+        "body": "native/0884c82884cf0cd1114f6ca44db038771566a8f10f42f10536b3b1a6f3b29a1c.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6312402",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+interrogation+of+extracellular+vesicle+biology+using+barcoded+miRNAs.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:34:17.691046+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "a20e7a1fa5164bf05c9ad6a547cfb4161d3e5e4aec67d6a5b48d505cca1c860e",
+        "body": "native/77de85402a50ea20dc88120f9ede208f2ce2dd7cf425166c03292f4c302820cb.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.7554%2Felife.41460%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2230556811%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6312402%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+interrogation+of+extracellular+vesicle+biology+using+barcoded+miRNAs.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A30556811&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

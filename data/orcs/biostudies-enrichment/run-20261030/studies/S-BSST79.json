@@ -1,0 +1,1399 @@
+{
+  "accession": "S-BSST79",
+  "native": {
+    "accno": "S-BSST79",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "CRISPR-Ca9 pooled drop out screen of 14 immortalized human cancer cell lines used to test CRISPRcleanR"
+      },
+      {
+        "name": "ReleaseDate",
+        "value": "2018-07-27"
+      }
+    ],
+    "section": {
+      "type": "Study",
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "We performed a genome-wide CRISPR-Cas9 loss-of-function screen on 14 immortalised human cancer cell lines that are a subset of the Genomics of Drug Sensitivity in Cancer (GDSC) panel [1]. These cell lines were transduced with a Cas9 lentiviral expression vector creating cells with stable expression of Cas9 endonuclease [2]. This was followed by transduction of a library of sgRNA (90,709  sgRNAs; targeting 18,000 genes, 5 targeting sgRNAs per gene) [2].  Next generation sequencing of the pool of sgRNAs at the beginning and at the end of the experiment produced the raw count files contained in this dataset. It is possible to identify sgRNAs targeting essential genes, via quantification of the corresponding fold changes between initial and final measurements (logFCs).  The sgRNAs that have a significant reduced count over the course of the experiment were deemed to be depleted and as such, defined as having targeted an essential gene. \n\nThis data was generated to test the performances of the CRISPRcleanR method (https://github.com/francescojm/CRISPRcleanR) in unsupervised correcting gene independent cell responses to CRISPR-Cas9 targeting [4]. \n\nReferences:\n[1] Iorio et al., A landscape of pharmacogenomic interactions in cancer. Cell 2016 \n[2] Tzelepis et al., A CRISPR Dropout Screen Identifies Genetic Vulnerabilities and Therapeutic Targets in Acute Myeloid Leukemia. Cell Reports 2016 \n[3] Iorio et al., Unsupervised correction of gene independent cell responses to CRISPR-Cas9 targeting, In preparation"
+        }
+      ],
+      "files": [
+        {
+          "path": "A2058.tsv",
+          "size": 6501830,
+          "attributes": [
+            {
+              "name": "Description",
+              "value": "sgRNA count file for cell line A2058"
+            },
+            {
+              "name": "COSMIC identifier",
+              "value": "906792"
+            },
+            {
+              "name": "GDSC descriptor 1",
+              "value": "skin"
+            },
+            {
+              "name": "GDSC descriptor 2",
+              "value": "melanoma"
+            },
+            {
+              "name": "Media type and supplements",
+              "value": "DMEM; 10% FBS;1% Pen/Strep;"
+            }
+          ],
+          "type": "file"
+        },
+        {
+          "path": "EPLC-272H.tsv",
+          "size": 6827237,
+          "attributes": [
+            {
+              "name": "Description",
+              "value": "sgRNA count file for cell line EPLC-272H"
+            },
+            {
+              "name": "COSMIC identifier",
+              "value": "753556"
+            },
+            {
+              "name": "GDSC descriptor 1",
+              "value": "lung_NSCLC"
+            },
+            {
+              "name": "GDSC descriptor 2",
+              "value": "lung_NSCLC_squamous_cell_carcinoma"
+            },
+            {
+              "name": "Media type and supplements",
+              "value": "RPMI; FBS 10%; 1% Pen/Strep; 1% Glucose; 1% Sodium Pyruvate"
+            }
+          ],
+          "type": "file"
+        },
+        {
+          "path": "HCC-15.tsv",
+          "size": 6827437,
+          "attributes": [
+            {
+              "name": "Description",
+              "value": "sgRNA count file for cell line HCC-15"
+            },
+            {
+              "name": "COSMIC identifier",
+              "value": "1240143"
+            },
+            {
+              "name": "GDSC descriptor 1",
+              "value": "lung_NSCLC"
+            },
+            {
+              "name": "GDSC descriptor 2",
+              "value": "lung_NSCLC_squamous_cell_carcinoma"
+            },
+            {
+              "name": "Media type and supplements",
+              "value": "DMEM; 10% FBS;1% Pen/Strep;"
+            }
+          ],
+          "type": "file"
+        },
+        {
+          "path": "HT-29.tsv",
+          "size": 6458236,
+          "attributes": [
+            {
+              "name": "Description",
+              "value": "sgRNA count file for cell line HT-29"
+            },
+            {
+              "name": "COSMIC identifier",
+              "value": "905939"
+            },
+            {
+              "name": "GDSC descriptor 1",
+              "value": "large_intestine"
+            },
+            {
+              "name": "GDSC descriptor 2",
+              "value": "large_intestine"
+            },
+            {
+              "name": "Media type and supplements",
+              "value": "RPMI; FBS 10%; 1% Pen/Strep; 1% Glucose; 1% Sodium Pyruvate"
+            }
+          ],
+          "type": "file"
+        },
+        {
+          "path": "HT55.tsv",
+          "size": 6099766,
+          "attributes": [
+            {
+              "name": "Description",
+              "value": "sgRNA count file for cell line HT55"
+            },
+            {
+              "name": "COSMIC identifier",
+              "value": "907287"
+            },
+            {
+              "name": "GDSC descriptor 1",
+              "value": "large_intestine"
+            },
+            {
+              "name": "GDSC descriptor 2",
+              "value": "large_intestine"
+            },
+            {
+              "name": "Media type and supplements",
+              "value": "DMEM; 10% FBS;1% Pen/Strep;"
+            }
+          ],
+          "type": "file"
+        },
+        {
+          "path": "HuP-T3.tsv",
+          "size": 6441334,
+          "attributes": [
+            {
+              "name": "Description",
+              "value": "sgRNA count file for cell line HuP-T3"
+            },
+            {
+              "name": "COSMIC identifier",
+              "value": "907285"
+            },
+            {
+              "name": "GDSC descriptor 1",
+              "value": "pancreas"
+            },
+            {
+              "name": "GDSC descriptor 2",
+              "value": "pancreas"
+            },
+            {
+              "name": "Media type and supplements",
+              "value": "RPMI; FBS 10%; 1% Pen/Strep; 1% Glucose; 1% Sodium Pyruvate"
+            }
+          ],
+          "type": "file"
+        },
+        {
+          "path": "MDA-MB-415.tsv",
+          "size": 6428470,
+          "attributes": [
+            {
+              "name": "Description",
+              "value": "sgRNA count file for cell line MDA-MB-415"
+            },
+            {
+              "name": "COSMIC identifier",
+              "value": "924240"
+            },
+            {
+              "name": "GDSC descriptor 1",
+              "value": "breast"
+            },
+            {
+              "name": "GDSC descriptor 2",
+              "value": "breast"
+            },
+            {
+              "name": "Media type and supplements",
+              "value": "DMEM; 10% FBS;1% Pen/Strep;"
+            }
+          ],
+          "type": "file"
+        },
+        {
+          "path": "MDA-MB-436.tsv",
+          "size": 6493377,
+          "attributes": [
+            {
+              "name": "Description",
+              "value": "sgRNA count file for cell line MDA-MB-436"
+            },
+            {
+              "name": "COSMIC identifier",
+              "value": "1240172"
+            },
+            {
+              "name": "GDSC descriptor 1",
+              "value": "breast"
+            },
+            {
+              "name": "GDSC descriptor 2",
+              "value": "breast"
+            },
+            {
+              "name": "Media type and supplements",
+              "value": "DMEM; 10% FBS;1% Pen/Strep;"
+            }
+          ],
+          "type": "file"
+        },
+        {
+          "path": "MDA-MB-453.tsv",
+          "size": 6407576,
+          "attributes": [
+            {
+              "name": "Description",
+              "value": "sgRNA count file for cell line sgRNA count file for cell line MDA-MB-453"
+            },
+            {
+              "name": "COSMIC identifier",
+              "value": "908122"
+            },
+            {
+              "name": "GDSC descriptor 1",
+              "value": "breast"
+            },
+            {
+              "name": "GDSC descriptor 2",
+              "value": "breast"
+            },
+            {
+              "name": "Media type and supplements",
+              "value": "DMEM; 10% FBS;1% Pen/Strep;"
+            }
+          ],
+          "type": "file"
+        },
+        {
+          "path": "NCI-H520.tsv",
+          "size": 6816005,
+          "attributes": [
+            {
+              "name": "Description",
+              "value": "sgRNA count file for cell line NCI-H520"
+            },
+            {
+              "name": "COSMIC identifier",
+              "value": "908443"
+            },
+            {
+              "name": "GDSC descriptor 1",
+              "value": "lung_NSCLC"
+            },
+            {
+              "name": "GDSC descriptor 2",
+              "value": "lung_NSCLC_squamous_cell_carcinoma"
+            },
+            {
+              "name": "Media type and supplements",
+              "value": "RPMI; FBS 10%; 1% Pen/Strep; 1% Glucose; 1% Sodium Pyruvate"
+            }
+          ],
+          "type": "file"
+        },
+        {
+          "path": "NCI-H2170.tsv",
+          "size": 6812593,
+          "attributes": [
+            {
+              "name": "Description",
+              "value": "sgRNA count file for cell line NCI-H2170"
+            },
+            {
+              "name": "COSMIC identifier",
+              "value": "687815"
+            },
+            {
+              "name": "GDSC descriptor 1",
+              "value": "lung_NSCLC"
+            },
+            {
+              "name": "GDSC descriptor 2",
+              "value": "lung_NSCLC_squamous_cell_carcinoma"
+            },
+            {
+              "name": "Media type and supplements",
+              "value": "RPMI; FBS 10%; 1% Pen/Strep; 1% Glucose; 1% Sodium Pyruvate"
+            }
+          ],
+          "type": "file"
+        },
+        {
+          "path": "OVCAR-8.tsv",
+          "size": 6456922,
+          "attributes": [
+            {
+              "name": "Description",
+              "value": "sgRNA count file for cell line OVCAR-8"
+            },
+            {
+              "name": "COSMIC identifier",
+              "value": "905991"
+            },
+            {
+              "name": "GDSC descriptor 1",
+              "value": "urogenital_system"
+            },
+            {
+              "name": "GDSC descriptor 2",
+              "value": "ovary"
+            },
+            {
+              "name": "Media type and supplements",
+              "value": "RPMI; FBS 10%; 1% Pen/Strep; 1% Glucose; 1% Sodium Pyruvate"
+            }
+          ],
+          "type": "file"
+        },
+        {
+          "path": "SW48.tsv",
+          "size": 6510449,
+          "attributes": [
+            {
+              "name": "Description",
+              "value": "sgRNA count file for cell line SW48"
+            },
+            {
+              "name": "COSMIC identifier",
+              "value": "909751"
+            },
+            {
+              "name": "GDSC descriptor 1",
+              "value": "large_intestine"
+            },
+            {
+              "name": "GDSC descriptor 2",
+              "value": "large_intestine"
+            },
+            {
+              "name": "Media type and supplements",
+              "value": "DMEM; 10% FBS;1% Pen/Strep;"
+            }
+          ],
+          "type": "file"
+        },
+        {
+          "path": "TOV-21G.tsv",
+          "size": 6445369,
+          "attributes": [
+            {
+              "name": "Description",
+              "value": "sgRNA count file for cell line TOV-21G"
+            },
+            {
+              "name": "COSMIC identifier",
+              "value": "1240222"
+            },
+            {
+              "name": "GDSC descriptor 1",
+              "value": "urogenital_system"
+            },
+            {
+              "name": "GDSC descriptor 2",
+              "value": "ovary"
+            },
+            {
+              "name": "Media type and supplements",
+              "value": "DMEM; 10% FBS;1% Pen/Strep;"
+            }
+          ],
+          "type": "file"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.biorxiv.org/content/early/2018/07/01/228189",
+          "attributes": [
+            {
+              "name": "Description",
+              "value": "Pre-print of the manuscript \"Unsupervised correction of gene-independent cell responses to CRISPR-Cas9 targeting\""
+            }
+          ]
+        }
+      ],
+      "subsections": [
+        {
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Fiona Behan"
+            },
+            {
+              "name": "E-mail",
+              "value": "fb3@sanger.ac.uk"
+            },
+            {
+              "name": "Affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Francesco Iorio"
+            },
+            {
+              "name": "E-mail",
+              "value": "iorio@ebi.ac.uk"
+            },
+            {
+              "name": "Affiliation",
+              "value": "o2",
+              "reference": true
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0001-7063-8913"
+            }
+          ]
+        },
+        {
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Kosuke Yusa"
+            },
+            {
+              "name": "E-mail",
+              "value": "ky1@sanger.ac.uk"
+            },
+            {
+              "name": "Affiliation",
+              "value": "o3",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Mathew Garnett"
+            },
+            {
+              "name": "E-mail",
+              "value": "mg12@sanger.ac.uk"
+            },
+            {
+              "name": "Affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "o1",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Wellcome Trust Sanger Institute & Open Targets"
+            }
+          ]
+        },
+        {
+          "accno": "o2",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "EMBL - EBI & Open Targets"
+            }
+          ]
+        },
+        {
+          "accno": "o3",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Wellcome Trust Sanger Institute"
+            }
+          ]
+        }
+      ]
+    },
+    "type": "submission"
+  },
+  "source": {
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-BSST79",
+    "retrieved_utc": "2026-10-31T00:37:16.395900+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "9a9c8882f9b65ed06d01df33fab2963feb6168b1aaf9531d2313e201389b628c",
+    "body": "native/56251530fe67d2a8e0ee135cb3b1a93cc4905eea6a85f5402211c4788769e26d.body"
+  },
+  "info": {
+    "columns": [
+      {
+        "name": "Name",
+        "title": "Name",
+        "visible": true,
+        "searchable": true,
+        "data": "Name",
+        "defaultContent": ""
+      },
+      {
+        "name": "Size",
+        "title": "Size",
+        "visible": true,
+        "searchable": false,
+        "data": "Size",
+        "defaultContent": ""
+      },
+      {
+        "name": "COSMIC identifier",
+        "title": "COSMIC identifier",
+        "visible": true,
+        "searchable": true,
+        "data": "COSMIC_identifier",
+        "defaultContent": ""
+      },
+      {
+        "name": "Description",
+        "title": "Description",
+        "visible": true,
+        "searchable": true,
+        "data": "Description",
+        "defaultContent": ""
+      },
+      {
+        "name": "GDSC descriptor 1",
+        "title": "GDSC descriptor 1",
+        "visible": true,
+        "searchable": true,
+        "data": "GDSC_descriptor_1",
+        "defaultContent": ""
+      },
+      {
+        "name": "GDSC descriptor 2",
+        "title": "GDSC descriptor 2",
+        "visible": true,
+        "searchable": true,
+        "data": "GDSC_descriptor_2",
+        "defaultContent": ""
+      },
+      {
+        "name": "Media type and supplements",
+        "title": "Media type and supplements",
+        "visible": true,
+        "searchable": true,
+        "data": "Media_type_and_supplements",
+        "defaultContent": ""
+      }
+    ],
+    "files": 14,
+    "httpLink": "https://ftp.ebi.ac.uk/biostudies/fire/S-BSST/079/S-BSST79",
+    "ftpLink": "ftp://ftp.ebi.ac.uk/biostudies/fire/S-BSST/079/S-BSST79",
+    "globusLink": "https://app.globus.org/file-manager?origin_id=47772002-3e5b-4fd3-b97c-18cee38d6df2&origin_path=/biostudies/fire/S-BSST/079/S-BSST79",
+    "isPublic": true,
+    "relPath": "S-BSST/079/S-BSST79",
+    "hasZippedFolders": true,
+    "views": 0,
+    "released": 1532649600000,
+    "modified": 1614595022000,
+    "sections": [],
+    "sectionFileCounts": {}
+  },
+  "files": [
+    {
+      "path": "A2058.tsv",
+      "size": 6501830,
+      "context": "Study",
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "sgRNA count file for cell line A2058"
+        },
+        {
+          "name": "COSMIC identifier",
+          "value": "906792"
+        },
+        {
+          "name": "GDSC descriptor 1",
+          "value": "skin"
+        },
+        {
+          "name": "GDSC descriptor 2",
+          "value": "melanoma"
+        },
+        {
+          "name": "Media type and supplements",
+          "value": "DMEM; 10% FBS;1% Pen/Strep;"
+        }
+      ],
+      "locator": "$.files",
+      "native": {
+        "path": "A2058.tsv",
+        "size": 6501830,
+        "attributes": [
+          {
+            "name": "Description",
+            "value": "sgRNA count file for cell line A2058"
+          },
+          {
+            "name": "COSMIC identifier",
+            "value": "906792"
+          },
+          {
+            "name": "GDSC descriptor 1",
+            "value": "skin"
+          },
+          {
+            "name": "GDSC descriptor 2",
+            "value": "melanoma"
+          },
+          {
+            "name": "Media type and supplements",
+            "value": "DMEM; 10% FBS;1% Pen/Strep;"
+          }
+        ],
+        "type": "file"
+      }
+    },
+    {
+      "path": "EPLC-272H.tsv",
+      "size": 6827237,
+      "context": "Study",
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "sgRNA count file for cell line EPLC-272H"
+        },
+        {
+          "name": "COSMIC identifier",
+          "value": "753556"
+        },
+        {
+          "name": "GDSC descriptor 1",
+          "value": "lung_NSCLC"
+        },
+        {
+          "name": "GDSC descriptor 2",
+          "value": "lung_NSCLC_squamous_cell_carcinoma"
+        },
+        {
+          "name": "Media type and supplements",
+          "value": "RPMI; FBS 10%; 1% Pen/Strep; 1% Glucose; 1% Sodium Pyruvate"
+        }
+      ],
+      "locator": "$.files",
+      "native": {
+        "path": "EPLC-272H.tsv",
+        "size": 6827237,
+        "attributes": [
+          {
+            "name": "Description",
+            "value": "sgRNA count file for cell line EPLC-272H"
+          },
+          {
+            "name": "COSMIC identifier",
+            "value": "753556"
+          },
+          {
+            "name": "GDSC descriptor 1",
+            "value": "lung_NSCLC"
+          },
+          {
+            "name": "GDSC descriptor 2",
+            "value": "lung_NSCLC_squamous_cell_carcinoma"
+          },
+          {
+            "name": "Media type and supplements",
+            "value": "RPMI; FBS 10%; 1% Pen/Strep; 1% Glucose; 1% Sodium Pyruvate"
+          }
+        ],
+        "type": "file"
+      }
+    },
+    {
+      "path": "HCC-15.tsv",
+      "size": 6827437,
+      "context": "Study",
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "sgRNA count file for cell line HCC-15"
+        },
+        {
+          "name": "COSMIC identifier",
+          "value": "1240143"
+        },
+        {
+          "name": "GDSC descriptor 1",
+          "value": "lung_NSCLC"
+        },
+        {
+          "name": "GDSC descriptor 2",
+          "value": "lung_NSCLC_squamous_cell_carcinoma"
+        },
+        {
+          "name": "Media type and supplements",
+          "value": "DMEM; 10% FBS;1% Pen/Strep;"
+        }
+      ],
+      "locator": "$.files",
+      "native": {
+        "path": "HCC-15.tsv",
+        "size": 6827437,
+        "attributes": [
+          {
+            "name": "Description",
+            "value": "sgRNA count file for cell line HCC-15"
+          },
+          {
+            "name": "COSMIC identifier",
+            "value": "1240143"
+          },
+          {
+            "name": "GDSC descriptor 1",
+            "value": "lung_NSCLC"
+          },
+          {
+            "name": "GDSC descriptor 2",
+            "value": "lung_NSCLC_squamous_cell_carcinoma"
+          },
+          {
+            "name": "Media type and supplements",
+            "value": "DMEM; 10% FBS;1% Pen/Strep;"
+          }
+        ],
+        "type": "file"
+      }
+    },
+    {
+      "path": "HT-29.tsv",
+      "size": 6458236,
+      "context": "Study",
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "sgRNA count file for cell line HT-29"
+        },
+        {
+          "name": "COSMIC identifier",
+          "value": "905939"
+        },
+        {
+          "name": "GDSC descriptor 1",
+          "value": "large_intestine"
+        },
+        {
+          "name": "GDSC descriptor 2",
+          "value": "large_intestine"
+        },
+        {
+          "name": "Media type and supplements",
+          "value": "RPMI; FBS 10%; 1% Pen/Strep; 1% Glucose; 1% Sodium Pyruvate"
+        }
+      ],
+      "locator": "$.files",
+      "native": {
+        "path": "HT-29.tsv",
+        "size": 6458236,
+        "attributes": [
+          {
+            "name": "Description",
+            "value": "sgRNA count file for cell line HT-29"
+          },
+          {
+            "name": "COSMIC identifier",
+            "value": "905939"
+          },
+          {
+            "name": "GDSC descriptor 1",
+            "value": "large_intestine"
+          },
+          {
+            "name": "GDSC descriptor 2",
+            "value": "large_intestine"
+          },
+          {
+            "name": "Media type and supplements",
+            "value": "RPMI; FBS 10%; 1% Pen/Strep; 1% Glucose; 1% Sodium Pyruvate"
+          }
+        ],
+        "type": "file"
+      }
+    },
+    {
+      "path": "HT55.tsv",
+      "size": 6099766,
+      "context": "Study",
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "sgRNA count file for cell line HT55"
+        },
+        {
+          "name": "COSMIC identifier",
+          "value": "907287"
+        },
+        {
+          "name": "GDSC descriptor 1",
+          "value": "large_intestine"
+        },
+        {
+          "name": "GDSC descriptor 2",
+          "value": "large_intestine"
+        },
+        {
+          "name": "Media type and supplements",
+          "value": "DMEM; 10% FBS;1% Pen/Strep;"
+        }
+      ],
+      "locator": "$.files",
+      "native": {
+        "path": "HT55.tsv",
+        "size": 6099766,
+        "attributes": [
+          {
+            "name": "Description",
+            "value": "sgRNA count file for cell line HT55"
+          },
+          {
+            "name": "COSMIC identifier",
+            "value": "907287"
+          },
+          {
+            "name": "GDSC descriptor 1",
+            "value": "large_intestine"
+          },
+          {
+            "name": "GDSC descriptor 2",
+            "value": "large_intestine"
+          },
+          {
+            "name": "Media type and supplements",
+            "value": "DMEM; 10% FBS;1% Pen/Strep;"
+          }
+        ],
+        "type": "file"
+      }
+    },
+    {
+      "path": "HuP-T3.tsv",
+      "size": 6441334,
+      "context": "Study",
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "sgRNA count file for cell line HuP-T3"
+        },
+        {
+          "name": "COSMIC identifier",
+          "value": "907285"
+        },
+        {
+          "name": "GDSC descriptor 1",
+          "value": "pancreas"
+        },
+        {
+          "name": "GDSC descriptor 2",
+          "value": "pancreas"
+        },
+        {
+          "name": "Media type and supplements",
+          "value": "RPMI; FBS 10%; 1% Pen/Strep; 1% Glucose; 1% Sodium Pyruvate"
+        }
+      ],
+      "locator": "$.files",
+      "native": {
+        "path": "HuP-T3.tsv",
+        "size": 6441334,
+        "attributes": [
+          {
+            "name": "Description",
+            "value": "sgRNA count file for cell line HuP-T3"
+          },
+          {
+            "name": "COSMIC identifier",
+            "value": "907285"
+          },
+          {
+            "name": "GDSC descriptor 1",
+            "value": "pancreas"
+          },
+          {
+            "name": "GDSC descriptor 2",
+            "value": "pancreas"
+          },
+          {
+            "name": "Media type and supplements",
+            "value": "RPMI; FBS 10%; 1% Pen/Strep; 1% Glucose; 1% Sodium Pyruvate"
+          }
+        ],
+        "type": "file"
+      }
+    },
+    {
+      "path": "MDA-MB-415.tsv",
+      "size": 6428470,
+      "context": "Study",
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "sgRNA count file for cell line MDA-MB-415"
+        },
+        {
+          "name": "COSMIC identifier",
+          "value": "924240"
+        },
+        {
+          "name": "GDSC descriptor 1",
+          "value": "breast"
+        },
+        {
+          "name": "GDSC descriptor 2",
+          "value": "breast"
+        },
+        {
+          "name": "Media type and supplements",
+          "value": "DMEM; 10% FBS;1% Pen/Strep;"
+        }
+      ],
+      "locator": "$.files",
+      "native": {
+        "path": "MDA-MB-415.tsv",
+        "size": 6428470,
+        "attributes": [
+          {
+            "name": "Description",
+            "value": "sgRNA count file for cell line MDA-MB-415"
+          },
+          {
+            "name": "COSMIC identifier",
+            "value": "924240"
+          },
+          {
+            "name": "GDSC descriptor 1",
+            "value": "breast"
+          },
+          {
+            "name": "GDSC descriptor 2",
+            "value": "breast"
+          },
+          {
+            "name": "Media type and supplements",
+            "value": "DMEM; 10% FBS;1% Pen/Strep;"
+          }
+        ],
+        "type": "file"
+      }
+    },
+    {
+      "path": "MDA-MB-436.tsv",
+      "size": 6493377,
+      "context": "Study",
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "sgRNA count file for cell line MDA-MB-436"
+        },
+        {
+          "name": "COSMIC identifier",
+          "value": "1240172"
+        },
+        {
+          "name": "GDSC descriptor 1",
+          "value": "breast"
+        },
+        {
+          "name": "GDSC descriptor 2",
+          "value": "breast"
+        },
+        {
+          "name": "Media type and supplements",
+          "value": "DMEM; 10% FBS;1% Pen/Strep;"
+        }
+      ],
+      "locator": "$.files",
+      "native": {
+        "path": "MDA-MB-436.tsv",
+        "size": 6493377,
+        "attributes": [
+          {
+            "name": "Description",
+            "value": "sgRNA count file for cell line MDA-MB-436"
+          },
+          {
+            "name": "COSMIC identifier",
+            "value": "1240172"
+          },
+          {
+            "name": "GDSC descriptor 1",
+            "value": "breast"
+          },
+          {
+            "name": "GDSC descriptor 2",
+            "value": "breast"
+          },
+          {
+            "name": "Media type and supplements",
+            "value": "DMEM; 10% FBS;1% Pen/Strep;"
+          }
+        ],
+        "type": "file"
+      }
+    },
+    {
+      "path": "MDA-MB-453.tsv",
+      "size": 6407576,
+      "context": "Study",
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "sgRNA count file for cell line sgRNA count file for cell line MDA-MB-453"
+        },
+        {
+          "name": "COSMIC identifier",
+          "value": "908122"
+        },
+        {
+          "name": "GDSC descriptor 1",
+          "value": "breast"
+        },
+        {
+          "name": "GDSC descriptor 2",
+          "value": "breast"
+        },
+        {
+          "name": "Media type and supplements",
+          "value": "DMEM; 10% FBS;1% Pen/Strep;"
+        }
+      ],
+      "locator": "$.files",
+      "native": {
+        "path": "MDA-MB-453.tsv",
+        "size": 6407576,
+        "attributes": [
+          {
+            "name": "Description",
+            "value": "sgRNA count file for cell line sgRNA count file for cell line MDA-MB-453"
+          },
+          {
+            "name": "COSMIC identifier",
+            "value": "908122"
+          },
+          {
+            "name": "GDSC descriptor 1",
+            "value": "breast"
+          },
+          {
+            "name": "GDSC descriptor 2",
+            "value": "breast"
+          },
+          {
+            "name": "Media type and supplements",
+            "value": "DMEM; 10% FBS;1% Pen/Strep;"
+          }
+        ],
+        "type": "file"
+      }
+    },
+    {
+      "path": "NCI-H520.tsv",
+      "size": 6816005,
+      "context": "Study",
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "sgRNA count file for cell line NCI-H520"
+        },
+        {
+          "name": "COSMIC identifier",
+          "value": "908443"
+        },
+        {
+          "name": "GDSC descriptor 1",
+          "value": "lung_NSCLC"
+        },
+        {
+          "name": "GDSC descriptor 2",
+          "value": "lung_NSCLC_squamous_cell_carcinoma"
+        },
+        {
+          "name": "Media type and supplements",
+          "value": "RPMI; FBS 10%; 1% Pen/Strep; 1% Glucose; 1% Sodium Pyruvate"
+        }
+      ],
+      "locator": "$.files",
+      "native": {
+        "path": "NCI-H520.tsv",
+        "size": 6816005,
+        "attributes": [
+          {
+            "name": "Description",
+            "value": "sgRNA count file for cell line NCI-H520"
+          },
+          {
+            "name": "COSMIC identifier",
+            "value": "908443"
+          },
+          {
+            "name": "GDSC descriptor 1",
+            "value": "lung_NSCLC"
+          },
+          {
+            "name": "GDSC descriptor 2",
+            "value": "lung_NSCLC_squamous_cell_carcinoma"
+          },
+          {
+            "name": "Media type and supplements",
+            "value": "RPMI; FBS 10%; 1% Pen/Strep; 1% Glucose; 1% Sodium Pyruvate"
+          }
+        ],
+        "type": "file"
+      }
+    },
+    {
+      "path": "NCI-H2170.tsv",
+      "size": 6812593,
+      "context": "Study",
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "sgRNA count file for cell line NCI-H2170"
+        },
+        {
+          "name": "COSMIC identifier",
+          "value": "687815"
+        },
+        {
+          "name": "GDSC descriptor 1",
+          "value": "lung_NSCLC"
+        },
+        {
+          "name": "GDSC descriptor 2",
+          "value": "lung_NSCLC_squamous_cell_carcinoma"
+        },
+        {
+          "name": "Media type and supplements",
+          "value": "RPMI; FBS 10%; 1% Pen/Strep; 1% Glucose; 1% Sodium Pyruvate"
+        }
+      ],
+      "locator": "$.files",
+      "native": {
+        "path": "NCI-H2170.tsv",
+        "size": 6812593,
+        "attributes": [
+          {
+            "name": "Description",
+            "value": "sgRNA count file for cell line NCI-H2170"
+          },
+          {
+            "name": "COSMIC identifier",
+            "value": "687815"
+          },
+          {
+            "name": "GDSC descriptor 1",
+            "value": "lung_NSCLC"
+          },
+          {
+            "name": "GDSC descriptor 2",
+            "value": "lung_NSCLC_squamous_cell_carcinoma"
+          },
+          {
+            "name": "Media type and supplements",
+            "value": "RPMI; FBS 10%; 1% Pen/Strep; 1% Glucose; 1% Sodium Pyruvate"
+          }
+        ],
+        "type": "file"
+      }
+    },
+    {
+      "path": "OVCAR-8.tsv",
+      "size": 6456922,
+      "context": "Study",
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "sgRNA count file for cell line OVCAR-8"
+        },
+        {
+          "name": "COSMIC identifier",
+          "value": "905991"
+        },
+        {
+          "name": "GDSC descriptor 1",
+          "value": "urogenital_system"
+        },
+        {
+          "name": "GDSC descriptor 2",
+          "value": "ovary"
+        },
+        {
+          "name": "Media type and supplements",
+          "value": "RPMI; FBS 10%; 1% Pen/Strep; 1% Glucose; 1% Sodium Pyruvate"
+        }
+      ],
+      "locator": "$.files",
+      "native": {
+        "path": "OVCAR-8.tsv",
+        "size": 6456922,
+        "attributes": [
+          {
+            "name": "Description",
+            "value": "sgRNA count file for cell line OVCAR-8"
+          },
+          {
+            "name": "COSMIC identifier",
+            "value": "905991"
+          },
+          {
+            "name": "GDSC descriptor 1",
+            "value": "urogenital_system"
+          },
+          {
+            "name": "GDSC descriptor 2",
+            "value": "ovary"
+          },
+          {
+            "name": "Media type and supplements",
+            "value": "RPMI; FBS 10%; 1% Pen/Strep; 1% Glucose; 1% Sodium Pyruvate"
+          }
+        ],
+        "type": "file"
+      }
+    },
+    {
+      "path": "SW48.tsv",
+      "size": 6510449,
+      "context": "Study",
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "sgRNA count file for cell line SW48"
+        },
+        {
+          "name": "COSMIC identifier",
+          "value": "909751"
+        },
+        {
+          "name": "GDSC descriptor 1",
+          "value": "large_intestine"
+        },
+        {
+          "name": "GDSC descriptor 2",
+          "value": "large_intestine"
+        },
+        {
+          "name": "Media type and supplements",
+          "value": "DMEM; 10% FBS;1% Pen/Strep;"
+        }
+      ],
+      "locator": "$.files",
+      "native": {
+        "path": "SW48.tsv",
+        "size": 6510449,
+        "attributes": [
+          {
+            "name": "Description",
+            "value": "sgRNA count file for cell line SW48"
+          },
+          {
+            "name": "COSMIC identifier",
+            "value": "909751"
+          },
+          {
+            "name": "GDSC descriptor 1",
+            "value": "large_intestine"
+          },
+          {
+            "name": "GDSC descriptor 2",
+            "value": "large_intestine"
+          },
+          {
+            "name": "Media type and supplements",
+            "value": "DMEM; 10% FBS;1% Pen/Strep;"
+          }
+        ],
+        "type": "file"
+      }
+    },
+    {
+      "path": "TOV-21G.tsv",
+      "size": 6445369,
+      "context": "Study",
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "sgRNA count file for cell line TOV-21G"
+        },
+        {
+          "name": "COSMIC identifier",
+          "value": "1240222"
+        },
+        {
+          "name": "GDSC descriptor 1",
+          "value": "urogenital_system"
+        },
+        {
+          "name": "GDSC descriptor 2",
+          "value": "ovary"
+        },
+        {
+          "name": "Media type and supplements",
+          "value": "DMEM; 10% FBS;1% Pen/Strep;"
+        }
+      ],
+      "locator": "$.files",
+      "native": {
+        "path": "TOV-21G.tsv",
+        "size": 6445369,
+        "attributes": [
+          {
+            "name": "Description",
+            "value": "sgRNA count file for cell line TOV-21G"
+          },
+          {
+            "name": "COSMIC identifier",
+            "value": "1240222"
+          },
+          {
+            "name": "GDSC descriptor 1",
+            "value": "urogenital_system"
+          },
+          {
+            "name": "GDSC descriptor 2",
+            "value": "ovary"
+          },
+          {
+            "name": "Media type and supplements",
+            "value": "DMEM; 10% FBS;1% Pen/Strep;"
+          }
+        ],
+        "type": "file"
+      }
+    }
+  ],
+  "issues": [],
+  "info_source": {
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-BSST79/info",
+    "retrieved_utc": "2026-10-31T00:37:21.635115+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "dcf6f349e9865d55404175ee28ea34065d50e9018f0db7309cbdba90055d585a",
+    "body": "native/01f7acf969d8d9956d8e907bfc912e2a292dd58698e5b5fa75ab9759de8fb8b9.body"
+  },
+  "links": [
+    {
+      "url": "https://www.biorxiv.org/content/early/2018/07/01/228189",
+      "attributes": [
+        {
+          "name": "Description",
+          "value": "Pre-print of the manuscript \"Unsupervised correction of gene-independent cell responses to CRISPR-Cas9 targeting\""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0282",
+    "PMID": "35508460",
+    "DOI": "10.1038/s41467-022-30134-9",
+    "PMCID": "PMC9068693",
+    "Title": "Identification of DAXX as a restriction factor of SARS-CoV-2 through a CRISPR/Cas9 screen.",
+    "ORCS Publication ID": "726",
+    "ORCS Publication Index": "PUB-0282",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC9068693",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41467-022-30134-9%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:27:56.632224+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "e5c6d69f2b3c2a0b21d8923d7b344b31aae39693185a33381c9f04698938fc0c",
+        "body": "native/7ed1bca40c94757b6220ee33da88fedc20a441d246ca7a06b01c22c2b6194716.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9068693",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2235508460%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:28:02.626187+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "b6f2742e60aff3b33e1341e6a66b2f9b3b6ab56d0413ea78343480ca9b101054",
+        "body": "native/24d3098b9a15ad5d4355309d43d70504339e3cad3b6b7d51e86b0c6dde8648b7.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9068693",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9068693%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:28:08.636019+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "99f6dabe0453325f96692455b5958b53a7fdc3d9c52cb92a86da5f123097d826",
+        "body": "native/582050a0b269abc6a89600c6a6c935f598e8eab99578b98020433612e064c2e3.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9068693",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Identification+of+DAXX+as+a+restriction+factor+of+SARS-CoV-2+through+a+CRISPR%2FCas9+screen.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:28:14.840809+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "e4cdbd620182a048159bc4c523861638b8dee7418fe2b97a8f3420611f90aa45",
+        "body": "native/8c77da92eaaf555a10b8c23bbc79bd60ccdbe5dc2044aaed61fe89b574a42767.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41467-022-30134-9%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2235508460%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9068693%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Identification+of+DAXX+as+a+restriction+factor+of+SARS-CoV-2+through+a+CRISPR%2FCas9+screen.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A35508460&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0047",
+    "PMID": "29995852",
+    "DOI": "10.1038/s41586-018-0316-7",
+    "PMCID": "PMC6082631",
+    "Title": "Histidine catabolism is a major determinant of methotrexate sensitivity.",
+    "ORCS Publication ID": "101",
+    "ORCS Publication Index": "PUB-0047",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC6082631",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41586-018-0316-7%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:28:54.501497+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "2b97829f166cf49db16d0515df65081b68b41e9fe4f976628ee14460a696a79e",
+        "body": "native/d56316827ba4ad4d7929782a41ad2a145998cb230112c399adf21d20220bb955.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6082631",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2229995852%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:28:59.201374+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "4c133470e6c57bdc49fd5659c5a0e3197aa87060b118e305bf19b59e132de38d",
+        "body": "native/595e9ca17630416b1bdba6282d143ac194112fa1a78225ae5f69020917ce86d5.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6082631",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6082631%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:29:06.386354+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "3b764922d2218c3a7f324af8fe660b3189cef68895c9087267cbbbe007cf2c14",
+        "body": "native/3138ce08f457e27bf2f0ebb62755f862b9698dbf953d122b634effff264adefa.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6082631",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Histidine+catabolism+is+a+major+determinant+of+methotrexate+sensitivity.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:29:12.563406+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "aa89bb961338a179e1280047f5f06fa133389de77a2e161261d49fd65e7a215f",
+        "body": "native/797a9727dc330e0cf7135aa0194a713e0be7ddf436720e31cbe752d74cde04bd.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41586-018-0316-7%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2229995852%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6082631%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Histidine+catabolism+is+a+major+determinant+of+methotrexate+sensitivity.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A29995852&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0298",
+    "PMID": "36597481",
+    "DOI": "10.1016/j.heliyon.2022.e12744",
+    "PMCID": "PMC9800021",
+    "Title": "Survival-based CRISPR genetic screens across a panel of permissive cell lines identify common and cell-specific SARS-CoV-2 host factors.",
+    "ORCS Publication ID": "780",
+    "ORCS Publication Index": "PUB-0298",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC9800021",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.heliyon.2022.e12744%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:28:55.883764+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "dad8eb04a8766d637bf7633f243858109ed6dfe46b93ee98735d89390b9fc05c",
+        "body": "native/6c48beb118a5ee5b6c8e4da33edd4e71e7c6940a20e205fac4341cbb97dad705.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9800021",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236597481%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:29:01.894658+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "b6062abbc2080022ef868db625dcd5ee47bf4aa80714df7ae2f55e36fe00dc43",
+        "body": "native/fb7d541d0c2b5e8e017de47f16e147945079158d4fb7d26044ff4b408afe3088.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9800021",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9800021%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:29:07.900770+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "39d616a99bcd4eff57589d1c112e2e3b696224a4664804275a86db1736e747d0",
+        "body": "native/07dcc3eb66ae08f7c93c8cfdecea458c1036270d23ff35488ab1ff7e5c3daf22.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9800021",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Survival-based+CRISPR+genetic+screens+across+a+panel+of+permissive+cell+lines+identify+common+and+cell-specific+SARS-CoV-2+host+factors.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:29:13.918011+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "6128975eb185a0fec2c8d8f863e8ab572e2da641febc6f221111829c28e8a8ef",
+        "body": "native/5368affff32e2c87aa1fdac49742b6826d90d95757fafdf713574aa8fe79d45d.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.heliyon.2022.e12744%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236597481%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9800021%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Survival-based+CRISPR+genetic+screens+across+a+panel+of+permissive+cell+lines+identify+common+and+cell-specific+SARS-CoV-2+host+factors.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A36597481&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0188",
+    "PMID": "32738194",
+    "DOI": "10.1016/j.molcel.2020.07.009",
+    "PMCID": "PMC7482433",
+    "Title": "Quality Control of ER Membrane Proteins by the RNF185/Membralin Ubiquitin Ligase Complex.",
+    "ORCS Publication ID": "468",
+    "ORCS Publication Index": "PUB-0188",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC7482433",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.molcel.2020.07.009%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:21:48.594395+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "27ac80ec91cce24fe9ae6ad798330c76d0a56f786ced93fe7d14443e69615a2f",
+        "body": "native/19d94243a7e3c7c9750ef8cec0f172dbfac98ba3d4a4c44fe49a44ce5d005ca0.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7482433",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2232738194%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:21:54.594932+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "18ebe93cd2967329c7cb8452469a6201d2b3372ef47487d9d0725512c56bc6fb",
+        "body": "native/c936d5a5aab8bd9b91f130f088bfc832a264ea96bff1cafaa68dca60d00f865a.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7482433",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7482433%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:22:00.595846+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "e030c52588cd348d053eb27ecc8ce06c4b312984aacf1893665ffdb7da1bd279",
+        "body": "native/fd4a3352e9d43308db5e3bc2523759cc75a9e8749f8f2a8d63516dff0ea55adb.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7482433",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Quality+Control+of+ER+Membrane+Proteins+by+the+RNF185%2FMembralin+Ubiquitin+Ligase+Complex.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:22:06.605655+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "6e1cd92213a94609352b3ddf079bb14556c8db8c233e0f79d39cd10325083268",
+        "body": "native/4b6bb4c541c300b2509d13deb228921612b55fe69b78764bfaadc2656485a7e3.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.molcel.2020.07.009%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2232738194%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7482433%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Quality+Control+of+ER+Membrane+Proteins+by+the+RNF185%2FMembralin+Ubiquitin+Ligase+Complex.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A32738194&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

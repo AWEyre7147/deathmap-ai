@@ -1,0 +1,91 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0213",
+    "PMID": "33854235",
+    "DOI": "10.1038/s41586-021-03445-y",
+    "PMCID": "PMC8875297",
+    "Title": "CRL4 is a master regulator of D-type cyclins.",
+    "ORCS Publication ID": "521",
+    "ORCS Publication Index": "PUB-0213",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC8875297",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41586-021-03445-y%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:23:25.709653+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "4792e696061b1079b922fdc5ef7324a67c97bc39194ddafc871200abcad785c3",
+        "body": "native/922456fac71a6098d0638815f0da439b800ac91be48d19e3cbdc0eb6c6f7ef67.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8875297",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233854235%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:23:31.738542+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "6f0bbfae0000e160b3e9ab6fba6f0c83282c5e6fe8416491c6f215f60dded22b",
+        "body": "native/f667cf0dae5e1c6a80a3d937e47ef0e8c9e131a4d8cc98e14283c5a889dcac8c.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8875297",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC8875297%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:23:37.739412+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "b85dcc653d8cb0110e4ec8a166b574ff99c0d0964af37919e65bbf0d6dfe938e",
+        "body": "native/ec5e6f72fd36dc2498de29c95aac3d3e2e54e416d0baad283a265d065c13edc3.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41586-021-03445-y%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233854235%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC8875297%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22CRL4+is+a+master+regulator+of+D-type+cyclins.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A33854235&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

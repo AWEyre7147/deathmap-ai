@@ -1,0 +1,864 @@
+{
+  "accession": "S-EPMC8132153",
+  "native": {
+    "accno": "S-EPMC8132153",
+    "attributes": [
+      {
+        "name": "DataSource",
+        "value": "Europe PMC"
+      },
+      {
+        "name": "Title",
+        "value": "A Fifteen-Gene Classifier to Predict Neoadjuvant Chemotherapy Responses in Patients with Stage IB to IIB Squamous Cervical Cancer."
+      },
+      {
+        "name": "ReleaseDate",
+        "value": "2021-01-01"
+      },
+      {
+        "name": "AttachTo",
+        "value": "EuropePMC"
+      }
+    ],
+    "section": {
+      "type": "Study",
+      "attributes": [
+        {
+          "name": "Title",
+          "value": "A Fifteen-Gene Classifier to Predict Neoadjuvant Chemotherapy Responses in Patients with Stage IB to IIB Squamous Cervical Cancer."
+        },
+        {
+          "name": "Abstract",
+          "value": "Neoadjuvant chemotherapy (NACT) remains an attractive alternative for controlling locally advanced cervical cancer. However, approximately 15-34% of women do not respond to induction therapy. To develop a risk stratification tool, 56 patients with stage IB-IIB cervical cancer are included in 2 research centers from the discovery cohort. Patient-specific somatic mutations led to NACT non-responsiveness are identified by whole-exome sequencing. Next, CRISPR/Cas9-based library screenings are performed based on these genes to confirm their biological contribution to drug resistance. A 15-gene classifier is developed by generalized linear regression analysis combined with the logistic regression model. In an independent validation cohort of 102 patients, the classifier showed good predictive ability with an area under the curve of 0.80 (95% confidence interval (CI), 0.69-0.91). Furthermore, the 15-gene classifier is significantly associated with patient responsiveness to NACT in both univariate (odds ratio, 10.8; 95% CI, 3.55-32.86; <i>p</i> = 2.8 × 10<sup>-5</sup>) and multivariate analysis (odds ratio, 17.34; 95% CI, 4.04-74.40; <i>p</i> = 1.23 × 10<sup>-4</sup>) in the validation set. In conclusion, the 15-gene classifier can accurately predict the clinical response to NACT before treatment, representing a promising approach for guiding the selection of appropriate treatment strategies for locally advanced cervical cancer."
+        }
+      ],
+      "files": [
+        {
+          "path": "ADVS-8-2001978-s001.xlsx",
+          "size": 81796,
+          "type": "file"
+        },
+        {
+          "path": "ADVS-8-2001978-s002.pdf",
+          "size": 3629847,
+          "type": "file"
+        },
+        {
+          "path": "ADVS-8-2001978-s003.xlsx",
+          "size": 48134,
+          "type": "file"
+        },
+        {
+          "path": "ADVS-8-2001978-s004.xlsx",
+          "size": 1674104,
+          "type": "file"
+        },
+        {
+          "path": "ADVS-8-2001978-s005.xlsx",
+          "size": 82721,
+          "type": "file"
+        },
+        {
+          "path": "ADVS-8-2001978-s006.xlsx",
+          "size": 15039,
+          "type": "file"
+        },
+        {
+          "path": "ADVS-8-2001978-s007.xlsx",
+          "size": 12160,
+          "type": "file"
+        },
+        {
+          "path": "ADVS-8-2001978-s008.xlsx",
+          "size": 55873,
+          "type": "file"
+        }
+      ],
+      "links": [
+        [
+          {
+            "url": "NCT01267851",
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "nct"
+              }
+            ]
+          },
+          {
+            "url": "NCT03229187",
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "nct"
+              }
+            ]
+          }
+        ]
+      ],
+      "subsections": [
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "National Natural Science Foundation of China"
+            },
+            {
+              "name": "grant_id",
+              "value": "81472783"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "National Natural Science Foundation of China"
+            },
+            {
+              "name": "grant_id",
+              "value": "81630060"
+            }
+          ]
+        },
+        {
+          "type": "Publication",
+          "attributes": [
+            {
+              "name": "Journal",
+              "value": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
+            },
+            {
+              "name": "Volume",
+              "value": "8(10)"
+            },
+            {
+              "name": "Pages",
+              "value": "2001978"
+            },
+            {
+              "name": "Publication date",
+              "value": "2021 May"
+            }
+          ],
+          "links": [
+            [
+              {
+                "url": "10.1002/advs.202001978",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "DOI"
+                  }
+                ]
+              },
+              {
+                "url": "PMC8132153",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "PMC"
+                  }
+                ]
+              },
+              {
+                "url": "34026427",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "PMID"
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "accno": "a1",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Tian X"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a2",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Wang X"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a3",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Cui Z"
+            },
+            {
+              "name": "affiliation",
+              "value": "o2",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a4",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Liu J"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a5",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Huang X"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a6",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Shi C"
+            },
+            {
+              "name": "affiliation",
+              "value": "o3",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a7",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Zhang M"
+            },
+            {
+              "name": "affiliation",
+              "value": "o4",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a8",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Liu T"
+            },
+            {
+              "name": "affiliation",
+              "value": "o5",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a9",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Du X"
+            },
+            {
+              "name": "affiliation",
+              "value": "o5",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a10",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Li R"
+            },
+            {
+              "name": "affiliation",
+              "value": "o5",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a11",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Huang L"
+            },
+            {
+              "name": "affiliation",
+              "value": "o5",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a12",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Gong D"
+            },
+            {
+              "name": "affiliation",
+              "value": "o5",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a13",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Tian R"
+            },
+            {
+              "name": "affiliation",
+              "value": "o2",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a14",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Cao C"
+            },
+            {
+              "name": "affiliation",
+              "value": "o5",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a15",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Jin P"
+            },
+            {
+              "name": "affiliation",
+              "value": "o5",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a16",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Zeng Z"
+            },
+            {
+              "name": "affiliation",
+              "value": "o5",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a17",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Pan G"
+            },
+            {
+              "name": "affiliation",
+              "value": "o5",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a18",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Xia M"
+            },
+            {
+              "name": "affiliation",
+              "value": "o5",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a19",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Zhang H"
+            },
+            {
+              "name": "affiliation",
+              "value": "o6",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a20",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Luo B"
+            },
+            {
+              "name": "affiliation",
+              "value": "o6",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a21",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Xie Y"
+            },
+            {
+              "name": "affiliation",
+              "value": "o6",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a22",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Li X"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a23",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Li T"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a24",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Wu J"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0002-0678-3435"
+            },
+            {
+              "name": "affiliation",
+              "value": "o4",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a25",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Zhang Q"
+            },
+            {
+              "name": "affiliation",
+              "value": "o5",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a26",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Chen G"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0002-8320-6594"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a27",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Hu Z"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0001-9306-9442"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "o3",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Department of Gynecological and Oncology Hunan Cancer Hospital The Affiliated Cancer Hospital of Xiangya School of Medicine Central South University Jiefang Avenue 1095# Wuhan Hubei 430030 China"
+            }
+          ]
+        },
+        {
+          "accno": "o2",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Department of Gynecological and Oncology The First Affiliated Hospital of Sun Yat-sen University Zhongshan 2nd Road, Yuexiu Guangzhou Guangdong 510080 China"
+            }
+          ]
+        },
+        {
+          "accno": "o5",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Department of Obstetrics and Gynecology Academician expert workstation, The Central Hospital of Wuhan Tongji Medical College Huazhong University of Science and Technology Jiefang Avenue 1095# Wuhan Hubei 430030 China"
+            }
+          ]
+        },
+        {
+          "accno": "o1",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Department of Obstetrics and Gynecology Tongji Hospital Tongji Medical College Huazhong University of Science and Technology Jiefang Avenue 1095# Wuhan Hubei 430030 China"
+            }
+          ]
+        },
+        {
+          "accno": "o6",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Department of Pathology The Central Hospital of Wuhan Tongji Medical College Huazhong University of Science and Technology Shengli Street 26#, Jiang'an District Wuhan Hubei 430030 China"
+            }
+          ]
+        },
+        {
+          "accno": "o4",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "NGS Research Center Novogene Co, Ltd Building 301, Zone A10 Jiuxianqiao Beijing 100015 China"
+            }
+          ]
+        },
+        {
+          "type": "ExtractedLinks",
+          "attributes": [
+            {
+              "name": "Link List",
+              "value": "S-EPMC8132153_extracted_links.json"
+            }
+          ]
+        }
+      ]
+    },
+    "type": "submission"
+  },
+  "source": {
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-EPMC8132153",
+    "retrieved_utc": "2026-10-31T00:57:23.590957+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "e20920cf6f4d4942077d83c6dd6b17962b18dead40874b2c26f24f1ad27d4ec0",
+    "body": "native/eb25c5d77f5d233bb7876d53fad4f475b6cadc974a383d96ed9cbf8239f885dd.body"
+  },
+  "info": {
+    "columns": [
+      {
+        "name": "Name",
+        "title": "Name",
+        "visible": true,
+        "searchable": true,
+        "data": "Name",
+        "defaultContent": ""
+      },
+      {
+        "name": "Size",
+        "title": "Size",
+        "visible": true,
+        "searchable": false,
+        "data": "Size",
+        "defaultContent": ""
+      }
+    ],
+    "files": 8,
+    "httpLink": "https://ftp.ebi.ac.uk/pub/databases/biostudies/S-EPMC/153/S-EPMC8132153",
+    "ftpLink": "ftp://ftp.ebi.ac.uk/pub/databases/biostudies/S-EPMC/153/S-EPMC8132153",
+    "globusLink": "https://app.globus.org/file-manager?origin_id=47772002-3e5b-4fd3-b97c-18cee38d6df2&origin_path=/pub/databases/biostudies/S-EPMC/153/S-EPMC8132153",
+    "isPublic": true,
+    "relPath": "S-EPMC/153/S-EPMC8132153",
+    "hasZippedFolders": false,
+    "views": 0,
+    "released": 1609459200000,
+    "modified": 1778209976865,
+    "sections": [],
+    "sectionFileCounts": {}
+  },
+  "files": [
+    {
+      "path": "ADVS-8-2001978-s001.xlsx",
+      "size": 81796,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "ADVS-8-2001978-s001.xlsx",
+        "size": 81796,
+        "type": "file"
+      }
+    },
+    {
+      "path": "ADVS-8-2001978-s002.pdf",
+      "size": 3629847,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "ADVS-8-2001978-s002.pdf",
+        "size": 3629847,
+        "type": "file"
+      }
+    },
+    {
+      "path": "ADVS-8-2001978-s003.xlsx",
+      "size": 48134,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "ADVS-8-2001978-s003.xlsx",
+        "size": 48134,
+        "type": "file"
+      }
+    },
+    {
+      "path": "ADVS-8-2001978-s004.xlsx",
+      "size": 1674104,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "ADVS-8-2001978-s004.xlsx",
+        "size": 1674104,
+        "type": "file"
+      }
+    },
+    {
+      "path": "ADVS-8-2001978-s005.xlsx",
+      "size": 82721,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "ADVS-8-2001978-s005.xlsx",
+        "size": 82721,
+        "type": "file"
+      }
+    },
+    {
+      "path": "ADVS-8-2001978-s006.xlsx",
+      "size": 15039,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "ADVS-8-2001978-s006.xlsx",
+        "size": 15039,
+        "type": "file"
+      }
+    },
+    {
+      "path": "ADVS-8-2001978-s007.xlsx",
+      "size": 12160,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "ADVS-8-2001978-s007.xlsx",
+        "size": 12160,
+        "type": "file"
+      }
+    },
+    {
+      "path": "ADVS-8-2001978-s008.xlsx",
+      "size": 55873,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "ADVS-8-2001978-s008.xlsx",
+        "size": 55873,
+        "type": "file"
+      }
+    }
+  ],
+  "issues": [],
+  "info_source": {
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-EPMC8132153/info",
+    "retrieved_utc": "2026-10-31T00:57:29.589957+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "9fe03475643e5cff12ce0b6ec57478982323713721ceefad57e673494736f38c",
+    "body": "native/a7251d1d3d755b42c3977bfe8849cc198e3a312b0a579895c0047e407107aab7.body"
+  },
+  "links": [
+    {
+      "url": "NCT01267851",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "nct"
+        }
+      ]
+    },
+    {
+      "url": "NCT03229187",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "nct"
+        }
+      ]
+    },
+    {
+      "url": "10.1002/advs.202001978",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "DOI"
+        }
+      ]
+    },
+    {
+      "url": "PMC8132153",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "PMC"
+        }
+      ]
+    },
+    {
+      "url": "34026427",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "PMID"
+        }
+      ]
+    }
+  ]
+}

@@ -11,7 +11,7 @@ ACRONYMS = {
         'ID', 'IDs', 'UI', 'PMID', 'PMIDs', 'PMCID', 'PMCIDs', 'DOI', 'DOIs',
         'URL', 'URLs', 'XML', 'RNA', 'DNA', 'GBM', 'GEO', 'GSE', 'GSM', 'GPL',
         'SRA', 'ENA', 'NCBI', 'FTP', 'MD5', 'IDF', 'SDRF', 'CRISPR', 'Cas9',
-        'MeSH', 'PMC', 'BioProject', 'BioSample', 'TaxID', 'FASTA', 'FASTQ', 'ArrayExpress', 'PubMed',
+        'MeSH', 'PMC', 'BioProject', 'BioSample', 'TaxID', 'FASTA', 'FASTQ', 'ArrayExpress', 'PubMed', 'ELS', 'EID', 'BioStudies', 'HTTP', 'HTTPS', 'API',
     )
 }
 
@@ -76,8 +76,6 @@ def identifier_label(resource, sheet, source_key, fallback):
                    'Run Accession': 'SRA Run Accession',
                    'BioProject Accession': 'BioProject Accession',
                    'BioSample Accession': 'BioSample Accession'},
-        'AE': {'Study accession': 'ArrayExpress Study Accession',
-               'Native protocol ID': 'ArrayExpress Protocol ID'},
         'Main': {'accession_reported': 'Accession',
                  'parent_accession_reported': 'Parent Accession'},
     }

@@ -1,0 +1,171 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0021",
+    "PMID": "26780180",
+    "DOI": "10.1038/nbt.3437",
+    "PMCID": "PMC4744125",
+    "Title": "Optimized sgRNA design to maximize activity and minimize off-target effects of CRISPR-Cas9.",
+    "ORCS Publication ID": "19",
+    "ORCS Publication Index": "PUB-0021",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "E-MTAB-13548",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fnbt.3437%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:27:12.151211+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "4a54ad8a6455d60ef9d85ad234c92e4b6a4adb73b0513f1f3c56bb8fc129c6af",
+        "body": "native/c19e088442663cd58c57751f1a83e1043fc4976e0cb2fc129987e2e5d93f8a45.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC4744125",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fnbt.3437%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:27:12.151211+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "4a54ad8a6455d60ef9d85ad234c92e4b6a4adb73b0513f1f3c56bb8fc129c6af",
+        "body": "native/c19e088442663cd58c57751f1a83e1043fc4976e0cb2fc129987e2e5d93f8a45.body"
+      },
+      "locator": "$.hits[1]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "E-MTAB-11158",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2226780180%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:27:15.673479+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "9174aa213fc389ac1a684650045683d8c2f675723a52ea4b94a414fcdbc85f8a",
+        "body": "native/122792d35792aef2d1bc07e5f00d16426ef32fb4a295e95faa6425979abb7cbf.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC4744125",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2226780180%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:27:15.673479+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "9174aa213fc389ac1a684650045683d8c2f675723a52ea4b94a414fcdbc85f8a",
+        "body": "native/122792d35792aef2d1bc07e5f00d16426ef32fb4a295e95faa6425979abb7cbf.body"
+      },
+      "locator": "$.hits[1]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6171890",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2226780180%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:27:15.673479+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "9174aa213fc389ac1a684650045683d8c2f675723a52ea4b94a414fcdbc85f8a",
+        "body": "native/122792d35792aef2d1bc07e5f00d16426ef32fb4a295e95faa6425979abb7cbf.body"
+      },
+      "locator": "$.hits[2]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC4744125",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC4744125%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:27:23.070329+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "01d849adc74620051e3adf87295714160a45be9f2db525676f01220d8a3f0e53",
+        "body": "native/bbc6576e930bca8fd81242b75a73c3414525dab177a59b6655718c036009e848.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "E-MTAB-13548",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Optimized+sgRNA+design+to+maximize+activity+and+minimize+off-target+effects+of+CRISPR-Cas9.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:27:29.812601+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "edc8e97392e46e8969a434b45ccc2e8f809c1e978349e3fcb88958ae84650381",
+        "body": "native/d1d10cc45d3745c605cba56b04d2f59d52f121d83ce58d29c5b3aee0d45503d6.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC4744125",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Optimized+sgRNA+design+to+maximize+activity+and+minimize+off-target+effects+of+CRISPR-Cas9.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:27:29.812601+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "edc8e97392e46e8969a434b45ccc2e8f809c1e978349e3fcb88958ae84650381",
+        "body": "native/d1d10cc45d3745c605cba56b04d2f59d52f121d83ce58d29c5b3aee0d45503d6.body"
+      },
+      "locator": "$.hits[1]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fnbt.3437%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2226780180%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC4744125%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Optimized+sgRNA+design+to+maximize+activity+and+minimize+off-target+effects+of+CRISPR-Cas9.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A26780180&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

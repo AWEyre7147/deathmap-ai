@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0412",
+    "PMID": "40899441",
+    "DOI": "10.1158/1535-7163.mct-24-0861",
+    "PMCID": "PMC12493205",
+    "Title": "CRISPR Screen Identifies HDAC3 as a Novel Radiosensitizing Target in Small Cell Lung Cancer.",
+    "ORCS Publication ID": "1166",
+    "ORCS Publication Index": "PUB-0412",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC12493205",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1158%2F1535-7163.mct-24-0861%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:36:32.023656+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "6488a2a0eef7c3c9562f7ed03991ab0c3e2f94b048d83a3720232d900a5fbc24",
+        "body": "native/2857334cfaff33eb12bc06466ce86d32fee79c793917535b4715f7df70d272b3.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC12493205",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2240899441%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:36:38.012053+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "04e21a07df17cf56c02ed9bbbf6afc65a0f0540f8b0aae62e32d50d062ed573c",
+        "body": "native/45ce8fc7bb2ba84051cd7d6b224de285b926c3bd164fa22af03a6537aa708fe3.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC12493205",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC12493205%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:36:44.012920+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "8219ff7b026d67458e74299c2a3bfd883b486b4938ad2e6ddd4c1b0267dda1ea",
+        "body": "native/7d6383d4fcf188c9a780d8a866dcec51bdd527cb1429853762dc6685fd5944cd.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC12493205",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22CRISPR+Screen+Identifies+HDAC3+as+a+Novel+Radiosensitizing+Target+in+Small+Cell+Lung+Cancer.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:36:50.025621+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "2fefaeb501fdb5440db24196e33576669249f00fd69724dafb6da7631e6ed3ff",
+        "body": "native/888482adfa9b8d114ab9a73cfe76c54ebffe8beb570708882ed563545e38553d.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1158%2F1535-7163.mct-24-0861%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2240899441%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC12493205%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22CRISPR+Screen+Identifies+HDAC3+as+a+Novel+Radiosensitizing+Target+in+Small+Cell+Lung+Cancer.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A40899441&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

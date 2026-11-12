@@ -1,0 +1,1711 @@
+{
+  "accession": "S-CMO1405",
+  "native": {
+    "accno": "S-CMO1405",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "[CMP] [cell line] [SIDM00194] Rectal Adenocarcinoma"
+      },
+      {
+        "name": "ReleaseDate",
+        "value": "2024-12-01"
+      },
+      {
+        "name": "AttachTo",
+        "value": "CancerModelsOrg"
+      }
+    ],
+    "section": {
+      "accno": "s1",
+      "type": "Study",
+      "attributes": [
+        {
+          "name": "Model ID",
+          "value": "SIDM00194"
+        },
+        {
+          "name": "Title",
+          "value": "[CMP] [cell line] [SIDM00194] Rectal Adenocarcinoma"
+        },
+        {
+          "name": "Model type",
+          "value": "cell line"
+        },
+        {
+          "name": "Histology",
+          "value": "Rectal Adenocarcinoma"
+        },
+        {
+          "name": "Breast Cancer Biomarkers",
+          "value": "N/A"
+        },
+        {
+          "name": "Dataset Available",
+          "value": "mutation"
+        },
+        {
+          "name": "Dataset Available",
+          "value": "copy number alteration"
+        },
+        {
+          "name": "Dataset Available",
+          "value": "expression"
+        },
+        {
+          "name": "Dataset Available",
+          "value": "immune markers"
+        },
+        {
+          "name": "Dataset Available",
+          "value": "publication"
+        },
+        {
+          "name": "Available for distribution",
+          "value": "Yes"
+        },
+        {
+          "name": "Provider URL",
+          "value": "https://cellmodelpassports.sanger.ac.uk/passports/SIDM00194"
+        },
+        {
+          "name": "Form URL",
+          "value": "N/A"
+        },
+        {
+          "name": "Project",
+          "value": "N/A"
+        },
+        {
+          "name": "Paediatric",
+          "value": "No"
+        },
+        {
+          "name": "Has Related Models",
+          "value": "No"
+        },
+        {
+          "name": "Supplier",
+          "value": "61 (KCLB)",
+          "valqual": [
+            {
+              "name": "url",
+              "value": "https://cellbank.snu.ac.kr/main/tmpl/sub_main.php?m_cd=6&m_id=0201&strQ=00061"
+            }
+          ]
+        },
+        {
+          "name": "License",
+          "value": "EMBL-EBI",
+          "valqual": [
+            {
+              "name": "url",
+              "value": "https://www.ebi.ac.uk/about/terms-of-use"
+            }
+          ]
+        }
+      ],
+      "subsections": [
+        {
+          "accno": "o1",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Cell Model Passports (CMP)"
+            }
+          ]
+        },
+        [
+          {
+            "type": "Identifiers",
+            "attributes": [
+              {
+                "name": "Resource",
+                "value": "CCLE ID"
+              },
+              {
+                "name": "Link",
+                "value": "CVCL_5078",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://cancercelllines.org/cellline/?id=cellosaurus:CVCL_5078"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Identifiers",
+            "attributes": [
+              {
+                "name": "Resource",
+                "value": "COSMIC ID"
+              },
+              {
+                "name": "Link",
+                "value": "SNU-61",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://cancer.sanger.ac.uk/cell_lines/search?q=SNU-61#"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Identifiers",
+            "attributes": [
+              {
+                "name": "Resource",
+                "value": "DepMap ID"
+              },
+              {
+                "name": "Link",
+                "value": "ACH-000532",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://depmap.org/portal/cell_line/ACH-000532?tab=overview"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Identifiers",
+            "attributes": [
+              {
+                "name": "Resource",
+                "value": "Cellosaurus"
+              },
+              {
+                "name": "Link",
+                "value": "CVCL_5078",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://www.cellosaurus.org/CVCL_5078"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        {
+          "type": "Patient / Tumour Metadata",
+          "attributes": [
+            {
+              "name": "Patient Sex",
+              "value": "male"
+            },
+            {
+              "name": "Patient Age",
+              "value": "40 - 49"
+            },
+            {
+              "name": "Patient Ethnicity",
+              "value": "East Asian"
+            },
+            {
+              "name": "Patient Ethnicity Group",
+              "value": "Asian"
+            },
+            {
+              "name": "Tumour Type",
+              "value": "Metastatic"
+            },
+            {
+              "name": "Cancer System",
+              "value": "Digestive System Cancer"
+            },
+            {
+              "name": "Cancer Grade",
+              "value": "Not provided"
+            },
+            {
+              "name": "Cancer Stage",
+              "value": "Not provided"
+            },
+            {
+              "name": "Primary Site",
+              "value": "large intestine"
+            },
+            {
+              "name": "Collection Site",
+              "value": "liver"
+            }
+          ]
+        },
+        [
+          {
+            "type": "Model derivation",
+            "attributes": [
+              {
+                "name": "Growth properties",
+                "value": "Adherent"
+              },
+              {
+                "name": "Growth media",
+                "value": "RPMI1640 with L-glutamine (300mg/L), 25mM HEPES and 25mM NaHCO3, 90%"
+              },
+              {
+                "name": "Plate coating",
+                "value": "Not provided"
+              },
+              {
+                "name": "Passage",
+                "value": "Not provided"
+              },
+              {
+                "name": "Supplements",
+                "value": "fetal bovine serum (FBS), 10%"
+              },
+              {
+                "name": "Contaminated",
+                "value": "Not provided"
+              },
+              {
+                "name": "Contamination details",
+                "value": "Not provided"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "Model quality control",
+            "attributes": [
+              {
+                "name": "Technique",
+                "value": "Pcr"
+              },
+              {
+                "name": "Passage",
+                "value": "N/A"
+              },
+              {
+                "name": "Morphological features",
+                "value": "epithelial"
+              },
+              {
+                "name": "STR analysis",
+                "value": "Not provided"
+              },
+              {
+                "name": "Model purity",
+                "value": "Not provided"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "type": "Molecular data",
+            "attributes": [
+              {
+                "name": "Sample ID",
+                "value": "SIDS00610"
+              },
+              {
+                "name": "Sample Type",
+                "value": "Tumour Cells"
+              },
+              {
+                "name": "Engrafted Tumour Passage",
+                "value": "N/A"
+              },
+              {
+                "name": "Data Type",
+                "value": "mutation"
+              },
+              {
+                "name": "Platform Used",
+                "value": "Illumina HiSeq 2000"
+              },
+              {
+                "name": "ENA"
+              },
+              {
+                "name": "EGA",
+                "value": "EGA",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://ega-archive.org/studies/EGAS00001000978"
+                  }
+                ]
+              },
+              {
+                "name": "GEO"
+              },
+              {
+                "name": "dbGAP"
+              }
+            ]
+          },
+          {
+            "type": "Molecular data",
+            "attributes": [
+              {
+                "name": "Sample ID",
+                "value": "SIDS00610"
+              },
+              {
+                "name": "Sample Type",
+                "value": "Tumour Cells"
+              },
+              {
+                "name": "Engrafted Tumour Passage",
+                "value": "N/A"
+              },
+              {
+                "name": "Data Type",
+                "value": "copy number alteration"
+              },
+              {
+                "name": "Platform Used",
+                "value": "Illumina HiSeq 2000"
+              },
+              {
+                "name": "ENA"
+              },
+              {
+                "name": "EGA"
+              },
+              {
+                "name": "GEO"
+              },
+              {
+                "name": "dbGAP"
+              }
+            ]
+          },
+          {
+            "type": "Molecular data",
+            "attributes": [
+              {
+                "name": "Sample ID",
+                "value": "SIDS00610"
+              },
+              {
+                "name": "Sample Type",
+                "value": "Tumour Cells"
+              },
+              {
+                "name": "Engrafted Tumour Passage",
+                "value": "N/A"
+              },
+              {
+                "name": "Data Type",
+                "value": "copy number alteration"
+              },
+              {
+                "name": "Platform Used",
+                "value": "Illumina HiSeq 2000"
+              },
+              {
+                "name": "ENA"
+              },
+              {
+                "name": "EGA",
+                "value": "EGA",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://ega-archive.org/studies/EGAS00001000978"
+                  }
+                ]
+              },
+              {
+                "name": "GEO"
+              },
+              {
+                "name": "dbGAP"
+              }
+            ]
+          },
+          {
+            "type": "Molecular data",
+            "attributes": [
+              {
+                "name": "Sample ID",
+                "value": "SIDS00610"
+              },
+              {
+                "name": "Sample Type",
+                "value": "Tumour Cells"
+              },
+              {
+                "name": "Engrafted Tumour Passage",
+                "value": "N/A"
+              },
+              {
+                "name": "Data Type",
+                "value": "expression"
+              },
+              {
+                "name": "Platform Used",
+                "value": "Illumina HiSeq 2000/2500"
+              },
+              {
+                "name": "ENA",
+                "value": "ENA",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://www.ebi.ac.uk/ena/browser/view/PRJNA169425"
+                  }
+                ]
+              },
+              {
+                "name": "EGA"
+              },
+              {
+                "name": "GEO"
+              },
+              {
+                "name": "dbGAP"
+              }
+            ]
+          }
+        ],
+        {
+          "files": [
+            {
+              "path": "CMP/SIDM00194/molecular_data/SIDS00610_mutation_Illumina-HiSeq-2000.tsv.zip",
+              "size": 69296,
+              "attributes": [
+                {
+                  "name": "Sample ID",
+                  "value": "SIDS00610"
+                },
+                {
+                  "name": "Sample Type",
+                  "value": "Tumour Cells"
+                },
+                {
+                  "name": "Engrafted Tumour Passage",
+                  "value": "N/A"
+                },
+                {
+                  "name": "Data Type",
+                  "value": "mutation"
+                },
+                {
+                  "name": "Platform Used",
+                  "value": "Illumina HiSeq 2000"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "path": "CMP/SIDM00194/molecular_data/SIDS00610_copy-number-alteration_Illumina-HiSeq-2000.tsv.zip",
+              "size": 552283,
+              "attributes": [
+                {
+                  "name": "Sample ID",
+                  "value": "SIDS00610"
+                },
+                {
+                  "name": "Sample Type",
+                  "value": "Tumour Cells"
+                },
+                {
+                  "name": "Engrafted Tumour Passage",
+                  "value": "N/A"
+                },
+                {
+                  "name": "Data Type",
+                  "value": "copy number alteration"
+                },
+                {
+                  "name": "Platform Used",
+                  "value": "Illumina HiSeq 2000"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "path": "CMP/SIDM00194/molecular_data/SIDS00610_copy-number-alteration_Illumina-HiSeq-2000.tsv.zip",
+              "size": 552283,
+              "attributes": [
+                {
+                  "name": "Sample ID",
+                  "value": "SIDS00610"
+                },
+                {
+                  "name": "Sample Type",
+                  "value": "Tumour Cells"
+                },
+                {
+                  "name": "Engrafted Tumour Passage",
+                  "value": "N/A"
+                },
+                {
+                  "name": "Data Type",
+                  "value": "copy number alteration"
+                },
+                {
+                  "name": "Platform Used",
+                  "value": "Illumina HiSeq 2000"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "path": "CMP/SIDM00194/molecular_data/SIDS00610_expression_Illumina-HiSeq-2000-2500.tsv.zip",
+              "size": 255278,
+              "attributes": [
+                {
+                  "name": "Sample ID",
+                  "value": "SIDS00610"
+                },
+                {
+                  "name": "Sample Type",
+                  "value": "Tumour Cells"
+                },
+                {
+                  "name": "Engrafted Tumour Passage",
+                  "value": "N/A"
+                },
+                {
+                  "name": "Data Type",
+                  "value": "expression"
+                },
+                {
+                  "name": "Platform Used",
+                  "value": "Illumina HiSeq 2000/2500"
+                }
+              ],
+              "type": "directory"
+            }
+          ]
+        },
+        {
+          "type": "Immune markers",
+          "subsections": [
+            [
+              {
+                "attributes": [
+                  {
+                    "name": "Sample ID",
+                    "value": "SIDS00610"
+                  },
+                  {
+                    "name": "MMR",
+                    "value": "Not provided"
+                  },
+                  {
+                    "name": "MSI",
+                    "value": "Stable"
+                  },
+                  {
+                    "name": "Mutations per mb",
+                    "value": "32.74"
+                  },
+                  {
+                    "name": "Ploidy",
+                    "value": "2.7791677252324303"
+                  },
+                  {
+                    "name": "TMB",
+                    "value": "Not provided"
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        [
+          {
+            "type": "Publications",
+            "attributes": [
+              {
+                "name": "Title",
+                "value": "The molecular landscape of colorectal cancer cell lines unveils clinically actionable kinase targets."
+              },
+              {
+                "name": "Authors",
+                "value": "Medico E, Russo M, Picco G, Cancelliere C, Valtorta E, Corti G, Buscarino M, Isella C, Lamba S, Martinoglio B, Veronese S, Siena S, Sartore-Bianchi A, Beccuti M, Mottolese M, Linnebacher M, Cordero F, Di Nicolantonio F, Bardelli A."
+              },
+              {
+                "name": "Year",
+                "value": "2015"
+              },
+              {
+                "name": "Volume",
+                "value": "6"
+              },
+              {
+                "name": "JournalTitle",
+                "value": "Nat Commun"
+              },
+              {
+                "name": "Issue",
+                "value": "N/A"
+              },
+              {
+                "name": "Issn",
+                "value": "2041-1723"
+              },
+              {
+                "name": "DOI",
+                "value": "DOI:10.1038/ncomms8002",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://dx.doi.org/10.1038/ncomms8002"
+                  }
+                ]
+              },
+              {
+                "name": "EuropePMC",
+                "value": "EuropePMC",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://europepmc.org/article/MED/25926053"
+                  }
+                ]
+              },
+              {
+                "name": "PubMed",
+                "value": "PubMed",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://pubmed.ncbi.nlm.nih.gov/25926053"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Publications",
+            "attributes": [
+              {
+                "name": "Title",
+                "value": "Pan-cancer proteomic map of 949 human cell lines."
+              },
+              {
+                "name": "Authors",
+                "value": "Gonçalves E, Poulos RC, Cai Z, Barthorpe S, Manda SS, Lucas N, Beck A, Bucio-Noble D, Dausmann M, Hall C, Hecker M, Koh J, Lightfoot H, Mahboob S, Mali I, Morris J, Richardson L, Seneviratne AJ, Shepherd R, Sykes E, Thomas F, Valentini S, Williams SG, Wu Y, Xavier D, MacKenzie KL, Hains PG, Tully B, Robinson PJ, Zhong Q, Garnett MJ, Reddel RR."
+              },
+              {
+                "name": "Year",
+                "value": "2022"
+              },
+              {
+                "name": "Volume",
+                "value": "40"
+              },
+              {
+                "name": "JournalTitle",
+                "value": "Cancer Cell"
+              },
+              {
+                "name": "Issue",
+                "value": "8"
+              },
+              {
+                "name": "Issn",
+                "value": "1535-6108; 1878-3686; "
+              },
+              {
+                "name": "DOI",
+                "value": "DOI:10.1016/j.ccell.2022.06.010",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://dx.doi.org/10.1016/j.ccell.2022.06.010"
+                  }
+                ]
+              },
+              {
+                "name": "EuropePMC",
+                "value": "EuropePMC",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://europepmc.org/article/MED/35839778"
+                  }
+                ]
+              },
+              {
+                "name": "PubMed",
+                "value": "PubMed",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://pubmed.ncbi.nlm.nih.gov/35839778"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Publications",
+            "attributes": [
+              {
+                "name": "Title",
+                "value": "The Cancer Cell Line Encyclopedia enables predictive modelling of anticancer drug sensitivity."
+              },
+              {
+                "name": "Authors",
+                "value": "Barretina J, Caponigro G, Stransky N, Venkatesan K, Margolin AA, Kim S, Wilson CJ, Lehár J, Kryukov GV, Sonkin D, Reddy A, Liu M, Murray L, Berger MF, Monahan JE, Morais P, Meltzer J, Korejwa A, Jané-Valbuena J, Mapa FA, Thibault J, Bric-Furlong E, Raman P, Shipway A, Engels IH, Cheng J, Yu GK, Yu J, Aspesi P, de Silva M, Jagtap K, Jones MD, Wang L, Hatton C, Palescandolo E, Gupta S, Mahan S, Sougnez C, Onofrio RC, Liefeld T, MacConaill L, Winckler W, Reich M, Li N, Mesirov JP, Gabriel SB, Getz G, Ardlie K, Chan V, Myer VE, Weber BL, Porter J, Warmuth M, Finan P, Harris JL, Meyerson M, Golub TR, Morrissey MP, Sellers WR, Schlegel R, Garraway LA."
+              },
+              {
+                "name": "Year",
+                "value": "2012"
+              },
+              {
+                "name": "Volume",
+                "value": "483"
+              },
+              {
+                "name": "JournalTitle",
+                "value": "Nature"
+              },
+              {
+                "name": "Issue",
+                "value": "7391"
+              },
+              {
+                "name": "Issn",
+                "value": "0028-0836; 1476-4687; "
+              },
+              {
+                "name": "DOI",
+                "value": "DOI:10.1038/nature11003",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://dx.doi.org/10.1038/nature11003"
+                  }
+                ]
+              },
+              {
+                "name": "EuropePMC",
+                "value": "EuropePMC",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://europepmc.org/article/MED/22460905"
+                  }
+                ]
+              },
+              {
+                "name": "PubMed",
+                "value": "PubMed",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://pubmed.ncbi.nlm.nih.gov/22460905"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Publications",
+            "attributes": [
+              {
+                "name": "Title",
+                "value": "Genomic Determinants of Protein Abundance Variation in Colorectal Cancer Cells."
+              },
+              {
+                "name": "Authors",
+                "value": "Roumeliotis TI, Williams SP, Gonçalves E, Alsinet C, Del Castillo Velasco-Herrera M, Aben N, Ghavidel FZ, Michaut M, Schubert M, Price S, Wright JC, Yu L, Yang M, Dienstmann R, Guinney J, Beltrao P, Brazma A, Pardo M, Stegle O, Adams DJ, Wessels L, Saez-Rodriguez J, McDermott U, Choudhary JS."
+              },
+              {
+                "name": "Year",
+                "value": "2017"
+              },
+              {
+                "name": "Volume",
+                "value": "20"
+              },
+              {
+                "name": "JournalTitle",
+                "value": "Cell Rep"
+              },
+              {
+                "name": "Issue",
+                "value": "9"
+              },
+              {
+                "name": "Issn",
+                "value": "2211-1247"
+              },
+              {
+                "name": "DOI",
+                "value": "DOI:10.1016/j.celrep.2017.08.010",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://dx.doi.org/10.1016/j.celrep.2017.08.010"
+                  }
+                ]
+              },
+              {
+                "name": "EuropePMC",
+                "value": "EuropePMC",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://europepmc.org/article/MED/28854368"
+                  }
+                ]
+              },
+              {
+                "name": "PubMed",
+                "value": "PubMed",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://pubmed.ncbi.nlm.nih.gov/28854368"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Publications",
+            "attributes": [
+              {
+                "name": "Title",
+                "value": "Mutations in hMSH6 alone are not sufficient to cause the microsatellite instability in colorectal cancer cell lines."
+              },
+              {
+                "name": "Authors",
+                "value": "Ku JL, Yoon KA, Kim DY, Park JG."
+              },
+              {
+                "name": "Year",
+                "value": "1999"
+              },
+              {
+                "name": "Volume",
+                "value": "35"
+              },
+              {
+                "name": "JournalTitle",
+                "value": "Eur J Cancer"
+              },
+              {
+                "name": "Issue",
+                "value": "12"
+              },
+              {
+                "name": "Issn",
+                "value": "0959-8049; 1879-0852; "
+              },
+              {
+                "name": "DOI",
+                "value": "DOI:10.1016/s0959-8049(99)00206-3",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://dx.doi.org/10.1016/s0959-8049(99)00206-3"
+                  }
+                ]
+              },
+              {
+                "name": "EuropePMC",
+                "value": "EuropePMC",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://europepmc.org/article/MED/10674020"
+                  }
+                ]
+              },
+              {
+                "name": "PubMed",
+                "value": "PubMed",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://pubmed.ncbi.nlm.nih.gov/10674020"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Publications",
+            "attributes": [
+              {
+                "name": "Title",
+                "value": "A Landscape of Pharmacogenomic Interactions in Cancer."
+              },
+              {
+                "name": "Authors",
+                "value": "Iorio F, Knijnenburg TA, Vis DJ, Bignell GR, Menden MP, Schubert M, Aben N, Gonçalves E, Barthorpe S, Lightfoot H, Cokelaer T, Greninger P, van Dyk E, Chang H, de Silva H, Heyn H, Deng X, Egan RK, Liu Q, Mironenko T, Mitropoulos X, Richardson L, Wang J, Zhang T, Moran S, Sayols S, Soleimani M, Tamborero D, Lopez-Bigas N, Ross-Macdonald P, Esteller M, Gray NS, Haber DA, Stratton MR, Benes CH, Wessels LFA, Saez-Rodriguez J, McDermott U, Garnett MJ."
+              },
+              {
+                "name": "Year",
+                "value": "2016"
+              },
+              {
+                "name": "Volume",
+                "value": "166"
+              },
+              {
+                "name": "JournalTitle",
+                "value": "Cell"
+              },
+              {
+                "name": "Issue",
+                "value": "3"
+              },
+              {
+                "name": "Issn",
+                "value": "0092-8674; 1097-4172; "
+              },
+              {
+                "name": "DOI",
+                "value": "DOI:10.1016/j.cell.2016.06.017",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://dx.doi.org/10.1016/j.cell.2016.06.017"
+                  }
+                ]
+              },
+              {
+                "name": "EuropePMC",
+                "value": "EuropePMC",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://europepmc.org/article/MED/27397505"
+                  }
+                ]
+              },
+              {
+                "name": "PubMed",
+                "value": "PubMed",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://pubmed.ncbi.nlm.nih.gov/27397505"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Publications",
+            "attributes": [
+              {
+                "name": "Title",
+                "value": "Quantitative Proteomics of the Cancer Cell Line Encyclopedia."
+              },
+              {
+                "name": "Authors",
+                "value": "Nusinow DP, Szpyt J, Ghandi M, Rose CM, McDonald ER, Kalocsay M, Jané-Valbuena J, Gelfand E, Schweppe DK, Jedrychowski M, Golji J, Porter DA, Rejtar T, Wang YK, Kryukov GV, Stegmeier F, Erickson BK, Garraway LA, Sellers WR, Gygi SP."
+              },
+              {
+                "name": "Year",
+                "value": "2020"
+              },
+              {
+                "name": "Volume",
+                "value": "180"
+              },
+              {
+                "name": "JournalTitle",
+                "value": "Cell"
+              },
+              {
+                "name": "Issue",
+                "value": "2"
+              },
+              {
+                "name": "Issn",
+                "value": "0092-8674; 1097-4172; "
+              },
+              {
+                "name": "DOI",
+                "value": "DOI:10.1016/j.cell.2019.12.023",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://dx.doi.org/10.1016/j.cell.2019.12.023"
+                  }
+                ]
+              },
+              {
+                "name": "EuropePMC",
+                "value": "EuropePMC",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://europepmc.org/article/MED/31978347"
+                  }
+                ]
+              },
+              {
+                "name": "PubMed",
+                "value": "PubMed",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://pubmed.ncbi.nlm.nih.gov/31978347"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Publications",
+            "attributes": [
+              {
+                "name": "Title",
+                "value": "Biology of SNU cell lines."
+              },
+              {
+                "name": "Authors",
+                "value": "Ku JL, Park JG."
+              },
+              {
+                "name": "Year",
+                "value": "2005"
+              },
+              {
+                "name": "Volume",
+                "value": "37"
+              },
+              {
+                "name": "JournalTitle",
+                "value": "Cancer Res Treat"
+              },
+              {
+                "name": "Issue",
+                "value": "1"
+              },
+              {
+                "name": "Issn",
+                "value": "1598-2998; 2005-9256; "
+              },
+              {
+                "name": "DOI",
+                "value": "DOI:10.4143/crt.2005.37.1.1",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://dx.doi.org/10.4143/crt.2005.37.1.1"
+                  }
+                ]
+              },
+              {
+                "name": "EuropePMC",
+                "value": "EuropePMC",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://europepmc.org/article/MED/19956504"
+                  }
+                ]
+              },
+              {
+                "name": "PubMed",
+                "value": "PubMed",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://pubmed.ncbi.nlm.nih.gov/19956504"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Publications",
+            "attributes": [
+              {
+                "name": "Title",
+                "value": "Establishment and characterization of 12 human colorectal-carcinoma cell lines."
+              },
+              {
+                "name": "Authors",
+                "value": "Oh JH, Ku JL, Yoon KA, Kwon HJ, Kim WH, Park HS, Yeo KS, Song SY, Chung JK, Park JG."
+              },
+              {
+                "name": "Year",
+                "value": "1999"
+              },
+              {
+                "name": "Volume",
+                "value": "81"
+              },
+              {
+                "name": "JournalTitle",
+                "value": "Int J Cancer"
+              },
+              {
+                "name": "Issue",
+                "value": "6"
+              },
+              {
+                "name": "Issn",
+                "value": "0020-7136; 1097-0215; "
+              },
+              {
+                "name": "DOI",
+                "value": "DOI:10.1002/(sici)1097-0215(19990611)81:6<902::aid-ijc11>3.0.co;2-t",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://dx.doi.org/10.1002/(sici)1097-0215(19990611)81:6<902::aid-ijc11>3.0.co;2-t"
+                  }
+                ]
+              },
+              {
+                "name": "EuropePMC",
+                "value": "EuropePMC",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://europepmc.org/article/MED/10362137"
+                  }
+                ]
+              },
+              {
+                "name": "PubMed",
+                "value": "PubMed",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://pubmed.ncbi.nlm.nih.gov/10362137"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Publications",
+            "attributes": [
+              {
+                "name": "Title",
+                "value": "Next-generation characterization of the Cancer Cell Line Encyclopedia."
+              },
+              {
+                "name": "Authors",
+                "value": "Ghandi M, Huang FW, Jané-Valbuena J, Kryukov GV, Lo CC, McDonald ER, Barretina J, Gelfand ET, Bielski CM, Li H, Hu K, Andreev-Drakhlin AY, Kim J, Hess JM, Haas BJ, Aguet F, Weir BA, Rothberg MV, Paolella BR, Lawrence MS, Akbani R, Lu Y, Tiv HL, Gokhale PC, de Weck A, Mansour AA, Oh C, Shih J, Hadi K, Rosen Y, Bistline J, Venkatesan K, Reddy A, Sonkin D, Liu M, Lehar J, Korn JM, Porter DA, Jones MD, Golji J, Caponigro G, Taylor JE, Dunning CM, Creech AL, Warren AC, McFarland JM, Zamanighomi M, Kauffmann A, Stransky N, Imielinski M, Maruvka YE, Cherniack AD, Tsherniak A, Vazquez F, Jaffe JD, Lane AA, Weinstock DM, Johannessen CM, Morrissey MP, Stegmeier F, Schlegel R, Hahn WC, Getz G, Mills GB, Boehm JS, Golub TR, Garraway LA, Sellers WR."
+              },
+              {
+                "name": "Year",
+                "value": "2019"
+              },
+              {
+                "name": "Volume",
+                "value": "569"
+              },
+              {
+                "name": "JournalTitle",
+                "value": "Nature"
+              },
+              {
+                "name": "Issue",
+                "value": "7757"
+              },
+              {
+                "name": "Issn",
+                "value": "0028-0836; 1476-4687; "
+              },
+              {
+                "name": "DOI",
+                "value": "DOI:10.1038/s41586-019-1186-3",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://dx.doi.org/10.1038/s41586-019-1186-3"
+                  }
+                ]
+              },
+              {
+                "name": "EuropePMC",
+                "value": "EuropePMC",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://europepmc.org/article/MED/31068700"
+                  }
+                ]
+              },
+              {
+                "name": "PubMed",
+                "value": "PubMed",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://pubmed.ncbi.nlm.nih.gov/31068700"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Publications",
+            "attributes": [
+              {
+                "name": "Title",
+                "value": "Differential Effector Engagement by Oncogenic KRAS."
+              },
+              {
+                "name": "Authors",
+                "value": "Yuan TL, Amzallag A, Bagni R, Yi M, Afghani S, Burgan W, Fer N, Strathern LA, Powell K, Smith B, Waters AM, Drubin D, Thomson T, Liao R, Greninger P, Stein GT, Murchie E, Cortez E, Egan RK, Procter L, Bess M, Cheng KT, Lee CS, Lee LC, Fellmann C, Stephens R, Luo J, Lowe SW, Benes CH, McCormick F."
+              },
+              {
+                "name": "Year",
+                "value": "2018"
+              },
+              {
+                "name": "Volume",
+                "value": "22"
+              },
+              {
+                "name": "JournalTitle",
+                "value": "Cell Rep"
+              },
+              {
+                "name": "Issue",
+                "value": "7"
+              },
+              {
+                "name": "Issn",
+                "value": "2211-1247"
+              },
+              {
+                "name": "DOI",
+                "value": "DOI:10.1016/j.celrep.2018.01.051",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://dx.doi.org/10.1016/j.celrep.2018.01.051"
+                  }
+                ]
+              },
+              {
+                "name": "EuropePMC",
+                "value": "EuropePMC",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://europepmc.org/article/MED/29444439"
+                  }
+                ]
+              },
+              {
+                "name": "PubMed",
+                "value": "PubMed",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://pubmed.ncbi.nlm.nih.gov/29444439"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Publications",
+            "attributes": [
+              {
+                "name": "Title",
+                "value": "An Interactive Resource to Probe Genetic Diversity and Estimated Ancestry in Cancer Cell Lines."
+              },
+              {
+                "name": "Authors",
+                "value": "Dutil J, Chen Z, Monteiro AN, Teer JK, Eschrich SA."
+              },
+              {
+                "name": "Year",
+                "value": "2019"
+              },
+              {
+                "name": "Volume",
+                "value": "79"
+              },
+              {
+                "name": "JournalTitle",
+                "value": "Cancer Res"
+              },
+              {
+                "name": "Issue",
+                "value": "7"
+              },
+              {
+                "name": "Issn",
+                "value": "0008-5472; 1538-7445; "
+              },
+              {
+                "name": "DOI",
+                "value": "DOI:10.1158/0008-5472.can-18-2747",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://dx.doi.org/10.1158/0008-5472.can-18-2747"
+                  }
+                ]
+              },
+              {
+                "name": "EuropePMC",
+                "value": "EuropePMC",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://europepmc.org/article/MED/30894373"
+                  }
+                ]
+              },
+              {
+                "name": "PubMed",
+                "value": "PubMed",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://pubmed.ncbi.nlm.nih.gov/30894373"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Publications",
+            "attributes": [
+              {
+                "name": "Title",
+                "value": "Prioritization of cancer therapeutic targets using CRISPR-Cas9 screens."
+              },
+              {
+                "name": "Authors",
+                "value": "Behan FM, Iorio F, Picco G, Gonçalves E, Beaver CM, Migliardi G, Santos R, Rao Y, Sassi F, Pinnelli M, Ansari R, Harper S, Jackson DA, McRae R, Pooley R, Wilkinson P, van der Meer D, Dow D, Buser-Doepner C, Bertotti A, Trusolino L, Stronach EA, Saez-Rodriguez J, Yusa K, Garnett MJ."
+              },
+              {
+                "name": "Year",
+                "value": "2019"
+              },
+              {
+                "name": "Volume",
+                "value": "568"
+              },
+              {
+                "name": "JournalTitle",
+                "value": "Nature"
+              },
+              {
+                "name": "Issue",
+                "value": "7753"
+              },
+              {
+                "name": "Issn",
+                "value": "0028-0836; 1476-4687; "
+              },
+              {
+                "name": "DOI",
+                "value": "DOI:10.1038/s41586-019-1103-9",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://dx.doi.org/10.1038/s41586-019-1103-9"
+                  }
+                ]
+              },
+              {
+                "name": "EuropePMC",
+                "value": "EuropePMC",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://europepmc.org/article/MED/30971826"
+                  }
+                ]
+              },
+              {
+                "name": "PubMed",
+                "value": "PubMed",
+                "valqual": [
+                  {
+                    "name": "url",
+                    "value": "https://pubmed.ncbi.nlm.nih.gov/30971826"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "type": "submission"
+  },
+  "source": {
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-CMO1405",
+    "retrieved_utc": "2026-10-31T00:39:59.677074+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "b700c8031baa508600f687013cc9ca897bd107c0dfbebd2bc921c29982e7eac2",
+    "body": "native/362dcf13438569d9319439180482cdd3f4a9c06e8b93c385c98a78d31d5f28dd.body"
+  },
+  "info": {
+    "columns": [
+      {
+        "name": "Name",
+        "title": "Name",
+        "visible": true,
+        "searchable": true,
+        "data": "Name",
+        "defaultContent": ""
+      },
+      {
+        "name": "Size",
+        "title": "Size",
+        "visible": true,
+        "searchable": false,
+        "data": "Size",
+        "defaultContent": ""
+      },
+      {
+        "name": "Platform Used",
+        "title": "Platform Used",
+        "visible": true,
+        "searchable": true,
+        "data": "Platform_Used",
+        "defaultContent": ""
+      },
+      {
+        "name": "Data Type",
+        "title": "Data Type",
+        "visible": true,
+        "searchable": true,
+        "data": "Data_Type",
+        "defaultContent": ""
+      },
+      {
+        "name": "Sample Type",
+        "title": "Sample Type",
+        "visible": true,
+        "searchable": true,
+        "data": "Sample_Type",
+        "defaultContent": ""
+      },
+      {
+        "name": "Sample ID",
+        "title": "Sample ID",
+        "visible": true,
+        "searchable": true,
+        "data": "Sample_ID",
+        "defaultContent": ""
+      },
+      {
+        "name": "Engrafted Tumour Passage",
+        "title": "Engrafted Tumour Passage",
+        "visible": true,
+        "searchable": true,
+        "data": "Engrafted_Tumour_Passage",
+        "defaultContent": ""
+      }
+    ],
+    "files": 4,
+    "httpLink": "https://ftp.ebi.ac.uk/biostudies/fire/S-CMO/405/S-CMO1405",
+    "ftpLink": "ftp://ftp.ebi.ac.uk/biostudies/fire/S-CMO/405/S-CMO1405",
+    "globusLink": "https://app.globus.org/file-manager?origin_id=47772002-3e5b-4fd3-b97c-18cee38d6df2&origin_path=/biostudies/fire/S-CMO/405/S-CMO1405",
+    "isPublic": true,
+    "relPath": "S-CMO/405/S-CMO1405",
+    "hasZippedFolders": true,
+    "views": 0,
+    "released": 1733011200000,
+    "modified": 1780464622917,
+    "sections": [],
+    "sectionFileCounts": {}
+  },
+  "files": [
+    {
+      "path": "CMP/SIDM00194/molecular_data/SIDS00610_mutation_Illumina-HiSeq-2000.tsv.zip",
+      "size": 69296,
+      "context": null,
+      "attributes": [
+        {
+          "name": "Sample ID",
+          "value": "SIDS00610"
+        },
+        {
+          "name": "Sample Type",
+          "value": "Tumour Cells"
+        },
+        {
+          "name": "Engrafted Tumour Passage",
+          "value": "N/A"
+        },
+        {
+          "name": "Data Type",
+          "value": "mutation"
+        },
+        {
+          "name": "Platform Used",
+          "value": "Illumina HiSeq 2000"
+        }
+      ],
+      "locator": "$.subsections[6].files",
+      "native": {
+        "path": "CMP/SIDM00194/molecular_data/SIDS00610_mutation_Illumina-HiSeq-2000.tsv.zip",
+        "size": 69296,
+        "attributes": [
+          {
+            "name": "Sample ID",
+            "value": "SIDS00610"
+          },
+          {
+            "name": "Sample Type",
+            "value": "Tumour Cells"
+          },
+          {
+            "name": "Engrafted Tumour Passage",
+            "value": "N/A"
+          },
+          {
+            "name": "Data Type",
+            "value": "mutation"
+          },
+          {
+            "name": "Platform Used",
+            "value": "Illumina HiSeq 2000"
+          }
+        ],
+        "type": "directory"
+      }
+    },
+    {
+      "path": "CMP/SIDM00194/molecular_data/SIDS00610_copy-number-alteration_Illumina-HiSeq-2000.tsv.zip",
+      "size": 552283,
+      "context": null,
+      "attributes": [
+        {
+          "name": "Sample ID",
+          "value": "SIDS00610"
+        },
+        {
+          "name": "Sample Type",
+          "value": "Tumour Cells"
+        },
+        {
+          "name": "Engrafted Tumour Passage",
+          "value": "N/A"
+        },
+        {
+          "name": "Data Type",
+          "value": "copy number alteration"
+        },
+        {
+          "name": "Platform Used",
+          "value": "Illumina HiSeq 2000"
+        }
+      ],
+      "locator": "$.subsections[6].files",
+      "native": {
+        "path": "CMP/SIDM00194/molecular_data/SIDS00610_copy-number-alteration_Illumina-HiSeq-2000.tsv.zip",
+        "size": 552283,
+        "attributes": [
+          {
+            "name": "Sample ID",
+            "value": "SIDS00610"
+          },
+          {
+            "name": "Sample Type",
+            "value": "Tumour Cells"
+          },
+          {
+            "name": "Engrafted Tumour Passage",
+            "value": "N/A"
+          },
+          {
+            "name": "Data Type",
+            "value": "copy number alteration"
+          },
+          {
+            "name": "Platform Used",
+            "value": "Illumina HiSeq 2000"
+          }
+        ],
+        "type": "directory"
+      }
+    },
+    {
+      "path": "CMP/SIDM00194/molecular_data/SIDS00610_expression_Illumina-HiSeq-2000-2500.tsv.zip",
+      "size": 255278,
+      "context": null,
+      "attributes": [
+        {
+          "name": "Sample ID",
+          "value": "SIDS00610"
+        },
+        {
+          "name": "Sample Type",
+          "value": "Tumour Cells"
+        },
+        {
+          "name": "Engrafted Tumour Passage",
+          "value": "N/A"
+        },
+        {
+          "name": "Data Type",
+          "value": "expression"
+        },
+        {
+          "name": "Platform Used",
+          "value": "Illumina HiSeq 2000/2500"
+        }
+      ],
+      "locator": "$.subsections[6].files",
+      "native": {
+        "path": "CMP/SIDM00194/molecular_data/SIDS00610_expression_Illumina-HiSeq-2000-2500.tsv.zip",
+        "size": 255278,
+        "attributes": [
+          {
+            "name": "Sample ID",
+            "value": "SIDS00610"
+          },
+          {
+            "name": "Sample Type",
+            "value": "Tumour Cells"
+          },
+          {
+            "name": "Engrafted Tumour Passage",
+            "value": "N/A"
+          },
+          {
+            "name": "Data Type",
+            "value": "expression"
+          },
+          {
+            "name": "Platform Used",
+            "value": "Illumina HiSeq 2000/2500"
+          }
+        ],
+        "type": "directory"
+      }
+    }
+  ],
+  "issues": [
+    {
+      "field": "files",
+      "error": "Listed file count differs from API total; inventory incomplete"
+    }
+  ],
+  "info_source": {
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-CMO1405/info",
+    "retrieved_utc": "2026-10-31T00:40:05.679595+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "b296790410263a1b1f35cb5b08fa06e6d9b4b8fc536e6346a186a52b3a215e10",
+    "body": "native/d193fa861a1c6ff07a7a18b8d515bec8bd952354ab33213c221294df3fa3abbe.body"
+  },
+  "links": []
+}

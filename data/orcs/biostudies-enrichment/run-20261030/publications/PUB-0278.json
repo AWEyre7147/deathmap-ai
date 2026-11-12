@@ -1,0 +1,37 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0278",
+    "PMID": "31509742",
+    "DOI": "10.1016/j.celrep.2019.08.017",
+    "PMCID": null,
+    "Title": "Natural Killer Cells Suppress T Cell-Associated Tumor Immune Evasion.",
+    "ORCS Publication ID": "713",
+    "ORCS Publication Index": "PUB-0278",
+    "input_accessions": []
+  },
+  "observations": [],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.celrep.2019.08.017%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231509742%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Natural+Killer+Cells+Suppress+T+Cell-Associated+Tumor+Immune+Evasion.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A31509742&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

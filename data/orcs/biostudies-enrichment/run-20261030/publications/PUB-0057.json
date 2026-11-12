@@ -1,0 +1,42 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0057",
+    "PMID": "30905739",
+    "DOI": "10.1016/j.stemcr.2019.02.010",
+    "PMCID": "PMC6450436",
+    "Title": "Genome-Scale CRISPRa Screen Identifies Novel Factors for Cellular Reprogramming.",
+    "ORCS Publication ID": "122",
+    "ORCS Publication Index": "PUB-0057",
+    "input_accessions": []
+  },
+  "observations": [],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.stemcr.2019.02.010%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2230905739%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6450436%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-Scale+CRISPRa+Screen+Identifies+Novel+Factors+for+Cellular+Reprogramming.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A30905739&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

@@ -1,0 +1,42 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0226",
+    "PMID": "33547076",
+    "DOI": "10.1126/sciadv.abd6263",
+    "PMCID": "PMC7864573",
+    "Title": "Targeting oncoproteins with a positive selection assay for protein degraders.",
+    "ORCS Publication ID": "557",
+    "ORCS Publication Index": "PUB-0226",
+    "input_accessions": []
+  },
+  "observations": [],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1126%2Fsciadv.abd6263%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233547076%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7864573%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Targeting+oncoproteins+with+a+positive+selection+assay+for+protein+degraders.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A33547076&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

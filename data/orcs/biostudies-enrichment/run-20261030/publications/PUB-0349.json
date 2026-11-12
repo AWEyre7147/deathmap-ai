@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0349",
+    "PMID": "35750052",
+    "DOI": "10.1016/j.ccell.2022.06.001",
+    "PMCID": "PMC9949532",
+    "Title": "Genome-wide CRISPR screens of T cell exhaustion identify chromatin remodeling factors that limit T cell persistence.",
+    "ORCS Publication ID": "968",
+    "ORCS Publication Index": "PUB-0349",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC9949532",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.ccell.2022.06.001%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:32:18.766885+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "8c1d17f8ff00909df0862d7d244f55c85abd273aff377e2addd2c3de54ed0efd",
+        "body": "native/6e9b3919f60a200065f6533225254f301ef256d92263a9648da0f65044c94138.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9949532",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2235750052%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:32:24.768768+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "95b3af5b91487812a67a16d5081deda1e2452c5645ccc21c8b7f21649c2f94a3",
+        "body": "native/2d1eede7b4b5b3678a3b958f45004a390044fb7a403607d62fdf028b73f491a3.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9949532",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9949532%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:32:30.775803+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "66927b1b464d029b58af1351a8778e5c6bcfe4975a2c175ccb01cb2527978d68",
+        "body": "native/29c14f84e2a2076afe87cbe6bf7e9a257042657b6dcd9874674476fac07cb656.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9949532",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+CRISPR+screens+of+T+cell+exhaustion+identify+chromatin+remodeling+factors+that+limit+T+cell+persistence.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:32:36.761445+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "8f45eb610b67a3d312ba5b342cbd5049facf55b48e4dc1fe352ffe37b5b51a3b",
+        "body": "native/53564d8995cc66cf5616ec86e2309935f28a1671933bd30b0402f906d732b447.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.ccell.2022.06.001%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2235750052%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9949532%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+CRISPR+screens+of+T+cell+exhaustion+identify+chromatin+remodeling+factors+that+limit+T+cell+persistence.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A35750052&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

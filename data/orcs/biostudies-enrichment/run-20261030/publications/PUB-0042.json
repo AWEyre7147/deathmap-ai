@@ -1,0 +1,91 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0042",
+    "PMID": "29463564",
+    "DOI": "10.1182/blood-2017-12-820035",
+    "PMCID": "PMC6061932",
+    "Title": "Glutaminolysis is a metabolic dependency in FLT3 acute myeloid leukemia unmasked by FLT3 tyrosine kinase inhibition.",
+    "ORCS Publication ID": "80",
+    "ORCS Publication Index": "PUB-0042",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC6061932",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1182%2Fblood-2017-12-820035%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:28:31.322312+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "f5d361a74349505bfb7c5aaa38a9b52156a27c15f17284d8ad28af6dbcf4b06c",
+        "body": "native/e951cafadd30103e10e5f6a1ae5dc236667795c140f0875a58af22c4565e7cb8.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6061932",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2229463564%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:28:37.767508+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "e234828149ce1cfc5690111127bca6d7dc7a7ab65801b08755d04959d6a22207",
+        "body": "native/972f51236a339097ec1276dd98da2b6afe5a9c1a55c6f588d39382e58a0b1cf5.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6061932",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6061932%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:28:43.293383+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "1d03d3dec46d4aeaa5244bd934e197d01f343093419e70dd9fcea429901a5c3c",
+        "body": "native/432e19c01e3e9ff9228ee2dfbb5348206785630bb266b453cbc308755c5d386d.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1182%2Fblood-2017-12-820035%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2229463564%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6061932%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Glutaminolysis+is+a+metabolic+dependency+in+FLT3+acute+myeloid+leukemia+unmasked+by+FLT3+tyrosine+kinase+inhibition.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A29463564&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

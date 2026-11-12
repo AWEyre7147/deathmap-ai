@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0180",
+    "PMID": "32585766",
+    "DOI": "10.1002/1878-0261.12753",
+    "PMCID": "PMC7463323",
+    "Title": "Identification of BLNK and BTK as mediators of rituximab-induced programmed cell death by CRISPR screens in GCB-subtype diffuse large B-cell lymphoma.",
+    "ORCS Publication ID": "452",
+    "ORCS Publication Index": "PUB-0180",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC7463323",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1002%2F1878-0261.12753%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:21:11.575871+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "663a92a97332b2add7d836a02bc31587e78ecdf9b61c2a889b48a8b891cea5a4",
+        "body": "native/9c59b9d99726c6e4365eed6c1f23b290ed7a2c9053d6d4842ca42c9096e3e43b.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7463323",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2232585766%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:21:17.585668+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "bbaa16fcb36f24c4ecadedb42154acf2845158712290c1adb7a6083eba9cf569",
+        "body": "native/a4b834ef0907f3656d639d9403c1a6b0839d802292e3f42407bc0d02c6e6aafd.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7463323",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7463323%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:21:23.582176+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "1d1d75cc16d6affcfcc9b17d0a88f7f3b94c40b4292705382cba102983ed81ac",
+        "body": "native/5768afbd09b9230e7e55a9cbc4b48b47c69a9c212974d8918b09383b71353324.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7463323",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Identification+of+BLNK+and+BTK+as+mediators+of+rituximab-induced+programmed+cell+death+by+CRISPR+screens+in+GCB-subtype+diffuse+large+B-cell+lymphoma.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:21:29.603174+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "3403a789a61097f83d4a9efc66dad90747281c3878ff35b4b5a338dd5ea7613d",
+        "body": "native/9d4eb1e4fe875439896f2786d2d9aa46eb7b61e491bd03fce069356b6600b17e.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1002%2F1878-0261.12753%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2232585766%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7463323%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Identification+of+BLNK+and+BTK+as+mediators+of+rituximab-induced+programmed+cell+death+by+CRISPR+screens+in+GCB-subtype+diffuse+large+B-cell+lymphoma.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A32585766&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

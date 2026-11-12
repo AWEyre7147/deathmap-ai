@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0150",
+    "PMID": "30862715",
+    "DOI": "10.1158/0008-5472.can-18-3024",
+    "PMCID": "PMC6497569",
+    "Title": "Spindle Assembly Checkpoint Inhibition Can Resensitize p53-Null Stem Cells to Cancer Chemotherapy.",
+    "ORCS Publication ID": "381",
+    "ORCS Publication Index": "PUB-0150",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC6497569",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1158%2F0008-5472.can-18-3024%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:35:41.495241+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "9c7c1bed7133b8a8df2e78a6c12a82d289362649e6e0f4360b041e9c1477aa2e",
+        "body": "native/f83fcc0c100bf7a01ce232f0b4a83d7fd55ddd505c7e80ad7a11f2edd74b9f3d.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6497569",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2230862715%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:35:48.913200+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "c4cca627c37aad4219d0d0997a8b6b18df26eb00c138b6c32e4a2b1a069bc652",
+        "body": "native/9c706d695cb403c59c2235561eef56e8e2ac6d8cbac92a824507358c4f457574.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6497569",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6497569%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:35:52.991506+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "29b4a93dc310ecd7790016a83de710a352bd1b0d81e4364b8dbc172050342d95",
+        "body": "native/8e36c7701f2ce0be80c1c0ea01290baffa3da371c0960fd43c0b078e2690cf37.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6497569",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Spindle+Assembly+Checkpoint+Inhibition+Can+Resensitize+p53-Null+Stem+Cells+to+Cancer+Chemotherapy.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:19:47.269765+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "5db8009d27c045859ac0e9517896233f324264d9607969fcde5e11b77cb8d62c",
+        "body": "native/043b46eb5325149352eb518105e7d908e664fa13ff6db96e3a84b0b3883471db.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1158%2F0008-5472.can-18-3024%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2230862715%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6497569%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Spindle+Assembly+Checkpoint+Inhibition+Can+Resensitize+p53-Null+Stem+Cells+to+Cancer+Chemotherapy.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A30862715&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

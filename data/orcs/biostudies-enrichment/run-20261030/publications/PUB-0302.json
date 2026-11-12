@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0302",
+    "PMID": "35842423",
+    "DOI": "10.1038/s41419-022-05076-1",
+    "PMCID": "PMC9288536",
+    "Title": "Deficiency of PPP6C protects TNF-induced necroptosis through activation of TAK1.",
+    "ORCS Publication ID": "823",
+    "ORCS Publication Index": "PUB-0302",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC9288536",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41419-022-05076-1%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:29:12.910398+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "79b6b4558d044abacb2141d595b0bf31c4990a8553e071729720be0e0b59a0ef",
+        "body": "native/64a8409e61b35eaaf0ba2ab17cb525b7accb93e8f680b7c18baf54606aaf75c4.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9288536",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2235842423%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:29:18.921428+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "1baa34c9a1fc3e85ab3a6476abbdcf8b1d419b61b9e9745acf0bb4bebee3df97",
+        "body": "native/c77df7c5059eede9f17b9f3df8905cf01c007d9e71448ea8eadff7e21ac2922d.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9288536",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9288536%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:29:24.927520+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "a06eda417559094040121de91783feb74356502cf31563f384394419d39edaa9",
+        "body": "native/032366368ba60708f8cf739e3deaa16cb9e5ea67bc23730d466952a517f6c7fe.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9288536",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Deficiency+of+PPP6C+protects+TNF-induced+necroptosis+through+activation+of+TAK1.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:29:30.930080+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "aacb65ceb2358db798eb298794d3b89cd08c2ad751fa24ffc8c69802be14bb0f",
+        "body": "native/f575c1cdcf76a93bfeb773fa00e894ddb1be3d65858509f085485920f161533f.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41419-022-05076-1%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2235842423%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9288536%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Deficiency+of+PPP6C+protects+TNF-induced+necroptosis+through+activation+of+TAK1.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A35842423&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

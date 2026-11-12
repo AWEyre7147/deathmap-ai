@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0159",
+    "PMID": "31147448",
+    "DOI": "10.1084/jem.20181895",
+    "PMCID": "PMC6605750",
+    "Title": "Lysolipid receptor cross-talk regulates lymphatic endothelial junctions in lymph nodes.",
+    "ORCS Publication ID": "402",
+    "ORCS Publication Index": "PUB-0159",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC6605750",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1084%2Fjem.20181895%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:19:59.721114+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "827fbd6e00a80e6d7f5468071d8438013dac60628c4328b677067fcf2e5a4877",
+        "body": "native/c258702bcb389ae488430b272c015edf6e2374fcaba7aa52565fa3039cf6bce8.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6605750",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231147448%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:20:05.722067+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "c5322e77fc0116b7e32d38a9fddf00d67fa24b052aa36c25493eb3569ab80379",
+        "body": "native/7a2ccf879541f2bf8b4a6670e679f663e68aa7099994de81ec834a22e281df9e.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6605750",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6605750%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:20:11.744782+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "3d34e19fce30d6b70e6791e270ad022cc0e7d93a6c13bc0f5f3b7d14be93abce",
+        "body": "native/94405627097f28406a60319fba196a681242a848e136584ac8003512456ad45e.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6605750",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Lysolipid+receptor+cross-talk+regulates+lymphatic+endothelial+junctions+in+lymph+nodes.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:20:17.743544+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "af9d2b2e4297bfeff2edc21d8dd6c4f839ed46c7119641ac8a92e28269cbe77b",
+        "body": "native/5a30ecc82d9c604a898cae5a85296b459f9792b3cd38abfef6fc5b4aff2c5217.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1084%2Fjem.20181895%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231147448%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6605750%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Lysolipid+receptor+cross-talk+regulates+lymphatic+endothelial+junctions+in+lymph+nodes.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A31147448&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

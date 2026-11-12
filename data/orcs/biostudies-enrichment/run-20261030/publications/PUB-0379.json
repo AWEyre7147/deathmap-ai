@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0379",
+    "PMID": "39316623",
+    "DOI": "10.1371/journal.pbio.3002767",
+    "PMCID": "PMC11486371",
+    "Title": "A genome-wide arrayed CRISPR screen identifies PLSCR1 as an intrinsic barrier to SARS-CoV-2 entry that recent virus variants have evolved to resist.",
+    "ORCS Publication ID": "1088",
+    "ORCS Publication Index": "PUB-0379",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC11486371",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1371%2Fjournal.pbio.3002767%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:34:18.986767+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "d272a678cb2158b526d40369f93c9af0c5d78919884d8450d2aeef851d13bd96",
+        "body": "native/59f73bfb702ff024a5a5f6244c1e13fe93dbffe621092e9d7a30e2deaecf4774.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC11486371",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2239316623%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:34:24.985846+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "6e458c8e3fa69c7e2cadffd2a5e7012275533982f761315392cd47c7c5d1a615",
+        "body": "native/167ac278866e41d18c276c3549b7500b1b393b57d3e2028ec19cd49a61e2b4fa.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC11486371",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC11486371%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:34:30.393416+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "2ebe861f3c7263899873a3e652b5b06322e8965bccf96cda61ab14452e0ca7b3",
+        "body": "native/d193772ce0485126c184308e0fc021f79afa47c3691775efb683692254011750.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC11486371",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+genome-wide+arrayed+CRISPR+screen+identifies+PLSCR1+as+an+intrinsic+barrier+to+SARS-CoV-2+entry+that+recent+virus+variants+have+evolved+to+resist.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:34:36.796534+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "fa8af668ccbe08d24ab3beb2d00d072ffc09500ad9b1789437bc9d215882a94e",
+        "body": "native/2c8b3b98036332c4a372f6fc7e35c840edf1bdf9cfd6c14dbad97e3c0911c150.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1371%2Fjournal.pbio.3002767%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2239316623%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC11486371%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+genome-wide+arrayed+CRISPR+screen+identifies+PLSCR1+as+an+intrinsic+barrier+to+SARS-CoV-2+entry+that+recent+virus+variants+have+evolved+to+resist.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A39316623&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

@@ -1,0 +1,37 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0413",
+    "PMID": "36476853",
+    "DOI": "10.1016/j.celrep.2022.111774",
+    "PMCID": null,
+    "Title": "Mitochondrial cristae architecture protects against mtDNA release and inflammation.",
+    "ORCS Publication ID": "1167",
+    "ORCS Publication Index": "PUB-0413",
+    "input_accessions": []
+  },
+  "observations": [],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.celrep.2022.111774%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236476853%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Mitochondrial+cristae+architecture+protects+against+mtDNA+release+and+inflammation.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A36476853&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0031",
+    "PMID": "28894007",
+    "DOI": "10.1073/pnas.1712176114",
+    "PMCID": "PMC5625932",
+    "Title": "RABIF/MSS4 is a Rab-stabilizing holdase chaperone required for GLUT4 exocytosis.",
+    "ORCS Publication ID": "45",
+    "ORCS Publication Index": "PUB-0031",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC5625932",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1073%2Fpnas.1712176114%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:27:50.134818+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "5d4431683e908127ab68999b6a603206b6932a08cc4149677ef4697f3bad06e0",
+        "body": "native/6fb4856ac35c28f6794261882158b20bfdf3f0f616c28bbccb4248617904066a.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5625932",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2228894007%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:27:56.596054+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "825c887a4e42cca48b8bc3db3c1379e409a031a2a1f49f7716b2f9b4ab7d68e5",
+        "body": "native/02246decc5ae4942807194a86b9a5cfb46e4c0dcfe4a4475ce34686a2472afb7.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5625932",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC5625932%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:28:00.660855+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "0757c3e3f34969a9021300950052279f702f7e5a5ea09875311efae5eb9ab0ad",
+        "body": "native/2e97240bb2bb0d82b01c78fd745025ea3faf9acb9ae54c1442ede931c7007916.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5625932",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22RABIF%2FMSS4+is+a+Rab-stabilizing+holdase+chaperone+required+for+GLUT4+exocytosis.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:28:03.298203+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "3162fc41f4f2ebbbf57b8426791314421157ad2515431a4bee653f32b5be24d5",
+        "body": "native/7ab080f3a57911861295b73701efdae3b43c0df37f9d4824e4f38d3f7aa7f8b2.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1073%2Fpnas.1712176114%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2228894007%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC5625932%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22RABIF%2FMSS4+is+a+Rab-stabilizing+holdase+chaperone+required+for+GLUT4+exocytosis.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A28894007&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

@@ -1,0 +1,485 @@
+{
+  "accno" : "S-EPMC5709193",
+  "attributes" : [ {
+    "name" : "DataSource",
+    "value" : "Europe PMC"
+  }, {
+    "name" : "Title",
+    "value" : "Computational correction of copy number effect improves specificity of CRISPR-Cas9 essentiality screens in cancer cells."
+  }, {
+    "name" : "ReleaseDate",
+    "value" : "2017-01-01"
+  }, {
+    "name" : "AttachTo",
+    "value" : "EuropePMC"
+  } ],
+  "section" : {
+    "type" : "Study",
+    "attributes" : [ {
+      "name" : "Title",
+      "value" : "Computational correction of copy number effect improves specificity of CRISPR-Cas9 essentiality screens in cancer cells."
+    }, {
+      "name" : "Abstract",
+      "value" : "The CRISPR-Cas9 system has revolutionized gene editing both at single genes and in multiplexed loss-of-function screens, thus enabling precise genome-scale identification of genes essential for proliferation and survival of cancer cells. However, previous studies have reported that a gene-independent antiproliferative effect of Cas9-mediated DNA cleavage confounds such measurement of genetic dependency, thereby leading to false-positive results in copy number-amplified regions. We developed CERES, a computational method to estimate gene-dependency levels from CRISPR-Cas9 essentiality screens while accounting for the copy number-specific effect. In our efforts to define a cancer dependency map, we performed genome-scale CRISPR-Cas9 essentiality screens across 342 cancer cell lines and applied CERES to this data set. We found that CERES decreased false-positive results and estimated sgRNA activity for both this data set and previously published screens performed with different sgRNA libraries. We further demonstrate the utility of this collection of screens, after CERES correction, for identifying cancer-type-specific vulnerabilities."
+    } ],
+    "files" : [ {
+      "path" : "NIHMS910985-supplement-1.docx",
+      "size" : 25012228,
+      "type" : "file"
+    }, {
+      "path" : "NIHMS910985-supplement-2.pdf",
+      "size" : 69804,
+      "type" : "file"
+    } ],
+    "links" : [ [ {
+      "url" : "10.6084/m9.figshare.5319388",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "doi"
+      } ]
+    } ] ],
+    "subsections" : [ {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NCI NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "R01 CA130988"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NCI NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "P01 CA154303"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NCI NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "U01 CA176058"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NCI NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "U01 CA199253"
+      } ]
+    }, {
+      "type" : "Publication",
+      "attributes" : [ {
+        "name" : "Journal",
+        "value" : "Nature genetics"
+      }, {
+        "name" : "Volume",
+        "value" : "49(12)"
+      }, {
+        "name" : "Pages",
+        "value" : "1779-1784"
+      }, {
+        "name" : "Publication date",
+        "value" : "2017 Dec"
+      } ],
+      "links" : [ [ {
+        "url" : "10.1038/ng.3984",
+        "attributes" : [ {
+          "name" : "Type",
+          "value" : "DOI"
+        } ]
+      }, {
+        "url" : "PMC5709193",
+        "attributes" : [ {
+          "name" : "Type",
+          "value" : "PMC"
+        } ]
+      }, {
+        "url" : "29083409",
+        "attributes" : [ {
+          "name" : "Type",
+          "value" : "PMID"
+        } ]
+      } ] ]
+    }, {
+      "accno" : "a1",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Meyers RM"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0002-1802-7231"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a2",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Bryan JG"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0002-4984-0516"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a3",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "McFarland JM"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a4",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Weir BA"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a5",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Sizemore AE"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a6",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Xu H"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a7",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Dharia NV"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0001-5048-067X"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a8",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Montgomery PG"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a9",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Cowley GS"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a10",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Pantel S"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a11",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Goodale A"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a12",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Lee Y"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a13",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Ali LD"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a14",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Jiang G"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a15",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Lubonja R"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a16",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Harrington WF"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a17",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Strickland M"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a18",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Wu T"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a19",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Hawes DC"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a20",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Zhivich VA"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0003-3236-9921"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a21",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Wyatt MR"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a22",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Kalani Z"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a23",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Chang JJ"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a24",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Okamoto M"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a25",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Stegmaier K"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a26",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Golub TR"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0003-0113-2403"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a27",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Boehm JS"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a28",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Vazquez F"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0002-2857-4685"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a29",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Root DE"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a30",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Hahn WC"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a31",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Tsherniak A"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0002-3797-1877"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "o1",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Broad Institute of MIT and Harvard, Cambridge, Massachusetts, USA"
+      } ]
+    }, {
+      "type" : "ExtractedLinks"
+    } ]
+  },
+  "type" : "submission"
+}

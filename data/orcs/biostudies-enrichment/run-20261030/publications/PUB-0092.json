@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0092",
+    "PMID": "32268084",
+    "DOI": "10.1016/j.celrep.2020.03.029",
+    "PMCID": "PMC7166082",
+    "Title": "Genome-wide Screens Implicate Loss of Cullin Ring Ligase 3 in Persistent Proliferation and Genome Instability in TP53-Deficient Cells.",
+    "ORCS Publication ID": "266",
+    "ORCS Publication Index": "PUB-0092",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC7166082",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.celrep.2020.03.029%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:31:52.653518+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "e65cc1c6764065144066e5478cd94f15ac7b47a48ae5dbe2602ebcadedf28212",
+        "body": "native/2efbf6944174c3908240e7bf24e100d1604b02524d5b70742dd8d3b2d2baec8f.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7166082",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2232268084%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:31:58.823215+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "a92f43058978eb776fb061e2f9864137b76613e1f7209a64421f8dee730185ed",
+        "body": "native/8ed8f7446142282e742e282c05fefba6cb29d7af9d4f04a43a9b5ecd9495eaf5.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7166082",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7166082%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:32:03.697972+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "7968f1a71a240416f4dd339b2a990b2b940875ded61e5387144f35ffb9f83ab5",
+        "body": "native/e3842231a71e0279ec332bb4f470192258c7f50f9c19e860aa77eea460e8656e.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7166082",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+Screens+Implicate+Loss+of+Cullin+Ring+Ligase+3+in+Persistent+Proliferation+and+Genome+Instability+in+TP53-Deficient+Cells.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:32:07.367390+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "661b36c992c09ca177ab1154d6eb2166178a0bbecb38a8ced2da2ce9081444be",
+        "body": "native/90393731c468cbeffb2a7405beee6f311b17b251c7c84496d07a7c4c3752687f.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.celrep.2020.03.029%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2232268084%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7166082%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+Screens+Implicate+Loss+of+Cullin+Ring+Ligase+3+in+Persistent+Proliferation+and+Genome+Instability+in+TP53-Deficient+Cells.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A32268084&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

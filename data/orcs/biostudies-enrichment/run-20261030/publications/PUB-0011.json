@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0011",
+    "PMID": "27159373",
+    "DOI": "10.1038/nbt.3567",
+    "PMCID": "PMC4900911",
+    "Title": "Systematic comparison of CRISPR/Cas9 and RNAi screens for essential genes.",
+    "ORCS Publication ID": "7",
+    "ORCS Publication Index": "PUB-0011",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC4900911",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fnbt.3567%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:26:35.863676+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "271e401193dc88a42036e1eb30a4fad62b74136d0ba693dacb23e536f2c85370",
+        "body": "native/d0d964c9de7e8dc87aa75d7f4410808b01144843f2431629739ccc70c88f504c.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC4900911",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2227159373%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:26:42.061083+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "d77548737970aa42f48075456a2a68dfc575efd2233a2e249d288f294486ac5f",
+        "body": "native/8e87c4a3975f53e4774fa62e5650cb5eee29247c3ca3eae76a757979bdeebaa1.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC4900911",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC4900911%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:26:45.701760+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "b88357542612c9f3ac37063713066842393a003bf018009f9dda551636cbd198",
+        "body": "native/e80bfac8fa4939c26b52c360d4ed430803237ca7522ad2a5d459a727c1318139.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC4900911",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Systematic+comparison+of+CRISPR%2FCas9+and+RNAi+screens+for+essential+genes.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:26:52.287112+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "45bdeefbdd5426ba0c4ad2c9dd8b5711ebd05cff258c3b3dcd3e4b2ab3c654a9",
+        "body": "native/fdb57929e1fd837a4f05eafcc7b8c72df4baabc048289640d74460c34fde3052.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fnbt.3567%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2227159373%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC4900911%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Systematic+comparison+of+CRISPR%2FCas9+and+RNAi+screens+for+essential+genes.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A27159373&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0099",
+    "PMID": "30224801",
+    "DOI": "10.1038/s41564-018-0244-1",
+    "PMCID": "PMC6202210",
+    "Title": "A CRISPR screen identifies IFI6 as an ER-resident interferon effector that blocks flavivirus replication.",
+    "ORCS Publication ID": "277",
+    "ORCS Publication Index": "PUB-0099",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC6202210",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41564-018-0244-1%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:32:26.709473+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "15b8451be631c672852e884878e2625c656b0be2989365d0529a4376fe564e6a",
+        "body": "native/1237c81855cfab886270965adc80b7c1ac02f68402fab856ac8177b07a9cae7a.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6202210",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2230224801%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:32:35.206936+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "4c6b293496d7f7dc78aba5bcd3181d911bb20c8314ca5c7bc4eebe14c5734cfd",
+        "body": "native/ac3c5924d32716eb4392d7599341a74b31e46c2b034d9af9fac2f9c760c54693.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6202210",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6202210%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:32:40.483026+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "63b6f24c0ca7bf290779c8bcb43914b6a4d1657c59b1d669c74b4dcadc68940f",
+        "body": "native/c4f3cd1d803c68b91e1958aa317cabbcd9ea50f95d225e1ff9199f76fcf162f2.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6202210",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+CRISPR+screen+identifies+IFI6+as+an+ER-resident+interferon+effector+that+blocks+flavivirus+replication.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:32:48.258495+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "2bf310801d7ff7f87d5ccfba632aebcba3acb3a8d85be83e86cf60741004c7ad",
+        "body": "native/3ebf127f08173220c2552de2e1183f5217fcbffee1e95a698868997bb72d17e7.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41564-018-0244-1%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2230224801%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6202210%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+CRISPR+screen+identifies+IFI6+as+an+ER-resident+interferon+effector+that+blocks+flavivirus+replication.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A30224801&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

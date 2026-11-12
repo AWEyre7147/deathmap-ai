@@ -1,0 +1,37 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0390",
+    "PMID": "34879274",
+    "DOI": "10.1016/j.celrep.2021.110083",
+    "PMCID": null,
+    "Title": "Genome-wide fitness gene identification reveals Roquin as a potent suppressor of CD8 T cell expansion and anti-tumor immunity.",
+    "ORCS Publication ID": "1107",
+    "ORCS Publication Index": "PUB-0390",
+    "input_accessions": []
+  },
+  "observations": [],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.celrep.2021.110083%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2234879274%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+fitness+gene+identification+reveals+Roquin+as+a+potent+suppressor+of+CD8+T+cell+expansion+and+anti-tumor+immunity.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A34879274&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

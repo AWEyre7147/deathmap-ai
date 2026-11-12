@@ -1,0 +1,91 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0204",
+    "PMID": "30093494",
+    "DOI": "10.1083/jcb.201804132",
+    "PMCID": "PMC6219718",
+    "Title": "Genome-wide CRISPR screen identifies as a gene required for autophagosome formation.",
+    "ORCS Publication ID": "505",
+    "ORCS Publication Index": "PUB-0204",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC6219718",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1083%2Fjcb.201804132%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:22:47.665003+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "2763e3df0de3366ff844bdd634621eff4eddb3f521adc5bd283ab690a2c923e6",
+        "body": "native/ea7b55d1d3245fe4f1a2193315dea102f07beb0792cdd32dd1d1a0f828b54749.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6219718",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2230093494%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:22:53.657110+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "256e2170054a0ba8c6386988e25300e4b527f846e827c5baf719d73684ffdf6f",
+        "body": "native/9f9fb41ce272ef3563896908c70775ae5d97ceadd5a9a78bc1965dac03b3f2c5.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6219718",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6219718%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:22:59.682411+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "cf18f67f96db7f0658793f7bd7b65028508a5b06cd3154d1d96c3ceda411b363",
+        "body": "native/26789f6283a4d842375b7dc606dbfdcbf67f0abd7d1011ea7ad2a667d5ad37bd.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1083%2Fjcb.201804132%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2230093494%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6219718%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+CRISPR+screen+identifies+as+a+gene+required+for+autophagosome+formation.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A30093494&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

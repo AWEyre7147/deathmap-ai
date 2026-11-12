@@ -1,87 +1,64 @@
-# Shared ORCS metadata databases
-## [DB1] Resource inventory
-These shared catalogs cover the ORCS 2.0.18 index observed on 2026-10-04. They are independent of filtered search runs.
+# ORCS reference data and saved enrichment
 
-| Entity | JSON database | CSV view | Records |
-|---|---|---|---:|
-| Screens | [screen-index.json](screen-index.json) | [screen-metadata.csv](screen-metadata.csv) | 2,217 |
-| Publications | [publication-index.json](publication-index.json) | [publication-metadata.csv](publication-metadata.csv) | 418 |
-| Screen-publication associations | [publication-screen-links.json](publication-screen-links.json) | [publication-screen-links.csv](publication-screen-links.csv) | 2,217 |
+ORCS is a reference database and saved enrichment cohort. Collection, filtered
+search profiles and the former search-output workflow are retired. Existing
+native metadata, accessions and persistent publication identities are preserved.
 
-JSON files contain arrays of records; CSV files contain the same uppercase fields. Publication lists/dictionaries are JSON-encoded inside CSV cells; empty values remain empty. IDs remain strings. pandas can read either format without SQL.
+## Reference catalogs
 
-## [DB2] Publication data dictionary
-The publication database is extracted ORCS website metadata, not a native REST publication response. Each row corresponds to one ORCS /Dataset/ publication summary page.
+| File | Purpose |
+| --- | --- |
+| `publication-index.json` | Saved ORCS publication metadata and supported publication identifiers. |
+| `screen-index.json` | Native ORCS screen metadata; a native screen is not automatically a qualifying downstream screen. |
+| `publication-screen-links.json` | Explicit reference publication/screen memberships. |
+| `ORCS Database.xlsx` | Readable publication, screen and relationship views. |
+| `enrichment-publication-registry.json` | Persistent Publication Index crosswalk; retain across cohorts/runs. |
+| `publication-source/`, `raw/` | Original source metadata, receipts and CSV views. |
 
-| Field | Meaning |
-|---|---|
-| PUBLICATION_ID | Native ORCS publication-page ID from /Dataset/<ID>; not a repository dataset accession or internal DeathMap ID |
-| SOURCE_TYPE, SOURCE_ID | Exact source namespace/identifier from the associated native screen records; includes pubmed and prepub |
-| TITLE, AUTHORS, ABSTRACT, JOURNAL, PUBLICATION_DATE | Reported publication-header text; whitespace collapsed; missing values null; authors retained as one full reported string |
-| PAGE_SOURCE_TYPE, PAGE_SOURCE_ID | Identifier assertion displayed in the page citation, preserved independently of cache identity |
-| PMID | Cached pubmed identifier promoted only when the page citation agrees |
-| DOI | Exact cached SOURCE_ID when DOI-shaped; no canonical DOI guessed from a prepub URL |
-| SUPPLEMENTARY_FILES | Reported asset labels and URLs; contents not retrieved and dataset attribution not assumed |
-| LINKS | Header link labels/URLs, including source and supplementary links; targets not followed |
-| SCREEN_IDS, SCREEN_COUNT | Native screen IDs explicitly associated by the website browse listing |
-| PUBLICATION_URL | Source ORCS publication-page URL |
-| FIELD_LOCATORS | Header locations supporting the extracted fields |
-| REVIEW_ISSUES | Source discrepancies retained for review |
-| RETRIEVED_AT | UTC timestamp for the successful page metadata retrieval |
-| SOURCE_METADATA_FILE, SOURCE_METADATA_SHA256 | Saved header excerpt and its SHA-256 hash |
+Native ORCS publication IDs identify ORCS pages, not repository datasets.
+Equal-looking publication indices from different cohorts do not establish identity.
+Original source fields and missing/conflicting assertions remain separate.
 
-Titles, authors, abstracts and dates are present for all 418 records. Journals are present for 411. There are 412 agreed PMIDs and six prepub records; five have DOI-shaped cached identifiers and one retains a URL as SOURCE_ID. Six prepub pages display conflicting PUBMED-labelled numbers; preserve these page assertions without promoting them to verified PMIDs.
+## Maintained enrichment outputs
 
-607 supplementary-link mentions are stored across the publications. They are asset metadata, not 607 established experimental datasets.
+| Resource | Shared canonical file / workbook |
+| --- | --- |
+| PubMed | `pubmed-enrichment.json.gz` / `PubMed-Enrichment.xlsx` |
+| PMC | `pmc-enrichment.json.gz` / `PMC-Enrichment.xlsx` |
+| GEO | `geo-enrichment.json.gz` / `GEO-Enrichment.xlsx` |
+| ENA | `ena-enrichment.json.gz` / `ENA-Enrichment.xlsx` |
+| BioStudies | `biostudies-enrichment.json.gz` / `BioStudies-Enrichment.xlsx` |
+| Figshare | `figshare-enrichment.json.gz` / `Figshare-Enrichment.xlsx` |
+| Mendeley Data | `mendeley-data-enrichment.json.gz` / `Mendeley-Data-Enrichment.xlsx`; saved source run in `mendeley-data-enrichment/run-20261107-title-complete/`. |
+| Library | `library-enrichment.json.gz` / `Library-Enrichment.xlsx`; separate status/checkpoint in `library-enrichment/run-20261112/`. |
 
-## [DB3] Joins and provenance
-Join screen-index SCREEN_ID to publication-screen-links SCREEN_ID, then links PUBLICATION_ID to publication-index PUBLICATION_ID. SOURCE_TYPE/SOURCE_ID remains an independent identifier/provenance pair. A publication association is not proof of any screen-repository dataset relationship.
+Resource source-run folders retain native evidence and provenance. Original
+PubMed batches in `pubmed-enrichment-source/` remain eligible GEO cache inputs.
+`enrichment-runs/` retains completed historical synthesis/source bundles;
+`biostudies-migration/` preserves the compressed ArrayExpress replacement evidence.
+These are saved evidence, not enabled ORCS collection/search commands.
 
-- [Publication manifest](publication-index.manifest.json): schema, counts, source version, input/file hashes and collection policy.
-- [Publication verification](publication-verification.json): complete screen coverage, unique IDs, source re-parsing and JSON/CSV agreement.
-- [Publication source snapshots](publication-source/README.md): saved metadata headers, browse response, homepage observation and durable request receipts.
-- screen-index.manifest.json, download-receipt.json, relocation.json and cache-summary.json: original screen source provenance and verification.
-- metadata-service-vocabularies.json and its manifest: byte-exact saved service vocabulary snapshot.
-- The superseded five-screen website feasibility sample is externally archived
-  with unchanged bytes and a SHA-256/path receipt; production discovery does not
-  depend on it. See the current release-preparation note.
+The separate resource registry is
+[../identifiers/supplemental-index-registry.json](../identifiers/supplemental-index-registry.json).
+Retired ID allocations remain reserved so old references cannot be reassigned.
 
-The existing screen index and CSV were not changed by this task. No gene-level results, screen score endpoints, publication-screen downloads, supplementary contents or external bibliographic pages were retrieved.
+## Use and limits
 
-## [DB4] Repeatable collection and planning
-The local collector is python -m deathmap_ai.orcs_publications with src on PYTHONPATH. It resumes data/orcs/publication-source/20261004-v01, uses bounded reads and per-request timeouts, waits one second between page attempts, and permits at most three cumulative attempts per page. Successful receipt/header pairs are reused with hash checks; incomplete capture does not publish a complete database.
+See the [enrichment guides](<../../docs/development/v02 - ORCS Pilot Enrichment/README.md>).
+JSON is the machine-readable source; Excel is a derived review view. Repository
+associations, file links and counts do not establish qualifying screen content,
+ownership or exhaustive coverage. Experimental files were not downloaded.
 
-For a later resource refresh, create a new dated collection and retain the original snapshot. The current collector implements this dated collection, not a generalized refresh scheduler.
+The completed eight-source synthesis is `Enrichment-Synthesis.xlsx`: 418
+publications, one master and 27 source sheets. `enrichment-synthesis.json.gz`
+preserves the canonical tables; `Enrichment-Synthesis.manifest.json` records
+source hashes, unresolved retrieval issues and export verification.
+The supplied 28-sheet template
+is registered as `Enrichment-Synthesis-Template.xlsx`.
 
-The [complete enrichment workflow](enrichment-runs/20261018/README.md) documents independently runnable repository stages and offline synthesis. Shared catalogs remain independent of the saved search filters.
+Standalone publisher API outputs are retired in favor of the library workflow.
+Superseded synthesis previews and intermediate exports are removed. Retired code, search outputs,
+logs and historical cleanup archives have been removed from this repository;
+recovery material is external and is not a runtime dependency.
 
-## [DB4] Completed PubMed enrichment
-
-The current publication index contains 418 records with 415 verified PMIDs. The shared [PubMed database](pubmed-enrichment.json), [Excel view](PubMed-Enrichment.xlsx), and [manifest](pubmed-enrichment.manifest.json) preserve retrieved publication metadata, direct GEO/BioProject associations, SRA accessions, MeSH pairs and unresolved entries. Three records without verified PMIDs remain unresolved. The earlier 412-PMID extraction counts above describe the source-page extraction before identifier enrichment. See [retrieval and interpretation](enrichment-runs/20261018/README.md). Native batch responses and hashes are retained under `pubmed-enrichment-source/20261008/`.
-
-## [DB5] Completed GEO metadata enrichment
-
-The owner-authorized 2026-10-11 pass completed all 418 publications. It identified
-503 distinct GSE candidates across 171 publications (519 publication–GSE
-associations) and retrieved all 22,139 distinct GSM metadata records. The
-[canonical database](geo-enrichment.json), [approved-template workbook](GEO-Enrichment.xlsx)
-and [manifest](geo-enrichment.manifest.json) retain native metadata and candidate
-relationships; ownership and qualifying screen roles remain unassessed.
-[Native responses and receipts](geo-enrichment-source/20261011/README.md) are
-preserved separately. See [pipeline command and interpretation](enrichment-runs/20261018/README.md).
-
-## [DB6] Complete enrichment and synthesis — 2026-10-18
-The [versioned complete run](enrichment-runs/20261018/README.md) starts from all 418 saved ORCS publications, produces each repository workbook and the final 21-sheet Enrichment-Synthesis workbook. It uses the [persistent enrichment publication registry](enrichment-publication-registry.json), including three publications without PMIDs. Previous shared databases and workbooks remain unchanged. Follow the [maintained commands](enrichment-runs/20261018/README.md) to reproduce the stages without a ChatGPT-specific builder.
-
-## [DB7] PMC supplemental enrichment - 2026-10-28
-
-All 418 publications were processed, including 364 with PMCIDs, with zero retrieval
-issues. The [workbook](PMC-Supplemental-Enrichment.xlsx),
-[canonical metadata](pmc-supplemental-enrichment.json) and
-[manifest](PMC-Supplemental-Enrichment.manifest.json) retain 2,353 supplementary
-entries across 329 publications and 3,895 cloud file records. The 2,233 unmatched
-cloud records remain available, including figures and potentially useful workbooks.
-File availability does not establish relevance to a qualifying screen.
-[Native evidence](pmc-supplemental-enrichment/20261028/README.md) is packaged separately.
-No supplemental contents were downloaded or article prose searched. This independent
-stage is not yet incorporated into the earlier synthesis run.
+Shared enrichment JSON uses gzip. See the [compression options](../../docs/enrichment-synthesis.md#compressed-enrichment-json) for `--compress-json` and reader support.

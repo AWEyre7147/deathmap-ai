@@ -1,0 +1,644 @@
+{
+  "accession": "S-EPMC9450956",
+  "native": {
+    "accno": "S-EPMC9450956",
+    "attributes": [
+      {
+        "name": "DataSource",
+        "value": "Europe PMC"
+      },
+      {
+        "name": "Title",
+        "value": "Ubiquitination and degradation of SUMO1 by small-molecule degraders extends survival of mice with patient-derived tumors."
+      },
+      {
+        "name": "ReleaseDate",
+        "value": "2021-01-01"
+      },
+      {
+        "name": "AttachTo",
+        "value": "EuropePMC"
+      }
+    ],
+    "section": {
+      "type": "Study",
+      "attributes": [
+        {
+          "name": "Title",
+          "value": "Ubiquitination and degradation of SUMO1 by small-molecule degraders extends survival of mice with patient-derived tumors."
+        },
+        {
+          "name": "Abstract",
+          "value": "Discovery of small-molecule degraders that activate ubiquitin ligase–mediated ubiquitination and degradation of targeted oncoproteins in cancer cells has been an elusive therapeutic strategy. Here, we report a cancer cell–based drug screen of the NCI drug-like compounds library that enabled identification of small-molecule degraders of the small ubiquitin-related modifier 1 (SUMO1). Structure-activity relationship studies of analogs of the hit compound CPD1 led to identification of a lead compound HB007 with improved properties and anticancer potency in vitro and in vivo. A genome-scale CRISPR-Cas9 knockout screen identified the substrate receptor F-box protein 42 (FBXO42) of cullin 1 (CUL1) E3 ubiquitin ligase as required for HB007 activity. Using HB007 pull-down proteomics assays, we pinpointed HB007’s binding protein as the cytoplasmic activation/proliferation-associated protein 1 (CAPRIN1). Biolayer interferometry and compound competitive immunoblot assays confirmed the selectivity of HB007’s binding to CAPRIN1. When bound to CAPRIN1, HB007 induced the interaction of CAPRIN1 with FBXO42. FBXO42 then recruited SUMO1 to the CAPRIN1-CUL1-FBXO42 ubiquitin ligase complex, where SUMO1 was ubiquitinated in several of human cancer cells. HB007 selectively degraded SUMO1 in patient tumor–derived xenografts implanted into mice. Systemic administration of HB007 inhibited the progression of patient-derived brain, breast, colon, and lung cancers in mice and increased survival of the animals. This cancer cell–based screening approach enabled discovery of a small-molecule degrader of SUMO1 and may be useful for identifying other small-molecule degraders of oncoproteins."
+        }
+      ],
+      "files": [
+        {
+          "path": "NIHMS1831349-supplement-Data_File_S1.xlsx",
+          "size": 2066289,
+          "type": "file"
+        },
+        {
+          "path": "NIHMS1831349-supplement-Data_File_S2.xlsx",
+          "size": 145108,
+          "type": "file"
+        },
+        {
+          "path": "NIHMS1831349-supplement-scitranslmed_abh1486_sm.pdf",
+          "size": 3111540,
+          "type": "file"
+        }
+      ],
+      "subsections": [
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "NCI NIH HHS"
+            },
+            {
+              "name": "grant_id",
+              "value": "R01 CA203893"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "NCI NIH HHS"
+            },
+            {
+              "name": "grant_id",
+              "value": "R43 CA224461"
+            }
+          ]
+        },
+        {
+          "type": "Publication",
+          "attributes": [
+            {
+              "name": "Journal",
+              "value": "Science translational medicine"
+            },
+            {
+              "name": "Volume",
+              "value": "13(615)"
+            },
+            {
+              "name": "Pages",
+              "value": "eabh1486"
+            },
+            {
+              "name": "Publication date",
+              "value": "2021 Oct"
+            }
+          ],
+          "links": [
+            [
+              {
+                "url": "10.1126/scitranslmed.abh1486",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "DOI"
+                  }
+                ]
+              },
+              {
+                "url": "10.1126/scitranslmed.abh1486",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "DOI"
+                  }
+                ]
+              },
+              {
+                "url": "PMC9450956",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "PMC"
+                  }
+                ]
+              },
+              {
+                "url": "34644148",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "PMID"
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "accno": "a1",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Bellail AC"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a2",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Jin HR"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a3",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Lo HY"
+            },
+            {
+              "name": "affiliation",
+              "value": "o2",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a4",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Jung SH"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a5",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Hamdouchi C"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0002-9625-6566"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a6",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Kim D"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a7",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Higgins RK"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a8",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Blanck M"
+            },
+            {
+              "name": "affiliation",
+              "value": "o3",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a9",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "le Sage C"
+            },
+            {
+              "name": "affiliation",
+              "value": "o3",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a10",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Cross BCS"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0003-1065-3139"
+            },
+            {
+              "name": "affiliation",
+              "value": "o3",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a11",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Li J"
+            },
+            {
+              "name": "affiliation",
+              "value": "o4",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a12",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Mosley AL"
+            },
+            {
+              "name": "affiliation",
+              "value": "o5",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a13",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Wijeratne AB"
+            },
+            {
+              "name": "affiliation",
+              "value": "o6",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a14",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Jiang W"
+            },
+            {
+              "name": "affiliation",
+              "value": "o7",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a15",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Ghosh M"
+            },
+            {
+              "name": "affiliation",
+              "value": "o7",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a16",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Zhao YQ"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a17",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Hauck PM"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a18",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Shekhar A"
+            },
+            {
+              "name": "affiliation",
+              "value": "o8",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a19",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Hao C"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "o6",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Department of Biochemistry and Molecular Biology, Indiana University School of Medicine, Indianapolis, IN 46202, USA."
+            }
+          ]
+        },
+        {
+          "accno": "o7",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Department of Biological Sciences, Markey Center for Structural Biology, Purdue University, West Lafayette, IN 47907, USA."
+            }
+          ]
+        },
+        {
+          "accno": "o1",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Department of Pathology and Laboratory Medicine, Indiana University School of Medicine, Indianapolis, IN 46202, USA."
+            }
+          ]
+        },
+        {
+          "accno": "o8",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Department of Psychiatry and Indiana Clinical and Translational Sciences Institute, Indiana University School of Medicine, Indianapolis, IN 46202, USA."
+            }
+          ]
+        },
+        {
+          "accno": "o3",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Horizon Discovery, Cambridge, CB25 9TL, UK."
+            }
+          ]
+        },
+        {
+          "accno": "o5",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Indiana University Melvin and Bren Simon Comprehensive Cancer Center, Indianapolis, IN 46202, USA."
+            }
+          ]
+        },
+        {
+          "accno": "o4",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Karmanos Cancer Institute, Wayne State University School of Medicine, Detroit, MI 48201, USA."
+            }
+          ]
+        },
+        {
+          "accno": "o2",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Synovel Laboratory LLC, Danbury, CT 06811, USA."
+            }
+          ]
+        }
+      ]
+    },
+    "type": "submission"
+  },
+  "source": {
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-EPMC9450956",
+    "retrieved_utc": "2026-10-31T00:59:44.590960+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "e58acfdb8a8635ab1f64e8b88602d24276f23b7f45dcc7e96c71637a56a55744",
+    "body": "native/35703b8f9f6a629f8e171d04a9c20caa19082e9058fc7d07c7126111e4102813.body"
+  },
+  "info": {
+    "columns": [
+      {
+        "name": "Name",
+        "title": "Name",
+        "visible": true,
+        "searchable": true,
+        "data": "Name",
+        "defaultContent": ""
+      },
+      {
+        "name": "Size",
+        "title": "Size",
+        "visible": true,
+        "searchable": false,
+        "data": "Size",
+        "defaultContent": ""
+      }
+    ],
+    "files": 3,
+    "httpLink": "https://ftp.ebi.ac.uk/pub/databases/biostudies/S-EPMC/956/S-EPMC9450956",
+    "ftpLink": "ftp://ftp.ebi.ac.uk/pub/databases/biostudies/S-EPMC/956/S-EPMC9450956",
+    "globusLink": "https://app.globus.org/file-manager?origin_id=47772002-3e5b-4fd3-b97c-18cee38d6df2&origin_path=/pub/databases/biostudies/S-EPMC/956/S-EPMC9450956",
+    "isPublic": true,
+    "relPath": "S-EPMC/956/S-EPMC9450956",
+    "hasZippedFolders": false,
+    "views": 0,
+    "released": 1609459200000,
+    "modified": 1745087596154,
+    "sections": [],
+    "sectionFileCounts": {}
+  },
+  "files": [
+    {
+      "path": "NIHMS1831349-supplement-Data_File_S1.xlsx",
+      "size": 2066289,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "NIHMS1831349-supplement-Data_File_S1.xlsx",
+        "size": 2066289,
+        "type": "file"
+      }
+    },
+    {
+      "path": "NIHMS1831349-supplement-Data_File_S2.xlsx",
+      "size": 145108,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "NIHMS1831349-supplement-Data_File_S2.xlsx",
+        "size": 145108,
+        "type": "file"
+      }
+    },
+    {
+      "path": "NIHMS1831349-supplement-scitranslmed_abh1486_sm.pdf",
+      "size": 3111540,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "NIHMS1831349-supplement-scitranslmed_abh1486_sm.pdf",
+        "size": 3111540,
+        "type": "file"
+      }
+    }
+  ],
+  "issues": [],
+  "info_source": {
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-EPMC9450956/info",
+    "retrieved_utc": "2026-10-31T00:59:50.600630+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "c8ccdfe27acbee545e0801177b261560329d9e08c110a88687a1c03441dacc3d",
+    "body": "native/dce0a7b8a32f8b35b019df7baf6b102f5050a373c032781727fdf4fb764b83e2.body"
+  },
+  "links": [
+    {
+      "url": "10.1126/scitranslmed.abh1486",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "DOI"
+        }
+      ]
+    },
+    {
+      "url": "10.1126/scitranslmed.abh1486",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "DOI"
+        }
+      ]
+    },
+    {
+      "url": "PMC9450956",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "PMC"
+        }
+      ]
+    },
+    {
+      "url": "34644148",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "PMID"
+        }
+      ]
+    }
+  ]
+}

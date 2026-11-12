@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0246",
+    "PMID": "30464262",
+    "DOI": "10.1038/s41586-018-0670-5",
+    "PMCID": "PMC7155769",
+    "Title": "DYNLL1 binds to MRE11 to limit DNA end resection in BRCA1-deficient cells.",
+    "ORCS Publication ID": "637",
+    "ORCS Publication Index": "PUB-0246",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC7155769",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41586-018-0670-5%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:25:35.826001+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "dadccd7db28b873776bce4511a4c5e04ee02ba58f3d8a8d10b3d20dd7815e972",
+        "body": "native/18017f0c32b385ecee6e99c7a5bd6d8b072395d670e5a876f156022b450166b0.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7155769",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2230464262%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:25:41.850624+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "5abb97899b96348c2afd5f8459adbbeff9cc7868ebe835b019bbfb843fa93bbd",
+        "body": "native/b9c3ded8beadac8d5c411b51a2d8efa6bebc64cb14f61e613c18d6ab15e8de6b.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7155769",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7155769%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:25:47.840922+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "adb3f16d0918c0bed4a4c71a3f2d2113596fb571ea6b7d9dd91696d368d889a4",
+        "body": "native/fbfb6699ecd73977a406b06672f9127c48d66c33ce4a87446c5eb4d9a808c365.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7155769",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22DYNLL1+binds+to+MRE11+to+limit+DNA+end+resection+in+BRCA1-deficient+cells.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:25:53.862546+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "d90a02f29adfab8ae5f673e480cf9228ff8413d201b86df6d2e65959278e082c",
+        "body": "native/825a724106597eb714aa32e663e9ab0b1fd06ba04081c4b5fee95728b7edb088.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41586-018-0670-5%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2230464262%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7155769%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22DYNLL1+binds+to+MRE11+to+limit+DNA+end+resection+in+BRCA1-deficient+cells.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A30464262&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

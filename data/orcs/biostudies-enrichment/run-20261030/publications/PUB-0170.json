@@ -1,0 +1,37 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0170",
+    "PMID": "32918875",
+    "DOI": "10.1016/j.devcel.2020.08.009",
+    "PMCID": null,
+    "Title": "The Oncogenic PRL Protein Causes Acid Addiction of Cells by Stimulating Lysosomal Exocytosis.",
+    "ORCS Publication ID": "424",
+    "ORCS Publication Index": "PUB-0170",
+    "input_accessions": []
+  },
+  "observations": [],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.devcel.2020.08.009%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2232918875%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22The+Oncogenic+PRL+Protein+Causes+Acid+Addiction+of+Cells+by+Stimulating+Lysosomal+Exocytosis.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A32918875&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

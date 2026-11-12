@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0068",
+    "PMID": "31365872",
+    "DOI": "10.1016/j.celrep.2019.06.079",
+    "PMCID": "PMC6684324",
+    "Title": "CRISPR/Cas9 Screens Reveal Multiple Layers of B cell CD40 Regulation.",
+    "ORCS Publication ID": "167",
+    "ORCS Publication Index": "PUB-0068",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC6684324",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.celrep.2019.06.079%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:30:20.139255+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "1b17b75cac57f3d8a847f7f80a82df19aedb509901521aac21c49ceebb1133a4",
+        "body": "native/a919867b833c1049313af4df85c003e43201e69f56cb65eef028950be57a4f24.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6684324",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231365872%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:30:26.734061+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "e0b30468100660f46dfbd4e9a3f7c82cfbc5ebda8b44f79cc114d48425823b6c",
+        "body": "native/148847c2a7e3764242bac7e955bc9232ec515f5f39bc9b4c5b740ef74173eaa0.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6684324",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6684324%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:30:31.438337+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "f98d9939d742a3796dfb42699e3ed9df40e682700a65369cb78a38ca1e319ddd",
+        "body": "native/757ee8d659f4612ed96d152d3252a2dee555fefd2391dea0184e6d30e94c0308.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6684324",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22CRISPR%2FCas9+Screens+Reveal+Multiple+Layers+of+B+cell+CD40+Regulation.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:30:39.048062+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "eca8e70b5f2a46a48bdf4270cb09b38c2ebdeae7f10cbdfc47c157d95763d36c",
+        "body": "native/fb930b642b59540c020effd32a6508b077e98eae81d9a12883502622091d14e3.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.celrep.2019.06.079%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231365872%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6684324%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22CRISPR%2FCas9+Screens+Reveal+Multiple+Layers+of+B+cell+CD40+Regulation.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A31365872&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

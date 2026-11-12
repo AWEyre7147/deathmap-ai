@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0339",
+    "PMID": "37639469",
+    "DOI": "10.1371/journal.pgen.1010903",
+    "PMCID": "PMC10491399",
+    "Title": "Genetic enhancers of partial PLK1 inhibition reveal hypersensitivity to kinetochore perturbations.",
+    "ORCS Publication ID": "934",
+    "ORCS Publication Index": "PUB-0339",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC10491399",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1371%2Fjournal.pgen.1010903%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:31:36.526203+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "d80b9dd10cc0a7f4da45e51c2a33771f49bbbd25d85c90111e4573cee0a1ca6f",
+        "body": "native/9bf15174f02f3aaa128ad1d3c64d8111d7252e3f560c21a4cdd7d9323f8b5b50.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC10491399",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2237639469%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:31:42.514216+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "b787c7ad7b33e1628ca8fb31fc31a378ff91cc71571afc1f470d91605039a5af",
+        "body": "native/171e249afc11762b2cf3f98c2cc55b61c4865e04c5af72455c3551d0859443c2.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC10491399",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC10491399%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:31:48.766664+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "2adc91cd37281320574c93d65391364914fe99ce2833ffacaf0e05720659dd26",
+        "body": "native/d6cb07fdecd1b3ac66b4d7503a7dc4f6c384597532e03b5cba44741fa079e497.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC10491399",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genetic+enhancers+of+partial+PLK1+inhibition+reveal+hypersensitivity+to+kinetochore+perturbations.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:31:54.773628+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "d877db9d278f7998d145892f125e8edf44bec5647c5c9518ea06c8309512207a",
+        "body": "native/9adbffebf24989b0ef6f046c3953fd0f2e213a6ee7a2a7aaa360358977e2b1ce.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1371%2Fjournal.pgen.1010903%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2237639469%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC10491399%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genetic+enhancers+of+partial+PLK1+inhibition+reveal+hypersensitivity+to+kinetochore+perturbations.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A37639469&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

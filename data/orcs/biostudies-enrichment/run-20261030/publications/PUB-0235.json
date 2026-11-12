@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0235",
+    "PMID": "35421191",
+    "DOI": "10.1371/journal.ppat.1010464",
+    "PMCID": "PMC9041830",
+    "Title": "Inducible CRISPR activation screen for interferon-stimulated genes identifies OAS1 as a SARS-CoV-2 restriction factor.",
+    "ORCS Publication ID": "593",
+    "ORCS Publication Index": "PUB-0235",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC9041830",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1371%2Fjournal.ppat.1010464%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:24:51.829985+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "9835a82e135951becf4099794a958575c52a9b3fe9953886cd6e3eeeddc76240",
+        "body": "native/62ae52486ba26776fc8ee4d8cfa0ab4992f426d15a1c5706defea83c412ba724.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9041830",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2235421191%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:24:57.825794+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "b8e19926334a8d4d181a71d5c72682a4e24b7ef8b2ef9f5912bcfb0fefc09e3a",
+        "body": "native/983865a3597a9994c60b6d2ef6dcf056e4bec06190ecefc27c5d28dca093f27c.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9041830",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9041830%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:25:03.832691+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "c536bec4e9802ce172c55fd71999152a8412cddd04244812150db90d71b3ada9",
+        "body": "native/97b4b0325df932849349f67edeac13a22c7f1af644300e286370697362d01e74.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9041830",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Inducible+CRISPR+activation+screen+for+interferon-stimulated+genes+identifies+OAS1+as+a+SARS-CoV-2+restriction+factor.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:25:09.839018+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "8b07ec7cea1b5139a1faa7f86339d7be3c1a746415701ff82def4573bff8a2d0",
+        "body": "native/fcfc2b909ca87baabaf8cb6fffadacb6feb07723776eca673fb445e46f82f124.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1371%2Fjournal.ppat.1010464%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2235421191%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9041830%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Inducible+CRISPR+activation+screen+for+interferon-stimulated+genes+identifies+OAS1+as+a+SARS-CoV-2+restriction+factor.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A35421191&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

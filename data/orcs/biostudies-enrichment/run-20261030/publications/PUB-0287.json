@@ -1,0 +1,123 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0287",
+    "PMID": "34497417",
+    "DOI": "10.1038/s41586-021-03879-4",
+    "PMCID": "PMC9419706",
+    "Title": "Inter-cellular CRISPR screens reveal regulators of cancer cell phagocytosis.",
+    "ORCS Publication ID": "748",
+    "ORCS Publication Index": "PUB-0287",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC9419706",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41586-021-03879-4%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:28:16.861890+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "602e12bb5c7dd4f4b2fa3f81832141f42cdc0863a86ab18ee1a79459341f523b",
+        "body": "native/d42dddd873fd16508f652e3236a04ebe4e530168a80e44d5a543d320fb3cc891.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC11483360",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2234497417%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:28:22.865980+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "4f99217ba863e730d89f90aa7a10995c741eabd90aeb183025356fd0ec0d581e",
+        "body": "native/211671a37cd744ad543f23a1b3d2bd19817615c6660afcff01efed19f88e14e0.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9419706",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2234497417%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:28:22.865980+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "4f99217ba863e730d89f90aa7a10995c741eabd90aeb183025356fd0ec0d581e",
+        "body": "native/211671a37cd744ad543f23a1b3d2bd19817615c6660afcff01efed19f88e14e0.body"
+      },
+      "locator": "$.hits[1]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9419706",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9419706%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:28:28.861572+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "39b7d83c1c4dd8a0a65a4063c12ce89720034c6ad2f0d48420d46e88040944bf",
+        "body": "native/4f8122252ad7b2de7ab8de6499f8cd081dcd7ffd595e9e10ebc3cf27510e6cff.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9419706",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Inter-cellular+CRISPR+screens+reveal+regulators+of+cancer+cell+phagocytosis.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:28:34.885106+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "2d33f550a0771f113125336b2767a8836211ed6397220ba7e133c8fe7c58ebe7",
+        "body": "native/b95f8bce412296de61063691474a77b1af51f43fb608128e726bd288d942f6fe.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41586-021-03879-4%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2234497417%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9419706%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Inter-cellular+CRISPR+screens+reveal+regulators+of+cancer+cell+phagocytosis.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A34497417&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

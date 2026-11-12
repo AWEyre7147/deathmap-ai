@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0039",
+    "PMID": "28877469",
+    "DOI": "10.1016/j.celrep.2017.08.034",
+    "PMCID": "PMC5699710",
+    "Title": "Autophagy-Independent Lysosomal Targeting Regulated by ULK1/2-FIP200 and ATG9.",
+    "ORCS Publication ID": "73",
+    "ORCS Publication Index": "PUB-0039",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC5699710",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.celrep.2017.08.034%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:28:23.555207+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "c244d2145c66da427788e14a57d214f9e9796382c5cdf1bf19172930a12f89a6",
+        "body": "native/5ed38b2f4c28f6b4867108bdf854700e9f945ee0cdb82e015d49b1d2290dc790.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5699710",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2228877469%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:28:31.314801+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "419630eae02be3701a23436931c9eeb71813912fbd2dd8909a976f31bb9d4576",
+        "body": "native/cb3bc440b9b397c64b0820345ec82ccc3e3958491d2233338b5ab352373cc3fd.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5699710",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC5699710%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:28:37.762248+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "bc14169b156b32a2728614d1f7932e4aa7534759fa06dcbf8df38d24d91ad68e",
+        "body": "native/3ce7adc445727409760b51fa845314cb8b2474570d23ad7d7d62555d2e2e3e1c.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5699710",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Autophagy-Independent+Lysosomal+Targeting+Regulated+by+ULK1%2F2-FIP200+and+ATG9.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:28:44.293798+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "870764f5d0378a08ceb8660bee047ae5c571072120195631b798c3676a14bc4b",
+        "body": "native/55b0db3a67cc52d4ec45202e0d5587246fdb77aeb95a23ada602e6c5069e1b28.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.celrep.2017.08.034%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2228877469%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC5699710%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Autophagy-Independent+Lysosomal+Targeting+Regulated+by+ULK1%2F2-FIP200+and+ATG9.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A28877469&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0353",
+    "PMID": "35763353",
+    "DOI": "10.1172/jci153514",
+    "PMCID": "PMC9374383",
+    "Title": "Degradation of GSPT1 causes TP53-independent cell death in leukemia while sparing normal hematopoietic stem cells.",
+    "ORCS Publication ID": "975",
+    "ORCS Publication Index": "PUB-0353",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC9374383",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1172%2Fjci153514%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:32:34.764137+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "02e4062d8b1007c3e3a575e9809b2bf8229bcde8fec63ded1c9c7a966338f638",
+        "body": "native/df2d84b3cbdf67e8d12b892c4299c351107e11da3eec2c1df9aa613480e28200.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9374383",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2235763353%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:32:40.782521+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "1afc9b73872d004a5c1f2a648f296d52c81bf122c6ac27720f28aaff21f4c696",
+        "body": "native/0faa47786916edba5ab357af8da40890997061d6254e1a93e2a75f72e92cd769.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9374383",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9374383%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:32:46.799557+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "d104085d38c747d4b76e18fe868f44f6ae09943645a454ae8d068ebbc8b3b99b",
+        "body": "native/c3f393357010cab58db468aa0cd4508e6a4ea769a3d2a545f76a300458dfd4ce.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9374383",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Degradation+of+GSPT1+causes+TP53-independent+cell+death+in+leukemia+while+sparing+normal+hematopoietic+stem+cells.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:32:52.795819+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "d72f31b77f3e39bd934d50855430ff638b7d30569a5ed35242db71abe1e14944",
+        "body": "native/7cdbbdfff593457732b821660c726cd24a49ab7de409c9fe839b65ca1c3f9bfc.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1172%2Fjci153514%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2235763353%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9374383%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Degradation+of+GSPT1+causes+TP53-independent+cell+death+in+leukemia+while+sparing+normal+hematopoietic+stem+cells.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A35763353&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

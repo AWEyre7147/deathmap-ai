@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0193",
+    "PMID": "33185187",
+    "DOI": "10.7554/elife.63603",
+    "PMCID": "PMC7685705",
+    "Title": "Genome-wide CRISPR screen identifies noncanonical NF-κB signaling as a regulator of density-dependent proliferation.",
+    "ORCS Publication ID": "487",
+    "ORCS Publication Index": "PUB-0193",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC7685705",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.7554%2Felife.63603%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:22:03.594403+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "a3f1c6d2aa8dc0a042ca9dfafb8359bb67451397cfd612f8a1fc35c9842f1873",
+        "body": "native/c219c381ebc271ffa5d5bd09da946d2994e7bca36d099b7f069fe202be8db8bd.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7685705",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233185187%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:22:09.611095+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "c23f3f621bbb4945e5ff5e942f6bc2fd4dfce85f161bb40bb899c590082b71a3",
+        "body": "native/a567f3c509d3719185b1ca67118c306cfe522f1a715f8ca6f31be81bcb5b02a7.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7685705",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7685705%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:22:15.613269+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "d4e25475a0b23d4f919d3d3541c299d1d6355312298b8d11a71d54055eed35ac",
+        "body": "native/c856650797d651e51d0703f7e4217657387ef60c57b29ef278d87458e113ecb7.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7685705",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+CRISPR+screen+identifies+noncanonical+NF-%CE%BAB+signaling+as+a+regulator+of+density-dependent+proliferation.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:22:21.608975+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "65381afe134ee7df3e8e9488c65bc646d9bd68e93edcb862e6c0818855fb9229",
+        "body": "native/36804e9d8ff924b79f0ef44b591d33173f2b9a451da1a0d2e6d13993d65507c5.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.7554%2Felife.63603%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233185187%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7685705%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+CRISPR+screen+identifies+noncanonical+NF-%CE%BAB+signaling+as+a+regulator+of+density-dependent+proliferation.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A33185187&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

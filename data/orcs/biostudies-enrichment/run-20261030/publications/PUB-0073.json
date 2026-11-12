@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0073",
+    "PMID": "31452512",
+    "DOI": "10.7554/elife.47362",
+    "PMCID": "PMC6713475",
+    "Title": "Systematic identification of cancer cell vulnerabilities to natural killer cell-mediated immune surveillance.",
+    "ORCS Publication ID": "190",
+    "ORCS Publication Index": "PUB-0073",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC6713475",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.7554%2Felife.47362%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:30:39.060200+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "06ec1ad4bc99c915301f3f16332face5ddc973c0014f82004d16d1903fa8f0e2",
+        "body": "native/0388f7857f50795eea60bf5bb82e7712cf20566b15cc601e3adcb90713429b93.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6713475",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231452512%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:30:46.741370+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "d04ce47cfa41f3e47b0a44af9582a0a252d329a167b0cc348307ded5dc5a059f",
+        "body": "native/eccfade3e1243a0e982c133abb36cc08d2bcd6577c28d52d9f0a4e4fe0852680.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6713475",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6713475%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:30:53.649168+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "67ae3495e5848968b596bf54cc83ff9a765c10c5b2fb1efa1de573d70bebfea7",
+        "body": "native/dd86dfb889bae71486d21a4a76c12f4a61f640ec48b2ff28e737e4a9345cf43a.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6713475",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Systematic+identification+of+cancer+cell+vulnerabilities+to+natural+killer+cell-mediated+immune+surveillance.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:31:00.174683+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "e8bd856af980e0c889027529270c862d468dffa66cc58a2fc1d1bf135e2d7bcd",
+        "body": "native/5ece101b16fa6dfe127edd6f08113d0a54577b6ebf68555ab5ca6a63e47dd019.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.7554%2Felife.47362%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231452512%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6713475%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Systematic+identification+of+cancer+cell+vulnerabilities+to+natural+killer+cell-mediated+immune+surveillance.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A31452512&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

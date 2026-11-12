@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0221",
+    "PMID": "29779948",
+    "DOI": "10.1016/j.cell.2018.04.028",
+    "PMCID": "PMC6003881",
+    "Title": "The Eukaryotic Proteome Is Shaped by E3 Ubiquitin Ligases Targeting C-Terminal Degrons.",
+    "ORCS Publication ID": "538",
+    "ORCS Publication Index": "PUB-0221",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC6003881",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.cell.2018.04.028%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:23:52.757006+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "907dcc1105c263261134c01f8e9a1fbe46ececa9aa103b3dedd60257d2f8f48f",
+        "body": "native/583b649afddacf6e6247330ba43406fe48e15f3c51bbd9979298d0ee6fb15217.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6003881",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2229779948%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:23:58.756030+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "394112f3c9df55a262f3af4106a3d4772c947f47b8824e794f314ba10755c0bc",
+        "body": "native/e59532105803a453b169c9b06dabfd0e56fc3b87495604bd70fbe099c78abedb.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6003881",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6003881%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:24:04.790780+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "52706fe8ffc09f5828890d5377908401cc4622d215fe2507f6d77607d3491e37",
+        "body": "native/54c2da5977fbd22137d7c053bd82a1d4251ac58b25b330e1f01599f481b67b92.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6003881",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22The+Eukaryotic+Proteome+Is+Shaped+by+E3+Ubiquitin+Ligases+Targeting+C-Terminal+Degrons.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:24:10.778084+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "e5a1a3b1b41a06a7113fbc5b909019364b89f4f03495775ca6b7f1c16cab97a3",
+        "body": "native/b3f2319e0083a4e9f2ce5fe1fbdceb37f187c5dcaed295a3748cdd54f8af3544.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.cell.2018.04.028%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2229779948%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6003881%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22The+Eukaryotic+Proteome+Is+Shaped+by+E3+Ubiquitin+Ligases+Targeting+C-Terminal+Degrons.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A29779948&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

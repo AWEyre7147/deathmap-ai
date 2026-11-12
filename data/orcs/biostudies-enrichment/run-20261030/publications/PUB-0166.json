@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0166",
+    "PMID": "33147445",
+    "DOI": "10.1016/j.cell.2020.10.030",
+    "PMCID": "PMC7584921",
+    "Title": "Identification of Required Host Factors for SARS-CoV-2 Infection in Human Cells.",
+    "ORCS Publication ID": "415",
+    "ORCS Publication Index": "PUB-0166",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC7584921",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.cell.2020.10.030%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:20:21.739994+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "fea4bac6672620de23290bae9ce52c43668c02be18bdf24a84372a9bf07803e4",
+        "body": "native/00f6b057f943dc77407dd3d07992eda57173934fd7a27179e1021d8809103e98.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7584921",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233147445%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:20:27.754535+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "70bf0322e976623a3fc1820c6db527decddeb38471d9c1203adcbd649a86dffa",
+        "body": "native/80b92c2e3ef45eafb6b85519dd4d3a1104c35c193ef60fb64a5c5709d15957d1.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7584921",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7584921%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:20:33.761416+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "28183dcc15dcc08ec36435fff59c05332f679540b203f757c0a46b313232542d",
+        "body": "native/1872fc94ed12702ba01ed2d6fd46271dae2fb39f83ea9aefd79fdeecaab3e05b.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7584921",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Identification+of+Required+Host+Factors+for+SARS-CoV-2+Infection+in+Human+Cells.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:20:39.597255+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "294160db9526ca533a901bcd132cdd00da0625e302b81b92e4f2f54ef1bc6c0c",
+        "body": "native/b7970eae1af0b70233bf305239eeb15bf9b6ce77954b68872d303bac04f18d81.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.cell.2020.10.030%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233147445%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7584921%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Identification+of+Required+Host+Factors+for+SARS-CoV-2+Infection+in+Human+Cells.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A33147445&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

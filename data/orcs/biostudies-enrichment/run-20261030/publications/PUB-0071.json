@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0071",
+    "PMID": "31300418",
+    "DOI": "10.1182/bloodadvances.2019031732",
+    "PMCID": "PMC6650732",
+    "Title": "Genome-wide CRISPR screens reveal genetic mediators of cereblon modulator toxicity in primary effusion lymphoma.",
+    "ORCS Publication ID": "182",
+    "ORCS Publication Index": "PUB-0071",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC6650732",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1182%2Fbloodadvances.2019031732%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:30:32.453867+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "1dc6ca1c025948cd89d91595944e79c64862e6534db42b5d811b601ecc7e7c6b",
+        "body": "native/ba81c65a3e13f6571af7256057b131141054c8a3abcff25cc0b4c2eae869ee25.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6650732",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231300418%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:30:39.051617+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "3ca5e5a815f0508b97d2e0d18cffb7ecacfc7dd8ba28e43a6ad48df1b57d37f5",
+        "body": "native/f845a30dcd09a434b5ce88a2340fc7dabd16936a4697c466b148ae2cf9d30883.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6650732",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6650732%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:30:46.726399+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "03b0a0513d16744432a6b85cd0000c401839926e38492764deb5f3c198b57f0c",
+        "body": "native/51eecd1e8336ed676a118ab350b89c6d8814ae30b83a897b7a8506392b84b6d3.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6650732",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+CRISPR+screens+reveal+genetic+mediators+of+cereblon+modulator+toxicity+in+primary+effusion+lymphoma.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:30:52.640178+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "b7f3f12d34ed1e88a8a479a76b25f8c8df4bef25aa3744979132fef3a84e2cc9",
+        "body": "native/ef34e14b8e44bc3404beea865b573a20f4d6afa57793e10990be47a39e6c4031.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1182%2Fbloodadvances.2019031732%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231300418%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6650732%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+CRISPR+screens+reveal+genetic+mediators+of+cereblon+modulator+toxicity+in+primary+effusion+lymphoma.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A31300418&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

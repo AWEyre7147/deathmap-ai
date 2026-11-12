@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0255",
+    "PMID": "34805786",
+    "DOI": "10.1016/j.isci.2021.103323",
+    "PMCID": "PMC8581576",
+    "Title": "Genome-wide CRISPR-Cas9 screens identify mechanisms of BET bromodomain inhibitor sensitivity.",
+    "ORCS Publication ID": "650",
+    "ORCS Publication Index": "PUB-0255",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC8581576",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.isci.2021.103323%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:26:07.860612+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "42d55ac18b6822b9dfcd42dc77373fbac218bf7ebd120844a65d7e1c0388aaa6",
+        "body": "native/faccc14e1b2a291b06261909122077c1fcaaaecd67c4d1284b67f66d962c877c.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8581576",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2234805786%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:26:13.863902+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "8633145e7b9cc99dfee42aed07c10c47d65223213f65bd3a140df630b225c8d3",
+        "body": "native/f9a5b48467360c0722905f57e559fcb3ca0f099a5fddf66b0e15f9f8a70782fa.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8581576",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC8581576%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:26:19.873904+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "a1ca401f887bdb821a6d2f6f239d2f96d78ea5abfe7f23a0b6af4d25e66b6bef",
+        "body": "native/95b72193f342e8cbbddf2fb970bdd267c7d7feeb66181035c35eaaa57bfd810f.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8581576",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+CRISPR-Cas9+screens+identify+mechanisms+of+BET+bromodomain+inhibitor+sensitivity.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:26:25.875085+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "de36a9180eb47af049721832adf828fb8bfb5393920a4ce56c5f8a30bbaa02ad",
+        "body": "native/821a6adc2d275ef973110650cf75a8d1f7c2b6306f13579413aa37a528dd770b.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.isci.2021.103323%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2234805786%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC8581576%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+CRISPR-Cas9+screens+identify+mechanisms+of+BET+bromodomain+inhibitor+sensitivity.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A34805786&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

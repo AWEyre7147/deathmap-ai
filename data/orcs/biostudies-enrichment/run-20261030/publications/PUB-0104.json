@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0104",
+    "PMID": "27383988",
+    "DOI": "10.1038/nature18625",
+    "PMCID": "PMC4945490",
+    "Title": "A CRISPR screen defines a signal peptide processing pathway required by flaviviruses.",
+    "ORCS Publication ID": "296",
+    "ORCS Publication Index": "PUB-0104",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC4945490",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fnature18625%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:32:48.247024+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "0e8a95ffdd11e3569641a4af80f14b90e4a469aebfeb5c5626df9dead8ad2a5d",
+        "body": "native/41e7d50c378ad199ef09bf4f404d6899712bbd6e21c1fce506439948efe42e59.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC4945490",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2227383988%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:32:55.221576+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "03134a425b8d517f99b32102a34189ab647e827b6f3259891273e2a2e0bf165e",
+        "body": "native/8bd851b39018fd169394fbf43ca9d49fcad1e823e9656561e07f621e095b5551.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC4945490",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC4945490%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:32:58.642339+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "4a1ed90295cdd90b63d61d1a98026fc118d576c779fe68311048eae7ff4506b0",
+        "body": "native/440f46c663d906e0ec2127282690877743f3856b62fb94d4c5481af6555fedaf.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC4945490",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+CRISPR+screen+defines+a+signal+peptide+processing+pathway+required+by+flaviviruses.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:33:02.293496+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "bb02fde71adaded6e56d2528ee28a1b3f9a0727620267ffeec5255ce4fec2336",
+        "body": "native/b3a7ff7421262c96439c9993c19fdb16d364073d7ae9357d345dacc9d2fe100c.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fnature18625%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2227383988%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC4945490%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+CRISPR+screen+defines+a+signal+peptide+processing+pathway+required+by+flaviviruses.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A27383988&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

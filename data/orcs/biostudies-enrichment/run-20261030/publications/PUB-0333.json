@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0333",
+    "PMID": "36309510",
+    "DOI": "10.1038/s41467-022-34111-0",
+    "PMCID": "PMC9617049",
+    "Title": "Cellular glycan modification by B3GAT1 broadly restricts influenza virus infection.",
+    "ORCS Publication ID": "909",
+    "ORCS Publication Index": "PUB-0333",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC9617049",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41467-022-34111-0%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:31:12.362690+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "a16e3407ef91733b19b1be50fd30140d9f58463b0b15a9008e4f60ea65073c17",
+        "body": "native/75d695dc337f77338404a4e0d05cee2d58d673a8488916ebf40ce7c9aed07cd4.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9617049",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236309510%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:31:18.362886+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "4b132bc714bfc80241a6fa7d32e3415e3f0581cfb3b8c33c48629d645fe90cc2",
+        "body": "native/d4445405e8df5498541f75484788b1ecb4d05b5cf917118b015c1efcec28b1fb.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9617049",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9617049%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:31:24.526241+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "c77e64be85e7a3575a4ee4f5b5f8948f3a4991fb204ad169027d405822a74c3b",
+        "body": "native/3bd4a30d41a75a220b76c3e1649b1fa801c801f573a61d93c48d9c560f68ca1a.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9617049",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Cellular+glycan+modification+by+B3GAT1+broadly+restricts+influenza+virus+infection.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:31:30.515589+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "c0ca5f9262baa44944ccc0a77644a5ac4184ba0d70df786ed5f13d1060f81749",
+        "body": "native/520eab5db19049c9847eb3289116d564d7847b6e518fa950e98c31cbfafe62f8.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41467-022-34111-0%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236309510%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9617049%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Cellular+glycan+modification+by+B3GAT1+broadly+restricts+influenza+virus+infection.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A36309510&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

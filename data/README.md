@@ -1,16 +1,15 @@
 # Data directory
 
-- `raw/` is for immutable source downloads and is ignored by Git.
-- `interim/` is for reproducible intermediate transformations and is ignored by Git.
-- `curated/` is for small, manually reviewed benchmark artifacts suitable for
-  version control when they contain no restricted data.
+`orcs/` contains the saved reference publication/screen catalogs and completed
+metadata enrichment evidence. It is not an enabled ORCS collection/search
+workflow. `identifiers/` preserves shared resource-ID allocations; publication
+identities have a separate registry within `orcs/`.
 
-Every curated artifact should document its source identifiers, retrieval date,
-adjudication status, and schema version. Do not place credentials, controlled
-data, or large sequencing files in this repository.
+`icraft/` is isolated external validation material, not a production query input.
+`cellosaurus/` retains reference annotations useful for interpreting saved native
+metadata. Future rule generation and evaluation require their own defined scope.
 
-An ORCS run writes both the immutable native JSON response and a flat
-`orcs-screen-metadata.csv` in its ignored run directory. The CSV is an
-inspection view of descriptive screen metadata, not a download of screen result
-rows. It may include counts and analysis descriptions but must not include gene
-scores, guide counts, matrices, or molecular measurements.
+`raw/` and `interim/`, where used, are local workspaces ignored by Git. Preserve
+native identities and provenance; keep unknown or conflicting values explicit.
+Saved file listings describe experimental assets but do not download their
+contents or establish qualifying-screen attribution.

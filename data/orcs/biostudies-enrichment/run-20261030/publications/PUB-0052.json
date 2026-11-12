@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0052",
+    "PMID": "29478914",
+    "DOI": "10.1016/j.ccell.2018.01.012",
+    "PMCID": "PMC5849534",
+    "Title": "Genome-wide CRISPR-Cas9 Screen Identifies Leukemia-Specific Dependence on a Pre-mRNA Metabolic Pathway Regulated by DCPS.",
+    "ORCS Publication ID": "107",
+    "ORCS Publication Index": "PUB-0052",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC5849534",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.ccell.2018.01.012%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:29:09.903732+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "c5393c9bab29fb7e399a94e6f094eff64ad555008870ac72db239ba4df864a1a",
+        "body": "native/99f95baa19d827baf7302821d2aa961d1f3bb1dbe98d02079ccaaa4f656f6fbd.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5849534",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2229478914%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:29:17.105406+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "3cb067894e3757b697a6ae86d5da781e99fb18592132c0ee2e68adeadbeeb2b9",
+        "body": "native/9f54ae5d4bc7ee303eaaa2201ba0a0231d00067c2a42c6055bbd25b8511e4e8c.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5849534",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC5849534%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:29:22.436539+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "2be00ad176cc2e0be44e3d3443eb3d59823c0706dc562888f88d94569e00d4c4",
+        "body": "native/70b87c1743409a84d6481dc68e30b56f1ceb6c0c12f265503a3a7880d22c97e6.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5849534",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+CRISPR-Cas9+Screen+Identifies+Leukemia-Specific+Dependence+on+a+Pre-mRNA+Metabolic+Pathway+Regulated+by+DCPS.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:29:28.447735+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "1f70c23ae91b3d1d13104f8ed8f8362b4ae1569eeb8564ed20fcd6068b86bd12",
+        "body": "native/cd09e95bcaba56907fd773df8aa7e591e0c8bc5c7cae1ceb8d417ce7db1984d8.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.ccell.2018.01.012%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2229478914%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC5849534%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+CRISPR-Cas9+Screen+Identifies+Leukemia-Specific+Dependence+on+a+Pre-mRNA+Metabolic+Pathway+Regulated+by+DCPS.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A29478914&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

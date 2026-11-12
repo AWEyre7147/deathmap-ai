@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0101",
+    "PMID": "32649862",
+    "DOI": "10.1016/j.cell.2020.05.040",
+    "PMCID": "PMC7384976",
+    "Title": "A Genetic Map of the Response to DNA Damage in Human Cells.",
+    "ORCS Publication ID": "281",
+    "ORCS Publication Index": "PUB-0101",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC7384976",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.cell.2020.05.040%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:32:36.559273+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "ad841f83a40a50524a5508b505028288ba437f24ffce1d5e66597f470be00fdf",
+        "body": "native/3f0b6b8ea32a45f0629709ae9e6aa8a3a3436c1a420045f80629376840a95261.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7384976",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2232649862%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:32:44.506339+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "eccf87de83d101415417cfee4dc1f00cf37691caed5939a3de4cb909af39da3e",
+        "body": "native/7ff5b2d9b4e9ebf214cc6ba371df999e3f51b5cc72752412a245f3c2ae4db7df.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7384976",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7384976%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:32:47.253643+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "6cb1fbe153cd1e4773bb20192a1311bb4df3749607cab58818806d93dee83f4f",
+        "body": "native/fbb64bb61db21698a4cba272743d7c86280e6b5d7239f74e32afd4a2c358b7db.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7384976",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+Genetic+Map+of+the+Response+to+DNA+Damage+in+Human+Cells.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:32:50.564233+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "cb1d78f491e14ca3cf348731e5d8fc1df35fca4712264ec835521c5f4a284e2d",
+        "body": "native/fde99711c6bfe71839b4515fbd5d967c0f2dbd204a1e3bf31ed89c7d95566ff3.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.cell.2020.05.040%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2232649862%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7384976%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+Genetic+Map+of+the+Response+to+DNA+Damage+in+Human+Cells.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A32649862&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0152",
+    "PMID": "31048320",
+    "DOI": "10.1158/2159-8290.cd-19-0125",
+    "PMCID": "PMC6606338",
+    "Title": "The TP53 Apoptotic Network Is a Primary Mediator of Resistance to BCL2 Inhibition in AML Cells.",
+    "ORCS Publication ID": "385",
+    "ORCS Publication Index": "PUB-0152",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC6606338",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1158%2F2159-8290.cd-19-0125%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:35:45.359862+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "ca9275a2bdf4aad2688eb15ef6f7e1a2ebe8fbaa22f8ac9590f2f8cda108862f",
+        "body": "native/86f632cc1352a04a978df2aee4c26ae445b0c68cf65b68f0184088c5ca4a81d7.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6606338",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231048320%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:35:48.913200+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "5b9f274ddea263bf2e3e842f2cafe5364f5ba990c1e02ef0d057b3cab0d5351a",
+        "body": "native/787abc415935aa48f02378ec5c62818805d759be4a3eed874fc6303ca88bb999.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6606338",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6606338%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:35:53.989261+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "91416dc2b4b7ff4f011b6f16ed4a77c0d3239395f222c0a2e6dd6ed39bbabb4b",
+        "body": "native/12e61f23a329e65372048f08adf6330475ff071ea0fdd3c03420b9a25251e8ec.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6606338",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22The+TP53+Apoptotic+Network+Is+a+Primary+Mediator+of+Resistance+to+BCL2+Inhibition+in+AML+Cells.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:35:57.017097+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "d0fa24fd8184a4885a1ad2ded1ab8b87b76dbba527212972652b258533fdd252",
+        "body": "native/456e966a2a6a624769217f5ce171ed428c6d0f0950bdcc74aaf5704a23bb363f.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1158%2F2159-8290.cd-19-0125%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231048320%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6606338%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22The+TP53+Apoptotic+Network+Is+a+Primary+Mediator+of+Resistance+to+BCL2+Inhibition+in+AML+Cells.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A31048320&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

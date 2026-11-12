@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0155",
+    "PMID": "31587919",
+    "DOI": "10.1016/j.neuron.2019.09.003",
+    "PMCID": "PMC6895427",
+    "Title": "CRISPR-Cas9 Screens Identify the RNA Helicase DDX3X as a Repressor of C9ORF72 (GGGGCC)n Repeat-Associated Non-AUG Translation.",
+    "ORCS Publication ID": "390",
+    "ORCS Publication Index": "PUB-0155",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC6895427",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.neuron.2019.09.003%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:19:46.262579+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "256533b15696f44f0d627795f153ab12ec6be7bdf47d9166fe054ceec2ce4370",
+        "body": "native/b9f6f374157e44cf127568f2db7de9f05a5cae2c3f6a2dbe9511d3b72f0c0658.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6895427",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231587919%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:19:47.271287+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "8fd8ce822caab11eddcc660917b684181bf2fbb1e8e99bb4dd1e2a9ac7722f03",
+        "body": "native/4ab3896807a0c10f8d2a96a26f4f65bd4f4fd8963de6f7d36e9fea85b0edba37.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6895427",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6895427%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:19:52.724932+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "c6c86a22631e2003ae94513100f7c599d61b7486e798edbb6a8208d78b3072da",
+        "body": "native/3708bf395270ae031207b5ebc5c7c4df035902bb2aa925fb6e71df67cf29aa56.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6895427",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22CRISPR-Cas9+Screens+Identify+the+RNA+Helicase+DDX3X+as+a+Repressor+of+C9ORF72+%28GGGGCC%29n+Repeat-Associated+Non-AUG+Translation.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:19:58.715544+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "e9829b013711c091c2a99b565e1707ce3910b3cea1215eb8408d58d94b986028",
+        "body": "native/4e7da5f6b8b9bc8356b42f14b40fe7d7fc9faf155753986b1236c3b33706478e.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.neuron.2019.09.003%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231587919%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6895427%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22CRISPR-Cas9+Screens+Identify+the+RNA+Helicase+DDX3X+as+a+Repressor+of+C9ORF72+%28GGGGCC%29n+Repeat-Associated+Non-AUG+Translation.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A31587919&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

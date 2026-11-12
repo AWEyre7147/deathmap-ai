@@ -5,6 +5,7 @@ publication/Series/sample boundaries. This module does not classify screens or
 fetch article bodies or experimental files. Prior PubMed enrichment is optional;
 verified native caches are reused when available.
 """
+from .json_storage import load_json, resolve_json_path
 from collections import defaultdict
 from datetime import datetime, timezone
 import hashlib
@@ -43,7 +44,7 @@ class _Collection:
 
 
     def _load(self, path):
-        return json.loads(path.read_text(encoding='utf-8-sig'))
+        return load_json(path)
 
 
     def _key(self, url):
@@ -56,13 +57,39 @@ class _Collection:
         self.native._inventory(self.root, self.cache_roots)
         # Keep exact GEO response reuse independent of temporary development runs.
         paths = sorted((self.root / 'data/orcs/geo-enrichment-source').glob('**/requests.json'))
+        paths += sorted((self.root / 'data/orcs/geo-enrichment').glob('**/requests.json'))
         paths += sorted((self.root / 'outputs/geo').glob('**/requests.json'))
         paths += [p for cache in self.cache_roots for p in Path(cache).rglob('requests.json')]
         for path in paths:
             for receipt in self._load(path):
                 member = receipt.get('file') or receipt.get('raw_file')
                 if member and receipt.get('sha256') and not receipt.get('error'):
-                    self.cache[self._key(receipt['url'])] = (path.parent / member, receipt)
+                    self.cache[self._key(receipt['url'])] = (path.parent / member, receipt, path.parent)
+
+    def _preserve_cached_parents(self, parents, prior_base):
+        """Keep native evidence behind reused selections within the new run."""
+        retained = []
+        for parent in parents:
+            if not re.fullmatch(r'[0-9a-f]{64}', parent['sha256']):
+                raise ValueError('Invalid cached parent hash')
+            target = self.base / 'saved-sources' / (parent['sha256'] + Path(parent['file']).suffix)
+            if target.exists():
+                body = target.read_bytes()
+            else:
+                candidates = [base / parent['file'] for base in (prior_base, *prior_base.parents)]
+                if parent.get('original_file'):
+                    candidates.append(Path(parent['original_file']))
+                source = next((path for path in candidates if path.is_file()), None)
+                if source is None:
+                    raise ValueError('Cached native parent is missing: ' + parent['file'])
+                body = source.read_bytes()
+            if hashlib.sha256(body).hexdigest() != parent['sha256']:
+                raise ValueError('Cached native parent hash mismatch')
+            if not target.exists():
+                target.parent.mkdir(exist_ok=True)
+                target.write_bytes(body)
+            retained.append({**parent, 'file': str(target.relative_to(self.base))})
+        return retained
 
 
     def _get(self, transport, url):
@@ -81,7 +108,7 @@ class _Collection:
             return body, 'raw/' + filename
         match = self.cache.get(self._key(url))
         if match:
-            path, old = match
+            path, old, prior_base = match
             body = path.read_bytes()
             if hashlib.sha256(body).hexdigest() != old['sha256']:
                 raise ValueError('Source cache hash mismatch: ' + str(path))
@@ -92,7 +119,8 @@ class _Collection:
                 'retrieved_utc': old.get('retrieved_utc') or old.get('retrieved_at'),
                 'reused_utc': datetime.now(timezone.utc).isoformat(),
                 'reused_from': str(path), 'original_url': old['url'],
-                **{key: old[key] for key in ('parents', 'response_kind') if key in old}})
+                **{key: old[key] for key in ('response_kind',) if key in old},
+                **({'parents': self._preserve_cached_parents(old['parents'], prior_base)} if old.get('parents') else {})})
             geo._save(transport.folder.parent / 'requests.json', transport.receipts)
             return body, 'raw/' + filename
         existing = len(transport.receipts)
@@ -104,7 +132,7 @@ class _Collection:
         transport.receipts[-1]['file'] = member
         geo._save(transport.folder.parent / 'requests.json', transport.receipts)
         receipt = transport.receipts[-1]
-        self.cache[self._key(url)] = (transport.folder.parent / member, receipt)
+        self.cache[self._key(url)] = (transport.folder.parent / member, receipt, transport.folder.parent)
         return body, member
 
 
@@ -384,7 +412,8 @@ class _Collection:
             tables['Contributors and Contacts'].append(row)
 
 
-def enrich_collection(publication_index, output_dir, *, repository_root=None, phase='all', template=None, cache_roots=()):
+def enrich_collection(publication_index, output_dir, *, repository_root=None, phase='all', template=None, cache_roots=(),
+                      publication_registry=None, index_registry=None):
     """Run or resume a GEO metadata collection using the approved repository template.
 
     Parameters
@@ -400,7 +429,10 @@ def enrich_collection(publication_index, output_dir, *, repository_root=None, ph
         Operational resume stage: all, discover, samples, project or export.
         The default performs every stage and exports one workbook.
     template : Path or str, optional
-        Registered owner GEO template; defaults to data/templates/GEO-Enrichment.xlsx.
+        Registered owner GEO template; defaults to data/templates/GEO-Enrichment-Template.xlsx.
+    publication_registry, index_registry : Path or str, optional
+        Existing publication crosswalk and persistent resource entity registry.
+        Defaults to the corresponding registries beneath repository_root.
 
     Returns
     -------
@@ -464,14 +496,14 @@ def enrich_collection(publication_index, output_dir, *, repository_root=None, ph
         collection._save('geo-enrichment.json', database)
         receipt = {'status': 'projected', 'publications': len(results), 'unique_gses': len(series),
                    'unique_gsms': len(samples), 'source_code_sha256': hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
-                   'database_sha256': hashlib.sha256((collection.base / 'geo-enrichment.json').read_bytes()).hexdigest()}
+                   'database_sha256': hashlib.sha256(resolve_json_path(collection.base / 'geo-enrichment.json').read_bytes()).hexdigest()}
         collection._save('pipeline-projection-receipt.json', receipt)
         if phase == 'project':
             return receipt
-    template = Path(template or root / 'data/templates/GEO-Enrichment.xlsx')
+    template = Path(template or root / 'data/templates/GEO-Enrichment-Template.xlsx')
     output = collection.base / 'GEO-Enrichment.xlsx'
     receipt_path = collection.base / 'workbook-verification.json'
-    database_hash = hashlib.sha256((collection.base / 'geo-enrichment.json').read_bytes()).hexdigest()
+    database_hash = hashlib.sha256(resolve_json_path(collection.base / 'geo-enrichment.json').read_bytes()).hexdigest()
     if output.exists():
         # Resumption verifies the completed workbook rather than exporting again.
         if not receipt_path.exists():
@@ -482,8 +514,14 @@ def enrich_collection(publication_index, output_dir, *, repository_root=None, ph
                 or receipt['database_sha256'] != database_hash):
             raise ValueError('Existing workbook or inputs changed; use a fresh export directory')
         return receipt
-    receipt = export_workbook(template, output, collection._load(collection.base / 'workbook-data.json'))
+    from .geo_indexed_projection import project
+    registry = Path(publication_registry or root / 'data/orcs/enrichment-publication-registry.json')
+    tables = project(collection._load(collection.base / 'geo-enrichment.json'),
+        registry if registry.exists() else None,
+        index_registry or root / 'data/identifiers/supplemental-index-registry.json')
+    receipt = export_workbook(template, output, tables)
     receipt['database_sha256'] = database_hash
+    receipt['projection_code_sha256'] = hashlib.sha256(Path(__file__).with_name('geo_indexed_projection.py').read_bytes()).hexdigest()
     collection._save('workbook-verification.json', receipt)
     return receipt
 
@@ -501,10 +539,13 @@ def main():
     parser.add_argument('--output-dir', required=True, type=Path)
     parser.add_argument('--repository-root', type=Path)
     parser.add_argument('--template', type=Path)
+    parser.add_argument('--registry', type=Path)
+    parser.add_argument('--index-registry', type=Path)
     parser.add_argument('--phase', choices=('all', 'discover', 'samples', 'project', 'export'), default='all')
     args = parser.parse_args()
     print(json.dumps(enrich_collection(args.publication_index, args.output_dir,
-                     repository_root=args.repository_root, phase=args.phase, template=args.template)), flush=True)
+                     repository_root=args.repository_root, phase=args.phase, template=args.template,
+                     publication_registry=args.registry, index_registry=args.index_registry)), flush=True)
 
 
 if __name__ == '__main__':

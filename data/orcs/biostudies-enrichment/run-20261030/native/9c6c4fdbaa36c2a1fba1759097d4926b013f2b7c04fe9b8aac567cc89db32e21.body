@@ -1,0 +1,301 @@
+{
+  "accno" : "S-EPMC6911175",
+  "attributes" : [ {
+    "name" : "DataSource",
+    "value" : "Europe PMC"
+  }, {
+    "name" : "Title",
+    "value" : "Deciphering essential cistromes using genome-wide CRISPR screens."
+  }, {
+    "name" : "ReleaseDate",
+    "value" : "2019-01-01"
+  }, {
+    "name" : "AttachTo",
+    "value" : "EuropePMC"
+  } ],
+  "section" : {
+    "type" : "Study",
+    "attributes" : [ {
+      "name" : "Title",
+      "value" : "Deciphering essential cistromes using genome-wide CRISPR screens."
+    }, {
+      "name" : "Abstract",
+      "value" : "Although millions of transcription factor binding sites, or cistromes, have been identified across the human genome, defining which of these sites is functional in a given condition remains challenging. Using CRISPR/Cas9 knockout screens and gene essentiality or fitness as the readout, we systematically investigated the essentiality of over 10,000 FOXA1 and CTCF binding sites in breast and prostate cancer cells. We found that essential FOXA1 binding sites act as enhancers to orchestrate the expression of nearby essential genes through the binding of lineage-specific transcription factors. In contrast, CRISPR screens of the CTCF cistrome revealed 2 classes of essential binding sites. The first class of essential CTCF binding sites act like FOXA1 sites as enhancers to regulate the expression of nearby essential genes, while a second class of essential CTCF binding sites was identified at topologically associated domain (TAD) boundaries and display distinct characteristics. Using regression methods trained on our screening data and public epigenetic profiles, we developed a model to predict essential <i>cis</i>-elements with high accuracy. The model for FOXA1 essentiality correctly predicts noncoding variants associated with cancer risk and progression. Taken together, CRISPR screens of <i>cis</i>-regulatory elements can define the essential cistrome of a given factor and can inform the development of predictive models of cistrome function."
+    } ],
+    "files" : [ {
+      "path" : "pnas.1908155116.sapp.pdf",
+      "size" : 2480029,
+      "type" : "file"
+    }, {
+      "path" : "pnas.1908155116.sd01.xlsx",
+      "size" : 3804483,
+      "type" : "file"
+    }, {
+      "path" : "pnas.1908155116.sd02.xlsx",
+      "size" : 3694188,
+      "type" : "file"
+    }, {
+      "path" : "pnas.1908155116.sd03.xlsx",
+      "size" : 288450,
+      "type" : "file"
+    }, {
+      "path" : "pnas.1908155116.sd04.xlsx",
+      "size" : 3351053,
+      "type" : "file"
+    }, {
+      "path" : "pnas.1908155116.sd05.xlsx",
+      "size" : 432287,
+      "type" : "file"
+    }, {
+      "path" : "pnas.1908155116.sd06.xlsx",
+      "size" : 336820,
+      "type" : "file"
+    }, {
+      "path" : "pnas.1908155116.sd07.xlsx",
+      "size" : 370197,
+      "type" : "file"
+    }, {
+      "path" : "pnas.1908155116.sd08.xlsx",
+      "size" : 68076,
+      "type" : "file"
+    } ],
+    "links" : [ [ {
+      "url" : "PRJNA434555",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "bioproject"
+      } ]
+    } ] ],
+    "subsections" : [ {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "National Natural Science Foundation of China"
+      }, {
+        "name" : "grant_id",
+        "value" : "31871344"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "HHS | NIH | National Human Genome Research Institute"
+      }, {
+        "name" : "grant_id",
+        "value" : "R01HG008728"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NHGRI NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "R01 HG008728"
+      } ]
+    }, {
+      "type" : "Publication",
+      "attributes" : [ {
+        "name" : "Journal",
+        "value" : "Proceedings of the National Academy of Sciences of the United States of America"
+      }, {
+        "name" : "Volume",
+        "value" : "116(50)"
+      }, {
+        "name" : "Pages",
+        "value" : "25186-25195"
+      }, {
+        "name" : "Publication date",
+        "value" : "2019 Dec"
+      } ],
+      "links" : [ [ {
+        "url" : "10.1073/pnas.1908155116",
+        "attributes" : [ {
+          "name" : "Type",
+          "value" : "DOI"
+        } ]
+      }, {
+        "url" : "PMC6911175",
+        "attributes" : [ {
+          "name" : "Type",
+          "value" : "PMC"
+        } ]
+      }, {
+        "url" : "31727847",
+        "attributes" : [ {
+          "name" : "Type",
+          "value" : "PMID"
+        } ]
+      } ] ]
+    }, {
+      "accno" : "a1",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Fei T"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a2",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Li W"
+      }, {
+        "name" : "affiliation",
+        "value" : "o2",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a3",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Peng J"
+      }, {
+        "name" : "affiliation",
+        "value" : "o3",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a4",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Xiao T"
+      }, {
+        "name" : "affiliation",
+        "value" : "o3",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a5",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Chen CH"
+      }, {
+        "name" : "affiliation",
+        "value" : "o2",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a6",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Wu A"
+      }, {
+        "name" : "affiliation",
+        "value" : "o2",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a7",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Huang J"
+      }, {
+        "name" : "affiliation",
+        "value" : "o4",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a8",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Zang C"
+      }, {
+        "name" : "affiliation",
+        "value" : "o5",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a9",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Liu XS"
+      }, {
+        "name" : "affiliation",
+        "value" : "o6",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a10",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Brown M"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0002-8213-1658"
+      }, {
+        "name" : "affiliation",
+        "value" : "o7",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "o2",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Center for Functional Cancer Epigenetics, Dana-Farber Cancer Institute, Boston, MA 02215"
+      } ]
+    }, {
+      "accno" : "o6",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Center for Functional Cancer Epigenetics, Dana-Farber Cancer Institute, Boston, MA 02215; xsliu@ds.dfci.harvard.edu myles_brown@dfci.harvard.edu"
+      } ]
+    }, {
+      "accno" : "o5",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Center for Public Health Genomics, University of Virginia, Charlottesville, VA 22908"
+      } ]
+    }, {
+      "accno" : "o1",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "College of Life and Health Sciences, Northeastern University, 110819 Shenyang, People's Republic of China"
+      } ]
+    }, {
+      "accno" : "o4",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Department of Data Sciences, Dana-Farber Cancer Institute and Harvard T.H. Chan School of Public Health, Boston, MA 02215"
+      } ]
+    }, {
+      "accno" : "o3",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Division of Molecular and Cellular Oncology, Dana-Farber Cancer Institute, Boston, MA 02215"
+      } ]
+    }, {
+      "accno" : "o7",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Division of Molecular and Cellular Oncology, Dana-Farber Cancer Institute, Boston, MA 02215; xsliu@ds.dfci.harvard.edu myles_brown@dfci.harvard.edu"
+      } ]
+    }, {
+      "type" : "ExtractedLinks",
+      "attributes" : [ {
+        "name" : "Link List",
+        "value" : "S-EPMC6911175_extracted_links.json"
+      } ]
+    } ]
+  },
+  "type" : "submission"
+}

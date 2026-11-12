@@ -1,0 +1,37 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0364",
+    "PMID": "36731340",
+    "DOI": "10.1016/j.biopha.2023.114305",
+    "PMCID": null,
+    "Title": "E3 ubiquitin ligase ASB8 promotes selinexor-induced proteasomal degradation of XPO1.",
+    "ORCS Publication ID": "1016",
+    "ORCS Publication Index": "PUB-0364",
+    "input_accessions": []
+  },
+  "observations": [],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.biopha.2023.114305%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236731340%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22E3+ubiquitin+ligase+ASB8+promotes+selinexor-induced+proteasomal+degradation+of+XPO1.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A36731340&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

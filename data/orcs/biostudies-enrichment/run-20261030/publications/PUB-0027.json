@@ -1,0 +1,37 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0027",
+    "PMID": "28215525",
+    "DOI": "10.1016/j.cels.2017.01.011",
+    "PMCID": null,
+    "Title": "Explicit Modeling of siRNA-Dependent On- and Off-Target Repression Improves the Interpretation of Screening Results.",
+    "ORCS Publication ID": "30",
+    "ORCS Publication Index": "PUB-0027",
+    "input_accessions": []
+  },
+  "observations": [],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.cels.2017.01.011%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2228215525%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Explicit+Modeling+of+siRNA-Dependent+On-+and+Off-Target+Repression+Improves+the+Interpretation+of+Screening+Results.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A28215525&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

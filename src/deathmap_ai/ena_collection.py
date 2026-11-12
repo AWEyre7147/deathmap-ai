@@ -7,6 +7,7 @@ publication links survive separately from discovery observations. Exact cached
 responses preserve their original retrieval date. This is not screen attribution.
 """
 from __future__ import annotations
+from .json_storage import load_json, resolve_json_path
 
 import argparse
 import csv
@@ -38,7 +39,7 @@ REPORT_FIELDS = ['run_accession', 'study_accession', 'secondary_study_accession'
 
 
 def _load(path):
-    return json.loads(Path(path).read_text(encoding='utf-8-sig'))
+    return load_json(path)
 
 
 def _save(path, value):
@@ -351,7 +352,8 @@ def _apply_metadata_only_policy(studies, accessions):
 
 
 def run(root, folder, cache_roots=(), resume=False, metadata_only_projects=(),
-        publication_index=None, geo_database=None, pubmed_database=None, template=None):
+        publication_index=None, geo_database=None, pubmed_database=None, template=None,
+        publication_registry=None, index_registry=None):
     """Enrich all saved ORCS publications in one new or explicitly resumed run.
 
     Parameters
@@ -390,8 +392,9 @@ def run(root, folder, cache_roots=(), resume=False, metadata_only_projects=(),
     for key, value in [('publication-index', publication_index), ('geo-enrichment', geo_database), ('pubmed-enrichment', pubmed_database)]:
         if value is not None:
             paths[key] = Path(value)
+    paths = {name: resolve_json_path(path) for name, path in paths.items()}
     hashes = {name: hashlib.sha256(path.read_bytes()).hexdigest() for name, path in paths.items()}
-    template_path = Path(template or root / 'data/templates/ENA-Enrichment.xlsx')
+    template_path = Path(template or root / 'data/templates/ENA-Enrichment-Template.xlsx')
     template_manifest = _load(template_path.with_suffix('.manifest.json'))
     if hashlib.sha256(template_path.read_bytes()).hexdigest() != template_manifest['sha256']:
         raise ValueError('Registered ENA template hash mismatch')
@@ -411,7 +414,7 @@ def run(root, folder, cache_roots=(), resume=False, metadata_only_projects=(),
         _save(manifest_path, manifest)
         snapshots = folder / 'executed-code'
         snapshots.mkdir(exist_ok=True)
-        for name in ('ena_collection.py', 'ena_projection.py'):
+        for name in ('ena_collection.py', 'ena_projection.py', 'ena_indexed_projection.py', 'enrichment_indices.py'):
             shutil.copyfile(Path(__file__).with_name(name), snapshots / name)
         for name, path in paths.items():
             shutil.copyfile(path, folder / (name + '-input.json'))
@@ -530,7 +533,13 @@ def run(root, folder, cache_roots=(), resume=False, metadata_only_projects=(),
             if number % 20 == 0:
                 _save(folder / 'database.json', database)
                 print(json.dumps({'stage': 'run-reports', 'processed': number, 'total': len(jobs), 'issues': len(database['issues'])}), flush=True)
-    database['rows'] = project(database)
+    # Keep the original native projection for canonical provenance and synthesis.
+    project(database)
+    from .ena_indexed_projection import project as indexed_project
+    from .enrichment_indices import DEFAULT_REGISTRY
+    database['rows'] = indexed_project(database,
+        publication_registry or root / 'data/orcs/enrichment-publication-registry.json',
+        index_registry or DEFAULT_REGISTRY)
     route_sets = {}
     for accession, study in database['studies'].items():
         for observation in study['associations']:
@@ -564,8 +573,11 @@ def main():
     parser.add_argument('--cache-root', type=Path, action='append', default=[])
     parser.add_argument('--resume', action='store_true')
     parser.add_argument('--metadata-only-project', action='append', default=[])
+    parser.add_argument('--publication-registry', type=Path)
+    parser.add_argument('--index-registry', type=Path)
     args = parser.parse_args()
-    run(args.root, args.output_dir, args.cache_root, args.resume, args.metadata_only_project)
+    run(args.root, args.output_dir, args.cache_root, args.resume, args.metadata_only_project,
+        publication_registry=args.publication_registry, index_registry=args.index_registry)
 
 
 if __name__ == '__main__':

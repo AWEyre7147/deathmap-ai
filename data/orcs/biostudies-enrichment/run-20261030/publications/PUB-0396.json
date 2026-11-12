@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0396",
+    "PMID": "34644148",
+    "DOI": "10.1126/scitranslmed.abh1486",
+    "PMCID": "PMC9450956",
+    "Title": "Ubiquitination and degradation of SUMO1 by small-molecule degraders extends survival of mice with patient-derived tumors.",
+    "ORCS Publication ID": "1123",
+    "ORCS Publication Index": "PUB-0396",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC9450956",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1126%2Fscitranslmed.abh1486%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:35:23.978217+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "d82c5728fb1edc29ee69f2db8c7bef15c75cbebac54e0e55bd14d09a412ed06a",
+        "body": "native/7e26f1b750df14bab61a864851a878325a66a93524977c0a13b3e6be1721302f.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9450956",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2234644148%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:35:29.979554+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "44f0748d4bac496044bd1a72637c5c17a01973c008ebb23844cf1c21b20998ef",
+        "body": "native/f317c7d9c16860c63b5c88cc29b70f5587bf5d0f6c12380f92847d70dc3baad8.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9450956",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9450956%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:35:35.974706+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "1f5bca26cdd6ed09815ab2af968cac705f20ea81211f829685e97ee7aa52125f",
+        "body": "native/47f0a297d152ed256f1dd010d3a86c1a2a1f5b7c2111006019c40013cbe51a3a.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9450956",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Ubiquitination+and+degradation+of+SUMO1+by+small-molecule+degraders+extends+survival+of+mice+with+patient-derived+tumors.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:35:41.977320+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "8ae0a4f6d3310c7607adaab0324735f09d6973cbea40874acfd9eb2211ba7c38",
+        "body": "native/d93670fe781f39824e58e5967b1fc2019f19e0a7886cd6062af36bbb5646fd93.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1126%2Fscitranslmed.abh1486%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2234644148%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9450956%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Ubiquitination+and+degradation+of+SUMO1+by+small-molecule+degraders+extends+survival+of+mice+with+patient-derived+tumors.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A34644148&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

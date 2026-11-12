@@ -1,0 +1,54 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0102",
+    "PMID": "31801065",
+    "DOI": "10.1016/j.celrep.2019.10.113",
+    "PMCID": null,
+    "Title": "A Genome-wide CRISPR Screen Identifies ZCCHC14 as a Host Factor Required for Hepatitis B Surface Antigen Production.",
+    "ORCS Publication ID": "284",
+    "ORCS Publication Index": "PUB-0102",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC10985248",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231801065%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:32:44.510943+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "54c12fdb7b91e76395a0f2f7b6a6da7009ed12cc4d035f74f1d107780ba4b637",
+        "body": "native/e080482eec5394ff5764d4b2e9f8376c04759d1e16914e2990fd5450ff1b4a2d.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.celrep.2019.10.113%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231801065%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+Genome-wide+CRISPR+Screen+Identifies+ZCCHC14+as+a+Host+Factor+Required+for+Hepatitis+B+Surface+Antigen+Production.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A31801065&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

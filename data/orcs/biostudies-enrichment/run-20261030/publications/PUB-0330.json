@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0330",
+    "PMID": "36848233",
+    "DOI": "10.1016/j.celrep.2023.112028",
+    "PMCID": "PMC10010011",
+    "Title": "SAYSD1 senses UFMylated ribosome to safeguard co-translational protein translocation at the endoplasmic reticulum.",
+    "ORCS Publication ID": "884",
+    "ORCS Publication Index": "PUB-0330",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC10010011",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.celrep.2023.112028%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:30:59.968425+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "815aa40446ceb76321bedd8df0221c7de09f6f7db8e42652736d2229807a86f2",
+        "body": "native/0b37633576b0b80e43cfd0d24dbe80c537be283eff78fa8939e69fc0325a3c0e.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC10010011",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236848233%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:31:05.991825+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "ec33f5af21f9b7aa56b660d64e398e0193b101b6cb9da72f2acaad71fa394229",
+        "body": "native/f2febb1209d7098954d0b4bd6112979c6962c2bb73ce7e0c770a3dbdeadcebcd.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC10010011",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC10010011%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:31:11.369048+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "06a5a07b488f711a625fda0d25a13dbe02695956aff1e7097bd18e3a3b7e14be",
+        "body": "native/dafcdd2475d376717d208d4bb9263240bda3a0e233808ba9bcbd38f1f3a12c6f.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC10010011",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22SAYSD1+senses+UFMylated+ribosome+to+safeguard+co-translational+protein+translocation+at+the+endoplasmic+reticulum.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:31:16.359992+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "c40295256ea993fda769587a2abd250cec2b31b5c2fa55ae4e896a7fe958072e",
+        "body": "native/6b42fc04129d675be351039da5208d832d2283c2c9a88420884c32df4c33faee.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.celrep.2023.112028%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236848233%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC10010011%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22SAYSD1+senses+UFMylated+ribosome+to+safeguard+co-translational+protein+translocation+at+the+endoplasmic+reticulum.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A36848233&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

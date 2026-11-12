@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0406",
+    "PMID": "37024475",
+    "DOI": "10.1038/s41467-023-37542-5",
+    "PMCID": "PMC10079833",
+    "Title": "PRMT3-mediated arginine methylation of IGF2BP1 promotes oxaliplatin resistance in liver cancer.",
+    "ORCS Publication ID": "1150",
+    "ORCS Publication Index": "PUB-0406",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC10079833",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41467-023-37542-5%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:36:07.988795+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "4a5005b0b2d398c35886a1a355ae8013cc20cdca187c995473e22bfebb21806b",
+        "body": "native/00cbdfcb48145227b0275c66fca398438cc07b469ea50166f6301ce4971d09c9.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC10079833",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2237024475%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:36:14.006151+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "5716d1309641b190577ff3ee5fb4544df258a81c9363df36b2f686e4a03ca60b",
+        "body": "native/9d598a104746df30d930f1e8be2caca112eb0a31655839778e24ddce36e224b8.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC10079833",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC10079833%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:36:20.013798+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "2ee82ccfbb31ca119161ad426105352a04ca7af0a288ed95bdbe05e7056ec823",
+        "body": "native/197dc91749f7abdfd740ebbc2f4203c865f467e07661ce9d8472d69cc5b362cc.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC10079833",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PRMT3-mediated+arginine+methylation+of+IGF2BP1+promotes+oxaliplatin+resistance+in+liver+cancer.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:36:26.025693+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "9583165236efb6cf9330b81d76bb9df9480e5879315351cc3c5b571322114941",
+        "body": "native/a5f2b6e1e37f1b3e1ed64180c2a9eb0432a29023e5d18da8008ec5587b26fd07.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41467-023-37542-5%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2237024475%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC10079833%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PRMT3-mediated+arginine+methylation+of+IGF2BP1+promotes+oxaliplatin+resistance+in+liver+cancer.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A37024475&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

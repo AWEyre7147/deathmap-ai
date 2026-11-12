@@ -1,0 +1,164 @@
+{
+  "accno" : "S-EPMC4900911",
+  "attributes" : [ {
+    "name" : "DataSource",
+    "value" : "Europe PMC"
+  }, {
+    "name" : "Title",
+    "value" : "Systematic comparison of CRISPR/Cas9 and RNAi screens for essential genes."
+  }, {
+    "name" : "ReleaseDate",
+    "value" : "2016-01-01"
+  }, {
+    "name" : "AttachTo",
+    "value" : "EuropePMC"
+  } ],
+  "section" : {
+    "type" : "Study",
+    "attributes" : [ {
+      "name" : "Title",
+      "value" : "Systematic comparison of CRISPR/Cas9 and RNAi screens for essential genes."
+    }, {
+      "name" : "Abstract",
+      "value" : "We compared the ability of short hairpin RNA (shRNA) and CRISPR/Cas9 screens to identify essential genes in the human chronic myelogenous leukemia cell line K562. We found that the precision of the two libraries in detecting essential genes was similar and that combining data from both screens improved performance. Notably, results from the two screens showed little correlation, which can be partially explained by the identification of distinct essential biological processes with each technology."
+    } ],
+    "files" : [ {
+      "path" : "NIHMS777404-supplement-1.doc",
+      "size" : 3638272,
+      "type" : "file"
+    }, {
+      "path" : "NIHMS777404-supplement-2.pdf",
+      "size" : 14475972,
+      "type" : "file"
+    } ],
+    "links" : [ [ {
+      "url" : "PRJNA317269",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "bioproject"
+      } ]
+    }, {
+      "url" : "SRP072806",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "ENA"
+      } ]
+    }, {
+      "url" : "GO:0005832",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "go"
+      } ]
+    } ] ],
+    "subsections" : [ {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NHGRI NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "T32 HG000044"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NICHD NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "DP2 HD084069"
+      } ]
+    }, {
+      "type" : "Publication",
+      "attributes" : [ {
+        "name" : "Journal",
+        "value" : "Nature biotechnology"
+      }, {
+        "name" : "Volume",
+        "value" : "34(6)"
+      }, {
+        "name" : "Pages",
+        "value" : "634-6"
+      }, {
+        "name" : "Publication date",
+        "value" : "2016 Jun"
+      } ],
+      "links" : [ [ {
+        "url" : "10.1038/nbt.3567",
+        "attributes" : [ {
+          "name" : "Type",
+          "value" : "DOI"
+        } ]
+      }, {
+        "url" : "PMC4900911",
+        "attributes" : [ {
+          "name" : "Type",
+          "value" : "PMC"
+        } ]
+      }, {
+        "url" : "27159373",
+        "attributes" : [ {
+          "name" : "Type",
+          "value" : "PMID"
+        } ]
+      } ] ]
+    }, {
+      "accno" : "a1",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Morgens DW"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a2",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Deans RM"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a3",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Li A"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a4",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Bassik MC"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0001-5185-8427"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "o1",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Department of Genetics, Stanford University, Stanford, California, USA"
+      } ]
+    }, {
+      "type" : "ExtractedLinks"
+    } ]
+  },
+  "type" : "submission"
+}

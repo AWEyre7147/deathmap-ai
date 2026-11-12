@@ -1,67 +1,49 @@
-# DeathMap-AI v0.1
+# DeathMap-AI
 
-A metadata discovery and curation pipeline for studies involving CRISPR perturbation. The completed ORCS milestone searches saved BioGRID ORCS metadata with structured filters and Cellosaurus interpretation. PubMed enrichment supplies a shared PMID-led metadata database and repository/publication associations. GEO enrichment supplies Series hierarchy, sample metadata and a shared ORCS database. BioStudies–ArrayExpress enrichment supplies study, protocol, sample and IDF/SDRF metadata. ENA enrichment adds native study and sequencing metadata with explicit broad-project omissions. OmicsDI discovery has been retired.
-
-The biological-classes search has two current profiles: [v01, 2014–2022](searches/orcs/orcs-crispr-biological-classes-pilot-v01.json), retained 1,704 direct-rule candidates and 55 publication companions across 288 publications; [v02, without date bounds](searches/orcs/orcs-crispr-biological-classes-pilot-v02.json), retained 1,830 direct-rule candidates and 56 companions across 328 publications. Both use the same 2,217 cached screens. The owner reported representation of 33/33 ORCS-present comparison publications. This publication-level result does not establish dataset availability or eligibility of every candidate.
+Publication and repository metadata enrichment for scientific review of CRISPR
+perturbation studies. ORCS is retained as a reference database and a saved
+publication cohort, not a supported collection/search product.
 
 ## Run locally
 
-Python 3.11 or later, from the repository root:
+Use Python 3.11+ and install with `python -m pip install -e ".[dev]"`.
+The maintained enrichments are publication accession resolution, PubMed, PMC,
+GEO, ENA, BioStudies, Figshare, Mendeley Data and institutional library collection.
+The library controller additionally requires Node, Playwright and Chrome; its
+current institutional adapter uses OSU access. Publisher article routing is part
+of that collector, not an independent publisher API enrichment stage.
 
-```powershell
-python -m pip install -e ".[dev]"
-python -m pytest -q
-deathmap-search-orcs --profile searches/orcs/orcs-crispr-biological-classes-pilot-v01.json
-```
+Read the [enrichment guides](<docs/development/v02 - ORCS Pilot Enrichment/README.md>)
+for commands/options and the [documentation index](docs/index.md) for project
+specifications. Commands use explicit saved inputs and new output directories.
+No experimental-file contents are downloaded.
 
-Each execution writes canonical metadata to a new UTC-named folder under `outputs/orcs`. It does not refresh sources or download experimental files.
+## Reference data and evidence
 
-The search command exports Excel automatically. Excel export uses the project's Python/openpyxl dependency, without Codex or Node. The owner-finalized repaired template is selected by the active manifest. Export into a new run directory:
+[data/orcs](data/orcs/README.md) preserves the publication/screen reference
+catalogs, source metadata, enriched workbooks and canonical JSON. Publication and
+resource-ID registries remain required for stable cross-resource identities.
+[data/icraft](data/icraft/) remains isolated validation material, not a production
+query dependency. Field definitions remain in the [ORCS vocabulary](docs/orcs/vocabulary/README.md).
 
-```powershell
-deathmap-export-excel <new-run-directory>
-```
+The current library snapshot retains enrichment for 415 of 418 publications,
+with three explicit exceptions. Publication association does not establish which
+dataset contains a qualifying screen. Missing/conflicting links remain evidence.
 
-Existing authored workbooks are refused. See the registered template manifests. Reference-sheet example counts are not measured run counts; consult each run summary.
+## Synthesis and planned evaluation
 
-## Milestone and roadmap
+Offline synthesis combines saved PubMed, PMC, GEO, ENA, BioStudies, Figshare,
+Mendeley Data and Library metadata through the owner's registered 28-sheet
+template. The final workbook is `data/orcs/Enrichment-Synthesis.xlsx`, accompanied
+by `enrichment-synthesis.json.gz` and `Enrichment-Synthesis.manifest.json`.
+See the [synthesis guide](docs/enrichment-synthesis.md) for reproducible usage and
+coverage limits. Superseded previews have been removed; the legacy four-source
+template is archived for historical projections.
 
-[Curated ORCS outputs](outputs/orcs/README.md) retain the latest generated workbook and canonical JSON for each search, with file hashes. The retained runs were generated with the finalized template; earlier reviewed versions are archived. Saved public metadata and templates are included for offline reproducibility. Curated outputs are included in Git; external archives remain local.
+The owner's planned evaluation uses enriched ORCS reference evidence to develop
+screen-selection rules, compare with ICRAFT, and investigate qualifying studies
+after 2022. Rules, evaluation protocol and additional publication discovery are
+future work. Enriching ORCS alone cannot establish coverage of papers absent from
+that reference. No evaluation or new retrieval is started by repository cleanup.
 
-PubMed enrichment retrieves publication metadata and direct GEO, BioProject and SRA associations. See the [shared database](data/orcs/pubmed-enrichment.json), [Excel view](data/orcs/PubMed-Enrichment.xlsx) and [final template](data/templates/PubMed-Enrichment.xlsx).
-
-GEO enrichment processed all 418 ORCS publications, identifying 503 candidate GSEs and preserving 22,139 distinct GSM metadata records. Its [shared database](data/orcs/geo-enrichment.json), [Excel view](data/orcs/GEO-Enrichment.xlsx) and [native source package](data/orcs/geo-enrichment-source/20261011/README.md) are retained for review and response reuse. Candidate associations do not establish dataset ownership or qualifying screen content. Screen attribution and evidence harmonization remain future work. PRIDE, MassIVE, jPOST and iProX remain later resource candidates. A future OmicsDI accession-led lookup remains optional backlog work.
-
-BioStudies–ArrayExpress enrichment processed all 418 publications and found ten candidate studies associated with ten publications (eleven publication–study links). Its [shared database](data/orcs/arrayexpress-enrichment.json), [Excel view](data/orcs/BioStudies-ArrayExpress-Enrichment.xlsx), [source package](data/orcs/arrayexpress-enrichment-source/20261011/) and [final template](data/templates/BioStudies-ArrayExpress-Enrichment.xlsx) retain native evidence, including IDF/SDRF for all ten studies. The active adapter uses complete-title search and Europe PMC accession annotations; quoted DOI search was retired after adding no unique study. The completed run retains its original strategy and source-code snapshots. No experimental contents or publication bodies were retrieved.
-
-ENA enrichment processed all 418 publications and retained 533 candidate project
-records linked through discovery evidence to 191 publications. The
-[workbook](data/orcs/ENA-Enrichment.xlsx), [canonical metadata](data/orcs/ena-enrichment.json),
-[manifest](data/orcs/ena-enrichment.manifest.json) and
-[source package](data/orcs/ena-enrichment-source/20261014/README.md) preserve native
-study metadata and 530 complete run reports, including 16,253 distinct runs.
-Three broad collections retain project metadata and hierarchy without expanding
-collection-wide children; their child counts are blank. Complete-title search
-added 20 candidate associations beyond PMID and saved accession routes. Citation
-conflicts and missing identifiers remain explicit; screen attribution is unassessed.
-The ENA exporter reuses the existing Python template-preserving writer.
-
-Read the [current specifications](docs/specifications/README.md), [resource planning](docs/resources/README.md), and [documentation index](docs/index.md). Code is [MIT licensed](LICENSE); saved third-party metadata retains [upstream terms](THIRD_PARTY_NOTICES.md).
-
-PMC supplemental enrichment processed all 418 ORCS publications, including 364
-with PMCIDs, with no retrieval issues. It retained 2,353 supplementary entries
-across 329 publications and 3,895 cloud file records, including 2,233 without an
-exact supplementary-entry match. The [workbook](data/orcs/PMC-Supplemental-Enrichment.xlsx),
-[canonical metadata](data/orcs/pmc-supplemental-enrichment.json) and
-[source archive](data/orcs/pmc-supplemental-enrichment/20261028/README.md) preserve
-file descriptions, identifiers, links and provenance. These are file inventories,
-not confirmed qualifying datasets. See the [independent collector](src/deathmap_ai/pmc_supplemental_collection.py).
-Supplemental contents were not downloaded; article prose was not searched.
-
-Publication identifiers can be resolved independently of ORCS using `deathmap-resolve-publication`.
-
-An [offline enrichment synthesis pilot](data/orcs/enrichment-runs/20261018/README.md) connects
-saved repository records through persistent publication indices. It preserves
-repository metadata separately and never launches enrichment automatically.
-
-The [complete ORCS enrichment workflow](data/orcs/enrichment-runs/20261018/README.md) is available as independently runnable Python stages (deathmap-enrichment-stage). It produces PubMed, GEO, ArrayExpress and ENA workbooks, then fills the registered synthesis template from saved canonical results. The portable exporter requires no ChatGPT, Codex or Node runtime. See [the 2026-10-18 complete run](data/orcs/enrichment-runs/20261018/README.md).
+[MIT license](LICENSE); third-party metadata retains [upstream terms](THIRD_PARTY_NOTICES.md).

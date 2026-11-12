@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0008",
+    "PMID": "25307932",
+    "DOI": "10.1016/j.cell.2014.09.029",
+    "PMCID": "PMC4253859",
+    "Title": "Genome-Scale CRISPR-Mediated Control of Gene Repression and Activation.",
+    "ORCS Publication ID": "3",
+    "ORCS Publication Index": "PUB-0008",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC4253859",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.cell.2014.09.029%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:25:24.300541+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "ecf2e978ea541d6d847ad8c12a48d38f53498509029d3041a35a5188337e458c",
+        "body": "native/e4d120e003ac3a92c03a5233ddb890d7943fa9ca278b0e76b306551fe2bdba6e.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC4253859",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2225307932%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:25:27.184899+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "57ca8bcb3519043ecb81366d5453b02eb35c01755781e30df091cc5979516cdf",
+        "body": "native/0a416b12323b6afa7dd413da688412de0ac0f795d5862b7ab898cef50f7f427b.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC4253859",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC4253859%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:25:30.283876+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "11176d5d1f969e9df9ed280a8cd81b6689171a9d956b393f22dc3ec0e14c30e2",
+        "body": "native/b0c4b118389a7c171f7da9299172755a4d5dbb7ab88d17abea95b32d704031e1.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC4253859",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-Scale+CRISPR-Mediated+Control+of+Gene+Repression+and+Activation.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:25:32.940229+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "6eb20b38cb58e4b49e3358ae15435d6397414a3b555ec58b3909d6793a26657d",
+        "body": "native/74ce610b28132f7c8209957a710f3fa1d14330221d90504ec34bce06d3d5b77b.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.cell.2014.09.029%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2225307932%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC4253859%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-Scale+CRISPR-Mediated+Control+of+Gene+Repression+and+Activation.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A25307932&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

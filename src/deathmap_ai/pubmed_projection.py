@@ -152,6 +152,7 @@ def project_saved(folder, pmids):
     
     repository=[]
     sra_rows=[]
+    sra_repository=[]
     record_provenance=[]
     for pmid in PMIDS:
         for db in ['gds','bioproject','sra']:
@@ -179,6 +180,10 @@ def project_saved(folder, pmids):
                         element=fragment.find(tag)
                         return element.get('acc','') if element is not None else ''
                     accession=accession_for('Experiment')
+                    sra_repository.append({'PMID': pmid, 'Resource': 'SRA', 'Accession': accession,
+                        'Native Entity Level': 'Experiment',
+                        'Reported Data Type': text(fragment, 'Library_descriptor/LIBRARY_STRATEGY'),
+                        'Title': text(fragment, 'Summary/Title'), 'Description': ''})
                     for run in list(runs) or [None]:
                         sra_rows.append([pmid,accession,accession_for('Study'),accession_for('Sample'),text(fragment,'Biosample'),text(fragment,'Bioproject'),run.get('acc','') if run is not None else ''])
                     for resource,target,kind in [('SRA',accession_for('Study'),'study'),('SRA',accession_for('Sample'),'sample'),('BioSample',text(fragment,'Biosample'),'biosample'),('BioProject',text(fragment,'Bioproject'),'bioproject')]:
@@ -197,4 +202,5 @@ def project_saved(folder, pmids):
     rows_by_sheet={'Publication':publication,'Repository Records':[[r[i] for i in [0,1,2,3,6,4,5]] for r in repository],'SRA Accessions':sra_rows,'MeSH':mesh,'MeSH Links':mesh_links}
     canonical={'selection':SELECTION,'publication_date_basis':'JournalIssue/PubDate; preserve source precision','rows':{k:[[v.isoformat() if isinstance(v,date) else v for v in row] for row in rows] for k,rows in rows_by_sheet.items()},'relationships':relationships,'record_provenance':record_provenance,'issues':issues,'field_evidence':evidence}
     
+    canonical['sra_repository_records'] = sra_repository
     return canonical

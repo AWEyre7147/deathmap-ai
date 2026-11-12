@@ -1,0 +1,261 @@
+{
+  "accno" : "S-EPMC9413708",
+  "attributes" : [ {
+    "name" : "DataSource",
+    "value" : "Europe PMC"
+  }, {
+    "name" : "Title",
+    "value" : "Integrated multi-omics analyses identify key anti-viral host factors and pathways controlling SARS-CoV-2 infection."
+  }, {
+    "name" : "ReleaseDate",
+    "value" : "2022-01-01"
+  }, {
+    "name" : "AttachTo",
+    "value" : "EuropePMC"
+  } ],
+  "section" : {
+    "type" : "Study",
+    "attributes" : [ {
+      "name" : "Title",
+      "value" : "Integrated multi-omics analyses identify key anti-viral host factors and pathways controlling SARS-CoV-2 infection."
+    }, {
+      "name" : "Abstract",
+      "value" : "Host anti-viral factors are essential for controlling SARS-CoV-2 infection but remain largely unknown due to the biases of previous large-scale studies toward pro-viral host factors. To fill in this knowledge gap, we performed a genome-wide CRISPR dropout screen and integrated analyses of the multi-omics data of the CRISPR screen, genome-wide association studies, single-cell RNA-seq, and host-virus proteins or protein/RNA interactome. This study has uncovered many host factors that were missed by previous studies, including the components of V-ATPases, ESCRT, and N-glycosylation pathways that modulated viral entry and/or replication. The cohesin complex was also identified as a novel anti-viral pathway, suggesting an important role of three-dimensional chromatin organization in mediating host-viral interaction. Furthermore, we discovered an anti-viral regulator KLF5, a transcriptional factor involved in sphingolipid metabolism, which was up-regulated and harbored genetic variations linked to the COVID-19 patients with severe symptoms. Our results provide a resource for understanding the host anti-viral network during SARS-CoV-2 infection and may help develop new countermeasure strategies."
+    } ],
+    "files" : [ {
+      "path" : "20220726ExtendedDataFiguresandFigurelegends.pdf",
+      "size" : 19967171,
+      "type" : "file"
+    }, {
+      "path" : "ExtendedDataTable1.xlsx",
+      "size" : 12946,
+      "type" : "file"
+    }, {
+      "path" : "ExtendedDataTable2.xlsx",
+      "size" : 14015,
+      "type" : "file"
+    }, {
+      "path" : "ExtendedDataTable3.xlsx",
+      "size" : 11520,
+      "type" : "file"
+    }, {
+      "path" : "ExtendedDataTable4.xlsx",
+      "size" : 10362,
+      "type" : "file"
+    }, {
+      "path" : "ExtendedDataTable5.xlsx",
+      "size" : 11035,
+      "type" : "file"
+    }, {
+      "path" : "ExtendedDataTable6.xlsx",
+      "size" : 10307,
+      "type" : "file"
+    } ],
+    "subsections" : [ {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NIAID NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "U01 AI151801"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NIAID NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "U19 AI171413"
+      } ]
+    }, {
+      "type" : "Publication",
+      "attributes" : [ {
+        "name" : "Journal",
+        "value" : "Research square"
+      }, {
+        "name" : "Pages",
+        "value" : "rs.3.rs-1910932"
+      }, {
+        "name" : "Publication date",
+        "value" : "2022 Aug"
+      } ],
+      "links" : [ [ {
+        "url" : "10.21203/rs.3.rs-1910932/v1",
+        "attributes" : [ {
+          "name" : "Type",
+          "value" : "DOI"
+        } ]
+      }, {
+        "url" : "PMC9413708",
+        "attributes" : [ {
+          "name" : "Type",
+          "value" : "PMC"
+        } ]
+      }, {
+        "url" : "36032971",
+        "attributes" : [ {
+          "name" : "Type",
+          "value" : "PMID"
+        } ]
+      } ] ]
+    }, {
+      "accno" : "a1",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Hou J"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a2",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Wei Y"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0003-4200-2859"
+      }, {
+        "name" : "affiliation",
+        "value" : "o2",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a3",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Zou J"
+      }, {
+        "name" : "affiliation",
+        "value" : "o3",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a4",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Jaffery R"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a5",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Liang S"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0002-9575-1522"
+      }, {
+        "name" : "affiliation",
+        "value" : "o2",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a6",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Zheng C"
+      }, {
+        "name" : "affiliation",
+        "value" : "o2",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a7",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Chen K"
+      }, {
+        "name" : "affiliation",
+        "value" : "o2",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a8",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Shi PY"
+      }, {
+        "name" : "affiliation",
+        "value" : "o4",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a9",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Chen Y"
+      }, {
+        "name" : "affiliation",
+        "value" : "o2",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a10",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Xie X"
+      }, {
+        "name" : "affiliation",
+        "value" : "o3",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a11",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Peng W"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "o2",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "The University of Texas MD Anderson Cancer Center"
+      } ]
+    }, {
+      "accno" : "o4",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "UTMB"
+      } ]
+    }, {
+      "accno" : "o1",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "University of Houston"
+      } ]
+    }, {
+      "accno" : "o3",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "University of Texas Medical Branch"
+      } ]
+    } ]
+  },
+  "type" : "submission"
+}

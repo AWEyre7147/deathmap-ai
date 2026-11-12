@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0301",
+    "PMID": "36457047",
+    "DOI": "10.1186/s13578-022-00933-0",
+    "PMCID": "PMC9717477",
+    "Title": "In vivo genome-wide CRISPR screening identifies ZNF24 as a negative NF-κB modulator in lung cancer.",
+    "ORCS Publication ID": "821",
+    "ORCS Publication Index": "PUB-0301",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC9717477",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1186%2Fs13578-022-00933-0%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:29:09.902016+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "899b3ce42b79a9189a9d912d63065f365964422dabb3ee8f46d449259363898f",
+        "body": "native/ea43098fb2df00bd96ef1f391a6c55d8821ff60bea5f9450a668f3007f3866e8.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9717477",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236457047%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:29:15.918027+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "97ac2dd3c94c74a32a4b9604b77417ebd4ef994623cf56851881ce9ea91ade2a",
+        "body": "native/60d0af2797ebd0688ea1055f371728b56c7e8e9bed91e5c1be896de8dfbe2a0f.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9717477",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9717477%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:29:21.932518+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "e3d1eaa93e8ddadd81e48caf69f3d4a0fb959781254566b0dfa3d8611181f183",
+        "body": "native/8a7caf80ad6eeb485be2b68600360057a8de7dcc0f0df78e745c05afe4ae53a7.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9717477",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22In+vivo+genome-wide+CRISPR+screening+identifies+ZNF24+as+a+negative+NF-%CE%BAB+modulator+in+lung+cancer.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:29:27.922643+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "22325f0053c6c73661219d1127d917d0ee32a40a369c0c9f7bcc7580fd9a0b76",
+        "body": "native/19d42cc2b898af0c30a6ea9ba73ad5305c81a0b271e0c285a1feee0775c5eb19.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1186%2Fs13578-022-00933-0%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236457047%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9717477%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22In+vivo+genome-wide+CRISPR+screening+identifies+ZNF24+as+a+negative+NF-%CE%BAB+modulator+in+lung+cancer.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A36457047&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

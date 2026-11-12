@@ -1,0 +1,37 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0129",
+    "PMID": "29736038",
+    "DOI": "10.1038/s41564-018-0159-x",
+    "PMCID": null,
+    "Title": "Human CD45 is an F-component-specific receptor for the staphylococcal toxin Panton-Valentine leukocidin.",
+    "ORCS Publication ID": "345",
+    "ORCS Publication Index": "PUB-0129",
+    "input_accessions": []
+  },
+  "observations": [],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41564-018-0159-x%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2229736038%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Human+CD45+is+an+F-component-specific+receptor+for+the+staphylococcal+toxin+Panton-Valentine+leukocidin.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A29736038&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

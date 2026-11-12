@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0347",
+    "PMID": "37758944",
+    "DOI": "10.1038/s41586-023-06564-w",
+    "PMCID": "PMC10567561",
+    "Title": "Assembloid CRISPR screens reveal impact of disease genes in human neurodevelopment.",
+    "ORCS Publication ID": "957",
+    "ORCS Publication Index": "PUB-0347",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC10567561",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41586-023-06564-w%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:32:10.772279+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "00cf973b74229fd913d27def5c21602a782c4081ef26d09886d61074513bb57b",
+        "body": "native/7a94c417740880047b8b7a05c28c3858300c05096b3535686731b4a2f63df13b.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC10567561",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2237758944%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:32:16.768923+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "888891d00767f68edb5a739d945716301711cb5ee21b350e5b00ce987221328e",
+        "body": "native/3f6a11fab74b3c7058283da3ad968347edbc1e74bb61e8aaaf82e02922252732.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC10567561",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC10567561%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:32:22.771234+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "cf44acbdf8629f3caeb34ceed9ba7f8ba7f7ffd0c21e80acb23464402900a60c",
+        "body": "native/ee6ae7f679907caa90a924144cc94dd0c7a28884ef1b8d70ce0f0c3b5163690c.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC10567561",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Assembloid+CRISPR+screens+reveal+impact+of+disease+genes+in+human+neurodevelopment.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:32:28.768324+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "36cb16a350969f38f9a4e60908c5dd61f799b45539197a7110cc09001eaecc1a",
+        "body": "native/55b7fc1cd249c51efe41ea4c8dc686ee5df0d99308018c3e21a99caece89be58.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41586-023-06564-w%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2237758944%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC10567561%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Assembloid+CRISPR+screens+reveal+impact+of+disease+genes+in+human+neurodevelopment.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A37758944&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

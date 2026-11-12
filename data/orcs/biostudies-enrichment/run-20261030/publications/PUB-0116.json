@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0116",
+    "PMID": "32005668",
+    "DOI": "10.1074/jbc.ra119.011191",
+    "PMCID": "PMC7076209",
+    "Title": "Mechanistic insights into cancer cell killing through interaction of phosphodiesterase 3A and schlafen family member 12.",
+    "ORCS Publication ID": "317",
+    "ORCS Publication Index": "PUB-0116",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC7076209",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1074%2Fjbc.ra119.011191%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:33:34.022787+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "098495ed1a9479c0016f1baa1e21c28551dfab18d6bf6169bd9d967c59ed4474",
+        "body": "native/0bc68d8fb5620f8b4250f40ab0b1c9d3cde0bca09d58c4f2a90784c8587b8cb2.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7076209",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2232005668%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:33:38.048317+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "31afa89a9d8e546e8a73c4c3851102e467e474b3deac7cd43fdd65e0e50b2338",
+        "body": "native/f9e2db04dbf636e0193cdfb196a00e48fff8d29429230d704c414d9c40211254.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7076209",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7076209%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:33:41.938015+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "8d763bb3aff6f07ebb66b890f026a215245a0e549b797d14a605ddecfbc6cdd4",
+        "body": "native/b9dd30531ca822bd24219ba7020fd619dae76625c08b6cd21a5f25057659a54a.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7076209",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Mechanistic+insights+into+cancer+cell+killing+through+interaction+of+phosphodiesterase+3A+and+schlafen+family+member+12.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:33:45.584431+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "14466f1fdc0c399841e1e926c6f8f06e1550c1f9d2ed455a5e2f5fa475688986",
+        "body": "native/d4078fdbd3e2d2b4684ae7b6c3dd09119f5d5a7ad8819983f30f9b2ac8c4c1c1.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1074%2Fjbc.ra119.011191%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2232005668%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7076209%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Mechanistic+insights+into+cancer+cell+killing+through+interaction+of+phosphodiesterase+3A+and+schlafen+family+member+12.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A32005668&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

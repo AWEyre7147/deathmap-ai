@@ -1,0 +1,651 @@
+{
+  "accession": "S-EPMC9093107",
+  "native": {
+    "accno": "S-EPMC9093107",
+    "attributes": [
+      {
+        "name": "DataSource",
+        "value": "Europe PMC"
+      },
+      {
+        "name": "Title",
+        "value": "SLC35B2 Acts in a Dual Role in the Host Sulfation Required for EV71 Infection."
+      },
+      {
+        "name": "ReleaseDate",
+        "value": "2022-01-01"
+      },
+      {
+        "name": "AttachTo",
+        "value": "EuropePMC"
+      }
+    ],
+    "section": {
+      "type": "Study",
+      "attributes": [
+        {
+          "name": "Title",
+          "value": "SLC35B2 Acts in a Dual Role in the Host Sulfation Required for EV71 Infection."
+        },
+        {
+          "name": "Abstract",
+          "value": "As an important neurotropic enterovirus, enterovirus 71 (EV71) is occasionally associated with severe neurological diseases and high mortality rates in infants and young children. Understanding the interaction between host factors and EV71 will play a vital role in developing antivirals and optimizing vaccines. Here, we performed a genome-wide CRISPR-Cas9 knockout screen and revealed that scavenger receptor class B member 2 (SCARB2), solute carrier family 35 member B2 (SLC35B2), and beta-1,3-glucuronyltransferase 3 (B3GAT3) are essential in facilitating EV71 replication. Subsequently, the exploration of molecular mechanisms suggested that the knockout of SLC35B2 or B3GAT3, not SCARB2, led to a remarkable decrease in the binding of EV71 to cells and internalization into cells. Furthermore, we found that the infection efficiency for EV71 was positively correlated with the level of host cell sulfation, not simply with the amount of heparan sulfate, suggesting that an unidentified sulfated protein(s) must contribute to EV71 infection. In support of this idea, we screened possible sulfated proteins among the proteinous receptors for EV71 and confirmed that SCARB2 could uniquely interact with both tyrosyl protein sulfotransferases in humans. We then performed mass spectrometric analysis of SCARB2, identifying five sites with tyrosine sulfation. The function verification test indicated that there were more than five tyrosine-sulfated sites on SCARB2. Finally, we constructed a model for EV71 entry in which both heparan sulfate and SCARB2 are regulated by SLC35B2 and act cooperatively to support viral binding, internalization, and uncoating. Taken together, this is the first time that we performed the pooled CRISPR-Cas9 genetic screening to investigate the interplay of host cells and EV71. Furthermore, we found that a novel host factor, SLC35B2, played a dual role in regulating the overall sulfation comprising heparan sulfate sulfation and protein tyrosine sulfation, which are critical for EV71 entry. <b>IMPORTANCE</b> As the most important nonpolio neurotropic enterovirus lacking specific treatments, EV71 can transmit to the central nervous system, leading to severe and fatal neurological complications in infants and young children. The identification of new factors that facilitate or inhibit EV71 replication is crucial to uncover the mechanisms of viral infection and pathogenesis. To date, only a few host factors involved in EV71 infection have been characterized. Herein, we conducted a genome-wide CRISPR-Cas9 functional knockout (GeCKO) screen for the first time to study EV71 in HeLa cells. The screening results are presented as a ranked list of candidates, including 518 hits in the positive selection that facilitate EV71 replication and 1,044 hits in the negative selection that may be essential for cell growth and survival or for suppressing EV71 infection. We subsequently concentrated on the top three hits in the positive selection: SCARB2, SLC35B2, and B3GAT3. The knockout of any of these three genes confers strong resistance against EV71 infection. We confirmed that EV71 infection is codependent on two receptors, heparan sulfate and SCARB2. We also identified a host entry factor, SLC35B2, indirectly facilitating EV71 infection through regulation of the host cell sulfation, and determined a novel posttranslational modification, protein tyrosine sulfation existing in SCARB2. This study revealed that EV71 infectivity exhibits a significant positive correlation with the level of cellular sulfation regulated by SLC35B2. Due to the sulfation pathway being required for many distinct viruses, including but not limited to EV71 and respiratory syncytial virus (RSV), which were tested in this study, SLC35B2 represents a target of broad-spectrum antiviral therapy."
+        }
+      ],
+      "files": [
+        {
+          "path": "jvi.02042-21-s0001.xlsx",
+          "size": 2149840,
+          "type": "file"
+        },
+        {
+          "path": "jvi.02042-21-s0002.xlsx",
+          "size": 8527357,
+          "type": "file"
+        },
+        {
+          "path": "jvi.02042-21-s0003.xlsx",
+          "size": 11935,
+          "type": "file"
+        },
+        {
+          "path": "jvi.02042-21-s0004.pdf",
+          "size": 25378,
+          "type": "file"
+        }
+      ],
+      "links": [
+        [
+          {
+            "url": "NM_005443.5",
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "refseq"
+              }
+            ]
+          },
+          {
+            "url": "NM_012200.4",
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "refseq"
+              }
+            ]
+          },
+          {
+            "url": "NM_005506.4",
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "refseq"
+              }
+            ]
+          },
+          {
+            "url": "NM_178148.4",
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "refseq"
+              }
+            ]
+          },
+          {
+            "url": "NM_001008566.3",
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "refseq"
+              }
+            ]
+          },
+          {
+            "url": "NM_004670.4",
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "refseq"
+              }
+            ]
+          },
+          {
+            "url": "NM_003596.4",
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "refseq"
+              }
+            ]
+          },
+          {
+            "url": "Q8TB61",
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "uniprot"
+              }
+            ]
+          }
+        ]
+      ],
+      "subsections": [
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "MOST | National Key Research and Development Program of China"
+            },
+            {
+              "name": "grant_id",
+              "value": "2021YFC2300702"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "National Natural Science Foundation of China"
+            },
+            {
+              "name": "grant_id",
+              "value": "81871650"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "National Natural Science Foundation of China"
+            },
+            {
+              "name": "grant_id",
+              "value": "82130064"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "MOST | National Key Research and Development Program of China"
+            },
+            {
+              "name": "grant_id",
+              "value": "2021YFC2300200"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "National Natural Science Foundation of China"
+            },
+            {
+              "name": "grant_id",
+              "value": "81825015"
+            }
+          ]
+        },
+        {
+          "type": "Publication",
+          "attributes": [
+            {
+              "name": "Journal",
+              "value": "Journal of virology"
+            },
+            {
+              "name": "Volume",
+              "value": "96(9)"
+            },
+            {
+              "name": "Pages",
+              "value": "e0204221"
+            },
+            {
+              "name": "Publication date",
+              "value": "2022 May"
+            }
+          ],
+          "links": [
+            [
+              {
+                "url": "10.1128/jvi.02042-21",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "DOI"
+                  }
+                ]
+              },
+              {
+                "url": "10.1128/jvi.02042-21",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "DOI"
+                  }
+                ]
+              },
+              {
+                "url": "PMC9093107",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "PMC"
+                  }
+                ]
+              },
+              {
+                "url": "35420441",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "PMID"
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "accno": "a1",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Guo D"
+            },
+            {
+              "name": "ORCID",
+              "value": "0009-0005-5740-7586"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a2",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Yu X"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0002-5809-1211"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a3",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Wang D"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a4",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Li Z"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a5",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Zhou Y"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0002-2102-9377"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a6",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Xu G"
+            },
+            {
+              "name": "affiliation",
+              "value": "o2",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a7",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Yuan B"
+            },
+            {
+              "name": "affiliation",
+              "value": "o2",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a8",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Qin Y"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a9",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Chen M"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "o1",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "State Key Laboratory of Virology and Modern Virology Research Center, College of Life Sciences, Wuhan Universitygrid.49470.3e, Wuhan, China"
+            }
+          ]
+        },
+        {
+          "accno": "o2",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Wuhan Canvest Biotechnology Co., Ltd., Wuhan, Hubei, China"
+            }
+          ]
+        },
+        {
+          "type": "ExtractedLinks",
+          "attributes": [
+            {
+              "name": "Link List",
+              "value": "S-EPMC9093107_extracted_links.json"
+            }
+          ]
+        }
+      ]
+    },
+    "type": "submission"
+  },
+  "source": {
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-EPMC9093107",
+    "retrieved_utc": "2026-10-31T00:58:58.591648+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "dde68714067a0558f9f97d116ca3c25b5068f38c8895af6f1568eb7bf14df4a8",
+    "body": "native/460a4c77fdb14b4d5ffa359029f76b17470de5e3a3e94a716e208f5b05cac644.body"
+  },
+  "info": {
+    "columns": [
+      {
+        "name": "Name",
+        "title": "Name",
+        "visible": true,
+        "searchable": true,
+        "data": "Name",
+        "defaultContent": ""
+      },
+      {
+        "name": "Size",
+        "title": "Size",
+        "visible": true,
+        "searchable": false,
+        "data": "Size",
+        "defaultContent": ""
+      }
+    ],
+    "files": 4,
+    "httpLink": "https://ftp.ebi.ac.uk/pub/databases/biostudies/S-EPMC/107/S-EPMC9093107",
+    "ftpLink": "ftp://ftp.ebi.ac.uk/pub/databases/biostudies/S-EPMC/107/S-EPMC9093107",
+    "globusLink": "https://app.globus.org/file-manager?origin_id=47772002-3e5b-4fd3-b97c-18cee38d6df2&origin_path=/pub/databases/biostudies/S-EPMC/107/S-EPMC9093107",
+    "isPublic": true,
+    "relPath": "S-EPMC/107/S-EPMC9093107",
+    "hasZippedFolders": false,
+    "views": 0,
+    "released": 1640995200000,
+    "modified": 1781503025534,
+    "sections": [],
+    "sectionFileCounts": {}
+  },
+  "files": [
+    {
+      "path": "jvi.02042-21-s0001.xlsx",
+      "size": 2149840,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "jvi.02042-21-s0001.xlsx",
+        "size": 2149840,
+        "type": "file"
+      }
+    },
+    {
+      "path": "jvi.02042-21-s0002.xlsx",
+      "size": 8527357,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "jvi.02042-21-s0002.xlsx",
+        "size": 8527357,
+        "type": "file"
+      }
+    },
+    {
+      "path": "jvi.02042-21-s0003.xlsx",
+      "size": 11935,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "jvi.02042-21-s0003.xlsx",
+        "size": 11935,
+        "type": "file"
+      }
+    },
+    {
+      "path": "jvi.02042-21-s0004.pdf",
+      "size": 25378,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "jvi.02042-21-s0004.pdf",
+        "size": 25378,
+        "type": "file"
+      }
+    }
+  ],
+  "issues": [],
+  "info_source": {
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-EPMC9093107/info",
+    "retrieved_utc": "2026-10-31T00:59:04.596661+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "68fae2f488d6deb7d67ef15362fa7b749edf53486b4ab02f02008ae1660d5260",
+    "body": "native/224c38abc54702dcfa47958ea5311c949011823bc27cc6426615735b3f0a34b8.body"
+  },
+  "links": [
+    {
+      "url": "NM_005443.5",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "refseq"
+        }
+      ]
+    },
+    {
+      "url": "NM_012200.4",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "refseq"
+        }
+      ]
+    },
+    {
+      "url": "NM_005506.4",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "refseq"
+        }
+      ]
+    },
+    {
+      "url": "NM_178148.4",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "refseq"
+        }
+      ]
+    },
+    {
+      "url": "NM_001008566.3",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "refseq"
+        }
+      ]
+    },
+    {
+      "url": "NM_004670.4",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "refseq"
+        }
+      ]
+    },
+    {
+      "url": "NM_003596.4",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "refseq"
+        }
+      ]
+    },
+    {
+      "url": "Q8TB61",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "uniprot"
+        }
+      ]
+    },
+    {
+      "url": "10.1128/jvi.02042-21",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "DOI"
+        }
+      ]
+    },
+    {
+      "url": "10.1128/jvi.02042-21",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "DOI"
+        }
+      ]
+    },
+    {
+      "url": "PMC9093107",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "PMC"
+        }
+      ]
+    },
+    {
+      "url": "35420441",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "PMID"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0343",
+    "PMID": "34108663",
+    "DOI": "10.1038/s41556-021-00688-9",
+    "PMCID": "PMC8890769",
+    "Title": "ELOF1 is a transcription-coupled DNA repair factor that directs RNA polymerase II ubiquitylation.",
+    "ORCS Publication ID": "944",
+    "ORCS Publication Index": "PUB-0343",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC8890769",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41556-021-00688-9%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:31:57.776448+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "37a71b721394420b19c5e3059b9ab531d945a941d44dc781e82691e371242511",
+        "body": "native/bc8d1319d18c2fafa2ecdc98343553824c6386caa0f37e1a1c1c201a530d4fa7.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8890769",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2234108663%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:32:03.775944+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "25796afe4d77558208dccad608713c024b0d9cc544dbc4e4350ce1d50fb8797a",
+        "body": "native/eaec2ac2d280b60d5e51566aa0ee9de2f7025a49778514ccf2eabc5bc1244931.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8890769",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC8890769%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:32:09.769357+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "213679d6069fa5bc5ecee3335ff96e54042d825a4815e1b3cadc9b077538fc63",
+        "body": "native/4f3a3d88fb4b16015b9a782e00e90aed4bc425f286e599b048803d4b435ff59d.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8890769",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22ELOF1+is+a+transcription-coupled+DNA+repair+factor+that+directs+RNA+polymerase+II+ubiquitylation.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:32:15.774862+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "fcf86512f4a7cfff7cf47cbd9b899e03757027cef52506bc4302c675798cdb22",
+        "body": "native/abac93033e0e2893a36fd270b3f2cc3604c07d9938b52fbef434ddaa3cf80173.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41556-021-00688-9%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2234108663%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC8890769%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22ELOF1+is+a+transcription-coupled+DNA+repair+factor+that+directs+RNA+polymerase+II+ubiquitylation.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A34108663&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0041",
+    "PMID": "29576454",
+    "DOI": "10.1016/j.cell.2018.02.037",
+    "PMCID": "PMC6643283",
+    "Title": "Profound Tissue Specificity in Proliferation Control Underlies Cancer Drivers and Aneuploidy Patterns.",
+    "ORCS Publication ID": "77",
+    "ORCS Publication Index": "PUB-0041",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC6643283",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.cell.2018.02.037%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:28:26.786569+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "bcfdd277dedd493409da63cfa6e9845daa14fa6b91389bdaad0f8980c3221dea",
+        "body": "native/dbb427e75751907af82c04369fbb0cade2936d6d3f296d4a3ae7a4f6725e920e.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6643283",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2229576454%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:28:34.301352+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "ad5a11ff4ee10cfdff18e6ef276de555324f07a07c3b9fc47ae9ae4f7387190e",
+        "body": "native/ad9f6a93ed60723bd1b8d1d2363a4b8b923efe48316b5b48e8e28eec68a05e3f.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6643283",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6643283%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:28:40.370732+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "b4944328b5966101365dae517b4ba5ad37a533ad200ecbefe97ea286f468cea0",
+        "body": "native/bb254e2f59824d6c6d0306b94857e58b2811259d1f59619b289890ae56932881.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6643283",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Profound+Tissue+Specificity+in+Proliferation+Control+Underlies+Cancer+Drivers+and+Aneuploidy+Patterns.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:28:48.267238+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "3ed1ac532798e4f3567892d443ab8d6b046159b9250235b55fb193ee9dbf72b8",
+        "body": "native/57584e8938ffaf6cfbba966b844a0ddd60eb550cc3d1058ed70020c403062a73.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.cell.2018.02.037%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2229576454%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6643283%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Profound+Tissue+Specificity+in+Proliferation+Control+Underlies+Cancer+Drivers+and+Aneuploidy+Patterns.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A29576454&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

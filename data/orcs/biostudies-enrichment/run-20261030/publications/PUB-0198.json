@@ -1,0 +1,155 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0198",
+    "PMID": "31903165",
+    "DOI": "10.18632/oncotarget.27361",
+    "PMCID": "PMC6925031",
+    "Title": "CRISPR/Cas9 genome-wide screening identifies KEAP1 as a sorafenib, lenvatinib, and regorafenib sensitivity gene in hepatocellular carcinoma.",
+    "ORCS Publication ID": "498",
+    "ORCS Publication Index": "PUB-0198",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-CMO610",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.18632%2Foncotarget.27361%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:22:23.619563+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "ff98452c9aeaea115b56b4ab4107cf03df1d02a73dd0d7e085ec761e755f592a",
+        "body": "native/00bac5f6c096677d871b96517b65ee3147aec72d4a3a35b473f0c7151d0defb6.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6925031",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.18632%2Foncotarget.27361%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:22:23.619563+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "ff98452c9aeaea115b56b4ab4107cf03df1d02a73dd0d7e085ec761e755f592a",
+        "body": "native/00bac5f6c096677d871b96517b65ee3147aec72d4a3a35b473f0c7151d0defb6.body"
+      },
+      "locator": "$.hits[1]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-CMO610",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231903165%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:22:29.651755+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "58b7049dd9fe7f54097b59a91a2d61eef1aa30c34b998936e21965264deff428",
+        "body": "native/c77e2a756b02dba86f002178fcc8d5b919e59b95b20145cf2bf288e31dca9533.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6925031",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231903165%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:22:29.651755+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "58b7049dd9fe7f54097b59a91a2d61eef1aa30c34b998936e21965264deff428",
+        "body": "native/c77e2a756b02dba86f002178fcc8d5b919e59b95b20145cf2bf288e31dca9533.body"
+      },
+      "locator": "$.hits[1]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6925031",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6925031%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:22:35.640403+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "5bf6455cc89a1757e5894d2883032a1bdad8bb4505c2bdce18e1498dc6ed96a8",
+        "body": "native/d59f8fc4324c3936ebcfe529038b552b7ca9098338c75d8a1731483b7a7d3444.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-CMO610",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22CRISPR%2FCas9+genome-wide+screening+identifies+KEAP1+as+a+sorafenib%2C+lenvatinib%2C+and+regorafenib+sensitivity+gene+in+hepatocellular+carcinoma.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:22:41.639443+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "58f416611eb53d5a3ce64b1c0041372e867964718060f338236239d4dc53cc74",
+        "body": "native/f5a78dc6ae98a87b4a34857ce946360731dd892160e2eb65df4e36413d3b5b2a.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6925031",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22CRISPR%2FCas9+genome-wide+screening+identifies+KEAP1+as+a+sorafenib%2C+lenvatinib%2C+and+regorafenib+sensitivity+gene+in+hepatocellular+carcinoma.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:22:41.639443+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "58f416611eb53d5a3ce64b1c0041372e867964718060f338236239d4dc53cc74",
+        "body": "native/f5a78dc6ae98a87b4a34857ce946360731dd892160e2eb65df4e36413d3b5b2a.body"
+      },
+      "locator": "$.hits[1]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.18632%2Foncotarget.27361%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231903165%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6925031%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22CRISPR%2FCas9+genome-wide+screening+identifies+KEAP1+as+a+sorafenib%2C+lenvatinib%2C+and+regorafenib+sensitivity+gene+in+hepatocellular+carcinoma.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A31903165&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0016",
+    "PMID": "28145866",
+    "DOI": "10.7554/elife.18970",
+    "PMCID": "PMC5305212",
+    "Title": "KEAP1 loss modulates sensitivity to kinase targeted therapy in lung cancer.",
+    "ORCS Publication ID": "13",
+    "ORCS Publication Index": "PUB-0016",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC5305212",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.7554%2Felife.18970%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:26:49.570249+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "12c22ed45ea0156ea1446d9d59c582e486f997a10ccc5754b202a1951eb9a9ef",
+        "body": "native/cd4e2e2a9c3165bc48067c7d3a06e201578e323077adbf5a5dc48e3213286477.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5305212",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2228145866%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:26:56.120429+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "85bf7876f224a6ae57760e24dc1fe3b097e34ff9e76e8eacba9189e9ab28425d",
+        "body": "native/89ea3279a9027b98244ea24cae3a867e71eab4ab148c02cad0774200b541be96.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5305212",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC5305212%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:27:01.094150+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "131cae46e6b554f1e10110a18d06cee3408cc5d5ada0c8f0afce196ead31430a",
+        "body": "native/d3de8bd45baf082bd31ff7947ad2231cd26fbbb2941daeff9f27ebaaee66f706.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5305212",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22KEAP1+loss+modulates+sensitivity+to+kinase+targeted+therapy+in+lung+cancer.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:27:06.958799+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "5cc2048b9a19f4ba3ab313904cfcd0efec23b88484b4595aec2dae9a29f60a0b",
+        "body": "native/08c07c3802740679f1556fa9ff8af976c7759dd3038263fe1e43f975c6ab42f9.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.7554%2Felife.18970%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2228145866%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC5305212%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22KEAP1+loss+modulates+sensitivity+to+kinase+targeted+therapy+in+lung+cancer.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A28145866&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

@@ -1,0 +1,37 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0315",
+    "PMID": "32142663",
+    "DOI": "10.1016/j.stem.2020.02.007",
+    "PMCID": null,
+    "Title": "Genome-Scale CRISPR Screening in Human Intestinal Organoids Identifies Drivers of TGF-β Resistance.",
+    "ORCS Publication ID": "853",
+    "ORCS Publication Index": "PUB-0315",
+    "input_accessions": []
+  },
+  "observations": [],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.stem.2020.02.007%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2232142663%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-Scale+CRISPR+Screening+in+Human+Intestinal+Organoids+Identifies+Drivers+of+TGF-%CE%B2+Resistance.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A32142663&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

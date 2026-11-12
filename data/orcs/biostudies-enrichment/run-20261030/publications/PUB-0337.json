@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0337",
+    "PMID": "35723366",
+    "DOI": "10.3390/cimb44040108",
+    "PMCID": "PMC9164056",
+    "Title": "CRISPR/Cas9 Screening for Identification of Genes Required for the Growth of Ovarian Clear Cell Carcinoma Cells.",
+    "ORCS Publication ID": "922",
+    "ORCS Publication Index": "PUB-0337",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC9164056",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.3390%2Fcimb44040108%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:31:29.514582+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "35d6480ce27e340b6193dde8e7451770ca52447e530a98df7eac6859fbcff4a8",
+        "body": "native/59381cbb1db942cc1f6c327c7f69681ae7461a8ddc51b06fa105cd2719e0d464.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9164056",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2235723366%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:31:35.518200+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "f54af3022d7dc70f613f09ed4bf68071d760993798ea17eadc458713719bc10c",
+        "body": "native/fd0a2b664bf6996c8449676d6a67b6f0f3ca4289bd5f4203d0337515462d7198.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9164056",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9164056%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:31:41.512103+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "8de458c231faae28afbfe533a2800c7e335c12746b7e3134b39b9e0dbecf2277",
+        "body": "native/bfa03c725fe1407c0935682bc7e3bb89386be1a236a759825bf917a3cffa3768.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9164056",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22CRISPR%2FCas9+Screening+for+Identification+of+Genes+Required+for+the+Growth+of+Ovarian+Clear+Cell+Carcinoma+Cells.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:31:47.763979+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "c2463130436ffc1db0d70497d0e71cf5964945264985354290e627b5235843d4",
+        "body": "native/1421ae1fe78aba10531ab218689faebd41862bd6e15e25157c68700571768dc6.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.3390%2Fcimb44040108%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2235723366%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9164056%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22CRISPR%2FCas9+Screening+for+Identification+of+Genes+Required+for+the+Growth+of+Ovarian+Clear+Cell+Carcinoma+Cells.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A35723366&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

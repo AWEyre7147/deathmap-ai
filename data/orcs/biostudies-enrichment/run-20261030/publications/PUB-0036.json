@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0036",
+    "PMID": "29301958",
+    "DOI": "10.1126/science.aao1710",
+    "PMCID": "PMC5953516",
+    "Title": "A major chromatin regulator determines resistance of tumor cells to T cell-mediated killing.",
+    "ORCS Publication ID": "65",
+    "ORCS Publication Index": "PUB-0036",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC5953516",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1126%2Fscience.aao1710%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:28:10.167592+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "27547dfa29ccfe668dbf8692154d14841526c0842e00ace015a1d5ab53c1773a",
+        "body": "native/6018309ae3be3afc3d63cdd5547a1634718c8382a580189bd4738ed517abf323.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5953516",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2229301958%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:28:17.323158+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "d75ff3fb9495ae57806f23257b7e588932bfc37cc7ef939afaed93978b6169b4",
+        "body": "native/feb65befa1971a3f41b00cdd8e2ba39b820c1c3126dfd441759eaeecba9661c5.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5953516",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC5953516%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:28:22.555616+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "d67a8d1d74d992f99950a22e6a75a74253d43ebcb3dad0207b6dcce23d49649e",
+        "body": "native/13c618e78c704802174506579c0f9246fb2630b3fa32f1c43b8673aa702a6934.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5953516",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+major+chromatin+regulator+determines+resistance+of+tumor+cells+to+T+cell-mediated+killing.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:28:26.782764+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "5d15fd5413c515720717bd972599be12bbb75c5864a7360127b7bbb89f56e013",
+        "body": "native/71458468ae5fbfe2a2106c764b58df6af969fbdcb5d4a543bfc3d00924b8e89c.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1126%2Fscience.aao1710%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2229301958%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC5953516%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+major+chromatin+regulator+determines+resistance+of+tumor+cells+to+T+cell-mediated+killing.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A29301958&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

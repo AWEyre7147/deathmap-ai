@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0357",
+    "PMID": "35972292",
+    "DOI": "10.1128/jvi.00707-22",
+    "PMCID": "PMC9472627",
+    "Title": "Selective Polyprotein Processing Determines Norovirus Sensitivity to Trim7.",
+    "ORCS Publication ID": "983",
+    "ORCS Publication Index": "PUB-0357",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC9472627",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1128%2Fjvi.00707-22%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:32:55.796351+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "cdbacf3362c04dfaab26b0f9708e7d64634e60fa21001b6e5d93ad94479ad4d1",
+        "body": "native/279c1c7e6990a2e74648e424a0ead5d79842d576ea1e4c5812023f108f1c8e13.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9472627",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2235972292%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:33:01.801074+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "da0901b120e7125272ac015f351cc761f9947097472a88593dcb98fa7b4d8541",
+        "body": "native/3dfe007d7161724f082e51552a4939b6a29716a0e3f829b7102277dd40c917de.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9472627",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9472627%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:33:07.799577+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "8b314c1cfe552f0d4351ca6fa281a0a279a664b15a14d9867b592acbd166f356",
+        "body": "native/8b888f3b9d244525c17da6dcaefe22dd46dae6e9dc36b07537b6048fd276dfbf.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9472627",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Selective+Polyprotein+Processing+Determines+Norovirus+Sensitivity+to+Trim7.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:33:13.799870+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "dc18371bf866929386da950fc80e9d80f4676ea98c0b40d8d6829ced3f8b8019",
+        "body": "native/01f0886a5b06b1c58a024b748c35a82e8eab0241247ec5fc3bc7952842618ef9.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1128%2Fjvi.00707-22%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2235972292%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9472627%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Selective+Polyprotein+Processing+Determines+Norovirus+Sensitivity+to+Trim7.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A35972292&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

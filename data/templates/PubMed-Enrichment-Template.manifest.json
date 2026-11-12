@@ -1,0 +1,235 @@
+{
+  "schema_version": "enrichment-template/1.0",
+  "name": "PubMed Enrichment",
+  "template": "data/templates/PubMed-Enrichment-Template.xlsx",
+  "sha256": "e7f1aaccf3f45be4a7777bd371fdda73f325b3008aed12b40dee1de162355659",
+  "registered_utc": "2026-11-02T22:40:40.629060+00:00",
+  "index_format": {
+    "Publication Index": "Existing shared PUB index",
+    "PubMed Index": "PMR-0001; native resource and accession",
+    "PubMed SRA Index": "PMS-0001; native SRA experiment and run"
+  },
+  "row_policy": "One publication per association row; MeSH aggregates distinct publication indices",
+  "sheets": [
+    {
+      "name": "Publication",
+      "headers": [
+        "Publication Index",
+        "PMID",
+        "DOI",
+        "PMCID",
+        "Title",
+        "Publication Date"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Publication",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index"
+        },
+        {
+          "header": "PMID",
+          "source_key": "PMID"
+        },
+        {
+          "header": "DOI",
+          "source_key": "DOI"
+        },
+        {
+          "header": "PMCID",
+          "source_key": "PMCID"
+        },
+        {
+          "header": "Title",
+          "source_key": "Title"
+        },
+        {
+          "header": "Publication Date",
+          "source_key": "Publication Date"
+        }
+      ]
+    },
+    {
+      "name": "Repository Records",
+      "headers": [
+        "Publication Index",
+        "PubMed Index",
+        "PubMed Accession",
+        "Resource",
+        "Native Entity Level",
+        "Reported Data Type",
+        "Title",
+        "Description"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Repository Records",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index"
+        },
+        {
+          "header": "PubMed Index",
+          "source_key": "PubMed Index"
+        },
+        {
+          "header": "PubMed Accession",
+          "source_key": "PubMed Accession"
+        },
+        {
+          "header": "Resource",
+          "source_key": "Resource"
+        },
+        {
+          "header": "Native Entity Level",
+          "source_key": "Native Entity Level"
+        },
+        {
+          "header": "Reported Data Type",
+          "source_key": "Reported Data Type"
+        },
+        {
+          "header": "Title",
+          "source_key": "Title"
+        },
+        {
+          "header": "Description",
+          "source_key": "Description"
+        }
+      ]
+    },
+    {
+      "name": "SRA Accessions",
+      "headers": [
+        "Publication Index",
+        "PubMed Index",
+        "PubMed SRA Index",
+        "SRA Experiment Accession",
+        "SRA Study Accession",
+        "SRA Sample Accession",
+        "BioSample Accession",
+        "BioProject Accession",
+        "SRA Run Accession"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "SRA Accessions",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index"
+        },
+        {
+          "header": "PubMed Index",
+          "source_key": "PubMed Index"
+        },
+        {
+          "header": "PubMed SRA Index",
+          "source_key": "PubMed SRA Index"
+        },
+        {
+          "header": "SRA Experiment Accession",
+          "source_key": "SRA Experiment Accession"
+        },
+        {
+          "header": "SRA Study Accession",
+          "source_key": "SRA Study Accession"
+        },
+        {
+          "header": "SRA Sample Accession",
+          "source_key": "SRA Sample Accession"
+        },
+        {
+          "header": "BioSample Accession",
+          "source_key": "BioSample Accession"
+        },
+        {
+          "header": "BioProject Accession",
+          "source_key": "BioProject Accession"
+        },
+        {
+          "header": "SRA Run Accession",
+          "source_key": "SRA Run Accession"
+        }
+      ]
+    },
+    {
+      "name": "MeSH",
+      "headers": [
+        "Descriptor UI",
+        "Descriptor",
+        "Qualifier UI",
+        "Qualifier",
+        "Publication Count",
+        "Associated Publication Index"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "MeSH",
+      "columns": [
+        {
+          "header": "Descriptor UI",
+          "source_key": "Descriptor UI"
+        },
+        {
+          "header": "Descriptor",
+          "source_key": "Descriptor"
+        },
+        {
+          "header": "Qualifier UI",
+          "source_key": "Qualifier UI"
+        },
+        {
+          "header": "Qualifier",
+          "source_key": "Qualifier"
+        },
+        {
+          "header": "Publication Count",
+          "source_key": "Publication Count"
+        },
+        {
+          "header": "Associated Publication Index",
+          "source_key": "Associated Publication Index"
+        }
+      ]
+    },
+    {
+      "name": "MeSH Links",
+      "headers": [
+        "Publication Index",
+        "Descriptor UI",
+        "Qualifier UI",
+        "Descriptor Major Topic",
+        "Qualifier Major Topic"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "MeSH Links",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index"
+        },
+        {
+          "header": "Descriptor UI",
+          "source_key": "Descriptor UI"
+        },
+        {
+          "header": "Qualifier UI",
+          "source_key": "Qualifier UI"
+        },
+        {
+          "header": "Descriptor Major Topic",
+          "source_key": "Descriptor Major Topic"
+        },
+        {
+          "header": "Qualifier Major Topic",
+          "source_key": "Qualifier Major Topic"
+        }
+      ]
+    }
+  ]
+}

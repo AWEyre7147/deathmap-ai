@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0297",
+    "PMID": "36326816",
+    "DOI": "10.7554/elife.79525",
+    "PMCID": "PMC9633064",
+    "Title": "Genome-wide base editor screen identifies regulators of protein abundance in yeast.",
+    "ORCS Publication ID": "777",
+    "ORCS Publication Index": "PUB-0297",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC9633064",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.7554%2Felife.79525%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:28:53.875617+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "5c15c3c0d6fb7f256a43a62c81d736062de7ec61ef27728cf340bb664a26c61b",
+        "body": "native/0ee32458a040af7fd8b94daaa5f09b0d76e74ca5bc72318b8db6fb3ca6b3b248.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9633064",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236326816%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:28:59.886820+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "7e1f619cf5fed7cd17c60d89f3fa6f0c74d9ee8f1a0759da7054a0008a0a3a83",
+        "body": "native/bc0d65ddf79df3bc2bcef2632f2c03c59b2a7c79553a559440b9db569ae1bfeb.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9633064",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9633064%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:29:05.898837+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "34a2d8077c1bae0b5b3a26cdbdd6556c5df6ff5e736f0d21cc536fa390b30b41",
+        "body": "native/b524ac62fcf9c938bacbd998c88636501000380473954637e2a9e00a59b7160b.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9633064",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+base+editor+screen+identifies+regulators+of+protein+abundance+in+yeast.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:29:11.908847+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "04b74a286b6548582bb3fa10019784142a21a8fc922f3aca549eca5b4a0cd01a",
+        "body": "native/28886bf8b66720bec60173a596fc345b6e4186aba10b27220b7054e9ea190855.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.7554%2Felife.79525%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236326816%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9633064%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+base+editor+screen+identifies+regulators+of+protein+abundance+in+yeast.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A36326816&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

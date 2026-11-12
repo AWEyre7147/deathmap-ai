@@ -1,0 +1,37 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0123",
+    "PMID": "31551363",
+    "DOI": "10.1158/0008-5472.can-18-3374",
+    "PMCID": null,
+    "Title": "Genome-Wide CRISPR-Cas9 Screen Reveals Selective Vulnerability of -Mutant Cancers to WEE1 Inhibition.",
+    "ORCS Publication ID": "331",
+    "ORCS Publication Index": "PUB-0123",
+    "input_accessions": []
+  },
+  "observations": [],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1158%2F0008-5472.can-18-3374%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231551363%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-Wide+CRISPR-Cas9+Screen+Reveals+Selective+Vulnerability+of+-Mutant+Cancers+to+WEE1+Inhibition.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A31551363&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

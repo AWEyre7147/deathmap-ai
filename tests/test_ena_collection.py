@@ -13,26 +13,26 @@ class ENATests(unittest.TestCase):
     def test_registered_template_without_dimension_or_views_exports(self):
         from deathmap_ai.ena_workbook import export_workbook
         root = Path(__file__).resolve().parents[1]
-        template = root / 'data/templates/ENA-Enrichment.xlsx'
+        template = root / 'data/templates/ENA-Enrichment-Template.xlsx'
         with tempfile.TemporaryDirectory() as temporary:
             folder = Path(temporary)
             registration = json.loads(template.with_suffix('.manifest.json').read_text(encoding='utf-8'))
-            rows = {s['source_table']: [] for s in registration['sheets']}
-            rows['Studies'] = [{'Study accession': 'PRJNA1', 'Study title': '=literal source', 'Runs in report': 0}]
             source = folder / 'database.json'
-            source.write_text(json.dumps({'status': 'complete_with_omissions', 'rows': rows}), encoding='utf-8')
+            source.write_text(json.dumps({'status': 'complete_with_omissions', 'publications': [],
+                'studies': {'PRJNA1': {'title': '=literal source', 'runs': [], 'associations': [],
+                                     'run_count': 0}}}), encoding='utf-8')
             output = folder / 'result.xlsx'
-            result = export_workbook(source, template, output)
+            result = export_workbook(source, template, output, index_registry=folder / 'indices.json')
             book = openpyxl.load_workbook(output)
-            self.assertEqual(book['Studies']['A2'].value, 'PRJNA1')
+            self.assertEqual(book['Studies']['C2'].value, 'PRJNA1')
             # Bind assertions to native field names so approved column moves do
             # not turn the literal-text and zero-count checks into stale offsets.
             columns = next(s['columns'] for s in registration['sheets'] if s['name'] == 'Studies')
             positions = {c['source_key']: i + 1 for i, c in enumerate(columns)}
-            title = book['Studies'].cell(2, positions['Study title'])
+            title = book['Studies'].cell(2, positions['Study Title'])
             self.assertEqual(title.value, '=literal source')
             self.assertEqual(title.data_type, 's')
-            self.assertEqual(book['Studies'].cell(2, positions['Runs in report']).value, 0)
+            self.assertEqual(book['Studies'].cell(2, positions['Run Count']).value, 0)
             self.assertEqual(result['sheet_rows']['Studies'], 1)
             book.close()
 

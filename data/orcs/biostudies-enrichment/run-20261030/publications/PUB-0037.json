@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0037",
+    "PMID": "28985567",
+    "DOI": "10.1016/j.cell.2017.09.027",
+    "PMCID": "PMC5659841",
+    "Title": "Genetic and Functional Drivers of Diffuse Large B Cell Lymphoma.",
+    "ORCS Publication ID": "67",
+    "ORCS Publication Index": "PUB-0037",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC5659841",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.cell.2017.09.027%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:28:13.230409+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "9187f5e18f6ed0c90ea972b5dcd23d4ed18ad273c14cc6359ff6a592f82e4c68",
+        "body": "native/51e9a4ba882e65df8e13d3e6a190c7cdd66e3866041205e0b2e528448d2532f6.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5659841",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2228985567%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:28:20.505926+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "f0dcd787ce5d9d50293e7244376afeaec4fe922226ad835902c2463d7ff34389",
+        "body": "native/e28b45a2e02bdf793c61f664d634f7fe5060067b67f33bb16fd6cf95ddd248e1.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5659841",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC5659841%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:28:25.768921+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "5e85c48d8d5e84f13b573acb469908621dc836191a9f8aab198f3f678f203235",
+        "body": "native/d168c72a7df94de8e32ac28a605414ce8abf72423ffe3b5831bf5fc29a05b3ef.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5659841",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genetic+and+Functional+Drivers+of+Diffuse+Large+B+Cell+Lymphoma.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:28:31.315902+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "e83b470f2cc278d7e1645c6103fe8db34aac5346edbd86aaeb88da3688700e75",
+        "body": "native/508aeb968fe27074b1498d007aeb3c10273db865722aacbbfed7ca722aaf3cdf.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.cell.2017.09.027%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2228985567%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC5659841%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genetic+and+Functional+Drivers+of+Diffuse+Large+B+Cell+Lymphoma.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A28985567&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

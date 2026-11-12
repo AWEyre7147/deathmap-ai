@@ -1,0 +1,253 @@
+{
+  "schema_version": "enrichment-template/1.0",
+  "name": "Figshare Enrichment",
+  "template": "data/templates/Figshare-Enrichment-Template.xlsx",
+  "source": {
+    "name": "Figshare Enrichment.xlsx",
+    "sha256": "e1e4e40aeb25ae734f839ff77f264d2e4fd8a334af611b616437077bbe71cb3a",
+    "library_file_id": "libfile_f344b4dbb3588191b3d3f2d63122cb4e"
+  },
+  "search_strategy": "Linked-publication DOI only (resource_doi)",
+  "index_format": {
+    "Figshare Item Index": "FGI-0001; native Figshare item ID",
+    "Figshare File Index": "FGF-0001; native item ID and file ID"
+  },
+  "row_policy": "Only retrieved hits; one Publication Index per item/file association row",
+  "sheets": [
+    {
+      "name": "Publications",
+      "headers": [
+        "Publication Index",
+        "DOI",
+        "Title",
+        "Linked Items",
+        "Listed Files",
+        "Keywords",
+        "Tags",
+        "Categories",
+        "License"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Publications",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "width": 26
+        },
+        {
+          "header": "DOI",
+          "source_key": "DOI",
+          "width": 26
+        },
+        {
+          "header": "Title",
+          "source_key": "Title",
+          "width": 55
+        },
+        {
+          "header": "Linked Items",
+          "source_key": "Linked Items",
+          "width": 26
+        },
+        {
+          "header": "Listed Files",
+          "source_key": "Listed Files",
+          "width": 26
+        },
+        {
+          "header": "Keywords",
+          "source_key": "Keywords",
+          "width": 26
+        },
+        {
+          "header": "Tags",
+          "source_key": "Tags",
+          "width": 26
+        },
+        {
+          "header": "Categories",
+          "source_key": "Categories",
+          "width": 26
+        },
+        {
+          "header": "License",
+          "source_key": "License",
+          "width": 26
+        }
+      ]
+    },
+    {
+      "name": "Items",
+      "headers": [
+        "Publication Index",
+        "Figshare Item Index",
+        "Figshare Item ID",
+        "Item DOI",
+        "Title",
+        "Description",
+        "Item Type",
+        "File Types",
+        "Reported Size (Bytes)",
+        "Public",
+        "Confidential",
+        "Metadata Only",
+        "Download Disabled",
+        "Item URL",
+        "Metadata URL"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Items",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "width": 26
+        },
+        {
+          "header": "Figshare Item Index",
+          "source_key": "Figshare Item Index",
+          "width": 26
+        },
+        {
+          "header": "Figshare Item ID",
+          "source_key": "Figshare Item ID",
+          "width": 26
+        },
+        {
+          "header": "Item DOI",
+          "source_key": "Item DOI",
+          "width": 26
+        },
+        {
+          "header": "Title",
+          "source_key": "Title",
+          "width": 55
+        },
+        {
+          "header": "Description",
+          "source_key": "Description",
+          "width": 80
+        },
+        {
+          "header": "Item Type",
+          "source_key": "Item Type",
+          "width": 26
+        },
+        {
+          "header": "File Types",
+          "source_key": "File Types",
+          "width": 26
+        },
+        {
+          "header": "Reported Size (Bytes)",
+          "source_key": "Reported Size (Bytes)",
+          "width": 26
+        },
+        {
+          "header": "Public",
+          "source_key": "Public",
+          "width": 26
+        },
+        {
+          "header": "Confidential",
+          "source_key": "Confidential",
+          "width": 26
+        },
+        {
+          "header": "Metadata Only",
+          "source_key": "Metadata Only",
+          "width": 26
+        },
+        {
+          "header": "Download Disabled",
+          "source_key": "Download Disabled",
+          "width": 26
+        },
+        {
+          "header": "Item URL",
+          "source_key": "Item URL",
+          "width": 55
+        },
+        {
+          "header": "Metadata URL",
+          "source_key": "Metadata URL",
+          "width": 55
+        }
+      ]
+    },
+    {
+      "name": "Files",
+      "headers": [
+        "Publication Index",
+        "Figshare Item Index",
+        "Figshare File Index",
+        "Figshare File ID",
+        "Filename",
+        "File Type",
+        "Size (Bytes)",
+        "Link Only",
+        "Download Disabled",
+        "File URL"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Files",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "width": 26
+        },
+        {
+          "header": "Figshare Item Index",
+          "source_key": "Figshare Item Index",
+          "width": 26
+        },
+        {
+          "header": "Figshare File Index",
+          "source_key": "Figshare File Index",
+          "width": 26
+        },
+        {
+          "header": "Figshare File ID",
+          "source_key": "Figshare File ID",
+          "width": 26
+        },
+        {
+          "header": "Filename",
+          "source_key": "Filename",
+          "width": 26
+        },
+        {
+          "header": "File Type",
+          "source_key": "File Type",
+          "width": 26
+        },
+        {
+          "header": "Size (Bytes)",
+          "source_key": "Size (Bytes)",
+          "width": 26
+        },
+        {
+          "header": "Link Only",
+          "source_key": "Link Only",
+          "width": 26
+        },
+        {
+          "header": "Download Disabled",
+          "source_key": "Download Disabled",
+          "width": 26
+        },
+        {
+          "header": "File URL",
+          "source_key": "File URL",
+          "width": 55
+        }
+      ]
+    }
+  ],
+  "sha256": "0487e50e782164a84f85cfc8e1b5d892bb6673656a518abfa6fa4b428c8996a3"
+}

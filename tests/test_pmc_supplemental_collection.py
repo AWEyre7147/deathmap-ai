@@ -34,6 +34,9 @@ class CollectionTests(unittest.TestCase):
         rows=project([r])
         self.assertEqual(len(rows['Cloud Files']),2)
         self.assertTrue(rows['Cloud Files'][0]['Supplemental Index'])
+        self.assertEqual(rows['Supplementary Entries'][0]['Supplemental Index'], 'PMDX-0001')
+        self.assertEqual(rows['Cloud Files'][0]['Supplemental Index'], 'PMDX-0001')
+        self.assertEqual(rows['Cloud Files'][0]['Cloud Index'], 'PMCL-0001')
         self.assertEqual(rows['Cloud Files'][0]['Caption'],'Screen results All comparisons')
         self.assertIsNone(rows['Cloud Files'][1]['Supplemental Index'])
         self.assertIsNone(rows['Cloud Files'][1]['Caption'])
@@ -50,6 +53,25 @@ class CollectionTests(unittest.TestCase):
 
     def test_identity_conflict_is_explicit(self):
         with self.assertRaises(ValueError):extract_entries(XML,{**PUB,'PMID':'999'})
+
+    def test_persistent_indices_survive_subset_order_and_new_records(self):
+        with patch.object(Transport,'fetch',fake_fetch):
+            record=collect_one(PUB,Transport.__new__(Transport))
+        native_id=record['xml']['supplementary_entries'][0]['Supplemental Index']
+        with tempfile.TemporaryDirectory(dir=ROOT/'outputs') as t:
+            registry=Path(t)/'indices.json'
+            first=project([record],registry)
+            record['cloud_files'].reverse()
+            record['publication']['Publication Index']='PUB-0099'
+            second=project([record],registry)
+            self.assertEqual(first['Supplementary Entries'][0]['Supplemental Index'],second['Supplementary Entries'][0]['Supplemental Index'])
+            self.assertEqual({r['Filename']:r['Cloud Index'] for r in first['Cloud Files']},
+                             {r['Filename']:r['Cloud Index'] for r in second['Cloud Files']})
+            record['cloud_files'].append({'version':'PMC123.2','key':'PMC123.2/supp.xlsx','filename':'supp.xlsx','size':20})
+            third=project([record],registry)
+            self.assertEqual(third['Cloud Files'][-1]['Cloud Index'],'PMCL-0003')
+            self.assertIsNone(third['Cloud Files'][-1]['Supplemental Index'])
+            self.assertEqual(native_id,record['xml']['supplementary_entries'][0]['Supplemental Index'])
 
     def test_registry_crosswalk_does_not_renumber_pilot(self):
         with tempfile.TemporaryDirectory(dir=ROOT/'outputs') as t:
@@ -77,13 +99,13 @@ class CollectionTests(unittest.TestCase):
         with tempfile.TemporaryDirectory(dir=ROOT/'outputs') as t:
             t=Path(t);write_json(t/'input.json',[PUB,{**PUB,'Publication Index':'PUB-0002','PMCID':None}])
             with patch.object(Transport,'fetch',fake_fetch):
-                d=run_collection(t/'input.json',t/'run',ROOT/'data/templates/PMC-Supplemental-Enrichment.xlsx',workers=1)
+                d=run_collection(t/'input.json',t/'run',ROOT/'data/templates/PMC-Enrichment-Template.xlsx',workers=1,index_registry=t/'indices.json')
             self.assertEqual(len(d['rows']['Publications']),2)
             self.assertEqual(d['summary']['supplementary_entries'],1)
             self.assertEqual(d['summary']['cloud_files'],2)
             self.assertEqual(d['summary']['unmatched_cloud_files'],1)
             self.assertEqual(d['publications'][1]['xml_result'],'no_pmcid')
-            self.assertTrue((t/'run/PMC-Supplemental-Enrichment.xlsx').exists())
-            with self.assertRaises(FileExistsError):run_collection(t/'input.json',t/'run',ROOT/'data/templates/PMC-Supplemental-Enrichment.xlsx')
+            self.assertTrue((t/'run/PMC-Enrichment.xlsx').exists())
+            with self.assertRaises(FileExistsError):run_collection(t/'input.json',t/'run',ROOT/'data/templates/PMC-Enrichment-Template.xlsx')
 
 if __name__=='__main__':unittest.main()

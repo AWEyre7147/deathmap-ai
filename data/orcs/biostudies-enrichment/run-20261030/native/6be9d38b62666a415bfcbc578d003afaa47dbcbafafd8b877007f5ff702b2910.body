@@ -1,0 +1,3009 @@
+{
+  "accno" : "S-SCDT-EMBOJ-2020-104948",
+  "attributes" : [ {
+    "name" : "ReleaseDate",
+    "value" : "2021-10-22"
+  }, {
+    "name" : "RootPath",
+    "value" : "sourcedata/S-SCDT-EMBOJ-2020-104948"
+  }, {
+    "name" : "AttachTo",
+    "value" : "SourceData"
+  } ],
+  "section" : {
+    "type" : "Study",
+    "attributes" : [ {
+      "name" : "Title",
+      "value" : "Receptor-mediated clustering of FIP200 bypasses the role of LC3 lipidation in autophagy"
+    }, {
+      "name" : "Abstract",
+      "value" : "Autophagosome formation requires multiple autophagy-related (ATG) factors. However, we find that a subset of autophagy substrates remains robustly targeted to the lysosome in the absence of several core ATGs, including the LC3 lipidation machinery. To address this unexpected result, we performed genome-wide CRISPR screens identifying genes required for NBR1 flux in ATG7KO cells. We find that ATG7-independent autophagy still requires canonical ATG factors including FIP200. However, in the absence of LC3 lipidation, additional factors are required including TAX1BP1 and TBK1. TAX1BP1's ability to cluster FIP200 around NBR1 cargo and induce local autophagosome formation enforces cargo specificity and replaces the requirement for lipidated LC3. In support of this model, we define a ubiquitin-independent mode of TAX1BP1 recruitment to NBR1 puncta, highlighting that TAX1BP1 recruitment and clustering, rather than ubiquitin binding per se, is critical for function. Collectively, our data provide a mechanistic basis for reports of selective autophagy in cells lacking the lipidation machinery, wherein receptor-mediated clustering of upstream autophagy factors drives continued autophagosome formation."
+    } ],
+    "subsections" : [ {
+      "type" : "Publication",
+      "attributes" : [ {
+        "name" : "Journal",
+        "value" : "The EMBO Journal"
+      } ],
+      "links" : [ [ {
+        "url" : "10.15252/embj.2020104948",
+        "attributes" : [ {
+          "name" : "Type",
+          "value" : "DOI"
+        } ]
+      } ] ]
+    }, {
+      "accno" : "f0",
+      "type" : "Figure 1",
+      "subsections" : [ {
+        "accno" : "106902",
+        "type" : "Figure 1-A: no Source Data available"
+      }, {
+        "accno" : "106903",
+        "type" : "Figure 1-B: no Source Data available"
+      }, {
+        "accno" : "106904",
+        "type" : "Figure 1-C: no Source Data available"
+      }, {
+        "accno" : "106905",
+        "type" : "Figure 1-D: no Source Data available"
+      }, {
+        "accno" : "106906",
+        "type" : "Figure 1-E: no Source Data available"
+      }, {
+        "accno" : "106907",
+        "type" : "Figure 1-F: no Source Data available"
+      } ]
+    }, {
+      "accno" : "f1",
+      "type" : "Figure 2",
+      "subsections" : [ {
+        "accno" : "106910",
+        "type" : "Figure 2-A: no Source Data available"
+      }, {
+        "accno" : "106911",
+        "type" : "Figure 2-B: no Source Data available"
+      }, {
+        "accno" : "106912",
+        "type" : "Figure 2-C: no Source Data available"
+      } ]
+    }, {
+      "accno" : "f2",
+      "type" : "Figure 3",
+      "subsections" : [ {
+        "accno" : "106913",
+        "type" : "Figure 3-A: no Source Data available"
+      }, {
+        "accno" : "106914",
+        "type" : "Figure 3-B: no Source Data available"
+      }, {
+        "accno" : "106915",
+        "type" : "Figure 3-C: no Source Data available"
+      } ]
+    }, {
+      "accno" : "f3",
+      "type" : "Figure 4",
+      "files" : [ {
+        "path" : "EMBOJ2020104948R_SourceDataFig4.pdf",
+        "size" : 3897740,
+        "attributes" : [ {
+          "name" : "Description",
+          "value" : "Source Data"
+        } ],
+        "type" : "file"
+      } ],
+      "subsections" : [ {
+        "accno" : "106992",
+        "type" : "Figure 4-A",
+        "links" : [ {
+          "url" : "https://search.sourcedata.io/paper/10.15252/embj.2020104948/figure/4/panel/1",
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Source Data Figure"
+          } ]
+        } ],
+        "subsections" : [ [ {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "TAX1BP1"
+          }, {
+            "name" : "role",
+            "value" : "intervention"
+          }, {
+            "name" : "type",
+            "value" : "gene"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "8887",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://www.ncbi.nlm.nih.gov/gene/8887"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "None"
+          }, {
+            "name" : "database_name",
+            "value" : "NCBI gene"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "K562"
+          }, {
+            "name" : "role",
+            "value" : "assayed"
+          }, {
+            "name" : "type",
+            "value" : "cell"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "CVCL_0004",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://identifiers.org/cellosaurus:CVCL_0004"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "K-562"
+          }, {
+            "name" : "database_name",
+            "value" : "CVCL"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "ATG7"
+          }, {
+            "name" : "role",
+            "value" : "intervention"
+          }, {
+            "name" : "type",
+            "value" : "gene"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "10533",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://www.ncbi.nlm.nih.gov/gene/10533"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "None"
+          }, {
+            "name" : "database_name",
+            "value" : "NCBI gene"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "RavZ"
+          }, {
+            "name" : "role",
+            "value" : "intervention"
+          }, {
+            "name" : "type",
+            "value" : "gene"
+          }, {
+            "name" : "tax_id",
+            "value" : "446"
+          }, {
+            "name" : "external_id",
+            "value" : "57035674",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://www.ncbi.nlm.nih.gov/gene/57035674"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "ravZ"
+          }, {
+            "name" : "database_name",
+            "value" : "NCBI gene"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "flow cytometry"
+          }, {
+            "name" : "role",
+            "value" : "None"
+          }, {
+            "name" : "type",
+            "value" : "assay"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "BAO_0000005",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://bioportal.bioontology.org/ontologies/BAO/?p"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "flow cytometry"
+          }, {
+            "name" : "database_name",
+            "value" : "BAO"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "BFP"
+          }, {
+            "name" : "role",
+            "value" : "reporter"
+          }, {
+            "name" : "type",
+            "value" : "protein"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "None"
+          }, {
+            "name" : "external_name",
+            "value" : "None"
+          }, {
+            "name" : "database_name",
+            "value" : "None"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "BFP"
+          }, {
+            "name" : "role",
+            "value" : "reporter"
+          }, {
+            "name" : "type",
+            "value" : "gene"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "None"
+          }, {
+            "name" : "external_name",
+            "value" : "None"
+          }, {
+            "name" : "database_name",
+            "value" : "None"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "NBR1"
+          }, {
+            "name" : "role",
+            "value" : "assayed"
+          }, {
+            "name" : "type",
+            "value" : "protein"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "Q14596",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.uniprot.org/uniprot/Q14596"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "NBR1"
+          }, {
+            "name" : "database_name",
+            "value" : "Uniprot"
+          } ]
+        } ] ]
+      }, {
+        "accno" : "106993",
+        "type" : "Figure 4-B",
+        "links" : [ {
+          "url" : "https://search.sourcedata.io/paper/10.15252/embj.2020104948/figure/4/panel/2",
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Source Data Figure"
+          } ]
+        } ],
+        "subsections" : [ [ {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "K562"
+          }, {
+            "name" : "role",
+            "value" : "component"
+          }, {
+            "name" : "type",
+            "value" : "cell"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "CVCL_0004",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://identifiers.org/cellosaurus:CVCL_0004"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "K-562"
+          }, {
+            "name" : "database_name",
+            "value" : "CVCL"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "IB,immunoblotting"
+          }, {
+            "name" : "role",
+            "value" : "None"
+          }, {
+            "name" : "type",
+            "value" : "assay"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "OBI_0001978",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://www.ontobee.org/ontology/OBI?iri"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "immunoblot assay"
+          }, {
+            "name" : "database_name",
+            "value" : "OBI"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "BCA assay"
+          }, {
+            "name" : "role",
+            "value" : "None"
+          }, {
+            "name" : "type",
+            "value" : "assay"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "BAO_0002467",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://bioportal.bioontology.org/ontologies/BAO/?p"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "bicinchoninic acid assay"
+          }, {
+            "name" : "database_name",
+            "value" : "BAO"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "SQSTM1"
+          }, {
+            "name" : "role",
+            "value" : "assayed"
+          }, {
+            "name" : "type",
+            "value" : "protein"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "Q13501",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.uniprot.org/uniprot/Q13501"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "SQSTM1"
+          }, {
+            "name" : "database_name",
+            "value" : "Uniprot"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "ATG7"
+          }, {
+            "name" : "role",
+            "value" : "intervention"
+          }, {
+            "name" : "type",
+            "value" : "gene"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "10533",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://www.ncbi.nlm.nih.gov/gene/10533"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "None"
+          }, {
+            "name" : "database_name",
+            "value" : "NCBI gene"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "TAX1BP1"
+          }, {
+            "name" : "role",
+            "value" : "intervention"
+          }, {
+            "name" : "type",
+            "value" : "gene"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "8887",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://www.ncbi.nlm.nih.gov/gene/8887"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "None"
+          }, {
+            "name" : "database_name",
+            "value" : "NCBI gene"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "SDS-PAGE"
+          }, {
+            "name" : "role",
+            "value" : "None"
+          }, {
+            "name" : "type",
+            "value" : "assay"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "OBI_0600053",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://www.ontobee.org/ontology/OBI?iri"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "electrophoresis"
+          }, {
+            "name" : "database_name",
+            "value" : "OBI"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "ATG9A"
+          }, {
+            "name" : "role",
+            "value" : "intervention"
+          }, {
+            "name" : "type",
+            "value" : "gene"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "79065",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://www.ncbi.nlm.nih.gov/gene/79065"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "ATG9A"
+          }, {
+            "name" : "database_name",
+            "value" : "NCBI gene"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "tubulin"
+          }, {
+            "name" : "role",
+            "value" : "normalizing"
+          }, {
+            "name" : "type",
+            "value" : "protein"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "None"
+          }, {
+            "name" : "external_name",
+            "value" : "None"
+          }, {
+            "name" : "database_name",
+            "value" : "None"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "NDP52"
+          }, {
+            "name" : "role",
+            "value" : "assayed"
+          }, {
+            "name" : "type",
+            "value" : "protein"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "Q13137",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.uniprot.org/uniprot/Q13137"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "CALCOCO2"
+          }, {
+            "name" : "database_name",
+            "value" : "Uniprot"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "NBR1"
+          }, {
+            "name" : "role",
+            "value" : "assayed"
+          }, {
+            "name" : "type",
+            "value" : "protein"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "Q14596",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.uniprot.org/uniprot/Q14596"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "NBR1"
+          }, {
+            "name" : "database_name",
+            "value" : "Uniprot"
+          } ]
+        } ] ]
+      }, {
+        "accno" : "106994",
+        "type" : "Figure 4-C",
+        "links" : [ {
+          "url" : "https://search.sourcedata.io/paper/10.15252/embj.2020104948/figure/4/panel/3",
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Source Data Figure"
+          } ]
+        } ]
+      }, {
+        "accno" : "106995",
+        "type" : "Figure 4-D to E",
+        "links" : [ {
+          "url" : "https://search.sourcedata.io/paper/10.15252/embj.2020104948/figure/4/panel/4",
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Source Data Figure"
+          } ]
+        } ],
+        "subsections" : [ [ {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "Triton X- 100"
+          }, {
+            "name" : "role",
+            "value" : "intervention"
+          }, {
+            "name" : "type",
+            "value" : "molecule"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "CHEBI:9750",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://www.ebi.ac.uk/chebi/searchId.do?chebiId"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "Triton X-100"
+          }, {
+            "name" : "database_name",
+            "value" : "ChEBI"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "K562"
+          }, {
+            "name" : "role",
+            "value" : "component"
+          }, {
+            "name" : "type",
+            "value" : "cell"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "CVCL_0004",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://identifiers.org/cellosaurus:CVCL_0004"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "K-562"
+          }, {
+            "name" : "database_name",
+            "value" : "CVCL"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "immunoblotting"
+          }, {
+            "name" : "role",
+            "value" : "None"
+          }, {
+            "name" : "type",
+            "value" : "assay"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "OBI_0001978",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://www.ontobee.org/ontology/OBI?iri"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "immunoblot assay"
+          }, {
+            "name" : "database_name",
+            "value" : "OBI"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "Trypsin"
+          }, {
+            "name" : "role",
+            "value" : "intervention"
+          }, {
+            "name" : "type",
+            "value" : "molecule"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "CHEBI:9765",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://www.ebi.ac.uk/chebi/searchId.do?chebiId"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "Trypsin"
+          }, {
+            "name" : "database_name",
+            "value" : "ChEBI"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "ATG7"
+          }, {
+            "name" : "role",
+            "value" : "intervention"
+          }, {
+            "name" : "type",
+            "value" : "gene"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "10533",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://www.ncbi.nlm.nih.gov/gene/10533"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "None"
+          }, {
+            "name" : "database_name",
+            "value" : "NCBI gene"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "images,image"
+          }, {
+            "name" : "role",
+            "value" : "None"
+          }, {
+            "name" : "type",
+            "value" : "assay"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "OBI_0000185",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://www.ontobee.org/ontology/OBI?iri"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "imaging assay"
+          }, {
+            "name" : "database_name",
+            "value" : "OBI"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "TAX1BP1"
+          }, {
+            "name" : "role",
+            "value" : "intervention"
+          }, {
+            "name" : "type",
+            "value" : "gene"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "8887",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://www.ncbi.nlm.nih.gov/gene/8887"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "None"
+          }, {
+            "name" : "database_name",
+            "value" : "NCBI gene"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "ATG9A"
+          }, {
+            "name" : "role",
+            "value" : "intervention"
+          }, {
+            "name" : "type",
+            "value" : "gene"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "79065",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://www.ncbi.nlm.nih.gov/gene/79065"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "None"
+          }, {
+            "name" : "database_name",
+            "value" : "NCBI gene"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "SDS-PAGE"
+          }, {
+            "name" : "role",
+            "value" : "None"
+          }, {
+            "name" : "type",
+            "value" : "assay"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "OBI_0600053",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://www.ontobee.org/ontology/OBI?iri"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "electrophoresis"
+          }, {
+            "name" : "database_name",
+            "value" : "OBI"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "TAX1BP1"
+          }, {
+            "name" : "role",
+            "value" : "assayed"
+          }, {
+            "name" : "type",
+            "value" : "protein"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "Q86VP1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.uniprot.org/uniprot/Q86VP1"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "TAX1BP1"
+          }, {
+            "name" : "database_name",
+            "value" : "Uniprot"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "intensity"
+          }, {
+            "name" : "role",
+            "value" : "None"
+          }, {
+            "name" : "type",
+            "value" : "assay"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "BAO_0002972",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://bioportal.bioontology.org/ontologies/BAO/?p"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "intensity parameter"
+          }, {
+            "name" : "database_name",
+            "value" : "BAO"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "tubulin"
+          }, {
+            "name" : "role",
+            "value" : "normalizing"
+          }, {
+            "name" : "type",
+            "value" : "protein"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "None"
+          }, {
+            "name" : "external_name",
+            "value" : "None"
+          }, {
+            "name" : "database_name",
+            "value" : "None"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "NDP52"
+          }, {
+            "name" : "role",
+            "value" : "assayed"
+          }, {
+            "name" : "type",
+            "value" : "protein"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "Q13137",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.uniprot.org/uniprot/Q13137"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "CALCOCO2"
+          }, {
+            "name" : "database_name",
+            "value" : "Uniprot"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "NBR1"
+          }, {
+            "name" : "role",
+            "value" : "assayed"
+          }, {
+            "name" : "type",
+            "value" : "protein"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "Q14596",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.uniprot.org/uniprot/Q14596"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "NBR1"
+          }, {
+            "name" : "database_name",
+            "value" : "Uniprot"
+          } ]
+        } ] ]
+      } ]
+    }, {
+      "accno" : "f4",
+      "type" : "Figure 5",
+      "files" : [ {
+        "path" : "EMBOJ2020104948R_SourceDataFig5.pdf",
+        "size" : 3538985,
+        "attributes" : [ {
+          "name" : "Description",
+          "value" : "Source Data"
+        } ],
+        "type" : "file"
+      } ],
+      "subsections" : [ {
+        "accno" : "106916",
+        "type" : "Figure 5-A",
+        "links" : [ {
+          "url" : "https://search.sourcedata.io/paper/10.15252/embj.2020104948/figure/5/panel/1",
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Source Data Figure"
+          } ]
+        } ],
+        "subsections" : [ [ {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "K562"
+          }, {
+            "name" : "role",
+            "value" : "component"
+          }, {
+            "name" : "type",
+            "value" : "cell"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "CVCL_0004",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://identifiers.org/cellosaurus:CVCL_0004"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "K-562"
+          }, {
+            "name" : "database_name",
+            "value" : "CVCL"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "IB,immunoblotting"
+          }, {
+            "name" : "role",
+            "value" : "None"
+          }, {
+            "name" : "type",
+            "value" : "assay"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "OBI_0001978",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://www.ontobee.org/ontology/OBI?iri"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "immunoblot assay"
+          }, {
+            "name" : "database_name",
+            "value" : "OBI"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "BCA"
+          }, {
+            "name" : "role",
+            "value" : "None"
+          }, {
+            "name" : "type",
+            "value" : "assay"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "BAO_0002467",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://bioportal.bioontology.org/ontologies/BAO/?p"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "bicinchoninic acid assay"
+          }, {
+            "name" : "database_name",
+            "value" : "BAO"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "immunoprecipitated"
+          }, {
+            "name" : "role",
+            "value" : "None"
+          }, {
+            "name" : "type",
+            "value" : "assay"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "BAO_0002508",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://bioportal.bioontology.org/ontologies/BAO/?p"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "immunoprecipitation"
+          }, {
+            "name" : "database_name",
+            "value" : "BAO"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "ATG7"
+          }, {
+            "name" : "role",
+            "value" : "intervention"
+          }, {
+            "name" : "type",
+            "value" : "gene"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "10533",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://www.ncbi.nlm.nih.gov/gene/10533"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "None"
+          }, {
+            "name" : "database_name",
+            "value" : "NCBI gene"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "ATG10"
+          }, {
+            "name" : "role",
+            "value" : "intervention"
+          }, {
+            "name" : "type",
+            "value" : "gene"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "83734",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://www.ncbi.nlm.nih.gov/gene/83734"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "None"
+          }, {
+            "name" : "database_name",
+            "value" : "NCBI gene"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "SQSTM1"
+          }, {
+            "name" : "role",
+            "value" : "assayed"
+          }, {
+            "name" : "type",
+            "value" : "protein"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "Q13501",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.uniprot.org/uniprot/Q13501"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "SQSTM1"
+          }, {
+            "name" : "database_name",
+            "value" : "Uniprot"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "ATG9"
+          }, {
+            "name" : "role",
+            "value" : "intervention"
+          }, {
+            "name" : "type",
+            "value" : "gene"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "79065",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://www.ncbi.nlm.nih.gov/gene/79065"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "ATG9A"
+          }, {
+            "name" : "database_name",
+            "value" : "NCBI gene"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "FIP200"
+          }, {
+            "name" : "role",
+            "value" : "intervention"
+          }, {
+            "name" : "type",
+            "value" : "gene"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "9821",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://www.ncbi.nlm.nih.gov/gene/9821"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "None"
+          }, {
+            "name" : "database_name",
+            "value" : "NCBI gene"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "ATG3"
+          }, {
+            "name" : "role",
+            "value" : "intervention"
+          }, {
+            "name" : "type",
+            "value" : "gene"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "64422",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://www.ncbi.nlm.nih.gov/gene/64422"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "None"
+          }, {
+            "name" : "database_name",
+            "value" : "NCBI gene"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "TAX1BP1"
+          }, {
+            "name" : "role",
+            "value" : "intervention"
+          }, {
+            "name" : "type",
+            "value" : "gene"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "8887",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://www.ncbi.nlm.nih.gov/gene/8887"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "None"
+          }, {
+            "name" : "database_name",
+            "value" : "NCBI gene"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "SDS-PAGE"
+          }, {
+            "name" : "role",
+            "value" : "None"
+          }, {
+            "name" : "type",
+            "value" : "assay"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "OBI_0600053",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://www.ontobee.org/ontology/OBI?iri"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "electrophoresis"
+          }, {
+            "name" : "database_name",
+            "value" : "OBI"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "GFP"
+          }, {
+            "name" : "role",
+            "value" : "reporter"
+          }, {
+            "name" : "type",
+            "value" : "protein"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "None"
+          }, {
+            "name" : "external_name",
+            "value" : "None"
+          }, {
+            "name" : "database_name",
+            "value" : "None"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "TAX1BP1"
+          }, {
+            "name" : "role",
+            "value" : "assayed"
+          }, {
+            "name" : "type",
+            "value" : "protein"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "Q86VP1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.uniprot.org/uniprot/Q86VP1"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "TAX1BP1"
+          }, {
+            "name" : "database_name",
+            "value" : "Uniprot"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "NBR1"
+          }, {
+            "name" : "role",
+            "value" : "intervention"
+          }, {
+            "name" : "type",
+            "value" : "gene"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "4077",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://www.ncbi.nlm.nih.gov/gene/4077"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "NBR1"
+          }, {
+            "name" : "database_name",
+            "value" : "NCBI gene"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "tubulin"
+          }, {
+            "name" : "role",
+            "value" : "normalizing"
+          }, {
+            "name" : "type",
+            "value" : "protein"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "None"
+          }, {
+            "name" : "external_name",
+            "value" : "None"
+          }, {
+            "name" : "database_name",
+            "value" : "None"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "NDP52"
+          }, {
+            "name" : "role",
+            "value" : "assayed"
+          }, {
+            "name" : "type",
+            "value" : "protein"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "Q13137",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.uniprot.org/uniprot/Q13137"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "CALCOCO2"
+          }, {
+            "name" : "database_name",
+            "value" : "Uniprot"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "NBR1"
+          }, {
+            "name" : "role",
+            "value" : "assayed"
+          }, {
+            "name" : "type",
+            "value" : "protein"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "Q14596",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.uniprot.org/uniprot/Q14596"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "NBR1"
+          }, {
+            "name" : "database_name",
+            "value" : "Uniprot"
+          } ]
+        } ] ]
+      }, {
+        "accno" : "106917",
+        "type" : "Figure 5-B",
+        "links" : [ {
+          "url" : "https://search.sourcedata.io/paper/10.15252/embj.2020104948/figure/5/panel/2",
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Source Data Figure"
+          } ]
+        } ],
+        "subsections" : [ [ {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "K562"
+          }, {
+            "name" : "role",
+            "value" : "component"
+          }, {
+            "name" : "type",
+            "value" : "cell"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "CVCL_0004",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://identifiers.org/cellosaurus:CVCL_0004"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "K-562"
+          }, {
+            "name" : "database_name",
+            "value" : "CVCL"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "confocal micrographs"
+          }, {
+            "name" : "role",
+            "value" : "None"
+          }, {
+            "name" : "type",
+            "value" : "assay"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "BAO_0000453",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://bioportal.bioontology.org/ontologies/BAO/?p"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "confocal microscopy"
+          }, {
+            "name" : "database_name",
+            "value" : "BAO"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "SQSTM1"
+          }, {
+            "name" : "role",
+            "value" : "assayed"
+          }, {
+            "name" : "type",
+            "value" : "protein"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "Q13501",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.uniprot.org/uniprot/Q13501"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "SQSTM1"
+          }, {
+            "name" : "database_name",
+            "value" : "Uniprot"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "cytoplasmic"
+          }, {
+            "name" : "role",
+            "value" : "assayed"
+          }, {
+            "name" : "type",
+            "value" : "subcellular"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "GO:0005737",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://amigo.geneontology.org/amigo/term/GO:0005737"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "cytoplasm"
+          }, {
+            "name" : "database_name",
+            "value" : "Gene Ontology"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "Hoechst"
+          }, {
+            "name" : "role",
+            "value" : "reporter"
+          }, {
+            "name" : "type",
+            "value" : "molecule"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "CHEBI:51232",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://www.ebi.ac.uk/chebi/searchId.do?chebiId"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "2'-(4-ethoxyphenyl)-5-(4-methylpiperazin-1-yl)-2,5'-bibenzimidazole"
+          }, {
+            "name" : "database_name",
+            "value" : "ChEBI"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "immunofluorescence microscopy,fluorescence"
+          }, {
+            "name" : "role",
+            "value" : "None"
+          }, {
+            "name" : "type",
+            "value" : "assay"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "BAO_0000450",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://bioportal.bioontology.org/ontologies/BAO/?p"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "fluorescence microscopy"
+          }, {
+            "name" : "database_name",
+            "value" : "BAO"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "micrographs"
+          }, {
+            "name" : "role",
+            "value" : "None"
+          }, {
+            "name" : "type",
+            "value" : "assay"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "BAO_0150010",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://bioportal.bioontology.org/ontologies/BAO/?p"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "confocal microscope"
+          }, {
+            "name" : "database_name",
+            "value" : "BAO"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "intensity"
+          }, {
+            "name" : "role",
+            "value" : "None"
+          }, {
+            "name" : "type",
+            "value" : "assay"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "BAO_0002972",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://bioportal.bioontology.org/ontologies/BAO/?p"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "intensity parameter"
+          }, {
+            "name" : "database_name",
+            "value" : "BAO"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "TAX1BP1"
+          }, {
+            "name" : "role",
+            "value" : "assayed"
+          }, {
+            "name" : "type",
+            "value" : "protein"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "Q86VP1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.uniprot.org/uniprot/Q86VP1"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "TAX1BP1"
+          }, {
+            "name" : "database_name",
+            "value" : "Uniprot"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "ATG9A"
+          }, {
+            "name" : "role",
+            "value" : "intervention"
+          }, {
+            "name" : "type",
+            "value" : "gene"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "79065",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://www.ncbi.nlm.nih.gov/gene/79065"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "ATG9A"
+          }, {
+            "name" : "database_name",
+            "value" : "NCBI gene"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "localization assay"
+          }, {
+            "name" : "role",
+            "value" : "None"
+          }, {
+            "name" : "type",
+            "value" : "assay"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "BAO_0002196",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://bioportal.bioontology.org/ontologies/BAO/?p"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "None"
+          }, {
+            "name" : "database_name",
+            "value" : "BAO"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "NDP52"
+          }, {
+            "name" : "role",
+            "value" : "assayed"
+          }, {
+            "name" : "type",
+            "value" : "protein"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "Q13137",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.uniprot.org/uniprot/Q13137"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "CALCOCO2"
+          }, {
+            "name" : "database_name",
+            "value" : "Uniprot"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "NBR1"
+          }, {
+            "name" : "role",
+            "value" : "assayed"
+          }, {
+            "name" : "type",
+            "value" : "protein"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "Q14596",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.uniprot.org/uniprot/Q14596"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "NBR1"
+          }, {
+            "name" : "database_name",
+            "value" : "Uniprot"
+          } ]
+        } ] ]
+      }, {
+        "accno" : "106918",
+        "type" : "Figure 5-C",
+        "links" : [ {
+          "url" : "https://search.sourcedata.io/paper/10.15252/embj.2020104948/figure/5/panel/3",
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Source Data Figure"
+          } ]
+        } ],
+        "subsections" : [ [ {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "confocal micrographs"
+          }, {
+            "name" : "role",
+            "value" : "None"
+          }, {
+            "name" : "type",
+            "value" : "assay"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "BAO_0000453",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://bioportal.bioontology.org/ontologies/BAO/?p"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "confocal microscopy"
+          }, {
+            "name" : "database_name",
+            "value" : "BAO"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "K562"
+          }, {
+            "name" : "role",
+            "value" : "assayed"
+          }, {
+            "name" : "type",
+            "value" : "cell"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "CVCL_0004",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://identifiers.org/cellosaurus:CVCL_0004"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "K-562"
+          }, {
+            "name" : "database_name",
+            "value" : "CVCL"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "intensity"
+          }, {
+            "name" : "role",
+            "value" : "None"
+          }, {
+            "name" : "type",
+            "value" : "assay"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "BAO_0002972",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://bioportal.bioontology.org/ontologies/BAO/?p"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "intensity parameter"
+          }, {
+            "name" : "database_name",
+            "value" : "BAO"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "Hoechst"
+          }, {
+            "name" : "role",
+            "value" : "reporter"
+          }, {
+            "name" : "type",
+            "value" : "molecule"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "CHEBI:51232",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://www.ebi.ac.uk/chebi/searchId.do?chebiId"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "2'-(4-ethoxyphenyl)-5-(4-methylpiperazin-1-yl)-2,5'-bibenzimidazole"
+          }, {
+            "name" : "database_name",
+            "value" : "ChEBI"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "fluorescence microscopy"
+          }, {
+            "name" : "role",
+            "value" : "None"
+          }, {
+            "name" : "type",
+            "value" : "assay"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "BAO_0000450",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://bioportal.bioontology.org/ontologies/BAO/?p"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "fluorescence microscopy"
+          }, {
+            "name" : "database_name",
+            "value" : "BAO"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "micrographs"
+          }, {
+            "name" : "role",
+            "value" : "None"
+          }, {
+            "name" : "type",
+            "value" : "assay"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "BAO_0150010",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://bioportal.bioontology.org/ontologies/BAO/?p"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "confocal microscope"
+          }, {
+            "name" : "database_name",
+            "value" : "BAO"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "GFP,RFP"
+          }, {
+            "name" : "role",
+            "value" : "reporter"
+          }, {
+            "name" : "type",
+            "value" : "protein"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "None"
+          }, {
+            "name" : "external_name",
+            "value" : "None"
+          }, {
+            "name" : "database_name",
+            "value" : "None"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "TAX1BP1"
+          }, {
+            "name" : "role",
+            "value" : "assayed"
+          }, {
+            "name" : "type",
+            "value" : "protein"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "Q86VP1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.uniprot.org/uniprot/Q86VP1"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "TAX1BP1"
+          }, {
+            "name" : "database_name",
+            "value" : "Uniprot"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "ATG9A"
+          }, {
+            "name" : "role",
+            "value" : "intervention"
+          }, {
+            "name" : "type",
+            "value" : "gene"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "79065",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://www.ncbi.nlm.nih.gov/gene/79065"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "ATG9A"
+          }, {
+            "name" : "database_name",
+            "value" : "NCBI gene"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "localization assay"
+          }, {
+            "name" : "role",
+            "value" : "None"
+          }, {
+            "name" : "type",
+            "value" : "assay"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "BAO_0002196",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://bioportal.bioontology.org/ontologies/BAO/?p"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "None"
+          }, {
+            "name" : "database_name",
+            "value" : "BAO"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "NDP52"
+          }, {
+            "name" : "role",
+            "value" : "assayed"
+          }, {
+            "name" : "type",
+            "value" : "protein"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "Q13137",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.uniprot.org/uniprot/Q13137"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "CALCOCO2"
+          }, {
+            "name" : "database_name",
+            "value" : "Uniprot"
+          } ]
+        } ] ]
+      } ]
+    }, {
+      "accno" : "f5",
+      "type" : "Figure 6",
+      "files" : [ {
+        "path" : "EMBOJ2020104948R_SourceDataFig6.pdf",
+        "size" : 5325639,
+        "attributes" : [ {
+          "name" : "Description",
+          "value" : "Source Data"
+        } ],
+        "type" : "file"
+      } ],
+      "subsections" : [ {
+        "accno" : "106919",
+        "type" : "Figure 6-A",
+        "links" : [ {
+          "url" : "https://search.sourcedata.io/paper/10.15252/embj.2020104948/figure/6/panel/1",
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Source Data Figure"
+          } ]
+        } ]
+      }, {
+        "accno" : "106920",
+        "type" : "Figure 6-B",
+        "links" : [ {
+          "url" : "https://search.sourcedata.io/paper/10.15252/embj.2020104948/figure/6/panel/2",
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Source Data Figure"
+          } ]
+        } ]
+      }, {
+        "accno" : "106921",
+        "type" : "Figure 6-C",
+        "links" : [ {
+          "url" : "https://search.sourcedata.io/paper/10.15252/embj.2020104948/figure/6/panel/3",
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Source Data Figure"
+          } ]
+        } ],
+        "subsections" : [ [ {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "immunoprecipitated,IP"
+          }, {
+            "name" : "role",
+            "value" : "None"
+          }, {
+            "name" : "type",
+            "value" : "assay"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "BAO_0002508",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://bioportal.bioontology.org/ontologies/BAO/?p"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "immunoprecipitation"
+          }, {
+            "name" : "database_name",
+            "value" : "BAO"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "HEK293T"
+          }, {
+            "name" : "role",
+            "value" : "component"
+          }, {
+            "name" : "type",
+            "value" : "cell"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "CVCL_0063",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://identifiers.org/cellosaurus:CVCL_0063"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "HEK293T"
+          }, {
+            "name" : "database_name",
+            "value" : "CVCL"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "IB,immunoblotting"
+          }, {
+            "name" : "role",
+            "value" : "None"
+          }, {
+            "name" : "type",
+            "value" : "assay"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "OBI_0001978",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://www.ontobee.org/ontology/OBI?iri"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "immunoblot assay"
+          }, {
+            "name" : "database_name",
+            "value" : "OBI"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "SDS-PAGE"
+          }, {
+            "name" : "role",
+            "value" : "None"
+          }, {
+            "name" : "type",
+            "value" : "assay"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "OBI_0600053",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://www.ontobee.org/ontology/OBI?iri"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "electrophoresis"
+          }, {
+            "name" : "database_name",
+            "value" : "OBI"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "NBR1"
+          }, {
+            "name" : "role",
+            "value" : "component"
+          }, {
+            "name" : "type",
+            "value" : "gene"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "4077",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://www.ncbi.nlm.nih.gov/gene/4077"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "NBR1"
+          }, {
+            "name" : "database_name",
+            "value" : "NCBI gene"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "BFP"
+          }, {
+            "name" : "role",
+            "value" : "reporter"
+          }, {
+            "name" : "type",
+            "value" : "protein"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "None"
+          }, {
+            "name" : "external_name",
+            "value" : "None"
+          }, {
+            "name" : "database_name",
+            "value" : "None"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "TAX1BP1"
+          }, {
+            "name" : "role",
+            "value" : "assayed"
+          }, {
+            "name" : "type",
+            "value" : "protein"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "Q86VP1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.uniprot.org/uniprot/Q86VP1"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "TAX1BP1"
+          }, {
+            "name" : "database_name",
+            "value" : "Uniprot"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "myc,BFP,V5"
+          }, {
+            "name" : "role",
+            "value" : "reporter"
+          }, {
+            "name" : "type",
+            "value" : "gene"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "None"
+          }, {
+            "name" : "external_name",
+            "value" : "None"
+          }, {
+            "name" : "database_name",
+            "value" : "None"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "TAX1BP1"
+          }, {
+            "name" : "role",
+            "value" : "intervention"
+          }, {
+            "name" : "type",
+            "value" : "gene"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "8887",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://www.ncbi.nlm.nih.gov/gene/8887"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "TAX1BP1"
+          }, {
+            "name" : "database_name",
+            "value" : "NCBI gene"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "NBR1"
+          }, {
+            "name" : "role",
+            "value" : "assayed"
+          }, {
+            "name" : "type",
+            "value" : "protein"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "Q14596",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.uniprot.org/uniprot/Q14596"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "NBR1"
+          }, {
+            "name" : "database_name",
+            "value" : "Uniprot"
+          } ]
+        } ] ]
+      }, {
+        "accno" : "106922",
+        "type" : "Figure 6-D",
+        "links" : [ {
+          "url" : "https://search.sourcedata.io/paper/10.15252/embj.2020104948/figure/6/panel/4",
+          "attributes" : [ {
+            "name" : "Description",
+            "value" : "Source Data Figure"
+          } ]
+        } ],
+        "subsections" : [ [ {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "immunoprecipitated,IP"
+          }, {
+            "name" : "role",
+            "value" : "None"
+          }, {
+            "name" : "type",
+            "value" : "assay"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "BAO_0002508",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://bioportal.bioontology.org/ontologies/BAO/?p"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "immunoprecipitation"
+          }, {
+            "name" : "database_name",
+            "value" : "BAO"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "HEK293T"
+          }, {
+            "name" : "role",
+            "value" : "component"
+          }, {
+            "name" : "type",
+            "value" : "cell"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "CVCL_0063",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://identifiers.org/cellosaurus:CVCL_0063"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "HEK293T"
+          }, {
+            "name" : "database_name",
+            "value" : "CVCL"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "IB,immunoblotting"
+          }, {
+            "name" : "role",
+            "value" : "None"
+          }, {
+            "name" : "type",
+            "value" : "assay"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "OBI_0001978",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://www.ontobee.org/ontology/OBI?iri"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "immunoblot assay"
+          }, {
+            "name" : "database_name",
+            "value" : "OBI"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "SDS-PAGE"
+          }, {
+            "name" : "role",
+            "value" : "None"
+          }, {
+            "name" : "type",
+            "value" : "assay"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "OBI_0600053",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://www.ontobee.org/ontology/OBI?iri"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "electrophoresis"
+          }, {
+            "name" : "database_name",
+            "value" : "OBI"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "TAX1BP1"
+          }, {
+            "name" : "role",
+            "value" : "assayed"
+          }, {
+            "name" : "type",
+            "value" : "protein"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "Q86VP1",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.uniprot.org/uniprot/Q86VP1"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "None"
+          }, {
+            "name" : "database_name",
+            "value" : "Uniprot"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "NBR1"
+          }, {
+            "name" : "role",
+            "value" : "component"
+          }, {
+            "name" : "type",
+            "value" : "gene"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "4077",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://www.ncbi.nlm.nih.gov/gene/4077"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "NBR1"
+          }, {
+            "name" : "database_name",
+            "value" : "NCBI gene"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "BFP"
+          }, {
+            "name" : "role",
+            "value" : "reporter"
+          }, {
+            "name" : "type",
+            "value" : "protein"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "None"
+          }, {
+            "name" : "external_name",
+            "value" : "None"
+          }, {
+            "name" : "database_name",
+            "value" : "None"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "myc,BFP,V5"
+          }, {
+            "name" : "role",
+            "value" : "reporter"
+          }, {
+            "name" : "type",
+            "value" : "gene"
+          }, {
+            "name" : "tax_id",
+            "value" : "None"
+          }, {
+            "name" : "external_id",
+            "value" : "None"
+          }, {
+            "name" : "external_name",
+            "value" : "None"
+          }, {
+            "name" : "database_name",
+            "value" : "None"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "TAX1BP1"
+          }, {
+            "name" : "role",
+            "value" : "intervention"
+          }, {
+            "name" : "type",
+            "value" : "gene"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "8887",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "http://www.ncbi.nlm.nih.gov/gene/8887"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "TAX1BP1"
+          }, {
+            "name" : "database_name",
+            "value" : "NCBI gene"
+          } ]
+        }, {
+          "type" : "Entities",
+          "attributes" : [ {
+            "name" : "text",
+            "value" : "NBR1"
+          }, {
+            "name" : "role",
+            "value" : "assayed"
+          }, {
+            "name" : "type",
+            "value" : "protein"
+          }, {
+            "name" : "tax_id",
+            "value" : "9606"
+          }, {
+            "name" : "external_id",
+            "value" : "Q14596",
+            "valqual" : [ {
+              "name" : "url",
+              "value" : "https://www.uniprot.org/uniprot/Q14596"
+            } ]
+          }, {
+            "name" : "external_name",
+            "value" : "NBR1"
+          }, {
+            "name" : "database_name",
+            "value" : "Uniprot"
+          } ]
+        } ] ]
+      } ]
+    }, {
+      "accno" : "f6",
+      "type" : "Figure 7",
+      "subsections" : [ {
+        "accno" : "106923",
+        "type" : "Figure 7-A to B: no Source Data available"
+      }, {
+        "accno" : "106924",
+        "type" : "Figure 7-C to E: no Source Data available"
+      }, {
+        "accno" : "106925",
+        "type" : "Figure 7-F: no Source Data available"
+      } ]
+    }, {
+      "accno" : "Additional",
+      "type" : "Additional data files",
+      "files" : [ {
+        "path" : "EMBOJ2020104948R Source data  all numerical values.xlsx",
+        "size" : 20402144,
+        "attributes" : [ {
+          "name" : "Description",
+          "value" : "Additional data file"
+        } ],
+        "type" : "file"
+      }, {
+        "path" : "CellProfilerquantitationpipeline.cpproj",
+        "size" : 1509795,
+        "attributes" : [ {
+          "name" : "Description",
+          "value" : "Additional data file"
+        } ],
+        "type" : "file"
+      }, {
+        "path" : "Source Data for EV Figures.zip",
+        "size" : 27813262,
+        "attributes" : [ {
+          "name" : "Description",
+          "value" : "Additional data file"
+        } ],
+        "type" : "file"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "HHS | NIH | National Institute of General Medical Sciences (NIGMS)"
+      }, {
+        "name" : "grant_id",
+        "value" : "R00GM117218"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "HHS | NIH | National Institute of General Medical Sciences (NIGMS)"
+      }, {
+        "name" : "grant_id",
+        "value" : "R35GM119455"
+      } ]
+    }, {
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Dr. Christopher, J Shoemaker"
+      }, {
+        "name" : "affiliation",
+        "value" : "aff1",
+        "reference" : true
+      } ]
+    }, {
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Mr. Jose, M Delgado"
+      }, {
+        "name" : "affiliation",
+        "value" : "aff1",
+        "reference" : true
+      } ]
+    }, {
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Mr. Brian, J North"
+      }, {
+        "name" : "affiliation",
+        "value" : "aff1",
+        "reference" : true
+      } ]
+    }, {
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Amelia, E Ohnstad"
+      }, {
+        "name" : "affiliation",
+        "value" : "aff1",
+        "reference" : true
+      } ]
+    }, {
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Arminja Kettenbach"
+      }, {
+        "name" : "affiliation",
+        "value" : "aff5",
+        "reference" : true
+      } ]
+    }, {
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Dr. Sebastian Schultz"
+      }, {
+        "name" : "affiliation",
+        "value" : "aff5",
+        "reference" : true
+      } ]
+    }, {
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Isha Nasa"
+      }, {
+        "name" : "affiliation",
+        "value" : "aff7",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "aff1",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Geisel School of Medicine at Dartmouth"
+      } ]
+    }, {
+      "accno" : "aff5",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Unknown"
+      } ]
+    }, {
+      "accno" : "aff7",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Biochemistry and Cell Biology, Geisel School of Medicine at Dartmouth College"
+      } ]
+    } ]
+  },
+  "type" : "submission"
+}

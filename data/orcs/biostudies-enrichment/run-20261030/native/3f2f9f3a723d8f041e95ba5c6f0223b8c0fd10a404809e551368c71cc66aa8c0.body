@@ -1,0 +1,5907 @@
+{
+  "accno" : "S-CMO347",
+  "attributes" : [ {
+    "name" : "Title",
+    "value" : "[CMP] [cell line] [SIDM00903] Lung Adenocarcinoma"
+  }, {
+    "name" : "ReleaseDate",
+    "value" : "2024-12-01"
+  }, {
+    "name" : "AttachTo",
+    "value" : "CancerModelsOrg"
+  } ],
+  "section" : {
+    "accno" : "s1",
+    "type" : "Study",
+    "attributes" : [ {
+      "name" : "Model ID",
+      "value" : "SIDM00903"
+    }, {
+      "name" : "Title",
+      "value" : "[CMP] [cell line] [SIDM00903] Lung Adenocarcinoma"
+    }, {
+      "name" : "Model type",
+      "value" : "cell line"
+    }, {
+      "name" : "Histology",
+      "value" : "Lung Adenocarcinoma"
+    }, {
+      "name" : "Breast Cancer Biomarkers",
+      "value" : "N/A"
+    }, {
+      "name" : "Dataset Available",
+      "value" : "mutation"
+    }, {
+      "name" : "Dataset Available",
+      "value" : "copy number alteration"
+    }, {
+      "name" : "Dataset Available",
+      "value" : "expression"
+    }, {
+      "name" : "Dataset Available",
+      "value" : "immune markers"
+    }, {
+      "name" : "Dataset Available",
+      "value" : "publication"
+    }, {
+      "name" : "Available for distribution",
+      "value" : "Yes"
+    }, {
+      "name" : "Provider URL",
+      "value" : "https://cellmodelpassports.sanger.ac.uk/passports/SIDM00903"
+    }, {
+      "name" : "Form URL",
+      "value" : "N/A"
+    }, {
+      "name" : "Project",
+      "value" : "N/A"
+    }, {
+      "name" : "Paediatric",
+      "value" : "No"
+    }, {
+      "name" : "Has Related Models",
+      "value" : "Yes"
+    }, {
+      "name" : "Supplier",
+      "value" : "A549 (NCI)",
+      "valqual" : [ {
+        "name" : "url",
+        "value" : "https://www.abcam.com/ab255450.html"
+      } ]
+    }, {
+      "name" : "License",
+      "value" : "EMBL-EBI",
+      "valqual" : [ {
+        "name" : "url",
+        "value" : "https://www.ebi.ac.uk/about/terms-of-use"
+      } ]
+    } ],
+    "subsections" : [ {
+      "accno" : "o1",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Cell Model Passports (CMP)"
+      } ]
+    }, [ {
+      "type" : "Identifiers",
+      "attributes" : [ {
+        "name" : "Resource",
+        "value" : "CCLE ID"
+      }, {
+        "name" : "Link",
+        "value" : "CVCL_0023",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://cancercelllines.org/cellline/?id=cellosaurus:CVCL_0023"
+        } ]
+      } ]
+    }, {
+      "type" : "Identifiers",
+      "attributes" : [ {
+        "name" : "Resource",
+        "value" : "COSMIC ID"
+      }, {
+        "name" : "Link",
+        "value" : "A549",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://cancer.sanger.ac.uk/cell_lines/search?q=A549#"
+        } ]
+      } ]
+    }, {
+      "type" : "Identifiers",
+      "attributes" : [ {
+        "name" : "Resource",
+        "value" : "DepMap ID"
+      }, {
+        "name" : "Link",
+        "value" : "ACH-000681",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://depmap.org/portal/cell_line/ACH-000681?tab=overview"
+        } ]
+      } ]
+    }, {
+      "type" : "Identifiers",
+      "attributes" : [ {
+        "name" : "Resource",
+        "value" : "Cellosaurus"
+      }, {
+        "name" : "Link",
+        "value" : "CVCL_0023",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://www.cellosaurus.org/CVCL_0023"
+        } ]
+      } ]
+    } ], {
+      "type" : "Patient / Tumour Metadata",
+      "attributes" : [ {
+        "name" : "Patient Sex",
+        "value" : "male"
+      }, {
+        "name" : "Patient Age",
+        "value" : "50 - 59"
+      }, {
+        "name" : "Patient Ethnicity",
+        "value" : "White"
+      }, {
+        "name" : "Patient Ethnicity Group",
+        "value" : "White"
+      }, {
+        "name" : "Tumour Type",
+        "value" : "Primary"
+      }, {
+        "name" : "Cancer System",
+        "value" : "Thoracic Cancer"
+      }, {
+        "name" : "Cancer Grade",
+        "value" : "Not provided"
+      }, {
+        "name" : "Cancer Stage",
+        "value" : "Not provided"
+      }, {
+        "name" : "Primary Site",
+        "value" : "lung"
+      }, {
+        "name" : "Collection Site",
+        "value" : "not provided"
+      } ]
+    }, [ {
+      "type" : "Model derivation",
+      "attributes" : [ {
+        "name" : "Growth properties",
+        "value" : "Adherent"
+      }, {
+        "name" : "Growth media",
+        "value" : "Not provided"
+      }, {
+        "name" : "Plate coating",
+        "value" : "Not provided"
+      }, {
+        "name" : "Passage",
+        "value" : "Not provided"
+      }, {
+        "name" : "Supplements",
+        "value" : "Not provided"
+      }, {
+        "name" : "Contaminated",
+        "value" : "Not provided"
+      }, {
+        "name" : "Contamination details",
+        "value" : "Not provided"
+      } ]
+    } ], [ {
+      "type" : "Model quality control",
+      "attributes" : [ {
+        "name" : "Technique",
+        "value" : "Not Provided"
+      }, {
+        "name" : "Passage",
+        "value" : "N/A"
+      }, {
+        "name" : "Morphological features",
+        "value" : "Not provided"
+      }, {
+        "name" : "STR analysis",
+        "value" : "Not provided"
+      }, {
+        "name" : "Model purity",
+        "value" : "Not provided"
+      } ]
+    } ], [ {
+      "type" : "Molecular data",
+      "attributes" : [ {
+        "name" : "Sample ID",
+        "value" : "SIDS00075"
+      }, {
+        "name" : "Sample Type",
+        "value" : "Tumour Cells"
+      }, {
+        "name" : "Engrafted Tumour Passage",
+        "value" : "N/A"
+      }, {
+        "name" : "Data Type",
+        "value" : "copy number alteration"
+      }, {
+        "name" : "Platform Used",
+        "value" : "Illumina HiSeq 2000/Illumina GAIIX"
+      }, {
+        "name" : "ENA",
+        "value" : "ENA",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://www.ebi.ac.uk/ena/browser/view/PRJNA523380"
+        } ]
+      }, {
+        "name" : "EGA"
+      }, {
+        "name" : "GEO"
+      }, {
+        "name" : "dbGAP"
+      } ]
+    }, {
+      "type" : "Molecular data",
+      "attributes" : [ {
+        "name" : "Sample ID",
+        "value" : "SIDS00075"
+      }, {
+        "name" : "Sample Type",
+        "value" : "Tumour Cells"
+      }, {
+        "name" : "Engrafted Tumour Passage",
+        "value" : "N/A"
+      }, {
+        "name" : "Data Type",
+        "value" : "mutation"
+      }, {
+        "name" : "Platform Used",
+        "value" : "Illumina HiSeq 2000"
+      }, {
+        "name" : "ENA"
+      }, {
+        "name" : "EGA",
+        "value" : "EGA",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://ega-archive.org/studies/EGAS00001000978"
+        } ]
+      }, {
+        "name" : "GEO"
+      }, {
+        "name" : "dbGAP"
+      } ]
+    }, {
+      "type" : "Molecular data",
+      "attributes" : [ {
+        "name" : "Sample ID",
+        "value" : "SIDS00075"
+      }, {
+        "name" : "Sample Type",
+        "value" : "Tumour Cells"
+      }, {
+        "name" : "Engrafted Tumour Passage",
+        "value" : "N/A"
+      }, {
+        "name" : "Data Type",
+        "value" : "copy number alteration"
+      }, {
+        "name" : "Platform Used",
+        "value" : "Illumina HiSeq 2000"
+      }, {
+        "name" : "ENA"
+      }, {
+        "name" : "EGA"
+      }, {
+        "name" : "GEO"
+      }, {
+        "name" : "dbGAP"
+      } ]
+    }, {
+      "type" : "Molecular data",
+      "attributes" : [ {
+        "name" : "Sample ID",
+        "value" : "SIDS00075"
+      }, {
+        "name" : "Sample Type",
+        "value" : "Tumour Cells"
+      }, {
+        "name" : "Engrafted Tumour Passage",
+        "value" : "N/A"
+      }, {
+        "name" : "Data Type",
+        "value" : "mutation"
+      }, {
+        "name" : "Platform Used",
+        "value" : "Illumina HiSeq 2000"
+      }, {
+        "name" : "ENA"
+      }, {
+        "name" : "EGA",
+        "value" : "EGA",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://ega-archive.org/studies/EGAS00001000978"
+        } ]
+      }, {
+        "name" : "GEO"
+      }, {
+        "name" : "dbGAP"
+      } ]
+    }, {
+      "type" : "Molecular data",
+      "attributes" : [ {
+        "name" : "Sample ID",
+        "value" : "SIDS00075"
+      }, {
+        "name" : "Sample Type",
+        "value" : "Tumour Cells"
+      }, {
+        "name" : "Engrafted Tumour Passage",
+        "value" : "N/A"
+      }, {
+        "name" : "Data Type",
+        "value" : "expression"
+      }, {
+        "name" : "Platform Used",
+        "value" : "Illumina HiSeq 2000/2500"
+      }, {
+        "name" : "ENA",
+        "value" : "ENA",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://www.ebi.ac.uk/ena/browser/view/PRJNA169425"
+        } ]
+      }, {
+        "name" : "EGA"
+      }, {
+        "name" : "GEO"
+      }, {
+        "name" : "dbGAP"
+      } ]
+    }, {
+      "type" : "Molecular data",
+      "attributes" : [ {
+        "name" : "Sample ID",
+        "value" : "SIDS00075"
+      }, {
+        "name" : "Sample Type",
+        "value" : "Tumour Cells"
+      }, {
+        "name" : "Engrafted Tumour Passage",
+        "value" : "N/A"
+      }, {
+        "name" : "Data Type",
+        "value" : "copy number alteration"
+      }, {
+        "name" : "Platform Used",
+        "value" : "Illumina HiSeq 2000/Illumina GAIIX"
+      }, {
+        "name" : "ENA",
+        "value" : "ENA",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://www.ebi.ac.uk/ena/browser/view/PRJNA523380"
+        } ]
+      }, {
+        "name" : "EGA"
+      }, {
+        "name" : "GEO"
+      }, {
+        "name" : "dbGAP"
+      } ]
+    }, {
+      "type" : "Molecular data",
+      "attributes" : [ {
+        "name" : "Sample ID",
+        "value" : "SIDS00075"
+      }, {
+        "name" : "Sample Type",
+        "value" : "Tumour Cells"
+      }, {
+        "name" : "Engrafted Tumour Passage",
+        "value" : "N/A"
+      }, {
+        "name" : "Data Type",
+        "value" : "copy number alteration"
+      }, {
+        "name" : "Platform Used",
+        "value" : "Illumina HiSeq 2000"
+      }, {
+        "name" : "ENA"
+      }, {
+        "name" : "EGA"
+      }, {
+        "name" : "GEO"
+      }, {
+        "name" : "dbGAP"
+      } ]
+    } ], {
+      "files" : [ {
+        "path" : "CMP/SIDM00903/molecular_data/SIDS00075_copy-number-alteration_Illumina-HiSeq-2000-Illumina-GAIIX.tsv.zip",
+        "size" : 210366,
+        "attributes" : [ {
+          "name" : "Sample ID",
+          "value" : "SIDS00075"
+        }, {
+          "name" : "Sample Type",
+          "value" : "Tumour Cells"
+        }, {
+          "name" : "Engrafted Tumour Passage",
+          "value" : "N/A"
+        }, {
+          "name" : "Data Type",
+          "value" : "copy number alteration"
+        }, {
+          "name" : "Platform Used",
+          "value" : "Illumina HiSeq 2000/Illumina GAIIX"
+        } ],
+        "type" : "directory"
+      }, {
+        "path" : "CMP/SIDM00903/molecular_data/SIDS00075_mutation_Illumina-HiSeq-2000.tsv.zip",
+        "size" : 31772,
+        "attributes" : [ {
+          "name" : "Sample ID",
+          "value" : "SIDS00075"
+        }, {
+          "name" : "Sample Type",
+          "value" : "Tumour Cells"
+        }, {
+          "name" : "Engrafted Tumour Passage",
+          "value" : "N/A"
+        }, {
+          "name" : "Data Type",
+          "value" : "mutation"
+        }, {
+          "name" : "Platform Used",
+          "value" : "Illumina HiSeq 2000"
+        } ],
+        "type" : "directory"
+      }, {
+        "path" : "CMP/SIDM00903/molecular_data/SIDS00075_copy-number-alteration_Illumina-HiSeq-2000.tsv.zip",
+        "size" : 210098,
+        "attributes" : [ {
+          "name" : "Sample ID",
+          "value" : "SIDS00075"
+        }, {
+          "name" : "Sample Type",
+          "value" : "Tumour Cells"
+        }, {
+          "name" : "Engrafted Tumour Passage",
+          "value" : "N/A"
+        }, {
+          "name" : "Data Type",
+          "value" : "copy number alteration"
+        }, {
+          "name" : "Platform Used",
+          "value" : "Illumina HiSeq 2000"
+        } ],
+        "type" : "directory"
+      }, {
+        "path" : "CMP/SIDM00903/molecular_data/SIDS00075_mutation_Illumina-HiSeq-2000.tsv.zip",
+        "size" : 31772,
+        "attributes" : [ {
+          "name" : "Sample ID",
+          "value" : "SIDS00075"
+        }, {
+          "name" : "Sample Type",
+          "value" : "Tumour Cells"
+        }, {
+          "name" : "Engrafted Tumour Passage",
+          "value" : "N/A"
+        }, {
+          "name" : "Data Type",
+          "value" : "mutation"
+        }, {
+          "name" : "Platform Used",
+          "value" : "Illumina HiSeq 2000"
+        } ],
+        "type" : "directory"
+      }, {
+        "path" : "CMP/SIDM00903/molecular_data/SIDS00075_expression_Illumina-HiSeq-2000-2500.tsv.zip",
+        "size" : 259921,
+        "attributes" : [ {
+          "name" : "Sample ID",
+          "value" : "SIDS00075"
+        }, {
+          "name" : "Sample Type",
+          "value" : "Tumour Cells"
+        }, {
+          "name" : "Engrafted Tumour Passage",
+          "value" : "N/A"
+        }, {
+          "name" : "Data Type",
+          "value" : "expression"
+        }, {
+          "name" : "Platform Used",
+          "value" : "Illumina HiSeq 2000/2500"
+        } ],
+        "type" : "directory"
+      }, {
+        "path" : "CMP/SIDM00903/molecular_data/SIDS00075_copy-number-alteration_Illumina-HiSeq-2000-Illumina-GAIIX.tsv.zip",
+        "size" : 210366,
+        "attributes" : [ {
+          "name" : "Sample ID",
+          "value" : "SIDS00075"
+        }, {
+          "name" : "Sample Type",
+          "value" : "Tumour Cells"
+        }, {
+          "name" : "Engrafted Tumour Passage",
+          "value" : "N/A"
+        }, {
+          "name" : "Data Type",
+          "value" : "copy number alteration"
+        }, {
+          "name" : "Platform Used",
+          "value" : "Illumina HiSeq 2000/Illumina GAIIX"
+        } ],
+        "type" : "directory"
+      }, {
+        "path" : "CMP/SIDM00903/molecular_data/SIDS00075_copy-number-alteration_Illumina-HiSeq-2000.tsv.zip",
+        "size" : 210098,
+        "attributes" : [ {
+          "name" : "Sample ID",
+          "value" : "SIDS00075"
+        }, {
+          "name" : "Sample Type",
+          "value" : "Tumour Cells"
+        }, {
+          "name" : "Engrafted Tumour Passage",
+          "value" : "N/A"
+        }, {
+          "name" : "Data Type",
+          "value" : "copy number alteration"
+        }, {
+          "name" : "Platform Used",
+          "value" : "Illumina HiSeq 2000"
+        } ],
+        "type" : "directory"
+      } ]
+    }, {
+      "type" : "Immune markers",
+      "subsections" : [ [ {
+        "attributes" : [ {
+          "name" : "Sample ID",
+          "value" : "SIDS00075"
+        }, {
+          "name" : "MMR",
+          "value" : "Not provided"
+        }, {
+          "name" : "MSI",
+          "value" : "Stable"
+        }, {
+          "name" : "Mutations per mb",
+          "value" : "68.18\n39.18"
+        }, {
+          "name" : "Ploidy",
+          "value" : "2.79017000501461\n3.4672318657706804"
+        }, {
+          "name" : "TMB",
+          "value" : "Not provided"
+        } ]
+      } ], [ {
+        "type" : "HLA",
+        "attributes" : [ {
+          "name" : "Sample ID",
+          "value" : "SIDS00075"
+        }, {
+          "name" : "HLA-A",
+          "value" : "HLA-A*26:03, HLA-A*30:01\nHLA-A*25:01:01, HLA-A*30:01:01\nHLA-A*10, HLA-A*w19\nHLA-A*25:01, HLA-A*30:01"
+        }, {
+          "name" : "HLA-B",
+          "value" : "HLA-B*08, HLA-B*12\nHLA-B*18:01:01, HLA-B*20:03:01\nHLA-B*18, HLA-B*44:03:01\nHLA-B*44:03, HLA-B*18:01\nHLA-B*18:01, HLA-B*44:03:01\nHLA-B*07:02, HLA-B*44:03"
+        }, {
+          "name" : "HLA-C",
+          "value" : "HLA-C*12:03:01, HLA-C*16:01:01\nHLA-C*12:03, HLA-C*12:03\nHLA-C*12:03:01, HLA-C*16:01\nHLA-C*12:03, HLA-C*16:01"
+        }, {
+          "name" : "HLA-DPB1",
+          "value" : "HLA-DPB1*03:01, HLA-DPB1*06:01"
+        }, {
+          "name" : "HLA-DQA1",
+          "value" : "HLA-DQA1*02:01:01, HLA-DQA1*05:05:01"
+        }, {
+          "name" : "HLA-DQB1",
+          "value" : "HLA-DQB1*02:02, HLA-DQB1*02:02\nHLA-DQB1*02:02, HLA-DQB1*03:01:01"
+        }, {
+          "name" : "HLA-DRB1",
+          "value" : "HLA-DRB1*07:01:01, HLA-DRB1*11:04:01\nHLA-DRB1*07:01, HLA-DRB1*11:04:01"
+        } ]
+      } ] ]
+    }, [ {
+      "type" : "Histology images",
+      "attributes" : [ {
+        "name" : "Url",
+        "value" : "A-549_Bild_4.jpg",
+        "valqual" : [ {
+          "name" : "URL",
+          "value" : "http://www.dsmz.de/fileadmin/downloads/ACC/cells_in_culture/A-549_Bild_4.jpg"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "NCI:A549"
+      }, {
+        "name" : "Sample type",
+        "value" : "Cell Line"
+      }, {
+        "name" : "Passage",
+        "value" : "Not provided"
+      }, {
+        "name" : "Magnification",
+        "value" : "Not provided"
+      }, {
+        "name" : "Staining",
+        "value" : "Not provided"
+      } ]
+    }, {
+      "type" : "Histology images",
+      "attributes" : [ {
+        "name" : "Url",
+        "value" : "A-549_MGG1.jpg",
+        "valqual" : [ {
+          "name" : "URL",
+          "value" : "http://www.dsmz.de/fileadmin/downloads/ACC/celllinephotos/A-549_MGG1.jpg"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "NCI:A549"
+      }, {
+        "name" : "Sample type",
+        "value" : "Cell Line"
+      }, {
+        "name" : "Passage",
+        "value" : "Not provided"
+      }, {
+        "name" : "Magnification",
+        "value" : "Not provided"
+      }, {
+        "name" : "Staining",
+        "value" : "Not provided"
+      } ]
+    }, {
+      "type" : "Histology images",
+      "attributes" : [ {
+        "name" : "Url",
+        "value" : "A-549_MGG2.jpg",
+        "valqual" : [ {
+          "name" : "URL",
+          "value" : "http://www.dsmz.de/fileadmin/downloads/ACC/celllinephotos/A-549_MGG2.jpg"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "NCI:A549"
+      }, {
+        "name" : "Sample type",
+        "value" : "Cell Line"
+      }, {
+        "name" : "Passage",
+        "value" : "Not provided"
+      }, {
+        "name" : "Magnification",
+        "value" : "Not provided"
+      }, {
+        "name" : "Staining",
+        "value" : "Not provided"
+      } ]
+    }, {
+      "type" : "Histology images",
+      "attributes" : [ {
+        "name" : "Url",
+        "value" : "A-549_Bild_2.jpg",
+        "valqual" : [ {
+          "name" : "URL",
+          "value" : "http://www.dsmz.de/fileadmin/downloads/ACC/cells_in_culture/A-549_Bild_2.jpg"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "NCI:A549"
+      }, {
+        "name" : "Sample type",
+        "value" : "Cell Line"
+      }, {
+        "name" : "Passage",
+        "value" : "Not provided"
+      }, {
+        "name" : "Magnification",
+        "value" : "Not provided"
+      }, {
+        "name" : "Staining",
+        "value" : "Not provided"
+      } ]
+    }, {
+      "type" : "Histology images",
+      "attributes" : [ {
+        "name" : "Url",
+        "value" : "A-549_Bild_5.jpg",
+        "valqual" : [ {
+          "name" : "URL",
+          "value" : "http://www.dsmz.de/fileadmin/downloads/ACC/cells_in_culture/A-549_Bild_5.jpg"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "NCI:A549"
+      }, {
+        "name" : "Sample type",
+        "value" : "Cell Line"
+      }, {
+        "name" : "Passage",
+        "value" : "Not provided"
+      }, {
+        "name" : "Magnification",
+        "value" : "Not provided"
+      }, {
+        "name" : "Staining",
+        "value" : "Not provided"
+      } ]
+    }, {
+      "type" : "Histology images",
+      "attributes" : [ {
+        "name" : "Url",
+        "value" : "A-549_Bild_3.jpg",
+        "valqual" : [ {
+          "name" : "URL",
+          "value" : "http://www.dsmz.de/fileadmin/downloads/ACC/cells_in_culture/A-549_Bild_3.jpg"
+        } ]
+      }, {
+        "name" : "Description",
+        "value" : "NCI:A549"
+      }, {
+        "name" : "Sample type",
+        "value" : "Cell Line"
+      }, {
+        "name" : "Passage",
+        "value" : "Not provided"
+      }, {
+        "name" : "Magnification",
+        "value" : "Not provided"
+      }, {
+        "name" : "Staining",
+        "value" : "Not provided"
+      } ]
+    } ], [ {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "TCLP: an online cancer cell line catalogue integrating HLA type, predicted neo-epitopes, virus and gene expression."
+      }, {
+        "name" : "Authors",
+        "value" : "Scholtalbers J, Boegel S, Bukur T, Byl M, Goerges S, Sorn P, Loewer M, Sahin U, Castle JC."
+      }, {
+        "name" : "Year",
+        "value" : "2015"
+      }, {
+        "name" : "Volume",
+        "value" : "7"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Genome Med"
+      }, {
+        "name" : "Issue",
+        "value" : "N/A"
+      }, {
+        "name" : "Issn",
+        "value" : "1756-994x"
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1186/s13073-015-0240-5",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1186/s13073-015-0240-5"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/26589293"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/26589293"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Inhibitory effects of cholera toxin on in vitro growth of human lung cancer cell lines."
+      }, {
+        "name" : "Authors",
+        "value" : "Kiura K, Watarai S, Shibayama T, Ohnoshi T, Kimura I, Yasuda T."
+      }, {
+        "name" : "Year",
+        "value" : "1993"
+      }, {
+        "name" : "Volume",
+        "value" : "8"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Anticancer Drug Des"
+      }, {
+        "name" : "Issue",
+        "value" : "6"
+      }, {
+        "name" : "Issn",
+        "value" : "0266-9536; 1460-2148; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:N/A",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/N/A"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/8286010"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/8286010"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Evaluation of a549 as a new vaccine cell substrate: digging deeper with massively parallel sequencing."
+      }, {
+        "name" : "Authors",
+        "value" : "Shabram P, Kolman JL."
+      }, {
+        "name" : "Year",
+        "value" : "2014"
+      }, {
+        "name" : "Volume",
+        "value" : "68"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "PDA J Pharm Sci Technol"
+      }, {
+        "name" : "Issue",
+        "value" : "6"
+      }, {
+        "name" : "Issn",
+        "value" : "1079-7440; 1948-2124; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.5731/pdajpst.2014.01027",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.5731/pdajpst.2014.01027"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/25475639"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/25475639"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Identification of microsatellite instability and mismatch repair gene mutations in breast cancer cell lines."
+      }, {
+        "name" : "Authors",
+        "value" : "Seitz S, Wassmuth P, Plaschke J, Schackert HK, Karsten U, Santibanez-Koref MF, Schlag PM, Scherneck S."
+      }, {
+        "name" : "Year",
+        "value" : "2003"
+      }, {
+        "name" : "Volume",
+        "value" : "37"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Genes Chromosomes Cancer"
+      }, {
+        "name" : "Issue",
+        "value" : "1"
+      }, {
+        "name" : "Issn",
+        "value" : "1045-2257; 1098-2264; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1002/gcc.10196",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1002/gcc.10196"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/12661003"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/12661003"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Feasibility of a high-flux anticancer drug screen using a diverse panel of cultured human tumor cell lines."
+      }, {
+        "name" : "Authors",
+        "value" : "Monks A, Scudiero D, Skehan P, Shoemaker R, Paull K, Vistica D, Hose C, Langley J, Cronise P, Vaigro-Wolff A."
+      }, {
+        "name" : "Year",
+        "value" : "1991"
+      }, {
+        "name" : "Volume",
+        "value" : "83"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "J Natl Cancer Inst"
+      }, {
+        "name" : "Issue",
+        "value" : "11"
+      }, {
+        "name" : "Issn",
+        "value" : "0027-8874; 1460-2105; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1093/jnci/83.11.757",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1093/jnci/83.11.757"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/2041050"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/2041050"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Human tumor cell strains defective in the repair of alkylation damage."
+      }, {
+        "name" : "Authors",
+        "value" : "Day RS, Ziolkowski CH, Scudiero DA, Meyer SA, Mattern MR."
+      }, {
+        "name" : "Year",
+        "value" : "1980"
+      }, {
+        "name" : "Volume",
+        "value" : "1"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Carcinogenesis"
+      }, {
+        "name" : "Issue",
+        "value" : "1"
+      }, {
+        "name" : "Issn",
+        "value" : "0143-3334; 1460-2180; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1093/carcin/1.1.21",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1093/carcin/1.1.21"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/22282976"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/22282976"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Comparative proteomic analysis of lung cancer cell line and lung fibroblast cell line."
+      }, {
+        "name" : "Authors",
+        "value" : "Rubporn A, Srisomsap C, Subhasitanont P, Chokchaichamnankit D, Chiablaem K, Svasti J, Sangvanich P."
+      }, {
+        "name" : "Year",
+        "value" : "2009"
+      }, {
+        "name" : "Volume",
+        "value" : "6"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Cancer Genomics Proteomics"
+      }, {
+        "name" : "Issue",
+        "value" : "4"
+      }, {
+        "name" : "Issn",
+        "value" : "1109-6535; 1790-6245; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:N/A",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/N/A"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/19657000"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/19657000"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Mutation and expression of the DCC gene in human lung cancer."
+      }, {
+        "name" : "Authors",
+        "value" : "Kohno T, Sato T, Takakura S, Takei K, Inoue K, Nishioka M, Yokota J."
+      }, {
+        "name" : "Year",
+        "value" : "2000"
+      }, {
+        "name" : "Volume",
+        "value" : "2"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Neoplasia"
+      }, {
+        "name" : "Issue",
+        "value" : "4"
+      }, {
+        "name" : "Issn",
+        "value" : "1522-8002; 1476-5586; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1038/sj.neo.7900094",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1038/sj.neo.7900094"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/11005564"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/11005564"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Transcriptome Sequencing Reveals Key Pathways and Genes Associated with Cisplatin Resistance in Lung Adenocarcinoma A549 Cells."
+      }, {
+        "name" : "Authors",
+        "value" : "Fang Y, Zhang C, Wu T, Wang Q, Liu J, Dai P."
+      }, {
+        "name" : "Year",
+        "value" : "2017"
+      }, {
+        "name" : "Volume",
+        "value" : "12"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "PLoS One"
+      }, {
+        "name" : "Issue",
+        "value" : "1"
+      }, {
+        "name" : "Issn",
+        "value" : "1932-6203"
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1371/journal.pone.0170609",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1371/journal.pone.0170609"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/28114404"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/28114404"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Growth of cell lines and clinical specimens of human non-small cell lung cancer in a serum-free defined medium."
+      }, {
+        "name" : "Authors",
+        "value" : "Brower M, Carney DN, Oie HK, Gazdar AF, Minna JD."
+      }, {
+        "name" : "Year",
+        "value" : "1986"
+      }, {
+        "name" : "Volume",
+        "value" : "46"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Cancer Res"
+      }, {
+        "name" : "Issue",
+        "value" : "2"
+      }, {
+        "name" : "Issn",
+        "value" : "0008-5472; 1538-7445; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:N/A",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/N/A"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/3940644"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/3940644"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Quantitative Proteomics of the Cancer Cell Line Encyclopedia."
+      }, {
+        "name" : "Authors",
+        "value" : "Nusinow DP, Szpyt J, Ghandi M, Rose CM, McDonald ER, Kalocsay M, Jané-Valbuena J, Gelfand E, Schweppe DK, Jedrychowski M, Golji J, Porter DA, Rejtar T, Wang YK, Kryukov GV, Stegmeier F, Erickson BK, Garraway LA, Sellers WR, Gygi SP."
+      }, {
+        "name" : "Year",
+        "value" : "2020"
+      }, {
+        "name" : "Volume",
+        "value" : "180"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Cell"
+      }, {
+        "name" : "Issue",
+        "value" : "2"
+      }, {
+        "name" : "Issn",
+        "value" : "0092-8674; 1097-4172; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1016/j.cell.2019.12.023",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1016/j.cell.2019.12.023"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/31978347"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/31978347"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Next-generation characterization of the Cancer Cell Line Encyclopedia."
+      }, {
+        "name" : "Authors",
+        "value" : "Ghandi M, Huang FW, Jané-Valbuena J, Kryukov GV, Lo CC, McDonald ER, Barretina J, Gelfand ET, Bielski CM, Li H, Hu K, Andreev-Drakhlin AY, Kim J, Hess JM, Haas BJ, Aguet F, Weir BA, Rothberg MV, Paolella BR, Lawrence MS, Akbani R, Lu Y, Tiv HL, Gokhale PC, de Weck A, Mansour AA, Oh C, Shih J, Hadi K, Rosen Y, Bistline J, Venkatesan K, Reddy A, Sonkin D, Liu M, Lehar J, Korn JM, Porter DA, Jones MD, Golji J, Caponigro G, Taylor JE, Dunning CM, Creech AL, Warren AC, McFarland JM, Zamanighomi M, Kauffmann A, Stransky N, Imielinski M, Maruvka YE, Cherniack AD, Tsherniak A, Vazquez F, Jaffe JD, Lane AA, Weinstock DM, Johannessen CM, Morrissey MP, Stegmeier F, Schlegel R, Hahn WC, Getz G, Mills GB, Boehm JS, Golub TR, Garraway LA, Sellers WR."
+      }, {
+        "name" : "Year",
+        "value" : "2019"
+      }, {
+        "name" : "Volume",
+        "value" : "569"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Nature"
+      }, {
+        "name" : "Issue",
+        "value" : "7757"
+      }, {
+        "name" : "Issn",
+        "value" : "0028-0836; 1476-4687; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1038/s41586-019-1186-3",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1038/s41586-019-1186-3"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/31068700"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/31068700"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Redefining the relevance of established cancer cell lines to the study of mechanisms of clinical anti-cancer drug resistance."
+      }, {
+        "name" : "Authors",
+        "value" : "Gillet JP, Calcagno AM, Varma S, Marino M, Green LJ, Vora MI, Patel C, Orina JN, Eliseeva TA, Singal V, Padmanabhan R, Davidson B, Ganapathi R, Sood AK, Rueda BR, Ambudkar SV, Gottesman MM."
+      }, {
+        "name" : "Year",
+        "value" : "2011"
+      }, {
+        "name" : "Volume",
+        "value" : "108"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Proc Natl Acad Sci U S A"
+      }, {
+        "name" : "Issue",
+        "value" : "46"
+      }, {
+        "name" : "Issn",
+        "value" : "0027-8424; 1091-6490; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1073/pnas.1111840108",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1073/pnas.1111840108"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/22068913"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/22068913"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Aberrant methylation and silencing of <i>IRF8</i> expression in non-small cell lung cancer."
+      }, {
+        "name" : "Authors",
+        "value" : "Suzuki M, Ikeda K, Shiraishi K, Eguchi A, Mori T, Yoshimoto K, Shibata H, Ito T, Baba Y, Baba H."
+      }, {
+        "name" : "Year",
+        "value" : "2014"
+      }, {
+        "name" : "Volume",
+        "value" : "8"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Oncol Lett"
+      }, {
+        "name" : "Issue",
+        "value" : "3"
+      }, {
+        "name" : "Issn",
+        "value" : "1792-1074; 1792-1082; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.3892/ol.2014.2234",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.3892/ol.2014.2234"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/25120651"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/25120651"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Lysine acetylation targets protein complexes and co-regulates major cellular functions."
+      }, {
+        "name" : "Authors",
+        "value" : "Choudhary C, Kumar C, Gnad F, Nielsen ML, Rehman M, Walther TC, Olsen JV, Mann M."
+      }, {
+        "name" : "Year",
+        "value" : "2009"
+      }, {
+        "name" : "Volume",
+        "value" : "325"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Science"
+      }, {
+        "name" : "Issue",
+        "value" : "5942"
+      }, {
+        "name" : "Issn",
+        "value" : "0036-8075; 1095-9203; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1126/science.1175371",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1126/science.1175371"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/19608861"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/19608861"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Demonstration of an interferon gamma-dependent tumor surveillance system in immunocompetent mice."
+      }, {
+        "name" : "Authors",
+        "value" : "Kaplan DH, Shankaran V, Dighe AS, Stockert E, Aguet M, Old LJ, Schreiber RD."
+      }, {
+        "name" : "Year",
+        "value" : "1998"
+      }, {
+        "name" : "Volume",
+        "value" : "95"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Proc Natl Acad Sci U S A"
+      }, {
+        "name" : "Issue",
+        "value" : "13"
+      }, {
+        "name" : "Issn",
+        "value" : "0027-8424; 1091-6490; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1073/pnas.95.13.7556",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1073/pnas.95.13.7556"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/9636188"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/9636188"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Distinction of seventy-one cultured human tumor cell lines by polymorphic enzyme analysis."
+      }, {
+        "name" : "Authors",
+        "value" : "Wright WC, Daniels WP, Fogh J."
+      }, {
+        "name" : "Year",
+        "value" : "1981"
+      }, {
+        "name" : "Volume",
+        "value" : "66"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "J Natl Cancer Inst"
+      }, {
+        "name" : "Issue",
+        "value" : "2"
+      }, {
+        "name" : "Issn",
+        "value" : "0027-8874; 1460-2105; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:N/A",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/N/A"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/6935474"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/6935474"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Characterization of two human lung adenocarcinoma cell lines by reciprocal chromosome painting."
+      }, {
+        "name" : "Authors",
+        "value" : "Peng KJ, Wang JH, Su WT, Wang XC, Yang FT, Nie WH."
+      }, {
+        "name" : "Year",
+        "value" : "2010"
+      }, {
+        "name" : "Volume",
+        "value" : "31"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Dongwuxue Yanjiu"
+      }, {
+        "name" : "Issue",
+        "value" : "2"
+      }, {
+        "name" : "Issn",
+        "value" : "0254-5853"
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.3724/sp.j.1141.2010.02113",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.3724/sp.j.1141.2010.02113"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/20545000"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/20545000"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "The metabolic demands of cancer cells are coupled to their size and protein synthesis rates."
+      }, {
+        "name" : "Authors",
+        "value" : "Dolfi SC, Chan LL, Qiu J, Tedeschi PM, Bertino JR, Hirshfield KM, Oltvai ZN, Vazquez A."
+      }, {
+        "name" : "Year",
+        "value" : "2013"
+      }, {
+        "name" : "Volume",
+        "value" : "1"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Cancer Metab"
+      }, {
+        "name" : "Issue",
+        "value" : "1"
+      }, {
+        "name" : "Issn",
+        "value" : "2049-3002"
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1186/2049-3002-1-20",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1186/2049-3002-1-20"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/24279929"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/24279929"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Absence of HeLa cell contamination in 169 cell lines derived from human tumors."
+      }, {
+        "name" : "Authors",
+        "value" : "Fogh J, Wright WC, Loveless JD."
+      }, {
+        "name" : "Year",
+        "value" : "1977"
+      }, {
+        "name" : "Volume",
+        "value" : "58"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "J Natl Cancer Inst"
+      }, {
+        "name" : "Issue",
+        "value" : "2"
+      }, {
+        "name" : "Issn",
+        "value" : "0027-8874; 1460-2105; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1093/jnci/58.2.209",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1093/jnci/58.2.209"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/833871"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/833871"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Human melanoma cells have both nerve growth factor and nerve growth factor-specific receptors on their cell surfaces."
+      }, {
+        "name" : "Authors",
+        "value" : "Sherwin SA, Sliski AH, Todaro GJ."
+      }, {
+        "name" : "Year",
+        "value" : "1979"
+      }, {
+        "name" : "Volume",
+        "value" : "76"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Proc Natl Acad Sci U S A"
+      }, {
+        "name" : "Issue",
+        "value" : "3"
+      }, {
+        "name" : "Issn",
+        "value" : "0027-8424; 1091-6490; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1073/pnas.76.3.1288",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1073/pnas.76.3.1288"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/375235"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/375235"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Parallel genome-scale loss of function screens in 216 cancer cell lines for the identification of context-specific genetic dependencies."
+      }, {
+        "name" : "Authors",
+        "value" : "Cowley GS, Weir BA, Vazquez F, Tamayo P, Scott JA, Rusin S, East-Seletsky A, Ali LD, Gerath WF, Pantel SE, Lizotte PH, Jiang G, Hsiao J, Tsherniak A, Dwinell E, Aoyama S, Okamoto M, Harrington W, Gelfand E, Green TM, Tomko MJ, Gopal S, Wong TC, Li H, Howell S, Stransky N, Liefeld T, Jang D, Bistline J, Hill Meyers B, Armstrong SA, Anderson KC, Stegmaier K, Reich M, Pellman D, Boehm JS, Mesirov JP, Golub TR, Root DE, Hahn WC."
+      }, {
+        "name" : "Year",
+        "value" : "2014"
+      }, {
+        "name" : "Volume",
+        "value" : "1"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Sci Data"
+      }, {
+        "name" : "Issue",
+        "value" : "N/A"
+      }, {
+        "name" : "Issn",
+        "value" : "2052-4463"
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1038/sdata.2014.35",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1038/sdata.2014.35"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/25984343"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/25984343"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "HLA class I and II genotype of the NCI-60 cell lines."
+      }, {
+        "name" : "Authors",
+        "value" : "Adams S, Robbins FM, Chen D, Wagage D, Holbeck SL, Morse HC, Stroncek D, Marincola FM."
+      }, {
+        "name" : "Year",
+        "value" : "2005"
+      }, {
+        "name" : "Volume",
+        "value" : "3"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "J Transl Med"
+      }, {
+        "name" : "Issue",
+        "value" : "1"
+      }, {
+        "name" : "Issn",
+        "value" : "1479-5876"
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1186/1479-5876-3-11",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1186/1479-5876-3-11"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/15748285"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/15748285"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Long non-coding RNA expression profiling in the NCI60 cancer cell line panel using high-throughput RT-qPCR."
+      }, {
+        "name" : "Authors",
+        "value" : "Mestdagh P, Lefever S, Volders PJ, Derveaux S, Hellemans J, Vandesompele J."
+      }, {
+        "name" : "Year",
+        "value" : "2016"
+      }, {
+        "name" : "Volume",
+        "value" : "3"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Sci Data"
+      }, {
+        "name" : "Issue",
+        "value" : "N/A"
+      }, {
+        "name" : "Issn",
+        "value" : "2052-4463"
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1038/sdata.2016.52",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1038/sdata.2016.52"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/27377824"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/27377824"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Chemistry-First Approach for Nomination of Personalized Treatment in Lung Cancer."
+      }, {
+        "name" : "Authors",
+        "value" : "McMillan EA, Ryu MJ, Diep CH, Mendiratta S, Clemenceau JR, Vaden RM, Kim JH, Motoyaji T, Covington KR, Peyton M, Huffman K, Wu X, Girard L, Sung Y, Chen PH, Mallipeddi PL, Lee JY, Hanson J, Voruganti S, Yu Y, Park S, Sudderth J, DeSevo C, Muzny DM, Doddapaneni H, Gazdar A, Gibbs RA, Hwang TH, Heymach JV, Wistuba I, Coombes KR, Williams NS, Wheeler DA, MacMillan JB, Deberardinis RJ, Roth MG, Posner BA, Minna JD, Kim HS, White MA."
+      }, {
+        "name" : "Year",
+        "value" : "2018"
+      }, {
+        "name" : "Volume",
+        "value" : "173"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Cell"
+      }, {
+        "name" : "Issue",
+        "value" : "4"
+      }, {
+        "name" : "Issn",
+        "value" : "0092-8674; 1097-4172; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1016/j.cell.2018.03.028",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1016/j.cell.2018.03.028"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/29681454"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/29681454"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "JFCR39, a panel of 39 human cancer cell lines, and its application in the discovery and development of anticancer drugs."
+      }, {
+        "name" : "Authors",
+        "value" : "Kong D, Yamori T."
+      }, {
+        "name" : "Year",
+        "value" : "2012"
+      }, {
+        "name" : "Volume",
+        "value" : "20"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Bioorg Med Chem"
+      }, {
+        "name" : "Issue",
+        "value" : "6"
+      }, {
+        "name" : "Issn",
+        "value" : "0968-0896; 1464-3391; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1016/j.bmc.2012.01.017",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1016/j.bmc.2012.01.017"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/22336246"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/22336246"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Presence of glycogen and growth-related variations in 58 cultured human tumor cell lines of various tissue origins."
+      }, {
+        "name" : "Authors",
+        "value" : "Rousset M, Zweibaum A, Fogh J."
+      }, {
+        "name" : "Year",
+        "value" : "1981"
+      }, {
+        "name" : "Volume",
+        "value" : "41"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Cancer Res"
+      }, {
+        "name" : "Issue",
+        "value" : "3"
+      }, {
+        "name" : "Issn",
+        "value" : "0008-5472; 1538-7445; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:N/A",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/N/A"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/7459858"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/7459858"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Evidence for thromboxane biosynthesis in established cell lines derived from human lung adenocarcinomas."
+      }, {
+        "name" : "Authors",
+        "value" : "Hubbard WC, Alley MC, McLemore TL, Boyd MR."
+      }, {
+        "name" : "Year",
+        "value" : "1988"
+      }, {
+        "name" : "Volume",
+        "value" : "48"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Cancer Res"
+      }, {
+        "name" : "Issue",
+        "value" : "10"
+      }, {
+        "name" : "Issn",
+        "value" : "0008-5472; 1538-7445; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:N/A",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/N/A"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/3129183"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/3129183"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Variable expression on lung cancer cell lines of HLA-A2-binding MAGE-3 peptide recognized by cytotoxic T lymphocytes."
+      }, {
+        "name" : "Authors",
+        "value" : "Takaki T, Hiraki A, Uenaka A, Gomi S, Itoh K, Udono H, Shibuya A, Tsuji T, Sekiguchi S, Nakayama E."
+      }, {
+        "name" : "Year",
+        "value" : "1998"
+      }, {
+        "name" : "Volume",
+        "value" : "12"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Int J Oncol"
+      }, {
+        "name" : "Issue",
+        "value" : "5"
+      }, {
+        "name" : "Issn",
+        "value" : "1019-6439; 1791-2423; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.3892/ijo.12.5.1103",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.3892/ijo.12.5.1103"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/9538136"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/9538136"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Cultured cell lines for research on pulmonary physiology available through the American type culture collection."
+      }, {
+        "name" : "Authors",
+        "value" : "Hay RJ, Williams CD, Macy ML, Lavappa KS."
+      }, {
+        "name" : "Year",
+        "value" : "1982"
+      }, {
+        "name" : "Volume",
+        "value" : "125"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Am Rev Respir Dis"
+      }, {
+        "name" : "Issue",
+        "value" : "2"
+      }, {
+        "name" : "Issn",
+        "value" : "0003-0805"
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1164/arrd.1982.125.2.222",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1164/arrd.1982.125.2.222"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/7065527"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/7065527"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "A Landscape of Pharmacogenomic Interactions in Cancer."
+      }, {
+        "name" : "Authors",
+        "value" : "Iorio F, Knijnenburg TA, Vis DJ, Bignell GR, Menden MP, Schubert M, Aben N, Gonçalves E, Barthorpe S, Lightfoot H, Cokelaer T, Greninger P, van Dyk E, Chang H, de Silva H, Heyn H, Deng X, Egan RK, Liu Q, Mironenko T, Mitropoulos X, Richardson L, Wang J, Zhang T, Moran S, Sayols S, Soleimani M, Tamborero D, Lopez-Bigas N, Ross-Macdonald P, Esteller M, Gray NS, Haber DA, Stratton MR, Benes CH, Wessels LFA, Saez-Rodriguez J, McDermott U, Garnett MJ."
+      }, {
+        "name" : "Year",
+        "value" : "2016"
+      }, {
+        "name" : "Volume",
+        "value" : "166"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Cell"
+      }, {
+        "name" : "Issue",
+        "value" : "3"
+      }, {
+        "name" : "Issn",
+        "value" : "0092-8674; 1097-4172; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1016/j.cell.2016.06.017",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1016/j.cell.2016.06.017"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/27397505"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/27397505"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Secretion of atrial natriuretic peptide and vasopressin by small cell lung cancer."
+      }, {
+        "name" : "Authors",
+        "value" : "Campling BG, Sarda IR, Baer KA, Pang SC, Baker HM, Lofters WS, Flynn TG."
+      }, {
+        "name" : "Year",
+        "value" : "1995"
+      }, {
+        "name" : "Volume",
+        "value" : "75"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Cancer"
+      }, {
+        "name" : "Issue",
+        "value" : "10"
+      }, {
+        "name" : "Issn",
+        "value" : "0008-543x; 1097-0142; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1002/1097-0142(19950515)75:10<2442::aid-cncr2820751009>3.0.co;2-q",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1002/1097-0142(19950515)75:10<2442::aid-cncr2820751009>3.0.co;2-q"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/7736387"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/7736387"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Global proteome analysis of the NCI-60 cell line panel."
+      }, {
+        "name" : "Authors",
+        "value" : "Gholami AM, Hahne H, Wu Z, Auer FJ, Meng C, Wilhelm M, Kuster B."
+      }, {
+        "name" : "Year",
+        "value" : "2013"
+      }, {
+        "name" : "Volume",
+        "value" : "4"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Cell Rep"
+      }, {
+        "name" : "Issue",
+        "value" : "3"
+      }, {
+        "name" : "Issn",
+        "value" : "2211-1247"
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1016/j.celrep.2013.07.018",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1016/j.celrep.2013.07.018"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/23933261"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/23933261"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Increased glucose influx and glycogenesis in lung cancer cells surviving after irradiation."
+      }, {
+        "name" : "Authors",
+        "value" : "Tsolou A, Koparanis D, Lamprou I, Giatromanolaki A, Koukourakis MI."
+      }, {
+        "name" : "Year",
+        "value" : "2023"
+      }, {
+        "name" : "Volume",
+        "value" : "99"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Int J Radiat Biol"
+      }, {
+        "name" : "Issue",
+        "value" : "4"
+      }, {
+        "name" : "Issn",
+        "value" : "0955-3002; 1362-3095; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1080/09553002.2022.2113837",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1080/09553002.2022.2113837"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/35976051"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/35976051"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Antiproliferative action of metformin in human lung cancer cell lines."
+      }, {
+        "name" : "Authors",
+        "value" : "Ashinuma H, Takiguchi Y, Kitazono S, Kitazono-Saitoh M, Kitamura A, Chiba T, Tada Y, Kurosu K, Sakaida E, Sekine I, Tanabe N, Iwama A, Yokosuka O, Tatsumi K."
+      }, {
+        "name" : "Year",
+        "value" : "2012"
+      }, {
+        "name" : "Volume",
+        "value" : "28"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Oncol Rep"
+      }, {
+        "name" : "Issue",
+        "value" : "1"
+      }, {
+        "name" : "Issn",
+        "value" : "1021-335x; 1791-2431; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.3892/or.2012.1763",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.3892/or.2012.1763"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/22576795"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/22576795"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Analysis of established human carcinoma cell lines for lymphoreticular-associated membrane receptors."
+      }, {
+        "name" : "Authors",
+        "value" : "Kerbel RS, Pross HF, Leibovitz A."
+      }, {
+        "name" : "Year",
+        "value" : "1977"
+      }, {
+        "name" : "Volume",
+        "value" : "20"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Int J Cancer"
+      }, {
+        "name" : "Issue",
+        "value" : "5"
+      }, {
+        "name" : "Issn",
+        "value" : "0020-7136; 1097-0215; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1002/ijc.2910200505",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1002/ijc.2910200505"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/924690"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/924690"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Production of gastrin-releasing peptide by a non-small cell lung carcinoma cell line adapted to serum-free and growth factor-free conditions."
+      }, {
+        "name" : "Authors",
+        "value" : "Siegfried JM, Han YH, DeMichele MA, Hunt JD, Gaither AL, Cuttitta F."
+      }, {
+        "name" : "Year",
+        "value" : "1994"
+      }, {
+        "name" : "Volume",
+        "value" : "269"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "J Biol Chem"
+      }, {
+        "name" : "Issue",
+        "value" : "11"
+      }, {
+        "name" : "Issn",
+        "value" : "0021-9258; 1083-351x; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1016/s0021-9258(17)37236-8",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1016/s0021-9258(17)37236-8"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/8132585"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/8132585"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Screening the p53 status of human cell lines using a yeast functional assay."
+      }, {
+        "name" : "Authors",
+        "value" : "Jia LQ, Osada M, Ishioka C, Gamo M, Ikawa S, Suzuki T, Shimodaira H, Niitani T, Kudo T, Akiyama M, Kimura N, Matsuo M, Mizusawa H, Tanaka N, Koyama H, Namba M, Kanamaru R, Kuroki T."
+      }, {
+        "name" : "Year",
+        "value" : "1997"
+      }, {
+        "name" : "Volume",
+        "value" : "19"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Mol Carcinog"
+      }, {
+        "name" : "Issue",
+        "value" : "4"
+      }, {
+        "name" : "Issn",
+        "value" : "0899-1987; 1098-2744; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1002/(sici)1098-2744(199708)19:4<243::aid-mc5>3.0.co;2-d",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1002/(sici)1098-2744(199708)19:4<243::aid-mc5>3.0.co;2-d"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/9290701"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/9290701"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "The exomes of the NCI-60 panel: a genomic resource for cancer biology and systems pharmacology."
+      }, {
+        "name" : "Authors",
+        "value" : "Abaan OD, Polley EC, Davis SR, Zhu YJ, Bilke S, Walker RL, Pineda M, Gindin Y, Jiang Y, Reinhold WC, Holbeck SL, Simon RM, Doroshow JH, Pommier Y, Meltzer PS."
+      }, {
+        "name" : "Year",
+        "value" : "2013"
+      }, {
+        "name" : "Volume",
+        "value" : "73"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Cancer Res"
+      }, {
+        "name" : "Issue",
+        "value" : "14"
+      }, {
+        "name" : "Issn",
+        "value" : "0008-5472; 1538-7445; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1158/0008-5472.can-12-3342",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1158/0008-5472.can-12-3342"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/23856246"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/23856246"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Effects of α-Particle Radiation on MicroRNA Responses in Human Cell-Lines."
+      }, {
+        "name" : "Authors",
+        "value" : "Chauhan V, Howland M, Wilkins R."
+      }, {
+        "name" : "Year",
+        "value" : "2012"
+      }, {
+        "name" : "Volume",
+        "value" : "6"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Open Biochem J"
+      }, {
+        "name" : "Issue",
+        "value" : "N/A"
+      }, {
+        "name" : "Issn",
+        "value" : "1874-091x"
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.2174/1874091x01206010016",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.2174/1874091x01206010016"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/22481983"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/22481983"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "In vitro cultivation of human tumors: establishment of cell lines derived from a series of solid tumors."
+      }, {
+        "name" : "Authors",
+        "value" : "Giard DJ, Aaronson SA, Todaro GJ, Arnstein P, Kersey JH, Dosik H, Parks WP."
+      }, {
+        "name" : "Year",
+        "value" : "1973"
+      }, {
+        "name" : "Volume",
+        "value" : "51"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "J Natl Cancer Inst"
+      }, {
+        "name" : "Issue",
+        "value" : "5"
+      }, {
+        "name" : "Issn",
+        "value" : "0027-8874; 1460-2105; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1093/jnci/51.5.1417",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1093/jnci/51.5.1417"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/4357758"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/4357758"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Deletion of Adipose Triglyceride Lipase Links Triacylglycerol Accumulation to a More-Aggressive Phenotype in A549 Lung Carcinoma Cells."
+      }, {
+        "name" : "Authors",
+        "value" : "Tomin T, Fritz K, Gindlhuber J, Waldherr L, Pucher B, Thallinger GG, Nomura DK, Schittmayer M, Birner-Gruenberger R."
+      }, {
+        "name" : "Year",
+        "value" : "2018"
+      }, {
+        "name" : "Volume",
+        "value" : "17"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "J Proteome Res"
+      }, {
+        "name" : "Issue",
+        "value" : "4"
+      }, {
+        "name" : "Issn",
+        "value" : "1535-3893; 1535-3907; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1021/acs.jproteome.7b00782",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1021/acs.jproteome.7b00782"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/29457907"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/29457907"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Metabolite profiling identifies a key role for glycine in rapid cancer cell proliferation."
+      }, {
+        "name" : "Authors",
+        "value" : "Jain M, Nilsson R, Sharma S, Madhusudhan N, Kitami T, Souza AL, Kafri R, Kirschner MW, Clish CB, Mootha VK."
+      }, {
+        "name" : "Year",
+        "value" : "2012"
+      }, {
+        "name" : "Volume",
+        "value" : "336"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Science"
+      }, {
+        "name" : "Issue",
+        "value" : "6084"
+      }, {
+        "name" : "Issn",
+        "value" : "0036-8075; 1095-9203; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1126/science.1218595",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1126/science.1218595"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/22628656"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/22628656"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "A genome-wide screen for microdeletions reveals disruption of polarity complex genes in diverse human cancers."
+      }, {
+        "name" : "Authors",
+        "value" : "Rothenberg SM, Mohapatra G, Rivera MN, Winokur D, Greninger P, Nitta M, Sadow PM, Sooriyakumar G, Brannigan BW, Ulman MJ, Perera RM, Wang R, Tam A, Ma XJ, Erlander M, Sgroi DC, Rocco JW, Lingen MW, Cohen EE, Louis DN, Settleman J, Haber DA."
+      }, {
+        "name" : "Year",
+        "value" : "2010"
+      }, {
+        "name" : "Volume",
+        "value" : "70"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Cancer Res"
+      }, {
+        "name" : "Issue",
+        "value" : "6"
+      }, {
+        "name" : "Issn",
+        "value" : "0008-5472; 1538-7445; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1158/0008-5472.can-09-3458",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1158/0008-5472.can-09-3458"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/20215515"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/20215515"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "p53 mutations, ras mutations, and p53-heat shock 70 protein complexes in human lung carcinoma cell lines."
+      }, {
+        "name" : "Authors",
+        "value" : "Lehman TA, Bennett WP, Metcalf RA, Welsh JA, Ecker J, Modali RV, Ullrich S, Romano JW, Appella E, Testa JR."
+      }, {
+        "name" : "Year",
+        "value" : "1991"
+      }, {
+        "name" : "Volume",
+        "value" : "51"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Cancer Res"
+      }, {
+        "name" : "Issue",
+        "value" : "15"
+      }, {
+        "name" : "Issn",
+        "value" : "0008-5472; 1538-7445; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:N/A",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/N/A"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/1855224"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/1855224"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Heterogeneity in the radiation survival curves and biochemical properties of human lung cancer cell lines."
+      }, {
+        "name" : "Authors",
+        "value" : "Morstyn G, Russo A, Carney DN, Karawya E, Wilson SH, Mitchell JB."
+      }, {
+        "name" : "Year",
+        "value" : "1984"
+      }, {
+        "name" : "Volume",
+        "value" : "73"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "J Natl Cancer Inst"
+      }, {
+        "name" : "Issue",
+        "value" : "4"
+      }, {
+        "name" : "Issn",
+        "value" : "0027-8874; 1460-2105; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:N/A",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/N/A"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/6148444"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/6148444"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Rapid High-pH Reverse Phase StageTip for Sensitive Small-Scale Membrane Proteomic Profiling."
+      }, {
+        "name" : "Authors",
+        "value" : "Dimayacyac-Esleta BR, Tsai CF, Kitata RB, Lin PY, Choong WK, Lin TD, Wang YT, Weng SH, Yang PC, Arco SD, Sung TY, Chen YJ."
+      }, {
+        "name" : "Year",
+        "value" : "2015"
+      }, {
+        "name" : "Volume",
+        "value" : "87"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Anal Chem"
+      }, {
+        "name" : "Issue",
+        "value" : "24"
+      }, {
+        "name" : "Issn",
+        "value" : "0003-2700; 1520-6882; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1021/acs.analchem.5b03639",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1021/acs.analchem.5b03639"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/26554430"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/26554430"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Lack of AKT activation in lung cancer cells with EGFR mutation is a novel marker of cetuximab sensitivity."
+      }, {
+        "name" : "Authors",
+        "value" : "Takata M, Chikumi H, Miyake N, Adachi K, Kanamori Y, Yamasaki A, Igishi T, Burioka N, Nanba E, Shimizu E."
+      }, {
+        "name" : "Year",
+        "value" : "2012"
+      }, {
+        "name" : "Volume",
+        "value" : "13"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Cancer Biol Ther"
+      }, {
+        "name" : "Issue",
+        "value" : "6"
+      }, {
+        "name" : "Issn",
+        "value" : "1538-4047; 1555-8576; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.4161/cbt.19238",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.4161/cbt.19238"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/22313637"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/22313637"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Determinants of cisplatin and irinotecan activities in human lung adenocarcinoma cells: evidence of cisplatin accumulation and topoisomerase I activity."
+      }, {
+        "name" : "Authors",
+        "value" : "Matsumura T, Takigawa N, Kiura K, Shibayama T, Chikamori M, Tabata M, Ueoka H, Tanimoto M."
+      }, {
+        "name" : "Year",
+        "value" : "2005"
+      }, {
+        "name" : "Volume",
+        "value" : "19"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "In Vivo"
+      }, {
+        "name" : "Issue",
+        "value" : "4"
+      }, {
+        "name" : "Issn",
+        "value" : "0258-851x; 1791-7549; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:N/A",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/N/A"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/15999539"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/15999539"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "High resolution copy number variation data in the NCI-60 cancer cell lines from whole genome microarrays accessible through CellMiner."
+      }, {
+        "name" : "Authors",
+        "value" : "Varma S, Pommier Y, Sunshine M, Weinstein JN, Reinhold WC."
+      }, {
+        "name" : "Year",
+        "value" : "2014"
+      }, {
+        "name" : "Volume",
+        "value" : "9"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "PLoS One"
+      }, {
+        "name" : "Issue",
+        "value" : "3"
+      }, {
+        "name" : "Issn",
+        "value" : "1932-6203"
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1371/journal.pone.0092047",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1371/journal.pone.0092047"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/24670534"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/24670534"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Paracrine effects of hepatocyte growth factor/scatter factor on non-small-cell lung carcinoma cell lines."
+      }, {
+        "name" : "Authors",
+        "value" : "Yi S, Chen JR, Viallet J, Schwall RH, Nakamura T, Tsao MS."
+      }, {
+        "name" : "Year",
+        "value" : "1998"
+      }, {
+        "name" : "Volume",
+        "value" : "77"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Br J Cancer"
+      }, {
+        "name" : "Issue",
+        "value" : "12"
+      }, {
+        "name" : "Issn",
+        "value" : "0007-0920; 1532-1827; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1038/bjc.1998.361",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1038/bjc.1998.361"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/9649128"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/9649128"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Mass homozygotes accumulation in the NCI-60 cancer cell lines as compared to HapMap Trios, and relation to fragile site location."
+      }, {
+        "name" : "Authors",
+        "value" : "Ruan X, Kocher JP, Pommier Y, Liu H, Reinhold WC."
+      }, {
+        "name" : "Year",
+        "value" : "2012"
+      }, {
+        "name" : "Volume",
+        "value" : "7"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "PLoS One"
+      }, {
+        "name" : "Issue",
+        "value" : "2"
+      }, {
+        "name" : "Issn",
+        "value" : "1932-6203"
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1371/journal.pone.0031628",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1371/journal.pone.0031628"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/22347499"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/22347499"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Mining Missing Membrane Proteins by High-pH Reverse-Phase StageTip Fractionation and Multiple Reaction Monitoring Mass Spectrometry."
+      }, {
+        "name" : "Authors",
+        "value" : "Kitata RB, Dimayacyac-Esleta BR, Choong WK, Tsai CF, Lin TD, Tsou CC, Weng SH, Chen YJ, Yang PC, Arco SD, Nesvizhskii AI, Sung TY, Chen YJ."
+      }, {
+        "name" : "Year",
+        "value" : "2015"
+      }, {
+        "name" : "Volume",
+        "value" : "14"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "J Proteome Res"
+      }, {
+        "name" : "Issue",
+        "value" : "9"
+      }, {
+        "name" : "Issn",
+        "value" : "1535-3893; 1535-3907; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1021/acs.jproteome.5b00477",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1021/acs.jproteome.5b00477"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/26202522"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/26202522"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Mutation analysis of 24 known cancer genes in the NCI-60 cell line set."
+      }, {
+        "name" : "Authors",
+        "value" : "Ikediobi ON, Davies H, Bignell G, Edkins S, Stevens C, O'Meara S, Santarius T, Avis T, Barthorpe S, Brackenbury L, Buck G, Butler A, Clements J, Cole J, Dicks E, Forbes S, Gray K, Halliday K, Harrison R, Hills K, Hinton J, Hunter C, Jenkinson A, Jones D, Kosmidou V, Lugg R, Menzies A, Mironenko T, Parker A, Perry J, Raine K, Richardson D, Shepherd R, Small A, Smith R, Solomon H, Stephens P, Teague J, Tofts C, Varian J, Webb T, West S, Widaa S, Yates A, Reinhold W, Weinstein JN, Stratton MR, Futreal PA, Wooster R."
+      }, {
+        "name" : "Year",
+        "value" : "2006"
+      }, {
+        "name" : "Volume",
+        "value" : "5"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Mol Cancer Ther"
+      }, {
+        "name" : "Issue",
+        "value" : "11"
+      }, {
+        "name" : "Issn",
+        "value" : "1535-7163; 1538-8514; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1158/1535-7163.mct-06-0433",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1158/1535-7163.mct-06-0433"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/17088437"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/17088437"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "The Cancer Cell Line Encyclopedia enables predictive modelling of anticancer drug sensitivity."
+      }, {
+        "name" : "Authors",
+        "value" : "Barretina J, Caponigro G, Stransky N, Venkatesan K, Margolin AA, Kim S, Wilson CJ, Lehár J, Kryukov GV, Sonkin D, Reddy A, Liu M, Murray L, Berger MF, Monahan JE, Morais P, Meltzer J, Korejwa A, Jané-Valbuena J, Mapa FA, Thibault J, Bric-Furlong E, Raman P, Shipway A, Engels IH, Cheng J, Yu GK, Yu J, Aspesi P, de Silva M, Jagtap K, Jones MD, Wang L, Hatton C, Palescandolo E, Gupta S, Mahan S, Sougnez C, Onofrio RC, Liefeld T, MacConaill L, Winckler W, Reich M, Li N, Mesirov JP, Gabriel SB, Getz G, Ardlie K, Chan V, Myer VE, Weber BL, Porter J, Warmuth M, Finan P, Harris JL, Meyerson M, Golub TR, Morrissey MP, Sellers WR, Schlegel R, Garraway LA."
+      }, {
+        "name" : "Year",
+        "value" : "2012"
+      }, {
+        "name" : "Volume",
+        "value" : "483"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Nature"
+      }, {
+        "name" : "Issue",
+        "value" : "7391"
+      }, {
+        "name" : "Issn",
+        "value" : "0028-0836; 1476-4687; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1038/nature11003",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1038/nature11003"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/22460905"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/22460905"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Relationship between karyotype of tissue culture lines and tumorigenicity in nude mice."
+      }, {
+        "name" : "Authors",
+        "value" : "Gershwin ME, Lentz D, Owens RB."
+      }, {
+        "name" : "Year",
+        "value" : "1984"
+      }, {
+        "name" : "Volume",
+        "value" : "52"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Exp Cell Biol"
+      }, {
+        "name" : "Issue",
+        "value" : "6"
+      }, {
+        "name" : "Issn",
+        "value" : "0304-3568"
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1159/000163283",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1159/000163283"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/6500159"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/6500159"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Detection of viral proteins in human cells lines by xeno-proteomics: elimination of the last valid excuse for not testing every cellular proteome dataset for viral proteins."
+      }, {
+        "name" : "Authors",
+        "value" : "Chernobrovkin AL, Zubarev RA."
+      }, {
+        "name" : "Year",
+        "value" : "2014"
+      }, {
+        "name" : "Volume",
+        "value" : "9"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "PLoS One"
+      }, {
+        "name" : "Issue",
+        "value" : "3"
+      }, {
+        "name" : "Issn",
+        "value" : "1932-6203"
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1371/journal.pone.0091433",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1371/journal.pone.0091433"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/24618588"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/24618588"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "HLA-A locus-restricted and tumor-specific CTLs in tumor-infiltrating lymphocytes of patients with non-small cell lung cancer."
+      }, {
+        "name" : "Authors",
+        "value" : "Seki N, Hoshino T, Kikuchi M, Hayashi A, Itoh K."
+      }, {
+        "name" : "Year",
+        "value" : "1997"
+      }, {
+        "name" : "Volume",
+        "value" : "175"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Cell Immunol"
+      }, {
+        "name" : "Issue",
+        "value" : "2"
+      }, {
+        "name" : "Issn",
+        "value" : "0008-8749; 1090-2163; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1006/cimm.1996.1062",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1006/cimm.1996.1062"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/9023415"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/9023415"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Defective repair of alkylated DNA by human tumour and SV40-transformed human cell strains."
+      }, {
+        "name" : "Authors",
+        "value" : "Day RS, Ziolkowski CH, Scudiero DA, Meyer SA, Lubiniecki AS, Girardi AJ, Galloway SM, Bynum GD."
+      }, {
+        "name" : "Year",
+        "value" : "1980"
+      }, {
+        "name" : "Volume",
+        "value" : "288"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Nature"
+      }, {
+        "name" : "Issue",
+        "value" : "5792"
+      }, {
+        "name" : "Issn",
+        "value" : "0028-0836; 1476-4687; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1038/288724a0",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1038/288724a0"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/6256643"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/6256643"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Reconstructing targetable pathways in lung cancer by integrating diverse omics data."
+      }, {
+        "name" : "Authors",
+        "value" : "Balbin OA, Prensner JR, Sahu A, Yocum A, Shankar S, Malik R, Fermin D, Dhanasekaran SM, Chandler B, Thomas D, Beer DG, Cao X, Nesvizhskii AI, Chinnaiyan AM."
+      }, {
+        "name" : "Year",
+        "value" : "2013"
+      }, {
+        "name" : "Volume",
+        "value" : "4"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Nat Commun"
+      }, {
+        "name" : "Issue",
+        "value" : "N/A"
+      }, {
+        "name" : "Issn",
+        "value" : "2041-1723"
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1038/ncomms3617",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1038/ncomms3617"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/24135919"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/24135919"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "CD4+ hepatic cancer-specific cytotoxic T lymphocytes in patients with hepatocellular carcinoma."
+      }, {
+        "name" : "Authors",
+        "value" : "Nakao M, Sata M, Saitsu H, Yutani S, Kawamoto M, Kojiro M, Itoh K."
+      }, {
+        "name" : "Year",
+        "value" : "1997"
+      }, {
+        "name" : "Volume",
+        "value" : "177"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Cell Immunol"
+      }, {
+        "name" : "Issue",
+        "value" : "2"
+      }, {
+        "name" : "Issn",
+        "value" : "0008-8749; 1090-2163; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1006/cimm.1997.1108",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1006/cimm.1997.1108"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/9178645"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/9178645"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Proteomic profiling identifies dysregulated pathways in small cell lung cancer and novel therapeutic targets including PARP1."
+      }, {
+        "name" : "Authors",
+        "value" : "Byers LA, Wang J, Nilsson MB, Fujimoto J, Saintigny P, Yordy J, Giri U, Peyton M, Fan YH, Diao L, Masrorpour F, Shen L, Liu W, Duchemann B, Tumula P, Bhardwaj V, Welsh J, Weber S, Glisson BS, Kalhor N, Wistuba II, Girard L, Lippman SM, Mills GB, Coombes KR, Weinstein JN, Minna JD, Heymach JV."
+      }, {
+        "name" : "Year",
+        "value" : "2012"
+      }, {
+        "name" : "Volume",
+        "value" : "2"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Cancer Discov"
+      }, {
+        "name" : "Issue",
+        "value" : "9"
+      }, {
+        "name" : "Issn",
+        "value" : "2159-8274; 2159-8290; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1158/2159-8290.cd-12-0112",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1158/2159-8290.cd-12-0112"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/22961666"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/22961666"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Differential constitutive activation of the epidermal growth factor receptor in non-small cell lung cancer cells bearing EGFR gene mutation and amplification."
+      }, {
+        "name" : "Authors",
+        "value" : "Okabe T, Okamoto I, Tamura K, Terashima M, Yoshida T, Satoh T, Takada M, Fukuoka M, Nakagawa K."
+      }, {
+        "name" : "Year",
+        "value" : "2007"
+      }, {
+        "name" : "Volume",
+        "value" : "67"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Cancer Res"
+      }, {
+        "name" : "Issue",
+        "value" : "5"
+      }, {
+        "name" : "Issn",
+        "value" : "0008-5472; 1538-7445; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1158/0008-5472.can-06-3339",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1158/0008-5472.can-06-3339"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/17332333"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/17332333"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Characterization of Human Cancer Cell Lines by Reverse-phase Protein Arrays."
+      }, {
+        "name" : "Authors",
+        "value" : "Li J, Zhao W, Akbani R, Liu W, Ju Z, Ling S, Vellano CP, Roebuck P, Yu Q, Eterovic AK, Byers LA, Davies MA, Deng W, Gopal YN, Chen G, von Euw EM, Slamon D, Conklin D, Heymach JV, Gazdar AF, Minna JD, Myers JN, Lu Y, Mills GB, Liang H."
+      }, {
+        "name" : "Year",
+        "value" : "2017"
+      }, {
+        "name" : "Volume",
+        "value" : "31"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Cancer Cell"
+      }, {
+        "name" : "Issue",
+        "value" : "2"
+      }, {
+        "name" : "Issn",
+        "value" : "1535-6108; 1878-3686; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1016/j.ccell.2017.01.005",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1016/j.ccell.2017.01.005"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/28196595"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/28196595"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Evaluation of NCI-7 Cell Line Panel as a Reference Material for Clinical Proteomics."
+      }, {
+        "name" : "Authors",
+        "value" : "Clark DJ, Hu Y, Bocik W, Chen L, Schnaubelt M, Roberts R, Shah P, Whiteley G, Zhang H."
+      }, {
+        "name" : "Year",
+        "value" : "2018"
+      }, {
+        "name" : "Volume",
+        "value" : "17"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "J Proteome Res"
+      }, {
+        "name" : "Issue",
+        "value" : "6"
+      }, {
+        "name" : "Issn",
+        "value" : "1535-3893; 1535-3907; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1021/acs.jproteome.8b00165",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1021/acs.jproteome.8b00165"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/29718670"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/29718670"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Human tumor lines for cancer research."
+      }, {
+        "name" : "Authors",
+        "value" : "Fogh J."
+      }, {
+        "name" : "Year",
+        "value" : "1986"
+      }, {
+        "name" : "Volume",
+        "value" : "4"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Cancer Invest"
+      }, {
+        "name" : "Issue",
+        "value" : "2"
+      }, {
+        "name" : "Issn",
+        "value" : "0735-7907; 1532-4192; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.3109/07357908609038260",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.3109/07357908609038260"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/3518877"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/3518877"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "DNA fingerprinting of the NCI-60 cell line panel."
+      }, {
+        "name" : "Authors",
+        "value" : "Lorenzi PL, Reinhold WC, Varma S, Hutchinson AA, Pommier Y, Chanock SJ, Weinstein JN."
+      }, {
+        "name" : "Year",
+        "value" : "2009"
+      }, {
+        "name" : "Volume",
+        "value" : "8"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Mol Cancer Ther"
+      }, {
+        "name" : "Issue",
+        "value" : "4"
+      }, {
+        "name" : "Issn",
+        "value" : "1535-7163; 1538-8514; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1158/1535-7163.mct-08-0921",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1158/1535-7163.mct-08-0921"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/19372543"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/19372543"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Cisplatin resistance in non-small cell lung cancer cells is associated with an abrogation of cisplatin-induced G2/M cell cycle arrest."
+      }, {
+        "name" : "Authors",
+        "value" : "Sarin N, Engel F, Kalayda GV, Mannewitz M, Cinatl J, Rothweiler F, Michaelis M, Saafan H, Ritter CA, Jaehde U, Frötschl R."
+      }, {
+        "name" : "Year",
+        "value" : "2017"
+      }, {
+        "name" : "Volume",
+        "value" : "12"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "PLoS One"
+      }, {
+        "name" : "Issue",
+        "value" : "7"
+      }, {
+        "name" : "Issn",
+        "value" : "1932-6203"
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1371/journal.pone.0181081",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1371/journal.pone.0181081"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/28746345"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/28746345"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "RASSF1A gene inactivation in non-small cell lung cancer and its clinical implication."
+      }, {
+        "name" : "Authors",
+        "value" : "Endoh H, Yatabe Y, Shimizu S, Tajima K, Kuwano H, Takahashi T, Mitsudomi T."
+      }, {
+        "name" : "Year",
+        "value" : "2003"
+      }, {
+        "name" : "Volume",
+        "value" : "106"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Int J Cancer"
+      }, {
+        "name" : "Issue",
+        "value" : "1"
+      }, {
+        "name" : "Issn",
+        "value" : "0020-7136; 1097-0215; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1002/ijc.11184",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1002/ijc.11184"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/12794755"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/12794755"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Phosphoproteome profile of human lung cancer cell line A549."
+      }, {
+        "name" : "Authors",
+        "value" : "Yu G, Xiao CL, Lu CH, Jia HT, Ge F, Wang W, Yin XF, Jia HL, He JX, He QY."
+      }, {
+        "name" : "Year",
+        "value" : "2011"
+      }, {
+        "name" : "Volume",
+        "value" : "7"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Mol Biosyst"
+      }, {
+        "name" : "Issue",
+        "value" : "2"
+      }, {
+        "name" : "Issn",
+        "value" : "1742-206x; 1742-2051; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1039/c0mb00055h",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1039/c0mb00055h"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/21060948"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/21060948"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Tissue typing of cells in culture. III. HLA antigens of established human cell lines. Attempts at typing by the mixed hemadsorption technique."
+      }, {
+        "name" : "Authors",
+        "value" : "Espmark JA, Ahlqvist-Roth L, Särne L, Persson A."
+      }, {
+        "name" : "Year",
+        "value" : "1978"
+      }, {
+        "name" : "Volume",
+        "value" : "11"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Tissue Antigens"
+      }, {
+        "name" : "Issue",
+        "value" : "3"
+      }, {
+        "name" : "Issn",
+        "value" : "0001-2815; 1399-0039; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1111/j.1399-0039.1978.tb01259.x",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1111/j.1399-0039.1978.tb01259.x"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/77569"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/77569"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Systematic variation in gene expression patterns in human cancer cell lines."
+      }, {
+        "name" : "Authors",
+        "value" : "Ross DT, Scherf U, Eisen MB, Perou CM, Rees C, Spellman P, Iyer V, Jeffrey SS, Van de Rijn M, Waltham M, Pergamenschikov A, Lee JC, Lashkari D, Shalon D, Myers TG, Weinstein JN, Botstein D, Brown PO."
+      }, {
+        "name" : "Year",
+        "value" : "2000"
+      }, {
+        "name" : "Volume",
+        "value" : "24"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Nat Genet"
+      }, {
+        "name" : "Issue",
+        "value" : "3"
+      }, {
+        "name" : "Issn",
+        "value" : "1061-4036; 1546-1718; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1038/73432",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1038/73432"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/10700174"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/10700174"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Establishment of a drug sensitivity panel using human lung cancer cell lines."
+      }, {
+        "name" : "Authors",
+        "value" : "Matsushita A, Tabata M, Ueoka H, Kiura K, Shibayama T, Aoe K, Kohara H, Harada M."
+      }, {
+        "name" : "Year",
+        "value" : "1999"
+      }, {
+        "name" : "Volume",
+        "value" : "53"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Acta Med Okayama"
+      }, {
+        "name" : "Issue",
+        "value" : "2"
+      }, {
+        "name" : "Issn",
+        "value" : "0386-300x"
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.18926/amo/31626",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.18926/amo/31626"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/10358721"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/10358721"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "A catalog of HLA type, HLA expression, and neo-epitope candidates in human cancer cell lines."
+      }, {
+        "name" : "Authors",
+        "value" : "Boegel S, Löwer M, Bukur T, Sahin U, Castle JC."
+      }, {
+        "name" : "Year",
+        "value" : "2014"
+      }, {
+        "name" : "Volume",
+        "value" : "3"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Oncoimmunology"
+      }, {
+        "name" : "Issue",
+        "value" : "8"
+      }, {
+        "name" : "Issn",
+        "value" : "2162-4011; 2162-402x; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.4161/21624011.2014.954893",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.4161/21624011.2014.954893"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/25960936"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/25960936"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Identification of various cell culture models for the study of Zika virus."
+      }, {
+        "name" : "Authors",
+        "value" : "Himmelsbach K, Hildt E."
+      }, {
+        "name" : "Year",
+        "value" : "2018"
+      }, {
+        "name" : "Volume",
+        "value" : "7"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "World J Virol"
+      }, {
+        "name" : "Issue",
+        "value" : "1"
+      }, {
+        "name" : "Issn",
+        "value" : "2220-3249"
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.5501/wjv.v7.i1.10",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.5501/wjv.v7.i1.10"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/29468137"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/29468137"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Metabolic activation of 4-ipomeanol in human lung, primary pulmonary carcinomas, and established human pulmonary carcinoma cell lines."
+      }, {
+        "name" : "Authors",
+        "value" : "McLemore TL, Litterst CL, Coudert BP, Liu MC, Hubbard WC, Adelberg S, Czerwinski M, McMahon NA, Eggleston JC, Boyd MR."
+      }, {
+        "name" : "Year",
+        "value" : "1990"
+      }, {
+        "name" : "Volume",
+        "value" : "82"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "J Natl Cancer Inst"
+      }, {
+        "name" : "Issue",
+        "value" : "17"
+      }, {
+        "name" : "Issn",
+        "value" : "0027-8874; 1460-2105; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1093/jnci/82.17.1420",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1093/jnci/82.17.1420"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/2388294"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/2388294"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "A continuous tumor-cell line from a human lung carcinoma with properties of type II alveolar epithelial cells."
+      }, {
+        "name" : "Authors",
+        "value" : "Lieber M, Smith B, Szakal A, Nelson-Rees W, Todaro G."
+      }, {
+        "name" : "Year",
+        "value" : "1976"
+      }, {
+        "name" : "Volume",
+        "value" : "17"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Int J Cancer"
+      }, {
+        "name" : "Issue",
+        "value" : "1"
+      }, {
+        "name" : "Issn",
+        "value" : "0020-7136; 1097-0215; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1002/ijc.2910170110",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1002/ijc.2910170110"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/175022"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/175022"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Simulated microgravity alters the metastatic potential of a human lung adenocarcinoma cell line."
+      }, {
+        "name" : "Authors",
+        "value" : "Chang D, Xu H, Guo Y, Jiang X, Liu Y, Li K, Pan C, Yuan M, Wang J, Li T, Liu C."
+      }, {
+        "name" : "Year",
+        "value" : "2013"
+      }, {
+        "name" : "Volume",
+        "value" : "49"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "In Vitro Cell Dev Biol Anim"
+      }, {
+        "name" : "Issue",
+        "value" : "3"
+      }, {
+        "name" : "Issn",
+        "value" : "1071-2690; 1543-706x; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1007/s11626-013-9581-9",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1007/s11626-013-9581-9"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/23404217"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/23404217"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Comparative proteomic analysis of eleven common cell lines reveals ubiquitous but varying expression of most proteins."
+      }, {
+        "name" : "Authors",
+        "value" : "Geiger T, Wehner A, Schaab C, Cox J, Mann M."
+      }, {
+        "name" : "Year",
+        "value" : "2012"
+      }, {
+        "name" : "Volume",
+        "value" : "11"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Mol Cell Proteomics"
+      }, {
+        "name" : "Issue",
+        "value" : "3"
+      }, {
+        "name" : "Issn",
+        "value" : "1535-9476; 1535-9484; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1074/mcp.m111.014050",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1074/mcp.m111.014050"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/22278370"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/22278370"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Differential Effector Engagement by Oncogenic KRAS."
+      }, {
+        "name" : "Authors",
+        "value" : "Yuan TL, Amzallag A, Bagni R, Yi M, Afghani S, Burgan W, Fer N, Strathern LA, Powell K, Smith B, Waters AM, Drubin D, Thomson T, Liao R, Greninger P, Stein GT, Murchie E, Cortez E, Egan RK, Procter L, Bess M, Cheng KT, Lee CS, Lee LC, Fellmann C, Stephens R, Luo J, Lowe SW, Benes CH, McCormick F."
+      }, {
+        "name" : "Year",
+        "value" : "2018"
+      }, {
+        "name" : "Volume",
+        "value" : "22"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Cell Rep"
+      }, {
+        "name" : "Issue",
+        "value" : "7"
+      }, {
+        "name" : "Issn",
+        "value" : "2211-1247"
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1016/j.celrep.2018.01.051",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1016/j.celrep.2018.01.051"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/29444439"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/29444439"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "High-throughput sequencing for species authentication and contamination detection of 63 cell lines."
+      }, {
+        "name" : "Authors",
+        "value" : "Lung O, Candlish R, Nebroski M, Kruckiewicz P, Buchanan C, Moniwa M."
+      }, {
+        "name" : "Year",
+        "value" : "2021"
+      }, {
+        "name" : "Volume",
+        "value" : "11"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Sci Rep"
+      }, {
+        "name" : "Issue",
+        "value" : "1"
+      }, {
+        "name" : "Issn",
+        "value" : "2045-2322"
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1038/s41598-021-00779-5",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1038/s41598-021-00779-5"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/34737324"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/34737324"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Differential expression of the amv gene in human hematopoietic cells."
+      }, {
+        "name" : "Authors",
+        "value" : "Westin EH, Gallo RC, Arya SK, Eva A, Souza LM, Baluda MA, Aaronson SA, Wong-Staal F."
+      }, {
+        "name" : "Year",
+        "value" : "1982"
+      }, {
+        "name" : "Volume",
+        "value" : "79"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Proc Natl Acad Sci U S A"
+      }, {
+        "name" : "Issue",
+        "value" : "7"
+      }, {
+        "name" : "Issn",
+        "value" : "0027-8424; 1091-6490; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1073/pnas.79.7.2194",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1073/pnas.79.7.2194"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/6954533"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/6954533"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Gene expression profiles in asbestos-exposed epithelial and mesothelial lung cell lines."
+      }, {
+        "name" : "Authors",
+        "value" : "Nymark P, Lindholm PM, Korpela MV, Lahti L, Ruosaari S, Kaski S, Hollmén J, Anttila S, Kinnula VL, Knuutila S."
+      }, {
+        "name" : "Year",
+        "value" : "2007"
+      }, {
+        "name" : "Volume",
+        "value" : "8"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "BMC Genomics"
+      }, {
+        "name" : "Issue",
+        "value" : "N/A"
+      }, {
+        "name" : "Issn",
+        "value" : "1471-2164"
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1186/1471-2164-8-62",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1186/1471-2164-8-62"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/17331233"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/17331233"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "A gene-alteration profile of human lung cancer cell lines."
+      }, {
+        "name" : "Authors",
+        "value" : "Blanco R, Iwakawa R, Tang M, Kohno T, Angulo B, Pio R, Montuenga LM, Minna JD, Yokota J, Sanchez-Cespedes M."
+      }, {
+        "name" : "Year",
+        "value" : "2009"
+      }, {
+        "name" : "Volume",
+        "value" : "30"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Hum Mutat"
+      }, {
+        "name" : "Issue",
+        "value" : "8"
+      }, {
+        "name" : "Issn",
+        "value" : "1059-7794; 1098-1004; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1002/humu.21028",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1002/humu.21028"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/19472407"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/19472407"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "p53-defective tumors with a functional apoptosome-mediated pathway: a new therapeutic target."
+      }, {
+        "name" : "Authors",
+        "value" : "Mashima T, Oh-hara T, Sato S, Mochizuki M, Sugimoto Y, Yamazaki K, Hamada J, Tada M, Moriuchi T, Ishikawa Y, Kato Y, Tomoda H, Yamori T, Tsuruo T."
+      }, {
+        "name" : "Year",
+        "value" : "2005"
+      }, {
+        "name" : "Volume",
+        "value" : "97"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "J Natl Cancer Inst"
+      }, {
+        "name" : "Issue",
+        "value" : "10"
+      }, {
+        "name" : "Issn",
+        "value" : "0027-8874; 1460-2105; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1093/jnci/dji133",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1093/jnci/dji133"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/15900046"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/15900046"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "A map of mobile DNA insertions in the NCI-60 human cancer cell panel."
+      }, {
+        "name" : "Authors",
+        "value" : "Zampella JG, Rodić N, Yang WR, Huang CR, Welch J, Gnanakkan VP, Cornish TC, Boeke JD, Burns KH."
+      }, {
+        "name" : "Year",
+        "value" : "2016"
+      }, {
+        "name" : "Volume",
+        "value" : "7"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Mob DNA"
+      }, {
+        "name" : "Issue",
+        "value" : "N/A"
+      }, {
+        "name" : "Issn",
+        "value" : "1759-8753"
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1186/s13100-016-0078-4",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1186/s13100-016-0078-4"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/27807467"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/27807467"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Feasibility of drug screening with panels of human tumor cell lines using a microculture tetrazolium assay."
+      }, {
+        "name" : "Authors",
+        "value" : "Alley MC, Scudiero DA, Monks A, Hursey ML, Czerwinski MJ, Fine DL, Abbott BJ, Mayo JG, Shoemaker RH, Boyd MR."
+      }, {
+        "name" : "Year",
+        "value" : "1988"
+      }, {
+        "name" : "Volume",
+        "value" : "48"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Cancer Res"
+      }, {
+        "name" : "Issue",
+        "value" : "3"
+      }, {
+        "name" : "Issn",
+        "value" : "0008-5472; 1538-7445; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:N/A",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/N/A"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/3335022"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/3335022"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Signatures of mutation and selection in the cancer genome."
+      }, {
+        "name" : "Authors",
+        "value" : "Bignell GR, Greenman CD, Davies H, Butler AP, Edkins S, Andrews JM, Buck G, Chen L, Beare D, Latimer C, Widaa S, Hinton J, Fahey C, Fu B, Swamy S, Dalgliesh GL, Teh BT, Deloukas P, Yang F, Campbell PJ, Futreal PA, Stratton MR."
+      }, {
+        "name" : "Year",
+        "value" : "2010"
+      }, {
+        "name" : "Volume",
+        "value" : "463"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Nature"
+      }, {
+        "name" : "Issue",
+        "value" : "7283"
+      }, {
+        "name" : "Issn",
+        "value" : "0028-0836; 1476-4687; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1038/nature08768",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1038/nature08768"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/20164919"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/20164919"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "One hundred and twenty-seven cultured human tumor cell lines producing tumors in nude mice."
+      }, {
+        "name" : "Authors",
+        "value" : "Fogh J, Fogh JM, Orfeo T."
+      }, {
+        "name" : "Year",
+        "value" : "1977"
+      }, {
+        "name" : "Volume",
+        "value" : "59"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "J Natl Cancer Inst"
+      }, {
+        "name" : "Issue",
+        "value" : "1"
+      }, {
+        "name" : "Issn",
+        "value" : "0027-8874; 1460-2105; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1093/jnci/59.1.221",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1093/jnci/59.1.221"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/327080"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/327080"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "TERC identified as a probable target within the 3q26 amplicon that is detected frequently in non-small cell lung cancers."
+      }, {
+        "name" : "Authors",
+        "value" : "Yokoi S, Yasui K, Iizasa T, Imoto I, Fujisawa T, Inazawa J."
+      }, {
+        "name" : "Year",
+        "value" : "2003"
+      }, {
+        "name" : "Volume",
+        "value" : "9"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Clin Cancer Res"
+      }, {
+        "name" : "Issue",
+        "value" : "13"
+      }, {
+        "name" : "Issn",
+        "value" : "1078-0432; 1557-3265; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:N/A",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/N/A"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/14581340"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/14581340"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Insulin-like growth factor expression in human cancer cell lines."
+      }, {
+        "name" : "Authors",
+        "value" : "Quinn KA, Treston AM, Unsworth EJ, Miller MJ, Vos M, Grimley C, Battey J, Mulshine JL, Cuttitta F."
+      }, {
+        "name" : "Year",
+        "value" : "1996"
+      }, {
+        "name" : "Volume",
+        "value" : "271"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "J Biol Chem"
+      }, {
+        "name" : "Issue",
+        "value" : "19"
+      }, {
+        "name" : "Issn",
+        "value" : "0021-9258; 1083-351x; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1074/jbc.271.19.11477",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1074/jbc.271.19.11477"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/8626706"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/8626706"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Cell line A549: a model system for the study of alveolar type II cell function."
+      }, {
+        "name" : "Authors",
+        "value" : "Smith BT."
+      }, {
+        "name" : "Year",
+        "value" : "1977"
+      }, {
+        "name" : "Volume",
+        "value" : "115"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Am Rev Respir Dis"
+      }, {
+        "name" : "Issue",
+        "value" : "2"
+      }, {
+        "name" : "Issn",
+        "value" : "0003-0805"
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1164/arrd.1977.115.2.285",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1164/arrd.1977.115.2.285"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/842942"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/842942"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Prevalence of human papillomavirus 16/18/33 infection and p53 mutation in lung adenocarcinoma."
+      }, {
+        "name" : "Authors",
+        "value" : "Iwakawa R, Kohno T, Enari M, Kiyono T, Yokota J."
+      }, {
+        "name" : "Year",
+        "value" : "2010"
+      }, {
+        "name" : "Volume",
+        "value" : "101"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Cancer Sci"
+      }, {
+        "name" : "Issue",
+        "value" : "8"
+      }, {
+        "name" : "Issn",
+        "value" : "1347-9032; 1349-7006; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1111/j.1349-7006.2010.01622.x",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1111/j.1349-7006.2010.01622.x"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/20557307"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/20557307"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Repair of O6-methylguanine in DNA by demethylation is lacking in Mer- human tumor cell strains."
+      }, {
+        "name" : "Authors",
+        "value" : "Yarosh DB, Foote RS, Mitra S, Day RS."
+      }, {
+        "name" : "Year",
+        "value" : "1983"
+      }, {
+        "name" : "Volume",
+        "value" : "4"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Carcinogenesis"
+      }, {
+        "name" : "Issue",
+        "value" : "2"
+      }, {
+        "name" : "Issn",
+        "value" : "0143-3334; 1460-2180; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1093/carcin/4.2.199",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1093/carcin/4.2.199"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/6825208"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/6825208"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Identification of cancer cell-line origins using fluorescence image-based phenomic screening."
+      }, {
+        "name" : "Authors",
+        "value" : "Lee JS, Kim YK, Kim HJ, Hajar S, Tan YL, Kang NY, Ng SH, Yoon CN, Chang YT."
+      }, {
+        "name" : "Year",
+        "value" : "2012"
+      }, {
+        "name" : "Volume",
+        "value" : "7"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "PLoS One"
+      }, {
+        "name" : "Issue",
+        "value" : "2"
+      }, {
+        "name" : "Issn",
+        "value" : "1932-6203"
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1371/journal.pone.0032096",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1371/journal.pone.0032096"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/22384151"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/22384151"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Dynamic DNA methylation across diverse human cell lines and tissues."
+      }, {
+        "name" : "Authors",
+        "value" : "Varley KE, Gertz J, Bowling KM, Parker SL, Reddy TE, Pauli-Behn F, Cross MK, Williams BA, Stamatoyannopoulos JA, Crawford GE, Absher DM, Wold BJ, Myers RM."
+      }, {
+        "name" : "Year",
+        "value" : "2013"
+      }, {
+        "name" : "Volume",
+        "value" : "23"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Genome Res"
+      }, {
+        "name" : "Issue",
+        "value" : "3"
+      }, {
+        "name" : "Issn",
+        "value" : "1088-9051; 1549-5469; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1101/gr.147942.112",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1101/gr.147942.112"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/23325432"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/23325432"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Frequent silencing of DBC1 is by genetic or epigenetic mechanisms in non-small cell lung cancers."
+      }, {
+        "name" : "Authors",
+        "value" : "Izumi H, Inoue J, Yokoi S, Hosoda H, Shibata T, Sunamori M, Hirohashi S, Inazawa J, Imoto I."
+      }, {
+        "name" : "Year",
+        "value" : "2005"
+      }, {
+        "name" : "Volume",
+        "value" : "14"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Hum Mol Genet"
+      }, {
+        "name" : "Issue",
+        "value" : "8"
+      }, {
+        "name" : "Issn",
+        "value" : "0964-6906; 1460-2083; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1093/hmg/ddi092",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1093/hmg/ddi092"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/15746151"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/15746151"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "A resource for cell line authentication, annotation and quality control."
+      }, {
+        "name" : "Authors",
+        "value" : "Yu M, Selvaraj SK, Liang-Chu MM, Aghajani S, Busse M, Yuan J, Lee G, Peale F, Klijn C, Bourgon R, Kaminker JS, Neve RM."
+      }, {
+        "name" : "Year",
+        "value" : "2015"
+      }, {
+        "name" : "Volume",
+        "value" : "520"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Nature"
+      }, {
+        "name" : "Issue",
+        "value" : "7547"
+      }, {
+        "name" : "Issn",
+        "value" : "0028-0836; 1476-4687; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1038/nature14397",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1038/nature14397"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/25877200"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/25877200"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "[Differential proteomic analysis of human lung adenocarcinoma cell line A-549 and of normal cell line HBE]."
+      }, {
+        "name" : "Authors",
+        "value" : "Zhan XQ, Guan YJ, Li C, Chen ZC, Xie JY, Chen P, Liang SP."
+      }, {
+        "name" : "Year",
+        "value" : "2002"
+      }, {
+        "name" : "Volume",
+        "value" : "34"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Sheng Wu Hua Xue Yu Sheng Wu Wu Li Xue Bao (Shanghai)"
+      }, {
+        "name" : "Issue",
+        "value" : "1"
+      }, {
+        "name" : "Issn",
+        "value" : "0582-9879"
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:N/A",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/N/A"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/11958134"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/11958134"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Pan-cancer proteomic map of 949 human cell lines."
+      }, {
+        "name" : "Authors",
+        "value" : "Gonçalves E, Poulos RC, Cai Z, Barthorpe S, Manda SS, Lucas N, Beck A, Bucio-Noble D, Dausmann M, Hall C, Hecker M, Koh J, Lightfoot H, Mahboob S, Mali I, Morris J, Richardson L, Seneviratne AJ, Shepherd R, Sykes E, Thomas F, Valentini S, Williams SG, Wu Y, Xavier D, MacKenzie KL, Hains PG, Tully B, Robinson PJ, Zhong Q, Garnett MJ, Reddel RR."
+      }, {
+        "name" : "Year",
+        "value" : "2022"
+      }, {
+        "name" : "Volume",
+        "value" : "40"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Cancer Cell"
+      }, {
+        "name" : "Issue",
+        "value" : "8"
+      }, {
+        "name" : "Issn",
+        "value" : "1535-6108; 1878-3686; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1016/j.ccell.2022.06.010",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1016/j.ccell.2022.06.010"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/35839778"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/35839778"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Global survey of phosphotyrosine signaling identifies oncogenic kinases in lung cancer."
+      }, {
+        "name" : "Authors",
+        "value" : "Rikova K, Guo A, Zeng Q, Possemato A, Yu J, Haack H, Nardone J, Lee K, Reeves C, Li Y, Hu Y, Tan Z, Stokes M, Sullivan L, Mitchell J, Wetzel R, Macneill J, Ren JM, Yuan J, Bakalarski CE, Villen J, Kornhauser JM, Smith B, Li D, Zhou X, Gygi SP, Gu TL, Polakiewicz RD, Rush J, Comb MJ."
+      }, {
+        "name" : "Year",
+        "value" : "2007"
+      }, {
+        "name" : "Volume",
+        "value" : "131"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Cell"
+      }, {
+        "name" : "Issue",
+        "value" : "6"
+      }, {
+        "name" : "Issn",
+        "value" : "0092-8674; 1097-4172; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1016/j.cell.2007.11.025",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1016/j.cell.2007.11.025"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/18083107"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/18083107"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Four human carcinoma cell lines with novel mutations in position 12 of c-K-ras oncogene."
+      }, {
+        "name" : "Authors",
+        "value" : "Valenzuela DM, Groffen J."
+      }, {
+        "name" : "Year",
+        "value" : "1986"
+      }, {
+        "name" : "Volume",
+        "value" : "14"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Nucleic Acids Res"
+      }, {
+        "name" : "Issue",
+        "value" : "2"
+      }, {
+        "name" : "Issn",
+        "value" : "0305-1048; 1362-4962; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1093/nar/14.2.843",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1093/nar/14.2.843"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/3945555"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/3945555"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Comprehensive analysis of p53 gene mutation characteristics in lung carcinoma with special reference to histological subtypes."
+      }, {
+        "name" : "Authors",
+        "value" : "Fujita T, Kiyama M, Tomizawa Y, Kohno T, Yokota J."
+      }, {
+        "name" : "Year",
+        "value" : "1999"
+      }, {
+        "name" : "Volume",
+        "value" : "15"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Int J Oncol"
+      }, {
+        "name" : "Issue",
+        "value" : "5"
+      }, {
+        "name" : "Issn",
+        "value" : "1019-6439; 1791-2423; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.3892/ijo.15.5.927",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.3892/ijo.15.5.927"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/10536175"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/10536175"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Molecular cytogenetic analysis of non-small cell lung carcinoma by spectral karyotyping and comparative genomic hybridization."
+      }, {
+        "name" : "Authors",
+        "value" : "Luk C, Tsao MS, Bayani J, Shepherd F, Squire JA."
+      }, {
+        "name" : "Year",
+        "value" : "2001"
+      }, {
+        "name" : "Volume",
+        "value" : "125"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Cancer Genet Cytogenet"
+      }, {
+        "name" : "Issue",
+        "value" : "2"
+      }, {
+        "name" : "Issn",
+        "value" : "0165-4608; 1873-4456; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1016/s0165-4608(00)00363-0",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1016/s0165-4608(00)00363-0"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/11369051"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/11369051"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Cytokine production of lung cancer cell lines: Correlation between their production and the inflammatory/immunological responses both in vivo and in vitro."
+      }, {
+        "name" : "Authors",
+        "value" : "Fukuyama T, Ichiki Y, Yamada S, Shigematsu Y, Baba T, Nagata Y, Mizukami M, Sugaya M, Takenoyama M, Hanagiri T, Sugio K, Yasumoto K."
+      }, {
+        "name" : "Year",
+        "value" : "2007"
+      }, {
+        "name" : "Volume",
+        "value" : "98"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Cancer Sci"
+      }, {
+        "name" : "Issue",
+        "value" : "7"
+      }, {
+        "name" : "Issn",
+        "value" : "1347-9032; 1349-7006; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1111/j.1349-7006.2007.00507.x",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1111/j.1349-7006.2007.00507.x"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/17511773"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/17511773"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "High levels of intracellular bombesin characterize human small-cell lung carcinoma."
+      }, {
+        "name" : "Authors",
+        "value" : "Moody TW, Pert CB, Gazdar AF, Carney DN, Minna JD."
+      }, {
+        "name" : "Year",
+        "value" : "1981"
+      }, {
+        "name" : "Volume",
+        "value" : "214"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Science"
+      }, {
+        "name" : "Issue",
+        "value" : "4526"
+      }, {
+        "name" : "Issn",
+        "value" : "0036-8075; 1095-9203; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1126/science.6272398",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1126/science.6272398"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/6272398"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/6272398"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "An Optimized Shotgun Strategy for the Rapid Generation of Comprehensive Human Proteomes."
+      }, {
+        "name" : "Authors",
+        "value" : "Bekker-Jensen DB, Kelstrup CD, Batth TS, Larsen SC, Haldrup C, Bramsen JB, Sørensen KD, Høyer S, Ørntoft TF, Andersen CL, Nielsen ML, Olsen JV."
+      }, {
+        "name" : "Year",
+        "value" : "2017"
+      }, {
+        "name" : "Volume",
+        "value" : "4"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Cell Syst"
+      }, {
+        "name" : "Issue",
+        "value" : "6"
+      }, {
+        "name" : "Issn",
+        "value" : "2405-4712; 2405-4720; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1016/j.cels.2017.05.009",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1016/j.cels.2017.05.009"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/28601559"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/28601559"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "The Cancer SENESCopedia: A delineation of cancer cell senescence."
+      }, {
+        "name" : "Authors",
+        "value" : "Jochems F, Thijssen B, De Conti G, Jansen R, Pogacar Z, Groot K, Wang L, Schepers A, Wang C, Jin H, Beijersbergen RL, Leite de Oliveira R, Wessels LFA, Bernards R."
+      }, {
+        "name" : "Year",
+        "value" : "2021"
+      }, {
+        "name" : "Volume",
+        "value" : "36"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Cell Rep"
+      }, {
+        "name" : "Issue",
+        "value" : "4"
+      }, {
+        "name" : "Issn",
+        "value" : "2211-1247"
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1016/j.celrep.2021.109441",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1016/j.celrep.2021.109441"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/34320349"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/34320349"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Prioritization of cancer therapeutic targets using CRISPR-Cas9 screens."
+      }, {
+        "name" : "Authors",
+        "value" : "Behan FM, Iorio F, Picco G, Gonçalves E, Beaver CM, Migliardi G, Santos R, Rao Y, Sassi F, Pinnelli M, Ansari R, Harper S, Jackson DA, McRae R, Pooley R, Wilkinson P, van der Meer D, Dow D, Buser-Doepner C, Bertotti A, Trusolino L, Stronach EA, Saez-Rodriguez J, Yusa K, Garnett MJ."
+      }, {
+        "name" : "Year",
+        "value" : "2019"
+      }, {
+        "name" : "Volume",
+        "value" : "568"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Nature"
+      }, {
+        "name" : "Issue",
+        "value" : "7753"
+      }, {
+        "name" : "Issn",
+        "value" : "0028-0836; 1476-4687; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1038/s41586-019-1103-9",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1038/s41586-019-1103-9"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/30971826"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/30971826"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Genetic analysis of indefinite division in human cells: identification of four complementation groups."
+      }, {
+        "name" : "Authors",
+        "value" : "Pereira-Smith OM, Smith JR."
+      }, {
+        "name" : "Year",
+        "value" : "1988"
+      }, {
+        "name" : "Volume",
+        "value" : "85"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Proc Natl Acad Sci U S A"
+      }, {
+        "name" : "Issue",
+        "value" : "16"
+      }, {
+        "name" : "Issn",
+        "value" : "0027-8424; 1091-6490; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1073/pnas.85.16.6042",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1073/pnas.85.16.6042"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/3413074"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/3413074"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "The SRY-HMG box gene, SOX4, is a target of gene amplification at chromosome 6p in lung cancer."
+      }, {
+        "name" : "Authors",
+        "value" : "Medina PP, Castillo SD, Blanco S, Sanz-Garcia M, Largo C, Alvarez S, Yokota J, Gonzalez-Neira A, Benitez J, Clevers HC, Cigudosa JC, Lazo PA, Sanchez-Cespedes M."
+      }, {
+        "name" : "Year",
+        "value" : "2009"
+      }, {
+        "name" : "Volume",
+        "value" : "18"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Hum Mol Genet"
+      }, {
+        "name" : "Issue",
+        "value" : "7"
+      }, {
+        "name" : "Issn",
+        "value" : "0964-6906; 1460-2083; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1093/hmg/ddp034",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1093/hmg/ddp034"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/19153074"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/19153074"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "Proteomic and ultrastructural analysis of Clara cell and type II alveolar epithelial cell-type lung cancer cells."
+      }, {
+        "name" : "Authors",
+        "value" : "Hou WL, Chang M, Liu XF, Hu LS, Hua SC."
+      }, {
+        "name" : "Year",
+        "value" : "2020"
+      }, {
+        "name" : "Volume",
+        "value" : "9"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Transl Cancer Res"
+      }, {
+        "name" : "Issue",
+        "value" : "2"
+      }, {
+        "name" : "Issn",
+        "value" : "2218-676x; 2219-6803; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.21037/tcr.2019.12.04",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.21037/tcr.2019.12.04"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/35117401"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/35117401"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "An Interactive Resource to Probe Genetic Diversity and Estimated Ancestry in Cancer Cell Lines."
+      }, {
+        "name" : "Authors",
+        "value" : "Dutil J, Chen Z, Monteiro AN, Teer JK, Eschrich SA."
+      }, {
+        "name" : "Year",
+        "value" : "2019"
+      }, {
+        "name" : "Volume",
+        "value" : "79"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Cancer Res"
+      }, {
+        "name" : "Issue",
+        "value" : "7"
+      }, {
+        "name" : "Issn",
+        "value" : "0008-5472; 1538-7445; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1158/0008-5472.can-18-2747",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1158/0008-5472.can-18-2747"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/30894373"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/30894373"
+        } ]
+      } ]
+    }, {
+      "type" : "Publications",
+      "attributes" : [ {
+        "name" : "Title",
+        "value" : "A comprehensive transcriptional portrait of human cancer cell lines."
+      }, {
+        "name" : "Authors",
+        "value" : "Klijn C, Durinck S, Stawiski EW, Haverty PM, Jiang Z, Liu H, Degenhardt J, Mayba O, Gnad F, Liu J, Pau G, Reeder J, Cao Y, Mukhyala K, Selvaraj SK, Yu M, Zynda GJ, Brauer MJ, Wu TD, Gentleman RC, Manning G, Yauch RL, Bourgon R, Stokoe D, Modrusan Z, Neve RM, de Sauvage FJ, Settleman J, Seshagiri S, Zhang Z."
+      }, {
+        "name" : "Year",
+        "value" : "2015"
+      }, {
+        "name" : "Volume",
+        "value" : "33"
+      }, {
+        "name" : "JournalTitle",
+        "value" : "Nat Biotechnol"
+      }, {
+        "name" : "Issue",
+        "value" : "3"
+      }, {
+        "name" : "Issn",
+        "value" : "1087-0156; 1546-1696; "
+      }, {
+        "name" : "DOI",
+        "value" : "DOI:10.1038/nbt.3080",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://dx.doi.org/10.1038/nbt.3080"
+        } ]
+      }, {
+        "name" : "EuropePMC",
+        "value" : "EuropePMC",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://europepmc.org/article/MED/25485619"
+        } ]
+      }, {
+        "name" : "PubMed",
+        "value" : "PubMed",
+        "valqual" : [ {
+          "name" : "url",
+          "value" : "https://pubmed.ncbi.nlm.nih.gov/25485619"
+        } ]
+      } ]
+    } ], {
+      "type" : "Related models",
+      "links" : [ {
+        "url" : "SIDM01986",
+        "attributes" : [ {
+          "name" : "Type",
+          "value" : "BioStudies"
+        }, {
+          "name" : "Role",
+          "value" : "parent of"
+        } ]
+      } ]
+    } ]
+  },
+  "type" : "submission"
+}

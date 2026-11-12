@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0072",
+    "PMID": "29973717",
+    "DOI": "10.1038/s41586-018-0291-z",
+    "PMCID": "PMC6071917",
+    "Title": "CRISPR screens identify genomic ribonucleotides as a source of PARP-trapping lesions.",
+    "ORCS Publication ID": "184",
+    "ORCS Publication Index": "PUB-0072",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC6071917",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41586-018-0291-z%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:30:35.775235+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "2b96a814d4fd79aad5810140501056fd17704ec3f9124efef337e314e7cb9862",
+        "body": "native/d5bd1893896edd8e97934ce50ebba4d2436fe90cc4de1728f18b61d577e3a4f6.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6071917",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2229973717%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:30:43.135556+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "a0256e9844ef8936a5f85c4121e0241f4552403c3d9d7d27e437cdaa3de6831d",
+        "body": "native/12abd2a2497089fe8dc3d123df86c4c20cb1d0f1299badb138d01892e201f256.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6071917",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6071917%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:30:50.641451+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "048b2b832c68221a9848c523496935f811d093c27f03289cdbd3878a61e341c1",
+        "body": "native/1b0963a40473401117f67e851451fbf766455677590fc0882bf1068fced08f73.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6071917",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22CRISPR+screens+identify+genomic+ribonucleotides+as+a+source+of+PARP-trapping+lesions.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:30:55.740059+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "a2c4fc3ee5cab6861fceaf0281cb45b4a240d69871604fbc48e4a441a2876ac4",
+        "body": "native/52c68935a1ed9535c7161b6ce42c40eae8436089a1cf61da5c6e61d93780b59f.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41586-018-0291-z%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2229973717%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6071917%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22CRISPR+screens+identify+genomic+ribonucleotides+as+a+source+of+PARP-trapping+lesions.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A29973717&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

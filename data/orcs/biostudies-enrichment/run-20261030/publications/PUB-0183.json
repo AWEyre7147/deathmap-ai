@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0183",
+    "PMID": "33257658",
+    "DOI": "10.1038/s41467-020-19961-w",
+    "PMCID": "PMC7704667",
+    "Title": "Identification of regulators of poly-ADP-ribose polymerase inhibitor response through complementary CRISPR knockout and activation screens.",
+    "ORCS Publication ID": "459",
+    "ORCS Publication Index": "PUB-0183",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC7704667",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41467-020-19961-w%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:21:25.591008+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "15be88f23b6a421c4baaa20b1a14ed7d3799250e2ed949aff791de4b59cd3cd9",
+        "body": "native/cd6689ab9640bd5928552ced0947b32d4535032e33f564b9b0daea8187b0bb32.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7704667",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233257658%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:21:31.598925+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "14f0c2c3d0b8d6cf60238e28fb4adbdb1ee04f1b1ee83e84b4e51705281142eb",
+        "body": "native/bf133a7f7ebfa23f3a359a540924a59accefbc7a2e50e8c2d16ae84df205759e.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7704667",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7704667%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:21:37.590780+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "944b1c74fb779a29cf5a529fbb024b8179c059a21d86c64ebc4c03e4ba3de216",
+        "body": "native/bbf8d9804f1e2aa5a628dddbd1986b9392c31b2ae7c6126e017ff1db08018720.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7704667",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Identification+of+regulators+of+poly-ADP-ribose+polymerase+inhibitor+response+through+complementary+CRISPR+knockout+and+activation+screens.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:21:43.595860+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "a39981c1c334cbe15bb86c283ec7065871fd8d6f3e47a6765394aa246299e1b1",
+        "body": "native/724a48328e5f5ecfe69a6befb2a8fc19025116f859a9bf1fc949c0d7b10ce576.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41467-020-19961-w%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233257658%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7704667%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Identification+of+regulators+of+poly-ADP-ribose+polymerase+inhibitor+response+through+complementary+CRISPR+knockout+and+activation+screens.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A33257658&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

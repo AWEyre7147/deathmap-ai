@@ -1,0 +1,202 @@
+{
+  "schema_version": "enrichment-template/1.0",
+  "name": "Mendeley Data Enrichment",
+  "template": "data/templates/Mendeley-Data-Enrichment-Template.xlsx",
+  "sha256": "c994f78d5c42d8baa29c84545ab530a8aff562d37c007eb3278496a8eb29139f",
+  "source": {
+    "name": "Owner-approved revised template",
+    "date": "2026-11-07"
+  },
+  "index_format": {
+    "MD Dataset Index": "MDD-####; accession and version",
+    "MD File Index": "MDF-####; accession, version and file UUID"
+  },
+  "sheets": [
+    {
+      "name": "Publications",
+      "headers": [
+        "Publication Index",
+        "Title",
+        "DOI",
+        "Search Pages",
+        "Page Size Returned",
+        "Title Matches",
+        "Reported Total"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Publications",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "width": 24
+        },
+        {
+          "header": "Title",
+          "source_key": "Title",
+          "width": 65
+        },
+        {
+          "header": "DOI",
+          "source_key": "DOI",
+          "width": 24
+        },
+        {
+          "header": "Search Pages",
+          "source_key": "Search Pages",
+          "width": 24
+        },
+        {
+          "header": "Page Size Returned",
+          "source_key": "Page Size Returned",
+          "width": 24
+        },
+        {
+          "header": "Title Matches",
+          "source_key": "Title Matches",
+          "width": 65
+        },
+        {
+          "header": "Reported Total",
+          "source_key": "Reported Total",
+          "width": 24
+        }
+      ]
+    },
+    {
+      "name": "Datasets",
+      "headers": [
+        "Publication Index",
+        "MD Dataset Index",
+        "MD Dataset Accession",
+        "Dataset DOI ID",
+        "Dataset Title",
+        "Dataset Description",
+        "File Count",
+        "Search Rank",
+        "Dataset URL"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Datasets",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "width": 24
+        },
+        {
+          "header": "MD Dataset Index",
+          "source_key": "MD Dataset Index",
+          "width": 24
+        },
+        {
+          "header": "MD Dataset Accession",
+          "source_key": "MD Dataset Accession",
+          "width": 24
+        },
+        {
+          "header": "Dataset DOI ID",
+          "source_key": "Dataset DOI ID",
+          "width": 24
+        },
+        {
+          "header": "Dataset Title",
+          "source_key": "Dataset Title",
+          "width": 65
+        },
+        {
+          "header": "Dataset Description",
+          "source_key": "Dataset Description",
+          "width": 65
+        },
+        {
+          "header": "File Count",
+          "source_key": "File Count",
+          "width": 65
+        },
+        {
+          "header": "Search Rank",
+          "source_key": "Search Rank",
+          "width": 24
+        },
+        {
+          "header": "Dataset URL",
+          "source_key": "Dataset URL",
+          "width": 24
+        }
+      ]
+    },
+    {
+      "name": "Files",
+      "headers": [
+        "Publication Index",
+        "MD Dataset Index",
+        "MD File Index",
+        "MD File Accession",
+        "Folder",
+        "Folder Description",
+        "File",
+        "File Type",
+        "Size (bytes)",
+        "File Description"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Files",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "width": 24
+        },
+        {
+          "header": "MD Dataset Index",
+          "source_key": "MD Dataset Index",
+          "width": 24
+        },
+        {
+          "header": "MD File Index",
+          "source_key": "MD File Index",
+          "width": 65
+        },
+        {
+          "header": "MD File Accession",
+          "source_key": "MD File Accession",
+          "width": 65
+        },
+        {
+          "header": "Folder",
+          "source_key": "Folder",
+          "width": 65
+        },
+        {
+          "header": "Folder Description",
+          "source_key": "Folder Description",
+          "width": 65
+        },
+        {
+          "header": "File",
+          "source_key": "File",
+          "width": 65
+        },
+        {
+          "header": "File Type",
+          "source_key": "File Type",
+          "width": 65
+        },
+        {
+          "header": "Size (bytes)",
+          "source_key": "Size (bytes)",
+          "width": 24
+        },
+        {
+          "header": "File Description",
+          "source_key": "File Description",
+          "width": 65
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "template": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\templates\\Library-Enrichment-Template.xlsx",
+  "template_sha256": "458fa52d39e913f215d0ea1386ea6984874c5829793c583937b7c3c5971919f1",
+  "output": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\Library-Enrichment.xlsx",
+  "workbook_sha256": "ae6ede48542a9e4e051cfd0094e9e0d4d3c9a1f771a21a7eb289078799a457b9",
+  "sheet_rows": {
+    "Publications": 418,
+    "Article Context": 6580,
+    "Supporting Materials": 3332,
+    "Repository References": 556
+  },
+  "verified_cells": 71980,
+  "writer": "streamed-template-XML/1",
+  "source_database": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\library-enrichment.json.gz",
+  "source_database_sha256": "1bed1cd7413f909f0d031ab510cc88ac69594c9baebd3d3cce70dc135ab7dbd2",
+  "source_directory": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\library-enrichment\\run-20261112",
+  "source_export_directory": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\outputs\\orcs-library-final-three-20261112\\exports\\2026-11-12T13-29-58.263Z",
+  "promoted_utc": "2026-11-12T13:36:46.973411+00:00",
+  "source_files_sha256": {
+    "data\\orcs\\library-enrichment\\run-20261112\\database.json": "929279cd90cba95c5c2a344318d6355ed8be7adadcc9eb8e0815936936f33a17",
+    "data\\orcs\\library-enrichment\\run-20261112\\Library-Enrichment.xlsx": "ae6ede48542a9e4e051cfd0094e9e0d4d3c9a1f771a21a7eb289078799a457b9",
+    "data\\orcs\\library-enrichment\\run-20261112\\Library-Enrichment.manifest.json": "798357497bcafd201e199ed30c40b90deb0799c88e627d4fe47c4dfb6b91cbcc",
+    "data\\orcs\\library-enrichment\\run-20261112\\Library-Enrichment-Status.xlsx": "1002b416fd37527dc7f69d45e153c65f7588193af504f6415a2f19e9d7140379",
+    "data\\orcs\\library-enrichment\\run-20261112\\status.json": "5f435452a38eaf1936018ec4863544248293599ee428a1dc11185e255deedf52",
+    "data\\orcs\\library-enrichment\\run-20261112\\summary.json": "ff033cb0f85f9d744835f13cc08031ab214eb2d1b11afa82d002e597bf9ba9c7",
+    "data\\orcs\\library-enrichment\\run-20261112\\manifest.json": "f0770b075465d01c963acd542b40bd693c9cba84a7a7a9c29f93068fe48ab3ed",
+    "data\\orcs\\library-enrichment\\run-20261112\\state.json": "cd2c79a72a5c1c2963e5482575abc4f610cd8a9e4e706e161f88cbdc742bf08a"
+  },
+  "publications_with_retained_enrichment": 415,
+  "exceptions": [
+    {
+      "publication_index": "PUB-0077",
+      "outcome": "skipped"
+    },
+    {
+      "publication_index": "PUB-0198",
+      "outcome": "deferred"
+    },
+    {
+      "publication_index": "PUB-0257",
+      "outcome": "missing_doi"
+    }
+  ],
+  "verification": {
+    "all_workbook_cells_match_canonical_rows": true,
+    "unique_resource_indices": true,
+    "publication_and_context_links_valid": true,
+    "video_entries": 0,
+    "new_retrieval_requests": 0
+  },
+  "status_workbook": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\library-enrichment\\run-20261112\\Library-Enrichment-Status.xlsx",
+  "uncompressed_source_database_sha256": "929279cd90cba95c5c2a344318d6355ed8be7adadcc9eb8e0815936936f33a17"
+}

@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0194",
+    "PMID": "33172989",
+    "DOI": "10.1073/pnas.2010723117",
+    "PMCID": "PMC7703599",
+    "Title": "Type I interferon remodels lysosome function and modifies intestinal epithelial defense.",
+    "ORCS Publication ID": "491",
+    "ORCS Publication Index": "PUB-0194",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC7703599",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1073%2Fpnas.2010723117%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:22:12.616891+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "e58570ab24d0fe58272787cc9f4fead36c88ffb6e244f31247bc1c55b07c5bfb",
+        "body": "native/a352aa17311952022042a3226c056b8e8b1f64de90ba5a7a019b0fec217403df.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7703599",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233172989%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:22:18.608361+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "a88f9c2c20771cdbf96c986bd730cca2cf3d23cd0ccf8b04b3a47a52d1a8d3f0",
+        "body": "native/ac969299bdec16ab18a021159021a64179405358f32635761692e032da63bce9.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7703599",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7703599%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:22:24.621182+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "5e6d7d5db83d72f0cf5a644b1476292e16cc18f460415a5a481d344c32de7c20",
+        "body": "native/2ba8a8ff09e35f3a214f9dfa106022ca6c39274b828840366ad7704d1c106b00.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7703599",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Type+I+interferon+remodels+lysosome+function+and+modifies+intestinal+epithelial+defense.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:22:30.643277+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "0d2a41185f7a248b04f6f2b4ac592e795a87e149521af30a4aa3225c26e0ee50",
+        "body": "native/236175c7f94b139ef2ab1d5fea3f0cafaee056668f7c49ed2014230c473535e9.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1073%2Fpnas.2010723117%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233172989%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7703599%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Type+I+interferon+remodels+lysosome+function+and+modifies+intestinal+epithelial+defense.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A33172989&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

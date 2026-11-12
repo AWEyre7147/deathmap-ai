@@ -1,0 +1,91 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0345",
+    "PMID": "34215620",
+    "DOI": "10.1158/0008-5472.can-20-4016",
+    "PMCID": "PMC8416940",
+    "Title": "Nonsense-Mediated RNA Decay Is a Unique Vulnerability of Cancer Cells Harboring or Mutations.",
+    "ORCS Publication ID": "948",
+    "ORCS Publication Index": "PUB-0345",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC8416940",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1158%2F0008-5472.can-20-4016%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:32:07.768811+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "d87705cf4f4741da953717d8e4c22e5229793027ffb787fbab6fcf316dfc97a0",
+        "body": "native/d1c8b1bd6cc37c12bad42daacd49a89d88a7e5b98726e23014d8dc13dc25b746.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8416940",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2234215620%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:32:13.766425+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "233612e2658c120c5839b85710bd30468ec0256fbaaf8fbca41297d094c78196",
+        "body": "native/58eee9dc8187a2834cdcc93bc61db55541eda986d43dfdd9b9fdce4c59dde248.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8416940",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC8416940%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:32:19.767948+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "395d1346f3d1c6e949bbcac6a22eefd63c7990da28ca9430540b42fa3ad805ee",
+        "body": "native/87205461573d3a0228182929eb20b6858192191df72c0d7613e6221919a27334.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1158%2F0008-5472.can-20-4016%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2234215620%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC8416940%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Nonsense-Mediated+RNA+Decay+Is+a+Unique+Vulnerability+of+Cancer+Cells+Harboring+or+Mutations.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A34215620&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

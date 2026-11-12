@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0056",
+    "PMID": "30898113",
+    "DOI": "10.1186/s12885-019-5455-1",
+    "PMCID": "PMC6429770",
+    "Title": "Genome-wide CRISPR screen reveals PSMA6 to be an essential gene in pancreatic cancer cells.",
+    "ORCS Publication ID": "121",
+    "ORCS Publication Index": "PUB-0056",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC6429770",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1186%2Fs12885-019-5455-1%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:29:26.387976+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "c108728483688980ec655a9b2734c718aa3b759cb2d2556af8b749049f535c5a",
+        "body": "native/d296006c9b23c9a185dd6064b08fec04fc3ad48eef4bf89d8a0d0f05e1adaf0a.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6429770",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2230898113%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:29:32.413225+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "a41d09a53ee1f134c3995597d79e50aaa62281d03937e6729aef734dfbe38549",
+        "body": "native/99db239e18201767500fc33c47fa8d1c690f0350dc84e4a42609862c6db5dd6a.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6429770",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6429770%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:29:38.362896+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "3e0c4d51e3a14369e1616693df6a0e8c52cc179565bbf7867d4ec26484cd924f",
+        "body": "native/1d649b59566e86b272daccde0a553ce9d17eb63094442421c2cd7687493b36a2.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6429770",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+CRISPR+screen+reveals+PSMA6+to+be+an+essential+gene+in+pancreatic+cancer+cells.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:29:43.937902+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "04a0d7a7d0370fc83689a166c456256cd01f4ae9a0ab14fad33cabdfac14fdb9",
+        "body": "native/4246178c6a03aecea975028e17b5903ac82c436f2b7818a62c96ebdb619e6a42.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1186%2Fs12885-019-5455-1%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2230898113%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6429770%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+CRISPR+screen+reveals+PSMA6+to+be+an+essential+gene+in+pancreatic+cancer+cells.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A30898113&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

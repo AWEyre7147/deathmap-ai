@@ -1,0 +1,665 @@
+{
+  "accession": "S-EPMC9633064",
+  "native": {
+    "accno": "S-EPMC9633064",
+    "attributes": [
+      {
+        "name": "DataSource",
+        "value": "Europe PMC"
+      },
+      {
+        "name": "Title",
+        "value": "Genome-wide base editor screen identifies regulators of protein abundance in yeast."
+      },
+      {
+        "name": "ReleaseDate",
+        "value": "2022-01-01"
+      },
+      {
+        "name": "AttachTo",
+        "value": "EuropePMC"
+      }
+    ],
+    "section": {
+      "type": "Study",
+      "attributes": [
+        {
+          "name": "Title",
+          "value": "Genome-wide base editor screen identifies regulators of protein abundance in yeast."
+        },
+        {
+          "name": "Abstract",
+          "value": "Proteins are key molecular players in a cell, and their abundance is extensively regulated not just at the level of gene expression but also post-transcriptionally. Here, we describe a genetic screen in yeast that enables systematic characterization of how protein abundance regulation is encoded in the genome. The screen combines a CRISPR/Cas9 base editor to introduce point mutations with fluorescent tagging of endogenous proteins to facilitate a flow-cytometric readout. We first benchmarked base editor performance in yeast with individual gRNAs as well as in positive and negative selection screens. We then examined the effects of 16,452 genetic perturbations on the abundance of eleven proteins representing a variety of cellular functions. We uncovered hundreds of regulatory relationships, including a novel link between the GAPDH isoenzymes Tdh1/2/3 and the Ras/PKA pathway. Many of the identified regulators are specific to one of the eleven proteins, but we also found genes that, upon perturbation, affected the abundance of most of the tested proteins. While the more specific regulators usually act transcriptionally, broad regulators often have roles in protein translation. Overall, our novel screening approach provides unprecedented insights into the components, scale and connectedness of the protein regulatory network."
+        }
+      ],
+      "files": [
+        {
+          "path": "elife-79525-fig2-data1.xlsx",
+          "size": 22599,
+          "type": "file"
+        },
+        {
+          "path": "elife-79525-fig2-data2.xlsx",
+          "size": 604203,
+          "type": "file"
+        },
+        {
+          "path": "elife-79525-fig3-data1.xlsx",
+          "size": 8754741,
+          "type": "file"
+        },
+        {
+          "path": "elife-79525-fig4-data1.xlsx",
+          "size": 857627,
+          "type": "file"
+        },
+        {
+          "path": "elife-79525-fig5-data1.xlsx",
+          "size": 1795687,
+          "type": "file"
+        },
+        {
+          "path": "elife-79525-mdarchecklist1.docx",
+          "size": 102352,
+          "type": "file"
+        },
+        {
+          "path": "elife-79525-supp1.xlsx",
+          "size": 3539976,
+          "type": "file"
+        },
+        {
+          "path": "elife-79525-supp2.xlsx",
+          "size": 9411,
+          "type": "file"
+        },
+        {
+          "path": "elife-79525-supp3.xlsx",
+          "size": 10083,
+          "type": "file"
+        },
+        {
+          "path": "elife-79525-supp4.xlsx",
+          "size": 11906,
+          "type": "file"
+        },
+        {
+          "path": "elife-79525-supp5.xlsx",
+          "size": 10480,
+          "type": "file"
+        }
+      ],
+      "links": [
+        [
+          {
+            "url": "PRJNA732764",
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "bioproject"
+              }
+            ]
+          },
+          {
+            "url": "PXD029363",
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "pxd"
+              }
+            ]
+          },
+          {
+            "url": "RRID:Addgene_43802",
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "rrid"
+              }
+            ]
+          },
+          {
+            "url": "RRID:Addgene_73021",
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "rrid"
+              }
+            ]
+          },
+          {
+            "url": "RRID:Addgene_43803",
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "rrid"
+              }
+            ]
+          },
+          {
+            "url": "RRID:SCR_018927",
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "rrid"
+              }
+            ]
+          },
+          {
+            "url": "RRID:Addgene_52961",
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "rrid"
+              }
+            ]
+          }
+        ]
+      ],
+      "subsections": [
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "Swiss National Science Foundation"
+            },
+            {
+              "name": "grant_id",
+              "value": "165280"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "Howard Hughes Medical Institute"
+            },
+            {
+              "name": "grant_id",
+              "value": "Investigator"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "Swiss National Science Foundation"
+            },
+            {
+              "name": "grant_id",
+              "value": "P2EZP3_165280"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "NIGMS NIH HHS"
+            },
+            {
+              "name": "grant_id",
+              "value": "R01 GM102308"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "National Institutes of Health"
+            },
+            {
+              "name": "grant_id",
+              "value": "R01GM102308"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "Howard Hughes Medical Institute"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "Human Frontier Science Program"
+            },
+            {
+              "name": "grant_id",
+              "value": "LT000737/2016-L"
+            }
+          ]
+        },
+        {
+          "type": "Publication",
+          "attributes": [
+            {
+              "name": "Journal",
+              "value": "eLife"
+            },
+            {
+              "name": "Volume",
+              "value": "11"
+            },
+            {
+              "name": "Pages",
+              "value": "e79525"
+            },
+            {
+              "name": "Publication date",
+              "value": "2022 Nov"
+            }
+          ],
+          "links": [
+            [
+              {
+                "url": "10.7554/eLife.79525",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "DOI"
+                  }
+                ]
+              },
+              {
+                "url": "PMC9633064",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "PMC"
+                  }
+                ]
+              },
+              {
+                "url": "36326816",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "PMID"
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "accno": "a1",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Schubert OT"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0002-2613-0714"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a2",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Bloom JS"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0002-7241-1648"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a3",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Sadhu MJ"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a4",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Kruglyak L"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0002-8065-3057"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "o1",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Department of Human Genetics, University of California, Los Angeles, Los Angeles, United States"
+            }
+          ]
+        },
+        {
+          "type": "ExtractedLinks"
+        }
+      ]
+    },
+    "type": "submission"
+  },
+  "source": {
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-EPMC9633064",
+    "retrieved_utc": "2026-10-31T00:59:59.604573+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "9f27088d8317f65f26ef3940668599dcaeff055bb880c0400e353ed9e5d0a87b",
+    "body": "native/e16ddd0817f2ceb169d474aed0da366bd540182a9b96ec65b3d93030f450655a.body"
+  },
+  "info": {
+    "columns": [
+      {
+        "name": "Name",
+        "title": "Name",
+        "visible": true,
+        "searchable": true,
+        "data": "Name",
+        "defaultContent": ""
+      },
+      {
+        "name": "Size",
+        "title": "Size",
+        "visible": true,
+        "searchable": false,
+        "data": "Size",
+        "defaultContent": ""
+      }
+    ],
+    "files": 11,
+    "httpLink": "https://ftp.ebi.ac.uk/pub/databases/biostudies/S-EPMC/064/S-EPMC9633064",
+    "ftpLink": "ftp://ftp.ebi.ac.uk/pub/databases/biostudies/S-EPMC/064/S-EPMC9633064",
+    "globusLink": "https://app.globus.org/file-manager?origin_id=47772002-3e5b-4fd3-b97c-18cee38d6df2&origin_path=/pub/databases/biostudies/S-EPMC/064/S-EPMC9633064",
+    "isPublic": true,
+    "relPath": "S-EPMC/064/S-EPMC9633064",
+    "hasZippedFolders": false,
+    "views": 0,
+    "released": 1640995200000,
+    "modified": 1784045055369,
+    "sections": [],
+    "sectionFileCounts": {}
+  },
+  "files": [
+    {
+      "path": "elife-79525-fig2-data1.xlsx",
+      "size": 22599,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "elife-79525-fig2-data1.xlsx",
+        "size": 22599,
+        "type": "file"
+      }
+    },
+    {
+      "path": "elife-79525-fig2-data2.xlsx",
+      "size": 604203,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "elife-79525-fig2-data2.xlsx",
+        "size": 604203,
+        "type": "file"
+      }
+    },
+    {
+      "path": "elife-79525-fig3-data1.xlsx",
+      "size": 8754741,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "elife-79525-fig3-data1.xlsx",
+        "size": 8754741,
+        "type": "file"
+      }
+    },
+    {
+      "path": "elife-79525-fig4-data1.xlsx",
+      "size": 857627,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "elife-79525-fig4-data1.xlsx",
+        "size": 857627,
+        "type": "file"
+      }
+    },
+    {
+      "path": "elife-79525-fig5-data1.xlsx",
+      "size": 1795687,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "elife-79525-fig5-data1.xlsx",
+        "size": 1795687,
+        "type": "file"
+      }
+    },
+    {
+      "path": "elife-79525-mdarchecklist1.docx",
+      "size": 102352,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "elife-79525-mdarchecklist1.docx",
+        "size": 102352,
+        "type": "file"
+      }
+    },
+    {
+      "path": "elife-79525-supp1.xlsx",
+      "size": 3539976,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "elife-79525-supp1.xlsx",
+        "size": 3539976,
+        "type": "file"
+      }
+    },
+    {
+      "path": "elife-79525-supp2.xlsx",
+      "size": 9411,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "elife-79525-supp2.xlsx",
+        "size": 9411,
+        "type": "file"
+      }
+    },
+    {
+      "path": "elife-79525-supp3.xlsx",
+      "size": 10083,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "elife-79525-supp3.xlsx",
+        "size": 10083,
+        "type": "file"
+      }
+    },
+    {
+      "path": "elife-79525-supp4.xlsx",
+      "size": 11906,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "elife-79525-supp4.xlsx",
+        "size": 11906,
+        "type": "file"
+      }
+    },
+    {
+      "path": "elife-79525-supp5.xlsx",
+      "size": 10480,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "elife-79525-supp5.xlsx",
+        "size": 10480,
+        "type": "file"
+      }
+    }
+  ],
+  "issues": [],
+  "info_source": {
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-EPMC9633064/info",
+    "retrieved_utc": "2026-10-31T01:00:05.597831+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "43edf5efbfd253691a746a50e20bc77db54ff073752648a3244b6755cf14c7b4",
+    "body": "native/394eb44ff1ad2634bf4845990d030f040c88ef9342af2a35946528766503020f.body"
+  },
+  "links": [
+    {
+      "url": "PRJNA732764",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "bioproject"
+        }
+      ]
+    },
+    {
+      "url": "PXD029363",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "pxd"
+        }
+      ]
+    },
+    {
+      "url": "RRID:Addgene_43802",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "rrid"
+        }
+      ]
+    },
+    {
+      "url": "RRID:Addgene_73021",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "rrid"
+        }
+      ]
+    },
+    {
+      "url": "RRID:Addgene_43803",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "rrid"
+        }
+      ]
+    },
+    {
+      "url": "RRID:SCR_018927",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "rrid"
+        }
+      ]
+    },
+    {
+      "url": "RRID:Addgene_52961",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "rrid"
+        }
+      ]
+    },
+    {
+      "url": "10.7554/eLife.79525",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "DOI"
+        }
+      ]
+    },
+    {
+      "url": "PMC9633064",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "PMC"
+        }
+      ]
+    },
+    {
+      "url": "36326816",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "PMID"
+        }
+      ]
+    }
+  ]
+}

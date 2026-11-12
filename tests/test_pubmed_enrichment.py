@@ -48,7 +48,7 @@ class PubMedChecks(unittest.TestCase):
         test_mesh_counts_are_recomputed_for_subset()
 
     def test_links(self):
-        fixture_root = Path(__file__).resolve().parents[1] / 'logs/pubmed-milestone-20261008'
+        fixture_root = Path(__file__).resolve().parents[1] / 'outputs'
         fixture_root.mkdir(parents=True, exist_ok=True)
         with tempfile.TemporaryDirectory(dir=fixture_root) as folder:
             test_missing_links_are_not_failed_retrieval_or_screen_evidence(Path(folder))

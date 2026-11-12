@@ -1,0 +1,722 @@
+{
+  "accno" : "S-EPMC7833927",
+  "attributes" : [ {
+    "name" : "DataSource",
+    "value" : "Europe PMC"
+  }, {
+    "name" : "Title",
+    "value" : "Functional interrogation of a SARS-CoV-2 host protein interactome identifies unique and shared coronavirus host factors."
+  }, {
+    "name" : "ReleaseDate",
+    "value" : "2021-01-01"
+  }, {
+    "name" : "AttachTo",
+    "value" : "EuropePMC"
+  } ],
+  "section" : {
+    "type" : "Study",
+    "attributes" : [ {
+      "name" : "Title",
+      "value" : "Functional interrogation of a SARS-CoV-2 host protein interactome identifies unique and shared coronavirus host factors."
+    }, {
+      "name" : "Abstract",
+      "value" : "The ongoing severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) pandemic has devastated the global economy and claimed more than 1.7 million lives, presenting an urgent global health crisis. To identify host factors required for infection by SARS-CoV-2 and seasonal coronaviruses, we designed a focused high-coverage CRISPR-Cas9 library targeting 332 members of a recently published SARS-CoV-2 protein interactome. We leveraged the compact nature of this library to systematically screen SARS-CoV-2 at two physiologically relevant temperatures along with three related coronaviruses (human coronavirus 229E [HCoV-229E], HCoV-NL63, and HCoV-OC43), allowing us to probe this interactome at a much higher resolution than genome-scale studies. This approach yielded several insights, including potential virus-specific differences in Rab GTPase requirements and glycosylphosphatidylinositol (GPI) anchor biosynthesis, as well as identification of multiple pan-coronavirus factors involved in cholesterol homeostasis. This coronavirus essentiality catalog could inform ongoing drug development efforts aimed at intercepting and treating coronavirus disease 2019 (COVID-19) and help prepare for future coronavirus outbreaks."
+    } ],
+    "files" : [ {
+      "path" : "mmc1.pdf",
+      "size" : 895246,
+      "type" : "file"
+    }, {
+      "path" : "mmc2.xlsx",
+      "size" : 4788959,
+      "type" : "file"
+    }, {
+      "path" : "mmc3.xlsx",
+      "size" : 199131,
+      "type" : "file"
+    }, {
+      "path" : "mmc4.pdf",
+      "size" : 148183,
+      "type" : "file"
+    } ],
+    "links" : [ [ {
+      "url" : "GSE162039",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "geo"
+      } ]
+    }, {
+      "url" : "GSE64677",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "geo"
+      } ]
+    }, {
+      "url" : "GSE148729",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "geo"
+      } ]
+    }, {
+      "url" : "CVCL_0023",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "cellosaurus"
+      } ]
+    }, {
+      "url" : "CVCL_4401",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "cellosaurus"
+      } ]
+    }, {
+      "url" : "CVCL_7927",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "cellosaurus"
+      } ]
+    }, {
+      "url" : "KT368137",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "ENA"
+      } ]
+    }, {
+      "url" : "MT246667",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "ENA"
+      } ]
+    }, {
+      "url" : "AY567487",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "ENA"
+      } ]
+    }, {
+      "url" : "10.17632/9rc2n4bkmv.1",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "doi"
+      } ]
+    }, {
+      "url" : "10.6084/m9.figshare.12436517",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "doi"
+      } ]
+    } ] ],
+    "subsections" : [ {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "EMBO Fellowship:"
+      }, {
+        "name" : "grant_id",
+        "value" : "ALTF 380-2018"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NIAID NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "R01 AI143295"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NIAID NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "R21 AI142010"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "Emergent Ventures at the Mercatus Center"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "George Mason University"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NCI NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "P30 CA008748"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NCI NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "R01 CA190261"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NIAID NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "R03 AI141855"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "Leona M. and Harry B. Helmsley Charitable Trust"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "National Institute of Allergy and Infectious Diseases"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "Robertson Foundation"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "Damon Runyon-Sohn Pediatric Cancer Fellowship"
+      }, {
+        "name" : "grant_id",
+        "value" : "DRSG-21-17"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NCI NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "R01 CA213448"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "G. Harold and Leila Y. Mathers Charitable Foundation"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "Rockefeller University"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "MSKCC Translational Research Oncology Training Fellowship"
+      }, {
+        "name" : "grant_id",
+        "value" : "NIH T32-CA160001"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NIAID NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "P01 AI138938"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NCI NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "P01 CA196539"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NCI NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "P30 CA016087"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NIAID NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "R01 AI124690"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "BAWD Foundation"
+      }, {
+        "name" : "grant_id",
+        "value" : "R01AI091707"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NIAID NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "R01 AI116943"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NIAID NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "F32 AI133910"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NIAID NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "R01 AI091707"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NCI NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "U01 CA213359"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NIAID NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "U19 AI111825"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "Agilent Technologies"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "Center for Basic and Translational Research on Disorders of the Digestive System"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "St Jude Children’s Research Hospital Collaborative on Chromatin Regulation in Pediatric Cancer"
+      }, {
+        "name" : "grant_id",
+        "value" : "A11576"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "Leukemia and Lymphoma Society"
+      }, {
+        "name" : "grant_id",
+        "value" : "LLS-SCOR 7006-13"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NIAID NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "R01 AI150275"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NCI NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "R01 CA204639"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NIAID NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "R21 AI161212"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NCI NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "T32 CA160001"
+      } ]
+    }, {
+      "type" : "Publication",
+      "attributes" : [ {
+        "name" : "Journal",
+        "value" : "Cell host & microbe"
+      }, {
+        "name" : "Volume",
+        "value" : "29(2)"
+      }, {
+        "name" : "Pages",
+        "value" : "267-280.e5"
+      }, {
+        "name" : "Publication date",
+        "value" : "2021 Feb"
+      } ],
+      "links" : [ [ {
+        "url" : "10.1016/j.chom.2020.12.009",
+        "attributes" : [ {
+          "name" : "Type",
+          "value" : "DOI"
+        } ]
+      }, {
+        "url" : "PMC7833927",
+        "attributes" : [ {
+          "name" : "Type",
+          "value" : "PMC"
+        } ]
+      }, {
+        "url" : "33357464",
+        "attributes" : [ {
+          "name" : "Type",
+          "value" : "PMID"
+        } ]
+      } ] ]
+    }, {
+      "accno" : "a1",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Hoffmann HH"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a2",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Sanchez-Rivera FJ"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0002-8466-8563"
+      }, {
+        "name" : "affiliation",
+        "value" : "o2",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a3",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Schneider WM"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a4",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Luna JM"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0003-2415-9203"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a5",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Soto-Feliciano YM"
+      }, {
+        "name" : "affiliation",
+        "value" : "o3",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a6",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Ashbrook AW"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0003-1114-1426"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a7",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Le Pen J"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0001-7025-9526"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a8",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Leal AA"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0003-3020-9131"
+      }, {
+        "name" : "affiliation",
+        "value" : "o4",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a9",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Ricardo-Lax I"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0002-9590-9692"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a10",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Michailidis E"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0002-9907-4346"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a11",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Hao Y"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0002-1588-0587"
+      }, {
+        "name" : "affiliation",
+        "value" : "o4",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a12",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Stenzel AF"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0002-1024-6069"
+      }, {
+        "name" : "affiliation",
+        "value" : "o5",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a13",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Peace A"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a14",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Zuber J"
+      }, {
+        "name" : "affiliation",
+        "value" : "o6",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a15",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Allis CD"
+      }, {
+        "name" : "affiliation",
+        "value" : "o3",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a16",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Lowe SW"
+      }, {
+        "name" : "affiliation",
+        "value" : "o2",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a17",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "MacDonald MR"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a18",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Poirier JT"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0001-9795-5644"
+      }, {
+        "name" : "affiliation",
+        "value" : "o7",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a19",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Rice CM"
+      }, {
+        "name" : "affiliation",
+        "value" : "o8",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "o2",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Cancer Biology and Genetics, MSKCC New York, NY 10065, USA"
+      } ]
+    }, {
+      "accno" : "o3",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Laboratory of Chromatin Biology & Epigenetics, The Rockefeller University, New York, NY 10065, USA"
+      } ]
+    }, {
+      "accno" : "o1",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Laboratory of Virology and Infectious Disease, The Rockefeller University, New York, NY 10065, USA"
+      } ]
+    }, {
+      "accno" : "o8",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Laboratory of Virology and Infectious Disease, The Rockefeller University, New York, NY 10065, USA. Electronic address: ricec@rockefeller.edu"
+      } ]
+    }, {
+      "accno" : "o5",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Laboratory of Virology and Infectious Disease, The Rockefeller University, New York, NY 10065, USA; Department of Infectious Diseases, Molecular Virology, Heidelberg University, Heidelberg, Germany"
+      } ]
+    }, {
+      "accno" : "o4",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Laura and Isaac Perlmutter Cancer Center, New York University Grossman School of Medicine, NYU Langone Health, New York, NY 10016 USA"
+      } ]
+    }, {
+      "accno" : "o7",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Laura and Isaac Perlmutter Cancer Center, New York University Grossman School of Medicine, NYU Langone Health, New York, NY 10016 USA. Electronic address: john.poirier@nyulangone.org"
+      } ]
+    }, {
+      "accno" : "o6",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Research Institute of Molecular Pathology (IMP), Vienna BioCenter (VBC), Vienna, Austria; Medical University of Vienna, Vienna BioCenter (VBC), Vienna, Austria"
+      } ]
+    }, {
+      "type" : "ExtractedLinks"
+    } ]
+  },
+  "type" : "submission"
+}

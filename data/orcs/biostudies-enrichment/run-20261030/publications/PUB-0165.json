@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0165",
+    "PMID": "33189395",
+    "DOI": "10.1016/j.chemosphere.2020.128701",
+    "PMCID": "PMC7904579",
+    "Title": "Applying genome-wide CRISPR to identify known and novel genes and pathways that modulate formaldehyde toxicity.",
+    "ORCS Publication ID": "413",
+    "ORCS Publication Index": "PUB-0165",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC7904579",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.chemosphere.2020.128701%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:20:14.731176+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "62edfacbf98b2bcc6ebbd4d64bde7fd9b1a9ca40820aa12c2d9ce7f3b73f54c2",
+        "body": "native/5355909563c9b6f7a57e59de20401fad893bccce433ea327d3f742a591adc88e.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7904579",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233189395%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:20:20.741681+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "948f52d2ad7d9afe37738aa593cfee81b3be20f2274f0d97b7392aefcfaf1bd8",
+        "body": "native/7e01e2db348e05080ae1aad7018f633d7e08310fd54219312ca04e30e3d9aaf3.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7904579",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7904579%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:20:26.755987+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "67c1485dd9746cd51f7f915583c15d38744a81cfe32ae3452b97dc8678444d43",
+        "body": "native/563cdb6cb9014ef716bd50edc30bbee192f61d207507a5ba8ca558068be5953a.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7904579",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Applying+genome-wide+CRISPR+to+identify+known+and+novel+genes+and+pathways+that+modulate+formaldehyde+toxicity.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:20:32.748129+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "c23df8ba09b7f800e4477023ee682bd3e54b25240c9425c039a4dc761c830866",
+        "body": "native/04078b7eac6f05f8834a8775d7f3903522ff9ab1cba817d68b850180a25b9dce.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.chemosphere.2020.128701%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233189395%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7904579%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Applying+genome-wide+CRISPR+to+identify+known+and+novel+genes+and+pathways+that+modulate+formaldehyde+toxicity.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A33189395&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

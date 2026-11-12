@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0320",
+    "PMID": "34316707",
+    "DOI": "10.1093/narcan/zcab019",
+    "PMCID": "PMC8210162",
+    "Title": "A novel class of inhibitors that target SRSF10 and promote p53-mediated cytotoxicity on human colorectal cancer cells.",
+    "ORCS Publication ID": "859",
+    "ORCS Publication Index": "PUB-0320",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC8210162",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1093%2Fnarcan%2Fzcab019%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:30:21.953415+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "e35ba58a888b0c0630e8452a05efdd5ef73d9e0ad4f9117970b39b7e5a1ee6f6",
+        "body": "native/7006f6c5ae6fef5f634a61a6dbf5db89211b178f39d07b2a26e4426b2a074556.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8210162",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2234316707%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:30:27.955148+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "dc841a8f5a396fee09614a67a8bcb06ebf424845b2a1e46861cf315898d67568",
+        "body": "native/650bfb49f28835d02dc846ace91e631cda86da55f49e112a16a114a2ea9b6b18.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8210162",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC8210162%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:30:33.960268+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "3bc2ea26255e4f5d04a0edcea2da2ba030a135baef84bb647f0f3d12a017b9e8",
+        "body": "native/9630b085aeb890b96489c087312fc05d2f8765165c95dbb0c502064c723c9187.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8210162",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+novel+class+of+inhibitors+that+target+SRSF10+and+promote+p53-mediated+cytotoxicity+on+human+colorectal+cancer+cells.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:30:39.960334+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "d01e1c7921ae234f4e7fae062f054bfb58fbbf22126f5b739a94e35c4ccece3b",
+        "body": "native/57eda9bf249fefaa78c6c6eb8ad34d5824e2ce85633f8bf6ec4d1d1f63a0d76c.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1093%2Fnarcan%2Fzcab019%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2234316707%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC8210162%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+novel+class+of+inhibitors+that+target+SRSF10+and+promote+p53-mediated+cytotoxicity+on+human+colorectal+cancer+cells.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A34316707&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

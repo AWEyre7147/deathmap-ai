@@ -13,10 +13,8 @@ NAMES = {
     'GEO - Series Records': 'GEO Series Records', 'GEO - Series Hierarchy': 'GEO Series Hierarchy',
     'GEO - Repository Identifiers': 'GEO Repository Links', 'GEO - Sample Metadata': 'GEO Sample Records',
     'ENA - Studies': 'ENA Study Records', 'ENA - Study hierarchy': 'ENA Study Hierarchy',
+    'BioStudies - Publications': 'BioStudies Study Records', 'BioStudies - Supplementary Files': 'BioStudies Files',
     'ENA - Samples': 'ENA Sample Records', 'ENA - Experiments': 'ENA Experiment Records', 'ENA - Runs': 'ENA Run Records',
-    'AE - Studies': 'ArrayExpress Study Records', 'AE - Protocols': 'ArrayExpress Protocol Records',
-    'AE - Sample metadata': 'ArrayExpress Sample Records', 'AE - Assay metadata': 'ArrayExpress Assay Records',
-    'AE - IDF metadata': 'ArrayExpress IDF Metadata', 'AE - SDRF metadata': 'ArrayExpress SDRF Metadata',
 }
 
 ORDERS = {
@@ -29,8 +27,6 @@ ORDERS = {
     'ENA - Samples': ['Publication index', 'Sample accession', 'Reporting studies', 'Run accessions', 'Sample title', 'Sample description', 'Organism'],
     'ENA - Experiments': ['Publication index', 'Experiment accession', 'Sample accession', 'Reporting studies', 'Run accessions', 'Experiment title', 'Library strategy', 'Library source', 'Library selection', 'Library layout', 'Instrument platform', 'Instrument model', 'Library construction protocol'],
     'ENA - Runs': ['Publication index', 'Run accession', 'Native study accession', 'Sample accession', 'Experiment accession', 'Read count', 'Base count', 'Reporting studies', 'SRA study accession'],
-    'AE - IDF metadata': ['Publication index', 'Study accession', 'Native field', 'Original value', 'Native line', 'Native column'],
-    'AE - SDRF metadata': ['Publication index', 'Study accession', 'Source name', 'Native field', 'Original value', 'Native data row', 'Native column'],
 }
 
 
@@ -59,12 +55,10 @@ def layout_sheet(sheet):
     if name not in NAMES:
         raise ValueError('Unknown synthesis sheet: ' + name)
     headers = list(sheet['headers'])
-    remove = {'Publication Count'} if name == 'PubMed - MeSH' else {'Publication association', 'Source URL'} if name == 'AE - Studies' else {'Part'} if name == 'AE - SDRF metadata' else set()
+    remove = {'Publication Count'} if name == 'PubMed - MeSH' else set()
     if name == 'GEO - Sample Metadata':
         remove.update(('geo_accession', 'series_id'))
     order = ORDERS.get(name, [h for h in headers if h not in remove])
-    if name == 'AE - Protocols':
-        order = ['Publication index', 'Native protocol ID'] + [h for h in headers if h not in ('Publication index', 'Native protocol ID')]
     if any(h not in headers for h in order):
         raise ValueError('Requested header missing: ' + name)
     aliases = {'BioProject Accession': 'NCBI BioProject', 'BioSample Accession': 'NCBI BioSample'}
@@ -85,11 +79,6 @@ def layout_sheet(sheet):
                         'Samples in report': 'Samples', 'Experiments in report': 'Experiments', 'Runs in report': 'Runs'})
         if name == 'ENA - Experiments':
             aliases['Run accessions'] = 'ENA Run'
-    if name.startswith('AE - '):
-        aliases.update({'Study accession': 'ArrayExpress Study', 'Native protocol ID': 'ArrayExpress Protocol',
-                        'Native section ID': 'ArrayExpress Section ID', 'Native section type': 'ArrayExpress Section Type',
-                        'Native line': 'ArrayExpress Line', 'Native column': 'ArrayExpress Column',
-                        'Native field': 'ArrayExpress Field', 'Native data row': 'ArrayExpress Row'})
     resource = name.split(' - ', 1)[0]
     labels = readable_headers([identifier_label(resource, name, h, aliases.get(h, _title(h))) for h in order])
     groups = {}

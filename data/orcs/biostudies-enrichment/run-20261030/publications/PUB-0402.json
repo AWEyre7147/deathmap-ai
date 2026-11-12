@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0402",
+    "PMID": "36725843",
+    "DOI": "10.1038/s41420-023-01315-2",
+    "PMCID": "PMC9892530",
+    "Title": "Identifying CDC7 as a synergistic target of chemotherapy in resistant small-cell lung cancer via CRISPR/Cas9 screening.",
+    "ORCS Publication ID": "1141",
+    "ORCS Publication Index": "PUB-0402",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC9892530",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41420-023-01315-2%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:35:47.970207+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "3dcdbb6a43790ea3f265db4238e202f28f5d14e9e9d9edab144c93bbf52b7919",
+        "body": "native/f5c9e725ad8ee970354ae8637e0d212b5da96521f4384026bcf6dca9f65f4e04.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9892530",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236725843%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:35:53.988025+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "ff24a36186721e35f3a83403c8bd2f145845429747166c76a3340ca9821af3e2",
+        "body": "native/1bec9837d9343ecbdc1336aa4ccbf9da530f836ced9dce5cc1ed3183a33b06b4.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9892530",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9892530%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:35:59.991644+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "135c00e4b9294600828107a7ea0a802526f8be0f4f2e0080ca8c1d8a9e43b7c7",
+        "body": "native/cc8090f6a9bd295eb14c180fd4631d23fd833fe6ee8a98ca881e05c86f1c145d.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9892530",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Identifying+CDC7+as+a+synergistic+target+of+chemotherapy+in+resistant+small-cell+lung+cancer+via+CRISPR%2FCas9+screening.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:36:05.985706+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "877391979e809b36b3ca71f57295e89ee01f4ff0cbe21c51c1625cf2c2708d67",
+        "body": "native/2539b476d55a4d85752e1c946c88e2cfba04d8b35eae313c83b7ea4cc0c46cdc.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41420-023-01315-2%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236725843%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9892530%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Identifying+CDC7+as+a+synergistic+target+of+chemotherapy+in+resistant+small-cell+lung+cancer+via+CRISPR%2FCas9+screening.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A36725843&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0139",
+    "PMID": "32968282",
+    "DOI": "10.1038/s41586-020-2746-2",
+    "PMCID": "PMC9014559",
+    "Title": "Functional genomic landscape of cancer-intrinsic evasion of killing by T cells.",
+    "ORCS Publication ID": "362",
+    "ORCS Publication Index": "PUB-0139",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC9014559",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41586-020-2746-2%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:34:55.857393+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "8e0af226bd45e29b0e836fa01c8821c2e5b59c96115cf402fac64f2df3c04032",
+        "body": "native/63874664ed5d365071bf33f8151817b508c21ddd35ae5b0c66d42b715623103a.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9014559",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2232968282%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:35:03.993146+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "b4c399ea9c50e417279fa617338059c38ec75c809ebb962f73959e3a7bacf6e9",
+        "body": "native/dde686dc8a45204b960cf75ef42e18f86e106ca83fc7766eecbcf9a49cebca51.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9014559",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9014559%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:35:08.136990+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "30f2998882b865772b9b5060eed344adf207eabe53637e34e86ff2f8129233fe",
+        "body": "native/e7bbdc04729b0c285ec64ba6bdb926035d4aeadb55650e87f9ba763d28284a1b.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9014559",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Functional+genomic+landscape+of+cancer-intrinsic+evasion+of+killing+by+T+cells.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:35:14.999471+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "f3160d73e9955f0906d52d088b88400e0e93940755ef789efa32cf01e8846989",
+        "body": "native/c578b5f7b9f7c15371ef37620376cc12f64ec1da844b28a76307bd75e2e3a00a.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41586-020-2746-2%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2232968282%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9014559%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Functional+genomic+landscape+of+cancer-intrinsic+evasion+of+killing+by+T+cells.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A32968282&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

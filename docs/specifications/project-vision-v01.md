@@ -1,5 +1,19 @@
 # Project Vision
 
+## Current capability update - 2026-11-12
+
+The owner retired ORCS collection/filtering/search commands and standalone
+publisher API enrichments. ORCS remains a saved reference database and publication
+cohort for metadata enrichment. Publisher routing and the current OSU access
+adapter remain necessary parts of library enrichment. Later descriptions of the
+former discovery commands are historical, not current supported behavior.
+
+The owner intends to develop screen-selection rules from enrichment outputs,
+compare with ICRAFT and investigate qualifying studies after 2022. Rule definitions,
+validation protocol and publication discovery beyond the reference cohort require
+separate scope. This update authorizes retirement/cleanup only, not evaluation,
+live enrichment, automatic screen attribution or new retrieval.
+
 ## Project Name
 
 DeathMap-AI

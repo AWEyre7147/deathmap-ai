@@ -1,0 +1,113 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0404",
+    "PMID": "36652375",
+    "DOI": "10.15252/emmm.202216235",
+    "PMCID": "PMC9994488",
+    "Title": "Thioparib inhibits homologous recombination repair, activates the type I IFN response, and overcomes olaparib resistance.",
+    "ORCS Publication ID": "1145",
+    "ORCS Publication Index": "PUB-0404",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC9994488",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.15252%2Femmm.202216235%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:35:56.988283+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "84cf447fff234015b374decfbb77fa494770acdb62b90748e603662ee14988d1",
+        "body": "native/ac62e00415b472a3009797a659e722519408b976525bf81b5848b8001a2026fb.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9994488",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236652375%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:36:02.982349+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "b0c606ba46520abf9fe757dbc4bdabe27c9c3efe080d9dc6516f71a27a694f92",
+        "body": "native/1fa73c9f252d0ae652c8c535ea22feb5e8b68ccb761f2a401ae6adea211afdef.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9994488",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9994488%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:36:08.982677+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "a562db2afb76849b6e5b62ced43eb273ce1b1f18147b7ce635b711284f68f8a6",
+        "body": "native/e8feb1bd5233b24a13d41538c8d5a1f3cadaac11382abbdfd29dd9343fe118ac.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9994488",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Thioparib+inhibits+homologous+recombination+repair%2C+activates+the+type+I+IFN+response%2C+and+overcomes+olaparib+resistance.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:36:15.012160+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "e7316803f3af5b51ab3e36bfb8394190f150428b006c3eb96a5b754ba86304dc",
+        "body": "native/1467cf7e1b7ee8cf44cb154d4b0606a12e5feac2e732e5b2224189b130b2e24a.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.15252%2Femmm.202216235%22&pagination=cursor&pageSize=100",
+      "outcome": "failed",
+      "error": "Invalid BioStudies search identity"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236652375%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9994488%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Thioparib+inhibits+homologous+recombination+repair%2C+activates+the+type+I+IFN+response%2C+and+overcomes+olaparib+resistance.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A36652375&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [
+    {
+      "route": "doi",
+      "error": "Invalid BioStudies search identity"
+    }
+  ],
+  "outcome": "incomplete"
+}

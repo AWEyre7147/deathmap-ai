@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0094",
+    "PMID": "32542389",
+    "DOI": "10.1093/nar/gkaa508",
+    "PMCID": "PMC7367200",
+    "Title": "Genome-wide CRISPR synthetic lethality screen identifies a role for the ADP-ribosyltransferase PARP14 in DNA replication dynamics controlled by ATR",
+    "ORCS Publication ID": "268",
+    "ORCS Publication Index": "PUB-0094",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC7367200",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1093%2Fnar%2Fgkaa508%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:32:08.368191+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "64d9d75638e6a3cc6188614624211e0c333f5ca169dfc241c7b9ed38a9a8cbad",
+        "body": "native/e0ffd6ee4812cc06bd66a0c622e49a7135252de0c8fc02313a6a166179da2fbd.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7367200",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2232542389%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:32:13.990703+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "2b30138157ed333d8d6e6b834e6579556f46675134748716b95dab668301b83c",
+        "body": "native/4139f617ba01281583b1838bfcb4966b92e3de5b29664f2d182d85c1cba157de.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7367200",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7367200%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:32:21.814432+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "dad1b65c78bdadfae92c946139f2d2820da0581ca284f28c444cc595ca14f12e",
+        "body": "native/366beefbbbb2ff4895d6dfd70e0c9bf7035855e9306dd088b49b883e5edb2e70.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7367200",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+CRISPR+synthetic+lethality+screen+identifies+a+role+for+the+ADP-ribosyltransferase+PARP14+in+DNA+replication+dynamics+controlled+by+ATR%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:32:26.720228+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "b9a63ee8a1cff3b5d23a0a3e6e2a6b57ef4873e9c93ebf5755835e5a219532df",
+        "body": "native/b13eb4318ee09752f2eacc1b6e734870816940b343fe09799964ce8f7c632433.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1093%2Fnar%2Fgkaa508%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2232542389%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7367200%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+CRISPR+synthetic+lethality+screen+identifies+a+role+for+the+ADP-ribosyltransferase+PARP14+in+DNA+replication+dynamics+controlled+by+ATR%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A32542389&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

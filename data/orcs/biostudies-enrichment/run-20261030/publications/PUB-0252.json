@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0252",
+    "PMID": "33562682",
+    "DOI": "10.3390/cancers13040639",
+    "PMCID": "PMC7915661",
+    "Title": "NRF2 Activation Confers Resistance to eIF4A Inhibitors in Cancer Therapy.",
+    "ORCS Publication ID": "647",
+    "ORCS Publication Index": "PUB-0252",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC7915661",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.3390%2Fcancers13040639%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:25:59.863775+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "f54ac12c51fd68f810b52ee0d7aac400991946f3c8ed5de10dc9e37afcacefe8",
+        "body": "native/d6754ec0a93d19a5452499a6e6094716ce245ff09bc4e098d0db9d6b000a8dfb.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7915661",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233562682%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:26:05.861404+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "96b543bdcaffd8f49a19669d352a55f433b511bf0d06cc621456814b89774410",
+        "body": "native/871d2886cd48b750d8614f984078ea8e0cbb498b3ca187e0cac94cd2f3992604.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7915661",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7915661%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:26:11.856615+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "d47c4a6d5c07d1bac24cbebbc8d46efef5b8eb767e975370bca70314fe6f564a",
+        "body": "native/f2aecb8ccece046b404b543307bcefb6e02baf6a3284b6c40a0c8dacee30c618.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7915661",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22NRF2+Activation+Confers+Resistance+to+eIF4A+Inhibitors+in+Cancer+Therapy.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:26:17.872110+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "e5b4851324086f4618dab20a0f4fdd1f81baae05835660c5cc5c0076d6969021",
+        "body": "native/a37b5478b1dec6d1efe6b8e1a5fa6f6ffa3ca0309530344d380414796a36aa88.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.3390%2Fcancers13040639%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233562682%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7915661%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22NRF2+Activation+Confers+Resistance+to+eIF4A+Inhibitors+in+Cancer+Therapy.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A33562682&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

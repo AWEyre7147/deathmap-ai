@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0130",
+    "PMID": "29507424",
+    "DOI": "10.1038/s41588-018-0070-7",
+    "PMCID": "PMC5893388",
+    "Title": "CRISPR-Cas9 screens in human cells and primary neurons identify modifiers of C9ORF72 dipeptide-repeat-protein toxicity.",
+    "ORCS Publication ID": "346",
+    "ORCS Publication Index": "PUB-0130",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC5893388",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41588-018-0070-7%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:34:22.781247+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "6ed36432d3d4c163829a554935b62abeca118a62c9d0e20427078a19759e6be5",
+        "body": "native/ca234242a547e90beced29386431afa96a4ef18721f3e69c3eb0685ec52b52e7.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5893388",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2229507424%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:34:33.199420+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "4d543e90e82c6e80f1060159d6bf65cecd7eb45c2592f2c1a3964bf93ab35a1c",
+        "body": "native/caaf7980b00be98b331ddc964a547dd9e4c0c450e1821aca85ec57a01629403c.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5893388",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC5893388%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:34:36.686801+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "a988887257248a9f7f82df3c559318f4c48afbf1ffa3624692cb824296055a76",
+        "body": "native/5cd26c457ded9566f2d8ed1dbc4724cbeffdbde2cf1ba12d801a0a53770a272f.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5893388",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22CRISPR-Cas9+screens+in+human+cells+and+primary+neurons+identify+modifiers+of+C9ORF72+dipeptide-repeat-protein+toxicity.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:34:44.058115+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "ff26dcbac1c606f2cd55e3e99a095a2e93bb8f0617eac0cc4bae96b110101dfb",
+        "body": "native/fcfccc7bf211b68bf94c98f0a327cb8b49de84c31fe77631af15bcff083699c4.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41588-018-0070-7%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2229507424%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC5893388%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22CRISPR-Cas9+screens+in+human+cells+and+primary+neurons+identify+modifiers+of+C9ORF72+dipeptide-repeat-protein+toxicity.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A29507424&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0185",
+    "PMID": "33228647",
+    "DOI": "10.1186/s12915-020-00905-1",
+    "PMCID": "PMC7686728",
+    "Title": "Genome-scale CRISPR screening at high sensitivity with an empirically designed sgRNA library.",
+    "ORCS Publication ID": "464",
+    "ORCS Publication Index": "PUB-0185",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC7686728",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1186%2Fs12915-020-00905-1%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:21:34.599448+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "06cfe18f8e1b773ebdc38f7f47ccc83fa793a141e8c85b2007860b72433c94fb",
+        "body": "native/de614f93cd45e5cbdeccda080dbbc51d4412b83965dc6e5170a77be57613ccab.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7686728",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233228647%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:21:40.592403+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "5652721477070274676fa7975c71002b0c69abb32284ecd72c30b4024d6d7a9f",
+        "body": "native/6f68f29156dee0cb70d4d3bb8a200a1e3d97946ba480f8a2d2252419942630e5.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7686728",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7686728%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:21:46.596034+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "46df2f2b90e1744a198495116fb76eb57fca21a5fd29f5ec9b518900828378cb",
+        "body": "native/51529fa3f6a3fe45590f5d3f9703a3c0949360044c4d71dfe8bc31f0cbffdb7c.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7686728",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-scale+CRISPR+screening+at+high+sensitivity+with+an+empirically+designed+sgRNA+library.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:21:52.595889+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "c3d5f07ddc183061a9d33aa279a72a4a033be402f48baba606224b694c8bcbb3",
+        "body": "native/348aaf6719ec31481da09dd7601a979489189d7841ae66e2eb7877e48eca3de0.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1186%2Fs12915-020-00905-1%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233228647%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7686728%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-scale+CRISPR+screening+at+high+sensitivity+with+an+empirically+designed+sgRNA+library.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A33228647&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

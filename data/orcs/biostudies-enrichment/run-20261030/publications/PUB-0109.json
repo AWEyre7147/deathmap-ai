@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0109",
+    "PMID": "26190106",
+    "DOI": "10.1016/j.celrep.2015.06.049",
+    "PMCID": "PMC4559080",
+    "Title": "A CRISPR-Based Screen Identifies Genes Essential for West-Nile-Virus-Induced Cell Death.",
+    "ORCS Publication ID": "303",
+    "ORCS Publication Index": "PUB-0109",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC4559080",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.celrep.2015.06.049%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:32:59.658981+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "edc5053535a4e537510cc96f9aae421da2a4d357728c8aa34d8c7fbe0e728b59",
+        "body": "native/b4dc156e3c41ec9a0c5eb1d5dad0c29b77d1aad5483d5cb475627478080186d1.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC4559080",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2226190106%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:33:08.709472+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "651dd0315ed12e2f8d5a4238858c1501a562ca85674ca328ce677451d6818e92",
+        "body": "native/ac166c9da95824908182a3ba67776f8a60511ebf17607d6eef43e3ba7bb13432.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC4559080",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC4559080%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:33:16.699107+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "034230d9c54d7ff7855b11a63c1bb90abbec67db869f9e54b7a96447166828cd",
+        "body": "native/8556674b156815a9baa0cacb7b22587fc782a8784bfc8a07fe1785e8c588c8ee.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC4559080",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+CRISPR-Based+Screen+Identifies+Genes+Essential+for+West-Nile-Virus-Induced+Cell+Death.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:33:20.865507+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "300a475bb5dd9b2407757c6acc5b7639e78c85b0424fc8404a961dac7d5300c4",
+        "body": "native/4d17cf0ce823eef888eaeab8ff3429ba929f99b47da6cb2ea54f5892e5eb4a01.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.celrep.2015.06.049%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2226190106%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC4559080%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+CRISPR-Based+Screen+Identifies+Genes+Essential+for+West-Nile-Virus-Induced+Cell+Death.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A26190106&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

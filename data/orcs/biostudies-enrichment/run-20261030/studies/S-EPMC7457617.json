@@ -1,0 +1,709 @@
+{
+  "accession": "S-EPMC7457617",
+  "native": {
+    "accno": "S-EPMC7457617",
+    "attributes": [
+      {
+        "name": "DataSource",
+        "value": "Europe PMC"
+      },
+      {
+        "name": "Title",
+        "value": "Elucidation of remdesivir cytotoxicity pathways through genome-wide CRISPR-Cas9 screening and transcriptomics."
+      },
+      {
+        "name": "ReleaseDate",
+        "value": "2020-01-01"
+      },
+      {
+        "name": "AttachTo",
+        "value": "EuropePMC"
+      }
+    ],
+    "section": {
+      "type": "Study",
+      "attributes": [
+        {
+          "name": "Title",
+          "value": "Elucidation of remdesivir cytotoxicity pathways through genome-wide CRISPR-Cas9 screening and transcriptomics."
+        },
+        {
+          "name": "Abstract",
+          "value": "The adenosine analogue remdesivir has emerged as a front-line antiviral treatment for SARS-CoV-2, with preliminary evidence that it reduces the duration and severity of illness<sup>1</sup>.Prior clinical studies have identified adverse events<sup>1,2</sup>, and remdesivir has been shown to inhibit mitochondrial RNA polymerase in biochemical experiments<sup>7</sup>, yet little is known about the specific genetic pathways involved in cellular remdesivir metabolism and cytotoxicity. Through genome-wide CRISPR-Cas9 screening and RNA sequencing, we show that remdesivir treatment leads to a repression of mitochondrial respiratory activity, and we identify five genes whose loss significantly reduces remdesivir cytotoxicity. In particular, we show that loss of the mitochondrial nucleoside transporter <i>SLC29A3</i> mitigates remdesivir toxicity without a commensurate decrease in SARS-CoV-2 antiviral potency and that the mitochondrial adenylate kinase <i>AK2</i> is a remdesivir kinase required for remdesivir efficacy and toxicity. This work elucidates the cellular mechanisms of remdesivir metabolism and provides a candidate gene target to reduce remdesivir cytotoxicity."
+        }
+      ],
+      "files": [
+        {
+          "path": "media-1.pdf",
+          "size": 2026422,
+          "type": "file"
+        },
+        {
+          "path": "media-2.xlsx",
+          "size": 93583,
+          "type": "file"
+        },
+        {
+          "path": "media-3.xlsx",
+          "size": 29686,
+          "type": "file"
+        }
+      ],
+      "links": [
+        [
+          {
+            "url": "GSE154936",
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "geo"
+              }
+            ]
+          },
+          {
+            "url": "phs000424",
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "dbgap"
+              }
+            ]
+          }
+        ]
+      ],
+      "subsections": [
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "NCI NIH HHS"
+            },
+            {
+              "name": "grant_id",
+              "value": "R01 CA074305"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "NIAID NIH HHS"
+            },
+            {
+              "name": "grant_id",
+              "value": "R01 AI114814"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "NHGRI NIH HHS"
+            },
+            {
+              "name": "grant_id",
+              "value": "R01 HG008754"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "NIAID NIH HHS"
+            },
+            {
+              "name": "grant_id",
+              "value": "P01 AI120943"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "NHGRI NIH HHS"
+            },
+            {
+              "name": "grant_id",
+              "value": "R01 HG010372"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "NHGRI NIH HHS"
+            },
+            {
+              "name": "grant_id",
+              "value": "R21 HG010391"
+            }
+          ]
+        },
+        {
+          "type": "Publication",
+          "attributes": [
+            {
+              "name": "Journal",
+              "value": "bioRxiv : the preprint server for biology"
+            },
+            {
+              "name": "Pages",
+              "value": "2020.08.27.270819"
+            },
+            {
+              "name": "Publication date",
+              "value": "2020 Aug"
+            }
+          ],
+          "links": [
+            [
+              {
+                "url": "10.1101/2020.08.27.270819",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "DOI"
+                  }
+                ]
+              },
+              {
+                "url": "PMC7457617",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "PMC"
+                  }
+                ]
+              },
+              {
+                "url": "32869031",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "PMID"
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "accno": "a1",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Akinci E"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a2",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Cha M"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a3",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Lin L"
+            },
+            {
+              "name": "affiliation",
+              "value": "o2",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a4",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Yeo G"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0002-8920-8208"
+            },
+            {
+              "name": "affiliation",
+              "value": "o3",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a5",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Hamilton MC"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0002-1132-9712"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a6",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Donahue CJ"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0002-4284-2914"
+            },
+            {
+              "name": "affiliation",
+              "value": "o4",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a7",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Bermudez-Cabrera HC"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a8",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Zanetti LC"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a9",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Chen M"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a10",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Barkal SA"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0002-8391-5956"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a11",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Khowpinitchai B"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a12",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Chu N"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0001-9717-5007"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a13",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Velimirovic M"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a14",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Jodhani R"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a15",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Fife JD"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a16",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Sovrovic M"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a17",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Cole PA"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a18",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Davey RA"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0001-9168-2892"
+            },
+            {
+              "name": "affiliation",
+              "value": "o4",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a19",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Cassa CA"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0002-5771-9177"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a20",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Sherwood RI"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "o3",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Department of Electrical Engineering and Computer Science, Massachusetts Institute of Technology, Cambridge, MA 02139, USA"
+            }
+          ]
+        },
+        {
+          "accno": "o4",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Department of Microbiology, National Emerging Infectious Disease Laboratories, Boston University Medical Campus, Boston, MA 02118, USA"
+            }
+          ]
+        },
+        {
+          "accno": "o1",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Division of Genetics, Department of Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, MA 02115"
+            }
+          ]
+        },
+        {
+          "accno": "o2",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Hubrecht Institute, 3584 CT Utrecht, the Netherlands"
+            }
+          ]
+        }
+      ]
+    },
+    "type": "submission"
+  },
+  "source": {
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-EPMC7457617",
+    "retrieved_utc": "2026-10-31T00:55:33.512823+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "3db814e70a44fb2523c80109d2ad2d15304fc5de6faf88455386501af465ead7",
+    "body": "native/9cbc2b5bf0d2de5478f9b57674202b24f69c6ecde7d0069417eb035090a4888c.body"
+  },
+  "info": {
+    "columns": [
+      {
+        "name": "Name",
+        "title": "Name",
+        "visible": true,
+        "searchable": true,
+        "data": "Name",
+        "defaultContent": ""
+      },
+      {
+        "name": "Size",
+        "title": "Size",
+        "visible": true,
+        "searchable": false,
+        "data": "Size",
+        "defaultContent": ""
+      }
+    ],
+    "files": 3,
+    "httpLink": "https://ftp.ebi.ac.uk/pub/databases/biostudies/S-EPMC/617/S-EPMC7457617",
+    "ftpLink": "ftp://ftp.ebi.ac.uk/pub/databases/biostudies/S-EPMC/617/S-EPMC7457617",
+    "globusLink": "https://app.globus.org/file-manager?origin_id=47772002-3e5b-4fd3-b97c-18cee38d6df2&origin_path=/pub/databases/biostudies/S-EPMC/617/S-EPMC7457617",
+    "isPublic": true,
+    "relPath": "S-EPMC/617/S-EPMC7457617",
+    "hasZippedFolders": false,
+    "views": 0,
+    "released": 1577836800000,
+    "modified": 1775617248187,
+    "sections": [],
+    "sectionFileCounts": {}
+  },
+  "files": [
+    {
+      "path": "media-1.pdf",
+      "size": 2026422,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "media-1.pdf",
+        "size": 2026422,
+        "type": "file"
+      }
+    },
+    {
+      "path": "media-2.xlsx",
+      "size": 93583,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "media-2.xlsx",
+        "size": 93583,
+        "type": "file"
+      }
+    },
+    {
+      "path": "media-3.xlsx",
+      "size": 29686,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "media-3.xlsx",
+        "size": 29686,
+        "type": "file"
+      }
+    }
+  ],
+  "issues": [],
+  "info_source": {
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-EPMC7457617/info",
+    "retrieved_utc": "2026-10-31T00:55:39.524901+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "1dda9dd9784aaee37fa826a7b16d994f4b23e20e008476bcf7828d74a60a1b12",
+    "body": "native/d44145e66ba8190443ffe140b3e2d734666c3e443b504a158e573db5c7861686.body"
+  },
+  "links": [
+    {
+      "url": "GSE154936",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "geo"
+        }
+      ]
+    },
+    {
+      "url": "phs000424",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "dbgap"
+        }
+      ]
+    },
+    {
+      "url": "10.1101/2020.08.27.270819",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "DOI"
+        }
+      ]
+    },
+    {
+      "url": "PMC7457617",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "PMC"
+        }
+      ]
+    },
+    {
+      "url": "32869031",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "PMID"
+        }
+      ]
+    }
+  ]
+}

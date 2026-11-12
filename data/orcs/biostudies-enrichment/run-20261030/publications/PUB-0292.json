@@ -1,0 +1,37 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0292",
+    "PMID": "33864166",
+    "DOI": "10.1007/s10549-021-06213-8",
+    "PMCID": null,
+    "Title": "NSDHL promotes triple-negative breast cancer metastasis through the TGFβ signaling pathway and cholesterol biosynthesis.",
+    "ORCS Publication ID": "768",
+    "ORCS Publication Index": "PUB-0292",
+    "input_accessions": []
+  },
+  "observations": [],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1007%2Fs10549-021-06213-8%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233864166%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22NSDHL+promotes+triple-negative+breast+cancer+metastasis+through+the+TGF%CE%B2+signaling+pathway+and+cholesterol+biosynthesis.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A33864166&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

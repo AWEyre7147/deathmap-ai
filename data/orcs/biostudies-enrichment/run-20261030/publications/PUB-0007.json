@@ -1,0 +1,54 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0007",
+    "PMID": "26627737",
+    "DOI": "10.1016/j.cell.2015.11.015",
+    "PMCID": null,
+    "Title": "High-Resolution CRISPR Screens Reveal Fitness Genes and Genotype-Specific Cancer Liabilities.",
+    "ORCS Publication ID": "2",
+    "ORCS Publication Index": "PUB-0007",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "E-GEOD-75189",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22High-Resolution+CRISPR+Screens+Reveal+Fitness+Genes+and+Genotype-Specific+Cancer+Liabilities.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:25:18.668914+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "e57992c7d3bf0225c7c495592baa4c7cbef3676202875579f6497e170e869d93",
+        "body": "native/91f7022bdd3ec0286b0c3b631645930613e27a94ba6e76506b2a2958bfdbe1c1.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.cell.2015.11.015%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2226627737%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22High-Resolution+CRISPR+Screens+Reveal+Fitness+Genes+and+Genotype-Specific+Cancer+Liabilities.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A26627737&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

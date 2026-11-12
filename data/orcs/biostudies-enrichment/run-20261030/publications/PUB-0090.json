@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0090",
+    "PMID": "27992415",
+    "DOI": "10.1038/ng.3741",
+    "PMCID": "PMC5511375",
+    "Title": "A genome-wide CRISPR screen identifies a restricted set of HIV host dependency factors.",
+    "ORCS Publication ID": "264",
+    "ORCS Publication Index": "PUB-0090",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC5511375",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fng.3741%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:31:48.968415+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "2273583cf9eb07622c35e81e2d6b623bf4c64ba7d9d3bd97cc5b37a1ed6e7be2",
+        "body": "native/f47b4ad25ff4cd2a1dd83d9db03f7b7fe98792b9ca8e8142486b9afb62b31b47.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5511375",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2227992415%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:31:55.845741+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "25b697abf2a23cd5aed1acd063ef30b5323c7980045262617bf0a6d43f3d0d06",
+        "body": "native/6e4e8cc1c017bbf117ee642fae5a84cd3d2c0d920a04250bc2fb4a6e01f2fd97.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5511375",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC5511375%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:32:01.689598+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "e0449fa8c9dae824a2b3b881f0be2436b58291b0c515fdfc1c0e1fd15e4d04a3",
+        "body": "native/cc43e61855fefbf4e67bb4ebc88e1da7f98733dd1f1755f8ee1d2176f8efde43.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5511375",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+genome-wide+CRISPR+screen+identifies+a+restricted+set+of+HIV+host+dependency+factors.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:32:08.372020+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "85d38e97dc922e7bb010e66f810cf4bb851aa294f76367b805c7f85f86b64868",
+        "body": "native/513569f118f5d7ac2621780190fd860209d82f3ac2e3057abb462b69408fb72a.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fng.3741%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2227992415%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC5511375%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+genome-wide+CRISPR+screen+identifies+a+restricted+set+of+HIV+host+dependency+factors.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A27992415&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

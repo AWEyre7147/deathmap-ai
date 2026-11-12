@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0306",
+    "PMID": "31010806",
+    "DOI": "10.1128/mcb.00037-19",
+    "PMCID": "PMC6580702",
+    "Title": "Genome-Wide CRISPR Screen Reveals Autophagy Disruption as the Convergence Mechanism That Regulates the NRF2 Transcription Factor.",
+    "ORCS Publication ID": "831",
+    "ORCS Publication Index": "PUB-0306",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC6580702",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1128%2Fmcb.00037-19%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:29:32.930026+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "fd1bc7b4b917279d21c59e5602505de6bdd7f088d001f9015a12e712370c1fa1",
+        "body": "native/8a6d9152d51ea89e33844fb0b4394a853d9a4f7df0b34550625c242f86163561.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6580702",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231010806%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:29:38.926000+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "bd2bb208be6765f011c69c1789f1b4ed6db45ec6fe42865b16bf43640143d801",
+        "body": "native/978419926ac748e6413c890d7660e98bd63e7cffc266b7516e3310559b494cc0.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6580702",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6580702%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:29:44.947620+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "73761ed944d67d4952d75e654e99cfde65523205609ac7011f227f284ab76b18",
+        "body": "native/d81ac35f7e346cb9e4b2ee002a40d45ee27647bb201c7a1bafb7d2082793b37f.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6580702",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-Wide+CRISPR+Screen+Reveals+Autophagy+Disruption+as+the+Convergence+Mechanism+That+Regulates+the+NRF2+Transcription+Factor.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:29:50.937180+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "5f74fc4a24320f244a2021e7d5b0e4b6392db6a5b264a877e2ff7e4df762f4ba",
+        "body": "native/3281c7745be472529b6c00abb93cbe5a72d231792576900416170b9ba8ce4162.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1128%2Fmcb.00037-19%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231010806%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6580702%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-Wide+CRISPR+Screen+Reveals+Autophagy+Disruption+as+the+Convergence+Mechanism+That+Regulates+the+NRF2+Transcription+Factor.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A31010806&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

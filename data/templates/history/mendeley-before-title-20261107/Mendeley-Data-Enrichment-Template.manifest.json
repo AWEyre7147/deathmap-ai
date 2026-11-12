@@ -1,0 +1,235 @@
+{
+  "schema_version": "enrichment-template/1.0",
+  "name": "Mendeley Data Enrichment",
+  "template": "data/templates/history/mendeley-before-title-20261107/Mendeley-Data-Enrichment-Template.xlsx",
+  "source": {
+    "name": "MendeleyData Enrichment.xlsx",
+    "library_file_id": "libfile_7ae95162d31081919594031167cff568",
+    "sha256": "b46b15b83ca93e1de04c2b9ea50dc4fa8793c56da602b08c6e36b24f5023a393"
+  },
+  "index_format": {
+    "Mendeley Dataset Index": "MDS-0001; native accession and returned version",
+    "Mendeley File Index": "MND-0001; native accession, version and file ID"
+  },
+  "sheets": [
+    {
+      "name": "Publications",
+      "headers": [
+        "Publication Index",
+        "Dataset Count",
+        "Title",
+        "PMID",
+        "PMCID",
+        "DOI"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Publications",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "width": 24
+        },
+        {
+          "header": "Dataset Count",
+          "source_key": "Dataset Count",
+          "width": 24
+        },
+        {
+          "header": "Title",
+          "source_key": "Title",
+          "width": 55
+        },
+        {
+          "header": "PMID",
+          "source_key": "PMID",
+          "width": 24
+        },
+        {
+          "header": "PMCID",
+          "source_key": "PMCID",
+          "width": 24
+        },
+        {
+          "header": "DOI",
+          "source_key": "DOI",
+          "width": 24
+        }
+      ]
+    },
+    {
+      "name": "Datasets",
+      "headers": [
+        "Publication Index",
+        "Mendeley Dataset Index",
+        "Mendeley Data Accession",
+        "Dataset DOI",
+        "Title",
+        "Description",
+        "Categories",
+        "File Count",
+        "Reported Dataset Size (Bytes)",
+        "Available",
+        "Confidential",
+        "Dataset URL",
+        "Metadata URL",
+        "License",
+        "Publication Link Evidence"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Datasets",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "width": 24
+        },
+        {
+          "header": "Mendeley Dataset Index",
+          "source_key": "Mendeley Dataset Index",
+          "width": 28
+        },
+        {
+          "header": "Mendeley Data Accession",
+          "source_key": "Mendeley Data Accession",
+          "width": 28,
+          "original_header": "Mendeley Dataset ID"
+        },
+        {
+          "header": "Dataset DOI",
+          "source_key": "Dataset DOI",
+          "width": 28
+        },
+        {
+          "header": "Title",
+          "source_key": "Title",
+          "width": 55
+        },
+        {
+          "header": "Description",
+          "source_key": "Description",
+          "width": 70
+        },
+        {
+          "header": "Categories",
+          "source_key": "Categories",
+          "width": 24
+        },
+        {
+          "header": "File Count",
+          "source_key": "File Count",
+          "width": 24
+        },
+        {
+          "header": "Reported Dataset Size (Bytes)",
+          "source_key": "Reported Dataset Size (Bytes)",
+          "width": 26
+        },
+        {
+          "header": "Available",
+          "source_key": "Available",
+          "width": 24
+        },
+        {
+          "header": "Confidential",
+          "source_key": "Confidential",
+          "width": 24
+        },
+        {
+          "header": "Dataset URL",
+          "source_key": "Dataset URL",
+          "width": 70
+        },
+        {
+          "header": "Metadata URL",
+          "source_key": "Metadata URL",
+          "width": 70
+        },
+        {
+          "header": "License",
+          "source_key": "License",
+          "width": 24
+        },
+        {
+          "header": "Publication Link Evidence",
+          "source_key": "Publication Link Evidence",
+          "width": 65
+        }
+      ]
+    },
+    {
+      "name": "Files",
+      "headers": [
+        "Publication Index",
+        "Mendeley Dataset Index",
+        "Mendeley File Index",
+        "Mendeley Data Accession",
+        "Dataset DOI",
+        "Filename",
+        "File Type",
+        "Size (Bytes)",
+        "Description",
+        "File URL"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Files",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "width": 24
+        },
+        {
+          "header": "Mendeley Dataset Index",
+          "source_key": "Mendeley Dataset Index",
+          "width": 28
+        },
+        {
+          "header": "Mendeley File Index",
+          "source_key": "Mendeley File Index",
+          "width": 28
+        },
+        {
+          "header": "Mendeley Data Accession",
+          "source_key": "Mendeley Data Accession",
+          "width": 28,
+          "original_header": "Mendeley Dataset ID"
+        },
+        {
+          "header": "Dataset DOI",
+          "source_key": "Dataset DOI",
+          "width": 28
+        },
+        {
+          "header": "Filename",
+          "source_key": "Filename",
+          "width": 24
+        },
+        {
+          "header": "File Type",
+          "source_key": "File Type",
+          "width": 24
+        },
+        {
+          "header": "Size (Bytes)",
+          "source_key": "Size (Bytes)",
+          "width": 26
+        },
+        {
+          "header": "Description",
+          "source_key": "Description",
+          "width": 70
+        },
+        {
+          "header": "File URL",
+          "source_key": "File URL",
+          "width": 70
+        }
+      ]
+    }
+  ],
+  "sha256": "36cacc9bd6055de721772678dfc60b0c1980dd25ba830c347073c709aa040c4e"
+}

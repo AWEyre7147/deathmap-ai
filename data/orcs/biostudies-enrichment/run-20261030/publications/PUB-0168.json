@@ -1,0 +1,37 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0168",
+    "PMID": "33186476",
+    "DOI": "10.1002/ijc.33393",
+    "PMCID": null,
+    "Title": "Multi-omics integration identifies a selective vulnerability of colorectal cancer subtypes to YM155.",
+    "ORCS Publication ID": "421",
+    "ORCS Publication Index": "PUB-0168",
+    "input_accessions": []
+  },
+  "observations": [],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1002%2Fijc.33393%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233186476%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Multi-omics+integration+identifies+a+selective+vulnerability+of+colorectal+cancer+subtypes+to+YM155.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A33186476&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

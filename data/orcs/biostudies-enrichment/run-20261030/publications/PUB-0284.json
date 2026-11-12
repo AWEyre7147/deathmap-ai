@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0284",
+    "PMID": "35469023",
+    "DOI": "10.1038/s41467-022-29896-z",
+    "PMCID": "PMC9039069",
+    "Title": "Genome-wide CRISPR screens identify GATA6 as a proviral host factor for SARS-CoV-2 via modulation of ACE2.",
+    "ORCS Publication ID": "728",
+    "ORCS Publication Index": "PUB-0284",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC9039069",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41467-022-29896-z%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:28:00.630353+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "96fe1486b7b7bed72a62683bc98bf4b4250a964534525d25bae3f5874f2e5d87",
+        "body": "native/abb39704b627dc6babbb5f960f344f35a3197c1ff5e4d3a2f4b62ab401661bef.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9039069",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2235469023%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:28:06.622537+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "5e905ec42725573b4cf365b0e48ab5f4dffe7ff026e45158343febf35b3a488b",
+        "body": "native/acfcaeae3940efb70194e54507c75619e4f70dcea65e45112e6f28acaeee335c.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9039069",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9039069%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:28:12.852259+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "7f2bfb8d5db058b5674f783ee1a33bc2a6ba4096efc78e28ddc6a147fef147b3",
+        "body": "native/11efc5d208f91372afa714c1c42f2d929fba590d8ed8ea93f8504deab97ff505.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9039069",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+CRISPR+screens+identify+GATA6+as+a+proviral+host+factor+for+SARS-CoV-2+via+modulation+of+ACE2.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:28:18.863726+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "2b410c131766bbb3417d254f62b1182f0923a66993bcaf2427712741b4860e89",
+        "body": "native/1580da69870be5708cca28e53adc3df164c2db80092be430a2de456e24318480.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41467-022-29896-z%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2235469023%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9039069%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+CRISPR+screens+identify+GATA6+as+a+proviral+host+factor+for+SARS-CoV-2+via+modulation+of+ACE2.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A35469023&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

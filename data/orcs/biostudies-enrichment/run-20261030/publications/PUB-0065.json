@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0065",
+    "PMID": "31133756",
+    "DOI": "10.1038/s41589-019-0291-9",
+    "PMCID": "PMC8183600",
+    "Title": "Mitochondrial metabolism promotes adaptation to proteotoxic stress.",
+    "ORCS Publication ID": "153",
+    "ORCS Publication Index": "PUB-0065",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC8183600",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41589-019-0291-9%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:30:07.714101+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "a9d9f411d3c19bf342f8494abb42cc3c88e0433da00c8c0076ce753db400a2f6",
+        "body": "native/9d435f352c9914bd7a2d63d8a8c4d67086cb6fdbbda7af59a0360c3574aa85a3.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8183600",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231133756%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:30:11.844300+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "83dc7bb64733837978c4599f11f35229975244a6cf9b18169af202b1fc4d360b",
+        "body": "native/4332154b81832e7fa2728ecb8a894c260181c7b4639d6416bde79b3d9fa93b98.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8183600",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC8183600%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:30:20.131102+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "fffc4b83394787134a329328781930a6bf3b314343cddc91a536d09e494181f2",
+        "body": "native/677cb8a713791ed84b6d2fb17b97a49f5358737f107dc33fe74ed64255508bd6.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8183600",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Mitochondrial+metabolism+promotes+adaptation+to+proteotoxic+stress.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:30:25.729030+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "1c9f10c0afac760ffc3da56de391d3da0b9e0b0da1ad0f959c9dcd8d8686b2da",
+        "body": "native/c466f41ba6fa369027e9749400f511c9ffe66d6d3f2533dcb8b8d4c26c478987.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41589-019-0291-9%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231133756%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC8183600%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Mitochondrial+metabolism+promotes+adaptation+to+proteotoxic+stress.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A31133756&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

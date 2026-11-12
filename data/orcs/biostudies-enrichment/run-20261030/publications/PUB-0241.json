@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0241",
+    "PMID": "32579974",
+    "DOI": "10.1016/j.cell.2020.05.039",
+    "PMCID": "PMC7391009",
+    "Title": "Multimodal Analysis of Composition and Spatial Architecture in Human Squamous Cell Carcinoma.",
+    "ORCS Publication ID": "623",
+    "ORCS Publication Index": "PUB-0241",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC7391009",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.cell.2020.05.039%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:25:15.833414+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "acd53d82d01d4fbae925cd392e6ba746c25c09de1fd5fccb4e509cbf9d53b331",
+        "body": "native/a806061988e471e08b2c834ab8de4a52aa104cba5a07daaa2698f349ba23383c.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7391009",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2232579974%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:25:21.826415+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "aab39c01c88170c50962d0b88eca75b7405374aa2059ad07fe281478de4fd74b",
+        "body": "native/d49e1fd548352f4e95b770658aebb4aef095bc96994c908655fb56e7decbe862.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7391009",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7391009%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:25:27.826541+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "1783601ae75f3ca30c82bba532d4f64abb853d84a2bd7294f0a36dad8ce2210b",
+        "body": "native/0315c29df35388203ed6a091387594787502d6a33687bb12d666bc5efb9b2052.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7391009",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Multimodal+Analysis+of+Composition+and+Spatial+Architecture+in+Human+Squamous+Cell+Carcinoma.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:25:33.827634+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "f6e452180225225b6ee72bf2dc5f2d0496d3240aa2101a3bc55ad9226446f65d",
+        "body": "native/f75bca9bf195da0897837d5f753ab5e44231a3168b1c9194dfb83d2bec0cf53c.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.cell.2020.05.039%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2232579974%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7391009%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Multimodal+Analysis+of+Composition+and+Spatial+Architecture+in+Human+Squamous+Cell+Carcinoma.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A32579974&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

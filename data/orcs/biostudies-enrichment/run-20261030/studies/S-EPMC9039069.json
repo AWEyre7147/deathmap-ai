@@ -1,0 +1,663 @@
+{
+  "accession": "S-EPMC9039069",
+  "native": {
+    "accno": "S-EPMC9039069",
+    "attributes": [
+      {
+        "name": "DataSource",
+        "value": "Europe PMC"
+      },
+      {
+        "name": "Title",
+        "value": "Genome-wide CRISPR screens identify GATA6 as a proviral host factor for SARS-CoV-2 via modulation of ACE2."
+      },
+      {
+        "name": "ReleaseDate",
+        "value": "2022-01-01"
+      },
+      {
+        "name": "AttachTo",
+        "value": "EuropePMC"
+      }
+    ],
+    "section": {
+      "type": "Study",
+      "attributes": [
+        {
+          "name": "Title",
+          "value": "Genome-wide CRISPR screens identify GATA6 as a proviral host factor for SARS-CoV-2 via modulation of ACE2."
+        },
+        {
+          "name": "Abstract",
+          "value": "The global spread of SARS-CoV-2 led to major economic and health challenges worldwide. Revealing host genes essential for infection by multiple variants of SARS-CoV-2 can provide insights into the virus pathogenesis, and facilitate the development of novel therapeutics. Here, employing a genome-scale CRISPR screen, we provide a comprehensive data-set of cellular factors that are exploited by wild type SARS-CoV-2 as well as two additional recently emerged variants of concerns (VOCs), Alpha and Beta. We identified several host factors critical for SARS-CoV-2 infection, including various components belonging to the Clathrin-dependent transport pathway, ubiquitination, Heparan sulfate biogenesis and host phosphatidylglycerol biosynthesis. Comparative analysis of the different VOCs revealed the host factors KREMEN2 and SETDB1 as potential unique candidates required only to the Alpha variant. Furthermore, the analysis identified GATA6, a zinc finger transcription factor, as an essential proviral gene for all variants inspected. We show that GATA6 directly regulates ACE2 transcription and accordingly, is critical for SARS-CoV-2 cell entry. Analysis of clinical samples collected from SARS-CoV-2 infected individuals shows elevated levels of GATA6, suggesting a role in COVID-19 pathogenesis. Finally, pharmacological inhibition of GATA6 resulted in down-modulation of ACE2 and inhibition of viral infectivity. Overall, we show GATA6 may represent a target for the development of anti-SARS-CoV-2 therapeutic strategies and reaffirm the value of the CRISPR loss-of-function screens in providing a list of potential new targets for therapeutic interventions."
+        }
+      ],
+      "files": [
+        {
+          "path": "41467_2022_29896_MOESM1_ESM.pdf",
+          "size": 362013,
+          "type": "file"
+        },
+        {
+          "path": "41467_2022_29896_MOESM2_ESM.pdf",
+          "size": 4285619,
+          "type": "file"
+        },
+        {
+          "path": "41467_2022_29896_MOESM3_ESM.docx",
+          "size": 12530,
+          "type": "file"
+        },
+        {
+          "path": "41467_2022_29896_MOESM4_ESM.xlsx",
+          "size": 3371480,
+          "type": "file"
+        },
+        {
+          "path": "41467_2022_29896_MOESM5_ESM.xlsx",
+          "size": 12101712,
+          "type": "file"
+        },
+        {
+          "path": "41467_2022_29896_MOESM6_ESM.xlsx",
+          "size": 1907472,
+          "type": "file"
+        },
+        {
+          "path": "41467_2022_29896_MOESM7_ESM.pdf",
+          "size": 430004,
+          "type": "file"
+        }
+      ],
+      "links": [
+        [
+          {
+            "url": "EPI_ISL_406862",
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "gisaid"
+              }
+            ]
+          }
+        ]
+      ],
+      "subsections": [
+        {
+          "type": "Publication",
+          "attributes": [
+            {
+              "name": "Journal",
+              "value": "Nature communications"
+            },
+            {
+              "name": "Volume",
+              "value": "13(1)"
+            },
+            {
+              "name": "Pages",
+              "value": "2237"
+            },
+            {
+              "name": "Publication date",
+              "value": "2022 Apr"
+            }
+          ],
+          "links": [
+            [
+              {
+                "url": "10.1038/s41467-022-29896-z",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "DOI"
+                  }
+                ]
+              },
+              {
+                "url": "PMC9039069",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "PMC"
+                  }
+                ]
+              },
+              {
+                "url": "35469023",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "PMID"
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "accno": "a1",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Israeli M"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a2",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Finkel Y"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0002-3843-2357"
+            },
+            {
+              "name": "affiliation",
+              "value": "o2",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a3",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Yahalom-Ronen Y"
+            },
+            {
+              "name": "affiliation",
+              "value": "o3",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a4",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Paran N"
+            },
+            {
+              "name": "affiliation",
+              "value": "o3",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a5",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Chitlaru T"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a6",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Israeli O"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a7",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Cohen-Gihon I"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a8",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Aftalion M"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a9",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Falach R"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a10",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Rotem S"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a11",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Elia U"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a12",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Nemet I"
+            },
+            {
+              "name": "affiliation",
+              "value": "o4",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a13",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Kliker L"
+            },
+            {
+              "name": "affiliation",
+              "value": "o4",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a14",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Mandelboim M"
+            },
+            {
+              "name": "affiliation",
+              "value": "o4",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a15",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Beth-Din A"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a16",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Israely T"
+            },
+            {
+              "name": "affiliation",
+              "value": "o3",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a17",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Cohen O"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0002-4374-9981"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a18",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Stern-Ginossar N"
+            },
+            {
+              "name": "affiliation",
+              "value": "o2",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a19",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Bercovich-Kinori A"
+            },
+            {
+              "name": "affiliation",
+              "value": "o5",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "o4",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Central Virology Laboratory, Public Health Services, Ministry of Health and Sheba Medical Center, Tel Hashomer, Ramat Gan, Israel"
+            }
+          ]
+        },
+        {
+          "accno": "o1",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Department of Biochemistry and Molecular Genetics, Israel Institute for Biological Research, Ness Ziona, Israel"
+            }
+          ]
+        },
+        {
+          "accno": "o5",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Department of Biochemistry and Molecular Genetics, Israel Institute for Biological Research, Ness Ziona, Israel. adiki@iibr.gov.il"
+            }
+          ]
+        },
+        {
+          "accno": "o3",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Department of Infectious Diseases, Israel Institute for Biological Research, Ness Ziona, Israel"
+            }
+          ]
+        },
+        {
+          "accno": "o2",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Department of Molecular Genetics, Weizmann Institute of Science, Rehovot, Israel"
+            }
+          ]
+        },
+        {
+          "type": "ExtractedLinks"
+        }
+      ]
+    },
+    "type": "submission"
+  },
+  "source": {
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-EPMC9039069",
+    "retrieved_utc": "2026-10-31T00:58:47.589652+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "a6482291be1f4a0a4517a8edb971208714bf3c42e7bdfb6ae1841e0775fe8edd",
+    "body": "native/d5bd3629f6aacbe0b699fac3210f97f7db5cd8402303a65af8de7b777841c3b3.body"
+  },
+  "info": {
+    "columns": [
+      {
+        "name": "Name",
+        "title": "Name",
+        "visible": true,
+        "searchable": true,
+        "data": "Name",
+        "defaultContent": ""
+      },
+      {
+        "name": "Size",
+        "title": "Size",
+        "visible": true,
+        "searchable": false,
+        "data": "Size",
+        "defaultContent": ""
+      }
+    ],
+    "files": 7,
+    "httpLink": "https://ftp.ebi.ac.uk/pub/databases/biostudies/S-EPMC/069/S-EPMC9039069",
+    "ftpLink": "ftp://ftp.ebi.ac.uk/pub/databases/biostudies/S-EPMC/069/S-EPMC9039069",
+    "globusLink": "https://app.globus.org/file-manager?origin_id=47772002-3e5b-4fd3-b97c-18cee38d6df2&origin_path=/pub/databases/biostudies/S-EPMC/069/S-EPMC9039069",
+    "isPublic": true,
+    "relPath": "S-EPMC/069/S-EPMC9039069",
+    "hasZippedFolders": false,
+    "views": 0,
+    "released": 1640995200000,
+    "modified": 1778370059773,
+    "sections": [],
+    "sectionFileCounts": {}
+  },
+  "files": [
+    {
+      "path": "41467_2022_29896_MOESM1_ESM.pdf",
+      "size": 362013,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "41467_2022_29896_MOESM1_ESM.pdf",
+        "size": 362013,
+        "type": "file"
+      }
+    },
+    {
+      "path": "41467_2022_29896_MOESM2_ESM.pdf",
+      "size": 4285619,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "41467_2022_29896_MOESM2_ESM.pdf",
+        "size": 4285619,
+        "type": "file"
+      }
+    },
+    {
+      "path": "41467_2022_29896_MOESM3_ESM.docx",
+      "size": 12530,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "41467_2022_29896_MOESM3_ESM.docx",
+        "size": 12530,
+        "type": "file"
+      }
+    },
+    {
+      "path": "41467_2022_29896_MOESM4_ESM.xlsx",
+      "size": 3371480,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "41467_2022_29896_MOESM4_ESM.xlsx",
+        "size": 3371480,
+        "type": "file"
+      }
+    },
+    {
+      "path": "41467_2022_29896_MOESM5_ESM.xlsx",
+      "size": 12101712,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "41467_2022_29896_MOESM5_ESM.xlsx",
+        "size": 12101712,
+        "type": "file"
+      }
+    },
+    {
+      "path": "41467_2022_29896_MOESM6_ESM.xlsx",
+      "size": 1907472,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "41467_2022_29896_MOESM6_ESM.xlsx",
+        "size": 1907472,
+        "type": "file"
+      }
+    },
+    {
+      "path": "41467_2022_29896_MOESM7_ESM.pdf",
+      "size": 430004,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "41467_2022_29896_MOESM7_ESM.pdf",
+        "size": 430004,
+        "type": "file"
+      }
+    }
+  ],
+  "issues": [],
+  "info_source": {
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-EPMC9039069/info",
+    "retrieved_utc": "2026-10-31T00:58:53.592997+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "2d93e62d5b6f80acdc4e73d8156e306b5d811454a757c0fcbb56d2dec9bd8fc7",
+    "body": "native/43ba16b50554de338265bd57e18f4d6657c18efbbefce15b5bd6e5d43b6b25ec.body"
+  },
+  "links": [
+    {
+      "url": "EPI_ISL_406862",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "gisaid"
+        }
+      ]
+    },
+    {
+      "url": "10.1038/s41467-022-29896-z",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "DOI"
+        }
+      ]
+    },
+    {
+      "url": "PMC9039069",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "PMC"
+        }
+      ]
+    },
+    {
+      "url": "35469023",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "PMID"
+        }
+      ]
+    }
+  ]
+}

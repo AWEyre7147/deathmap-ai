@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0365",
+    "PMID": "36991492",
+    "DOI": "10.1186/s13059-023-02898-w",
+    "PMCID": "PMC10053147",
+    "Title": "CRISPR screens identify gene targets at breast cancer risk loci.",
+    "ORCS Publication ID": "1019",
+    "ORCS Publication Index": "PUB-0365",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC10053147",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1186%2Fs13059-023-02898-w%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:33:22.799659+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "88b3e9a2bf06d2e66a40b590a0f38c3e76e6e067a4ad5ddd2a6886ff6ad3dadc",
+        "body": "native/9797a51e0cff2d3db4476044e496a5217b74825df6c9e2f7393583f50a245521.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC10053147",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236991492%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:33:28.820038+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "2ac63b74bd148cc0d673efa23327ab283957fc878eb6604ecc658b4ed6807f20",
+        "body": "native/d0ef643ce5d018aa5318c01be09d8b9216d7332f078fa60fb19aa103fd66c294.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC10053147",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC10053147%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:33:34.819856+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "b6128477db62de7eb5df7111c4197b2d7e1be81b1a83e5376cbcc25c754f21b8",
+        "body": "native/7b7470e7f2cb1756032e036e1deb706b48e13f04f3dd3f665e11dd8e222ce9db.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC10053147",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22CRISPR+screens+identify+gene+targets+at+breast+cancer+risk+loci.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:33:40.838898+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "548e3a2e257cafa858cf9b10cb9b6906845923325908ecfa9ea730520513d36c",
+        "body": "native/9b70185a87ebb85192ee0af06db8265cd566b37c2dd485e2b6c0b42ab45dc44f.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1186%2Fs13059-023-02898-w%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236991492%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC10053147%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22CRISPR+screens+identify+gene+targets+at+breast+cancer+risk+loci.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A36991492&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

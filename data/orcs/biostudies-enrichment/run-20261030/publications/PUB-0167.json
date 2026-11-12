@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0167",
+    "PMID": "33147444",
+    "DOI": "10.1016/j.cell.2020.10.028",
+    "PMCID": "PMC7574718",
+    "Title": "Genome-wide CRISPR Screens Reveal Host Factors Critical for SARS-CoV-2 Infection.",
+    "ORCS Publication ID": "416",
+    "ORCS Publication Index": "PUB-0167",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC7574718",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.cell.2020.10.028%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:20:23.734304+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "ad12ea905c5a7a1797f1b3853386650b6a320b10674f5cd18f4a319eb9ea9831",
+        "body": "native/9992a120ccb5ce59e59ccdb632056078092f247b42a84bde30c3e2ee0c6f3291.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7574718",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233147444%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:20:29.752341+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "c40099a7cb746f7b2a4d07fe50caa1bbd1960447d5500dfb181a0c1682aa0c1f",
+        "body": "native/8b647479a2be20958507531c17d3d647da88b556b741d52acf7ac6f4217528c5.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7574718",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7574718%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:20:35.776520+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "133a0544a3f83a902c1c0f98027074b92d7a704557ec4d296f664f467105cb8b",
+        "body": "native/e11d2f91440895ece610509536a00d2fca401e3ca08746d44ae0779fbac10ea1.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7574718",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+CRISPR+Screens+Reveal+Host+Factors+Critical+for+SARS-CoV-2+Infection.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:20:41.604171+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "fd7762445fc9c6693fba5c0fe8a08efa8990d6b99961e857a2a2b49187cf4b5d",
+        "body": "native/4b0c6bce6fa7a3e9d4300d90e56140dce46dcc048f613e08a268dbf6c2b12e3c.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.cell.2020.10.028%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233147444%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7574718%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+CRISPR+Screens+Reveal+Host+Factors+Critical+for+SARS-CoV-2+Infection.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A33147444&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

@@ -22,6 +22,7 @@ from urllib.request import Request, build_opener, HTTPRedirectHandler
 import xml.etree.ElementTree as ET
 
 from .enrichment_export import export_registered
+from .enrichment_indices import DEFAULT_REGISTRY, assign_indices, native_key
 from .supplemental_enrichment import parse_xml, text
 
 BUCKET = 'https://pmc-oa-opendata.s3.amazonaws.com/'
@@ -305,7 +306,7 @@ def consensus(values):
     return present[0] if present and all(v == present[0] for v in present) else None
 
 
-def project(records):
+def project(records, index_registry=None):
     """Project canonical observations into the owner-selected three sheets.
 
     Entry/file links require the same PMCID, XML version and exact filename.
@@ -313,10 +314,19 @@ def project(records):
     links. Multiple matching entry indices/captions remain newline-separated.
     Unmatched cloud files are retained with blank supplemental fields.
     """
+    # Keep native evidence identities intact; readable database IDs are a view.
+    entry_keys = {native_key(r['publication']['PMCID'], e['Supplemental Index'])
+                  for r in records for e in (r.get('xml') or {}).get('supplementary_entries', [])}
+    cloud_keys = {native_key(obj['version'], obj['key'])
+                  for r in records for obj in r['cloud_files']}
+    supplemental_ids = assign_indices('PMDX', entry_keys, index_registry) if entry_keys else {}
+    cloud_ids = assign_indices('PMCL', cloud_keys, index_registry) if cloud_keys else {}
     rows = {'Publications': [], 'Supplementary Entries': [], 'Cloud Files': []}
     for record in records:
         p, xml, versions = record['publication'], record.get('xml'), record['versions']
         entries = xml['supplementary_entries'] if xml else []
+        def entry_id(entry):
+            return supplemental_ids[native_key(p['PMCID'], entry['Supplemental Index'])]
         xml_versions = xml['identifiers'].get('versions', []) if xml else []
         selected = [v for v in versions if v['version'] in xml_versions] or versions
         metadata = [v['metadata'] for v in selected]
@@ -340,16 +350,17 @@ def project(records):
         for e in entries:
             rows['Supplementary Entries'].append({'Publication Index': p['Publication Index'],
                 **{k: e.get(k) for k in ('Supplemental Index', 'Label', 'Title', 'Caption', 'Supplemental DOI')},
+                'Supplemental Index': entry_id(e),
                 'Filename': joined(f['filename'] for f in e['files']),
                 'Native Reference File': joined(f['href'] for f in e['files'])})
         for obj in record['cloud_files']:
             matches = [e for e in entries if obj['version'] in xml_versions and any(f['filename'] == obj['filename'] for f in e['files'])]
-            candidates = [e['Supplemental Index'] for e in entries if any(f['filename'] == obj['filename'] for f in e['files'])]
-            obj['matching_supplemental_indices'] = [e['Supplemental Index'] for e in matches]
+            candidates = [entry_id(e) for e in entries if any(f['filename'] == obj['filename'] for f in e['files'])]
+            obj['matching_supplemental_indices'] = [entry_id(e) for e in matches]
             obj['filename_candidates'] = candidates
             rows['Cloud Files'].append({'Publication Index': p['Publication Index'],
-                'Supplemental Index': joined(e['Supplemental Index'] for e in matches),
-                'Cloud Index': 'CLD-' + obj['version'] + '-' + sha(obj['key'].encode())[:12],
+                'Supplemental Index': joined(entry_id(e) for e in matches),
+                'Cloud Index': cloud_ids[native_key(obj['version'], obj['key'])],
                 'Filename': obj['filename'], 'File Type': Path(obj['filename']).suffix.lower() or None,
                 'Size (bytes)': obj['size'], 'Label': joined(e.get('Label') for e in matches),
                 'Title': joined(e.get('Title') for e in matches), 'Caption': joined(e.get('Caption') for e in matches),
@@ -357,7 +368,8 @@ def project(records):
     return rows
 
 
-def run_collection(input_path, output, template, *, registry=None, caches=(), workers=4, resume=False):
+def run_collection(input_path, output, template, *, registry=None, caches=(), workers=4, resume=False,
+                   index_registry=DEFAULT_REGISTRY):
     """Run/resume a bounded collection; save JSON and one registered workbook."""
     source, output, template = Path(input_path), Path(output), Path(template)
     publications = load_publications(source, registry)
@@ -393,7 +405,7 @@ def run_collection(input_path, output, template, *, registry=None, caches=(), wo
                 write_json(output / 'requests.json', transport.requests)
                 print(f'{n}/{len(publications)} publications; {len(transport.requests)} requests; {sum(bool(r["issues"]) for r in ordered)} with retrieval issues', flush=True)
     records = [results[p['Publication Index']] for p in publications]
-    rows = project(records)
+    rows = project(records, index_registry)
     issues = [{'Publication Index': r['publication']['Publication Index'], **i} for r in records for i in r['issues']]
     summary = {'publications': len(publications), 'with_pmcid': sum(bool(p['PMCID']) for p in publications),
                'with_supplementary_entries': sum(bool(r.get('xml') and r['xml']['entry_count']) for r in records),
@@ -403,14 +415,15 @@ def run_collection(input_path, output, template, *, registry=None, caches=(), wo
                'network_requests_this_execution': len(transport.requests), 'verified_reused_responses': transport.reused,
                'metadata_bytes_this_execution': transport.total_bytes, 'completed_utc': utc(),
                'supplement_downloads': 0, 'article_prose_extracted': False}
-    data = {'schema_version': 'pmc-supplemental-enrichment/1', 'input_sha256': input_hash,
+    data = {'schema_version': 'pmc-enrichment/1', 'input_sha256': input_hash,
             'template_sha256': template_hash, 'publications': records, 'rows': rows, 'issues': issues, 'summary': summary}
     data['collector_sha256'] = sha(Path(__file__).read_bytes())
     data['registry_sha256'] = sha(Path(registry).read_bytes()) if registry else None
+    data['index_registry_sha256'] = sha(Path(index_registry).read_bytes()) if Path(index_registry).exists() else None
     write_json(output / 'selected-publications.json', publications)
     write_json(output / 'database.json', data)
     write_json(output / 'summary.json', summary)
-    workbook = output / 'PMC-Supplemental-Enrichment.xlsx'
+    workbook = output / 'PMC-Enrichment.xlsx'
     if workbook.exists():
         raise FileExistsError('Use a new export path after an already completed run')
     receipt = export_registered(template, workbook, rows, overflow_sidecar=True)
@@ -426,13 +439,15 @@ def main():
     parser.add_argument('--input', type=Path, required=True)
     parser.add_argument('--output-dir', type=Path, required=True)
     parser.add_argument('--registry', type=Path)
-    parser.add_argument('--template', type=Path, default=Path(__file__).resolve().parents[2] / 'data/templates/PMC-Supplemental-Enrichment.xlsx')
+    parser.add_argument('--index-registry', type=Path, default=DEFAULT_REGISTRY)
+    parser.add_argument('--template', type=Path, default=Path(__file__).resolve().parents[2] / 'data/templates/PMC-Enrichment-Template.xlsx')
     parser.add_argument('--cache-root', type=Path, action='append', default=[])
     parser.add_argument('--workers', type=int, choices=range(1, 5), default=4)
     parser.add_argument('--resume', action='store_true')
     args = parser.parse_args()
     result = run_collection(args.input, args.output_dir, args.template, registry=args.registry,
-                            caches=args.cache_root, workers=args.workers, resume=args.resume)
+                            caches=args.cache_root, workers=args.workers, resume=args.resume,
+                            index_registry=args.index_registry)
     return 1 if result['issues'] else 0
 
 

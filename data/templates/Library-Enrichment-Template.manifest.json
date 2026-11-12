@@ -1,0 +1,275 @@
+{
+  "schema_version": "enrichment-template/1.0",
+  "name": "Library Enrichment",
+  "template": "data/templates/Library-Enrichment-Template.xlsx",
+  "sha256": "458fa52d39e913f215d0ea1386ea6984874c5829793c583937b7c3c5971919f1",
+  "registered_utc": "2026-11-11T19:12:10.017112+00:00",
+  "source": {
+    "name": "Library Enrichment Template.xlsx",
+    "sha256": "458fa52d39e913f215d0ea1386ea6984874c5829793c583937b7c3c5971919f1",
+    "library_file_id": "libfile_1403ce84dc348191b3bb610dd093c9ac",
+    "file_id": "file_00000000f57c81f5b3e9133b9f543c52",
+    "version_number": 0
+  },
+  "sheets": [
+    {
+      "name": "Publications",
+      "headers": [
+        "Publication Index",
+        "Title",
+        "Journal",
+        "DOI",
+        "Hosting Platform",
+        "Article URL"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Publications",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "width": 24.36328125
+        },
+        {
+          "header": "Title",
+          "source_key": "Title",
+          "width": 24.36328125
+        },
+        {
+          "header": "Journal",
+          "source_key": "Journal",
+          "width": 24.36328125
+        },
+        {
+          "header": "DOI",
+          "source_key": "DOI",
+          "width": 24.36328125
+        },
+        {
+          "header": "Hosting Platform",
+          "source_key": "Hosting Platform",
+          "width": 24.36328125
+        },
+        {
+          "header": "Article URL",
+          "source_key": "Article URL",
+          "width": 24.36328125
+        }
+      ]
+    },
+    {
+      "name": "Article Context",
+      "headers": [
+        "Publication Index",
+        "Context Index",
+        "Content Type",
+        "Section Heading",
+        "Text",
+        "Source Format"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Article Context",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "width": 24.36328125
+        },
+        {
+          "header": "Context Index",
+          "source_key": "Context Index",
+          "width": 24.36328125
+        },
+        {
+          "header": "Content Type",
+          "source_key": "Content Type",
+          "width": 24.36328125
+        },
+        {
+          "header": "Section Heading",
+          "source_key": "Section Heading",
+          "width": 24.36328125
+        },
+        {
+          "header": "Text",
+          "source_key": "Text",
+          "width": 24.36328125
+        },
+        {
+          "header": "Source Format",
+          "source_key": "Source Format",
+          "width": 24.36328125
+        }
+      ]
+    },
+    {
+      "name": "Supporting Materials",
+      "headers": [
+        "Publication Index",
+        "Supporting Materials Index",
+        "Label",
+        "Description",
+        "Native Reference",
+        "Native ID",
+        "File Type",
+        "File URL"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Supporting Materials",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "width": 22.26953125
+        },
+        {
+          "header": "Supporting Materials Index",
+          "source_key": "Supporting Material Index",
+          "width": 26.90625
+        },
+        {
+          "header": "Label",
+          "source_key": "Label",
+          "width": 22.26953125
+        },
+        {
+          "header": "Description",
+          "source_key": "Description",
+          "width": 22.26953125
+        },
+        {
+          "header": "Native Reference",
+          "source_key": "Native Reference",
+          "width": 22.26953125
+        },
+        {
+          "header": "Native ID",
+          "source_key": "Native ID",
+          "width": 22.26953125
+        },
+        {
+          "header": "File Type",
+          "source_key": "File Type",
+          "width": 22.26953125
+        },
+        {
+          "header": "File URL",
+          "source_key": "File URL",
+          "width": 22.26953125
+        }
+      ]
+    },
+    {
+      "name": "Repository References",
+      "headers": [
+        "Publication Index",
+        "Contex Index",
+        "Repository Reference Index",
+        "Repository",
+        "Accession",
+        "Repository URL"
+      ],
+      "header_row": 1,
+      "first_data_row": 2,
+      "source_table": "Repository References",
+      "columns": [
+        {
+          "header": "Publication Index",
+          "source_key": "Publication Index",
+          "width": 20.1796875
+        },
+        {
+          "header": "Contex Index",
+          "source_key": "Context Index",
+          "width": 20.1796875
+        },
+        {
+          "header": "Repository Reference Index",
+          "source_key": "Repository Reference Index",
+          "width": 28.0
+        },
+        {
+          "header": "Repository",
+          "source_key": "Repository",
+          "width": 20.1796875
+        },
+        {
+          "header": "Accession",
+          "source_key": "Accession",
+          "width": 20.1796875
+        },
+        {
+          "header": "Repository URL",
+          "source_key": "Repository URL",
+          "width": 20.1796875
+        }
+      ]
+    }
+  ],
+  "header_aliases": [
+    {
+      "sheet": "Repository References",
+      "header": "Contex Index",
+      "source_key": "Context Index",
+      "reason": "Owner header spelling preserved; canonical Context Index used internally"
+    },
+    {
+      "sheet": "Supporting Materials",
+      "header": "Supporting Materials Index",
+      "source_key": "Supporting Material Index",
+      "reason": "Owner plural display label maps to existing canonical source field"
+    }
+  ],
+  "row_policy": {
+    "Publications": "One row per selected input publication, including publications with no retained child records",
+    "Article Context": "One retained source paragraph per row, linked by Publication Index",
+    "Supporting Materials": "One retained supporting-material description or file reference per row, linked by Publication Index",
+    "Repository References": "One reported repository accession or URL per publication association; optional Context Index links to retained text"
+  },
+  "relationships": [
+    {
+      "from_table": "Article Context",
+      "from_key": "Publication Index",
+      "to_table": "Publications",
+      "to_key": "Publication Index",
+      "required": true
+    },
+    {
+      "from_table": "Supporting Materials",
+      "from_key": "Publication Index",
+      "to_table": "Publications",
+      "to_key": "Publication Index",
+      "required": true
+    },
+    {
+      "from_table": "Repository References",
+      "from_key": "Publication Index",
+      "to_table": "Publications",
+      "to_key": "Publication Index",
+      "required": true
+    },
+    {
+      "from_table": "Repository References",
+      "from_key": "Context Index",
+      "to_table": "Article Context",
+      "to_key": "Context Index",
+      "required": false
+    }
+  ],
+  "identifier_policy": {
+    "Publication Index": "Reuse canonical publication registry",
+    "Context Index": "Persistent LCTX-0001 identifiers keyed by publication DOI and retained source text",
+    "Supporting Materials Index": "Persistent LSUP-0001 identifiers keyed by publication DOI and native supporting reference",
+    "Repository Reference Index": "Persistent LREP-0001 identifiers keyed by publication and reported repository accession or URL"
+  },
+  "selection_rules_reference": "docs/library-enrichment.md",
+  "provenance_policy": "Retain source locations, ancestry, hashes and retrieval evidence internally; export only owner-selected columns",
+  "status_policy": "Collection outcomes, errors and assisted-pass history belong in a separate status workbook",
+  "implementation_status": "Implemented; offline validated; live whole-ORCS test pending",
+  "collector": "scripts/library_enrichment.mjs",
+  "operator_guide": "docs/library-enrichment.md",
+  "content_type_policy": "Publisher-native type only; blank when no native type is supplied"
+}

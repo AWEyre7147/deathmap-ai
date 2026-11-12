@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0354",
+    "PMID": "34759314",
+    "DOI": "10.1038/s41586-021-04054-5",
+    "PMCID": "PMC9045311",
+    "Title": "Self-guarding of MORC3 enables virulence factor-triggered immunity.",
+    "ORCS Publication ID": "977",
+    "ORCS Publication Index": "PUB-0354",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC9045311",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41586-021-04054-5%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:32:41.790976+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "36cb72249cafb2d3214cf4ba034fba1efffd3d298b8410474b5c4ef45f013988",
+        "body": "native/dcaf68a38d0acc9b290e6c95528eb4c11895b090cd64ee6cf99e8f78276bc402.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9045311",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2234759314%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:32:47.792952+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "43a158a8e67376bb9f03425cfab329c1615b0d386ed6ef04074788ab06d8a069",
+        "body": "native/7d2d2b69df2f39302c0cdecda987ba1509077a602be79b6da6f99713e6b2ce10.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9045311",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9045311%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:32:53.803081+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "92ec1380687f9d4a89c234b580a74fa5124d2ca39566f53d06585805d2473a65",
+        "body": "native/4596d0b997175311e9ec56c2eb2c00ce7ecea8827269e837d4b6fd7adf3fc24d.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9045311",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Self-guarding+of+MORC3+enables+virulence+factor-triggered+immunity.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:32:59.807625+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "e4185ea4697d2e6e401cd74aac7ec8a9fb6d3a1341c99339c96ed4b48ab2b2e2",
+        "body": "native/149678d0d015e38a4de7e41eb0db0b7fae9be7f54861c750473da84cd1189dc6.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41586-021-04054-5%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2234759314%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9045311%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Self-guarding+of+MORC3+enables+virulence+factor-triggered+immunity.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A34759314&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

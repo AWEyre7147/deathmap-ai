@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0156",
+    "PMID": "28167502",
+    "DOI": "10.1101/gad.291948.116",
+    "PMCID": "PMC5322732",
+    "Title": "A genetic interaction analysis identifies cancer drivers that modify EGFR dependency.",
+    "ORCS Publication ID": "391",
+    "ORCS Publication Index": "PUB-0156",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC5322732",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1101%2Fgad.291948.116%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:19:48.725546+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "e533316b4a690436b91e81499b2f04d978cc0b8ccd2a2bb9043676912a47704b",
+        "body": "native/7bd1b31df29b57b2c61a638c84aa214d7fa01f44a5b85ac465fe548c6a12d8ed.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5322732",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2228167502%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:19:54.723413+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "0da152b82d0ba95813760c2ea651e39009c19cd7c302378784e7d9ae92b19616",
+        "body": "native/0ec59601d6d39d3f5e5217a806f665ed16f4dd7e69e2dfd579624319ca8ddfa2.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5322732",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC5322732%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:20:00.717577+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "ef02ec9ca0d71aadbafb0786aa69a1a31806cc188d8dd46584dafb3e92f715a0",
+        "body": "native/47ffaed87d837f14d06f739edc65577840e1540fa5944c42281f7cc549f2c539.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5322732",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+genetic+interaction+analysis+identifies+cancer+drivers+that+modify+EGFR+dependency.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:20:06.722356+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "c979d69d8ac2d9d3453e2728ff1dbeab88eef96c844e895890e6bc99cd5f8b4b",
+        "body": "native/a52c4af80bc6947e8dd5fbc1422316796267451e2604b84bd81408d052d064d0.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1101%2Fgad.291948.116%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2228167502%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC5322732%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+genetic+interaction+analysis+identifies+cancer+drivers+that+modify+EGFR+dependency.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A28167502&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

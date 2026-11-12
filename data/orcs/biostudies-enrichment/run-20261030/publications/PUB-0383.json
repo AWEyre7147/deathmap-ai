@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0383",
+    "PMID": "32424339",
+    "DOI": "10.1038/s41564-020-0724-y",
+    "PMCID": "PMC7462085",
+    "Title": "DNA methylation enzymes and PRC1 restrict B-cell Epstein-Barr virus oncoprotein expression.",
+    "ORCS Publication ID": "1097",
+    "ORCS Publication Index": "PUB-0383",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC7462085",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41564-020-0724-y%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:34:35.792772+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "aace3ce03b142750a418a5802c76286b5f3a7046e8f87b3d4f4a1b0216de1084",
+        "body": "native/93d5ec9fb434cfd6acbad24261549103990374b75678832737fc6a55b5643035.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7462085",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2232424339%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:34:41.794898+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "519938507816fde62acd7646d2ec8056f9709da5ee792f6df484b62a59b2a2dc",
+        "body": "native/56a6a8c441e58104885c6addde149a5f59cf08839757ee64c85497aefd1da5bc.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7462085",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7462085%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:34:47.962483+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "c835d68edc3471d34aea92b7b91d630ad37175bc6464a36ee0dba9c8ce3d1542",
+        "body": "native/6c81ba99b00ec18ee676fba5664a8da1504d9b19b512978c8a76ac46d54deb2c.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7462085",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22DNA+methylation+enzymes+and+PRC1+restrict+B-cell+Epstein-Barr+virus+oncoprotein+expression.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:34:53.967535+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "217434b614716708d3970219a73785d281c64e89bd0c33a31edd1f29c693ca5c",
+        "body": "native/f68b8dc2c52cc17dd209edab0084127288d005c1afe966859133113ed7221fce.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41564-020-0724-y%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2232424339%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7462085%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22DNA+methylation+enzymes+and+PRC1+restrict+B-cell+Epstein-Barr+virus+oncoprotein+expression.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A32424339&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

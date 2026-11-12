@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0184",
+    "PMID": "32355287",
+    "DOI": "10.1038/s41422-020-0328-3",
+    "PMCID": "PMC7608219",
+    "Title": "ERCC6L2 promotes DNA orientation-specific recombination in mammalian cells.",
+    "ORCS Publication ID": "460",
+    "ORCS Publication Index": "PUB-0184",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC7608219",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41422-020-0328-3%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:21:32.602676+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "23f64156fd2d1875ac6570f6f2d07ad9012b52ac88251bf670bdbc69a8e69bf9",
+        "body": "native/755b005fda5cca692b67c80b7c517cfbda90b922dc99f4804d34e73ce141c393.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7608219",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2232355287%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:21:38.604106+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "69f79d3b07511b0302bd326092f846beb8d9938a423d29f9da3c58100d676905",
+        "body": "native/08721445f7f076caa97ac0360a8f0aadd84dc9a24a16420c60570dc16dac5363.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7608219",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7608219%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:21:44.601562+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "a613eecdced4af12617e4d811eed4583a68c67d4501c4268125fd07b5023c14c",
+        "body": "native/f0e99521041e094c244b59a6a9607d7d8bd249e3b2a32ff31254ffd0a0f188a1.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7608219",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22ERCC6L2+promotes+DNA+orientation-specific+recombination+in+mammalian+cells.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:21:50.594259+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "844372ef6c25bc1e2f603845d553723bc0530f77b254fe0572502898ec2b2204",
+        "body": "native/def717fadac63a2ad55fc3f85d62ab8dfa2a6f935bea825fa116325b11203527.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41422-020-0328-3%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2232355287%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7608219%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22ERCC6L2+promotes+DNA+orientation-specific+recombination+in+mammalian+cells.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A32355287&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

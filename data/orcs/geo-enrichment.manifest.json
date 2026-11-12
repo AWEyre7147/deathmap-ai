@@ -1,30 +1,28 @@
 {
-  "schema_version": "geo-enrichment-v1",
-  "status": "complete",
-  "finished_utc": "2026-10-11T18:39:04.553698+00:00",
+  "schema_version": "geo-enrichment-manifest/2",
+  "database": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\data\\orcs\\geo-enrichment.json.gz",
+  "database_sha256": "de33b451d78deb75a4b152d90628f1b9d42185faed9469714e32166b7d2f23a6",
+  "workbook": "data/orcs/GEO-Enrichment.xlsx",
+  "workbook_sha256": "310359e9139c146d25bd2beabdcf517763a859dd13d68ab289adb5191ceaa6c1",
+  "source_package": "data/orcs/geo-enrichment/run-20261101",
+  "source_database_sha256": "0950ee8bc5ad634353d07f43f18f9e9e4a1161ba8ba6e307820a036b45dc6263",
+  "template_sha256": "4b66c0bcfabaf58e274f0319603cee5d7ea2ee1981c5d9dd18c50284c4d111a8",
   "publication_index_count": 418,
   "publications_with_gses": 171,
   "unique_gses": 503,
   "unique_gsms": 22139,
   "publication_gse_associations": 519,
-  "source_package": "data\\orcs\\geo-enrichment-source\\20261011",
-  "database_sha256": "59708d94ea9f38c8091dd1c77a5c386bded3254259325ca4aaa433f40cb6152a",
-  "successful_responses": 4251,
-  "live_responses": 1449,
-  "reused_responses": 2802,
-  "response_bytes_in_run": 90847181,
-  "workbook": {
-    "template_sha256": "e09a1ed6a80cc27b8d689b36ef128ffaa9527fa90bc7ee36700c3afe5fb2064f",
-    "workbook_sha256": "8624ee2312ff364120381c8e54b65133cfa71378da87745807b13bb558755d43",
-    "sheet_rows": {
-      "Series Records": 519,
-      "Series Hierarchy": 438,
-      "Repository Identifiers": 115718,
-      "Sample Metadata": 36303
-    },
-    "database_sha256": "81600ddfb674d9ba0bfe78d0934819c88e052d9a0e7b1d9d7986b37fb957d76a"
+  "sheet_rows": {
+    "Series": 519,
+    "Samples": 36303,
+    "Repository Identifiers": 44315
   },
-  "metadata_only_request_check": "passed",
-  "issues": [],
-  "coverage_claim": "No adjudicated completeness benchmark; accepted routes completed"
+  "verified_cells": 1135378,
+  "live_responses": 29,
+  "reused_responses": 4203,
+  "cache_policy": "Original response dates retained for verified cache reuse; missing responses requested live",
+  "all_publication_specific_parent_links_verified": true,
+  "preserved_previous_series_and_samples": true,
+  "experimental_downloads": 0,
+  "uncompressed_database_sha256": "5fffc7e9b9a58962fc87a29c7c5cdbe11fd40adbd80b599deb63dd14bf46ab86"
 }

@@ -1,0 +1,37 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0250",
+    "PMID": "33872695",
+    "DOI": "10.1016/j.canlet.2021.04.006",
+    "PMCID": null,
+    "Title": "Genome wide CRISPR screening reveals a role for sialylation in the tumorigenesis and chemoresistance of acute myeloid leukemia cells.",
+    "ORCS Publication ID": "645",
+    "ORCS Publication Index": "PUB-0250",
+    "input_accessions": []
+  },
+  "observations": [],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.canlet.2021.04.006%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233872695%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome+wide+CRISPR+screening+reveals+a+role+for+sialylation+in+the+tumorigenesis+and+chemoresistance+of+acute+myeloid+leukemia+cells.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A33872695&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

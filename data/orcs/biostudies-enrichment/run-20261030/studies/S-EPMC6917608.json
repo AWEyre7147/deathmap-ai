@@ -1,0 +1,296 @@
+{
+  "accession": "S-EPMC6917608",
+  "native": {
+    "accno": "S-EPMC6917608",
+    "attributes": [
+      {
+        "name": "DataSource",
+        "value": "Europe PMC"
+      },
+      {
+        "name": "Title",
+        "value": "Genome-Wide CRISPR Screen Reveals Cancer Cell Resistance to NK Cells Induced by NK-Derived IFN-γ."
+      },
+      {
+        "name": "ReleaseDate",
+        "value": "2019-01-01"
+      },
+      {
+        "name": "AttachTo",
+        "value": "EuropePMC"
+      }
+    ],
+    "section": {
+      "type": "Study",
+      "attributes": [
+        {
+          "name": "Title",
+          "value": "Genome-Wide CRISPR Screen Reveals Cancer Cell Resistance to NK Cells Induced by NK-Derived IFN-γ."
+        },
+        {
+          "name": "Abstract",
+          "value": "The anti-leukemia activity of NK cells helps prevent relapse during hematopoietic stem cell transplantation (HSCT) in leukemia patients. However, the factors that determine the sensitivity or resistance of leukemia cells in the context of NK-mediated cytotoxicity are not well-established. Here, we performed a genome-wide CRISPR screen in the human chronic-myelogenous-leukemia (CML) cell line K562 to identify genes that regulate the vulnerability of leukemia cells to killing by primary human NK cells. The distribution of guide RNAs (gRNAs) in K562 cells that survived co-incubation with NK cells showed that loss of <i>NCR3LG1</i>, which encodes the ligand of the natural cytotoxicity receptor NKp30, protected K562 cells from killing. In contrast, loss of genes that regulate the antigen-presentation and interferon-γ-signaling pathways increased the vulnerability of K562 cells. The addition of IFN-γ neutralizing antibody increased the susceptibility of K562 cells to NK-mediated killing. Upregulation of MHC class I on K562 cells after co-incubation with NK cells was dependent on <i>IFNGR2</i>. Analysis of RNA-seq data from The Cancer Genome Atlas (TCGA) showed that low <i>IFNGR2</i> expression in cancer tissues was associated with improved overall survival in acute myeloid leukemia (AML) and Kidney Renal Clear Cell Carcinoma (KIRC) patients. Our results, showing that the upregulation of MHC class I by NK-derived IFN-γ leads to resistance to NK cytotoxicity, suggest that targeting IFN-γ responses might be a promising approach to enhance NK cell anti-cancer efficacy."
+        }
+      ],
+      "files": [
+        {
+          "path": "Data_Sheet_1.pdf",
+          "size": 115675,
+          "type": "file"
+        }
+      ],
+      "links": [
+        [
+          {
+            "url": "GSE139313",
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "geo"
+              }
+            ]
+          }
+        ]
+      ],
+      "subsections": [
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "Division of Intramural Research, National Institute of Allergy and Infectious Diseases"
+            }
+          ]
+        },
+        {
+          "type": "Publication",
+          "attributes": [
+            {
+              "name": "Journal",
+              "value": "Frontiers in immunology"
+            },
+            {
+              "name": "Volume",
+              "value": "10"
+            },
+            {
+              "name": "Pages",
+              "value": "2879"
+            },
+            {
+              "name": "Publication date",
+              "value": "2019"
+            }
+          ],
+          "links": [
+            [
+              {
+                "url": "10.3389/fimmu.2019.02879",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "DOI"
+                  }
+                ]
+              },
+              {
+                "url": "PMC6917608",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "PMC"
+                  }
+                ]
+              },
+              {
+                "url": "31921143",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "PMID"
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "accno": "a1",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Zhuang X"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0003-4004-5329"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a2",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Veltri DP"
+            },
+            {
+              "name": "affiliation",
+              "value": "o2",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a3",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Long EO"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "o2",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Bioinformatics and Computational Biosciences Branch, Office of Cyber Infrastructure and Computational Biology, National Institute of Allergy and Infectious Diseases, U.S. National Institutes of Health, Rockville, MD, United States"
+            }
+          ]
+        },
+        {
+          "accno": "o1",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Laboratory of Immunogenetics, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Rockville, MD, United States"
+            }
+          ]
+        },
+        {
+          "type": "ExtractedLinks"
+        }
+      ]
+    },
+    "type": "submission"
+  },
+  "source": {
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-EPMC6917608",
+    "retrieved_utc": "2026-10-31T00:54:31.423873+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "2d0a0015052e8725d438fa8a7e6d86715ceb3534feaa4f811a4697363a280ca1",
+    "body": "native/71d4e88018f96cbe6f4bb7cfe259634143e5e229a26c8e8efad3eda8ca3d4601.body"
+  },
+  "info": {
+    "columns": [
+      {
+        "name": "Name",
+        "title": "Name",
+        "visible": true,
+        "searchable": true,
+        "data": "Name",
+        "defaultContent": ""
+      },
+      {
+        "name": "Size",
+        "title": "Size",
+        "visible": true,
+        "searchable": false,
+        "data": "Size",
+        "defaultContent": ""
+      }
+    ],
+    "files": 1,
+    "httpLink": "https://ftp.ebi.ac.uk/pub/databases/biostudies/S-EPMC/608/S-EPMC6917608",
+    "ftpLink": "ftp://ftp.ebi.ac.uk/pub/databases/biostudies/S-EPMC/608/S-EPMC6917608",
+    "globusLink": "https://app.globus.org/file-manager?origin_id=47772002-3e5b-4fd3-b97c-18cee38d6df2&origin_path=/pub/databases/biostudies/S-EPMC/608/S-EPMC6917608",
+    "isPublic": true,
+    "relPath": "S-EPMC/608/S-EPMC6917608",
+    "hasZippedFolders": false,
+    "views": 0,
+    "released": 1546300800000,
+    "modified": 1777825747604,
+    "sections": [],
+    "sectionFileCounts": {}
+  },
+  "files": [
+    {
+      "path": "Data_Sheet_1.pdf",
+      "size": 115675,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "Data_Sheet_1.pdf",
+        "size": 115675,
+        "type": "file"
+      }
+    }
+  ],
+  "issues": [],
+  "info_source": {
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-EPMC6917608/info",
+    "retrieved_utc": "2026-10-31T00:54:37.419325+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "62073b2cf4ff9ce77a273400c5e110cea27626f3bdecfc271e185cabf80dfdc2",
+    "body": "native/23f905bdcd62b90ede0b5b5c1f05bc57b5a1a52882f009e1db2812790a19c5c0.body"
+  },
+  "links": [
+    {
+      "url": "GSE139313",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "geo"
+        }
+      ]
+    },
+    {
+      "url": "10.3389/fimmu.2019.02879",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "DOI"
+        }
+      ]
+    },
+    {
+      "url": "PMC6917608",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "PMC"
+        }
+      ]
+    },
+    {
+      "url": "31921143",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "PMID"
+        }
+      ]
+    }
+  ]
+}

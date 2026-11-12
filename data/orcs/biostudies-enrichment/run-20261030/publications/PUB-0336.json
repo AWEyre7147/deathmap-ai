@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0336",
+    "PMID": "33513212",
+    "DOI": "10.1371/journal.ppat.1009314",
+    "PMCID": "PMC7875428",
+    "Title": "A host receptor enables type 1 pilus-mediated pathogenesis of Escherichia coli pyelonephritis.",
+    "ORCS Publication ID": "921",
+    "ORCS Publication Index": "PUB-0336",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC7875428",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1371%2Fjournal.ppat.1009314%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:31:22.523427+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "fc543d20982107894e7175e3cd5ee1da76dc34c76ffb7ebf72daa1ebbe6fbb62",
+        "body": "native/24ba376d62e7dd25debb96b1d282d0de48a31f9d149eda70f83d9e6f640a34c2.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7875428",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233513212%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:31:28.516762+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "b499d4dfb534e3bb20f895b4f2ec99b875a9ab85da2f19b043dd3bd7fe5ed54a",
+        "body": "native/f49425ea2d2aa5e240cefb49a111e56797cb47cf9e8bd066f6e62274fd1bf876.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7875428",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7875428%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:31:34.519685+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "7fd23057359ce7afed57113e85fc310b29d2bd51b9506c288783ff19cd62a784",
+        "body": "native/6296ea1d8b07524debf98b866eeaf5b02450a1f0863a1e033b850f6da300dab6.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7875428",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+host+receptor+enables+type+1+pilus-mediated+pathogenesis+of+Escherichia+coli+pyelonephritis.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:31:40.517736+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "da135027352fd57c0e5e5349b8efd0128990d28d0dd31c225064e899da4f8440",
+        "body": "native/47b7796f21135d8e08e114f4db95546d287f96316851cf42b07133fbf04cc27c.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1371%2Fjournal.ppat.1009314%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233513212%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7875428%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+host+receptor+enables+type+1+pilus-mediated+pathogenesis+of+Escherichia+coli+pyelonephritis.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A33513212&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

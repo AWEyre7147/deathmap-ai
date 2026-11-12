@@ -1,0 +1,522 @@
+{
+  "accno" : "S-EPMC9800021",
+  "attributes" : [ {
+    "name" : "DataSource",
+    "value" : "Europe PMC"
+  }, {
+    "name" : "Title",
+    "value" : "Survival-based CRISPR genetic screens across a panel of permissive cell lines identify common and cell-specific SARS-CoV-2 host factors."
+  }, {
+    "name" : "ReleaseDate",
+    "value" : "2023-01-01"
+  }, {
+    "name" : "AttachTo",
+    "value" : "EuropePMC"
+  } ],
+  "section" : {
+    "type" : "Study",
+    "attributes" : [ {
+      "name" : "Title",
+      "value" : "Survival-based CRISPR genetic screens across a panel of permissive cell lines identify common and cell-specific SARS-CoV-2 host factors."
+    }, {
+      "name" : "Abstract",
+      "value" : "SARS-CoV-2 depends on host cell components for infection and replication. Identification of virus-host dependencies offers an effective way to elucidate mechanisms involved in viral infection and replication. If druggable, host factor dependencies may present an attractive strategy for anti-viral therapy. In this study, we performed genome wide CRISPR knockout screens in Vero E6 cells and four human cell lines including Calu-3, UM-UC-4, HEK-293 and HuH-7 to identify genetic regulators of SARS-CoV-2 infection. Our findings identified only <i>ACE2</i>, the cognate SARS-CoV-2 entry receptor, as a common host dependency factor across all cell lines, while other host genes identified were largely cell line specific, including known factors <i>TMPRSS2</i> and <i>CTSL</i>. Several of the discovered host-dependency factors converged on pathways involved in cell signalling, immune-related pathways, and chromatin modification. Notably, the chromatin modifier gene <i>KMT2C</i> in Calu-3 cells had the strongest impact in preventing SARS-CoV-2 infection when perturbed."
+    } ],
+    "files" : [ {
+      "path" : "mmc1.pdf",
+      "size" : 460570,
+      "type" : "file"
+    }, {
+      "path" : "mmc2.xlsx",
+      "size" : 3453690,
+      "type" : "file"
+    }, {
+      "path" : "mmc3.xlsx",
+      "size" : 970683,
+      "type" : "file"
+    }, {
+      "path" : "mmc4.xlsx",
+      "size" : 608591,
+      "type" : "file"
+    }, {
+      "path" : "mmc5.xlsx",
+      "size" : 34099,
+      "type" : "file"
+    }, {
+      "path" : "mmc6.xlsx",
+      "size" : 37863,
+      "type" : "file"
+    }, {
+      "path" : "mmc7.xlsx",
+      "size" : 11555,
+      "type" : "file"
+    }, {
+      "path" : "mmc8.xlsx",
+      "size" : 14175,
+      "type" : "file"
+    } ],
+    "links" : [ [ {
+      "url" : "MN985325",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "ENA"
+      } ]
+    }, {
+      "url" : "NC_045512.2",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "refseq"
+      } ]
+    } ] ],
+    "subsections" : [ {
+      "type" : "Publication",
+      "attributes" : [ {
+        "name" : "Journal",
+        "value" : "Heliyon"
+      }, {
+        "name" : "Volume",
+        "value" : "9(1)"
+      }, {
+        "name" : "Pages",
+        "value" : "e12744"
+      }, {
+        "name" : "Publication date",
+        "value" : "2023 Jan"
+      } ],
+      "links" : [ [ {
+        "url" : "10.1016/j.heliyon.2022.e12744",
+        "attributes" : [ {
+          "name" : "Type",
+          "value" : "DOI"
+        } ]
+      }, {
+        "url" : "PMC9800021",
+        "attributes" : [ {
+          "name" : "Type",
+          "value" : "PMC"
+        } ]
+      }, {
+        "url" : "36597481",
+        "attributes" : [ {
+          "name" : "Type",
+          "value" : "PMID"
+        } ]
+      } ] ]
+    }, {
+      "accno" : "a1",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Chan K"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a2",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Farias AG"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a3",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Lee H"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a4",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Guvenc F"
+      }, {
+        "name" : "affiliation",
+        "value" : "o2",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a5",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Mero P"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a6",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Brown KR"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a7",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Ward H"
+      }, {
+        "name" : "affiliation",
+        "value" : "o3",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a8",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Billmann M"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0002-6556-9594"
+      }, {
+        "name" : "affiliation",
+        "value" : "o3",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a9",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Aulakh K"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a10",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Astori A"
+      }, {
+        "name" : "affiliation",
+        "value" : "o4",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a11",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Haider S"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a12",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Marcon E"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a13",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Braunschweig U"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0001-6653-0926"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a14",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Pu S"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a15",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Habsid A"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a16",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Yan Tong AH"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a17",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Christie-Holmes N"
+      }, {
+        "name" : "affiliation",
+        "value" : "o5",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a18",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Budylowski P"
+      }, {
+        "name" : "affiliation",
+        "value" : "o2",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a19",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Ghalami A"
+      }, {
+        "name" : "affiliation",
+        "value" : "o6",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a20",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Mubareka S"
+      }, {
+        "name" : "affiliation",
+        "value" : "o7",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a21",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Maguire F"
+      }, {
+        "name" : "affiliation",
+        "value" : "o8",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a22",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Banerjee A"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0002-2821-8357"
+      }, {
+        "name" : "affiliation",
+        "value" : "o9",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a23",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Mossman KL"
+      }, {
+        "name" : "affiliation",
+        "value" : "o10",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a24",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Greenblatt J"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a25",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Gray-Owen SD"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0002-1477-3616"
+      }, {
+        "name" : "affiliation",
+        "value" : "o2",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a26",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Raught B"
+      }, {
+        "name" : "affiliation",
+        "value" : "o4",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a27",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Blencowe BJ"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a28",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Taipale M"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a29",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Myers C"
+      }, {
+        "name" : "affiliation",
+        "value" : "o3",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a30",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Moffat J"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "o5",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Combined Containment Level 3 Unit, Temerty Faculty of Medicine, University of Toronto Toronto, Ontario, Canada, M5S3E1"
+      } ]
+    }, {
+      "accno" : "o8",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Department of Community Health and Epidemiology, Faculty of Medicine Dalhousie University, Halifax, Nova Scotia, Canada"
+      } ]
+    }, {
+      "accno" : "o3",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Department of Computer Science and Engineering, University of Minnesota-Twin Cities, Minneapolis, MN, USA"
+      } ]
+    }, {
+      "accno" : "o10",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Department of Medicine, McMaster University, Hamilton, Ontario, Canada"
+      } ]
+    }, {
+      "accno" : "o2",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Department of Molecular Genetics, 1 King's College Circle, University of Toronto, Toronto, Ontario, Canada, M5S1A8"
+      } ]
+    }, {
+      "accno" : "o1",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Donnelly Center, 160 College Street, University of Toronto, Toronto, Ontario, Canada, M5S3E1"
+      } ]
+    }, {
+      "accno" : "o6",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Office of Environmental Health & Safety, University of Toronto, Toronto, Ontario, Canada"
+      } ]
+    }, {
+      "accno" : "o4",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Princess Margaret Cancer Center, Toronto, Ontario, Canada"
+      } ]
+    }, {
+      "accno" : "o7",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Sunnybrook Research Institute, Toronto, Ontario, Canada, M5S3E1"
+      } ]
+    }, {
+      "accno" : "o9",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Vaccine and Infectious Disease Organization, Department of Veterinary Microbiology, University of Saskatchewan, Saskatoon, Saskatchewan, Canada"
+      } ]
+    }, {
+      "type" : "ExtractedLinks"
+    } ]
+  },
+  "type" : "submission"
+}

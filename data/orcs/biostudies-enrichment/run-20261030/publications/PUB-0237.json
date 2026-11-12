@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0237",
+    "PMID": "34290256",
+    "DOI": "10.1038/s41467-021-24743-z",
+    "PMCID": "PMC8295283",
+    "Title": "Massively parallel in vivo CRISPR screening identifies RNF20/40 as epigenetic regulators of cardiomyocyte maturation.",
+    "ORCS Publication ID": "604",
+    "ORCS Publication Index": "PUB-0237",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC8295283",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41467-021-24743-z%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:24:58.837675+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "53be7002a293d1267cbe232f48e30bdda0f8c815e6b034514caa027c2942d5f5",
+        "body": "native/e89880ed1ca2fa543d2cb9511f4866e67c75692db59a7f9cd4754949551ac810.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8295283",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2234290256%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:25:04.830806+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "53725fe51062efef7921611f9bcf9e77f83f86f01dbd0f9d5b10d0916bf79d70",
+        "body": "native/de00fdb4ebcf0ff407d5b2e2e338cf17ac7f334d505d1e2365553487f2eff08f.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8295283",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC8295283%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:25:10.831615+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "42992dec0fbdfa6dd5945d55aec20aa08334f8a9b6bd9f7920fe9482e12e0cc3",
+        "body": "native/03c68a40363170648b5adc9dd9a4366a1446f02b6304524ad4f123922240c0a5.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8295283",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Massively+parallel+in+vivo+CRISPR+screening+identifies+RNF20%2F40+as+epigenetic+regulators+of+cardiomyocyte+maturation.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:25:16.831725+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "262aadcf83c0b6f9fbfd82a0fa7509856f43598023e4af13940bc6f85c0cdcf6",
+        "body": "native/467e651b7bab047b2f52ea06a980d66016938f35a737b7199bf3726216bc5a80.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41467-021-24743-z%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2234290256%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC8295283%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Massively+parallel+in+vivo+CRISPR+screening+identifies+RNF20%2F40+as+epigenetic+regulators+of+cardiomyocyte+maturation.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A34290256&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

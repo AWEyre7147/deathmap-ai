@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0300",
+    "PMID": "36124427",
+    "DOI": "10.15252/embj.2022110727",
+    "PMCID": "PMC9627672",
+    "Title": "Autophagy-linked plasma and lysosomal membrane protein PLAC8 is a key host factor for SARS-CoV-2 entry into human cells.",
+    "ORCS Publication ID": "784",
+    "ORCS Publication Index": "PUB-0300",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC9627672",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.15252%2Fembj.2022110727%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:29:08.888638+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "f649efe0374eb4f089a882480f24d1c4a78366634812e3d66e577b843b854cd9",
+        "body": "native/4936c47ad74beb416aef164a909f2d8dd7b34f5ecff6fe2a7375603054089633.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9627672",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236124427%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:29:14.925974+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "a83c8d252f3bcded47d1be049c55b632f0d586db73426cd96a2a68d7017abab0",
+        "body": "native/26dd33faa2680ae08b045d3c5b33bd690178afe4b5fe266ead4591743a014e83.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9627672",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9627672%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:29:20.926020+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "2621dd7e29636f41b9fd8cf770db081be138d5dd97ac3bac6debbca032b37713",
+        "body": "native/df54b73dff17a0fdc4ce9bf9b81fafa664b54e31f37cbf629b8fb4910a9dcaed.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9627672",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Autophagy-linked+plasma+and+lysosomal+membrane+protein+PLAC8+is+a+key+host+factor+for+SARS-CoV-2+entry+into+human+cells.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:29:26.917962+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "f1872f4d89a38356971913abe1d562d8b863c2013549cc00f279f8c553a4ed6b",
+        "body": "native/26eacd97065133b1e9904a19bf3dae6c57f1e171fa2bf43fe417f39c974e954e.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.15252%2Fembj.2022110727%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236124427%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9627672%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Autophagy-linked+plasma+and+lysosomal+membrane+protein+PLAC8+is+a+key+host+factor+for+SARS-CoV-2+entry+into+human+cells.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A36124427&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

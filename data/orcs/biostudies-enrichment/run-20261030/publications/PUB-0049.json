@@ -1,0 +1,91 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0049",
+    "PMID": "30051818",
+    "DOI": "10.7554/elife.36333",
+    "PMCID": "PMC6063728",
+    "Title": "Pooled genome-wide CRISPR screening for basal and context-specific fitness gene essentiality in cells.",
+    "ORCS Publication ID": "103",
+    "ORCS Publication Index": "PUB-0049",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC6063728",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.7554%2Felife.36333%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:28:57.228121+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "93ab9c44cd318f59618c6be981b74cf600a1619510a54537defffbcbd236d700",
+        "body": "native/ec5803d554667432b325154b368b15a866ac5018946eaad02b09e9acc5c497c8.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6063728",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2230051818%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:29:03.329554+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "ef780bf0bfd557705d8d5d57db0c9250f3f57d06e1bdcbd2c065a0433997e21f",
+        "body": "native/27b7a852ace8be9600d58a25edb8fba561d016b4ce6b8601bc31c8802cdc1deb.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6063728",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6063728%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:29:08.900110+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "0b6cba8bef1c2da8d96c7e3f45f5908aa320a8c7fdb157b76ae15067b08490d9",
+        "body": "native/4d851be62ee595d7dc4ae0312c32eef38fb02b0e4dda4912344453535a3bce6d.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.7554%2Felife.36333%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2230051818%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6063728%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Pooled+genome-wide+CRISPR+screening+for+basal+and+context-specific+fitness+gene+essentiality+in+cells.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A30051818&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

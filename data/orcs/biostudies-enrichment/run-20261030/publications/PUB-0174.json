@@ -1,0 +1,123 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0174",
+    "PMID": "32924251",
+    "DOI": "10.15252/embr.201949305",
+    "PMCID": "PMC7645261",
+    "Title": "PEBP1 suppresses HIV transcription and induces latency by inactivating MAPK/NF-κB signaling.",
+    "ORCS Publication ID": "430",
+    "ORCS Publication Index": "PUB-0174",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC7645261",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.15252%2Fembr.201949305%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:20:48.132601+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "4a2a6e7cd460846f7481ae1efc5a510f8897dbbd37db855ce75cba2c2b86810b",
+        "body": "native/fcd92532201b7972d2c6c078abd77e3a2cbbf110702a5c73b213654ebffda759.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-SCDT-EMBOR-2019-49305V1",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.15252%2Fembr.201949305%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:20:48.132601+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "4a2a6e7cd460846f7481ae1efc5a510f8897dbbd37db855ce75cba2c2b86810b",
+        "body": "native/fcd92532201b7972d2c6c078abd77e3a2cbbf110702a5c73b213654ebffda759.body"
+      },
+      "locator": "$.hits[1]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7645261",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2232924251%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:20:53.149648+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "e5e75f6657dd9e338c9b0be7d30ce866fcc0229d1399d51ca4f72c35e9b3e793",
+        "body": "native/f73bc3871ca62487806076edbf99f1e4f6e846434e3c2d7cb171b4b258862408.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7645261",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7645261%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:20:59.792087+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "ca956e1e87f880cd77e6f7b1669c9d66231d2d4bdaeb403ce747a8766b81e26e",
+        "body": "native/188ee13e9cab25836dec20816b8579bbccdb43952199eb6ef1d83a710a88c139.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7645261",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PEBP1+suppresses+HIV+transcription+and+induces+latency+by+inactivating+MAPK%2FNF-%CE%BAB+signaling.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:21:04.832607+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "8a6bf6836f39da04277af9f1699856b1a99bbab4e131c8a9917a1e0543fb14ad",
+        "body": "native/11dbc65c77c005bf0ddfed5d787251650ba726233cb35348235adf2d42abce55.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.15252%2Fembr.201949305%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2232924251%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7645261%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PEBP1+suppresses+HIV+transcription+and+induces+latency+by+inactivating+MAPK%2FNF-%CE%BAB+signaling.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A32924251&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

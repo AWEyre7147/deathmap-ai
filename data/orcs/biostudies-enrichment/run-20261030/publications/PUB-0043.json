@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0043",
+    "PMID": "28700943",
+    "DOI": "10.1016/j.celrep.2017.06.061",
+    "PMCID": "PMC5553568",
+    "Title": "A Role for Mitochondrial Translation in Promotion of Viability in K-Ras Mutant Cells.",
+    "ORCS Publication ID": "81",
+    "ORCS Publication Index": "PUB-0043",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC5553568",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.celrep.2017.06.061%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:28:34.315396+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "a086182338dcc981294fd5c6d34d4e8b831d9a1699dee2dacecad238be3274f7",
+        "body": "native/e3e23076c310b02f02b0f48b2fd37f212bef343dbef9a027b8a7906cda195143.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5553568",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2228700943%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:28:41.390141+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "be852b1a93c291985f50f1c58472fd77317d9638b95db7152fff6d7aefa3ce6a",
+        "body": "native/02f0d3d36a7e702abf8a38b672b18cb5b3a3f844d66069135d2925a1e911733b.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5553568",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC5553568%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:28:47.254289+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "9c83161a571a30dedd00f6123eb9930bdfe3dea90ea9a3792703205bfa775bdc",
+        "body": "native/9a4a2155bbef5d2602e781ea566ba5357ef2c47c51bbfae5406faf5ae0bbd0c1.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5553568",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+Role+for+Mitochondrial+Translation+in+Promotion+of+Viability+in+K-Ras+Mutant+Cells.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:28:50.656610+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "74c5f5d45ea7bbf6245d819638661ca86bc0f7069b814fc1b694102090a31d28",
+        "body": "native/9ae76d164a8ae3d699c1826845663ab447ace1f552a9655523db48175c513275.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.celrep.2017.06.061%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2228700943%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC5553568%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+Role+for+Mitochondrial+Translation+in+Promotion+of+Viability+in+K-Ras+Mutant+Cells.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A28700943&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

@@ -37,7 +37,7 @@ class EndToEndTests(unittest.TestCase):
 
     def test_literal_export_and_empty_sheets(self):
         with tempfile.TemporaryDirectory(dir=ROOT / 'outputs') as t:
-            template = ROOT / 'data/templates/Enrichment-Synthesis.xlsx'
+            template = ROOT / 'data/templates/history/synthesis-four-source/Enrichment-Synthesis-Template.xlsx'
             registration = json.loads(template.with_suffix('.manifest.json').read_text(encoding='utf-8'))
             tables = {s['name']: [] for s in registration['sheets']}
             tables['Publications'] = [{'Publication Index': 'PUB-0001', 'PMID': '123',
@@ -55,7 +55,7 @@ class EndToEndTests(unittest.TestCase):
 
     def test_oversized_membership_is_lossless_and_explicit(self):
         with tempfile.TemporaryDirectory(dir=ROOT/'outputs') as t:
-            template = ROOT/'data/templates/Enrichment-Synthesis.xlsx'
+            template = ROOT/'data/templates/history/synthesis-four-source/Enrichment-Synthesis-Template.xlsx'
             manifest = json.loads(template.with_suffix('.manifest.json').read_text(encoding='utf-8'))
             tables = {s['name']: [] for s in manifest['sheets']}
             value = 'GSM1234\n' * 5000
@@ -76,10 +76,10 @@ class EndToEndTests(unittest.TestCase):
         with tempfile.TemporaryDirectory(dir=ROOT / 'outputs') as t:
             root = Path(t)
             (root / 'data/templates').mkdir(parents=True)
-            for source in (ROOT / 'data/templates').glob('*-Enrichment.manifest.json'):
+            for source in (ROOT / 'data/templates').glob('*-Enrichment-Template.manifest.json'):
                 shutil.copy2(source, root / 'data/templates' / source.name)
-            for name in ('Enrichment-Synthesis.xlsx', 'Enrichment-Synthesis.manifest.json'):
-                shutil.copy2(ROOT / 'data/templates' / name, root / 'data/templates' / name)
+            for name in ('Enrichment-Synthesis-Template.xlsx', 'Enrichment-Synthesis-Template.manifest.json'):
+                shutil.copy2(ROOT / 'data/templates/history/synthesis-four-source' / name, root / 'data/templates' / name)
             pubs = [{'PUBLICATION_ID': '1', 'PMID': '123', 'TITLE': 'One', 'PUBLICATION_DATE': '2020-01-02'},
                     {'PUBLICATION_ID': '2', 'PMID': None, 'TITLE': 'Two', 'PUBLICATION_DATE': '2021'}]
             def save(name, value):
@@ -93,23 +93,32 @@ class EndToEndTests(unittest.TestCase):
             attempts = [{'key': p.get('PMID') or 'ORCS:' + p['PUBLICATION_ID'],
                          'publication': p, 'observations': [], 'issues': [], 'status': 'complete'} for p in pubs]
             geo = save('geo.json', {'publications': {'123': {}, 'orcs-2': {}}, 'series': {}, 'samples': {}})
-            ae = save('ae.json', {'publications': attempts, 'studies': {}, 'rows': {'Studies': []}})
+            bst_attempts = [{**r, 'publication': {**r['publication'], 'Publication Index': 'COHORT-'+str(i)}} for i,r in enumerate(attempts)]
+            bst = save('bst.json', {'publications': bst_attempts, 'studies': {}, 'rows': {
+                'Publications': [{'Publication Index': 'COHORT-0', 'BioStudies Accession': 'S-TEST1'}],
+                'Supplementary Files': [{'Publication Index': 'COHORT-0', 'BioStudies Accession': 'S-TEST1',
+                    'BioStudies Index': 'BST-0042', 'Filename': 'design.xlsx'}]}})
             ena = save('ena.json', {'publications': attempts, 'studies': {}, 'issues': [], 'rows': {}})
             args = argparse.Namespace(root=root, stage='synthesize', publication_index=index, output_dir=root/'result',
-                registry=registry, pubmed=pm, geo=geo, arrayexpress=ae, ena=ena, template=None)
+                registry=registry, pubmed=pm, geo=geo, biostudies=bst, ena=ena, template=None)
             with patch('urllib.request.urlopen', side_effect=AssertionError('Synthesis attempted retrieval')):
                 receipt = run_stage(args)
             self.assertEqual(receipt['sheet_rows']['Publications'], 2)
             book = openpyxl.load_workbook(root/'result/Enrichment-Synthesis.xlsx')
-            self.assertEqual(len(book.sheetnames), 21)
+            self.assertEqual(len(book.sheetnames), 17)
             self.assertEqual(book['Publications']['A3'].value, 'PUB-0002')
             self.assertIsNone(book['Publications']['B3'].value)
+            files = list(book['BioStudies Files'].values)
+            file_row = dict(zip(files[0], files[1]))
+            self.assertEqual(file_row['Publication Index'], 'PUB-0001')
+            self.assertEqual(file_row['BioStudies Index'], 'BST-0042')
+            self.assertEqual(file_row['BioStudies Accession'], 'S-TEST1')
             book.close()
             # The published offline export command must also work directly
             # from the compressed canonical output, without a pilot builder.
             from deathmap_ai.enrichment_export import main as export_main
             argv = ['deathmap-export-enrichment', '--database', str(root/'result/synthesis.json.gz'),
-                    '--template', str(root/'data/templates/Enrichment-Synthesis.xlsx'),
+                    '--template', str(root/'data/templates/Enrichment-Synthesis-Template.xlsx'),
                     '--output', str(root/'reexport.xlsx'), '--root', str(root)]
             with patch('sys.argv', argv), patch('urllib.request.urlopen', side_effect=AssertionError('Offline export used network')), redirect_stdout(io.StringIO()):
                 export_main()

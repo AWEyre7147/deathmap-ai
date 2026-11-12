@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0372",
+    "PMID": "38291084",
+    "DOI": "10.1038/s41598-024-51735-y",
+    "PMCID": "PMC10828508",
+    "Title": "A scalable platform for efficient CRISPR-Cas9 chemical-genetic screens of DNA damage-inducing compounds.",
+    "ORCS Publication ID": "1062",
+    "ORCS Publication Index": "PUB-0372",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC10828508",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41598-024-51735-y%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:33:53.944601+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "a58c3cff7380f0f446be8cbb3207b13f99b7cf2b9e6a5e72e9da2ab52f3f7396",
+        "body": "native/29239edc837328f1c53c7b5d0f18d212bfebc73e02965d1629f76e715cd30ad4.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC10828508",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2238291084%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:33:59.935216+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "2f6e587670a5a60feb0c163d162c24c240e39fbb99c1bd5272ed935aaeb81c42",
+        "body": "native/a7168c53393753c1d4b997e099adf09c2590bb4e33171701b34d0d456b2c4f23.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC10828508",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC10828508%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:34:05.966083+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "a5bc14e5daf6d862e49b21bca4f1568e837e4c88550f7487eb42a19389a5f7f6",
+        "body": "native/64fdbbecc5c72484b8cc6e2f2aa000fb95b684c7a2b21d1c7fda53a55bc7ab3c.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC10828508",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+scalable+platform+for+efficient+CRISPR-Cas9+chemical-genetic+screens+of+DNA+damage-inducing+compounds.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:34:11.977007+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "542fd471c43b4832130b24a14aa45a420606ab9661e9daa08de43b16edb5a39e",
+        "body": "native/e006acecfb662de196f0306be7fc2bef3bd3735034be74d939650827990beef7.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41598-024-51735-y%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2238291084%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC10828508%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+scalable+platform+for+efficient+CRISPR-Cas9+chemical-genetic+screens+of+DNA+damage-inducing+compounds.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A38291084&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

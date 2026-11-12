@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0197",
+    "PMID": "32528131",
+    "DOI": "10.1038/s41388-020-1342-0",
+    "PMCID": "PMC7646677",
+    "Title": "Ribosomal protein S11 influences glioma response to TOP2 poisons.",
+    "ORCS Publication ID": "497",
+    "ORCS Publication Index": "PUB-0197",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC7646677",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41388-020-1342-0%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:22:20.618841+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "a6da8e841eea47e77780ae8a6e90a1fa5c7b7a47642671030ed78f34a5c84e19",
+        "body": "native/50f61ed67c00748b919d871604c554c23758fb4e9aff44d0a3835b6caff650cc.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7646677",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2232528131%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:22:26.626147+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "8a554c035979c69c369b289d78d0d0ac1679343dc683f58cd73d234267a001f9",
+        "body": "native/67fa9d4a3a09d83d64ee649bcdc2caaaee2222b3dc3b37d38e9c997047998515.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7646677",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7646677%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:22:32.642644+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "153d41011a36c68eb1316484b3e2b5d4673ca290146dc50d34fd13a01c2d3d2c",
+        "body": "native/172263e7c4960b6c1bc2a01ee9462414fd62c669a95c7fd448c18478c301e172.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7646677",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Ribosomal+protein+S11+influences+glioma+response+to+TOP2+poisons.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:22:38.644498+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "686fbdef0348322799fa86f655a3bac0f78791705d3605075d4a2e9ae7351516",
+        "body": "native/2550b3cb58752a386bf6d2ca3f415704b991abaa268af1ca2a22ccf3cd4d5a08.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41388-020-1342-0%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2232528131%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7646677%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Ribosomal+protein+S11+influences+glioma+response+to+TOP2+poisons.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A32528131&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

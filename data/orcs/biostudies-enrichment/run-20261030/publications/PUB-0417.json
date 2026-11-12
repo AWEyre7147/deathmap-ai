@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0417",
+    "PMID": "39681701",
+    "DOI": "10.1038/s41587-024-02512-9",
+    "PMCID": "PMC12611787",
+    "Title": "CRISPR-StAR enables high-resolution genetic screening in complex in vivo models.",
+    "ORCS Publication ID": "1173",
+    "ORCS Publication Index": "PUB-0417",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC12611787",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41587-024-02512-9%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:36:47.014506+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "a97df5b859fc4329db8dd7912b13ad002f0db6259930d1213559f13ce9cbe6ab",
+        "body": "native/065c124fa10e8d61fc600e393f3f2b5a835a049fb5fd3c1eb0bde9d6e176a626.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC12611787",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2239681701%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:36:53.014436+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "7f4addcfe3dc5960bab84f5dbdc77383fcf264135000ef17f2676d10d95144eb",
+        "body": "native/85cd3a96275177ba0af76862c76c31b3f378cf356abef994f896e321c8027b1e.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC12611787",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC12611787%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:36:58.353299+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "a05f25f7b3f698334481383ab86cbafc25bf22a66bbf4671448bda2e3f3458c1",
+        "body": "native/4962937445965f0e4feb3d5ed9596c406bb6723969d8eb3c1051f9f437c4ac81.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC12611787",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22CRISPR-StAR+enables+high-resolution+genetic+screening+in+complex+in+vivo+models.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:37:03.548031+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "bfac24c56504aa6916146435e198e97be9e6c7c8abff499615777ddce49ddefb",
+        "body": "native/e1b7c623c07c5b37a79004615f9a1fd8e96ae3af1881e64067be8670109cac00.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41587-024-02512-9%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2239681701%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC12611787%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22CRISPR-StAR+enables+high-resolution+genetic+screening+in+complex+in+vivo+models.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A39681701&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

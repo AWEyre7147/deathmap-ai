@@ -1,0 +1,37 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0040",
+    "PMID": "29662178",
+    "DOI": "10.1038/s41556-018-0088-1",
+    "PMCID": null,
+    "Title": "Defining essential genes for human pluripotent stem cells by CRISPR-Cas9 screening in haploid cells.",
+    "ORCS Publication ID": "76",
+    "ORCS Publication Index": "PUB-0040",
+    "input_accessions": []
+  },
+  "observations": [],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41556-018-0088-1%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2229662178%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Defining+essential+genes+for+human+pluripotent+stem+cells+by+CRISPR-Cas9+screening+in+haploid+cells.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A29662178&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

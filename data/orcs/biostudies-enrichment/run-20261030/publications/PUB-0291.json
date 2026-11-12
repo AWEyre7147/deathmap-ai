@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0291",
+    "PMID": "36002574",
+    "DOI": "10.1038/s41586-022-05126-w",
+    "PMCID": "PMC9433322",
+    "Title": "RASA2 ablation in T cells boosts antigen sensitivity and long-term function.",
+    "ORCS Publication ID": "763",
+    "ORCS Publication Index": "PUB-0291",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC9433322",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41586-022-05126-w%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:28:31.862448+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "549b59d1f1e67d413ec5900776da024e9eb432fec5a86acae750700979c4b674",
+        "body": "native/e79aae8587ae4ebae6fde91acc78d7424999d08799ab9d02ed1b13a83af41db7.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9433322",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236002574%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:28:37.878882+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "8e2006877655629754ad2a729957e811464efbb0c8efad0f93a3b40ecb11820a",
+        "body": "native/e258c0b0534ff7e158eb3dd6876061ac44a196ae606f58f0a61614880aa977de.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9433322",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9433322%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:28:43.881919+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "44f65d882309995fc2a9b6e2332cd07ed6754b1a8e12ef46341ae27ff3fdcf6a",
+        "body": "native/226bcad9136efc4fbff81cdac87809202564a1230048199e1554884e851aaa7f.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9433322",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22RASA2+ablation+in+T+cells+boosts+antigen+sensitivity+and+long-term+function.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:28:49.877587+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "44d51d8211290d5b56d05d024f77e9fb425db085f458ea9bf1c0c51f9aa37f19",
+        "body": "native/bdcafcb1eba067f516669c11a8a528dc89afb1fd9e544d65c6cb6fac291eaeb5.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41586-022-05126-w%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236002574%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9433322%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22RASA2+ablation+in+T+cells+boosts+antigen+sensitivity+and+long-term+function.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A36002574&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

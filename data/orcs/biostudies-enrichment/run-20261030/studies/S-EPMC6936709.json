@@ -1,0 +1,466 @@
+{
+  "accession": "S-EPMC6936709",
+  "native": {
+    "accno": "S-EPMC6936709",
+    "attributes": [
+      {
+        "name": "DataSource",
+        "value": "Europe PMC"
+      },
+      {
+        "name": "Title",
+        "value": "A <i>cis</i>-element within the <i>ARF</i> locus mediates repression of <i>p16</i><sup><i>INK4A</i></sup> expression via long-range chromatin interactions."
+      },
+      {
+        "name": "ReleaseDate",
+        "value": "2019-01-01"
+      },
+      {
+        "name": "AttachTo",
+        "value": "EuropePMC"
+      }
+    ],
+    "section": {
+      "type": "Study",
+      "attributes": [
+        {
+          "name": "Title",
+          "value": "A <i>cis</i>-element within the <i>ARF</i> locus mediates repression of <i>p16</i><sup><i>INK4A</i></sup> expression via long-range chromatin interactions."
+        },
+        {
+          "name": "Abstract",
+          "value": "Loss of function of <i>CDKN2A</i>/<i>B</i>, also known as <i>INK4</i>/<i>ARF</i> [encoding p16<sup>INK4A</sup>, p15<sup>INK4B</sup>, and p14<sup>ARF</sup> (mouse p19<sup>Arf</sup>)], confers susceptibility to cancers, whereas its up-regulation during organismal aging provokes cellular senescence and tissue degenerative disorders. To better understand the transcriptional regulation of <i>p16</i><sup><i>INK4A</i></sup>, a CRISPR screen targeting open, noncoding chromatin regions adjacent to <i>p16</i><sup><i>INK4A</i></sup> was performed in a human <i>p16</i><sup><i>INK4A-P2A-mCherry</i></sup> reporter cell line. We identified a repressive element located in the 3' region adjacent to the <i>ARF</i> promoter that controls <i>p16</i><sup><i>INK4A</i></sup> expression via long-distance chromatin interactions. Coinfection of lentiviral dCas9-KRAB with selected single-guide RNAs against the repressive element abrogated the <i>ARF</i>/<i>p16</i><sup><i>INK4A</i></sup> chromatin contacts, thus reactivating <i>p16</i><sup><i>INK4A</i></sup> expression. Genetic CRISPR screening identified candidate transcription factors inhibiting <i>p16</i><sup><i>INK4A</i></sup> regulation, including ZNF217, which was confirmed to bind the <i>ARF</i>/<i>p16</i><sup><i>INK4A</i></sup> interaction loop. In summary, direct physical interactions between <i>p16</i><sup><i>INK4A</i></sup> and <i>ARF</i> genes provide mechanistic insights into their cross-regulation."
+        }
+      ],
+      "files": [
+        {
+          "path": "pnas.1909720116.sapp.pdf",
+          "size": 5721630,
+          "type": "file"
+        },
+        {
+          "path": "pnas.1909720116.sd01.xlsx",
+          "size": 14873,
+          "type": "file"
+        },
+        {
+          "path": "pnas.1909720116.sd02.xlsx",
+          "size": 705557,
+          "type": "file"
+        },
+        {
+          "path": "pnas.1909720116.sd03.xlsx",
+          "size": 1255408,
+          "type": "file"
+        }
+      ],
+      "links": [
+        [
+          {
+            "url": "GSE125842",
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "geo"
+              }
+            ]
+          }
+        ]
+      ],
+      "subsections": [
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "NCI NIH HHS"
+            },
+            {
+              "name": "grant_id",
+              "value": "P30 CA021765"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "HHS | NIH | National Cancer Institute"
+            },
+            {
+              "name": "grant_id",
+              "value": "NCI-5P30CA021765-37"
+            }
+          ]
+        },
+        {
+          "type": "Publication",
+          "attributes": [
+            {
+              "name": "Journal",
+              "value": "Proceedings of the National Academy of Sciences of the United States of America"
+            },
+            {
+              "name": "Volume",
+              "value": "116(52)"
+            },
+            {
+              "name": "Pages",
+              "value": "26644-26652"
+            },
+            {
+              "name": "Publication date",
+              "value": "2019 Dec"
+            }
+          ],
+          "links": [
+            [
+              {
+                "url": "10.1073/pnas.1909720116",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "DOI"
+                  }
+                ]
+              },
+              {
+                "url": "10.1073/pnas.1909720116",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "DOI"
+                  }
+                ]
+              },
+              {
+                "url": "PMC6936709",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "PMC"
+                  }
+                ]
+              },
+              {
+                "url": "31818950",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "PMID"
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "accno": "a1",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Zhang Y"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a2",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Hyle J"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a3",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Wright S"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a4",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Shao Y"
+            },
+            {
+              "name": "affiliation",
+              "value": "o2",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a5",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Zhao X"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0001-7213-2270"
+            },
+            {
+              "name": "affiliation",
+              "value": "o3",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a6",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Zhang H"
+            },
+            {
+              "name": "affiliation",
+              "value": "o4",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a7",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Li C"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0002-5938-5510"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "o2",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN 38105"
+            }
+          ]
+        },
+        {
+          "accno": "o4",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Department of Hematology and Oncology, Guangzhou Women and Children's Medical Center, Guangzhou Medical University, Guangzhou, 510623 Guangdong, People's Republic of China"
+            }
+          ]
+        },
+        {
+          "accno": "o3",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Department of Pharmaceutical Sciences, St. Jude Children's Research Hospital, Memphis, TN 38105"
+            }
+          ]
+        },
+        {
+          "accno": "o1",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Department of Tumor Cell Biology, St. Jude Children's Research Hospital, Memphis, TN 38105"
+            }
+          ]
+        },
+        {
+          "type": "ExtractedLinks"
+        }
+      ]
+    },
+    "type": "submission"
+  },
+  "source": {
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-EPMC6936709",
+    "retrieved_utc": "2026-10-31T00:54:35.421095+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "9289a82ed53184775cbe230961cdaabd74200bd7ecef86f3ccdddf31b397bf74",
+    "body": "native/a577d475909252a5a9ec99d0051d70b87bc9ee88a383a4b2e04777a77511f35d.body"
+  },
+  "info": {
+    "columns": [
+      {
+        "name": "Name",
+        "title": "Name",
+        "visible": true,
+        "searchable": true,
+        "data": "Name",
+        "defaultContent": ""
+      },
+      {
+        "name": "Size",
+        "title": "Size",
+        "visible": true,
+        "searchable": false,
+        "data": "Size",
+        "defaultContent": ""
+      }
+    ],
+    "files": 4,
+    "httpLink": "https://ftp.ebi.ac.uk/pub/databases/biostudies/S-EPMC/709/S-EPMC6936709",
+    "ftpLink": "ftp://ftp.ebi.ac.uk/pub/databases/biostudies/S-EPMC/709/S-EPMC6936709",
+    "globusLink": "https://app.globus.org/file-manager?origin_id=47772002-3e5b-4fd3-b97c-18cee38d6df2&origin_path=/pub/databases/biostudies/S-EPMC/709/S-EPMC6936709",
+    "isPublic": true,
+    "relPath": "S-EPMC/709/S-EPMC6936709",
+    "hasZippedFolders": false,
+    "views": 0,
+    "released": 1546300800000,
+    "modified": 1777852369074,
+    "sections": [],
+    "sectionFileCounts": {}
+  },
+  "files": [
+    {
+      "path": "pnas.1909720116.sapp.pdf",
+      "size": 5721630,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "pnas.1909720116.sapp.pdf",
+        "size": 5721630,
+        "type": "file"
+      }
+    },
+    {
+      "path": "pnas.1909720116.sd01.xlsx",
+      "size": 14873,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "pnas.1909720116.sd01.xlsx",
+        "size": 14873,
+        "type": "file"
+      }
+    },
+    {
+      "path": "pnas.1909720116.sd02.xlsx",
+      "size": 705557,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "pnas.1909720116.sd02.xlsx",
+        "size": 705557,
+        "type": "file"
+      }
+    },
+    {
+      "path": "pnas.1909720116.sd03.xlsx",
+      "size": 1255408,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "pnas.1909720116.sd03.xlsx",
+        "size": 1255408,
+        "type": "file"
+      }
+    }
+  ],
+  "issues": [],
+  "info_source": {
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-EPMC6936709/info",
+    "retrieved_utc": "2026-10-31T00:54:41.471414+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "20a4f239ffd9cc4ca8232b0d2781609f2fcb47256def238ea0aaa54aa101edbf",
+    "body": "native/5ade4aef2979e5a5b00241ad42dfc663048669ae85d3ab2592d73b5b1e264dce.body"
+  },
+  "links": [
+    {
+      "url": "GSE125842",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "geo"
+        }
+      ]
+    },
+    {
+      "url": "10.1073/pnas.1909720116",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "DOI"
+        }
+      ]
+    },
+    {
+      "url": "10.1073/pnas.1909720116",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "DOI"
+        }
+      ]
+    },
+    {
+      "url": "PMC6936709",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "PMC"
+        }
+      ]
+    },
+    {
+      "url": "31818950",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "PMID"
+        }
+      ]
+    }
+  ]
+}

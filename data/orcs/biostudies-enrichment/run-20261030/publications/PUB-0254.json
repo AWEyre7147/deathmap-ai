@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0254",
+    "PMID": "33483422",
+    "DOI": "10.1073/pnas.2022120118",
+    "PMCID": "PMC7848693",
+    "Title": "Genome-wide CRISPR screens reveal multitiered mechanisms through which mTORC1 senses mitochondrial dysfunction.",
+    "ORCS Publication ID": "649",
+    "ORCS Publication Index": "PUB-0254",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC7848693",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1073%2Fpnas.2022120118%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:26:06.864326+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "85d465b0c503848f2f45468decf25a43b99634888e66063259865c4635f14dfc",
+        "body": "native/51510a799ee0f84315c3baccece8602c22bac14db8a5caa786a1e4d455c4b11e.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7848693",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233483422%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:26:12.865835+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "f2e91c576eb14359fac0ed2db33da9322ce43b04f951669bcaf557bb5d2e1a08",
+        "body": "native/cd9887c30383041dbb02bdf8f0c8adec60b34e176a002e7feea13aa62bf1fd26.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7848693",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7848693%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:26:18.876362+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "d95e41ab2a34cd0c0e17f913166cf98d687fd37eb5feeedf27a2554838f3b74a",
+        "body": "native/528d0b4876077e4489e733b79638eae4390fa4e4758e4040c167a43f48163517.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7848693",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+CRISPR+screens+reveal+multitiered+mechanisms+through+which+mTORC1+senses+mitochondrial+dysfunction.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:26:24.872920+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "b24b64732833e4053112c49d08595d58245907db0bdd596e509ee0066268fedd",
+        "body": "native/db911d37495eb5c358ac5f4685121d5845b47e46fdd7239ed03e3fb4cd86e808.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1073%2Fpnas.2022120118%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233483422%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7848693%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+CRISPR+screens+reveal+multitiered+mechanisms+through+which+mTORC1+senses+mitochondrial+dysfunction.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A33483422&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

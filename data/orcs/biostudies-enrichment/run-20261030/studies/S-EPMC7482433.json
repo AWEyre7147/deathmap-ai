@@ -1,0 +1,579 @@
+{
+  "accession": "S-EPMC7482433",
+  "native": {
+    "accno": "S-EPMC7482433",
+    "attributes": [
+      {
+        "name": "DataSource",
+        "value": "Europe PMC"
+      },
+      {
+        "name": "Title",
+        "value": "Quality Control of ER Membrane Proteins by the RNF185/Membralin Ubiquitin Ligase Complex."
+      },
+      {
+        "name": "ReleaseDate",
+        "value": "2020-01-01"
+      },
+      {
+        "name": "AttachTo",
+        "value": "EuropePMC"
+      }
+    ],
+    "section": {
+      "type": "Study",
+      "attributes": [
+        {
+          "name": "Title",
+          "value": "Quality Control of ER Membrane Proteins by the RNF185/Membralin Ubiquitin Ligase Complex."
+        },
+        {
+          "name": "Abstract",
+          "value": "Misfolded proteins in the endoplasmic reticulum (ER) are degraded by ER-associated degradation (ERAD). Although ERAD components involved in degradation of luminal substrates are well characterized, much less is known about quality control of membrane proteins. Here, we analyzed the degradation pathways of two short-lived ER membrane model proteins in mammalian cells. Using a CRISPR-Cas9 genome-wide library screen, we identified an ERAD branch required for quality control of a subset of membrane proteins. Using biochemical and mass spectrometry approaches, we showed that this ERAD branch is defined by an ER membrane complex consisting of the ubiquitin ligase RNF185, the ubiquitin-like domain containing proteins TMUB1/2 and TMEM259/Membralin, a poorly characterized protein. This complex cooperates with cytosolic ubiquitin ligase UBE3C and p97 ATPase in degrading their membrane substrates. Our data reveal that ERAD branches have remarkable specificity for their membrane substrates, suggesting that multiple, perhaps combinatorial, determinants are involved in substrate selection."
+        }
+      ],
+      "files": [
+        {
+          "path": "mmc1.pdf",
+          "size": 2033006,
+          "type": "file"
+        },
+        {
+          "path": "mmc2.xlsx",
+          "size": 50943,
+          "type": "file"
+        },
+        {
+          "path": "mmc3.xlsx",
+          "size": 49715,
+          "type": "file"
+        },
+        {
+          "path": "mmc4.xlsx",
+          "size": 19674,
+          "type": "file"
+        },
+        {
+          "path": "mmc5.xlsx",
+          "size": 9398,
+          "type": "file"
+        },
+        {
+          "path": "mmc6.xlsx",
+          "size": 9691,
+          "type": "file"
+        },
+        {
+          "path": "mmc7.pdf",
+          "size": 273622,
+          "type": "file"
+        }
+      ],
+      "links": [
+        [
+          {
+            "url": "PXD018517",
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "pxd"
+              }
+            ]
+          }
+        ]
+      ],
+      "subsections": [
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "Wellcome Trust"
+            },
+            {
+              "name": "grant_id",
+              "value": "202642/Z/16/Z"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "Wellcome Trust"
+            }
+          ]
+        },
+        {
+          "type": "Publication",
+          "attributes": [
+            {
+              "name": "Journal",
+              "value": "Molecular cell"
+            },
+            {
+              "name": "Volume",
+              "value": "79(5)"
+            },
+            {
+              "name": "Pages",
+              "value": "768-781.e7"
+            },
+            {
+              "name": "Publication date",
+              "value": "2020 Sep"
+            }
+          ],
+          "links": [
+            [
+              {
+                "url": "10.1016/j.molcel.2020.07.009",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "DOI"
+                  }
+                ]
+              },
+              {
+                "url": "PMC7482433",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "PMC"
+                  }
+                ]
+              },
+              {
+                "url": "32738194",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "PMID"
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "accno": "a1",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "van de Weijer ML"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0002-0954-0228"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a2",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Krshnan L"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0001-6281-1587"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a3",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Liberatori S"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a4",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Guerrero EN"
+            },
+            {
+              "name": "affiliation",
+              "value": "o2",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a5",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Robson-Tull J"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0002-1189-2900"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a6",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Hahn L"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0002-8008-3277"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a7",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Lebbink RJ"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0002-1981-0420"
+            },
+            {
+              "name": "affiliation",
+              "value": "o3",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a8",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Wiertz EJHJ"
+            },
+            {
+              "name": "affiliation",
+              "value": "o3",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a9",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Fischer R"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0002-9715-5951"
+            },
+            {
+              "name": "affiliation",
+              "value": "o2",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a10",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Ebner D"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0002-6495-7026"
+            },
+            {
+              "name": "affiliation",
+              "value": "o2",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a11",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Carvalho P"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0002-9691-5277"
+            },
+            {
+              "name": "affiliation",
+              "value": "o4",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "o3",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Medical Microbiology, University Medical Center Utrecht, 3584 Utrecht, the Netherlands"
+            }
+          ]
+        },
+        {
+          "accno": "o2",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Nuffield Department of Medicine, Target Discovery Institute, University of Oxford, Oxford OX3 7FZ, UK"
+            }
+          ]
+        },
+        {
+          "accno": "o1",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Sir William Dunn School of Pathology, University of Oxford, South Parks Road, Oxford OX1 3RE, UK"
+            }
+          ]
+        },
+        {
+          "accno": "o4",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Sir William Dunn School of Pathology, University of Oxford, South Parks Road, Oxford OX1 3RE, UK. Electronic address: pedro.carvalho@path.ox.ac.uk"
+            }
+          ]
+        },
+        {
+          "type": "ExtractedLinks"
+        }
+      ]
+    },
+    "type": "submission"
+  },
+  "source": {
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-EPMC7482433",
+    "retrieved_utc": "2026-10-31T00:55:36.525456+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "2ac8eb3352737a52a45d31c0d4bc1dc6e69829662bb93b4b27b606218552ae28",
+    "body": "native/5e4cc6dacead48a2acfdb83f239ae072253128e158a8ef4ed922058d2180e5a8.body"
+  },
+  "info": {
+    "columns": [
+      {
+        "name": "Name",
+        "title": "Name",
+        "visible": true,
+        "searchable": true,
+        "data": "Name",
+        "defaultContent": ""
+      },
+      {
+        "name": "Size",
+        "title": "Size",
+        "visible": true,
+        "searchable": false,
+        "data": "Size",
+        "defaultContent": ""
+      }
+    ],
+    "files": 7,
+    "httpLink": "https://ftp.ebi.ac.uk/pub/databases/biostudies/S-EPMC/433/S-EPMC7482433",
+    "ftpLink": "ftp://ftp.ebi.ac.uk/pub/databases/biostudies/S-EPMC/433/S-EPMC7482433",
+    "globusLink": "https://app.globus.org/file-manager?origin_id=47772002-3e5b-4fd3-b97c-18cee38d6df2&origin_path=/pub/databases/biostudies/S-EPMC/433/S-EPMC7482433",
+    "isPublic": true,
+    "relPath": "S-EPMC/433/S-EPMC7482433",
+    "hasZippedFolders": false,
+    "views": 0,
+    "released": 1577836800000,
+    "modified": 1778271280235,
+    "sections": [],
+    "sectionFileCounts": {}
+  },
+  "files": [
+    {
+      "path": "mmc1.pdf",
+      "size": 2033006,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "mmc1.pdf",
+        "size": 2033006,
+        "type": "file"
+      }
+    },
+    {
+      "path": "mmc2.xlsx",
+      "size": 50943,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "mmc2.xlsx",
+        "size": 50943,
+        "type": "file"
+      }
+    },
+    {
+      "path": "mmc3.xlsx",
+      "size": 49715,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "mmc3.xlsx",
+        "size": 49715,
+        "type": "file"
+      }
+    },
+    {
+      "path": "mmc4.xlsx",
+      "size": 19674,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "mmc4.xlsx",
+        "size": 19674,
+        "type": "file"
+      }
+    },
+    {
+      "path": "mmc5.xlsx",
+      "size": 9398,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "mmc5.xlsx",
+        "size": 9398,
+        "type": "file"
+      }
+    },
+    {
+      "path": "mmc6.xlsx",
+      "size": 9691,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "mmc6.xlsx",
+        "size": 9691,
+        "type": "file"
+      }
+    },
+    {
+      "path": "mmc7.pdf",
+      "size": 273622,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "mmc7.pdf",
+        "size": 273622,
+        "type": "file"
+      }
+    }
+  ],
+  "issues": [],
+  "info_source": {
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-EPMC7482433/info",
+    "retrieved_utc": "2026-10-31T00:55:42.512933+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "de067f2d6df1499c7edd25a8f23ca2e59466ff8b4ad5b286b20b70b3acc3769d",
+    "body": "native/4f21ac4bcdc2a7e94a266ef634fa307d8bc4fc717298c31db3ec1b409e4c1c2f.body"
+  },
+  "links": [
+    {
+      "url": "PXD018517",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "pxd"
+        }
+      ]
+    },
+    {
+      "url": "10.1016/j.molcel.2020.07.009",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "DOI"
+        }
+      ]
+    },
+    {
+      "url": "PMC7482433",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "PMC"
+        }
+      ]
+    },
+    {
+      "url": "32738194",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "PMID"
+        }
+      ]
+    }
+  ]
+}

@@ -1,3 +1,4 @@
 # Preserve exact bytes, including source snapshots whose hashes are provenance.
-# Do not let checkout or staging convert line endings on Windows or Linux.
-* -text
+# Checkout and staging must not convert line endings on Windows or Linux.
+# Accept native CRLF in whitespace checks without rewriting source evidence.
+* -text whitespace=cr-at-eol

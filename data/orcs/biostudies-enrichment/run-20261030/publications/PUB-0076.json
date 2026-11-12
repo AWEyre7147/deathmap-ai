@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0076",
+    "PMID": "31165872",
+    "DOI": "10.1093/nar/gkz493",
+    "PMCID": "PMC6698651",
+    "Title": "A CRISPR/Cas9 screen identifies the histone demethylase MINA53 as a novel HIV-1 latency-promoting gene (LPG).",
+    "ORCS Publication ID": "206",
+    "ORCS Publication Index": "PUB-0076",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC6698651",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1093%2Fnar%2Fgkz493%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:30:50.631456+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "0d696cd277e7e6458a667f15b2f1b9bc215be4efe188680600b589d8a44acf49",
+        "body": "native/5d5be81a0460273ee2897d523329d3675aefa65365bb8fc76162d1875e488a9f.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6698651",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231165872%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:30:56.744992+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "75fe5aaade802d60bac01ebcf0a472ce6949436a7e909e164c36317e8c472052",
+        "body": "native/750d2b67a8cf2bba03b4c378ac845120c9f413413f0176e4eafbf0b890f58f65.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6698651",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6698651%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:31:03.104014+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "67dd7ffbf783cfa0128dcf03f228d59a4006d319ed38bfbf380ee284690f7acd",
+        "body": "native/28bd63d7dc6bdc03bc52c8ed051ae0a10f481e6f6662b810ae22f4c4a75f0e3d.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6698651",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+CRISPR%2FCas9+screen+identifies+the+histone+demethylase+MINA53+as+a+novel+HIV-1+latency-promoting+gene+%28LPG%29.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:31:08.077453+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "d5ca49706af908ce052914448dedfe9eccfdce3da9583e85cc78da6e383cfe41",
+        "body": "native/d01c2fc1f59076321f4d1a9f2309c5ce5410d0c182721ac8a23685600f776c82.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1093%2Fnar%2Fgkz493%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231165872%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6698651%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+CRISPR%2FCas9+screen+identifies+the+histone+demethylase+MINA53+as+a+novel+HIV-1+latency-promoting+gene+%28LPG%29.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A31165872&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

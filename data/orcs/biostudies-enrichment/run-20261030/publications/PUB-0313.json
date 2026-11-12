@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0313",
+    "PMID": "36753415",
+    "DOI": "10.1016/j.celrep.2023.112076",
+    "PMCID": "PMC9884621",
+    "Title": "CRISPR screening reveals a dependency on ribosome recycling for efficient SARS-CoV-2 programmed ribosomal frameshifting and viral replication.",
+    "ORCS Publication ID": "848",
+    "ORCS Publication Index": "PUB-0313",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC9884621",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.celrep.2023.112076%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:29:57.946880+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "bc9467a9c0fa54beead90d7d405ee46732df8266630ec0d7ce8eb65491079968",
+        "body": "native/54596cb729ec8700d0b88df9868b42cdf7f5e77bbc5f9a77b3887ce9fe5c1ae1.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9884621",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236753415%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:30:03.946866+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "da724c4369e79fdfd9cf71137c335db5d926e8c3b26c3b4b70d8a45941c01c79",
+        "body": "native/6a5573032e43f9b8b76194278aac594a4f694c8d7fcd81eb89af37ac9b026ce6.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9884621",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9884621%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:30:09.942376+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "30704535afb5d6dfc743ab4c3514df6e630cb5db348df14a90bc70cc685cf8d6",
+        "body": "native/7ff714e38c4c516ac0b2207a452e0553c31fccf4fe5148a7164c8fefffe1c93c.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9884621",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22CRISPR+screening+reveals+a+dependency+on+ribosome+recycling+for+efficient+SARS-CoV-2+programmed+ribosomal+frameshifting+and+viral+replication.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:30:15.955876+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "e2aa62312d7b31b9a140ff266d4d7513957d1489b98f900efc12f635a16ad5dc",
+        "body": "native/939b1b2e127785a7128bd94c531e8089d7a80a05a94c4ceb73e4c74b202a4371.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.celrep.2023.112076%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236753415%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9884621%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22CRISPR+screening+reveals+a+dependency+on+ribosome+recycling+for+efficient+SARS-CoV-2+programmed+ribosomal+frameshifting+and+viral+replication.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A36753415&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

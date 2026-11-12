@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0327",
+    "PMID": "33156908",
+    "DOI": "10.1182/blood.2020007809",
+    "PMCID": "PMC7820877",
+    "Title": "FBXO11-mediated proteolysis of BAHD1 relieves PRC2-dependent transcriptional repression in erythropoiesis.",
+    "ORCS Publication ID": "875",
+    "ORCS Publication Index": "PUB-0327",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC7820877",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1182%2Fblood.2020007809%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:30:45.978992+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "ac45b98d607d350b0fab9acdf4471d51f3950707a046297c1f507a768671e5a5",
+        "body": "native/599c560bd6211f24a51837298c4f1ad986971caf058f8d4215c4545fe9649c19.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7820877",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233156908%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:30:51.973133+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "083ab4fa71fd296921c8202abb77585d4c86c97176891dfbfa25af4cab89538a",
+        "body": "native/8f16f827e0489c7aa3bc029adfdc7b976fb2449a64566a387f17d44a509d14eb.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7820877",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7820877%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:30:57.968009+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "2c0991eb813edeca3ba9d3a0ba8dc520fea3e5a5600dfd7c2d17f0e86527a287",
+        "body": "native/305244445f1005fba213a6acc32533e945a052275d472f9e561aedbc57f4716a.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7820877",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22FBXO11-mediated+proteolysis+of+BAHD1+relieves+PRC2-dependent+transcriptional+repression+in+erythropoiesis.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:31:03.984848+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "d610750bd9bc10dc4da25bf7ea4afdaf9a4b980f3e64f1077d713160454865c9",
+        "body": "native/f7f035a924b5fb7aef490a35eedc355ff8a97c237d0dd2fa1b011ce96b845099.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1182%2Fblood.2020007809%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233156908%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7820877%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22FBXO11-mediated+proteolysis+of+BAHD1+relieves+PRC2-dependent+transcriptional+repression+in+erythropoiesis.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A33156908&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

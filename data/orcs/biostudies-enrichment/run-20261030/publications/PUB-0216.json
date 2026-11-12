@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0216",
+    "PMID": "33523994",
+    "DOI": "10.1126/sciadv.abd9732",
+    "PMCID": "PMC7793585",
+    "Title": "TRIM26 is a critical host factor for HCV replication and contributes to host tropism.",
+    "ORCS Publication ID": "528",
+    "ORCS Publication Index": "PUB-0216",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC7793585",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1126%2Fsciadv.abd9732%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:23:35.734845+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "c5b1fa42db5edd2e43340ac9b582dbfa33e89ac2204197c164f25b2f86b75300",
+        "body": "native/79c855e3ff70bc6d9623b2f9db64df78fbcfbc2c939bf2dc58763702d440e58e.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7793585",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233523994%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:23:41.740232+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "d8d72c748ed887ac598b26452d4bab884d5d2db6413147864690ee5c8a69c294",
+        "body": "native/5ccd11c617132836e5a76d4c2857e16c10a54db92329f63e0a04b9cf387546e3.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7793585",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7793585%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:23:47.753093+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "393a711dd1c2eeb5adb1403bf45795e1862724b7eb105b85537e00e821b4f997",
+        "body": "native/c7f5e59acfda752113e6b5988885abc2a94a6b71e8d6b999dd7366cfa6f10592.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7793585",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22TRIM26+is+a+critical+host+factor+for+HCV+replication+and+contributes+to+host+tropism.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:23:53.748119+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "051096cdd6f6be731ff464ca792d6930305202d2f21dcc07f0d74e20de8a12c9",
+        "body": "native/9c9a7abe52d3182a43b7565a9454974b4de599901ad582b0dcece54f06d25b10.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1126%2Fsciadv.abd9732%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233523994%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7793585%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22TRIM26+is+a+critical+host+factor+for+HCV+replication+and+contributes+to+host+tropism.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A33523994&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

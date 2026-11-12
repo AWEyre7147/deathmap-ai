@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0195",
+    "PMID": "32640256",
+    "DOI": "10.1016/j.immuni.2020.06.011",
+    "PMCID": "PMC7341821",
+    "Title": "A Genome-wide CRISPR Screen Reveals a Role for the Non-canonical Nucleosome-Remodeling BAF Complex in Foxp3 Expression and Regulatory T Cell Function.",
+    "ORCS Publication ID": "494",
+    "ORCS Publication Index": "PUB-0195",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC7341821",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.immuni.2020.06.011%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:22:13.606557+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "271dc5f06e741f5c4bc32abc8557aca5117c31513426cc47920311482fc46345",
+        "body": "native/a52565c1e8775fe281767cfe10c40f4d0e60d8288c904719ac2834f7d39e7234.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7341821",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2232640256%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:22:19.614831+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "3823ae796fa43c644ff8ff6b9354e8a9b640fd772d6a4a8c751cdc94cae09c0f",
+        "body": "native/47eaa15245cefa59dd5d98e30de2a8725b87ea280d12993d972b69616b078f31.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7341821",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7341821%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:22:25.635372+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "c58474753dfc7b50dcb4a680bd8f2e127ffec50cb1b96f2ce75183588cc45d11",
+        "body": "native/93607f450d2874eecbb2daad87dba461049160bf455f2e536885b62a20bb1372.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7341821",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+Genome-wide+CRISPR+Screen+Reveals+a+Role+for+the+Non-canonical+Nucleosome-Remodeling+BAF+Complex+in+Foxp3+Expression+and+Regulatory+T+Cell+Function.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:22:31.642363+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "c7c49a4b4e1fdd07b6f0e629b0c94f42350c1838c5f453f30e15f6663c7b8b6c",
+        "body": "native/6d34b7cf13d3e555384813d1e52edbdad0b04f089e2a484e8f01078e9af7d8a0.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.immuni.2020.06.011%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2232640256%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7341821%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+Genome-wide+CRISPR+Screen+Reveals+a+Role+for+the+Non-canonical+Nucleosome-Remodeling+BAF+Complex+in+Foxp3+Expression+and+Regulatory+T+Cell+Function.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A32640256&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

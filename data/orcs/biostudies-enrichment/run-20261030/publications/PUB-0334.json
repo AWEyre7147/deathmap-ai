@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0334",
+    "PMID": "36574441",
+    "DOI": "10.1371/journal.ppat.1010800",
+    "PMCID": "PMC9829182",
+    "Title": "Identification of β2 microglobulin, the product of B2M gene, as a Host Factor for Vaccinia Virus Infection by Genome-Wide CRISPR genetic screens.",
+    "ORCS Publication ID": "913",
+    "ORCS Publication Index": "PUB-0334",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC9829182",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1371%2Fjournal.ppat.1010800%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:31:19.369051+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "844f91524f104b64d4c24eb90474e707a655b282b68a8ee151b2f09dfb140a5c",
+        "body": "native/876c577bd0c2e821145b4c4fa2044cc2a838af945d561f8d073c35389fe6c570.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9829182",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236574441%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:31:25.521470+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "d2d60f4e6b04beba1aba029ae786c66313b54ab90885838587a6262a6a876a71",
+        "body": "native/2bcabe677e58642786c52995b6ab6980554a89b064257d44bb6d7230e433203f.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9829182",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9829182%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:31:31.526796+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "47c9ca9b3ff8aae80a212d869b29ac72158ce673fedbaefa10648f264024705c",
+        "body": "native/3adabbc953af425153cc5d83d955040087f30b6154b5d0367b74d20288432042.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9829182",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Identification+of+%CE%B22+microglobulin%2C+the+product+of+B2M+gene%2C+as+a+Host+Factor+for+Vaccinia+Virus+Infection+by+Genome-Wide+CRISPR+genetic+screens.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:31:37.519648+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "2e11259a467cc53933cfb9148fa98f0be3da7ee543e2333d2fbc465049cf4933",
+        "body": "native/f9a68a404b7387bdeca5e5f786b1aa56e9a4f42e263fc68accf8877a266dcc26.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1371%2Fjournal.ppat.1010800%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236574441%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9829182%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Identification+of+%CE%B22+microglobulin%2C+the+product+of+B2M+gene%2C+as+a+Host+Factor+for+Vaccinia+Virus+Infection+by+Genome-Wide+CRISPR+genetic+screens.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A36574441&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

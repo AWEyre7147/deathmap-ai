@@ -1,0 +1,145 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0127",
+    "PMID": "33333024",
+    "DOI": "10.1016/j.cell.2020.12.004",
+    "PMCID": "PMC7723770",
+    "Title": "Genetic Screens Identify Host Factors for SARS-CoV-2 and Common Cold Coronaviruses.",
+    "ORCS Publication ID": "339",
+    "ORCS Publication Index": "PUB-0127",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC7723770",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.cell.2020.12.004%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:34:14.783618+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "3e9391a1d2290314499986e0ffb534620ad13cc19db6bdfac3b603743e029f72",
+        "body": "native/fa25887797318778c6ac65647c48a070ecfd6587b8cda9617846b1d25c577b1e.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7723770",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233333024%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:34:18.712126+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "1da728a4dab25a3aa869dbc0cbbe7a12b8ee6a559d42c4fb686fb0a69d66dda4",
+        "body": "native/a4208cf1d426189f9928fbb1a5120c46e5f82b890db5c397c9d0b050867782fa.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7723770",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7723770%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:34:27.928637+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "4432521486d41907c380d6e2970ef6c2edc1b11dbc70a35f3be9b0ff6b877f87",
+        "body": "native/5fb445d92311d5cf28fe42feb05d707aa8151f71e21cdafe342c03dbf55c6fcc.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7723770",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genetic+Screens+Identify+Host+Factors+for+SARS-CoV-2+and+Common+Cold+Coronaviruses.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:34:36.692361+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "6e4e5ca747393f42905feca90ff642bfab14c275b189fca016f879a1c8567ff1",
+        "body": "native/4acb32170454b781fa3fee57a2ada171a4345ab271baba8556166d3c71e029be.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "E-MTAB-9638",
+      "route": "europepmc_annotations",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A33333024&type=Accession+Numbers&format=JSON",
+        "attempt": 1,
+        "retrieved_utc": "2026-10-11T21:30:31.226415+00:00",
+        "http_status": 200,
+        "content_type": "application/json",
+        "file": "raw/00369.response",
+        "bytes": 3248,
+        "sha256": "25d5e64ac0790c7fa96c54536c5323b033667044cdec7e76b029d67f5f2d6ad3",
+        "reused_from": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\outputs\\arrayexpress-europepmc-pilot-20261011-continuation\\raw\\011.response",
+        "reused_utc": "2026-10-11T23:29:33.667596+00:00",
+        "body": "native/1312a092ea3da8a7cb03f30c90b6f8b044eb090fba0f5cd8cced8faed4bdfb2a.body"
+      },
+      "locator": "$[0].annotations[1]",
+      "evidence_kind": "precomputed_accession_mention"
+    },
+    {
+      "accession": "E-MTAB-9638",
+      "route": "europepmc_annotations",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A33333024&type=Accession+Numbers&format=JSON",
+        "attempt": 1,
+        "retrieved_utc": "2026-10-11T21:30:31.226415+00:00",
+        "http_status": 200,
+        "content_type": "application/json",
+        "file": "raw/00369.response",
+        "bytes": 3248,
+        "sha256": "25d5e64ac0790c7fa96c54536c5323b033667044cdec7e76b029d67f5f2d6ad3",
+        "reused_from": "C:\\Users\\aweyr\\Documents\\Repositories\\deathmap-ai\\outputs\\arrayexpress-europepmc-pilot-20261011-continuation\\raw\\011.response",
+        "reused_utc": "2026-10-11T23:29:33.667596+00:00",
+        "body": "native/1312a092ea3da8a7cb03f30c90b6f8b044eb090fba0f5cd8cced8faed4bdfb2a.body"
+      },
+      "locator": "$[0].annotations[4]",
+      "evidence_kind": "precomputed_accession_mention"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.cell.2020.12.004%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233333024%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7723770%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genetic+Screens+Identify+Host+Factors+for+SARS-CoV-2+and+Common+Cold+Coronaviruses.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A33333024&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

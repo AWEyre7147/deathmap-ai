@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0014",
+    "PMID": "28494239",
+    "DOI": "10.1016/j.chom.2017.04.005",
+    "PMCID": "PMC8938989",
+    "Title": "CRISPR/Cas9 Screens Reveal Epstein-Barr Virus-Transformed B Cell Host Dependency Factors.",
+    "ORCS Publication ID": "11",
+    "ORCS Publication Index": "PUB-0014",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC8938989",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.chom.2017.04.005%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:26:36.874003+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "3f499dc12dcd337f9d9368c5c7e6a97057bbb16d7166d21c55536d8ba28d8253",
+        "body": "native/f0a4e9c1e14c6a656ee74faa72447f48510aa417cdbd44255bdf21fd6a6ffe9a.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8938989",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2228494239%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:26:42.052216+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "08bbfc5669981a60b4da7a0d5b668c649f03bd2c0553a2315445a6669c22b76a",
+        "body": "native/60c9215b7549a1d2f15ac21b1e372b642d0d7265deee52ae44eac8b315bd4a67.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8938989",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC8938989%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:26:45.701760+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "91943a7b2b5899e4e03b2f5c6261809a120db30995fd2f943a02022003996565",
+        "body": "native/5628ce38f6995a9912c5bb9df01e554591422313209a0274681b3246903921a1.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8938989",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22CRISPR%2FCas9+Screens+Reveal+Epstein-Barr+Virus-Transformed+B+Cell+Host+Dependency+Factors.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:26:53.290058+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "6a619292064d8c0ad01a295554f6c648f1f4a28016d2e51749135a490be78a26",
+        "body": "native/d979310c4c9671235ed1dc8ce7c310cd8f7d0777d00b583f64d0cfb4ded74110.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.chom.2017.04.005%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2228494239%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC8938989%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22CRISPR%2FCas9+Screens+Reveal+Epstein-Barr+Virus-Transformed+B+Cell+Host+Dependency+Factors.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A28494239&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

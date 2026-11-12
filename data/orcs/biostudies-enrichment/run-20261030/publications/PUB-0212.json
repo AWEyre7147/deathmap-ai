@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0212",
+    "PMID": "33847741",
+    "DOI": "10.1182/bloodadvances.2020003431",
+    "PMCID": "PMC8045513",
+    "Title": "Deciphering the mechanisms of CC-122 resistance in DLBCL via a genome-wide CRISPR screen.",
+    "ORCS Publication ID": "519",
+    "ORCS Publication Index": "PUB-0212",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC8045513",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1182%2Fbloodadvances.2020003431%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:23:18.706184+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "9dd671369cfcdfd6a4982d2924f2d0c9b3984a4677ad032e5d37236807ebaed5",
+        "body": "native/c1ba4abf3fe271c7de7e02253e25813abb12dbfd547bb4763e2cbb09382e0e9f.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8045513",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233847741%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:23:24.702020+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "6b9d7f2df0148e277cbf4e14fc0b8cd990374bad15ee9eb566a1deee9a0425d9",
+        "body": "native/1a814679301f2ac458caaf00a9de42e77c93cefbcfe9790239f0c5d73c022d47.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8045513",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC8045513%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:23:30.730179+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "23a2e2b6beebd694c71543b5a513731e7e775db0b318b9912082d494958f6b3a",
+        "body": "native/f50af099090c9d26c1e1298098f7c12779f9916b519f76e21a1480266433d4f7.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8045513",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Deciphering+the+mechanisms+of+CC-122+resistance+in+DLBCL+via+a+genome-wide+CRISPR+screen.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:23:36.731568+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "45b78980071f6b80ea47f228fbdd08d38c33a6f16181e810020fbc177ec5c28a",
+        "body": "native/2cef6afe12c48818acc6fe3eb0d88dc745010b24a97bf678f9abcbe637a38f36.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1182%2Fbloodadvances.2020003431%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233847741%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC8045513%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Deciphering+the+mechanisms+of+CC-122+resistance+in+DLBCL+via+a+genome-wide+CRISPR+screen.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A33847741&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

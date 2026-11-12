@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0095",
+    "PMID": "29642015",
+    "DOI": "10.1016/j.celrep.2018.03.045",
+    "PMCID": "PMC5939577",
+    "Title": "Genome-wide CRISPR/Cas9 Screen Identifies Host Factors Essential for Influenza Virus Replication.",
+    "ORCS Publication ID": "269",
+    "ORCS Publication Index": "PUB-0095",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC5939577",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.celrep.2018.03.045%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:32:11.827647+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "f158408672fb8b00d75997909fd762388f7c6cff339a99330de35392e2d3f9bf",
+        "body": "native/fe1eae08fe3946d767827c2c510d535e12a397242974be586751ee3aa789560b.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5939577",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2229642015%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:32:22.826851+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "d687820bd4d022f035036823eab82d80e9555cb35b6eabaece333b0233b37234",
+        "body": "native/04443e1147b9cb868fd8a2cbc14a38334b1c9e980e1fcca20dc199be097b3f4e.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5939577",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC5939577%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:32:30.324284+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "77e30bdf705935efd3b62e8c6882b105df3cb9cd88c9bf29be25170eab534a81",
+        "body": "native/c89e2979abbfb9c5768552c61068c34405928e2cf875aefe76d735552c73e084.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5939577",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+CRISPR%2FCas9+Screen+Identifies+Host+Factors+Essential+for+Influenza+Virus+Replication.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:32:34.205203+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "9b8e66de40a8d499b3452be93c9982c0156b033d2916cb6c054615bdca727537",
+        "body": "native/b1986518fe5725ae7c4a5d4027c0288af5c7edd093b438fd8aefc1f58ee507f3.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.celrep.2018.03.045%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2229642015%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC5939577%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+CRISPR%2FCas9+Screen+Identifies+Host+Factors+Essential+for+Influenza+Virus+Replication.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A29642015&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

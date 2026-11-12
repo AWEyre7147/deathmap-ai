@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0316",
+    "PMID": "34004147",
+    "DOI": "10.1016/j.cell.2021.04.022",
+    "PMCID": "PMC8567840",
+    "Title": "The PP2A-Integrator-CDK9 axis fine-tunes transcription and can be targeted therapeutically in cancer.",
+    "ORCS Publication ID": "855",
+    "ORCS Publication Index": "PUB-0316",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC8567840",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.cell.2021.04.022%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:30:04.947257+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "d29dc85a1406f6b51882b46606e91be67335e7cbf55556ad0b871323daca3e7a",
+        "body": "native/b372157117596443ff946aaaa71f1e7d8c71be45281b7dfc96c31ed0bb805afc.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8567840",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2234004147%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:30:10.942305+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "618025657c6221f4c2c2b105bbd9359bae539ace2252a45dade7fdf4d3659252",
+        "body": "native/bf95a5837edc8b74a94a1d346df644ffd338d3fbef636f143707e38146c306e7.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8567840",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC8567840%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:30:16.963357+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "72bc5a36f0bbfb8f8c344248028970edcd88beec2d107edfdc0e58ff6401e5ff",
+        "body": "native/c7f4b37ddb15f95e207042d978b3fade2b68a7ffe8b00695717bb595fb907aaf.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8567840",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22The+PP2A-Integrator-CDK9+axis+fine-tunes+transcription+and+can+be+targeted+therapeutically+in+cancer.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:30:22.959307+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "f50b2757b80d5f1358768b2a47df55b613b3bcdebb30864f9234faaa41ed49b8",
+        "body": "native/c1b8053d92a77028f87254499d87066fcb0d7cd5671eb378e74a321a69607ee2.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.cell.2021.04.022%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2234004147%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC8567840%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22The+PP2A-Integrator-CDK9+axis+fine-tunes+transcription+and+can+be+targeted+therapeutically+in+cancer.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A34004147&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0279",
+    "PMID": "34364401",
+    "DOI": "10.1186/s13046-021-02049-8",
+    "PMCID": "PMC8348813",
+    "Title": "Metabolic impairment of non-small cell lung cancers by mitochondrial HSPD1 targeting.",
+    "ORCS Publication ID": "715",
+    "ORCS Publication Index": "PUB-0279",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC8348813",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1186%2Fs13046-021-02049-8%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:27:43.236462+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "08dfa3a8e15b19215f67ec13f3a5a9f6ee9a50fe72cf82debaa7f1f9514b15d2",
+        "body": "native/acc561b1d71a06a4e2c18f1279e9ad9ac00a1056c02e8c09a26820ebb998e96d.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8348813",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2234364401%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:27:49.467289+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "be459d751b19f4fe0e1960b88a70b8eb32037e75d05065f1166e127da2e59f80",
+        "body": "native/04612a719d259f11e51fe7b184fc9832c7d9850126ac15767cc76e12d70b7900.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8348813",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC8348813%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:27:55.491484+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "929252e3a21aad51cbf14c3c1b58aa2e30b4fded442a5c1a1750f170e6131a10",
+        "body": "native/c3f40564513457a4c232768bb78f9dc060143f9e6dddfe6600d1bb0b3d7f294e.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8348813",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Metabolic+impairment+of+non-small+cell+lung+cancers+by+mitochondrial+HSPD1+targeting.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:28:01.628309+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "c80f21e6750d76ad71283b56370100500871c77461d6c97279998ee22c97f5ac",
+        "body": "native/65c5c75047f9ad230b352d044125405a4d6db0ed06b66934e8198da235989d40.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1186%2Fs13046-021-02049-8%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2234364401%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC8348813%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Metabolic+impairment+of+non-small+cell+lung+cancers+by+mitochondrial+HSPD1+targeting.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A34364401&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

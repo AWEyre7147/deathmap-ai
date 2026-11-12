@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0303",
+    "PMID": "35439318",
+    "DOI": "10.1158/1535-7163.mct-21-0841",
+    "PMCID": "PMC9769698",
+    "Title": "A Whole-Genome CRISPR Screen Identifies AHR Loss as a Mechanism of Resistance to a PARP7 Inhibitor.",
+    "ORCS Publication ID": "825",
+    "ORCS Publication Index": "PUB-0303",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC9769698",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1158%2F1535-7163.mct-21-0841%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:29:17.919340+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "e8d1ba81af03e85c493136967629599bb0e8246521da655de3b0040d2a0924f7",
+        "body": "native/0c4609dde0912d5655616513434df520fc94dc04945953a1b09cf4b314912a4d.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9769698",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2235439318%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:29:23.926105+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "cf4213195934bdaa66d295f31072592ca63175b9a020a5734d1e299b4359609f",
+        "body": "native/c4ebfd72992a4c79500d5f1b793baa681d1b514d7bde453aa6ba9dade5b5fa3a.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9769698",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9769698%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:29:29.931218+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "913d0997e4ef39f4831eeed31792d28a745f6a15097ec5646085b6ccfd9a545d",
+        "body": "native/3b6fbec91ee46754d434c0f0dd96c7743201ccbf945ba128236da5940b4c90ac.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9769698",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+Whole-Genome+CRISPR+Screen+Identifies+AHR+Loss+as+a+Mechanism+of+Resistance+to+a+PARP7+Inhibitor.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:29:35.921672+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "873e0ac0c7635d49081c1a33766b62f1c0914e0215e9ce9151e97063b81a907d",
+        "body": "native/25bd1a23236237828ed92b9244e848ac1c4f643140470038568478875d7ef261.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1158%2F1535-7163.mct-21-0841%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2235439318%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9769698%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+Whole-Genome+CRISPR+Screen+Identifies+AHR+Loss+as+a+Mechanism+of+Resistance+to+a+PARP7+Inhibitor.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A35439318&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

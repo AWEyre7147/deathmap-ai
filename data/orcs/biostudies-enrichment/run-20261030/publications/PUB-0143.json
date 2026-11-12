@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0143",
+    "PMID": "32075772",
+    "DOI": "10.1016/j.celrep.2020.01.052",
+    "PMCID": "PMC8713357",
+    "Title": "Cooperation of the ATM and Fanconi Anemia/BRCA Pathways in Double-Strand Break End Resection.",
+    "ORCS Publication ID": "368",
+    "ORCS Publication Index": "PUB-0143",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC8713357",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.celrep.2020.01.052%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:35:12.155349+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "8a045ba9da880bd1797fb93568781d9f10139a207adae8114f8a472e275e12bb",
+        "body": "native/bd010d0524b9627d2feef9c289bd6939f4ffd137ab992ce813dc29d82d8967c4.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8713357",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2232075772%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:35:20.220998+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "4a40733b8287561d778227b5c2ccdfd866f6fab0f3a004dcfdd5c0901cb9ef52",
+        "body": "native/7abbb8ab77d2db32c613c2e8c55649a6eb0a3eb528ef9f922c59b695e8e06c6c.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8713357",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC8713357%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:35:26.637245+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "827d6600053a1602fb22e67d2098f5943fe5b2a77b46ba50fff3050a2ae92d8e",
+        "body": "native/26fea8c0fd2e7ccb29765664490c6a3d645911840c39bfefb4fa9fe175dc8098.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8713357",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Cooperation+of+the+ATM+and+Fanconi+Anemia%2FBRCA+Pathways+in+Double-Strand+Break+End+Resection.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:35:33.194199+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "431759632ec9fcc1953aebed9bf399b6c756a9be20c3181e873845ad39970e64",
+        "body": "native/3b664f290465d9e6ffb74269fbd3760c47a094be213f9093d460f49316fea0b3.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.celrep.2020.01.052%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2232075772%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC8713357%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Cooperation+of+the+ATM+and+Fanconi+Anemia%2FBRCA+Pathways+in+Double-Strand+Break+End+Resection.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A32075772&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

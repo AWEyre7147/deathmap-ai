@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0276",
+    "PMID": "31160565",
+    "DOI": "10.1038/s41467-019-10307-9",
+    "PMCID": "PMC6546744",
+    "Title": "Neuronal differentiation and cell-cycle programs mediate response to BET-bromodomain inhibition in MYC-driven medulloblastoma.",
+    "ORCS Publication ID": "707",
+    "ORCS Publication Index": "PUB-0276",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC6546744",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41467-019-10307-9%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:27:34.024793+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "e9e0cb3919e39deb184f55ddb6782cea4eeaae4cdf688846251b0ff3941b1650",
+        "body": "native/06dfc100612c9a029c496190140bed94c38b2b9bf6d3f7718f90e4c95bc025df.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6546744",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231160565%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:27:39.227597+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "2e0a65435a792d3727ac92ccdbbff2a3ce8c6ca8e190e814b0be714ee2b50cf4",
+        "body": "native/a95b8d4aebf3c0156b42bc3f78a50818dfc2bceaeb5977c82fc7f263a9068467.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6546744",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6546744%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:27:45.236597+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "b3938861be1f1cb6827f52a631ef699c8db38092a578ea68bca22f88667c4fc2",
+        "body": "native/0773fe614a02e6a38686868460d4bfc63d266cefad56dd8693758f493db01b01.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6546744",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Neuronal+differentiation+and+cell-cycle+programs+mediate+response+to+BET-bromodomain+inhibition+in+MYC-driven+medulloblastoma.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:27:51.476042+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "fb03a5b9f16179b35db2d711b3b6ab30420b2c4d4fc59e78a56e91e4e5696c0e",
+        "body": "native/f433cd15fff67d4d39b8a994954c2b715175949e76efdaa2bd4da7da389b0bee.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41467-019-10307-9%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231160565%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6546744%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Neuronal+differentiation+and+cell-cycle+programs+mediate+response+to+BET-bromodomain+inhibition+in+MYC-driven+medulloblastoma.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A31160565&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

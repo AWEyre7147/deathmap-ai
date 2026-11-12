@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0362",
+    "PMID": "36820830",
+    "DOI": "10.1084/jem.20221563",
+    "PMCID": "PMC9998968",
+    "Title": "Genome-wide CRISPR/Cas9 screens reveal shared and cell-specific mechanisms of resistance to SHP2 inhibition.",
+    "ORCS Publication ID": "1011",
+    "ORCS Publication Index": "PUB-0362",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC9998968",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1084%2Fjem.20221563%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:33:09.801839+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "c21baba5671157796093c9feeb665da4f75c179342c160ddce7b91e1e0ef3b0d",
+        "body": "native/1b0dff70d220e559c0a177a3a03e7bfd99a13471cc7d38a2573708605644ed0f.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9998968",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236820830%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:33:15.801100+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "6450a808c3d90eeecf20ac4e1fdfffd90e558b64b40676aade1456bf42e941df",
+        "body": "native/6ec805e52ae413cc29e9bd2ff057aa4dafb15a5f3f3e80c9c2e44206c11a306d.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9998968",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9998968%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:33:21.797050+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "19cb9df59e62e885444f3c3502db4620b9cfcd7c9a11a90811c0b248e8fbc4b9",
+        "body": "native/266fe9bf76442ae75b1764fe7a4edcf110b927ac95e22dc9e6f771b0c29f8331.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9998968",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+CRISPR%2FCas9+screens+reveal+shared+and+cell-specific+mechanisms+of+resistance+to+SHP2+inhibition.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:33:27.809055+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "66564c2f84971074ba11c83eba5c303f72cd040380f1cad1070e7eb195ef546d",
+        "body": "native/5f0b1b78682f7b4ef3b025cba33a2f00f7e6943a902b46309356a0a1f201456c.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1084%2Fjem.20221563%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236820830%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9998968%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+CRISPR%2FCas9+screens+reveal+shared+and+cell-specific+mechanisms+of+resistance+to+SHP2+inhibition.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A36820830&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

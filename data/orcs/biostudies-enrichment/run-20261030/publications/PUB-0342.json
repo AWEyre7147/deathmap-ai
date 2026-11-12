@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0342",
+    "PMID": "37996617",
+    "DOI": "10.1038/s41551-023-01140-z",
+    "PMCID": "PMC10963270",
+    "Title": "High-throughput screening of genetic and cellular drivers of syncytium formation induced by the spike protein of SARS-CoV-2.",
+    "ORCS Publication ID": "941",
+    "ORCS Publication Index": "PUB-0342",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC10963270",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41551-023-01140-z%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:31:53.766561+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "63664714f1cef49eff3c778fca745a51cbdbfb767fd65daf9a25262cd024992e",
+        "body": "native/8b28a34193947533dde4479783e98ecc6630c96fdbcf7dcc1d19b78c70d52b9b.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC10963270",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2237996617%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:31:59.762634+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "2ba8cace294c578b9e3f9bead1ae933827b5866dedba9a4797035145f8ca8288",
+        "body": "native/ae67a119157811dcf2912481c5d3a39bf3c46f0e6d58c6abe609633cc05b2189.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC10963270",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC10963270%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:32:05.765157+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "888693197db99d09b1f8d6593fd3afb5628358bf7147def9b75e19568fa3ffc0",
+        "body": "native/c46a5af3c5f12f4e2ba9a7c781feba5c68b078d465f2a56547b04071978825de.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC10963270",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22High-throughput+screening+of+genetic+and+cellular+drivers+of+syncytium+formation+induced+by+the+spike+protein+of+SARS-CoV-2.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:32:11.767712+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "cc44a7d188019528388c62ad2a78527fffbba7cf11bc6de2f8334f38f52962d1",
+        "body": "native/5646e08219f5599c300095c9fd1a48ef7a07ffe2a02fc4eaafe6fdebcff3bced.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41551-023-01140-z%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2237996617%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC10963270%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22High-throughput+screening+of+genetic+and+cellular+drivers+of+syncytium+formation+induced+by+the+spike+protein+of+SARS-CoV-2.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A37996617&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

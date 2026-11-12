@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0115",
+    "PMID": "29211708",
+    "DOI": "10.1038/nature25179",
+    "PMCID": "PMC5774979",
+    "Title": "Selective silencing of euchromatic L1s revealed by genome-wide screens for L1 regulators.",
+    "ORCS Publication ID": "314",
+    "ORCS Publication Index": "PUB-0115",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC5774979",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fnature25179%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:33:25.690569+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "1f15f6d4397281b9140bd6fcce82ca3929ef5285c6a05d8438b6efbe096f9244",
+        "body": "native/161783d24c3a1a9fa46b68e62415450ceb8ff5096833a0b53b2ee275746a8ae9.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5774979",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2229211708%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:33:29.636879+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "ad64cb9d3fedf0c02efce8f1860768e06281095f944dab49704d699a203fa051",
+        "body": "native/39733ba631980a5eaed2fe3adcfa6b360113f229c2306b39e33d65d1b8da4bb1.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5774979",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC5774979%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:33:37.042911+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "4478ae6ac2bc80c0aa8ee5ee6064b9e3d781787d4fd18559a9864065e44e5101",
+        "body": "native/e52084191df9c06ff68a3fd89f9443e7e9b27de6055d2e0d59d99febcbb0a16a.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5774979",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Selective+silencing+of+euchromatic+L1s+revealed+by+genome-wide+screens+for+L1+regulators.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:33:40.928752+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "612fee0689208a15cc46edbd9e52b804b6f08ddac2ff8474e8c05ec47b3b079c",
+        "body": "native/27cb75d5a0b8e054cebe4e7f689e77718514901b87267fafc04b4247bd0625a4.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fnature25179%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2229211708%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC5774979%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Selective+silencing+of+euchromatic+L1s+revealed+by+genome-wide+screens+for+L1+regulators.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A29211708&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

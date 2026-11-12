@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0055",
+    "PMID": "30797773",
+    "DOI": "10.1016/j.cels.2019.01.004",
+    "PMCID": "PMC6592847",
+    "Title": "Convergent Identification and Interrogation of Tumor-Intrinsic Factors that Modulate Cancer Immunity In Vivo.",
+    "ORCS Publication ID": "115",
+    "ORCS Publication Index": "PUB-0055",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC6592847",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.cels.2019.01.004%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:29:20.463447+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "ea83b91adcb80dbb208f897d2fd6bc1e0d507061057b6edc4d1825ef5562707e",
+        "body": "native/1bd8899caf450abf6a9efdbeb74d7bef10f3146d007d6374de282e2f7ec9088c.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6592847",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2230797773%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:29:26.385021+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "f6b634b2a59d0b3ac3716b5f9882d80ff12e8aece00eaf40ffd76b73556d0949",
+        "body": "native/6209652c5fffc1ad8531adfd9f27f27c2755d952a179dd30ab23e2e98f6bf022.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6592847",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6592847%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:29:31.412738+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "3ff85ca29b39ccaffd88dfd16b8dc164a479a063cf9e11eda6834b09ce01b071",
+        "body": "native/0199fb04fbcaed3c0262049de091fcf4b6c4a8c2d78844f41e64badb946ec625.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6592847",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Convergent+Identification+and+Interrogation+of+Tumor-Intrinsic+Factors+that+Modulate+Cancer+Immunity+In+Vivo.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:29:37.368903+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "2eeff33b9d95095bbaa3f9ed4441adbd850792adad756e568473055b129549ee",
+        "body": "native/107bd17e11beff766a9d91cc5455733d6f622ce4048c761a718025f3f2f45c01.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.cels.2019.01.004%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2230797773%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6592847%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Convergent+Identification+and+Interrogation+of+Tumor-Intrinsic+Factors+that+Modulate+Cancer+Immunity+In+Vivo.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A30797773&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

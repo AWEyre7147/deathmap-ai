@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0373",
+    "PMID": "31508283",
+    "DOI": "10.1002/advs.201900782",
+    "PMCID": "PMC6724471",
+    "Title": "Genome-Wide CRISPR-Cas9 Screening Identifies NF-κB/E2F6 Responsible for EGFRvIII-Associated Temozolomide Resistance in Glioblastoma.",
+    "ORCS Publication ID": "1065",
+    "ORCS Publication Index": "PUB-0373",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC6724471",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1002%2Fadvs.201900782%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:33:54.943035+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "68d3e4bce6e5e2021d5898076da398b988e06ce3511591ed92d3f1f59a6a2b4d",
+        "body": "native/83fa462e093bef551dc7c610650df673c56af1a09d424c3524a662b00b584623.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6724471",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231508283%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:34:00.945488+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "0d10bcc69bec9d4f4b405c6ea53445dc507722d5816b55eb9420a8c4fc549311",
+        "body": "native/893e42f099b5fef996e59091f3af0fe89fbbbca5932012051bc823cdd311e803.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6724471",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6724471%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:34:06.973812+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "0783ad34ba23b28222f552f8c54b5afb81224558ac5afaa7fb860863c19690af",
+        "body": "native/e29d12734e03944cbfeff9cddc3f8c1cfa2280cf2648637e238f93d408447fc9.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6724471",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-Wide+CRISPR-Cas9+Screening+Identifies+NF-%CE%BAB%2FE2F6+Responsible+for+EGFRvIII-Associated+Temozolomide+Resistance+in+Glioblastoma.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:34:12.978655+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "86c18d538771238f566b6bef163c17b265377195628d9bae618d71a2046015b4",
+        "body": "native/a91685749a12d002d9c3a771d0f0f4bc16bf950c89749f6598716e90e6ce751b.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1002%2Fadvs.201900782%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231508283%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6724471%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-Wide+CRISPR-Cas9+Screening+Identifies+NF-%CE%BAB%2FE2F6+Responsible+for+EGFRvIII-Associated+Temozolomide+Resistance+in+Glioblastoma.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A31508283&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

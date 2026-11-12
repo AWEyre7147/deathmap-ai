@@ -1,0 +1,37 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0322",
+    "PMID": "31287994",
+    "DOI": "10.1016/j.ccell.2019.06.003",
+    "PMCID": null,
+    "Title": "Mubritinib Targets the Electron Transport Chain Complex I and Reveals the Landscape of OXPHOS Dependency in Acute Myeloid Leukemia.",
+    "ORCS Publication ID": "861",
+    "ORCS Publication Index": "PUB-0322",
+    "input_accessions": []
+  },
+  "observations": [],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.ccell.2019.06.003%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231287994%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Mubritinib+Targets+the+Electron+Transport+Chain+Complex+I+and+Reveals+the+Landscape+of+OXPHOS+Dependency+in+Acute+Myeloid+Leukemia.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A31287994&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

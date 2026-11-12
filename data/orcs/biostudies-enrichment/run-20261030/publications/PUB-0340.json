@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0340",
+    "PMID": "37616343",
+    "DOI": "10.1126/science.adh5021",
+    "PMCID": "PMC10617673",
+    "Title": "The midnolin-proteasome pathway catches proteins for ubiquitination-independent degradation.",
+    "ORCS Publication ID": "936",
+    "ORCS Publication Index": "PUB-0340",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC10617673",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1126%2Fscience.adh5021%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:31:43.515759+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "cb892a6185c24fa22da70a4eb62a60090224687b790e1d47bbdaa24b59fa760b",
+        "body": "native/7bd59d759904b9385d4892bd07ca15d9c33b9f1d4ea2bffaf964638896b67022.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC10617673",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2237616343%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:31:49.762831+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "363229d408d7e890f900d9c9affbbe9f57f019d157844452668148f0745ba7c4",
+        "body": "native/e8f457d79fd09c8b15b9741e95b902418e3851d20055588cac61f5ce3f69d870.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC10617673",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC10617673%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:31:55.769595+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "21bce521cd4334ef96b5997212d3326cf770ac262b921dfe13d14ca06f4717a6",
+        "body": "native/d08f52434c86d991d84afec95f47150881e362fa0edb1faea811cea2552b29c1.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC10617673",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22The+midnolin-proteasome+pathway+catches+proteins+for+ubiquitination-independent+degradation.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:32:01.768745+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "c8ce0b1566ff50235bd105709d792ea260c529b328be5450b76456e8b86b3c3d",
+        "body": "native/86b002a9a69d17404c0c02a4ae3734b5eac92d40010b16396f1b8abb4b0c9c90.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1126%2Fscience.adh5021%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2237616343%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC10617673%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22The+midnolin-proteasome+pathway+catches+proteins+for+ubiquitination-independent+degradation.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A37616343&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

@@ -1,0 +1,717 @@
+{
+  "accno" : "S-EPMC7723770",
+  "attributes" : [ {
+    "name" : "DataSource",
+    "value" : "Europe PMC"
+  }, {
+    "name" : "Title",
+    "value" : "Genetic Screens Identify Host Factors for SARS-CoV-2 and Common Cold Coronaviruses."
+  }, {
+    "name" : "ReleaseDate",
+    "value" : "2021-01-01"
+  }, {
+    "name" : "AttachTo",
+    "value" : "EuropePMC"
+  } ],
+  "section" : {
+    "type" : "Study",
+    "attributes" : [ {
+      "name" : "Title",
+      "value" : "Genetic Screens Identify Host Factors for SARS-CoV-2 and Common Cold Coronaviruses."
+    }, {
+      "name" : "Abstract",
+      "value" : "The Coronaviridae are a family of viruses that cause disease in humans ranging from mild respiratory infection to potentially lethal acute respiratory distress syndrome. Finding host factors common to multiple coronaviruses could facilitate the development of therapies to combat current and future coronavirus pandemics. Here, we conducted genome-wide CRISPR screens in cells infected by SARS-CoV-2 as well as two seasonally circulating common cold coronaviruses, OC43 and 229E. This approach correctly identified the distinct viral entry factors ACE2 (for SARS-CoV-2), aminopeptidase N (for 229E), and glycosaminoglycans (for OC43). Additionally, we identified phosphatidylinositol phosphate biosynthesis and cholesterol homeostasis as critical host pathways supporting infection by all three coronaviruses. By contrast, the lysosomal protein TMEM106B appeared unique to SARS-CoV-2 infection. Pharmacological inhibition of phosphatidylinositol kinases and cholesterol homeostasis reduced replication of all three coronaviruses. These findings offer important insights for the understanding of the coronavirus life cycle and the development of host-directed therapies."
+    } ],
+    "files" : [ {
+      "path" : "mmc1.xlsx",
+      "size" : 98678,
+      "type" : "file"
+    }, {
+      "path" : "mmc2.xlsx",
+      "size" : 28707,
+      "type" : "file"
+    }, {
+      "path" : "mmc3.xlsx",
+      "size" : 18093,
+      "type" : "file"
+    }, {
+      "path" : "mmc4.xlsx",
+      "size" : 189233,
+      "type" : "file"
+    }, {
+      "path" : "mmc5.xlsx",
+      "size" : 172781,
+      "type" : "file"
+    } ],
+    "links" : [ [ {
+      "url" : "R70007",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "ENA"
+      } ]
+    }, {
+      "url" : "MN908947",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "ENA"
+      } ]
+    }, {
+      "url" : "E-MTAB-9638",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "arrayexpress"
+      } ]
+    }, {
+      "url" : "HPA058342",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "hpa"
+      } ]
+    }, {
+      "url" : "10.17632/r49yg49ddc",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "doi"
+      } ]
+    }, {
+      "url" : "10.15252/embr.201845889",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "doi"
+      } ]
+    } ] ],
+    "subsections" : [ {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "Defense Advanced Research Projects Agency"
+      }, {
+        "name" : "grant_id",
+        "value" : "0011-19-2-0020"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NIGMS NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "T32 GM007618"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "National Institutes of Health"
+      }, {
+        "name" : "grant_id",
+        "value" : "U19AI135990"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "National Institutes of Health"
+      }, {
+        "name" : "grant_id",
+        "value" : "P01A1063302"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "National Institutes of Health"
+      }, {
+        "name" : "grant_id",
+        "value" : "R01AI120694"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NIAID NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "U19 AI135972"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "F. Hoffmann-La Roche"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NCI NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "F32 CA239333"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NIAID NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "P01 AI063302"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NIAID NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "R01 AI140186"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "Roddenberry Foundation"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NIDA NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "DP1 DA038043"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NIAID NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "R01 AI143292"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NIAID NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "T32 AI060537"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NIAID NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "U19 AI135990"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "National Institutes of Health"
+      }, {
+        "name" : "grant_id",
+        "value" : "F32CA239333"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "National Institutes of Health"
+      }, {
+        "name" : "grant_id",
+        "value" : "P50AI150476"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NIAID NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "R01 AI130123"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "National Institutes of Health"
+      }, {
+        "name" : "grant_id",
+        "value" : "R01AI140186 -S"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "Chan Zuckerberg Initiative"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NIAID NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "P50 AI150476"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "National Institutes of Health"
+      }, {
+        "name" : "grant_id",
+        "value" : "R01AI143292"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "National Institutes of Health"
+      }, {
+        "name" : "grant_id",
+        "value" : "U19AI135972"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NIAID NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "R01 AI122747"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NIAID NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "R01 AI141970"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "National Institutes of Health"
+      }, {
+        "name" : "grant_id",
+        "value" : "5DP1DA038043"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NIAID NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "R01 AI120694"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "National Institutes of Health"
+      }, {
+        "name" : "grant_id",
+        "value" : "R01AI122747"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "National Institutes of Health"
+      }, {
+        "name" : "grant_id",
+        "value" : "R01AI141970"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NIGMS NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "T32 GM136534"
+      } ]
+    }, {
+      "type" : "Publication",
+      "attributes" : [ {
+        "name" : "Journal",
+        "value" : "Cell"
+      }, {
+        "name" : "Volume",
+        "value" : "184(1)"
+      }, {
+        "name" : "Pages",
+        "value" : "106-119.e14"
+      }, {
+        "name" : "Publication date",
+        "value" : "2021 Jan"
+      } ],
+      "links" : [ [ {
+        "url" : "10.1016/j.cell.2020.12.004",
+        "attributes" : [ {
+          "name" : "Type",
+          "value" : "DOI"
+        } ]
+      }, {
+        "url" : "PMC7723770",
+        "attributes" : [ {
+          "name" : "Type",
+          "value" : "PMC"
+        } ]
+      }, {
+        "url" : "33333024",
+        "attributes" : [ {
+          "name" : "Type",
+          "value" : "PMID"
+        } ]
+      } ] ]
+    }, {
+      "accno" : "a1",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Wang R"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0002-3657-7456"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a2",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Simoneau CR"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0001-9222-8130"
+      }, {
+        "name" : "affiliation",
+        "value" : "o2",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a3",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Kulsuptrakul J"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0003-3881-4686"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a4",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Bouhaddou M"
+      }, {
+        "name" : "affiliation",
+        "value" : "o3",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a5",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Travisano KA"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0002-4371-8958"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a6",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Hayashi JM"
+      }, {
+        "name" : "affiliation",
+        "value" : "o4",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a7",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Carlson-Stevermer J"
+      }, {
+        "name" : "affiliation",
+        "value" : "o5",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a8",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Zengel JR"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0003-3153-3603"
+      }, {
+        "name" : "affiliation",
+        "value" : "o6",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a9",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Richards CM"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0003-0832-8951"
+      }, {
+        "name" : "affiliation",
+        "value" : "o6",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a10",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Fozouni P"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0002-6710-1506"
+      }, {
+        "name" : "affiliation",
+        "value" : "o7",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a11",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Oki J"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0003-0147-0269"
+      }, {
+        "name" : "affiliation",
+        "value" : "o5",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a12",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Rodriguez L"
+      }, {
+        "name" : "affiliation",
+        "value" : "o8",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a13",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Joehnk B"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0002-3264-5052"
+      }, {
+        "name" : "affiliation",
+        "value" : "o9",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a14",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Walcott K"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0003-2896-2431"
+      }, {
+        "name" : "affiliation",
+        "value" : "o9",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a15",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Holden K"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0002-3091-4124"
+      }, {
+        "name" : "affiliation",
+        "value" : "o5",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a16",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Sil A"
+      }, {
+        "name" : "affiliation",
+        "value" : "o9",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a17",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Carette JE"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0002-5187-8070"
+      }, {
+        "name" : "affiliation",
+        "value" : "o6",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a18",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Krogan NJ"
+      }, {
+        "name" : "affiliation",
+        "value" : "o3",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a19",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Ott M"
+      }, {
+        "name" : "affiliation",
+        "value" : "o10",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a20",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Puschnik AS"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0002-9605-9458"
+      }, {
+        "name" : "affiliation",
+        "value" : "o11",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "o1",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Chan Zuckerberg Biohub, San Francisco, CA 94158, USA"
+      } ]
+    }, {
+      "accno" : "o11",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Chan Zuckerberg Biohub, San Francisco, CA 94158, USA. Electronic address: andreas.puschnik@czbiohub.org"
+      } ]
+    }, {
+      "accno" : "o6",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Department of Microbiology and Immunology, Stanford University, Stanford, CA 94305, USA"
+      } ]
+    }, {
+      "accno" : "o9",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Department of Microbiology and Immunology, University of California, San Francisco, San Francisco, CA 94143, USA"
+      } ]
+    }, {
+      "accno" : "o4",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Gladstone Institutes, San Francisco, CA 94158, USA; Department of Medicine, University of California, San Francisco, San Francisco, CA 94143, USA; Quantitative Biosciences Institute COVID-19 Research Group (QCRG), University of California, San Francisco, San Francisco, CA 94158, USA"
+      } ]
+    }, {
+      "accno" : "o10",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Gladstone Institutes, San Francisco, CA 94158, USA; Department of Medicine, University of California, San Francisco, San Francisco, CA 94143, USA; Quantitative Biosciences Institute COVID-19 Research Group (QCRG), University of California, San Francisco, San Francisco, CA 94158, USA. Electronic address: melanie.ott@gladstone.ucsf.edu"
+      } ]
+    }, {
+      "accno" : "o2",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Gladstone Institutes, San Francisco, CA 94158, USA; Department of Medicine, University of California, San Francisco, San Francisco, CA 94143, USA; Quantitative Biosciences Institute COVID-19 Research Group (QCRG), University of California, San Francisco, San Francisco, CA 94158, USA; Biomedical Sciences Graduate Program, University of California, San Francisco, San Francisco, CA 94143, USA"
+      } ]
+    }, {
+      "accno" : "o7",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Gladstone Institutes, San Francisco, CA 94158, USA; Department of Medicine, University of California, San Francisco, San Francisco, CA 94143, USA; Quantitative Biosciences Institute COVID-19 Research Group (QCRG), University of California, San Francisco, San Francisco, CA 94158, USA; Biomedical Sciences Graduate Program, University of California, San Francisco, San Francisco, CA 94143, USA; Medical Scientist Training Program, University of California, San Francisco, San Francisco, CA 94143, USA"
+      } ]
+    }, {
+      "accno" : "o3",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Gladstone Institutes, San Francisco, CA 94158, USA; Quantitative Biosciences Institute COVID-19 Research Group (QCRG), University of California, San Francisco, San Francisco, CA 94158, USA; Quantitative Biosciences Institute (QBI), University of California, San Francisco, San Francisco, CA 94158, USA; Department of Cellular and Molecular Pharmacology, University of California, San Francisco, San Francisco, CA 94158, USA"
+      } ]
+    }, {
+      "accno" : "o5",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Synthego Corporation, Menlo Park, CA 94025, USA"
+      } ]
+    }, {
+      "accno" : "o8",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "UCSF CoLabs, Department of Microbiology and Immunology, University of California, San Francisco, San Francisco, CA 94143, USA"
+      } ]
+    } ]
+  },
+  "type" : "submission"
+}

@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0225",
+    "PMID": "30944478",
+    "DOI": "10.1038/s41586-019-1088-4",
+    "PMCID": "PMC6574119",
+    "Title": "CD22 blockade restores homeostatic microglial phagocytosis in ageing brains.",
+    "ORCS Publication ID": "552",
+    "ORCS Publication Index": "PUB-0225",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC6574119",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41586-019-1088-4%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:24:13.779597+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "4f015f43ba684bdb5f0a658a9b9b98facb88d5786279b9066599169223ac4330",
+        "body": "native/be9e47b09b0cf79109f53454a3a3f08ab2c043bf40f8c1e6dd85d1774aaa2202.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6574119",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2230944478%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:24:19.783379+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "cfdf78f41e99ef1b5c01e7772fad304e111d244a225672b4c44155dd7051cb21",
+        "body": "native/5f360e1b5cb2545bc16759003c6cf57c47e404b77ea84e8cd3f030d85cc5aa31.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6574119",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6574119%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:24:25.778200+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "9cc17f56fdd5f586c9bca95213725c3ad02640d556d3754b354919e313c732e8",
+        "body": "native/ce3fd5fe523df4417dfeefdadacb492bfe68505266c6b2f29a0834c72b4e55ec.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6574119",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22CD22+blockade+restores+homeostatic+microglial+phagocytosis+in+ageing+brains.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:24:31.791728+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "21da89ade703ca34a5af18402729ab32b4e2f62251719c42e17bc0b7a415acb7",
+        "body": "native/7c239a1f75e1d8371f2ee59d6c98958088cfe193ceb3462bb29d1590b1b3b140.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41586-019-1088-4%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2230944478%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6574119%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22CD22+blockade+restores+homeostatic+microglial+phagocytosis+in+ageing+brains.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A30944478&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

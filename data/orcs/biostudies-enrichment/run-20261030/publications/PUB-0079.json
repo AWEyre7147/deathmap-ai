@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0079",
+    "PMID": "31921143",
+    "DOI": "10.3389/fimmu.2019.02879",
+    "PMCID": "PMC6917608",
+    "Title": "Genome-Wide CRISPR Screen Reveals Cancer Cell Resistance to NK Cells Induced by NK-Derived IFN-γ.",
+    "ORCS Publication ID": "210",
+    "ORCS Publication Index": "PUB-0079",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC6917608",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.3389%2Ffimmu.2019.02879%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:31:04.103147+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "1d3ec83412546bf2d275a6eb50d89390a9eac607c233c90de63da9c769cac40d",
+        "body": "native/c21034943eab0c354335155e758a5a7fe04d4f12a3f5d80ea7c8575129a61204.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6917608",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231921143%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:31:12.154753+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "feb63dec2bf5bd93ee0216b3c821cdd58b4925c83ff561d2c131d5ca07a865b8",
+        "body": "native/3791ae4b5c3d4462d2906a21311cf85f6823ea80df56ac170e4368d8017ef4be.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6917608",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6917608%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:31:16.471763+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "b8eb49c771608ad21c8b25bee9868359f02abfb32373c07f0426917d11ecdb1c",
+        "body": "native/912262a6b35dc48b732d5b39caa37c8c5aa8a6e03711742eb3fbeec401a9b215.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6917608",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-Wide+CRISPR+Screen+Reveals+Cancer+Cell+Resistance+to+NK+Cells+Induced+by+NK-Derived+IFN-%CE%B3.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:31:22.798342+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "ae6af60cdbb6093b7f1d1a497a8fa9ba1ac504d8e60370f93aee981cfe05ff13",
+        "body": "native/6dcf9cac714185d6e2f99bdf09425284747dd62f106cfc4d4a5aa7efb9217c89.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.3389%2Ffimmu.2019.02879%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231921143%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6917608%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-Wide+CRISPR+Screen+Reveals+Cancer+Cell+Resistance+to+NK+Cells+Induced+by+NK-Derived+IFN-%CE%B3.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A31921143&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

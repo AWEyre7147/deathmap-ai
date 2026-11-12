@@ -1,0 +1,37 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0145",
+    "PMID": "32877678",
+    "DOI": "10.1016/j.celrep.2020.108096",
+    "PMCID": null,
+    "Title": "ATR Restrains DNA Synthesis and Mitotic Catastrophe in Response to CDC7 Inhibition.",
+    "ORCS Publication ID": "371",
+    "ORCS Publication Index": "PUB-0145",
+    "input_accessions": []
+  },
+  "observations": [],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.celrep.2020.108096%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2232877678%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22ATR+Restrains+DNA+Synthesis+and+Mitotic+Catastrophe+in+Response+to+CDC7+Inhibition.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A32877678&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

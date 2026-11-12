@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0360",
+    "PMID": "31723608",
+    "DOI": "10.1126/sciadv.aay4624",
+    "PMCID": "PMC6834391",
+    "Title": "Integrated proteogenetic analysis reveals the landscape of a mitochondrial-autophagosome synapse during PARK2-dependent mitophagy.",
+    "ORCS Publication ID": "988",
+    "ORCS Publication Index": "PUB-0360",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC6834391",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1126%2Fsciadv.aay4624%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:33:05.799500+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "dd5f4c2da983357f3d367a6f94996e87e2450a0d44157efa077ed2d281ed4044",
+        "body": "native/385e5cee3f480b319ba7de4fcc01ad526aa6900abf76caacd418c80ed67d4ae0.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6834391",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231723608%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:33:11.805518+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "11f834d16989d5aefdb773fa36e7e14eeda309a52b904e6c2ce57a94f115e49c",
+        "body": "native/568b4f5eb2ccf2b568af170c5f3f0dcb36fcc3a1ba4583012e021fac59a57696.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6834391",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6834391%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:33:17.807419+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "21576d15facfd9d51f35f1f3d63b5c2764de7af5fa58df037e8b43c1b17007bb",
+        "body": "native/e0dec5d90a749257fc3c43a76c91ceefaa835d2a13f340d3ef5780eecadbbee2.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6834391",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Integrated+proteogenetic+analysis+reveals+the+landscape+of+a+mitochondrial-autophagosome+synapse+during+PARK2-dependent+mitophagy.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:33:23.805235+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "8e96b94524de223ea4f25194f8672a5ce34180f122c1621ed6256a3346530474",
+        "body": "native/766fc569531721cb05ad451f9969e371dc3a700e44ab01143d27bd3d3c964409.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1126%2Fsciadv.aay4624%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231723608%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6834391%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Integrated+proteogenetic+analysis+reveals+the+landscape+of+a+mitochondrial-autophagosome+synapse+during+PARK2-dependent+mitophagy.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A31723608&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

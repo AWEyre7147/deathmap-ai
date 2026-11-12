@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0229",
+    "PMID": "33137164",
+    "DOI": "10.1371/journal.pgen.1009176",
+    "PMCID": "PMC7660927",
+    "Title": "Dual genome-wide CRISPR knockout and CRISPR activation screens identify mechanisms that regulate the resistance to multiple ATR inhibitors.",
+    "ORCS Publication ID": "563",
+    "ORCS Publication Index": "PUB-0229",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC7660927",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1371%2Fjournal.pgen.1009176%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:24:27.779946+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "465971ec212f6d04a9e4aef427d00a363c15862635b179bdd3a9668170901fa7",
+        "body": "native/e4d5cb63520cae7ffb65583ef5b20bdf382379d7dedb9d7bebc9f314408b9cea.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7660927",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233137164%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:24:33.783440+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "4ed78247351272fa1c1687cc3bf4cdd393d31f077e594d575e998e55823b2789",
+        "body": "native/ef630a55fd1d2f9e82f57222c028e4839307f9a4051a5a410d164085173fe83c.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7660927",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7660927%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:24:39.808235+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "e559266ab7ce68baa58502f53d6df754d63a245f11f5bacd878cbdbf66836140",
+        "body": "native/3b256c367776b782b4f750ce1fb0b1911933254cee8b253ed46102bf641e001b.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7660927",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Dual+genome-wide+CRISPR+knockout+and+CRISPR+activation+screens+identify+mechanisms+that+regulate+the+resistance+to+multiple+ATR+inhibitors.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:24:45.814107+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "fb92ed679644b3b90913929dd8dc111fc37598fa0b901c15506758c0880d51e1",
+        "body": "native/d61b6cbfebecbef449cee1d6533de7502c206cb1bec7fd1c8bc8004538bf5ee2.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1371%2Fjournal.pgen.1009176%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233137164%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7660927%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Dual+genome-wide+CRISPR+knockout+and+CRISPR+activation+screens+identify+mechanisms+that+regulate+the+resistance+to+multiple+ATR+inhibitors.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A33137164&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

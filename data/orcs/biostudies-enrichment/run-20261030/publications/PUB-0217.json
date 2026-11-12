@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0217",
+    "PMID": "33476303",
+    "DOI": "10.1172/jci.insight.141518",
+    "PMCID": "PMC8021101",
+    "Title": "A genome-wide CRISPR/Cas9 screen in acute myeloid leukemia cells identifies regulators of TAK-243 sensitivity.",
+    "ORCS Publication ID": "529",
+    "ORCS Publication Index": "PUB-0217",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC8021101",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1172%2Fjci.insight.141518%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:23:39.743421+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "14c26f3829acf188b707f7babac975dd7bbce0d675fcb444397342cd5847aa17",
+        "body": "native/0bbbac1a5712542fafbdf8d7ad7bf1d4032ae61b3df9ffe42e9f5f2ab418d85f.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8021101",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233476303%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:23:45.752569+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "de91a30a2439224c9d316d90ac6785bbf15a69a8f6edd3cc30b3bd2079ba0bd3",
+        "body": "native/526b97a1102b3ff909f37a50012dc08fbbda2468d23bd9f565b7cb1771132762.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8021101",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC8021101%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:23:51.753864+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "370e8985e333626693406f6a76e6d826ea09a0c54c34cea4d08ad69379f35e4a",
+        "body": "native/612f8e4a2b57f8099dd493d3d8626dbb62e3aed1d4103886b29ae97078054f41.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8021101",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+genome-wide+CRISPR%2FCas9+screen+in+acute+myeloid+leukemia+cells+identifies+regulators+of+TAK-243+sensitivity.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:23:57.747001+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "09ed56fc712a7d683f31e7d4dea8f1f05cb7baa4076939bc216251a543013c6b",
+        "body": "native/46cc36c5abf288eadc35e65c33f2c2d234984917fd1603efe534dd07d6bde1a1.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1172%2Fjci.insight.141518%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233476303%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC8021101%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+genome-wide+CRISPR%2FCas9+screen+in+acute+myeloid+leukemia+cells+identifies+regulators+of+TAK-243+sensitivity.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A33476303&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

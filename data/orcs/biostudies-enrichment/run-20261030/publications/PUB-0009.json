@@ -1,0 +1,123 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0009",
+    "PMID": "27760321",
+    "DOI": "10.1016/j.celrep.2016.09.079",
+    "PMCID": "PMC5081405",
+    "Title": "A CRISPR Dropout Screen Identifies Genetic Vulnerabilities and Therapeutic Targets in Acute Myeloid Leukemia.",
+    "ORCS Publication ID": "5",
+    "ORCS Publication Index": "PUB-0009",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC5081405",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.celrep.2016.09.079%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:25:39.032437+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "3d9fc0f0c10196538089c4002bb49db3f0f8cacae70ada57ca72d9e84909cc90",
+        "body": "native/80c5145899e8d80c7cb0d94dec702597013d1b3e09844d6de0ac95aef8c72663.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5081405",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2227760321%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:25:41.799172+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "5f9b149aeaac15029097ee436a006224754201d4932546104297830cd96c3081",
+        "body": "native/98b034ab65b9a7dbc314e33f07dd8e6d03d26d4be6badd6de66167df9ff581bd.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5081405",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC5081405%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:25:44.679873+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "4464c101d3379800f2b114123182cc7d259aecef45acc8671ce56b1fb182f959",
+        "body": "native/cf1b25b822e5214f285fecedcdb84d05c3f4dd09ade7c062e5dd6a45e58ebdbe.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-BSST79",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+CRISPR+Dropout+Screen+Identifies+Genetic+Vulnerabilities+and+Therapeutic+Targets+in+Acute+Myeloid+Leukemia.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:25:48.144222+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "c4e774f33e93a1801dc1414e36a1c8e0fe7ff397edcc087c2bc1a0b00234820e",
+        "body": "native/f119ee2f0faac9759c50a03c462c3fffbb97922de9d1bbb4d0c2dbe7a6cf0cb6.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5081405",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+CRISPR+Dropout+Screen+Identifies+Genetic+Vulnerabilities+and+Therapeutic+Targets+in+Acute+Myeloid+Leukemia.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:25:48.144222+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "c4e774f33e93a1801dc1414e36a1c8e0fe7ff397edcc087c2bc1a0b00234820e",
+        "body": "native/f119ee2f0faac9759c50a03c462c3fffbb97922de9d1bbb4d0c2dbe7a6cf0cb6.body"
+      },
+      "locator": "$.hits[1]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.celrep.2016.09.079%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2227760321%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC5081405%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+CRISPR+Dropout+Screen+Identifies+Genetic+Vulnerabilities+and+Therapeutic+Targets+in+Acute+Myeloid+Leukemia.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A27760321&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

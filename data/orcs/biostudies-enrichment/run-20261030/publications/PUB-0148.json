@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0148",
+    "PMID": "30991026",
+    "DOI": "10.1016/j.ccell.2019.03.004",
+    "PMCID": "PMC6541931",
+    "Title": "Synthetic Lethality of Wnt Pathway Activation and Asparaginase in Drug-Resistant Acute Leukemias.",
+    "ORCS Publication ID": "375",
+    "ORCS Publication Index": "PUB-0148",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC6541931",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.ccell.2019.03.004%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:35:37.056494+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "03fb389473ceca009d537f1fd709c3be2249a3654bdb610b695f9960112d1c1a",
+        "body": "native/b82bdb856d38d6671786769c8519f4ac0392adc89dc4a083ad57b0cf2aae28fe.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6541931",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2230991026%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:35:45.360376+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "9e7ec5237d183d4a3c8279ac50d5aaef8244dfdfe42368714639911b1889ee29",
+        "body": "native/85a7537241bea7fd2cf2fa949d221ad30ed9e5924aef232666780c2ebed21e66.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6541931",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6541931%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:35:53.987672+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "773d5b9e2fff5de381cc9eea20749963167a1c292453d522ab4004339f9b3772",
+        "body": "native/2068cda390fb5fa81bf660ed78e728e8124ca0c5905ab6844aa2fa266afa4fa2.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6541931",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Synthetic+Lethality+of+Wnt+Pathway+Activation+and+Asparaginase+in+Drug-Resistant+Acute+Leukemias.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:19:47.269061+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "1e37621d95ef92812166b6f0fb0bea2fcd0c79d252a02dc342abe4eb409f67dc",
+        "body": "native/d64ea0514500a17cc7a506f9b8adb1eb5793adb5729bbe14830f301424c47941.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.ccell.2019.03.004%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2230991026%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6541931%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Synthetic+Lethality+of+Wnt+Pathway+Activation+and+Asparaginase+in+Drug-Resistant+Acute+Leukemias.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A30991026&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

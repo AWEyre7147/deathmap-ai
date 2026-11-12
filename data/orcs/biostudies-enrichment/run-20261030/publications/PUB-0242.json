@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0242",
+    "PMID": "31959936",
+    "DOI": "10.1038/s41593-019-0566-1",
+    "PMCID": "PMC7595134",
+    "Title": "Lipid-droplet-accumulating microglia represent a dysfunctional and proinflammatory state in the aging brain.",
+    "ORCS Publication ID": "625",
+    "ORCS Publication Index": "PUB-0242",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC7595134",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41593-019-0566-1%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:25:18.834543+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "10e91db27b2d91ab79ae550f7b520af10818038b70f280f0e687c11aad847253",
+        "body": "native/791d6033cb772d4f891250431403b41e6d6580dc629465e1a5c30d1b9bc59c31.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7595134",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231959936%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:25:24.825924+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "b51e81c3b2b1618322b07d0d6372f91fe9661e62d987933618511d964a22f571",
+        "body": "native/b71cc454b9d04ad45e42d3b8e454edb0e79f0d27a986b9c7b55c67a4fe6403f6.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7595134",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7595134%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:25:30.832088+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "bd680370bb774ace927fd223f3d5b03fdf74cebfc3ca2e9f43f63b8997901333",
+        "body": "native/0c0934fc0c6ed5a731789e5cb1fe9ead5ef874ca2a803d91c26a27bb6b58af5d.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7595134",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Lipid-droplet-accumulating+microglia+represent+a+dysfunctional+and+proinflammatory+state+in+the+aging+brain.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:25:36.835222+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "f8c602e827453d2579c0738e0a4c4cf911bfcbf97960f15b76fb091f1f3add6e",
+        "body": "native/232b63d2fb04dae57c60fa2e2743cee5bdb7dce295e096efe8571093ade889b9.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41593-019-0566-1%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231959936%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7595134%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Lipid-droplet-accumulating+microglia+represent+a+dysfunctional+and+proinflammatory+state+in+the+aging+brain.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A31959936&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

@@ -1,0 +1,91 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0310",
+    "PMID": "36548402",
+    "DOI": "10.1158/0008-5472.can-22-2245",
+    "PMCID": "PMC9929516",
+    "Title": "Systematic interrogation of tumor cell resistance to CAR T cell therapy in pancreatic cancer.",
+    "ORCS Publication ID": "841",
+    "ORCS Publication Index": "PUB-0310",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC9929516",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1158%2F0008-5472.can-22-2245%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:29:43.948032+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "9ae81a3ec73c7b376e737c6c34a5c1a657e8ca29cf015198e52f73a70a741ef2",
+        "body": "native/da20d0f1d6622823f06744e0d52771fe254228474d311c409209da55d8e6f441.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9929516",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236548402%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:29:49.947891+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "ad77f16964d651610226cd7a0c31b9660c54725bc4dc5c3bb8a65eb1b1ef2ba6",
+        "body": "native/e63c13dae4c8fc7a874e6a2b1333fd0e52c4deaab7f7b42cda3c89b766171c96.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9929516",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9929516%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:29:55.947051+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "a83e26e6ffded6cc8fbe23ffaacf7462fa603d7568ea3df8fc3866fa91f0b3bf",
+        "body": "native/b129d6721c6c7e0d21601904a9c918ad36b9b03635c73bf0672335c86944f782.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1158%2F0008-5472.can-22-2245%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236548402%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9929516%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Systematic+interrogation+of+tumor+cell+resistance+to+CAR+T+cell+therapy+in+pancreatic+cancer.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A36548402&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

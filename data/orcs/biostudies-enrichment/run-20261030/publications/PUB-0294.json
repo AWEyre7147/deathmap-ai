@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0294",
+    "PMID": "35420441",
+    "DOI": "10.1128/jvi.02042-21",
+    "PMCID": "PMC9093107",
+    "Title": "SLC35B2 Acts in a Dual Role in the Host Sulfation Required for EV71 Infection.",
+    "ORCS Publication ID": "773",
+    "ORCS Publication Index": "PUB-0294",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC9093107",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1128%2Fjvi.02042-21%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:28:44.881791+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "ee635da466a41e13c18304abdfc73ed46c3355c309d04ca9e80aa2cb17d96808",
+        "body": "native/f000a2fbc6991d71b06c8b40d1c5cd819f55e86c9644e682842626b09a213799.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9093107",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2235420441%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:28:50.882780+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "02a0e1db3854e773c4822f1410e9cbec5ec360215daf97c56461d47b10cc6ae8",
+        "body": "native/3df1aeb36dd9c43e9f720d92803c41347f4aa6af301bea45ba62a797f845290d.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9093107",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9093107%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:28:56.874815+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "1197692fe7fff4237df57cfabbe7b2ac467ed2cd6cd557f805a72af85ead8d40",
+        "body": "native/a61d1f795dfdbbdc5e09eaed3f2440256e2d8a5ab9c16027e49905d1edeb490a.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9093107",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22SLC35B2+Acts+in+a+Dual+Role+in+the+Host+Sulfation+Required+for+EV71+Infection.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:29:02.893337+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "85e3828bad8bed8127871122db511ad1067729fb5fa9f92670e740b9b5cbf9fe",
+        "body": "native/f3b71c96f3166be038eaec200c2b0e6468edec665cdd3d6091a68632b1eb177f.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1128%2Fjvi.02042-21%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2235420441%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9093107%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22SLC35B2+Acts+in+a+Dual+Role+in+the+Host+Sulfation+Required+for+EV71+Infection.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A35420441&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

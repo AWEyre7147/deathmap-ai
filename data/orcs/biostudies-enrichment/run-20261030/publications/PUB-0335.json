@@ -1,0 +1,42 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0335",
+    "PMID": "34373448",
+    "DOI": "10.1038/s41392-021-00713-1",
+    "PMCID": "PMC8352983",
+    "Title": "AHR mediates the aflatoxin B1 toxicity associated with hepatocellular carcinoma.",
+    "ORCS Publication ID": "920",
+    "ORCS Publication Index": "PUB-0335",
+    "input_accessions": []
+  },
+  "observations": [],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41392-021-00713-1%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2234373448%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC8352983%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22AHR+mediates+the+aflatoxin+B1+toxicity+associated+with+hepatocellular+carcinoma.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A34373448&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

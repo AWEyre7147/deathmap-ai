@@ -1,0 +1,91 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0074",
+    "PMID": "31594818",
+    "DOI": "10.1128/mbio.02169-19",
+    "PMCID": "PMC6786873",
+    "Title": "A Genome-Wide Knockout Screen in Human Macrophages Identified Host Factors Modulating Infection.",
+    "ORCS Publication ID": "198",
+    "ORCS Publication Index": "PUB-0074",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC6786873",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1128%2Fmbio.02169-19%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:30:43.118000+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "c00d73b921868022e3a716f1c1337f6ddcea34ab1a97578363ec2959a6f67ada",
+        "body": "native/0b9b0162f3dbcff0d894a7bac2a967d512f2b3d4bd32574089ec24f3a01e330c.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6786873",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231594818%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:30:49.633642+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "e3d61d6513665ea989efe38246981b280147dfcb806ca840ac9acaa4e03733c1",
+        "body": "native/2e5d8a09ff8a06682173445a280fca21bf2faf1db3a2a119ddddf1a42defef09.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6786873",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6786873%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:30:53.654093+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "703dcd86f323501016c885f2e684ee95e60ae86de9dba1f8d285b8731615f4ef",
+        "body": "native/38801041e29aacb16d5bc5ac3c35921be6c2a15ff42554370b363cbf5618c971.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1128%2Fmbio.02169-19%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231594818%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6786873%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+Genome-Wide+Knockout+Screen+in+Human+Macrophages+Identified+Host+Factors+Modulating+Infection.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A31594818&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

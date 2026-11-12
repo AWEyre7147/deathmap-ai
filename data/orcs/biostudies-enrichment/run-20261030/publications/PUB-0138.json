@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0138",
+    "PMID": "30962421",
+    "DOI": "10.1038/s41467-019-09277-9",
+    "PMCID": "PMC6453886",
+    "Title": "A GPX4-dependent cancer cell state underlies the clear-cell morphology and confers sensitivity to ferroptosis.",
+    "ORCS Publication ID": "361",
+    "ORCS Publication Index": "PUB-0138",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC6453886",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41467-019-09277-9%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:34:48.124474+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "d5acd32cec28c4b61fd19438d330ba0c33edd3081dffff02ff35222a6a0eecf7",
+        "body": "native/625c145bd59d8d41b92376ee507698d5298e1fe415c5137d30b5abe29099cdf8.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6453886",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2230962421%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:34:55.854236+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "69ed42d38e14833385860c4bb4dadc5aa5c90624569d1e7fb1947741d1a9c39e",
+        "body": "native/b8ceb3bd9378474fbc303159db2a3bb1eb6b681092191bd9ce62ebb926130630.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6453886",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6453886%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:35:00.327319+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "ff09ac287657e227ba5b6a3aa565b0f319d1e08ed3c561a1084cbc8b09b215e8",
+        "body": "native/e93997c8b9ecf633f6a374806ebb44f51f713b22022e3a63ab5a1788de6127e4.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6453886",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+GPX4-dependent+cancer+cell+state+underlies+the+clear-cell+morphology+and+confers+sensitivity+to+ferroptosis.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:35:08.128890+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "accc309abae33a84b0e571a3ccc26c2a62aec4f614e3a5c3933287bea275455e",
+        "body": "native/2cbcee11179cf0e1dded60f25b8e5e000b0f1e226b27331c6246aabb933a83fb.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41467-019-09277-9%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2230962421%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6453886%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+GPX4-dependent+cancer+cell+state+underlies+the+clear-cell+morphology+and+confers+sensitivity+to+ferroptosis.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A30962421&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

@@ -1,0 +1,37 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0272",
+    "PMID": "32299104",
+    "DOI": "10.1182/blood.2019000106",
+    "PMCID": null,
+    "Title": "Mitochondrial carrier homolog 2 is necessary for AML survival.",
+    "ORCS Publication ID": "698",
+    "ORCS Publication Index": "PUB-0272",
+    "input_accessions": []
+  },
+  "observations": [],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1182%2Fblood.2019000106%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2232299104%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Mitochondrial+carrier+homolog+2+is+necessary+for+AML+survival.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A32299104&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

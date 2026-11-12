@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0409",
+    "PMID": "40813572",
+    "DOI": "10.1038/s41467-025-62818-3",
+    "PMCID": "PMC12354852",
+    "Title": "Large-scale CRISPR screening in primary human 3D gastric organoids enables comprehensive dissection of gene-drug interactions.",
+    "ORCS Publication ID": "1161",
+    "ORCS Publication Index": "PUB-0409",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC12354852",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41467-025-62818-3%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:36:19.013360+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "c732cfb366617463d2598ae63361613c120a53c57c989bd0876f1aa9b53fcd4e",
+        "body": "native/9c1568695705cf561aeb204e8b289d394cc2b641b8cc0d90eca97726e4d01398.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC12354852",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2240813572%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:36:25.024702+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "bce89dbdd3eb19d0b2bf5c5e038532d3eecf0460a27748a608213cc82a9add15",
+        "body": "native/7d873b232149d869333a994144206560026191a8d033643e680ec4d6921057f3.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC12354852",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC12354852%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:36:31.012579+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "1c58ccf7f1aa56d89a10f860151bf9330ac262c7995de641d49fc9c4ed01c90f",
+        "body": "native/3f65fc5d55522aadebaf1c0cb32e9e4bdcd6cf2796b93e7d23ba1176405ced8d.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC12354852",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Large-scale+CRISPR+screening+in+primary+human+3D+gastric+organoids+enables+comprehensive+dissection+of+gene-drug+interactions.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:36:37.020350+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "0d370429c5f42820cc4e1669f81f980589f599e94fe0f33e4680c355b8d6692b",
+        "body": "native/f781d24bcd30de8e46b07451a2fef5d0510eadeca38f19f1d5b3932c0730ce52.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41467-025-62818-3%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2240813572%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC12354852%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Large-scale+CRISPR+screening+in+primary+human+3D+gastric+organoids+enables+comprehensive+dissection+of+gene-drug+interactions.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A40813572&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

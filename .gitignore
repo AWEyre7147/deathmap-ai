@@ -1,108 +1,65 @@
-# Python
+# Python and installed dependencies
 __pycache__/
 *.py[cod]
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
 .venv/
+*.egg-info/
+node_modules/
+build/
+dist/
 
-# Local environment and secrets
+# Local configuration and secrets
 .env
 .env.*
 !.env.example
-
-# Editors and operating systems
 .idea/
 .vscode/
 .DS_Store
 Thumbs.db
-
-# Project data: keep guidance and intentionally curated small artifacts only
-data/raw/*
-!data/raw/.gitkeep
-data/interim/*
-!data/interim/.gitkeep
-
-# Generated or temporary outputs
-tmp/
-.tmp/
-.discovery/
-results/generated/
-/outputs/*
-!/outputs/README.md
-!/outputs/orcs/
-
-# Local external validation set; never a production input or release artifact
-data/icraft/
-
-# Obsidian per-window and cache state; shared vault settings may remain versioned
-docs/.obsidian/workspace.json
-docs/.obsidian/workspace-mobile.json
-docs/.obsidian/cache/
-
-# Logs
-*.log
-
-# Local development journals, AI collaboration/learning notes and release preparation
-/logs/
-/docs/workflow/
-/docs/development/
-/docs/github-preparation.md
+/docs/.obsidian/
 /AGENTS.md
 
-# Installed dependencies, local build products and duplicate documentation backup
-node_modules/
-*.egg-info/
-build/
-dist/
-/docs.zip
-/docs/.obsidian/
+# Generated workspaces and local development notes
+/tmp/
+/.tmp/
+/.discovery/
+/results/generated/
+/outputs/*
+!/outputs/README.md
+/logs/
+*.log
+/docs/workflow/
+/docs/development/
 
-# Session-only inspection and workbook authoring workspaces; retain decision logs
-/logs/orcs-publication-runtime/
-/logs/orcs-publication-inspection/
-/logs/evidence-model-v6/fixture*/
-/logs/evidence-model-v6/previews/
-/logs/evidence-model-v6/artifact-template.xlsx*
-/logs/*-current-path.txt
-/logs/*-preview.png
-/logs/pubmed-milestone-20261008/
-/logs/release-preparation/runtime/
-/logs/release-preparation/reviewed-workbook-preservation.json
-/logs/release-preparation/retired-artifacts.json
+# Raw/intermediate workspaces and isolated external validation
+/data/raw/*
+!/data/raw/.gitkeep
+/data/interim/*
+!/data/interim/.gitkeep
+/data/icraft/
 
-# Large public reference snapshots remain local; receipts and selected evidence
-# are retained in the curated annotation artifacts for reproducibility.
-data/cellosaurus/orcs-annotations/raw/*.txt
-data/cellosaurus/orcs-annotations/raw/*.obo
-data/cellosaurus/orcs-annotations/raw/*.part
+# Large reference snapshots; curated receipts and annotations remain available
+/data/cellosaurus/orcs-annotations/raw/*.txt
+/data/cellosaurus/orcs-annotations/raw/*.obo
+/data/cellosaurus/orcs-annotations/raw/*.part
 
 # Excel session lock files
 ~$*.xlsx
 ~$*.xlsm
 
-# Complete enrichment evidence is published in each run's source-material.zip.
-# Restoring the exact original files must not add large duplicate payloads to Git.
+# Restored copies of bundled native evidence are not duplicate Git payloads.
 /data/orcs/enrichment-runs/20261018/pubmed/*
-!/data/orcs/enrichment-runs/20261018/pubmed/*.xlsx
-!/data/orcs/enrichment-runs/20261018/pubmed/*.manifest.json
-!/data/orcs/enrichment-runs/20261018/pubmed/stage-receipt.json
 /data/orcs/enrichment-runs/20261018/geo/*
-!/data/orcs/enrichment-runs/20261018/geo/*.xlsx
-!/data/orcs/enrichment-runs/20261018/geo/*.manifest.json
-!/data/orcs/enrichment-runs/20261018/geo/stage-receipt.json
 /data/orcs/enrichment-runs/20261018/arrayexpress/*
-!/data/orcs/enrichment-runs/20261018/arrayexpress/*.xlsx
-!/data/orcs/enrichment-runs/20261018/arrayexpress/*.manifest.json
-!/data/orcs/enrichment-runs/20261018/arrayexpress/stage-receipt.json
 /data/orcs/enrichment-runs/20261018/ena/*
-!/data/orcs/enrichment-runs/20261018/ena/*.xlsx
-!/data/orcs/enrichment-runs/20261018/ena/*.manifest.json
-!/data/orcs/enrichment-runs/20261018/ena/stage-receipt.json
+!/data/orcs/enrichment-runs/20261018/*/*.xlsx
+!/data/orcs/enrichment-runs/20261018/*/*.manifest.json
+!/data/orcs/enrichment-runs/20261018/*/stage-receipt.json
 
-# PMC native responses are preserved in the verified source archive. Keep local
-# checkpoints, duplicate exports and superseded partial results out of Git.
-/data/orcs/pmc-supplemental-enrichment/20261028/*
-!/data/orcs/pmc-supplemental-enrichment/20261028/source-material.zip
-!/data/orcs/pmc-supplemental-enrichment/20261028/source-material.manifest.json
-!/data/orcs/pmc-supplemental-enrichment/20261028/README.md
+# PMC's verified source bundle replaces loose response/checkpoint copies.
+/data/orcs/pmc-enrichment/20261028/*
+!/data/orcs/pmc-enrichment/20261028/source-material.zip
+!/data/orcs/pmc-enrichment/20261028/source-material.manifest.json
+!/data/orcs/pmc-enrichment/20261028/README.md

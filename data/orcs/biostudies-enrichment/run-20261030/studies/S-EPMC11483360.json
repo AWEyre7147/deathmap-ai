@@ -1,0 +1,362 @@
+{
+  "accession": "S-EPMC11483360",
+  "native": {
+    "accno": "S-EPMC11483360",
+    "attributes": [
+      {
+        "name": "DataSource",
+        "value": "Europe PMC"
+      },
+      {
+        "name": "Title",
+        "value": "Prognosis and progression of phagocytic regulatory factor-related gene combinations in clear cell renal cell carcinoma (ccRCC)."
+      },
+      {
+        "name": "ReleaseDate",
+        "value": "2024-01-01"
+      },
+      {
+        "name": "AttachTo",
+        "value": "EuropePMC"
+      }
+    ],
+    "section": {
+      "type": "Study",
+      "attributes": [
+        {
+          "name": "Title",
+          "value": "Prognosis and progression of phagocytic regulatory factor-related gene combinations in clear cell renal cell carcinoma (ccRCC)."
+        },
+        {
+          "name": "Abstract",
+          "value": "<h4>Background</h4>Developing signatures based on specific characteristics to predict prognosis has become a research hotspot in oncology. However, the prognostic value of phagocytosis regulators in clear cell renal cell carcinoma (ccRCC) remains unclear. The aim of the present study was to investigate the prognostic significance of phagocytosis regulators in ccRCC by constructing a prognostic model related to phagocytosis regulators, and to use this model to evaluate the prognosis and treatment effects in ccRCC patients.<h4>Methods</h4>Firstly, kidney renal clear cell carcinoma (KIRC) transcriptome data (RNA-Seq) and clinical data were downloaded from The Cancer Genome Atlas (TCGA) database. Based on literatures PMID 34497417 and PMID 30397336, 167 of the 173 phagocytosis regulator genes collected in the literature were expressed in TCGA-KIRC. The relationship between these regulators and macrophages was revealed through single-sample gene set enrichment analysis (ssGSEA), and their biological and pathway involvements were further analyzed using Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses. Univariate Cox regression analysis and the least absolute shrinkage and selection operator (LASSO) method were employed to further select phagocytosis regulators with prognostic potential, leading to the construction of a prognostic regression model. Additionally, univariate and multivariate Cox regression analyses were conducted to confirm the prognostic independence of genes associated with phagocytosis regulators. Finally, the relationship between phagocytosis regulator-related genes and patients' immune microenvironments and immunotherapy responses was explored.<h4>Results</h4>We have constructed a prognostic model of a combination of genes associated with phagocytosis regulators using LASSO Cox regression analysis of genes, and our combined model was shown to be an independent prognostic factor. The model had optimal performance in predicting long-term survival. Clinical features were significantly correlated with phagocytosis regulatory gene scores. Tumors with higher levels of grade and stage were more prone to have higher phagocytosis regulatory genes. And our study suggests that phagocytosis regulatory genes do not play an ideal role in predicting the efficacy of immunotherapy in patients.<h4>Conclusions</h4>We have constructed a prognostic model using a combination of genes associated with phagocytosis regulators, providing new insights into the prognosis and progression of ccRCC."
+        }
+      ],
+      "files": [
+        {
+          "path": "tcr-13-09-4878-coif.pdf",
+          "size": 311711,
+          "type": "file"
+        },
+        {
+          "path": "tcr-13-09-4878-prf.pdf",
+          "size": 86908,
+          "type": "file"
+        },
+        {
+          "path": "tcr-13-09-4878-rc.pdf",
+          "size": 445024,
+          "type": "file"
+        },
+        {
+          "path": "tcr-13-09-4878-supplementary.pdf",
+          "size": 2627602,
+          "type": "file"
+        }
+      ],
+      "links": [
+        [
+          {
+            "url": "GSE167573",
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "geo"
+              }
+            ]
+          }
+        ]
+      ],
+      "subsections": [
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "NIA NIH HHS"
+            },
+            {
+              "name": "grant_id",
+              "value": "R01 AG070042"
+            }
+          ]
+        },
+        {
+          "type": "Publication",
+          "attributes": [
+            {
+              "name": "Journal",
+              "value": "Translational cancer research"
+            },
+            {
+              "name": "Volume",
+              "value": "13(9)"
+            },
+            {
+              "name": "Pages",
+              "value": "4878-4895"
+            },
+            {
+              "name": "Publication date",
+              "value": "2024 Sep"
+            }
+          ],
+          "links": [
+            [
+              {
+                "url": "10.21037/tcr-24-139",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "DOI"
+                  }
+                ]
+              },
+              {
+                "url": "PMC11483360",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "PMC"
+                  }
+                ]
+              },
+              {
+                "url": "39430817",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "PMID"
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "accno": "a1",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Xiao R"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a2",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Luo Z"
+            },
+            {
+              "name": "affiliation",
+              "value": "o2",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a3",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Huang H"
+            },
+            {
+              "name": "affiliation",
+              "value": "o2",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a4",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Yin Y"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "o1",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Department of Urology, Jiangxi Academy of Medical Science, Nanchang University, Nanchang, China"
+            }
+          ]
+        },
+        {
+          "accno": "o2",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Department of Urology, The Second Affiliated Hospital, Jiangxi Medical College, Nanchang University, Nanchang, China"
+            }
+          ]
+        },
+        {
+          "type": "ExtractedLinks"
+        }
+      ]
+    },
+    "type": "submission"
+  },
+  "source": {
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-EPMC11483360",
+    "retrieved_utc": "2026-10-31T00:49:57.041453+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "fe17bb0f343f6ea05fd3f35b8069bc14aab7dcea644812ec5f6648d230d1c47f",
+    "body": "native/6319561c21d5d43b20bacd5464cb5ccfd2c3cd147a116be0ba3edc799525eacd.body"
+  },
+  "info": {
+    "columns": [
+      {
+        "name": "Name",
+        "title": "Name",
+        "visible": true,
+        "searchable": true,
+        "data": "Name",
+        "defaultContent": ""
+      },
+      {
+        "name": "Size",
+        "title": "Size",
+        "visible": true,
+        "searchable": false,
+        "data": "Size",
+        "defaultContent": ""
+      }
+    ],
+    "files": 4,
+    "httpLink": "https://ftp.ebi.ac.uk/pub/databases/biostudies/S-EPMC/360/S-EPMC11483360",
+    "ftpLink": "ftp://ftp.ebi.ac.uk/pub/databases/biostudies/S-EPMC/360/S-EPMC11483360",
+    "globusLink": "https://app.globus.org/file-manager?origin_id=47772002-3e5b-4fd3-b97c-18cee38d6df2&origin_path=/pub/databases/biostudies/S-EPMC/360/S-EPMC11483360",
+    "isPublic": true,
+    "relPath": "S-EPMC/360/S-EPMC11483360",
+    "hasZippedFolders": false,
+    "views": 0,
+    "released": 1704067200000,
+    "modified": 1784120928630,
+    "sections": [],
+    "sectionFileCounts": {}
+  },
+  "files": [
+    {
+      "path": "tcr-13-09-4878-coif.pdf",
+      "size": 311711,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "tcr-13-09-4878-coif.pdf",
+        "size": 311711,
+        "type": "file"
+      }
+    },
+    {
+      "path": "tcr-13-09-4878-prf.pdf",
+      "size": 86908,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "tcr-13-09-4878-prf.pdf",
+        "size": 86908,
+        "type": "file"
+      }
+    },
+    {
+      "path": "tcr-13-09-4878-rc.pdf",
+      "size": 445024,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "tcr-13-09-4878-rc.pdf",
+        "size": 445024,
+        "type": "file"
+      }
+    },
+    {
+      "path": "tcr-13-09-4878-supplementary.pdf",
+      "size": 2627602,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "tcr-13-09-4878-supplementary.pdf",
+        "size": 2627602,
+        "type": "file"
+      }
+    }
+  ],
+  "issues": [],
+  "info_source": {
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-EPMC11483360/info",
+    "retrieved_utc": "2026-10-31T00:50:03.271931+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "ad3040780782e982b68aa8a1d46b6a1656a5ddf4f1a38e4f77e67cbb299562e5",
+    "body": "native/569570b4dc871d7920a17c266af5265ab16dbb41ce846c0400379c2d93f3708e.body"
+  },
+  "links": [
+    {
+      "url": "GSE167573",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "geo"
+        }
+      ]
+    },
+    {
+      "url": "10.21037/tcr-24-139",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "DOI"
+        }
+      ]
+    },
+    {
+      "url": "PMC11483360",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "PMC"
+        }
+      ]
+    },
+    {
+      "url": "39430817",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "PMID"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0414",
+    "PMID": "36543916",
+    "DOI": "10.1038/s41588-022-01261-2",
+    "PMCID": "PMC9839450",
+    "Title": "A genome-wide CRISPR screen identifies CALCOCO2 as a regulator of beta cell function influencing type 2 diabetes risk.",
+    "ORCS Publication ID": "1168",
+    "ORCS Publication Index": "PUB-0414",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC9839450",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41588-022-01261-2%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:36:36.016821+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "e4b4a21742ae07d145a1cf2d471bc720f710a12f28388619f1f7ce56073c6670",
+        "body": "native/27014619ee3ba3e97a341b95a9527abcecb8320e50d8c43fb8e6ae416eae1b98.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9839450",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236543916%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:36:42.026783+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "e3aecd439893714e7dc86ce73d02124141eb80f9b18bf28f19ad3437431327a0",
+        "body": "native/241177da6a9496be5369bba84c12110c671ee56a696c87567b2e9987152793ac.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9839450",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9839450%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:36:48.022014+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "49dd46e2a3e462c583c148bd9aa857b5535e29440f23c6dbf23a02dae66cd412",
+        "body": "native/88a4fad216c3ba54126e1a2ea0a5ff8b569ab499a2e3a5737a9325b650e73395.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9839450",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+genome-wide+CRISPR+screen+identifies+CALCOCO2+as+a+regulator+of+beta+cell+function+influencing+type+2+diabetes+risk.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:36:54.025291+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "4bd182b41e97e2f6d54a53b313bd36a16071c553fa9ff23ba04ab66fdf7f200a",
+        "body": "native/5db633c6c35cc91bb4125c161e00507f846d6eeefebd019c1c214ceee52bf2c5.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41588-022-01261-2%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236543916%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9839450%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+genome-wide+CRISPR+screen+identifies+CALCOCO2+as+a+regulator+of+beta+cell+function+influencing+type+2+diabetes+risk.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A36543916&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

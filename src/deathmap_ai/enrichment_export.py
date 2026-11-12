@@ -120,13 +120,27 @@ def export_registered(template, output, tables, *, overflow_sidecar=False):
                     spec = members[item.filename]
                     xml = source.read(item.filename).decode()
                     node = ET.fromstring(xml)
+                    # Excel column styles carry the owner's body font,
+                    # alignment and wrapping even in a header-only template.
+                    # Writing an explicit default style would override them.
+                    column_styles = {}
+                    column_definitions = node.find(q('cols'))
+                    if column_definitions is not None:
+                        for definition in column_definitions:
+                            if definition.get('style') is not None:
+                                for column in range(int(definition.get('min')), min(
+                                        int(definition.get('max')), len(spec['headers'])) + 1):
+                                    column_styles[column] = int(definition.get('style'))
                     data = node.find(q('sheetData'))
-                    if len(data) != 1:
+                    # Owner templates may contain styled empty body rows. Reject
+                    # actual body values, but omit empty placeholders on export.
+                    if not len(data) or any(cell.find(q('v')) is not None or cell.find(q('is')) is not None
+                            or cell.find(q('f')) is not None for row in list(data)[1:] for cell in row):
                         raise ValueError('Expected header-only template')
                     # Keep the original header bytes and worksheet properties;
                     # only the data extent and appended body rows change.
                     block = re.search(r'<(?:\w+:)?sheetData\b[^>]*>(.*?)</(?:\w+:)?sheetData>', xml, re.S)
-                    header = block[1]
+                    header = re.match(r'\s*<(?:\w+:)?row\b.*?</(?:\w+:)?row>', block[1], re.S)[0]
                     extent = 'A1:' + get_column_letter(len(spec['headers'])) + str(counts[spec['name']] + 1)
                     dimension = '<dimension xmlns="' + NS + '" ref="' + extent + '"/>'
                     xml, replaced = re.subn(r'<(?:\w+:)?dimension\b[^>]*/>', dimension, xml, count=1)
@@ -140,7 +154,7 @@ def export_registered(template, output, tables, *, overflow_sidecar=False):
                             cells = []
                             for column, value in enumerate(row, 1):
                                 address = get_column_letter(column) + str(number)
-                                start = f'<c r="{address}" s="{body_style}"'
+                                start = f'<c r="{address}" s="{column_styles.get(column, body_style)}"'
                                 if value is None or value == '':
                                     cell = start + '/>'
                                 elif isinstance(value, bool):
@@ -148,7 +162,8 @@ def export_registered(template, output, tables, *, overflow_sidecar=False):
                                 elif isinstance(value, (int, float)):
                                     cell = start + ' t="n"><v>' + str(value) + '</v></c>'
                                 else:
-                                    cell = start + ' t="inlineStr"><is><t xml:space="preserve">' + escape(value) + '</t></is></c>'
+                                    # XML normalizes literal CRLF; references preserve native text.
+                                    cell = start + ' t="inlineStr"><is><t xml:space="preserve">' + escape(value).replace(chr(13), '&#13;') + '</t></is></c>'
                                 cells.append(cell)
                             body.write((f'<row xmlns="{NS}" r="{number}">' + ''.join(cells) + '</row>').encode())
                         body.write(xml[block.end(1):].encode())
@@ -186,16 +201,18 @@ def main():
     parser.add_argument('--output', type=Path, required=True)
     parser.add_argument('--root', type=Path, default=Path(__file__).resolve().parents[2])
     args = parser.parse_args()
-    if args.database.suffix == '.gz':
-        with gzip.open(args.database, 'rt', encoding='utf-8') as stream:
-            data = json.load(stream)
-    else:
-        data = json.loads(args.database.read_text(encoding='utf-8'))
+    from .json_storage import load_json, resolve_json_path
+    args.database = resolve_json_path(args.database)
+    data = load_json(args.database)
     if data.get('schema_version', '').startswith('enrichment-synthesis/'):
         from .enrichment_commands import synthesis_tables
         tables = synthesis_tables(data, args.root)
     else:
-        tables = data.get('rows', data.get('tables'))
+        tables = data.get('display_rows', data.get('rows', data.get('tables')))
+        if data.get('schema_version', '').startswith('pubmed-enrichment') and 'display_rows' not in data:
+            from .pubmed_layout import indexed_tables
+            registry = json.loads((args.root / 'data/orcs/enrichment-publication-registry.json').read_text(encoding='utf-8'))
+            tables = indexed_tables(data, registry, args.root / 'data/identifiers/supplemental-index-registry.json')
     receipt = export_registered(args.template, args.output, tables,
         overflow_sidecar=data.get('schema_version', '').startswith('enrichment-synthesis/'))
     receipt.update(source_database=str(args.database.resolve()),

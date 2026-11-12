@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0015",
+    "PMID": "28162770",
+    "DOI": "10.1016/j.cell.2017.01.013",
+    "PMCID": "PMC5445660",
+    "Title": "Gene Essentiality Profiling Reveals Gene Networks and Synthetic Lethal Interactions with Oncogenic Ras.",
+    "ORCS Publication ID": "12",
+    "ORCS Publication Index": "PUB-0015",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC5445660",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.cell.2017.01.013%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:26:36.874003+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "74924ba890c2d0335b306974b17ed4085c05fb10bcdf03c2c6b68282cb3b9b2d",
+        "body": "native/73e96cf97be0e2b1c7ad6f706951cc08b43f6df4d9b2ba909722cf9f2e55a15e.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5445660",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2228162770%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:26:45.687424+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "334c514aa1b7f3e532a58bf3bdcd41d3aa4a7203e9244dd74a069f9bed8e7a1d",
+        "body": "native/51dfe826e857297b5718c9041c80ae152ccc0dba11e2b231353124ecb0def861.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5445660",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC5445660%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:26:49.573898+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "863db2023085d311d9b0a5452b8444541ee75ff205a8b859bec5d15b9dd32b82",
+        "body": "native/5a120ed8d235875402a7c9a73716ed3da655dab31e070a22825af7295c49894e.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC5445660",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Gene+Essentiality+Profiling+Reveals+Gene+Networks+and+Synthetic+Lethal+Interactions+with+Oncogenic+Ras.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:26:56.114874+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "6dd526595228289a981cdbc8b6dbbc88c7a3fe312463e140b1d5e9df1378c82e",
+        "body": "native/9ea05a65e71ff97f76b83e01b56b6dd47cdd152ece564f026213348fb2a6e31a.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.cell.2017.01.013%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2228162770%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC5445660%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Gene+Essentiality+Profiling+Reveals+Gene+Networks+and+Synthetic+Lethal+Interactions+with+Oncogenic+Ras.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A28162770&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

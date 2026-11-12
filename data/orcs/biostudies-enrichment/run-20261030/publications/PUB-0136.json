@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0136",
+    "PMID": "32238925",
+    "DOI": "10.1038/s41586-020-2099-x",
+    "PMCID": "PMC7368463",
+    "Title": "CRISPR screens in cancer spheroids identify 3D growth-specific vulnerabilities.",
+    "ORCS Publication ID": "356",
+    "ORCS Publication Index": "PUB-0136",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC7368463",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41586-020-2099-x%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:34:44.064163+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "6a529660a0c79d575d63345e1d2346e074ff04f845481b831ff877b2a78c173a",
+        "body": "native/4672bd75dd8ebf00d8343643d7255f60e25d9c9569fc29f85f7f398c3cadcedb.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7368463",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2232238925%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:34:50.971985+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "3dae2b31e69ec75b201f89fc6b256e4d15e479ea1d007988f42c23e2be64119a",
+        "body": "native/651d3c34a56a461a5d0b15abfc84253a67e8486a863c1ddfa9e90ef25cc63fdc.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7368463",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7368463%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:34:54.839751+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "ee1489393d6deed488cf5f1cfb2af399aadf49c4aa62db5cc027081d1b94af45",
+        "body": "native/4f2f68c16f5559b76b318a7c19e19e9f07d7ef776966d656c2755640693c62f8.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7368463",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22CRISPR+screens+in+cancer+spheroids+identify+3D+growth-specific+vulnerabilities.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:34:59.322200+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "9f4c036a9ab0d233eaf2f719fcb1e248e1056e1062627b6da55593675e5833e2",
+        "body": "native/7822471279514ef0962e9b8f9348e1365e4c25a1073a0904520ad3ce352d14cc.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41586-020-2099-x%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2232238925%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7368463%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22CRISPR+screens+in+cancer+spheroids+identify+3D+growth-specific+vulnerabilities.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A32238925&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

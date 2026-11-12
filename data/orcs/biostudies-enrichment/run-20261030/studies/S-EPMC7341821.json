@@ -1,0 +1,676 @@
+{
+  "accession": "S-EPMC7341821",
+  "native": {
+    "accno": "S-EPMC7341821",
+    "attributes": [
+      {
+        "name": "DataSource",
+        "value": "Europe PMC"
+      },
+      {
+        "name": "Title",
+        "value": "A Genome-wide CRISPR Screen Reveals a Role for the Non-canonical Nucleosome-Remodeling BAF Complex in Foxp3 Expression and Regulatory T Cell Function."
+      },
+      {
+        "name": "ReleaseDate",
+        "value": "2020-01-01"
+      },
+      {
+        "name": "AttachTo",
+        "value": "EuropePMC"
+      }
+    ],
+    "section": {
+      "type": "Study",
+      "attributes": [
+        {
+          "name": "Title",
+          "value": "A Genome-wide CRISPR Screen Reveals a Role for the Non-canonical Nucleosome-Remodeling BAF Complex in Foxp3 Expression and Regulatory T Cell Function."
+        },
+        {
+          "name": "Abstract",
+          "value": "Regulatory T (Treg) cells play a pivotal role in suppressing auto-reactive T cells and maintaining immune homeostasis. Treg cell development and function are dependent on the transcription factor Foxp3. Here, we performed a genome-wide CRISPR loss-of-function screen to identify Foxp3 regulators in mouse primary Treg cells. Foxp3 regulators were enriched in genes encoding subunits of the SWI/SNF nucleosome-remodeling and SAGA chromatin-modifying complexes. Among the three SWI/SNF-related complexes, the Brd9-containing non-canonical (nc) BAF complex promoted Foxp3 expression, whereas the PBAF complex was repressive. Chemical-induced degradation of Brd9 led to reduced Foxp3 expression and reduced Treg cell function in vitro. Brd9 ablation compromised Treg cell function in inflammatory disease and tumor immunity in vivo. Furthermore, Brd9 promoted Foxp3 binding and expression of a subset of Foxp3 target genes. Our findings provide an unbiased analysis of the genetic networks regulating Foxp3 and reveal ncBAF as a target for therapeutic manipulation of Treg cell function."
+        }
+      ],
+      "files": [
+        {
+          "path": "mmc1.pdf",
+          "size": 500045,
+          "type": "file"
+        },
+        {
+          "path": "mmc2.xlsx",
+          "size": 1258346,
+          "type": "file"
+        },
+        {
+          "path": "mmc3.xlsx",
+          "size": 82085,
+          "type": "file"
+        },
+        {
+          "path": "mmc4.xlsx",
+          "size": 35011,
+          "type": "file"
+        },
+        {
+          "path": "mmc5.xlsx",
+          "size": 52606,
+          "type": "file"
+        },
+        {
+          "path": "mmc6.xlsx",
+          "size": 49861,
+          "type": "file"
+        },
+        {
+          "path": "mmc7.pdf",
+          "size": 13182101,
+          "type": "file"
+        }
+      ],
+      "links": [
+        [
+          {
+            "url": "GSE129846",
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "geo"
+              }
+            ]
+          },
+          {
+            "url": "C34571",
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "ENA"
+              }
+            ]
+          }
+        ]
+      ],
+      "subsections": [
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "NCI NIH HHS"
+            },
+            {
+              "name": "grant_id",
+              "value": "T32 CA009370"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "National Institutes of Health"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "NCI NIH HHS"
+            },
+            {
+              "name": "grant_id",
+              "value": "R00 CA184043"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "NCI NIH HHS"
+            },
+            {
+              "name": "grant_id",
+              "value": "K99 CA184043"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "NIAID NIH HHS"
+            },
+            {
+              "name": "grant_id",
+              "value": "R01 AI151123"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "NIGMS NIH HHS"
+            },
+            {
+              "name": "grant_id",
+              "value": "R35 GM128943"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "NIGMS NIH HHS"
+            },
+            {
+              "name": "grant_id",
+              "value": "F32 GM128377"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "NCI NIH HHS"
+            },
+            {
+              "name": "grant_id",
+              "value": "P30 CA014195"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "NIAID NIH HHS"
+            },
+            {
+              "name": "grant_id",
+              "value": "R01 AI107027"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "NCI NIH HHS"
+            },
+            {
+              "name": "grant_id",
+              "value": "R01 CA228211"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "NIH HHS"
+            },
+            {
+              "name": "grant_id",
+              "value": "S10 OD023689"
+            }
+          ]
+        },
+        {
+          "type": "Publication",
+          "attributes": [
+            {
+              "name": "Journal",
+              "value": "Immunity"
+            },
+            {
+              "name": "Volume",
+              "value": "53(1)"
+            },
+            {
+              "name": "Pages",
+              "value": "143-157.e8"
+            },
+            {
+              "name": "Publication date",
+              "value": "2020 Jul"
+            }
+          ],
+          "links": [
+            [
+              {
+                "url": "10.1016/j.immuni.2020.06.011",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "DOI"
+                  }
+                ]
+              },
+              {
+                "url": "PMC7341821",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "PMC"
+                  }
+                ]
+              },
+              {
+                "url": "32640256",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "PMID"
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "accno": "a1",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Loo CS"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0001-7915-2995"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a2",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Gatchalian J"
+            },
+            {
+              "name": "affiliation",
+              "value": "o2",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a3",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Liang Y"
+            },
+            {
+              "name": "affiliation",
+              "value": "o3",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a4",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Leblanc M"
+            },
+            {
+              "name": "affiliation",
+              "value": "o3",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a5",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Xie M"
+            },
+            {
+              "name": "affiliation",
+              "value": "o3",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a6",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Ho J"
+            },
+            {
+              "name": "affiliation",
+              "value": "o2",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a7",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Venkatraghavan B"
+            },
+            {
+              "name": "affiliation",
+              "value": "o3",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a8",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Hargreaves DC"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0003-3724-3826"
+            },
+            {
+              "name": "affiliation",
+              "value": "o4",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a9",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Zheng Y"
+            },
+            {
+              "name": "affiliation",
+              "value": "o5",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "o2",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Molecular and Cellular Biology Laboratory, Salk Institute for Biological Studies, La Jolla, CA, USA"
+            }
+          ]
+        },
+        {
+          "accno": "o4",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Molecular and Cellular Biology Laboratory, Salk Institute for Biological Studies, La Jolla, CA, USA. Electronic address: dhargreaves@salk.edu"
+            }
+          ]
+        },
+        {
+          "accno": "o3",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "NOMIS Center for Immunobiology and Microbial Pathogenesis, Salk Institute for Biological Studies, La Jolla, CA, USA"
+            }
+          ]
+        },
+        {
+          "accno": "o5",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "NOMIS Center for Immunobiology and Microbial Pathogenesis, Salk Institute for Biological Studies, La Jolla, CA, USA. Electronic address: yzheng@salk.edu"
+            }
+          ]
+        },
+        {
+          "accno": "o1",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "NOMIS Center for Immunobiology and Microbial Pathogenesis, Salk Institute for Biological Studies, La Jolla, CA, USA; Division of Biological Sciences, University of California, San Diego, La Jolla, CA, USA"
+            }
+          ]
+        },
+        {
+          "type": "ExtractedLinks",
+          "attributes": [
+            {
+              "name": "Link List",
+              "value": "S-EPMC7341821_extracted_links.json"
+            }
+          ]
+        }
+      ]
+    },
+    "type": "submission"
+  },
+  "source": {
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-EPMC7341821",
+    "retrieved_utc": "2026-10-31T00:55:19.510022+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "6ed0eaf34f2e1432314ec1313348867b5e2bd5d536eedc3609d03d5ff0923005",
+    "body": "native/304d6f189aceb508365de7939a498165b938d4c848d177c97484dcc48eed0b7b.body"
+  },
+  "info": {
+    "columns": [
+      {
+        "name": "Name",
+        "title": "Name",
+        "visible": true,
+        "searchable": true,
+        "data": "Name",
+        "defaultContent": ""
+      },
+      {
+        "name": "Size",
+        "title": "Size",
+        "visible": true,
+        "searchable": false,
+        "data": "Size",
+        "defaultContent": ""
+      }
+    ],
+    "files": 7,
+    "httpLink": "https://ftp.ebi.ac.uk/pub/databases/biostudies/S-EPMC/821/S-EPMC7341821",
+    "ftpLink": "ftp://ftp.ebi.ac.uk/pub/databases/biostudies/S-EPMC/821/S-EPMC7341821",
+    "globusLink": "https://app.globus.org/file-manager?origin_id=47772002-3e5b-4fd3-b97c-18cee38d6df2&origin_path=/pub/databases/biostudies/S-EPMC/821/S-EPMC7341821",
+    "isPublic": true,
+    "relPath": "S-EPMC/821/S-EPMC7341821",
+    "hasZippedFolders": false,
+    "views": 0,
+    "released": 1577836800000,
+    "modified": 1776022813493,
+    "sections": [],
+    "sectionFileCounts": {}
+  },
+  "files": [
+    {
+      "path": "mmc1.pdf",
+      "size": 500045,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "mmc1.pdf",
+        "size": 500045,
+        "type": "file"
+      }
+    },
+    {
+      "path": "mmc2.xlsx",
+      "size": 1258346,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "mmc2.xlsx",
+        "size": 1258346,
+        "type": "file"
+      }
+    },
+    {
+      "path": "mmc3.xlsx",
+      "size": 82085,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "mmc3.xlsx",
+        "size": 82085,
+        "type": "file"
+      }
+    },
+    {
+      "path": "mmc4.xlsx",
+      "size": 35011,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "mmc4.xlsx",
+        "size": 35011,
+        "type": "file"
+      }
+    },
+    {
+      "path": "mmc5.xlsx",
+      "size": 52606,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "mmc5.xlsx",
+        "size": 52606,
+        "type": "file"
+      }
+    },
+    {
+      "path": "mmc6.xlsx",
+      "size": 49861,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "mmc6.xlsx",
+        "size": 49861,
+        "type": "file"
+      }
+    },
+    {
+      "path": "mmc7.pdf",
+      "size": 13182101,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "mmc7.pdf",
+        "size": 13182101,
+        "type": "file"
+      }
+    }
+  ],
+  "issues": [],
+  "info_source": {
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-EPMC7341821/info",
+    "retrieved_utc": "2026-10-31T00:55:25.514129+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "3e9a58742eab53a6cc63add22050889f873b2070ba5d688e03e71c752689407f",
+    "body": "native/c264decb92e58aaaca7a84ba8de7925b0146ba8cfab4e3908b03e45e2d901f9c.body"
+  },
+  "links": [
+    {
+      "url": "GSE129846",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "geo"
+        }
+      ]
+    },
+    {
+      "url": "C34571",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "ENA"
+        }
+      ]
+    },
+    {
+      "url": "10.1016/j.immuni.2020.06.011",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "DOI"
+        }
+      ]
+    },
+    {
+      "url": "PMC7341821",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "PMC"
+        }
+      ]
+    },
+    {
+      "url": "32640256",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "PMID"
+        }
+      ]
+    }
+  ]
+}

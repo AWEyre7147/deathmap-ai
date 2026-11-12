@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0388",
+    "PMID": "36417855",
+    "DOI": "10.1016/j.celrep.2022.111675",
+    "PMCID": "PMC9827541",
+    "Title": "Dynamic quality control machinery that operates across compartmental borders mediates the degradation of mammalian nuclear membrane proteins.",
+    "ORCS Publication ID": "1105",
+    "ORCS Publication Index": "PUB-0388",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC9827541",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.celrep.2022.111675%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:34:57.976884+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "3e3f7f1fc5f504090f17810cab93fabe3150cec15565eb4860a69961a1d58c12",
+        "body": "native/080028236c4ed38c1c972236866e2273db323f23fcbcdec4fd425f4413c393f1.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9827541",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236417855%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:35:03.965046+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "828c52831c91edba12db92cb5d1529d64accef48858a49d29e4edc39257616fa",
+        "body": "native/72968bca46bdec2071b1dba7685067f5c4697c4f1bcde393d1473c5a9237c8f5.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9827541",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9827541%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:35:09.978693+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "661ba83a963afe6819e597d42d2f037893a8be6f6c76edce129e169ad47b99c7",
+        "body": "native/9ab4d3b0f0e1f7d129394a0debf0905e6c55478a516bce9d9f9e133d69e97449.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9827541",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Dynamic+quality+control+machinery+that+operates+across+compartmental+borders+mediates+the+degradation+of+mammalian+nuclear+membrane+proteins.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:35:15.970619+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "54d9c4dd6acc04e76b5bcc5408230775234f79144e79e13ceff8773a7acae655",
+        "body": "native/f687f080fa5a7c490cf6fc753ec8172089e15e2e1b76d3b431572dcff485bcc7.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.celrep.2022.111675%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236417855%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9827541%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Dynamic+quality+control+machinery+that+operates+across+compartmental+borders+mediates+the+degradation+of+mammalian+nuclear+membrane+proteins.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A36417855&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

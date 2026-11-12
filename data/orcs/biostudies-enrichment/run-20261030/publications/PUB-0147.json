@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0147",
+    "PMID": "33382968",
+    "DOI": "10.1016/j.cell.2020.12.006",
+    "PMCID": "PMC7796900",
+    "Title": "Genome-Scale Identification of SARS-CoV-2 and Pan-coronavirus Host Factor Networks.",
+    "ORCS Publication ID": "374",
+    "ORCS Publication Index": "PUB-0147",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC7796900",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.cell.2020.12.006%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:35:27.647084+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "fe00922b53000bc1902f11a77517cb166ae193b780a93675cda5b7806881da4a",
+        "body": "native/f1284d39357f2262924205a99cb6ce3f2344d76c6348e038099777d03e97df48.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7796900",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233382968%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:35:33.193686+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "3ac11b98f0f552a6ffa062e36a84efef4e40db432d26807acc087fe81c152f7d",
+        "body": "native/bea465becf2e65a0400e1f8f07b121f75b92914bd6b697e33844885c618904e6.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7796900",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7796900%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:35:36.056453+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "cd65b8845e70a0dcc9bdda8413eb973be33c07ec9e4df50ef2587c2ae856a46c",
+        "body": "native/4d92f91a43433b65c122780348e171c49ec787c6f0ebade9b22858ee6fdb3854.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7796900",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-Scale+Identification+of+SARS-CoV-2+and+Pan-coronavirus+Host+Factor+Networks.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:35:40.487050+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "9753f3a39350c66bd8bed6dd0bc6629633f72044ae38674e57faa26177232c08",
+        "body": "native/dc86df386c9ec5fdbb1f498092c428b8ecbe1ade1994ea2a8ff7c6d25983d328.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.cell.2020.12.006%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233382968%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7796900%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-Scale+Identification+of+SARS-CoV-2+and+Pan-coronavirus+Host+Factor+Networks.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A33382968&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

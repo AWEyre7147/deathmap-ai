@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0251",
+    "PMID": "34016692",
+    "DOI": "10.1101/gad.348316.121",
+    "PMCID": "PMC8168556",
+    "Title": "Protein neddylation as a therapeutic target in pulmonary and extrapulmonary small cell carcinomas.",
+    "ORCS Publication ID": "646",
+    "ORCS Publication Index": "PUB-0251",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC8168556",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1101%2Fgad.348316.121%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:25:50.863448+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "3e3fccfc4e9d544e38cf11a5836329149a81fbdae8879ef516c7217d6a89d1e6",
+        "body": "native/e8db30ec2aaf60743bf5e84efccec93f01a70158d9ea50d0d838fdd28df76a22.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8168556",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2234016692%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:25:56.856541+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "2aa07f2e37b375f7b4c7f9bff0185238eb766864c35aedbb24d1df56b6c5c750",
+        "body": "native/8418ad1034514c82a4713ee3a09f1172fb77b4d806a6837c155b94a3a989a852.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8168556",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC8168556%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:26:02.861354+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "d6d47828a806c354f3451bfb5feb7b1364a0bf86e5fec3fa718a32e97f4beda0",
+        "body": "native/5ec7fe8983a9f4bd8a85a6bfe3b34ee908a4d19b18164374d198c46c5b2bf3bc.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC8168556",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Protein+neddylation+as+a+therapeutic+target+in+pulmonary+and+extrapulmonary+small+cell+carcinomas.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:26:08.866624+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "578d8ac9f7900a807f8f46def557c9b27a52b710c8b31ff3650e2cb8fffd7b17",
+        "body": "native/f5dde95a89678817e53f699ec2729239bcc9269a05ca890219aa9f66f20ecf4a.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1101%2Fgad.348316.121%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2234016692%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC8168556%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Protein+neddylation+as+a+therapeutic+target+in+pulmonary+and+extrapulmonary+small+cell+carcinomas.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A34016692&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

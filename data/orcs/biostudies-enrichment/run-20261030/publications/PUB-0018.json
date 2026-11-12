@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0018",
+    "PMID": "24336571",
+    "DOI": "10.1126/science.1247005",
+    "PMCID": "PMC4089965",
+    "Title": "Genome-scale CRISPR-Cas9 knockout screening in human cells.",
+    "ORCS Publication ID": "15",
+    "ORCS Publication Index": "PUB-0018",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC4089965",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1126%2Fscience.1247005%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:26:59.047307+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "7270ecfe66b14b4dc38b1f0dce158221bb7b7b9df1c3447288713dcae3b85ba2",
+        "body": "native/2bd569fc40cacdb9fcc0a1b2156ffd862eacc4b74ca6267fc5d46356fd7e2a22.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC4089965",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2224336571%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:27:04.143232+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "919d3de07c576a628d95930dcd43bc291b5d03095ec2b49b56b85cf84fb1c3b5",
+        "body": "native/ff86818d8ffd493535fb0afccbba4eb97c019e3284db3dca776670b40e79512a.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC4089965",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC4089965%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:27:11.146583+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "137435b2995e4fa0752b5ba450e260076eb59e380f84faf50492e9fc36c6952a",
+        "body": "native/ad5eef1a674d4bce55acbc90b1e7a11a12f5d264a4a4e98977b1d43d717bcaca.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC4089965",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-scale+CRISPR-Cas9+knockout+screening+in+human+cells.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:27:14.661034+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "fa08c606dde167192a4e833a17e582df7f44c1ceb46c1159ec2f562da95ed46c",
+        "body": "native/d32df5a6fdd8d09f315a2dd5997726e5f2d2e608e9d7cacf6e542f5982d6056f.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1126%2Fscience.1247005%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2224336571%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC4089965%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-scale+CRISPR-Cas9+knockout+screening+in+human+cells.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A24336571&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

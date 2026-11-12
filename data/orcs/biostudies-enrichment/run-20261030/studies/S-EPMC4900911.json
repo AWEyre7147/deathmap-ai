@@ -1,0 +1,371 @@
+{
+  "accession": "S-EPMC4900911",
+  "native": {
+    "accno": "S-EPMC4900911",
+    "attributes": [
+      {
+        "name": "DataSource",
+        "value": "Europe PMC"
+      },
+      {
+        "name": "Title",
+        "value": "Systematic comparison of CRISPR/Cas9 and RNAi screens for essential genes."
+      },
+      {
+        "name": "ReleaseDate",
+        "value": "2016-01-01"
+      },
+      {
+        "name": "AttachTo",
+        "value": "EuropePMC"
+      }
+    ],
+    "section": {
+      "type": "Study",
+      "attributes": [
+        {
+          "name": "Title",
+          "value": "Systematic comparison of CRISPR/Cas9 and RNAi screens for essential genes."
+        },
+        {
+          "name": "Abstract",
+          "value": "We compared the ability of short hairpin RNA (shRNA) and CRISPR/Cas9 screens to identify essential genes in the human chronic myelogenous leukemia cell line K562. We found that the precision of the two libraries in detecting essential genes was similar and that combining data from both screens improved performance. Notably, results from the two screens showed little correlation, which can be partially explained by the identification of distinct essential biological processes with each technology."
+        }
+      ],
+      "files": [
+        {
+          "path": "NIHMS777404-supplement-1.doc",
+          "size": 3638272,
+          "type": "file"
+        },
+        {
+          "path": "NIHMS777404-supplement-2.pdf",
+          "size": 14475972,
+          "type": "file"
+        }
+      ],
+      "links": [
+        [
+          {
+            "url": "PRJNA317269",
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "bioproject"
+              }
+            ]
+          },
+          {
+            "url": "SRP072806",
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "ENA"
+              }
+            ]
+          },
+          {
+            "url": "GO:0005832",
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "go"
+              }
+            ]
+          }
+        ]
+      ],
+      "subsections": [
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "NHGRI NIH HHS"
+            },
+            {
+              "name": "grant_id",
+              "value": "T32 HG000044"
+            }
+          ]
+        },
+        {
+          "type": "Funding",
+          "attributes": [
+            {
+              "name": "Agency",
+              "value": "NICHD NIH HHS"
+            },
+            {
+              "name": "grant_id",
+              "value": "DP2 HD084069"
+            }
+          ]
+        },
+        {
+          "type": "Publication",
+          "attributes": [
+            {
+              "name": "Journal",
+              "value": "Nature biotechnology"
+            },
+            {
+              "name": "Volume",
+              "value": "34(6)"
+            },
+            {
+              "name": "Pages",
+              "value": "634-6"
+            },
+            {
+              "name": "Publication date",
+              "value": "2016 Jun"
+            }
+          ],
+          "links": [
+            [
+              {
+                "url": "10.1038/nbt.3567",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "DOI"
+                  }
+                ]
+              },
+              {
+                "url": "PMC4900911",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "PMC"
+                  }
+                ]
+              },
+              {
+                "url": "27159373",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "PMID"
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "accno": "a1",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Morgens DW"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a2",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Deans RM"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a3",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Li A"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a4",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Bassik MC"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0001-5185-8427"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "o1",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Department of Genetics, Stanford University, Stanford, California, USA"
+            }
+          ]
+        },
+        {
+          "type": "ExtractedLinks"
+        }
+      ]
+    },
+    "type": "submission"
+  },
+  "source": {
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-EPMC4900911",
+    "retrieved_utc": "2026-10-31T00:50:34.264766+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "a7075163908227d28f3869e635bda526197f56f1bff0991014585de7c5c15d78",
+    "body": "native/f8751ec0e599aaae42a4a5f716cc15798ddb630e10e9fa133df9a122f765f669.body"
+  },
+  "info": {
+    "columns": [
+      {
+        "name": "Name",
+        "title": "Name",
+        "visible": true,
+        "searchable": true,
+        "data": "Name",
+        "defaultContent": ""
+      },
+      {
+        "name": "Size",
+        "title": "Size",
+        "visible": true,
+        "searchable": false,
+        "data": "Size",
+        "defaultContent": ""
+      }
+    ],
+    "files": 2,
+    "httpLink": "https://ftp.ebi.ac.uk/pub/databases/biostudies/S-EPMC/911/S-EPMC4900911",
+    "ftpLink": "ftp://ftp.ebi.ac.uk/pub/databases/biostudies/S-EPMC/911/S-EPMC4900911",
+    "globusLink": "https://app.globus.org/file-manager?origin_id=47772002-3e5b-4fd3-b97c-18cee38d6df2&origin_path=/pub/databases/biostudies/S-EPMC/911/S-EPMC4900911",
+    "isPublic": true,
+    "relPath": "S-EPMC/911/S-EPMC4900911",
+    "hasZippedFolders": false,
+    "views": 0,
+    "released": 1451606400000,
+    "modified": 1780095818260,
+    "sections": [],
+    "sectionFileCounts": {}
+  },
+  "files": [
+    {
+      "path": "NIHMS777404-supplement-1.doc",
+      "size": 3638272,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "NIHMS777404-supplement-1.doc",
+        "size": 3638272,
+        "type": "file"
+      }
+    },
+    {
+      "path": "NIHMS777404-supplement-2.pdf",
+      "size": 14475972,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "NIHMS777404-supplement-2.pdf",
+        "size": 14475972,
+        "type": "file"
+      }
+    }
+  ],
+  "issues": [],
+  "info_source": {
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-EPMC4900911/info",
+    "retrieved_utc": "2026-10-31T00:50:40.285032+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "6cdbe3ede7832aaaf41660ebc8d72ef0e2e1f0428a70436295477e2d27eae76a",
+    "body": "native/47d2837825565f8034d8aaa12d73134e54a5ede763e6f58feb11b67deb83fee0.body"
+  },
+  "links": [
+    {
+      "url": "PRJNA317269",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "bioproject"
+        }
+      ]
+    },
+    {
+      "url": "SRP072806",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "ENA"
+        }
+      ]
+    },
+    {
+      "url": "GO:0005832",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "go"
+        }
+      ]
+    },
+    {
+      "url": "10.1038/nbt.3567",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "DOI"
+        }
+      ]
+    },
+    {
+      "url": "PMC4900911",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "PMC"
+        }
+      ]
+    },
+    {
+      "url": "27159373",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "PMID"
+        }
+      ]
+    }
+  ]
+}

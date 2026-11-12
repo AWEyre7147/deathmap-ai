@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0283",
+    "PMID": "35559673",
+    "DOI": "10.1126/sciadv.abm6638",
+    "PMCID": "PMC9106303",
+    "Title": "Genome-wide CRISPR screens using isogenic cells reveal vulnerabilities conferred by loss of tumor suppressors.",
+    "ORCS Publication ID": "727",
+    "ORCS Publication Index": "PUB-0283",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC9106303",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1126%2Fsciadv.abm6638%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:27:57.625676+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "fc390120eb8b20c264a83e76e8716f085473af9f1f8afec61814da71a4bb5274",
+        "body": "native/3ba79cd2694dbff9cb5b0b12f97bf605aa8e0d3551318c62f0505c03fab32e0d.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9106303",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2235559673%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:28:03.635207+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "de2bcbd94d2b76ce8b6d7e22de2abfa820e7780a92ebfab377e2957a36e5b602",
+        "body": "native/0471615b1ff595b12a105a43bc3f332202f8a8e6d48c7a1b0eece53dc58d76e0.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9106303",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9106303%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:28:09.623780+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "4e22016104762d262a98976d70ad56ea200a3e39f221eedf888fc9c85daac786",
+        "body": "native/c82d37ae80e43a4c9030240a64ab0267127c2a6226747adfbd51204ff96fc41b.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9106303",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+CRISPR+screens+using+isogenic+cells+reveal+vulnerabilities+conferred+by+loss+of+tumor+suppressors.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:28:15.845369+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "60d668dadaedb9d7a54b3839d1fac0f6d365258d620cf1c924ec1beb528c71e5",
+        "body": "native/0d2f986cd5fb247857e669ca8969188c523483e1fc0f0ffb7d3e3166615205eb.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1126%2Fsciadv.abm6638%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2235559673%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9106303%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+CRISPR+screens+using+isogenic+cells+reveal+vulnerabilities+conferred+by+loss+of+tumor+suppressors.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A35559673&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0196",
+    "PMID": "33568224",
+    "DOI": "10.1186/s13068-021-01880-7",
+    "PMCID": "PMC7874482",
+    "Title": "CRISPRi screens reveal genes modulating yeast growth in lignocellulose hydrolysate.",
+    "ORCS Publication ID": "496",
+    "ORCS Publication Index": "PUB-0196",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC7874482",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1186%2Fs13068-021-01880-7%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:22:16.615836+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "94ae9f3fe93b8245312ac60b19bcb2c69866a137978824791f237a5f82468674",
+        "body": "native/092803948927698fc211823a261e143f8cde5b950b8e69aa7e5c94f57e817666.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7874482",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233568224%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:22:22.619618+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "e4fc57127ed71badbff3d17b54434ddb339b64fcc918c0e0af0443f1a073b549",
+        "body": "native/da5ab2e960111dd7965e2fb095978171e5914636fafc0562b98fb59c8de392fc.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7874482",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7874482%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:22:28.637199+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "9dc97dc5437897695d12722ff9de4e1220e76009563b12a7fb2681234f5f5075",
+        "body": "native/78c9e91ce24fff1d134f18b026c4a268ad6da86765710898e62115741e335ede.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7874482",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22CRISPRi+screens+reveal+genes+modulating+yeast+growth+in+lignocellulose+hydrolysate.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:22:34.643823+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "43db57973ccea670e2f2eb57c97aaaf622099a032d5c78c89e7be3db997d41e9",
+        "body": "native/23bde6a09ca90af9fe850ebab86b84eae5a686e646ce98e8a640c67682a45916.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1186%2Fs13068-021-01880-7%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233568224%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7874482%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22CRISPRi+screens+reveal+genes+modulating+yeast+growth+in+lignocellulose+hydrolysate.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A33568224&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

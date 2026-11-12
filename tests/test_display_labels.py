@@ -25,19 +25,19 @@ class DisplayLabelTests(unittest.TestCase):
         self.assertEqual(merge_display_values(['adult', '10']), 'adult\n10')
         self.assertEqual(merge_display_values([0, None]), 0)
 
-    def test_arrayexpress_duplicate_field_export(self):
-        template=ROOT/'data/templates/BioStudies-ArrayExpress-Enrichment.xlsx'
-        manifest=json.loads(template.with_suffix('.manifest.json').read_text())
-        tables={s['source_table']:[] for s in manifest['sheets']}
-        tables['Sample metadata']=[{'Study accession':'S1','Age':'adult','age':'10'}]
+    def test_duplicate_native_field_export(self):
+        from openpyxl import Workbook
         with tempfile.TemporaryDirectory(dir=ROOT/'outputs') as folder:
-            out=Path(folder)/'export.xlsx'
-            export_registered(template,out,tables)
-            w=load_workbook(out);s=w['Sample metadata'];headers=[c.value for c in s[1]]
-            self.assertEqual(headers.count('Age'),1)
-            self.assertNotIn('Alternate Age',headers)
-            self.assertEqual(s.cell(2,headers.index('Age')+1).value,'adult\n10')
-            w.close()
+            folder=Path(folder);template=folder/'template.xlsx'
+            book=Workbook();book.active.title='Samples';book.active.append(['Accession','Age']);book.save(template);book.close()
+            manifest={'sha256':hashlib.sha256(template.read_bytes()).hexdigest(),'sheets':[
+                {'name':'Samples','headers':['Accession','Age'],'header_row':1,'first_data_row':2,'source_table':'Samples',
+                 'columns':[{'header':'Accession','source_key':'Accession'},{'header':'Age','source_keys':['Age','age']}]}]}
+            template.with_suffix('.manifest.json').write_text(json.dumps(manifest))
+            out=folder/'export.xlsx'
+            export_registered(template,out,{'Samples':[{'Accession':'S1','Age':'adult','age':'10'}]})
+            book=load_workbook(out)
+            self.assertEqual(book['Samples']['B2'].value,'adult\n10');book.close()
 
     def test_identifier_labels_follow_namespace_not_provider(self):
         self.assertEqual(identifier_label('GEO','Series Records','geo_accession',''), 'GEO Series Accession')
@@ -49,7 +49,7 @@ class DisplayLabelTests(unittest.TestCase):
 
     def test_synthesis_projection_matches_all_registered_display_keys(self):
         from deathmap_ai.enrichment_commands import synthesis_tables
-        registration=json.loads((ROOT/'data/templates/Enrichment-Synthesis.manifest.json').read_text())
+        registration=json.loads((ROOT/'data/templates/history/synthesis-four-source/Enrichment-Synthesis-Template.manifest.json').read_text())
         data={'tables':{}}
         for spec in registration['sheets']:
             row={}
@@ -78,18 +78,32 @@ class DisplayLabelTests(unittest.TestCase):
             for spec in manifest['sheets']:
                 headers=[c.value for c in w[spec['name']][1]]
                 self.assertEqual(headers,spec['headers'])
-                self.assertEqual(headers,readable_headers(headers))
+                # The owner's accepted Mendeley headings retain MD and lowercase
+                # bytes. Renaming the template must preserve those exact labels.
+                if path.name == 'Mendeley-Data-Enrichment-Template.manifest.json':
+                    normalized = [h if h.startswith('MD ') or h == 'Size (bytes)' else readable_headers([h])[0]
+                                  for h in headers]
+                elif path.name == 'Enrichment-Synthesis-Template.manifest.json':
+                    # The supplied synthesis workbook deliberately retains owner
+                    # labels (including spelling/spacing); aliases map every key.
+                    self.assertEqual(manifest['projection'], 'enrichment-consolidation/1')
+                    self.assertEqual([c['header'] for c in spec['columns']], headers)
+                    self.assertTrue(all(c.get('source_key') for c in spec['columns']))
+                    normalized = headers
+                else:
+                    normalized = readable_headers(headers)
+                self.assertEqual(headers, normalized)
             w.close()
 
     def test_geo_export_keeps_native_channel_keys(self):
-        template=ROOT/'data/templates/GEO-Enrichment.xlsx'
+        template=ROOT/'data/templates/GEO-Enrichment-Template.xlsx'
         manifest=json.loads(template.with_suffix('.manifest.json').read_text())
         tables={s['source_table']:[] for s in manifest['sheets']}
         tables['Sample Metadata']=[{'PMID':'123','GSM':'GSM1','source_name_ch1':'=literal source','organism_ch1':'human'}]
         with tempfile.TemporaryDirectory(dir=ROOT/'outputs') as folder:
             out=Path(folder)/'export.xlsx'
             export_registered(template,out,tables)
-            w=load_workbook(out);s=w['Sample Metadata'];headers=[c.value for c in s[1]]
+            w=load_workbook(out);s=w['Samples'];headers=[c.value for c in s[1]]
             self.assertEqual(s.cell(2,headers.index('Source Name')+1).value,'=literal source')
             self.assertEqual(s.cell(2,headers.index('Organism')+1).value,'human')
             self.assertEqual(s.cell(2,headers.index('Source Name')+1).data_type,'s')

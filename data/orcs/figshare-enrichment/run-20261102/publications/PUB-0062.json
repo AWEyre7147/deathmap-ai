@@ -1,0 +1,1714 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0062",
+    "PMID": "30951565",
+    "DOI": "10.1371/journal.ppat.1007704",
+    "PMCID": "PMC6469816",
+    "Title": "Unique features in the intracellular transport of typhoid toxin revealed by a genome-wide screen.",
+    "ORCS Publication ID": "139",
+    "ORCS Publication Index": "PUB-0062"
+  },
+  "outcome": "retrieved",
+  "search_complete": true,
+  "search_receipts": [
+    {
+      "url": "https://api.figshare.com/v2/articles/search",
+      "method": "POST",
+      "query": {
+        "resource_doi": "10.1371/journal.ppat.1007704",
+        "page": 1,
+        "page_size": 100
+      },
+      "retrieved_utc": "2026-11-02T20:25:59.185856+00:00",
+      "attempt": 1,
+      "http_status": 200,
+      "sha256": "d3d3ece4ee66d89f0666ae7a44235ec28d9ddb18e7c9d306f5c0229c5b2a6f36",
+      "bytes": 8034,
+      "file": "native/864f702f2df040c3033e6e01735b7033e068b0a5d538e92e60697f933fb98098.body"
+    }
+  ],
+  "items": [
+    {
+      "metadata": {
+        "files": [
+          {
+            "id": 14816243,
+            "name": "ppat.1007704.s001.docx",
+            "size": 759463,
+            "is_link_only": false,
+            "download_url": "https://ndownloader.figshare.com/files/14816243",
+            "supplied_md5": "c68ff9738868b0c08f7904d1272eab71",
+            "computed_md5": "c68ff9738868b0c08f7904d1272eab71",
+            "mimetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+          },
+          {
+            "id": 14816246,
+            "name": "ppat.1007704.s002.docx",
+            "size": 363945,
+            "is_link_only": false,
+            "download_url": "https://ndownloader.figshare.com/files/14816246",
+            "supplied_md5": "0e2a3185ae3eb35ee1ad728e38e5247d",
+            "computed_md5": "0e2a3185ae3eb35ee1ad728e38e5247d",
+            "mimetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+          },
+          {
+            "id": 14816249,
+            "name": "ppat.1007704.s003.xls",
+            "size": 9500672,
+            "is_link_only": false,
+            "download_url": "https://ndownloader.figshare.com/files/14816249",
+            "supplied_md5": "288d8da1e57ed7f4de72e8c273e06803",
+            "computed_md5": "288d8da1e57ed7f4de72e8c273e06803",
+            "mimetype": "application/CDFV2"
+          },
+          {
+            "id": 14816252,
+            "name": "ppat.1007704.s004.xls",
+            "size": 14086656,
+            "is_link_only": false,
+            "download_url": "https://ndownloader.figshare.com/files/14816252",
+            "supplied_md5": "fb0fd9c67e4da07a425f5fec666c7c6f",
+            "computed_md5": "fb0fd9c67e4da07a425f5fec666c7c6f",
+            "mimetype": "application/CDFV2"
+          },
+          {
+            "id": 14816255,
+            "name": "ppat.1007704.s005.pdf",
+            "size": 19238,
+            "is_link_only": false,
+            "download_url": "https://ndownloader.figshare.com/files/14816255",
+            "supplied_md5": "8d040b67717522aa76649ad48acd446d",
+            "computed_md5": "8d040b67717522aa76649ad48acd446d",
+            "mimetype": "application/pdf"
+          },
+          {
+            "id": 14816258,
+            "name": "ppat.1007704.s006.pdf",
+            "size": 53290,
+            "is_link_only": false,
+            "download_url": "https://ndownloader.figshare.com/files/14816258",
+            "supplied_md5": "c171bd6be102c3448dc520986616ca36",
+            "computed_md5": "c171bd6be102c3448dc520986616ca36",
+            "mimetype": "application/pdf"
+          }
+        ],
+        "folder_structure": {},
+        "authors": [
+          {
+            "id": 449259,
+            "full_name": "Shu-Jung Chang",
+            "first_name": "Shu-Jung",
+            "last_name": "Chang",
+            "is_active": false,
+            "url_name": "_",
+            "orcid_id": ""
+          },
+          {
+            "id": 449595,
+            "full_name": "Sheng Chih Jin",
+            "first_name": "Sheng",
+            "last_name": "Chih Jin",
+            "is_active": false,
+            "url_name": "_",
+            "orcid_id": ""
+          },
+          {
+            "id": 6560540,
+            "full_name": "Xuyao Jiao",
+            "first_name": "Xuyao",
+            "last_name": "Jiao",
+            "is_active": false,
+            "url_name": "_",
+            "orcid_id": ""
+          },
+          {
+            "id": 114934,
+            "full_name": "Jorge E. Galán",
+            "first_name": "Jorge",
+            "last_name": "E. Galán",
+            "is_active": false,
+            "url_name": "_",
+            "orcid_id": ""
+          }
+        ],
+        "custom_fields": [],
+        "figshare_url": "https://plos.figshare.com/articles/dataset/Unique_features_in_the_intracellular_transport_of_typhoid_toxin_revealed_by_a_genome-wide_screen/7960481",
+        "download_disabled": false,
+        "description": "<div><p>Typhoid toxin is a virulence factor for <i>Salmonella</i> Typhi and Paratyphi, the cause of typhoid fever in humans. This toxin has a unique architecture in that its pentameric B subunit, made of PltB, is linked to two enzymatic A subunits, the ADP ribosyl transferase PltA and the deoxyribonuclease CdtB. Typhoid toxin is uniquely adapted to humans, recognizing surface glycoprotein sialoglycans terminated in acetyl neuraminic acid, which are preferentially expressed by human cells. The transport pathway to its cellular targets followed by typhoid toxin after receptor binding is currently unknown. Through a genome-wide CRISPR/Cas9-mediated screen we have characterized the mechanisms by which typhoid toxin is transported within human cells. We found that typhoid toxin hijacks specific elements of the retrograde transport and endoplasmic reticulum-associated degradation machineries to reach its subcellular destination within target cells. Our study reveals unique and common features in the transport mechanisms of bacterial toxins that could serve as the bases for the development of novel anti-toxin therapeutic strategies.</p></div>",
+        "funding": null,
+        "funding_list": [],
+        "version": 1,
+        "status": "public",
+        "size": 24783264,
+        "created_date": "2019-04-05T17:30:48Z",
+        "modified_date": "2023-06-02T21:04:45Z",
+        "is_public": true,
+        "is_confidential": false,
+        "is_metadata_record": false,
+        "confidential_reason": "",
+        "metadata_reason": "",
+        "license": {
+          "value": 1,
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "tags": [
+          "pentameric B subunit",
+          "genome-wide screen Typhoid toxin",
+          "endoplasmic reticulum-associated degradation machineries",
+          "typhoid toxin hijacks",
+          "acetyl neuraminic acid",
+          "CRISPR",
+          "ADP ribosyl transferase PltA",
+          "typhoid toxin",
+          "surface glycoprotein sialoglycans"
+        ],
+        "keywords": [
+          "pentameric B subunit",
+          "genome-wide screen Typhoid toxin",
+          "endoplasmic reticulum-associated degradation machineries",
+          "typhoid toxin hijacks",
+          "acetyl neuraminic acid",
+          "CRISPR",
+          "ADP ribosyl transferase PltA",
+          "typhoid toxin",
+          "surface glycoprotein sialoglycans"
+        ],
+        "categories": [
+          {
+            "id": 4,
+            "title": "Biochemistry",
+            "parent_id": 38,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 8,
+            "title": "Microbiology",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 13,
+            "title": "Genetics",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 14,
+            "title": "Molecular Biology",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 21,
+            "title": "Biotechnology",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 873,
+            "title": "Chemical Sciences not elsewhere classified",
+            "parent_id": 38,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 734,
+            "title": "Biological Sciences not elsewhere classified",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 931,
+            "title": "Information Systems not elsewhere classified",
+            "parent_id": 52,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 132,
+            "title": "Infectious Diseases",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 134,
+            "title": "Virology",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          }
+        ],
+        "references": [
+          "https://doi.org/10.1371/journal.ppat.1007704"
+        ],
+        "has_linked_file": false,
+        "citation": "Chang, Shu-Jung; Chih Jin, Sheng; Jiao, Xuyao; E. Galán, Jorge (2019). Unique features in the intracellular transport of typhoid toxin revealed by a genome-wide screen. PLOS Pathogens. Dataset. https://doi.org/10.1371/journal.ppat.1007704",
+        "related_materials": [
+          {
+            "id": 33356981,
+            "identifier": "10.1371/journal.ppat.1007704",
+            "title": "Unique features in the intracellular transport of typhoid toxin revealed by a genome-wide screen",
+            "relation": "IsSupplementTo",
+            "identifier_type": "DOI",
+            "is_linkout": true,
+            "link": "https://doi.org/10.1371/journal.ppat.1007704"
+          }
+        ],
+        "is_embargoed": false,
+        "embargo_date": null,
+        "embargo_type": null,
+        "embargo_title": "",
+        "embargo_reason": "",
+        "embargo_options": [],
+        "id": 7960481,
+        "title": "Unique features in the intracellular transport of typhoid toxin revealed by a genome-wide screen",
+        "doi": "10.1371/journal.ppat.1007704",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/7960481",
+        "published_date": "2019-04-05T17:30:43Z",
+        "thumb": "https://s3-eu-west-1.amazonaws.com/ppreviews-plos-725668748/14816258/thumb.png",
+        "defined_type": 3,
+        "defined_type_name": "dataset",
+        "group_id": 113,
+        "url_private_api": "https://api.figshare.com/v2/account/articles/7960481",
+        "url_public_api": "https://api.figshare.com/v2/articles/7960481",
+        "url_private_html": "https://figshare.com/account/articles/7960481",
+        "url_public_html": "https://plos.figshare.com/articles/dataset/Unique_features_in_the_intracellular_transport_of_typhoid_toxin_revealed_by_a_genome-wide_screen/7960481",
+        "timeline": {
+          "posted": "2019-04-05T17:30:43",
+          "firstOnline": "2019-04-17"
+        },
+        "resource_title": "Unique features in the intracellular transport of typhoid toxin revealed by a genome-wide screen",
+        "resource_doi": "10.1371/journal.ppat.1007704"
+      },
+      "receipt": {
+        "url": "https://api.figshare.com/v2/articles/7960481",
+        "method": "GET",
+        "query": null,
+        "retrieved_utc": "2026-11-02T20:26:02.265392+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "sha256": "08fc0d12ba45336bd2bdd9991d5cad826f10de1430970b077da665ee10ed87ad",
+        "bytes": 7858,
+        "file": "native/66b44fbdc03a2b4c900911f837133b7d27a39a3fd1df2e58da30b62d41dd3fc5.body"
+      }
+    },
+    {
+      "metadata": {
+        "files": [
+          {
+            "id": 14816261,
+            "name": "ppat.1007704.g001.tif",
+            "size": 1448796,
+            "is_link_only": false,
+            "download_url": "https://ndownloader.figshare.com/files/14816261",
+            "supplied_md5": "dd9ca43a7630cf977abe3cad799e00fa",
+            "computed_md5": "dd9ca43a7630cf977abe3cad799e00fa",
+            "mimetype": "image/tiff"
+          }
+        ],
+        "folder_structure": {},
+        "authors": [
+          {
+            "id": 449259,
+            "full_name": "Shu-Jung Chang",
+            "first_name": "Shu-Jung",
+            "last_name": "Chang",
+            "is_active": false,
+            "url_name": "_",
+            "orcid_id": ""
+          },
+          {
+            "id": 449595,
+            "full_name": "Sheng Chih Jin",
+            "first_name": "Sheng",
+            "last_name": "Chih Jin",
+            "is_active": false,
+            "url_name": "_",
+            "orcid_id": ""
+          },
+          {
+            "id": 6560540,
+            "full_name": "Xuyao Jiao",
+            "first_name": "Xuyao",
+            "last_name": "Jiao",
+            "is_active": false,
+            "url_name": "_",
+            "orcid_id": ""
+          },
+          {
+            "id": 114934,
+            "full_name": "Jorge E. Galán",
+            "first_name": "Jorge",
+            "last_name": "E. Galán",
+            "is_active": false,
+            "url_name": "_",
+            "orcid_id": ""
+          }
+        ],
+        "custom_fields": [],
+        "figshare_url": "https://plos.figshare.com/articles/figure/Typhoid_toxin_traffics_to_the_ER_by_retrograde_transport_/7960484",
+        "download_disabled": false,
+        "description": "<p>(A) Tracking typhoid toxin (TT) transport by immunofluorescence microscopy. HEK293T cells were incubated with Oregon Green-488-labeled typhoid toxin (green) at 4°C for 30 min, washed, and fixed with 4% paraformaldehyde (binding). Alternatively, after 30 min incubation at 4°C, cells were washed, and then switched to 37°C, incubated for 0.5, 2, and 8 hs and fixed as indicated above. Fixed cells were stained with an anti-GM130 antibody (red) and visualized by fluorescence microscopy. Scale bar, 5 μm. (B and C) Typhoid toxin undergoes retrograde transport to the <i>trans</i>-Golgi network (TGN). (B) Schematic representation of the assay to detect typhoid toxin transport through the Golgi. (C) HEK293T cells transiently expressing myc epitope tagged SNAP-Galactosyl transferase 1 (Myc-SNAP-GalT) were treated with BG-NHS-labeled (BG-TT) or unlabeled (TT) typhoid toxin for 6 hr at 37°C. BG-labeled toxin molecules that were “captured” by SNAP-GalT formed chimeric protein complexes (indicated as \"TT-SNAP-GalT\") that were detected by Western blot analysis with an antibody directed to the Myc epitope. Dotted lines indicate places where the experimentally relevant lanes were spliced together (all lanes originate from a single gel). (D and E) Typhoid toxin transport to the endoplasmic reticulum (ER). (D) Schematic representation of the typhoid toxin-disassembly assay in the ER. (E) HEK293T cells were treated with purified typhoid toxin for 30 min at 37°C and lysed at the indicated time points. The mobility of typhoid toxin in SDS-PAGE in the presence or absence of DTT (as indicated) was then analyzed by Western blot with an antibody to CdtB. The positions of CdtB and the CdtB-PltA heteromeric complex are indicated. * denotes the migration of a non-specific cross-reacting protein (F) Typhoid toxin retro-translocation from the ER to the cell cytosol. HEK293T cells were incubated with purified typhoid toxin at 37°C and then harvested at the indicated time points. Cells were selectively permeabilized with digitonin and the presence of typhoid toxin in the cytosolic fraction was detected by Western blot analysis with an antibody to CdtB.</p>",
+        "funding": null,
+        "funding_list": [],
+        "version": 1,
+        "status": "public",
+        "size": 1448796,
+        "created_date": "2019-04-05T17:30:49Z",
+        "modified_date": "2023-06-22T09:40:50Z",
+        "is_public": true,
+        "is_confidential": false,
+        "is_metadata_record": false,
+        "confidential_reason": "",
+        "metadata_reason": "",
+        "license": {
+          "value": 1,
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "tags": [
+          "pentameric B subunit",
+          "genome-wide screen Typhoid toxin",
+          "endoplasmic reticulum-associated degradation machineries",
+          "typhoid toxin hijacks",
+          "acetyl neuraminic acid",
+          "CRISPR",
+          "ADP ribosyl transferase PltA",
+          "typhoid toxin",
+          "surface glycoprotein sialoglycans"
+        ],
+        "keywords": [
+          "pentameric B subunit",
+          "genome-wide screen Typhoid toxin",
+          "endoplasmic reticulum-associated degradation machineries",
+          "typhoid toxin hijacks",
+          "acetyl neuraminic acid",
+          "CRISPR",
+          "ADP ribosyl transferase PltA",
+          "typhoid toxin",
+          "surface glycoprotein sialoglycans"
+        ],
+        "categories": [
+          {
+            "id": 4,
+            "title": "Biochemistry",
+            "parent_id": 38,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 8,
+            "title": "Microbiology",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 13,
+            "title": "Genetics",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 14,
+            "title": "Molecular Biology",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 21,
+            "title": "Biotechnology",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 873,
+            "title": "Chemical Sciences not elsewhere classified",
+            "parent_id": 38,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 734,
+            "title": "Biological Sciences not elsewhere classified",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 931,
+            "title": "Information Systems not elsewhere classified",
+            "parent_id": 52,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 132,
+            "title": "Infectious Diseases",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 134,
+            "title": "Virology",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          }
+        ],
+        "references": [
+          "https://doi.org/10.1371/journal.ppat.1007704"
+        ],
+        "has_linked_file": false,
+        "citation": "Chang, Shu-Jung; Chih Jin, Sheng; Jiao, Xuyao; E. Galán, Jorge (2019). Typhoid toxin traffics to the ER by retrograde transport.. PLOS Pathogens. Figure. https://doi.org/10.1371/journal.ppat.1007704.g001",
+        "related_materials": [
+          {
+            "id": 102983973,
+            "identifier": "10.1371/journal.ppat.1007704",
+            "title": "Unique features in the intracellular transport of typhoid toxin revealed by a genome-wide screen",
+            "relation": "IsSupplementTo",
+            "identifier_type": "DOI",
+            "is_linkout": true,
+            "link": "https://doi.org/10.1371/journal.ppat.1007704"
+          }
+        ],
+        "is_embargoed": false,
+        "embargo_date": null,
+        "embargo_type": null,
+        "embargo_title": "",
+        "embargo_reason": "",
+        "embargo_options": [],
+        "id": 7960484,
+        "title": "Typhoid toxin traffics to the ER by retrograde transport.",
+        "doi": "10.1371/journal.ppat.1007704.g001",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/7960484",
+        "published_date": "2019-04-05T17:30:43Z",
+        "thumb": "https://s3-eu-west-1.amazonaws.com/ppreviews-plos-725668748/14816261/thumb.png",
+        "defined_type": 1,
+        "defined_type_name": "figure",
+        "group_id": 113,
+        "url_private_api": "https://api.figshare.com/v2/account/articles/7960484",
+        "url_public_api": "https://api.figshare.com/v2/articles/7960484",
+        "url_private_html": "https://figshare.com/account/articles/7960484",
+        "url_public_html": "https://plos.figshare.com/articles/figure/Typhoid_toxin_traffics_to_the_ER_by_retrograde_transport_/7960484",
+        "timeline": {
+          "posted": "2019-04-05T17:30:43",
+          "firstOnline": "2019-04-17"
+        },
+        "resource_title": "Unique features in the intracellular transport of typhoid toxin revealed by a genome-wide screen",
+        "resource_doi": "10.1371/journal.ppat.1007704"
+      },
+      "receipt": {
+        "url": "https://api.figshare.com/v2/articles/7960484",
+        "method": "GET",
+        "query": null,
+        "retrieved_utc": "2026-11-02T20:26:05.410060+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "sha256": "6f5ba83386e9be8474dbc67e0db88291a5794bcce172ec634e8bdeee5f393a43",
+        "bytes": 7181,
+        "file": "native/7d23de4497fb820bd71ed0453ef2e5c978876e2e232fdac5059963c22d8ebc08.body"
+      }
+    },
+    {
+      "metadata": {
+        "files": [
+          {
+            "id": 14816264,
+            "name": "ppat.1007704.g002.tif",
+            "size": 1362124,
+            "is_link_only": false,
+            "download_url": "https://ndownloader.figshare.com/files/14816264",
+            "supplied_md5": "0cd14d2a3d2f0c5ad7943f5a47e3b7ec",
+            "computed_md5": "0cd14d2a3d2f0c5ad7943f5a47e3b7ec",
+            "mimetype": "image/tiff"
+          }
+        ],
+        "folder_structure": {},
+        "authors": [
+          {
+            "id": 449259,
+            "full_name": "Shu-Jung Chang",
+            "first_name": "Shu-Jung",
+            "last_name": "Chang",
+            "is_active": false,
+            "url_name": "_",
+            "orcid_id": ""
+          },
+          {
+            "id": 449595,
+            "full_name": "Sheng Chih Jin",
+            "first_name": "Sheng",
+            "last_name": "Chih Jin",
+            "is_active": false,
+            "url_name": "_",
+            "orcid_id": ""
+          },
+          {
+            "id": 6560540,
+            "full_name": "Xuyao Jiao",
+            "first_name": "Xuyao",
+            "last_name": "Jiao",
+            "is_active": false,
+            "url_name": "_",
+            "orcid_id": ""
+          },
+          {
+            "id": 114934,
+            "full_name": "Jorge E. Galán",
+            "first_name": "Jorge",
+            "last_name": "E. Galán",
+            "is_active": false,
+            "url_name": "_",
+            "orcid_id": ""
+          }
+        ],
+        "custom_fields": [],
+        "figshare_url": "https://plos.figshare.com/articles/figure/A_genome-wide_CRISPR_Cas9-mediated_gene_inactivation_screen_identifies_genes_essential_for_typhoid_toxin_intoxication_/7960487",
+        "download_disabled": false,
+        "description": "<p>(A) A schematic of the workflow for the screen to identify genes involved in typhoid toxin toxicity. HEK293T cells expressing Cas9 were transduced with a lentiviral library encoding sgRNA targeting human genes as described in Material and Methods. After puromycin selection, cells were split and either mock treated or treated with typhoid toxin. Cells that survived the toxin treatment or that were mock treated were subjected to nucleotide sequence analysis as indicated in Materials and Methods. Sequences were aligned to the reference genome and high-quality reads were analyzed with the MAGeCK algorithm to identify positively-selected genes. (B and C) Scatter plots of effect size (log fold change; x axis) versus <i>P</i> value (-log<sub>10</sub> raw <i>P</i>-value; y-axis) for all genes. Three replicates were performed for each sub-library and the MAGeCK algorithm was used to compare treated with untreated cells across replicates for the human GeCKO v.2 sub-library A and B as described in Material and Methods. Inactivation of the genes colored in red conferred resistance to typhoid toxin with a <i>P</i>-value cutoff corresponding to 15% FDR. (D) Gene ontology term enrichment analysis of genes whose inactivation conferred toxin resistance. The <i>P</i>-values represent the probability of the identified genes to be annotated to a particular GO term relative to all the annotated human genes. GO terms are shown depicting biological processes in black and cellular components in gray.</p>",
+        "funding": null,
+        "funding_list": [],
+        "version": 1,
+        "status": "public",
+        "size": 1362124,
+        "created_date": "2019-04-05T17:30:50Z",
+        "modified_date": "2023-06-10T01:36:09Z",
+        "is_public": true,
+        "is_confidential": false,
+        "is_metadata_record": false,
+        "confidential_reason": "",
+        "metadata_reason": "",
+        "license": {
+          "value": 1,
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "tags": [
+          "pentameric B subunit",
+          "genome-wide screen Typhoid toxin",
+          "endoplasmic reticulum-associated degradation machineries",
+          "typhoid toxin hijacks",
+          "acetyl neuraminic acid",
+          "CRISPR",
+          "ADP ribosyl transferase PltA",
+          "typhoid toxin",
+          "surface glycoprotein sialoglycans"
+        ],
+        "keywords": [
+          "pentameric B subunit",
+          "genome-wide screen Typhoid toxin",
+          "endoplasmic reticulum-associated degradation machineries",
+          "typhoid toxin hijacks",
+          "acetyl neuraminic acid",
+          "CRISPR",
+          "ADP ribosyl transferase PltA",
+          "typhoid toxin",
+          "surface glycoprotein sialoglycans"
+        ],
+        "categories": [
+          {
+            "id": 4,
+            "title": "Biochemistry",
+            "parent_id": 38,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 8,
+            "title": "Microbiology",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 13,
+            "title": "Genetics",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 14,
+            "title": "Molecular Biology",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 21,
+            "title": "Biotechnology",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 873,
+            "title": "Chemical Sciences not elsewhere classified",
+            "parent_id": 38,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 734,
+            "title": "Biological Sciences not elsewhere classified",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 931,
+            "title": "Information Systems not elsewhere classified",
+            "parent_id": 52,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 132,
+            "title": "Infectious Diseases",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 134,
+            "title": "Virology",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          }
+        ],
+        "references": [
+          "https://doi.org/10.1371/journal.ppat.1007704"
+        ],
+        "has_linked_file": false,
+        "citation": "Chang, Shu-Jung; Chih Jin, Sheng; Jiao, Xuyao; E. Galán, Jorge (2019). A genome-wide CRISPR/Cas9-mediated gene inactivation screen identifies genes essential for typhoid toxin intoxication.. PLOS Pathogens. Figure. https://doi.org/10.1371/journal.ppat.1007704.g002",
+        "related_materials": [
+          {
+            "id": 64788062,
+            "identifier": "10.1371/journal.ppat.1007704",
+            "title": "Unique features in the intracellular transport of typhoid toxin revealed by a genome-wide screen",
+            "relation": "IsSupplementTo",
+            "identifier_type": "DOI",
+            "is_linkout": true,
+            "link": "https://doi.org/10.1371/journal.ppat.1007704"
+          }
+        ],
+        "is_embargoed": false,
+        "embargo_date": null,
+        "embargo_type": null,
+        "embargo_title": "",
+        "embargo_reason": "",
+        "embargo_options": [],
+        "id": 7960487,
+        "title": "A genome-wide CRISPR/Cas9-mediated gene inactivation screen identifies genes essential for typhoid toxin intoxication.",
+        "doi": "10.1371/journal.ppat.1007704.g002",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/7960487",
+        "published_date": "2019-04-05T17:30:43Z",
+        "thumb": "https://s3-eu-west-1.amazonaws.com/ppreviews-plos-725668748/14816264/thumb.png",
+        "defined_type": 1,
+        "defined_type_name": "figure",
+        "group_id": 113,
+        "url_private_api": "https://api.figshare.com/v2/account/articles/7960487",
+        "url_public_api": "https://api.figshare.com/v2/articles/7960487",
+        "url_private_html": "https://figshare.com/account/articles/7960487",
+        "url_public_html": "https://plos.figshare.com/articles/figure/A_genome-wide_CRISPR_Cas9-mediated_gene_inactivation_screen_identifies_genes_essential_for_typhoid_toxin_intoxication_/7960487",
+        "timeline": {
+          "posted": "2019-04-05T17:30:43",
+          "firstOnline": "2019-04-17"
+        },
+        "resource_title": "Unique features in the intracellular transport of typhoid toxin revealed by a genome-wide screen",
+        "resource_doi": "10.1371/journal.ppat.1007704"
+      },
+      "receipt": {
+        "url": "https://api.figshare.com/v2/articles/7960487",
+        "method": "GET",
+        "query": null,
+        "retrieved_utc": "2026-11-02T20:26:08.873292+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "sha256": "e716ef808963695ef755f6090b7c9091ced29fe0e8462f2a73b746d4f4abd436",
+        "bytes": 6723,
+        "file": "native/3d4dedcd65e743f03495d36911e4820be222e12874e696c822becb225884b4a2.body"
+      }
+    },
+    {
+      "metadata": {
+        "files": [
+          {
+            "id": 14816267,
+            "name": "ppat.1007704.g003.tif",
+            "size": 357436,
+            "is_link_only": false,
+            "download_url": "https://ndownloader.figshare.com/files/14816267",
+            "supplied_md5": "5f933719daa0dfd9e2247c71cf0bd5f0",
+            "computed_md5": "5f933719daa0dfd9e2247c71cf0bd5f0",
+            "mimetype": "image/tiff"
+          }
+        ],
+        "folder_structure": {},
+        "authors": [
+          {
+            "id": 449259,
+            "full_name": "Shu-Jung Chang",
+            "first_name": "Shu-Jung",
+            "last_name": "Chang",
+            "is_active": false,
+            "url_name": "_",
+            "orcid_id": ""
+          },
+          {
+            "id": 449595,
+            "full_name": "Sheng Chih Jin",
+            "first_name": "Sheng",
+            "last_name": "Chih Jin",
+            "is_active": false,
+            "url_name": "_",
+            "orcid_id": ""
+          },
+          {
+            "id": 6560540,
+            "full_name": "Xuyao Jiao",
+            "first_name": "Xuyao",
+            "last_name": "Jiao",
+            "is_active": false,
+            "url_name": "_",
+            "orcid_id": ""
+          },
+          {
+            "id": 114934,
+            "full_name": "Jorge E. Galán",
+            "first_name": "Jorge",
+            "last_name": "E. Galán",
+            "is_active": false,
+            "url_name": "_",
+            "orcid_id": ""
+          }
+        ],
+        "custom_fields": [],
+        "figshare_url": "https://plos.figshare.com/articles/figure/Validation_of_candidate_genes_involved_in_typhoid_toxin_intoxication_/7960490",
+        "download_disabled": false,
+        "description": "<p>(A) Genotyping of the CRISPR/Cas9-generated knockout cells. Genomic DNA was purified from CRISPR-Cas9 edited HEK293T cell lines and analyzed by PCR with specific primers listed in <a href=\"http://www.plospathogens.org/article/info:doi/10.1371/journal.ppat.1007704#ppat.1007704.s005\" target=\"_blank\">S3 Table</a>. The TMED2-deficient cell line was examined by Western blot with an anti TEMED2-specific antibody. Dotted lines indicate places where the experimentally relevant lanes were spliced together (all lanes originate from a single gel). (B) Relative toxicity of typhoid toxin in the indicated knockout cell lines after treatment with a serial dilution of purified toxin. The relative toxicity was determined from the percentage of cells at the G<sub>2</sub>M phase fitted by nonlinear regression as indicated in the Materials and Methods. Values, which were normalized relative to wild type (considered 100) are the mean ± SEM of independent determinations. ****p < 0.0001; n. s.: differences not statistically significant; two-tailed Student’s t-test.</p>",
+        "funding": null,
+        "funding_list": [],
+        "version": 1,
+        "status": "public",
+        "size": 357436,
+        "created_date": "2019-04-05T17:30:52Z",
+        "modified_date": "2023-06-22T09:40:21Z",
+        "is_public": true,
+        "is_confidential": false,
+        "is_metadata_record": false,
+        "confidential_reason": "",
+        "metadata_reason": "",
+        "license": {
+          "value": 1,
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "tags": [
+          "pentameric B subunit",
+          "genome-wide screen Typhoid toxin",
+          "endoplasmic reticulum-associated degradation machineries",
+          "typhoid toxin hijacks",
+          "acetyl neuraminic acid",
+          "CRISPR",
+          "ADP ribosyl transferase PltA",
+          "typhoid toxin",
+          "surface glycoprotein sialoglycans"
+        ],
+        "keywords": [
+          "pentameric B subunit",
+          "genome-wide screen Typhoid toxin",
+          "endoplasmic reticulum-associated degradation machineries",
+          "typhoid toxin hijacks",
+          "acetyl neuraminic acid",
+          "CRISPR",
+          "ADP ribosyl transferase PltA",
+          "typhoid toxin",
+          "surface glycoprotein sialoglycans"
+        ],
+        "categories": [
+          {
+            "id": 4,
+            "title": "Biochemistry",
+            "parent_id": 38,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 8,
+            "title": "Microbiology",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 13,
+            "title": "Genetics",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 14,
+            "title": "Molecular Biology",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 21,
+            "title": "Biotechnology",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 873,
+            "title": "Chemical Sciences not elsewhere classified",
+            "parent_id": 38,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 734,
+            "title": "Biological Sciences not elsewhere classified",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 931,
+            "title": "Information Systems not elsewhere classified",
+            "parent_id": 52,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 132,
+            "title": "Infectious Diseases",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 134,
+            "title": "Virology",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          }
+        ],
+        "references": [
+          "https://doi.org/10.1371/journal.ppat.1007704"
+        ],
+        "has_linked_file": false,
+        "citation": "Chang, Shu-Jung; Chih Jin, Sheng; Jiao, Xuyao; E. Galán, Jorge (2019). Validation of candidate genes involved in typhoid toxin intoxication.. PLOS Pathogens. Figure. https://doi.org/10.1371/journal.ppat.1007704.g003",
+        "related_materials": [
+          {
+            "id": 102981729,
+            "identifier": "10.1371/journal.ppat.1007704",
+            "title": "Unique features in the intracellular transport of typhoid toxin revealed by a genome-wide screen",
+            "relation": "IsSupplementTo",
+            "identifier_type": "DOI",
+            "is_linkout": true,
+            "link": "https://doi.org/10.1371/journal.ppat.1007704"
+          }
+        ],
+        "is_embargoed": false,
+        "embargo_date": null,
+        "embargo_type": null,
+        "embargo_title": "",
+        "embargo_reason": "",
+        "embargo_options": [],
+        "id": 7960490,
+        "title": "Validation of candidate genes involved in typhoid toxin intoxication.",
+        "doi": "10.1371/journal.ppat.1007704.g003",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/7960490",
+        "published_date": "2019-04-05T17:30:43Z",
+        "thumb": "https://s3-eu-west-1.amazonaws.com/ppreviews-plos-725668748/14816267/thumb.png",
+        "defined_type": 1,
+        "defined_type_name": "figure",
+        "group_id": 113,
+        "url_private_api": "https://api.figshare.com/v2/account/articles/7960490",
+        "url_public_api": "https://api.figshare.com/v2/articles/7960490",
+        "url_private_html": "https://figshare.com/account/articles/7960490",
+        "url_public_html": "https://plos.figshare.com/articles/figure/Validation_of_candidate_genes_involved_in_typhoid_toxin_intoxication_/7960490",
+        "timeline": {
+          "posted": "2019-04-05T17:30:43",
+          "firstOnline": "2019-04-17"
+        },
+        "resource_title": "Unique features in the intracellular transport of typhoid toxin revealed by a genome-wide screen",
+        "resource_doi": "10.1371/journal.ppat.1007704"
+      },
+      "receipt": {
+        "url": "https://api.figshare.com/v2/articles/7960490",
+        "method": "GET",
+        "query": null,
+        "retrieved_utc": "2026-11-02T20:26:13.367651+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "sha256": "a12c4da1ab22c9d49fed5cbacd900b396a11b4a968c9e8b6dc4879659ce43e54",
+        "bytes": 6097,
+        "file": "native/69e1b510e7466cf13f2aed25853ff475ce01b989e50091397c7be8b9c8658253.body"
+      }
+    },
+    {
+      "metadata": {
+        "files": [
+          {
+            "id": 14816270,
+            "name": "ppat.1007704.g004.tif",
+            "size": 1837172,
+            "is_link_only": false,
+            "download_url": "https://ndownloader.figshare.com/files/14816270",
+            "supplied_md5": "a7345c5675eb1e6a8ec75f1ddd671d0a",
+            "computed_md5": "a7345c5675eb1e6a8ec75f1ddd671d0a",
+            "mimetype": "image/tiff"
+          }
+        ],
+        "folder_structure": {},
+        "authors": [
+          {
+            "id": 449259,
+            "full_name": "Shu-Jung Chang",
+            "first_name": "Shu-Jung",
+            "last_name": "Chang",
+            "is_active": false,
+            "url_name": "_",
+            "orcid_id": ""
+          },
+          {
+            "id": 449595,
+            "full_name": "Sheng Chih Jin",
+            "first_name": "Sheng",
+            "last_name": "Chih Jin",
+            "is_active": false,
+            "url_name": "_",
+            "orcid_id": ""
+          },
+          {
+            "id": 6560540,
+            "full_name": "Xuyao Jiao",
+            "first_name": "Xuyao",
+            "last_name": "Jiao",
+            "is_active": false,
+            "url_name": "_",
+            "orcid_id": ""
+          },
+          {
+            "id": 114934,
+            "full_name": "Jorge E. Galán",
+            "first_name": "Jorge",
+            "last_name": "E. Galán",
+            "is_active": false,
+            "url_name": "_",
+            "orcid_id": ""
+          }
+        ],
+        "custom_fields": [],
+        "figshare_url": "https://plos.figshare.com/articles/figure/Characterization_of_typhoid_toxin_trafficking_to_the_TGN_in_CRISPR_Cas9-edited_cell_lines_/7960493",
+        "download_disabled": false,
+        "description": "<p>(A and B) Co-localization of typhoid toxin with the Golgi marker GM130. (A) Wild-type and the indicated knockout cell lines were treated with Oregon-488 labeled typhoid toxin (green) and 2 hours after toxin treatment, cells were stained with an anti-GM130 antibody (red) as described in Material and Methods. Scale bar, 5 μm. (B) The co-localization between typhoid toxin and GM130 was determined as described in Material and Methods. Values represent the relative co-localization (normalized to wild type) and are the mean ± SEM of three independent experiments. ****p < 0.0001, ***p < 0.001, **p < 0.01, and *p < 0.05; two-tailed Student’s t-test. (C and D) Typhoid toxin Golgi localization determined by SNAP-capture. (C) Cells expressing Myc-epitope tagged SNAP-GalT (Myc-SNAP-GalT) were incubated with BG-labeled typhoid toxin for 6 hr and subsequently analyzed by Western blot with an anti-Myc antibody to detect typhoid toxin/SNAP-GalT chimeric protein complexes (TT-SNAP-GalT) and anti β-actin antibody as a loading control. The migration position of the uncomplexed (Myc-SNAP-GalT) and toxin complexed GalT-SNAP (TT-SNAP-GalT) are indicated. (D) Relative amounts of TT-SNAP-GalT quantified from the blots as indicated in Materials and Methods. Values represent the relative intensity of all bands associated with TT-SNAP-GalT (normalized for loading and relative to the values of wild type, which were considered 100) and are the mean ± SEM of 3 independent determinations. ****p < 0.0001; ***p < 0.001; *p < 0.05; n. s.: differences not statistically significant; two-tailed Student’s t-test.</p>",
+        "funding": null,
+        "funding_list": [],
+        "version": 1,
+        "status": "public",
+        "size": 1837172,
+        "created_date": "2019-04-05T17:30:53Z",
+        "modified_date": "2023-06-10T10:55:33Z",
+        "is_public": true,
+        "is_confidential": false,
+        "is_metadata_record": false,
+        "confidential_reason": "",
+        "metadata_reason": "",
+        "license": {
+          "value": 1,
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "tags": [
+          "pentameric B subunit",
+          "genome-wide screen Typhoid toxin",
+          "endoplasmic reticulum-associated degradation machineries",
+          "typhoid toxin hijacks",
+          "acetyl neuraminic acid",
+          "CRISPR",
+          "ADP ribosyl transferase PltA",
+          "typhoid toxin",
+          "surface glycoprotein sialoglycans"
+        ],
+        "keywords": [
+          "pentameric B subunit",
+          "genome-wide screen Typhoid toxin",
+          "endoplasmic reticulum-associated degradation machineries",
+          "typhoid toxin hijacks",
+          "acetyl neuraminic acid",
+          "CRISPR",
+          "ADP ribosyl transferase PltA",
+          "typhoid toxin",
+          "surface glycoprotein sialoglycans"
+        ],
+        "categories": [
+          {
+            "id": 4,
+            "title": "Biochemistry",
+            "parent_id": 38,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 8,
+            "title": "Microbiology",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 13,
+            "title": "Genetics",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 14,
+            "title": "Molecular Biology",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 21,
+            "title": "Biotechnology",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 873,
+            "title": "Chemical Sciences not elsewhere classified",
+            "parent_id": 38,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 734,
+            "title": "Biological Sciences not elsewhere classified",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 931,
+            "title": "Information Systems not elsewhere classified",
+            "parent_id": 52,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 132,
+            "title": "Infectious Diseases",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 134,
+            "title": "Virology",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          }
+        ],
+        "references": [
+          "https://doi.org/10.1371/journal.ppat.1007704"
+        ],
+        "has_linked_file": false,
+        "citation": "Chang, Shu-Jung; Chih Jin, Sheng; Jiao, Xuyao; E. Galán, Jorge (2019). Characterization of typhoid toxin trafficking to the TGN in CRISPR/Cas9-edited cell lines.. PLOS Pathogens. Figure. https://doi.org/10.1371/journal.ppat.1007704.g004",
+        "related_materials": [
+          {
+            "id": 66254618,
+            "identifier": "10.1371/journal.ppat.1007704",
+            "title": "Unique features in the intracellular transport of typhoid toxin revealed by a genome-wide screen",
+            "relation": "IsSupplementTo",
+            "identifier_type": "DOI",
+            "is_linkout": true,
+            "link": "https://doi.org/10.1371/journal.ppat.1007704"
+          }
+        ],
+        "is_embargoed": false,
+        "embargo_date": null,
+        "embargo_type": null,
+        "embargo_title": "",
+        "embargo_reason": "",
+        "embargo_options": [],
+        "id": 7960493,
+        "title": "Characterization of typhoid toxin trafficking to the TGN in CRISPR/Cas9-edited cell lines.",
+        "doi": "10.1371/journal.ppat.1007704.g004",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/7960493",
+        "published_date": "2019-04-05T17:30:43Z",
+        "thumb": "https://s3-eu-west-1.amazonaws.com/ppreviews-plos-725668748/14816270/thumb.png",
+        "defined_type": 1,
+        "defined_type_name": "figure",
+        "group_id": 113,
+        "url_private_api": "https://api.figshare.com/v2/account/articles/7960493",
+        "url_public_api": "https://api.figshare.com/v2/articles/7960493",
+        "url_private_html": "https://figshare.com/account/articles/7960493",
+        "url_public_html": "https://plos.figshare.com/articles/figure/Characterization_of_typhoid_toxin_trafficking_to_the_TGN_in_CRISPR_Cas9-edited_cell_lines_/7960493",
+        "timeline": {
+          "posted": "2019-04-05T17:30:43",
+          "firstOnline": "2019-04-17"
+        },
+        "resource_title": "Unique features in the intracellular transport of typhoid toxin revealed by a genome-wide screen",
+        "resource_doi": "10.1371/journal.ppat.1007704"
+      },
+      "receipt": {
+        "url": "https://api.figshare.com/v2/articles/7960493",
+        "method": "GET",
+        "query": null,
+        "retrieved_utc": "2026-11-02T20:26:16.716855+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "sha256": "085c7c8500af7c8023a4235848b992af5f790b605ce6e442edfb4d3af374b84e",
+        "bytes": 6742,
+        "file": "native/150b1d2e218de9346e538056d7fb64842cf588064ffdb33763eac0203b6d79fd.body"
+      }
+    },
+    {
+      "metadata": {
+        "files": [
+          {
+            "id": 14816273,
+            "name": "ppat.1007704.g005.tif",
+            "size": 934108,
+            "is_link_only": false,
+            "download_url": "https://ndownloader.figshare.com/files/14816273",
+            "supplied_md5": "cfdf76259bab669c08493c1ee8c91762",
+            "computed_md5": "cfdf76259bab669c08493c1ee8c91762",
+            "mimetype": "image/tiff"
+          }
+        ],
+        "folder_structure": {},
+        "authors": [
+          {
+            "id": 449259,
+            "full_name": "Shu-Jung Chang",
+            "first_name": "Shu-Jung",
+            "last_name": "Chang",
+            "is_active": false,
+            "url_name": "_",
+            "orcid_id": ""
+          },
+          {
+            "id": 449595,
+            "full_name": "Sheng Chih Jin",
+            "first_name": "Sheng",
+            "last_name": "Chih Jin",
+            "is_active": false,
+            "url_name": "_",
+            "orcid_id": ""
+          },
+          {
+            "id": 6560540,
+            "full_name": "Xuyao Jiao",
+            "first_name": "Xuyao",
+            "last_name": "Jiao",
+            "is_active": false,
+            "url_name": "_",
+            "orcid_id": ""
+          },
+          {
+            "id": 114934,
+            "full_name": "Jorge E. Galán",
+            "first_name": "Jorge",
+            "last_name": "E. Galán",
+            "is_active": false,
+            "url_name": "_",
+            "orcid_id": ""
+          }
+        ],
+        "custom_fields": [],
+        "figshare_url": "https://plos.figshare.com/articles/figure/Characterization_of_typhoid_toxin_trafficking_to_the_endoplasmic_reticulum_and_cytosol_in_CRISPR_Cas9-edited_cell_lines_/7960496",
+        "download_disabled": false,
+        "description": "<p>(A) Wild-type and knockout cells lines were treated with purified typhoid toxin and at the indicated time points, typhoid toxin was recovered from cell lysates by affinity chromatography and analyzed by western blot with an anti toxin antibody as indicated in Materials and Methods. (B) Proportion of typhoid toxin that underwent disassembly as a consequence of its arrival to the ER determined as indicated in Materials and Methods. Values represent the mean ± SEM of 3 independent determinations. ****p < 0.0001, ***p < 0.001; n. s.: differences not statistically significant; two-tailed Student’s t-test. (C) Presence of typhoid toxin in the cytosolic fractions (after retro-translocation) in the indicated knockout cells. Cells were incubated with purified typhoid toxin and fractionated to examine the amount of typhoid toxin in the cytosolic fractions by western blot analysis. (D) Quantification of the relative amount of typhoid toxin in the cytosolic fraction. Values represent the mean ± SEM of three independent experiments. ***p < 0.001, and **p < 0.01; two-tailed Student’s t-test. (E). Toxicity of cytolethal distending toxin in defective cell lines. The parent wild type (WT) and the indicated knockout cell lines were treated with 5 μg of <i>C</i>. <i>jejuni</i> CDT for 48 hr and subjected to flow cytometric cell cycle analysis. Values are the mean ± SD of five independent experiments. ***p < 0.001, **p < 0.01; n. s.: differences not statistically significant; two-tailed Student’s t-test.</p>",
+        "funding": null,
+        "funding_list": [],
+        "version": 1,
+        "status": "public",
+        "size": 934108,
+        "created_date": "2019-04-05T17:30:54Z",
+        "modified_date": "2023-06-22T09:41:16Z",
+        "is_public": true,
+        "is_confidential": false,
+        "is_metadata_record": false,
+        "confidential_reason": "",
+        "metadata_reason": "",
+        "license": {
+          "value": 1,
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "tags": [
+          "pentameric B subunit",
+          "genome-wide screen Typhoid toxin",
+          "endoplasmic reticulum-associated degradation machineries",
+          "typhoid toxin hijacks",
+          "acetyl neuraminic acid",
+          "CRISPR",
+          "ADP ribosyl transferase PltA",
+          "typhoid toxin",
+          "surface glycoprotein sialoglycans"
+        ],
+        "keywords": [
+          "pentameric B subunit",
+          "genome-wide screen Typhoid toxin",
+          "endoplasmic reticulum-associated degradation machineries",
+          "typhoid toxin hijacks",
+          "acetyl neuraminic acid",
+          "CRISPR",
+          "ADP ribosyl transferase PltA",
+          "typhoid toxin",
+          "surface glycoprotein sialoglycans"
+        ],
+        "categories": [
+          {
+            "id": 4,
+            "title": "Biochemistry",
+            "parent_id": 38,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 8,
+            "title": "Microbiology",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 13,
+            "title": "Genetics",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 14,
+            "title": "Molecular Biology",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 21,
+            "title": "Biotechnology",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 873,
+            "title": "Chemical Sciences not elsewhere classified",
+            "parent_id": 38,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 734,
+            "title": "Biological Sciences not elsewhere classified",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 931,
+            "title": "Information Systems not elsewhere classified",
+            "parent_id": 52,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 132,
+            "title": "Infectious Diseases",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 134,
+            "title": "Virology",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          }
+        ],
+        "references": [
+          "https://doi.org/10.1371/journal.ppat.1007704"
+        ],
+        "has_linked_file": false,
+        "citation": "Chang, Shu-Jung; Chih Jin, Sheng; Jiao, Xuyao; E. Galán, Jorge (2019). Characterization of typhoid toxin trafficking to the endoplasmic reticulum and cytosol in CRISPR/Cas9-edited cell lines.. PLOS Pathogens. Figure. https://doi.org/10.1371/journal.ppat.1007704.g005",
+        "related_materials": [
+          {
+            "id": 102985779,
+            "identifier": "10.1371/journal.ppat.1007704",
+            "title": "Unique features in the intracellular transport of typhoid toxin revealed by a genome-wide screen",
+            "relation": "IsSupplementTo",
+            "identifier_type": "DOI",
+            "is_linkout": true,
+            "link": "https://doi.org/10.1371/journal.ppat.1007704"
+          }
+        ],
+        "is_embargoed": false,
+        "embargo_date": null,
+        "embargo_type": null,
+        "embargo_title": "",
+        "embargo_reason": "",
+        "embargo_options": [],
+        "id": 7960496,
+        "title": "Characterization of typhoid toxin trafficking to the endoplasmic reticulum and cytosol in CRISPR/Cas9-edited cell lines.",
+        "doi": "10.1371/journal.ppat.1007704.g005",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/7960496",
+        "published_date": "2019-04-05T17:30:43Z",
+        "thumb": "https://s3-eu-west-1.amazonaws.com/ppreviews-plos-725668748/14816273/thumb.png",
+        "defined_type": 1,
+        "defined_type_name": "figure",
+        "group_id": 113,
+        "url_private_api": "https://api.figshare.com/v2/account/articles/7960496",
+        "url_public_api": "https://api.figshare.com/v2/articles/7960496",
+        "url_private_html": "https://figshare.com/account/articles/7960496",
+        "url_public_html": "https://plos.figshare.com/articles/figure/Characterization_of_typhoid_toxin_trafficking_to_the_endoplasmic_reticulum_and_cytosol_in_CRISPR_Cas9-edited_cell_lines_/7960496",
+        "timeline": {
+          "posted": "2019-04-05T17:30:43",
+          "firstOnline": "2019-04-17"
+        },
+        "resource_title": "Unique features in the intracellular transport of typhoid toxin revealed by a genome-wide screen",
+        "resource_doi": "10.1371/journal.ppat.1007704"
+      },
+      "receipt": {
+        "url": "https://api.figshare.com/v2/articles/7960496",
+        "method": "GET",
+        "query": null,
+        "retrieved_utc": "2026-11-02T20:26:19.729559+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "sha256": "b7116631e11ad3bccefd7f530727f2b13c9aef14f897ede556678f56bf2aa87e",
+        "bytes": 6773,
+        "file": "native/3142616b1a6abe70cfbc0044211f849b825883846fb629fbf01edd58682fe066.body"
+      }
+    },
+    {
+      "metadata": {
+        "files": [
+          {
+            "id": 14816276,
+            "name": "ppat.1007704.g006.tif",
+            "size": 1795288,
+            "is_link_only": false,
+            "download_url": "https://ndownloader.figshare.com/files/14816276",
+            "supplied_md5": "e67db9d9036cc0e45dfc41ca064f8f99",
+            "computed_md5": "e67db9d9036cc0e45dfc41ca064f8f99",
+            "mimetype": "image/tiff"
+          }
+        ],
+        "folder_structure": {},
+        "authors": [
+          {
+            "id": 449259,
+            "full_name": "Shu-Jung Chang",
+            "first_name": "Shu-Jung",
+            "last_name": "Chang",
+            "is_active": false,
+            "url_name": "_",
+            "orcid_id": ""
+          },
+          {
+            "id": 449595,
+            "full_name": "Sheng Chih Jin",
+            "first_name": "Sheng",
+            "last_name": "Chih Jin",
+            "is_active": false,
+            "url_name": "_",
+            "orcid_id": ""
+          },
+          {
+            "id": 6560540,
+            "full_name": "Xuyao Jiao",
+            "first_name": "Xuyao",
+            "last_name": "Jiao",
+            "is_active": false,
+            "url_name": "_",
+            "orcid_id": ""
+          },
+          {
+            "id": 114934,
+            "full_name": "Jorge E. Galán",
+            "first_name": "Jorge",
+            "last_name": "E. Galán",
+            "is_active": false,
+            "url_name": "_",
+            "orcid_id": ""
+          }
+        ],
+        "custom_fields": [],
+        "figshare_url": "https://plos.figshare.com/articles/figure/Common_and_distinct_toxin_transport_pathways_revealed_by_genome_wide_screens_/7960499",
+        "download_disabled": false,
+        "description": "<p>Boxes indicate known physical complexes. Proteins involved in the transport of all the indicated toxins are depicted in yellow while proteins uniquely involved in typhoid toxin transport are indicated in blue. The trafficking models of cholera toxin and ricin are summarized from Gilbert’s et al. [<a href=\"http://www.plospathogens.org/article/info:doi/10.1371/journal.ppat.1007704#ppat.1007704.ref050\" target=\"_blank\">50</a>] and Tian et al. [<a href=\"http://www.plospathogens.org/article/info:doi/10.1371/journal.ppat.1007704#ppat.1007704.ref051\" target=\"_blank\">51</a>], respectively.</p>",
+        "funding": null,
+        "funding_list": [],
+        "version": 1,
+        "status": "public",
+        "size": 1795288,
+        "created_date": "2019-04-05T17:30:55Z",
+        "modified_date": "2023-06-22T09:58:59Z",
+        "is_public": true,
+        "is_confidential": false,
+        "is_metadata_record": false,
+        "confidential_reason": "",
+        "metadata_reason": "",
+        "license": {
+          "value": 1,
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "tags": [
+          "pentameric B subunit",
+          "genome-wide screen Typhoid toxin",
+          "endoplasmic reticulum-associated degradation machineries",
+          "typhoid toxin hijacks",
+          "acetyl neuraminic acid",
+          "CRISPR",
+          "ADP ribosyl transferase PltA",
+          "typhoid toxin",
+          "surface glycoprotein sialoglycans"
+        ],
+        "keywords": [
+          "pentameric B subunit",
+          "genome-wide screen Typhoid toxin",
+          "endoplasmic reticulum-associated degradation machineries",
+          "typhoid toxin hijacks",
+          "acetyl neuraminic acid",
+          "CRISPR",
+          "ADP ribosyl transferase PltA",
+          "typhoid toxin",
+          "surface glycoprotein sialoglycans"
+        ],
+        "categories": [
+          {
+            "id": 4,
+            "title": "Biochemistry",
+            "parent_id": 38,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 8,
+            "title": "Microbiology",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 13,
+            "title": "Genetics",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 14,
+            "title": "Molecular Biology",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 21,
+            "title": "Biotechnology",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 873,
+            "title": "Chemical Sciences not elsewhere classified",
+            "parent_id": 38,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 734,
+            "title": "Biological Sciences not elsewhere classified",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 931,
+            "title": "Information Systems not elsewhere classified",
+            "parent_id": 52,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 132,
+            "title": "Infectious Diseases",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          },
+          {
+            "id": 134,
+            "title": "Virology",
+            "parent_id": 48,
+            "path": "",
+            "source_id": "",
+            "taxonomy_id": 10
+          }
+        ],
+        "references": [
+          "https://doi.org/10.1371/journal.ppat.1007704"
+        ],
+        "has_linked_file": false,
+        "citation": "Chang, Shu-Jung; Chih Jin, Sheng; Jiao, Xuyao; E. Galán, Jorge (2019). Common and distinct toxin transport pathways revealed by genome wide screens.. PLOS Pathogens. Figure. https://doi.org/10.1371/journal.ppat.1007704.g006",
+        "related_materials": [
+          {
+            "id": 103044849,
+            "identifier": "10.1371/journal.ppat.1007704",
+            "title": "Unique features in the intracellular transport of typhoid toxin revealed by a genome-wide screen",
+            "relation": "IsSupplementTo",
+            "identifier_type": "DOI",
+            "is_linkout": true,
+            "link": "https://doi.org/10.1371/journal.ppat.1007704"
+          }
+        ],
+        "is_embargoed": false,
+        "embargo_date": null,
+        "embargo_type": null,
+        "embargo_title": "",
+        "embargo_reason": "",
+        "embargo_options": [],
+        "id": 7960499,
+        "title": "Common and distinct toxin transport pathways revealed by genome wide screens.",
+        "doi": "10.1371/journal.ppat.1007704.g006",
+        "handle": "",
+        "url": "https://api.figshare.com/v2/articles/7960499",
+        "published_date": "2019-04-05T17:30:43Z",
+        "thumb": "https://s3-eu-west-1.amazonaws.com/ppreviews-plos-725668748/14816276/thumb.png",
+        "defined_type": 1,
+        "defined_type_name": "figure",
+        "group_id": 113,
+        "url_private_api": "https://api.figshare.com/v2/account/articles/7960499",
+        "url_public_api": "https://api.figshare.com/v2/articles/7960499",
+        "url_private_html": "https://figshare.com/account/articles/7960499",
+        "url_public_html": "https://plos.figshare.com/articles/figure/Common_and_distinct_toxin_transport_pathways_revealed_by_genome_wide_screens_/7960499",
+        "timeline": {
+          "posted": "2019-04-05T17:30:43",
+          "firstOnline": "2019-04-17"
+        },
+        "resource_title": "Unique features in the intracellular transport of typhoid toxin revealed by a genome-wide screen",
+        "resource_doi": "10.1371/journal.ppat.1007704"
+      },
+      "receipt": {
+        "url": "https://api.figshare.com/v2/articles/7960499",
+        "method": "GET",
+        "query": null,
+        "retrieved_utc": "2026-11-02T20:26:23.408755+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "sha256": "7e4c2cf089fb1f1375bfc69db030ed74752a0bf09cc9f813bf4f03b958434f6e",
+        "bytes": 5659,
+        "file": "native/ce46e94f90f7ed628fe2be0458763f271a8d3465f87b6ada7837b3e4085bd30e.body"
+      }
+    }
+  ],
+  "issues": []
+}

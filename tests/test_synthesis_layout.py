@@ -11,18 +11,13 @@ class SynthesisLayoutTests(unittest.TestCase):
         self.assertEqual(out['headers'], ['Publication Index', 'Accession', 'Repository', 'Title', 'Description', 'Native Entity Level', 'Reported Data Type'])
         self.assertEqual(out['rows'][0][1], 'Accession')
 
-    def test_native_case_variants_are_consolidated_without_losing_values(self):
-        out = layout_sheet({'name': 'AE - Sample metadata', 'headers': ['Study accession', 'Age', 'age'], 'rows': [['S1', 'adult', '10']]})
-        self.assertEqual(out['headers'], ['ArrayExpress Study Accession', 'Age'])
-        self.assertEqual(out['rows'], [['S1', 'adult\n10']])
-        self.assertEqual(out['columns'][-1]['source_headers'], ['Age', 'age'])
-
-    def test_sdrf_removal_is_explicit_and_row_coordinates_move_last(self):
-        headers = ['Publication index', 'Study accession', 'Source name', 'Native data row', 'Native column', 'Native field', 'Original value', 'Part']
-        out = layout_sheet({'name': 'AE - SDRF metadata', 'headers': headers, 'rows': [headers]})
-        self.assertEqual(out['removed_headers'], ['Part'])
-        self.assertEqual(out['headers'][-2:], ['ArrayExpress Row', 'ArrayExpress Column'])
-        self.assertEqual(out['rows'][0][-2:], ['Native data row', 'Native column'])
+    def test_biostudies_native_indices_and_accessions_survive_layout(self):
+        headers=['Publication index','BioStudies Accession','BioStudies Index','File URL']
+        values=['PUB-0001','E-MTAB-1','BST-0001','https://example.org/file']
+        result=layout_sheet({'name':'BioStudies - Supplementary Files','headers':headers,'rows':[values]})
+        self.assertEqual(result['name'],'BioStudies Files')
+        self.assertEqual(result['headers'],['Publication Index','BioStudies Accession','BioStudies Index','File URL'])
+        self.assertEqual(result['rows'],[values])
 
     def test_geo_channel_suffix_is_only_removed_from_label(self):
         out = layout_sheet({'name': 'GEO - Sample Metadata', 'headers': ['GSM', 'organism_ch1'], 'rows': [['GSM1', 'human']]})

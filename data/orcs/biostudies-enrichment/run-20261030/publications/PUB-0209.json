@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0209",
+    "PMID": "33743211",
+    "DOI": "10.1016/j.cell.2021.03.012",
+    "PMCID": "PMC7951565",
+    "Title": "Discovery and functional interrogation of SARS-CoV-2 RNA-host protein interactions.",
+    "ORCS Publication ID": "516",
+    "ORCS Publication Index": "PUB-0209",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC7951565",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.cell.2021.03.012%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:23:04.670425+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "39edef5efeaae97d3cfd1fbd6249763465d88d38a67c7fa10eeac65f096883d0",
+        "body": "native/93bb0133a68ed8adea687886e91bb9664695d930f213dac961c23cdd66051335.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7951565",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233743211%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:23:10.699693+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "5717386687d64b213d34d7c963d1bfaab439c95da769669633cd5e2df5e0a284",
+        "body": "native/ff6f4263f96014a00f466995dd60b7b675734196f2122087bb8845990493766e.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7951565",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7951565%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:23:16.710452+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "7d4ae2a1f904d3df4511768939097333c62b03670fe2c8b32ebbeb67e3d12e96",
+        "body": "native/1b19dac3330152a85fe4969886d21ed7a346eeda4b520c8abeb71bb2a1fefd4c.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7951565",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Discovery+and+functional+interrogation+of+SARS-CoV-2+RNA-host+protein+interactions.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:23:22.708322+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "fd4ca36c14723f5b1b50a794dda2cd7fee95de10469c87c85f3c2d19b6f4e7b8",
+        "body": "native/daa1d9a8d91ecf5f84b839e743ef59906a89e2fa648bd48a18824cb419d400db.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.cell.2021.03.012%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233743211%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7951565%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Discovery+and+functional+interrogation+of+SARS-CoV-2+RNA-host+protein+interactions.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A33743211&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

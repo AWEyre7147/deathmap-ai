@@ -1,0 +1,348 @@
+{
+  "accession": "S-EPMC10134838",
+  "native": {
+    "accno": "S-EPMC10134838",
+    "attributes": [
+      {
+        "name": "DataSource",
+        "value": "Europe PMC"
+      },
+      {
+        "name": "Title",
+        "value": "Genome-Scale Analysis of Cellular Restriction Factors That Inhibit Transgene Expression from Adeno-Associated Virus Vectors."
+      },
+      {
+        "name": "ReleaseDate",
+        "value": "2023-01-01"
+      },
+      {
+        "name": "AttachTo",
+        "value": "EuropePMC"
+      }
+    ],
+    "section": {
+      "type": "Study",
+      "attributes": [
+        {
+          "name": "Title",
+          "value": "Genome-Scale Analysis of Cellular Restriction Factors That Inhibit Transgene Expression from Adeno-Associated Virus Vectors."
+        },
+        {
+          "name": "Abstract",
+          "value": "Adeno-associated virus (AAV) vectors are one of the leading platforms for gene delivery for the treatment of human genetic diseases, but the antiviral cellular mechanisms that interfere with optimal transgene expression are incompletely understood. Here, we performed two genome-scale CRISPR screens to identify cellular factors that restrict transgene expression from recombinant AAV vectors. Our screens revealed several components linked to DNA damage response, chromatin remodeling, and transcriptional regulation. Inactivation of the Fanconi anemia gene FANCA; the human silencing hub (HUSH)-associated methyltransferase SETDB1; and the gyrase, Hsp90, histidine kinase, and MutL (GHKL)-type ATPase MORC3 led to increased transgene expression. Moreover, SETDB1 and MORC3 knockout improved transgene levels of several AAV serotypes as well as other viral vectors, such as lentivirus and adenovirus. Finally, we demonstrated that the inhibition of FANCA, SETDB1, or MORC3 also enhanced transgene expression in human primary cells, suggesting that they could be physiologically relevant pathways that restrict AAV transgene levels in therapeutic settings. <b>IMPORTANCE</b> Recombinant AAV (rAAV) vectors have been successfully developed for the treatment of genetic diseases. The therapeutic strategy often involves the replacement of a defective gene by the expression of a functional copy from the rAAV vector genome. However, cells possess antiviral mechanisms that recognize and silence foreign DNA elements thereby limiting transgene expression and its therapeutic effect. Here, we utilize a functional genomics approach to uncover a comprehensive set of cellular restriction factors that inhibit rAAV-based transgene expression. Genetic inactivation of selected restriction factors increased rAAV transgene expression. Hence, modulation of identified restriction factors has the potential to enhance AAV gene replacement therapies."
+        }
+      ],
+      "files": [
+        {
+          "path": "jvi.01948-22-s0001.pdf",
+          "size": 772317,
+          "type": "file"
+        },
+        {
+          "path": "jvi.01948-22-s0002.xlsx",
+          "size": 1253033,
+          "type": "file"
+        },
+        {
+          "path": "jvi.01948-22-s0003.xlsx",
+          "size": 1116480,
+          "type": "file"
+        },
+        {
+          "path": "jvi.01948-22-s0004.xlsx",
+          "size": 52019,
+          "type": "file"
+        },
+        {
+          "path": "jvi.01948-22-s0005.xlsx",
+          "size": 10478,
+          "type": "file"
+        }
+      ],
+      "links": [
+        [
+          {
+            "url": "PRJNA852611",
+            "attributes": [
+              {
+                "name": "Type",
+                "value": "bioproject"
+              }
+            ]
+          }
+        ]
+      ],
+      "subsections": [
+        {
+          "type": "Publication",
+          "attributes": [
+            {
+              "name": "Journal",
+              "value": "Journal of virology"
+            },
+            {
+              "name": "Volume",
+              "value": "97(4)"
+            },
+            {
+              "name": "Pages",
+              "value": "e0194822"
+            },
+            {
+              "name": "Publication date",
+              "value": "2023 Apr"
+            }
+          ],
+          "links": [
+            [
+              {
+                "url": "10.1128/jvi.01948-22",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "DOI"
+                  }
+                ]
+              },
+              {
+                "url": "10.1128/jvi.01948-22",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "DOI"
+                  }
+                ]
+              },
+              {
+                "url": "PMC10134838",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "PMC"
+                  }
+                ]
+              },
+              {
+                "url": "36971544",
+                "attributes": [
+                  {
+                    "name": "Type",
+                    "value": "PMID"
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "accno": "a1",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Ngo AM"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "a2",
+          "type": "Author",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Puschnik AS"
+            },
+            {
+              "name": "ORCID",
+              "value": "0000-0002-9605-9458"
+            },
+            {
+              "name": "affiliation",
+              "value": "o1",
+              "reference": true
+            }
+          ]
+        },
+        {
+          "accno": "o1",
+          "type": "Organization",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "Chan Zuckerberg Biohub, San Francisco, California, USA"
+            }
+          ]
+        },
+        {
+          "type": "ExtractedLinks"
+        }
+      ]
+    },
+    "type": "submission"
+  },
+  "source": {
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-EPMC10134838",
+    "retrieved_utc": "2026-10-31T00:49:19.026207+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "62d1239ff4bd5b4b54b23a7708c1763572bcfcad233ac3d65e7720b6947093c8",
+    "body": "native/da0972d3bd9b0e383cc132774e48e0281aa8327eb0bc29aa322dc00e95c7710c.body"
+  },
+  "info": {
+    "columns": [
+      {
+        "name": "Name",
+        "title": "Name",
+        "visible": true,
+        "searchable": true,
+        "data": "Name",
+        "defaultContent": ""
+      },
+      {
+        "name": "Size",
+        "title": "Size",
+        "visible": true,
+        "searchable": false,
+        "data": "Size",
+        "defaultContent": ""
+      }
+    ],
+    "files": 5,
+    "httpLink": "https://ftp.ebi.ac.uk/pub/databases/biostudies/S-EPMC/838/S-EPMC10134838",
+    "ftpLink": "ftp://ftp.ebi.ac.uk/pub/databases/biostudies/S-EPMC/838/S-EPMC10134838",
+    "globusLink": "https://app.globus.org/file-manager?origin_id=47772002-3e5b-4fd3-b97c-18cee38d6df2&origin_path=/pub/databases/biostudies/S-EPMC/838/S-EPMC10134838",
+    "isPublic": true,
+    "relPath": "S-EPMC/838/S-EPMC10134838",
+    "hasZippedFolders": false,
+    "views": 0,
+    "released": 1672531200000,
+    "modified": 1781592353245,
+    "sections": [],
+    "sectionFileCounts": {}
+  },
+  "files": [
+    {
+      "path": "jvi.01948-22-s0001.pdf",
+      "size": 772317,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "jvi.01948-22-s0001.pdf",
+        "size": 772317,
+        "type": "file"
+      }
+    },
+    {
+      "path": "jvi.01948-22-s0002.xlsx",
+      "size": 1253033,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "jvi.01948-22-s0002.xlsx",
+        "size": 1253033,
+        "type": "file"
+      }
+    },
+    {
+      "path": "jvi.01948-22-s0003.xlsx",
+      "size": 1116480,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "jvi.01948-22-s0003.xlsx",
+        "size": 1116480,
+        "type": "file"
+      }
+    },
+    {
+      "path": "jvi.01948-22-s0004.xlsx",
+      "size": 52019,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "jvi.01948-22-s0004.xlsx",
+        "size": 52019,
+        "type": "file"
+      }
+    },
+    {
+      "path": "jvi.01948-22-s0005.xlsx",
+      "size": 10478,
+      "context": "Study",
+      "attributes": [],
+      "locator": "$.files",
+      "native": {
+        "path": "jvi.01948-22-s0005.xlsx",
+        "size": 10478,
+        "type": "file"
+      }
+    }
+  ],
+  "issues": [],
+  "info_source": {
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-EPMC10134838/info",
+    "retrieved_utc": "2026-10-31T00:49:25.017384+00:00",
+    "attempt": 1,
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "a2b748d840c1b526441e2af43bb2eaddc5abdbbc2b899a14ee4b3b46c5d33e91",
+    "body": "native/c3e9bb7090d48fadf32a0fe789f93e5cfa5f8d49285111279d83950b83e895f2.body"
+  },
+  "links": [
+    {
+      "url": "PRJNA852611",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "bioproject"
+        }
+      ]
+    },
+    {
+      "url": "10.1128/jvi.01948-22",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "DOI"
+        }
+      ]
+    },
+    {
+      "url": "10.1128/jvi.01948-22",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "DOI"
+        }
+      ]
+    },
+    {
+      "url": "PMC10134838",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "PMC"
+        }
+      ]
+    },
+    {
+      "url": "36971544",
+      "attributes": [
+        {
+          "name": "Type",
+          "value": "PMID"
+        }
+      ]
+    }
+  ]
+}

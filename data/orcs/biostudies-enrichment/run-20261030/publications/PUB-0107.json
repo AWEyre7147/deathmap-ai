@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0107",
+    "PMID": "31019072",
+    "DOI": "10.1073/pnas.1900867116",
+    "PMCID": "PMC6510995",
+    "Title": "Genome-wide CRISPR screen for Zika virus resistance in human neural cells.",
+    "ORCS Publication ID": "299",
+    "ORCS Publication Index": "PUB-0107",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC6510995",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1073%2Fpnas.1900867116%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:32:56.228300+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "95e72b77925a7a2d903b619d795fd1466703c7b0dd9db150dc07bd723de33c2d",
+        "body": "native/a1e1ba33577bc1a2c17be34bd9ff4063d8042dda880224d9e194632ee763c2ad.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6510995",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231019072%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:33:03.301640+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "aecbc57a9ec1ff0c546b0f2cb50a54d52c81c9a43df259d5d57e7a0b299b7fd7",
+        "body": "native/458c2e9febc2b6b2ba2a1255abfb2103b758306c5dc00b65f881cd7263173831.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6510995",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6510995%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:33:08.701969+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "ded9d8e6401b40afe2f3073e01d47918d02a53b6ca6fa0b102e35505642b83c2",
+        "body": "native/20e08b5997c63269fb1d4ee658601332c68f07076f2cd564df0e26aaf1608f82.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6510995",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+CRISPR+screen+for+Zika+virus+resistance+in+human+neural+cells.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-30T22:33:14.370536+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "5f9b3eabd037d0536b628c318b55b56021904201e9a8874ef021cc7b6ad23368",
+        "body": "native/cf9e5d2035b0c37fb9404544eecf2351e3a6e64e47d9d8731f94ea4e38d15120.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1073%2Fpnas.1900867116%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231019072%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6510995%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-wide+CRISPR+screen+for+Zika+virus+resistance+in+human+neural+cells.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A31019072&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

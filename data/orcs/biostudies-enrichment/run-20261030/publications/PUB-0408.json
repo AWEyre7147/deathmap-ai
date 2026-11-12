@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0408",
+    "PMID": "36693839",
+    "DOI": "10.1038/s41467-023-35802-y",
+    "PMCID": "PMC9873647",
+    "Title": "A CRISPR-Cas9 screen identifies EXO1 as a formaldehyde resistance gene.",
+    "ORCS Publication ID": "1160",
+    "ORCS Publication Index": "PUB-0408",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC9873647",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41467-023-35802-y%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:36:11.983021+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "dc9d822e47806f07744939d5dd9fca39437e21ef95b6322424c729bbe4db5742",
+        "body": "native/ec454377aaba612ad86f8bb3736b0a7636cc786da2682cd7b4dc4858b17d7120.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9873647",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236693839%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:36:18.023416+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "21f5a7b32422837514182fecb5f5bc0e957e1cd3a7bf816e25ab7213b0b4931c",
+        "body": "native/1e558f4ace3f963b9f8729e7d8fe534a323caba282ddb277a653eee2bee80b91.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9873647",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9873647%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:36:24.015567+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "fb00aecf1e7da06bb2bf393602d7a50da0b57fd5f5eb5c30ab76d17178a329c8",
+        "body": "native/77d96ab6fefec1a091b56ca0a1bcf8467ebd6efa4ea5c4f39c0421d8a0f8dd98.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9873647",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+CRISPR-Cas9+screen+identifies+EXO1+as+a+formaldehyde+resistance+gene.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:36:30.021818+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "a4f287bd72728345305b5197da7d3c17cb5f9023582fc5e8bf86c618588daed2",
+        "body": "native/b85038ebf7608f2cbe0f9ee18573fd842031fb967d50dd62d1eb6216fff3894e.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41467-023-35802-y%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236693839%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9873647%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22A+CRISPR-Cas9+screen+identifies+EXO1+as+a+formaldehyde+resistance+gene.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A36693839&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

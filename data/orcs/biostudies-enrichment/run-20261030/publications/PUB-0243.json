@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0243",
+    "PMID": "31618756",
+    "DOI": "10.1038/s41586-019-1667-4",
+    "PMCID": "PMC6858570",
+    "Title": "The ADP/ATP translocase drives mitophagy independent of nucleotide exchange.",
+    "ORCS Publication ID": "627",
+    "ORCS Publication Index": "PUB-0243",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC6858570",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41586-019-1667-4%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:25:22.833020+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "b955c8a386959d2c27c10d5fd9225db540d03c86be5579d27cde8ada90a82981",
+        "body": "native/de8f0698703e8b3ea5bcf4aa9569894a85307311775c072ea55c44328d5e7fe1.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6858570",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231618756%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:25:28.839080+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "c28ca8df08d7b808512a191eecb5472d7add4967c67ce90158536d2c1b4d0b92",
+        "body": "native/caf7a610f53038f60298886ef9d3e9bd5339aed366872f724f54cdae1ce8fce7.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6858570",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6858570%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:25:34.836930+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "c75240a2e373ff1b7da92e47a5078fcb0a968a50d106f3b3dee4c80d834c7cfb",
+        "body": "native/465ec096e38460caa1555d33ff2602c212e438059fbdfbfc3451d0333e916295.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6858570",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22The+ADP%2FATP+translocase+drives+mitophagy+independent+of+nucleotide+exchange.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:25:40.841148+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "c93c0218a3d28ea0f81c575a5959f31a997d1ba5672be8e8983873b9e421ce66",
+        "body": "native/12cde28d079348a52b3121cceaef4ac081dc2eed10306358d628a5c83e77b4c9.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41586-019-1667-4%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231618756%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6858570%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22The+ADP%2FATP+translocase+drives+mitophagy+independent+of+nucleotide+exchange.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A31618756&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0163",
+    "PMID": "31059574",
+    "DOI": "10.1093/toxsci/kfz037",
+    "PMCID": "PMC6484886",
+    "Title": "Genome-Wide CRISPR Screening Identifies the Tumor Suppressor Candidate OVCA2 As a Determinant of Tolerance to Acetaldehyde.",
+    "ORCS Publication ID": "409",
+    "ORCS Publication Index": "PUB-0163",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC6484886",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1093%2Ftoxsci%2Fkfz037%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:20:13.736454+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "50ac6afc685df71d38e98f0024b6136e8c09ee506070fdd0912f0155dc5a8352",
+        "body": "native/78fd2a0d624f22a151d490e2655ddbc5e63e568c91a02ffdaf78d751a03147d1.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6484886",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231059574%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:20:19.742586+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "0b98861ed88375581d905306e432b8fd4b1f99a7a4be9c878c9340f150b5e96c",
+        "body": "native/1a1890c7ac2837e777ae28b99283ca9dce606b5708fa50c1d4aaeb9f16832d16.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6484886",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6484886%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:20:25.745922+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "702e01de89352faa0de93c74d8fde105bbd5c70a5138605e1da690abe56e1398",
+        "body": "native/4d532f045e2cfd6191c1b87c35f78820b0bc18072f7fa791e7c7ac5564014285.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC6484886",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-Wide+CRISPR+Screening+Identifies+the+Tumor+Suppressor+Candidate+OVCA2+As+a+Determinant+of+Tolerance+to+Acetaldehyde.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:20:31.749403+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "5cf98d4cef1d02b673d358277db80b69f231fb21b745facdf81232006c97800c",
+        "body": "native/2fd82aeb84a30d83cf33736d2ebc17e76581c686ec98b5aac7796e6c5c7fd802.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1093%2Ftoxsci%2Fkfz037%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2231059574%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6484886%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Genome-Wide+CRISPR+Screening+Identifies+the+Tumor+Suppressor+Candidate+OVCA2+As+a+Determinant+of+Tolerance+to+Acetaldehyde.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A31059574&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

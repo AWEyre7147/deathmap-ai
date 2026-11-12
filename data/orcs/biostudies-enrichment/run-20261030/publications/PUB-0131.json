@@ -1,0 +1,42 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0131",
+    "PMID": "29921669",
+    "DOI": "10.1128/mbio.01003-18",
+    "PMCID": "PMC6016243",
+    "Title": "CRISPR Screen Reveals that EHEC's T3SS and Shiga Toxin Rely on Shared Host Factors for Infection.",
+    "ORCS Publication ID": "347",
+    "ORCS Publication Index": "PUB-0131",
+    "input_accessions": []
+  },
+  "observations": [],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1128%2Fmbio.01003-18%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2229921669%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC6016243%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22CRISPR+Screen+Reveals+that+EHEC%27s+T3SS+and+Shiga+Toxin+Rely+on+Shared+Host+Factors+for+Infection.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A29921669&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

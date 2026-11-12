@@ -1,0 +1,37 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0203",
+    "PMID": "30787439",
+    "DOI": "10.1038/s41586-019-0955-3",
+    "PMCID": null,
+    "Title": "MHC class II proteins mediate cross-species entry of bat influenza viruses.",
+    "ORCS Publication ID": "503",
+    "ORCS Publication Index": "PUB-0203",
+    "input_accessions": []
+  },
+  "observations": [],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1038%2Fs41586-019-0955-3%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2230787439%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22MHC+class+II+proteins+mediate+cross-species+entry+of+bat+influenza+viruses.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A30787439&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

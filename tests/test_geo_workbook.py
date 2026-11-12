@@ -8,7 +8,7 @@ import openpyxl
 from deathmap_ai.geo_workbook import export_workbook
 
 ROOT = Path(__file__).resolve().parents[1]
-TEMPLATE = ROOT / 'data/templates/GEO-Enrichment.xlsx'
+TEMPLATE = ROOT / 'data/templates/GEO-Enrichment-Template.xlsx'
 MANIFEST = TEMPLATE.with_suffix('.manifest.json')
 
 
@@ -31,14 +31,14 @@ class GeoWorkbookTests(unittest.TestCase):
         book = openpyxl.load_workbook(self.output)
         template = openpyxl.load_workbook(TEMPLATE)
         try:
-            self.assertIn(book['Series Records']['L2'].value, (None, ''))
-            headers = [c.value for c in book['Sample Metadata'][1]]
-            scan = book['Sample Metadata'].cell(2, headers.index('Scan Protocol') + 1)
+            self.assertEqual(book['Series']['L2'].value, 1)
+            headers = [c.value for c in book['Samples'][1]]
+            scan = book['Samples'].cell(2, headers.index('Scan Protocol') + 1)
             self.assertEqual(scan.value, '=literal metadata')
             self.assertEqual(scan.data_type, 's')
-            self.assertEqual(copy(book['Sample Metadata']['A2'].font), copy(template['Sample Metadata']['A2'].font))
-            self.assertIsNone(book['Sample Metadata'].row_dimensions[2].height)
-            self.assertEqual(receipt['sheet_rows']['Sample Metadata'], 1)
+            self.assertEqual(copy(book['Samples']['A2'].font), copy(template['Samples']['A2'].font))
+            self.assertIsNone(book['Samples'].row_dimensions[2].height)
+            self.assertEqual(receipt['sheet_rows']['Samples'], 1)
         finally:
             book.close()
             template.close()

@@ -13,9 +13,6 @@ dependencies = ["openpyxl>=3.1,<4"]
 dev = ["pytest>=8"]
 
 [project.scripts]
-deathmap-orcs = "deathmap_ai.cli:main"
-deathmap-search-orcs = "deathmap_ai.orcs_crispr_pilot:main"
-deathmap-export-excel = "deathmap_ai.excel_export:main"
 deathmap-resolve-publication = "deathmap_ai.publication_identifiers:main"
 deathmap-enrich-geo = "deathmap_ai.geo_enrichment:main"
 deathmap-enrich-geo-collection = "deathmap_ai.geo_collection:main"
@@ -26,7 +23,15 @@ deathmap-enrichment-stage = "deathmap_ai.enrichment_commands:main"
 
 deathmap-export-enrichment = "deathmap_ai.enrichment_export:main"
 
-deathmap-enrich-pmc-supplementals = "deathmap_ai.pmc_supplemental_collection:main"
+deathmap-synthesize-enrichment = "deathmap_ai.enrichment_consolidation:main"
+
+deathmap-enrich-pmc = "deathmap_ai.pmc_supplemental_collection:main"
+
+deathmap-enrich-biostudies = "deathmap_ai.biostudies_collection:main"
+
+deathmap-enrich-mendeley-data = "deathmap_ai.mendeley_title_enrichment:main"
+
+deathmap-enrich-figshare = "deathmap_ai.figshare_enrichment:main"
 
 [tool.setuptools.package-data]
 deathmap_ai = ["reference_schema.json"]

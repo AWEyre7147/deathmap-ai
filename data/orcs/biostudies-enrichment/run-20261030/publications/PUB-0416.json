@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0416",
+    "PMID": "36920967",
+    "DOI": "10.1371/journal.ppat.1011232",
+    "PMCID": "PMC10016662",
+    "Title": "Glucosylceramide is essential for Heartland and Dabie bandavirus glycoprotein-induced membrane fusion.",
+    "ORCS Publication ID": "1170",
+    "ORCS Publication Index": "PUB-0416",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC10016662",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1371%2Fjournal.ppat.1011232%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:36:45.017558+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "5e582668ddfc991be54165f1021533d302b64e81f63c28f7581afef5cebafc28",
+        "body": "native/b319622e9097e97729bd8b71355ed9949373a9de631003d5152c5ca798a8f126.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC10016662",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236920967%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:36:51.018441+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "802c37295fff6e8b42fff7cd4c43f6409cb8a2a705605291a569a0aa51d34706",
+        "body": "native/227caf00e2b8a88ca4367649e1b3167b2e676cb04ebba4a4216221ae75b8a851.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC10016662",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC10016662%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:36:56.303186+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "6930568171ca3e0eaaaa7c7773288747dc229d75696ec74214442299ec064e94",
+        "body": "native/9ddf4258d7a284eb17edb6512c897d0765c631edbf2a46fdc98d36b88db61390.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC10016662",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Glucosylceramide+is+essential+for+Heartland+and+Dabie+bandavirus+glycoprotein-induced+membrane+fusion.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:37:01.556098+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "ecab8efd730bc82a3031afe97ca25c613b9ff99d0f248486fe14d1161c8cf501",
+        "body": "native/e938865115d3e92b873d14927e405661ac0123410775aa0a25931dae7980fa07.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1371%2Fjournal.ppat.1011232%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236920967%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC10016662%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Glucosylceramide+is+essential+for+Heartland+and+Dabie+bandavirus+glycoprotein-induced+membrane+fusion.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A36920967&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

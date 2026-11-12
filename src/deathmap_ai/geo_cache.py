@@ -22,6 +22,7 @@ class _SavedNativeCache:
         paths = sorted((root / 'data/orcs/pubmed-enrichment-source').glob('*/requests.json'))
         # Curated sources remain reusable after exploratory run directories are archived.
         paths += sorted((root / 'data/orcs/geo-enrichment-source').glob('**/requests.json'))
+        paths += sorted((root / 'data/orcs/geo-enrichment').glob('**/requests.json'))
         paths += sorted((root / 'outputs/geo').glob('**/requests.json'))
         paths += [p for cache in cache_roots for p in Path(cache).rglob('requests.json')]
         for receipts in paths:

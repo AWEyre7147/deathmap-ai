@@ -1,0 +1,37 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0022",
+    "PMID": "28445693",
+    "DOI": "10.1016/j.jbiotec.2017.04.017",
+    "PMCID": null,
+    "Title": "High-content analysis screening for cell cycle regulators using arrayed synthetic crRNA libraries.",
+    "ORCS Publication ID": "20",
+    "ORCS Publication Index": "PUB-0022",
+    "input_accessions": []
+  },
+  "observations": [],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.jbiotec.2017.04.017%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2228445693%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22High-content+analysis+screening+for+cell+cycle+regulators+using+arrayed+synthetic+crRNA+libraries.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A28445693&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

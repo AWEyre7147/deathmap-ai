@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0299",
+    "PMID": "36228039",
+    "DOI": "10.1371/journal.pbio.3001805",
+    "PMCID": "PMC9595563",
+    "Title": "LRRC15 inhibits SARS-CoV-2 cellular entry in trans.",
+    "ORCS Publication ID": "782",
+    "ORCS Publication Index": "PUB-0299",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC9595563",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1371%2Fjournal.pbio.3001805%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:29:04.898639+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "2570c429e82f27df11a36cbee73032d24cf58432a135a1539114b0b31737a7e0",
+        "body": "native/53b4bf1ae7ad1f407b66b051cc393bc2d20a5369a0ced89912737b4a6161fb7c.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9595563",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236228039%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:29:10.912296+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "b8e3c743cf61ecfff2073f7f8cf3a8484bc0e155b17b7750a7901303baae3305",
+        "body": "native/505e453b05f641ed18f9a77229b1acfa518def63d6cf51e46bac3413b22728d6.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9595563",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9595563%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:29:16.932603+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "8c20c074eb58a2f36ba7efe49a70ad0415959ed33cd176b1e5a074daa4848c75",
+        "body": "native/0ca2cdf81c377e27319fe187500abcf4d867591940938544cc25394015d99b59.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC9595563",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22LRRC15+inhibits+SARS-CoV-2+cellular+entry+in+trans.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:29:22.921697+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "7165439d0eb3625a5aaa1057ed7e7a613f23de24a47e90b522b40e7aa1fe4df6",
+        "body": "native/73ab5b70b2e90dad5ce8d27d567edf36250adbea9725132f4f78242221db5533.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1371%2Fjournal.pbio.3001805%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2236228039%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC9595563%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22LRRC15+inhibits+SARS-CoV-2+cellular+entry+in+trans.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A36228039&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

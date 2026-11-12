@@ -1,0 +1,107 @@
+{
+  "publication": {
+    "Publication Index": "PUB-0186",
+    "PMID": "33157015",
+    "DOI": "10.1016/j.molcel.2020.10.022",
+    "PMCID": "PMC7654708",
+    "Title": "Zmat3 Is a Key Splicing Regulator in the p53 Tumor Suppression Program.",
+    "ORCS Publication ID": "465",
+    "ORCS Publication Index": "PUB-0186",
+    "input_accessions": []
+  },
+  "observations": [
+    {
+      "accession": "S-EPMC7654708",
+      "route": "doi",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.molcel.2020.10.022%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:21:35.593190+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "8951e2399aff17b1bff4dca7dbbdc67799c074d5a4853fc7cc7e5a4f6f6b9bf2",
+        "body": "native/5969eb517aabb01d9274b31cdc5a9f7ee2530182291fa2cc13250d99b87282fb.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7654708",
+      "route": "pmid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233157015%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:21:41.589913+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "07c884c33df817d8c211b4335c5f975506727e796ceb61ab0023f05d64afa1ce",
+        "body": "native/baa121d091bfcc2a22e939fd986f5268f47c5dd8afaa9cff343b34db31ac0179.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7654708",
+      "route": "pmcid",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7654708%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:21:47.590792+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "688527b9f1fa716512bb396bc4825f9ae8da5c24aa86ab1b8e8b957f37f94b1b",
+        "body": "native/1f093c8157882648bfe0cdb4ed88651accdfda025cc5bdf3240badc96cf37658.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    },
+    {
+      "accession": "S-EPMC7654708",
+      "route": "complete_title",
+      "receipt": {
+        "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Zmat3+Is+a+Key+Splicing+Regulator+in+the+p53+Tumor+Suppression+Program.%22&pagination=cursor&pageSize=100",
+        "retrieved_utc": "2026-10-31T00:21:53.600895+00:00",
+        "attempt": 1,
+        "http_status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "sha256": "8fffde9bcdaae4a18ba32fca99e9665adc394a8c916912cd98832cc0ed884e0d",
+        "body": "native/d52ef35ef52baae504ee8aa4536a1e1c11a2187da152e11159a2abb0ef7681db.body"
+      },
+      "locator": "$.hits[0]",
+      "page": 1,
+      "evidence_kind": "native_search_candidate"
+    }
+  ],
+  "routes": [
+    {
+      "name": "doi",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2210.1016%2Fj.molcel.2020.10.022%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%2233157015%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "pmcid",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22PMC7654708%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "complete_title",
+      "url": "https://www.ebi.ac.uk/biostudies/api/v1/search?query=%22Zmat3+Is+a+Key+Splicing+Regulator+in+the+p53+Tumor+Suppression+Program.%22&pagination=cursor&pageSize=100",
+      "outcome": "complete"
+    },
+    {
+      "name": "europepmc_annotations",
+      "url": "https://www.ebi.ac.uk/europepmc/annotations_api/annotationsByArticleIds?articleIds=MED%3A33157015&type=Accession+Numbers&format=JSON",
+      "outcome": "complete"
+    }
+  ],
+  "issues": [],
+  "outcome": "complete"
+}

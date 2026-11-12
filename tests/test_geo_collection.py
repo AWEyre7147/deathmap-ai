@@ -13,17 +13,49 @@ from deathmap_ai.geo_cache import _SavedNativeCache
 
 
 class GeoCollectionTests(unittest.TestCase):
+    def test_cached_selection_copies_native_parent_into_new_run(self):
+        from types import SimpleNamespace
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            index = root / 'index.json'
+            index.write_text('[]')
+            cache = root / 'data/orcs/geo-enrichment/fixture'
+            prior = cache / 'publications/1'
+            (prior / 'raw').mkdir(parents=True)
+            (cache / 'saved-sources').mkdir()
+            parent_body, selected = b'native source evidence', b'selected metadata'
+            digest = hashlib.sha256(parent_body).hexdigest()
+            relative = 'saved-sources/' + digest + '.response'
+            (cache / relative).write_bytes(parent_body)
+            (prior / 'raw/selected.response').write_bytes(selected)
+            url = 'https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE1&targ=gsm'
+            (prior / 'requests.json').write_text(json.dumps([{'url':url, 'file':'raw/selected.response',
+                'sha256':hashlib.sha256(selected).hexdigest(), 'parents':[{'file':relative, 'sha256':digest}]}]))
+            collection = _Collection(index, root / 'run', root)
+            collection._cache_inventory()
+            target = root / 'run/samples/raw'
+            target.mkdir(parents=True)
+            transport = SimpleNamespace(folder=target, receipts=[])
+            collection.original_get = lambda *args: self.fail('Cached metadata must not use network')
+            body, _ = collection._get(transport, url)
+            self.assertEqual(body, selected)
+            copied = root / 'run' / transport.receipts[-1]['parents'][0]['file']
+            self.assertEqual(copied.read_bytes(), parent_body)
+            copied.write_bytes(b'corrupt')
+            with self.assertRaisesRegex(ValueError, 'parent hash mismatch'):
+                collection._get(transport, url)
+
     def test_complete_command_with_offline_routes_and_export_resume(self):
         """Exercise the default pipeline path without contacting live repositories."""
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
             index = root / 'data/orcs/publication-index.json'
             index.parent.mkdir(parents=True)
-            index.write_text(json.dumps([{'PMID': '1', 'PUBLICATION_ID': '14', 'TITLE': 'Example'}]))
+            index.write_text(json.dumps([{'PMID': '1', 'PUBLICATION_ID': '14', 'TITLE': 'Example', 'Publication Index': 'PUB-0001'}]))
             templates = root / 'data/templates'
             templates.mkdir()
             actual = Path(__file__).resolve().parents[1] / 'data/templates'
-            for name in ('GEO-Enrichment.xlsx', 'GEO-Enrichment.manifest.json'):
+            for name in ('GEO-Enrichment-Template.xlsx', 'GEO-Enrichment-Template.manifest.json'):
                 shutil.copyfile(actual / name, templates / name)
 
             def response(collection, transport, url):
@@ -60,8 +92,15 @@ class GeoCollectionTests(unittest.TestCase):
 
             with patch.object(_Collection, '_get', response):
                 receipt = enrich_collection(index, root / 'run', repository_root=root)
-            self.assertEqual(receipt['sheet_rows']['Series Records'], 2)
-            self.assertEqual(receipt['sheet_rows']['Sample Metadata'], 2)
+            self.assertEqual(receipt['sheet_rows']['Series'], 2)
+            self.assertEqual(receipt['sheet_rows']['Samples'], 2)
+            import openpyxl
+            book = openpyxl.load_workbook(root / 'run/GEO-Enrichment.xlsx', read_only=True)
+            sample_rows = list(book['Samples'].values)[1:]
+            self.assertEqual({r[0] for r in sample_rows}, {'PUB-0001'})
+            self.assertEqual(len({r[2] for r in sample_rows}), 1)
+            self.assertEqual(len({r[1] for r in sample_rows}), 2)
+            book.close()
             resumed = enrich_collection(index, root / 'run', repository_root=root, phase='export')
             self.assertEqual(receipt, resumed)
 
