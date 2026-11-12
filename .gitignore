@@ -49,17 +49,6 @@ Thumbs.db
 ~$*.xlsx
 ~$*.xlsm
 
-# Restored copies of bundled native evidence are not duplicate Git payloads.
-/data/orcs/enrichment-runs/20261018/pubmed/*
-/data/orcs/enrichment-runs/20261018/geo/*
-/data/orcs/enrichment-runs/20261018/arrayexpress/*
-/data/orcs/enrichment-runs/20261018/ena/*
-!/data/orcs/enrichment-runs/20261018/*/*.xlsx
-!/data/orcs/enrichment-runs/20261018/*/*.manifest.json
-!/data/orcs/enrichment-runs/20261018/*/stage-receipt.json
-
-# PMC's verified source bundle replaces loose response/checkpoint copies.
-/data/orcs/pmc-enrichment/20261028/*
-!/data/orcs/pmc-enrichment/20261028/source-material.zip
-!/data/orcs/pmc-enrichment/20261028/source-material.manifest.json
-!/data/orcs/pmc-enrichment/20261028/README.md
+# Keep ORCS deliverables at the top level; retain source-run workspaces locally.
+/data/orcs/*/
+!/data/orcs/raw/

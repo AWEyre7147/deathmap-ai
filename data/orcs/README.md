@@ -62,3 +62,13 @@ logs and historical cleanup archives have been removed from this repository;
 recovery material is external and is not a runtime dependency.
 
 Shared enrichment JSON uses gzip. See the [compression options](../../docs/enrichment-synthesis.md#compressed-enrichment-json) for `--compress-json` and reader support.
+
+## Local source workspaces
+
+All subfolders except `raw/` are excluded from Git. They remain on disk as
+source evidence, response caches and checkpoints for reproducing or diagnosing
+enrichment runs. Top-level workbooks, compressed canonical JSON, manifests and
+reference catalogs remain versioned. Normal reuse of those canonical outputs
+does not require the source-run folders; an exact source-level rebuild may.
+A fresh clone does not include the ignored evidence, and manifest paths into
+those folders refer to locally retained material.
