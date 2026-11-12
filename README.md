@@ -33,7 +33,7 @@ dataset contains a qualifying screen. Missing/conflicting links remain evidence.
 ## Synthesis and planned evaluation
 
 Offline synthesis combines saved PubMed, PMC, GEO, ENA, BioStudies, Figshare,
-Mendeley Data and Library metadata through the owner's registered 28-sheet
+Mendeley Data and Library metadata through the registered 28-sheet
 template. The final workbook is `data/orcs/Enrichment-Synthesis.xlsx`, accompanied
 by `enrichment-synthesis.json.gz` and `Enrichment-Synthesis.manifest.json`.
 See the [synthesis guide](docs/enrichment-synthesis.md) for reproducible usage and
