@@ -35,7 +35,7 @@ class ConsolidationTests(unittest.TestCase):
             self.assertEqual(book['GEO Series Records']['I2'].alignment,
                              owner._alignments[owner._cell_styles[expected_style].alignmentId])
             owner.close()
-            self.assertEqual(book['BioStudies Publication Records']['E1'].value, 'Publicatiuon Date')
+            self.assertEqual(book['BioStudies Publication Records']['E1'].value, 'Publication Date')
             self.assertEqual(book['BioStudies Publication Records']['E2'].value, '2022')
             book.close()
 

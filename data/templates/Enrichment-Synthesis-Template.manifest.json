@@ -1,6 +1,6 @@
 {
   "schema_version": "enrichment-template/1.0",
-  "sha256": "793e7d4ff84392f093d90464d146cdbae942fd2fbd668be525f691682bc6554d",
+  "sha256": "dd2c58dc1b5e71dda9b5b1f8c59568117386ef5ab25dbb4ae00a2e4d0674a098",
   "template": "data/templates/Enrichment-Synthesis-Template.xlsx",
   "projection": "enrichment-consolidation/1",
   "sheets": [
@@ -971,7 +971,7 @@
         "BioStudies Accession",
         "Title",
         "Journal",
-        "Publicatiuon Date",
+        "Publication Date",
         "Volume",
         "Pages",
         "Collection",
@@ -1007,7 +1007,7 @@
           "source_key": "Journal"
         },
         {
-          "header": "Publicatiuon Date",
+          "header": "Publication Date",
           "source_key": "Publication Date"
         },
         {
@@ -1636,9 +1636,20 @@
     }
   ],
   "notes": [
-    "Owner workbook preserved byte-for-byte. Header spelling and spacing retained through explicit source mappings.",
+    "Derived from owner-edited ORCS synthesis; header styles, column widths, workbook styles and sheet properties retained. All body records and unused shared strings removed.",
     "Master counts use distinct saved resource identifiers; PubMed Records is a retrieved publication indicator (0 or 1).",
     "Page Size maps to returned page size. Missing rows do not establish absence."
   ],
-  "header_policy": "Preserve owner labels; use explicit source_key aliases"
+  "header_policy": "Preserve owner labels; use explicit source_key aliases",
+  "source_workbook": "data/orcs/Enrichment-Synthesis.xlsx",
+  "source_workbook_sha256": "6ba6b51778b68fb025474447763079284fa70047464a421de49d429122fb035d",
+  "refreshed_utc": "2026-11-13T17:21:38.624186+00:00",
+  "header_changes": [
+    {
+      "sheet": "BioStudies Publication Records",
+      "column": 5,
+      "old": "Publicatiuon Date",
+      "new": "Publication Date"
+    }
+  ]
 }

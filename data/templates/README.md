@@ -16,8 +16,10 @@ overwritten. Templates do not trigger retrieval.
 
 `Enrichment-Synthesis-Template.xlsx` is the registered 28-sheet, eight-source
 synthesis template supplied by the owner. Use `enrichment_consolidation` with
-this template. Its exact spelling, layout and workbook bytes are preserved;
-the manifest maps renamed fields and header typos to the source keys.
+this template. It is derived from the owner-edited ORCS output, retaining its
+column widths, header colors, styles and corrected Publication Date label.
+Publication rows and unused shared strings are removed. The manifest maps
+owner labels to canonical source keys.
 The legacy four-source registration is archived under
 `history/synthesis-four-source/` for historical projections.
 The old ORCS search/evidence output templates and standalone publisher template
